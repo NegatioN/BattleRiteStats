@@ -19,9 +19,9 @@ user_dict = {}
 
 def insert_battlerite(brite, user):
     if 'battlerites' in user:
-        user['battlerites'].append(brite)
+        user['battlerites'].add(brite)
     else:
-        user['battlerites'] = [brite]
+        user['battlerites'] = {brite}
 
 
 for cursor in json.loads(raw):
@@ -37,14 +37,28 @@ for cursor in json.loads(raw):
     except:
         pass
 
-def print_brites(userItems):
-    c = characters[char_id_lookup[userItems['character']]]
-    print("\n")
-    print(locale_lookup[c['name']])
+def print_brites(char_id, brites):
+    c = characters[char_id_lookup[char_id]]
     brite_lookup = {x['typeID']: i for i, x in enumerate(c['battlerites'])}
-    for b in userItems['battlerites']:
+    name = locale_lookup[c['name']]
+    brite_names = []
+    for b in brites:
         brite = c['battlerites'][brite_lookup[b]]
-        print(locale_lookup[brite['name']])
+        brite_names.append(locale_lookup[brite['name']])
 
-for n, it in user_dict.items():
-    print_brites(it)
+    print("{}: {}".format(name, brite_names))
+
+from collections import defaultdict
+
+brites_count = defaultdict(lambda: [0, ""])
+
+for k,x in user_dict.items():
+    brites_count[frozenset(x['battlerites'])][1] = x['character']
+    brites_count[frozenset(x['battlerites'])][0] += 1
+
+import operator
+def sorted_by_count(x):
+    return sorted(x.items(), key=operator.itemgetter(1))
+for x in sorted_by_count(brites_count):
+    print_brites(char_id=x[1][1], brites=x[0])
+    print(x[1][0])
