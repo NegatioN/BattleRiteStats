@@ -1,9 +1,8 @@
 import json
-from pprint import pprint
 
-with open('test_telemetry.json', 'rb') as telemetry_json:
+with open('assets/test_telemetry.json', 'rb') as telemetry_json:
     raw       = telemetry_json.read()
-with open('gameplay.json', 'rb') as gplay:
+with open('assets/gameplay.json', 'rb') as gplay:
     gplay       = gplay.read()
 
 def load_locale(path):
@@ -12,7 +11,7 @@ def load_locale(path):
         return {x[0]: x[1] for x in data}
 
 
-locale_lookup = load_locale('locale.loc')
+locale_lookup = load_locale('assets/locale.loc')
 characters = json.loads(gplay)['characters']
 char_id_lookup = {x['typeID']: i for i,x in enumerate(characters)}
 user_dict = {}
@@ -37,16 +36,12 @@ for cursor in json.loads(raw):
     except:
         pass
 
-def print_brites(char_id, brites):
-    c = characters[char_id_lookup[char_id]]
-    brite_lookup = {x['typeID']: i for i, x in enumerate(c['battlerites'])}
-    name = locale_lookup[c['name']]
+def make_brite_names(brite_lookup, brites):
     brite_names = []
     for b in brites:
         brite = c['battlerites'][brite_lookup[b]]
         brite_names.append(locale_lookup[brite['name']])
-
-    print("{}: {}".format(name, brite_names))
+    return brite_names
 
 from collections import defaultdict
 
@@ -59,6 +54,16 @@ for k,x in user_dict.items():
 import operator
 def sorted_by_count(x):
     return sorted(x.items(), key=operator.itemgetter(1))
-for x in sorted_by_count(brites_count):
-    print_brites(char_id=x[1][1], brites=x[0])
-    print(x[1][0])
+
+hero_builds = defaultdict(lambda: [])
+for k,v in sorted_by_count(brites_count):
+    hero_builds[v[1]].append(k)
+
+for hero_id, builds in hero_builds.items():
+    c = characters[char_id_lookup[hero_id]]
+    brite_lookup = {x['typeID']: i for i, x in enumerate(c['battlerites'])}
+    name = locale_lookup[c['name']]
+    for x in builds:
+        brite_names = make_brite_names(brite_lookup, x)
+        print("{}: {}".format(name, brite_names))
+
