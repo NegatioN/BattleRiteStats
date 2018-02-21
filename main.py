@@ -1,16 +1,12 @@
 from requests import Request, Session
+import requests
 from urllib.parse import quote
-from pprint import pprint
-import pdb
 import json
 
 from furrycorn import config, model, toolkit
 from furrycorn.location import mk_origin, mk_path, mk_query, to_url
 from furrycorn.toolkit.document import Data
 
-
-# Set the BATTLERITE_PLAYER_NAME environment variable to a list of
-# comma-separated names to get information from the API.
 player_names     = "NegatioNZor"
 
 origin  = mk_origin('https', 'api.dc01.gamelockerapp.com', '/shards/global')
@@ -19,9 +15,7 @@ headers = { 'Accept': 'application/vnd.api+json',
 
 
 def get_content(url):
-    request = Request('GET', url, headers=headers).prepare()
-    session = Session()
-    response = session.send(request)
+    response = requests.get(url, headers=headers)
     if response.status_code == 200:
         return json.loads(response.content)['data']
     else:
@@ -29,8 +23,7 @@ def get_content(url):
 
 def get_document(url):
     request = Request('GET', url, headers=headers).prepare()
-    session = Session()
-    response = session.send(request)
+    response = Session().send(request)
     root     = model.build(response.json(), config.mk(origin, api_key))
     return toolkit.process(root)
 
@@ -47,34 +40,24 @@ def get_player_data(player_id):
     else:
         return None
 
-def get_match_info(player_id):
+def get_match_info(player_id, offset=0):
     player_ids = list(map(lambda n: quote(n), [player_id]))
-    url = to_url(origin, mk_path('/matches'), mk_query({ 'filter[playerIds]': player_ids }))
+    url = to_url(origin, mk_path('/matches'), mk_query({ 'filter[playerIds]': player_ids, 'page[offset]': offset}))
     document = get_document(url)
+    telemetry_links = []
     if type(document) is Data:
         for match in document:
-            print('match id "{0}"'.format(match.resource_id.r_id))
-
-            # We know before the 'assets' has one entry--the telmetry. But...
-            # madglory exposes this as 'to many', so we dig.
             for asset in match.traverse('assets'):
                 if asset.maybe_dict_attrs.get('name', None):
                     url = asset.maybe_dict_attrs['URL']
-                    print('  telemetry at: {0}'.format(url))
+                    telemetry_links.append(url)
+    return telemetry_links
 
-            # Let's see how many rounds happened this match:
-            round_ct = len(match.traverse('rounds'))
-            print('  round count: {0}'.format(round_ct))
-
-            # And let's peek at the first roster's attributes:
-            first_roster = match.traverse('rosters')[0]
-            print('  roster #1 attrs: {0}'.format(first_roster.maybe_dict_attrs))
 
 def get_player_match(player_id):
     player_ids = list(map(lambda n: quote(n), [player_id]))
     url = to_url(origin, mk_path('/matches'), mk_query({ 'filter[playerIds]': player_ids }))
-    content = get_content(url)
-    pdb.set_trace()
+    return get_content(url)
 
 def get_player(player_name):
     player_names = list(map(lambda n: quote(n), [player_name]))
@@ -84,6 +67,42 @@ def get_player(player_name):
 
 #pprint(get_player_data(player_names))
 #get_match_info(2)
-#get_player("NegatioNZor")
-get_player_match("957306926604132352")
+#print(get_player("Averse"))
+#get_player_match("957306926604132352")
+count = 10
+max_count = count + 10
+step = 5
+telemetry_links = []
+while count < max_count:
+    print(count)
+    t_links = get_match_info("776450744541908992", offset=step*count)
+    telemetry_links.append(t_links)
+    count += 1
+
+telemetry_links = [y for x in telemetry_links for y in x]
+
+import os
+
+def get_player_telemetry(telemetry_links):
+    telemetry = []
+    for url in telemetry_links:
+        print('getting {}'.format(url))
+        try:
+            resp = requests.get(url)
+            if resp.status_code == 200:
+                telemetry.append(json.loads(resp.content))
+        except:
+            print('something bad happened')
+    fname = '{}_telemetry.json'.format('averse')
+    if os.path.isfile(fname):
+        with open(fname, "r") as f:
+            content = json.load(f)
+
+        telemetry.extend(content)
+        print("Extended content")
+
+    with open(fname, 'w+') as f:
+        json.dump(telemetry, f)
+
+get_player_telemetry(telemetry_links)
 
