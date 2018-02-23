@@ -3,14 +3,14 @@ from urllib.parse import quote
 import json
 from ratelimiter import RateLimiter
 
-from furrycorn.location import mk_origin, mk_path, mk_query, to_url
 from helpers import chunks, get_content, pickle_info, get_telemtry
 from collections import defaultdict
+from furrycorn.location import mk_origin, mk_path, mk_query, to_url
 
 origin = mk_origin('https', 'api.dc01.gamelockerapp.com', '/shards/global')
 headers = {'Accept': 'application/vnd.api+json',
            'Authorization': 'Bearer {0}'.format(api_key)}
-rate_limiter = RateLimiter(max_calls=9, period=60)
+rate_limiter = RateLimiter(max_calls=10, period=61)
 created_after_date = '2018-02-15T08:00:00Z'
 
 
@@ -22,13 +22,13 @@ def get_match_info(player_id, offset=0, ranked=True):
     url = to_url(origin, mk_path('/matches'), mk_query(query_params))
     return get_telemtry(url, headers)
 
-
 def get_player(player_names):
     if type(player_names) != list:
         player_names = [player_names]
     player_names = list(map(lambda n: quote(n), player_names))
     url = to_url(origin, mk_path('/players'), mk_query({'filter[playerNames]': player_names}))
-    return get_content(url, headers)
+    with rate_limiter:
+        return get_content(url, headers)
 
 def get_player_ids(player_names):
     p_data = []
@@ -41,12 +41,16 @@ def get_player_telemetry(player_id, max_count=20):
     telemetry_links = []
     while count < max_count:
         with rate_limiter:
-            print(count)
-            t_links = get_match_info(player_id, offset=step * count)
-            if len(t_links) > 0:
-                telemetry_links.append(t_links)
-                count += 1
-            else:
+            try:
+                print(count)
+                t_links = get_match_info(player_id, offset=step * count)
+                if len(t_links) > 0:
+                    telemetry_links.append(t_links)
+                    count += 1
+                else:
+                    print('Most likely no more pages of matches which meet requirements for player={}'.format(player_id))
+                    break
+            except:
                 print('Most likely no more pages of matches which meet requirements for player={}'.format(player_id))
                 break
 
@@ -79,7 +83,7 @@ def parse_battlerites(telemetry_entry):
             increment_build(frozenset(build), character, userid, match_mode)
 
 def increment_build(brite_fset, character, player_id, match_mode):
-    character_builds[character][match_mode][brite_fset] += 1
+    character_builds[match_mode][character][brite_fset] += 1
     player_builds[player_id][character][brite_fset] += 1
 
 
@@ -94,11 +98,12 @@ def get_telemetry_data(url):
 
 
 if __name__ == "__main__":
-    player_names = ['Averse', 'Techzz', 'YourN1ghtmare-', 'Aldys', 'Bocajs', 'Hotbiscuit', 'Tonho', 'ProsteR18', 'MrHuDat', 'youtube.com/c/cr7dabaixada']
+    player_ids = {'1041', '779479758588243968', '776787878587011072', '132', '803650591871082496', '933', '3275', '786984970710310912', '821991447724175360', '885802503927644160', '1832', '781174824604164096', '289', '917233253176455168', '2106', '776043473915744256', '949654411112792064', '872272421724504064', '776122211131068416', '783003075697864704', '835837657555812352', '779862011638087680', '778293979656622080', '936282883222585344', '779117673312313344', '7854', '783445891691466752', '538', '778261434919424000', '777348984623730688', '825738634681528320', '778595379959717888', '131', '779528393816432640', '3511', '776666749549547520', '776450744541908992', '50', '804919733530013696', '777364499022876672', '3891', '948755982438277120', '2012', '927923317564911616', '776384000058068992', '776040988803207168', '783149438397984768', '777039017609924608', '778348927501082624', '781074452443181056'}
     all_telemetries = set()
 
     # For some reason this function returns duplicates ¯\_(ツ)_/¯
-    for player_id in get_player_ids(player_names):
+    #for player_id in get_player_ids(player_names):
+    for player_id in player_ids:
         telems = get_player_telemetry(player_id)
         all_telemetries = all_telemetries.union(telems)
 

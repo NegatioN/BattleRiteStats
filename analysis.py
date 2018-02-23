@@ -2,11 +2,13 @@ from helpers import load_pickle, chunks, get_content
 from furrycorn.location import mk_origin, mk_path, mk_query, to_url
 import json
 from ratelimiter import RateLimiter
+import operator
+from collections import defaultdict
 
 origin = mk_origin('https', 'api.dc01.gamelockerapp.com', '/shards/global')
 headers = {'Accept': 'application/vnd.api+json',
            'Authorization': 'Bearer {0}'.format(api_key)}
-rate_limiter = RateLimiter(max_calls=49, period=60)
+rate_limiter = RateLimiter(max_calls=10, period=61)
 
 
 def get_player(player_ids):
@@ -38,23 +40,46 @@ char_id_lookup = {x['typeID']: i for i,x in enumerate(characters)}
 
 player_data = load_pickle('player_builds.p')
 character_builds = load_pickle('character_builds.p')
-player_lookup = make_player_lookup([str(x) for x in player_data.keys()])
+#player_lookup = make_player_lookup([str(x) for x in player_data.keys()])
 
+def sorted_by_count(x):
+    return reversed(sorted(x.items(), key=operator.itemgetter(1)))
 
-for hero_id, builds in hero_builds.items():
-    c = characters[char_id_lookup[hero_id]]
-    brite_lookup = {x['typeID']: i for i, x in enumerate(c['battlerites'])}
-    name = locale_lookup[c['name']]
-    print('Most popular builds for {}:\n'.format(name))
-    cc = 0
-    for x, count in builds:
-        if cc >= 3:
+def make_brite_names(character_data, brite_lookup, brites):
+    brite_names = []
+    for b in brites:
+        try:
+            name = locale_lookup[character_data['battlerites'][brite_lookup[b]]['name']]
+        except:
+            name = "VERY UNKNOWN"
+        brite_names.append(name)
+    return brite_names
+
+def render_character_builds(brite_lookup, character_data, character_dict, max_count=3):
+    print('Most popular builds for {}:\n'.format(locale_lookup[character_data['name']]))
+    num_builds = 0
+    for build, count in sorted_by_count(character_dict):
+        if num_builds >= max_count:
             break
-        brite_names = make_brite_names(c, brite_lookup, x)
-        print("\t{} : {}".format(brite_names, count))
-        cc += 1
+        print(make_brite_names(character_data, brite_lookup, build), count)
+        num_builds += 1
 
 
+for mode, mode_dict in character_builds.items():
+    print('Most popular builds in {}:\n'.format(mode))
+    #Find most popular builds for each hero
+    for hero_id, build_dict in mode_dict.items():
+        character_data = characters[char_id_lookup[hero_id]]
+        name = locale_lookup[character_data['name']]
+        brite_lookup = {x['typeID']: i for i, x in enumerate(character_data['battlerites'])}
+        render_character_builds(brite_lookup, character_data, build_dict)
 
+    print('Most popular heroes in {}:\n'.format(mode))
+    #Find most popular heroes
+    appearance_summary = defaultdict(lambda: 0)
+    for hero_id, build_dict in mode_dict.items():
+        name = locale_lookup[characters[char_id_lookup[hero_id]]['name']]
+        for build, count in build_dict.items():
+            appearance_summary[name] += count
 
-# print(get_player_names(c_data.keys()))
+    print([x for x in sorted_by_count(appearance_summary)])
