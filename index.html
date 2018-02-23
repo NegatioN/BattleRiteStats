@@ -2,8 +2,8 @@
 layout: default
 ---
 
+<p>Something changesdasdasdd</p>
 <div class="characters">
-    <p>Something changed</p>
   {% for character in site.characters %}
   <article class="character">
     <h2>{{ character.name }}</h2>
@@ -11,7 +11,7 @@ layout: default
       {% for build in character.builds %}
       <ul>
         {% for item in build %}
-        <li class="form-horizontal">{{ item }}</li>
+        <li><h4>{{ item }}</h4></li>
         {% endfor %}
       </ul>
       {% endfor %}
