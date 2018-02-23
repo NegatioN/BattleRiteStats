@@ -1,5 +1,3 @@
----
-layout: post
 name: I am a tester
 builds:
     - one:
@@ -14,4 +12,3 @@ builds:
         - one
         - two
         - three
----
