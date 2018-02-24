@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="characters">
+    {% for char in site.data.cdata.threes %}
+    <table style="width:100%">
+        <tr>
+            <th><h3>{{ char.name }}</h3></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th>Count</th>
+        </tr>
+        {% for build in char.builds %}
+        <tr>
+            {% for skill in build.skills %}
+            <td>{{skill}}</td>
+            {% endfor %}
+            <td>{{build.count}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endfor %}
+</div>

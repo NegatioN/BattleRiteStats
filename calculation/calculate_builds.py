@@ -7,10 +7,12 @@ from calculation.helpers import chunks, get_content, pickle_info, get_telemtry
 from collections import defaultdict
 from furrycorn.location import mk_origin, mk_path, mk_query, to_url
 
+api_key = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI3OWNkZThlMC1mYTAyLTAxMzUtZjg0ZC0wYTU4NjQ2MGE3YjEiLCJpc3MiOiJnYW1lbG9ja2VyIiwiaWF0IjoxNTE5MzA2MjMwLCJwdWIiOiJzdHVubG9jay1zdHVkaW9zIiwidGl0bGUiOiJiYXR0bGVyaXRlIiwiYXBwIjoibXl0ZXN0LTRjNDRlYzRhLTcyZTMtNGY2Ny1iNzNmLTFiODUzYjA1ZGY4MiIsInNjb3BlIjoiY29tbXVuaXR5IiwibGltaXQiOjUwfQ.otrF8k8tp8cqYp_c-9RzT7sAGIPpbU4sizvjGFkXFfw '
 origin = mk_origin('https', 'api.dc01.gamelockerapp.com', '/shards/global')
 headers = {'Accept': 'application/vnd.api+json',
            'Authorization': 'Bearer {0}'.format(api_key)}
 rate_limiter = RateLimiter(max_calls=10, period=61)
+#TODO get last seven days, or last patch-day?
 created_after_date = '2018-02-15T08:00:00Z'
 
 
@@ -42,7 +44,6 @@ def get_player_telemetry(player_id, max_count=20):
     while count < max_count:
         with rate_limiter:
             try:
-                print(count)
                 t_links = get_match_info(player_id, offset=step * count)
                 if len(t_links) > 0:
                     telemetry_links.append(t_links)

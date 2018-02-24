@@ -1,15 +1,19 @@
 ---
 layout: default
 ---
-<article class="character">
-    <h2>{{ character.name }}</h2>
-    <div class="entry">
-        {% for build in character.builds %}
-        <ul>
-            {% for item in build %}
-                <li class="form-horizontal">{{ item }}</li>
+<div class="characters">
+    {% for character in site.characters %}
+    <article class="character">
+        <h2>{{ character.name }}</h2>
+        <div class="entry">
+            {% for build in character.builds %}
+            <ul>
+                {% for item in build %}
+                <li><h4>{{ item }}</h4></li>
+                {% endfor %}
+            </ul>
             {% endfor %}
-        </ul>
-        {% endfor %}
-    </div>
-</article>
+        </div>
+    </article>
+    {% endfor %}
+</div>

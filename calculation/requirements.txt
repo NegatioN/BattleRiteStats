@@ -1,2 +1,3 @@
 ratelimiter==1.2.0
 furrycorn==0.7
+GitPython==2.1.8
