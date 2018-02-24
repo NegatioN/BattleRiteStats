@@ -102,6 +102,9 @@ for mode, mode_dict in character_builds.items():
 
     print([x for x in sorted_by_count(appearance_summary)])
 
-master_d = {'twos': twos_builds, 'threes': threes_builds}
+def sort_by_heroname(buils_arr):
+    return sorted(buils_arr, key=lambda k: k['name'])
+
+master_d = {'twos': sort_by_heroname(twos_builds), 'threes': sort_by_heroname(threes_builds)}
 with open('assets/result.yml', 'w') as yaml_file:
     yaml.dump(master_d, yaml_file, default_flow_style=False)

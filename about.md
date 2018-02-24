@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+### How were these stats made?
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+These statistics were made by looking at the replays from the last 7 days of the top 50 ranked solo players in Battlerite. 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+For now, contact me on reddit/u/NegatioNZor
+
+And if you're interested in doing some frontend-work for this site, please feel free to contact me.
