@@ -1,19 +1,27 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8
 import requests
 from urllib.parse import quote
 import json
 from ratelimiter import RateLimiter
+from datetime import date, timedelta
+import os
 
-from calculation.helpers import chunks, get_content, pickle_info, get_telemtry
+from helpers import chunks, get_content, pickle_info, get_telemtry
 from collections import defaultdict
 from furrycorn.location import mk_origin, mk_path, mk_query, to_url
 
-api_key = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI3OWNkZThlMC1mYTAyLTAxMzUtZjg0ZC0wYTU4NjQ2MGE3YjEiLCJpc3MiOiJnYW1lbG9ja2VyIiwiaWF0IjoxNTE5MzA2MjMwLCJwdWIiOiJzdHVubG9jay1zdHVkaW9zIiwidGl0bGUiOiJiYXR0bGVyaXRlIiwiYXBwIjoibXl0ZXN0LTRjNDRlYzRhLTcyZTMtNGY2Ny1iNzNmLTFiODUzYjA1ZGY4MiIsInNjb3BlIjoiY29tbXVuaXR5IiwibGltaXQiOjUwfQ.otrF8k8tp8cqYp_c-9RzT7sAGIPpbU4sizvjGFkXFfw '
+api_key = os.environ.get('BATTLERITE_API_KEY')
+print('Api key is set={}'.format("Yes" if api_key else "No"))
 origin = mk_origin('https', 'api.dc01.gamelockerapp.com', '/shards/global')
 headers = {'Accept': 'application/vnd.api+json',
            'Authorization': 'Bearer {0}'.format(api_key)}
 rate_limiter = RateLimiter(max_calls=10, period=61)
-#TODO get last seven days, or last patch-day?
-created_after_date = '2018-02-15T08:00:00Z'
+
+#Last seven days of replays
+created_after_date = '{}T08:00:00Z'.format((date.today() - timedelta(days=7)).strftime('%Y-%m-%d'))
+
+print('Getting matches from {} to now'.format(created_after_date))
 
 
 def get_match_info(player_id, offset=0, ranked=True):
@@ -92,7 +100,7 @@ def get_telemetry_data(url):
     try:
         resp = requests.get(url)
         if resp.status_code == 200:
-            return json.loads(resp.content)
+            return json.loads(resp.content.decode('utf-8'))
     except:
         print('something bad happened')
         return []
