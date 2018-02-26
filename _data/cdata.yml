@@ -1,578 +1,578 @@
 threes:
 - builds:
-  - count: 25
+  - count: 10
     skills:
     - Snowstorm
     - Crystalline Lattice
-    - Piercing Cold
     - Blizzard
     - Ice Breaker
-  - count: 11
+    - Piercing Cold
+  - count: 4
     skills:
     - Twirl
     - Snowstorm
-    - Piercing Cold
     - Blizzard
     - Ice Breaker
-  - count: 10
+    - Piercing Cold
+  - count: 3
     skills:
+    - Twirl
     - Snowstorm
-    - Vandalism
-    - Piercing Cold
+    - Crystalline Lattice
     - Blizzard
-    - Ice Breaker
+    - Piercing Cold
   name: Alysia
 - builds:
-  - count: 22
+  - count: 9
     skills:
-    - Conflagration
-    - Magma
-    - Combustion
     - Heat
-    - Inferno
-  - count: 16
-    skills:
-    - Burning Feet
     - Conflagration
+    - Burning Feet
+    - Magma
+    - Inferno
+  - count: 8
+    skills:
     - Magma
     - Heat
     - Inspiration
-  - count: 13
-    skills:
-    - Burning Feet
     - Conflagration
+    - Burning Feet
+  - count: 5
+    skills:
     - Magma
-    - Heat
     - Inferno
+    - Combustion
+    - Conflagration
+    - Heat
   name: Ashka
 - builds:
-  - count: 12
+  - count: 11
     skills:
-    - Shield Bash
     - Bravery
+    - Shield Bash
+    - The Red Axe
     - Mobile Defence
     - Axe and Shield
-    - The Red Axe
   - count: 9
     skills:
-    - Shield Bash
     - Bravery
-    - Axe and Shield
-    - Hamstring
+    - Shield Bash
     - Raging Ram
+    - Hamstring
+    - Axe and Shield
   - count: 7
     skills:
     - Shield Bash
+    - The Red Axe
     - Mobile Defence
     - Axe and Shield
     - Adrenaline Slam
-    - The Red Axe
   name: Bakko
 - builds:
-  - count: 19
+  - count: 9
     skills:
-    - Healthful Bark
-    - Nature's Cycle
-    - Spring Growth
-    - Hop and Skip!
     - Weakening Pitch
-  - count: 6
-    skills:
+    - Hop and Skip!
     - Healthful Bark
     - Bountiful Tree
     - Kindhearted
-    - Hop and Skip!
-    - Weakening Pitch
-  - count: 4
+  - count: 8
     skills:
-    - Gift of Nature
     - Nature's Cycle
-    - Spring Growth
+    - Healthful Bark
     - Hop and Skip!
     - Weakening Pitch
+    - Spring Growth
+  - count: 7
+    skills:
+    - Nature's Cycle
+    - Hop and Skip!
+    - Weakening Pitch
+    - Spring Growth
+    - Gift of Nature
   name: Blossom
 - builds:
-  - count: 99
+  - count: 53
     skills:
     - Lethal Toxins
-    - Triple Strike
     - Cut to the Chase
     - Noxious Reaction
     - Spit Spit Spit
-  - count: 14
-    skills:
-    - Lethal Toxins
     - Triple Strike
-    - Noxious Reaction
-    - Spit Spit Spit
-    - Frog Frenzy
   - count: 9
     skills:
-    - Lethal Toxins
-    - Triple Strike
-    - Jungle Toad
-    - Noxious Reaction
+    - Slippery Skin
+    - Frog Slice
     - Spit Spit Spit
+    - Triple Strike
+    - Frog Frenzy
+  - count: 8
+    skills:
+    - Slippery Skin
+    - Mending Toxin
+    - Spit Spit Spit
+    - Triple Strike
+    - Frog Frenzy
   name: Croak
 - builds:
-  - count: 17
-    skills:
-    - Violent Revolution
-    - Power Attachment
-    - Transformer
-    - Globetrotter
-    - System Shock
   - count: 9
     skills:
-    - Power Attachment
-    - Sizzle
     - Globetrotter
+    - Power Attachment
     - Blast Processing
     - System Shock
-  - count: 5
+    - Sizzle
+  - count: 6
     skills:
-    - Violent Revolution
+    - Globetrotter
     - Power Attachment
+    - Violent Revolution
+    - Blast Processing
+    - System Shock
+  - count: 2
+    skills:
+    - System Shock
     - Energy Conversion
     - Blast Processing
-    - System Shock
+    - Violent Revolution
+    - Power Attachment
   name: Destiny
 - builds:
-  - count: 35
+  - count: 11
     skills:
+    - Exhaust
+    - Grimoire of Death
+    - Undermine
     - Whizz
     - Disruption
-    - Spell Eater
-    - Feedback
-    - Warlock's Grip
-  - count: 12
+  - count: 10
     skills:
-    - Disruption
-    - Face Melt
-    - Spell Eater
     - Feedback
-    - Warlock's Grip
+    - Grimoire of Death
+    - Undermine
+    - Disruption
+    - Whizz
   - count: 8
     skills:
-    - Disruption
-    - Undermine
     - Spell Eater
     - Feedback
+    - Whizz
     - Warlock's Grip
+    - Disruption
   name: Ezmo
 - builds:
-  - count: 87
+  - count: 66
     skills:
-    - Lightning Rod
+    - Lightning Speed
     - Electric Conduction
     - Rolling Thunder
-    - Lightning Speed
+    - Lightning Rod
     - Tempest
-  - count: 33
+  - count: 29
     skills:
+    - Lightning Speed
+    - Electric Conduction
+    - Rolling Thunder
     - Lightning Rod
     - Hammer Time
-    - Electric Conduction
-    - Rolling Thunder
-    - Lightning Speed
-  - count: 8
+  - count: 4
     skills:
-    - Lightning Rod
+    - Overcharge
     - Electric Conduction
-    - Rolling Thunder
+    - Lightning Rod
+    - Tempest
     - Positive Charge
-    - Lightning Speed
   name: Freya
 - builds:
-  - count: 14
-    skills:
-    - Blast Shield
-    - EMP
-    - Rocket Boosters
-    - Stockpile
-    - Conductor
   - count: 2
     skills:
+    - Oil Blaster
     - Blast Shield
-    - Hyperspeed
+    - Inspiration
     - Rocket Boosters
     - Gunge
-    - Oil Blaster
   - count: 2
     skills:
-    - Heavy Rocket
-    - EMP
+    - Boom!
+    - U-Turn
+    - Hyperspeed
     - Rocket Boosters
-    - Conductor
-    - Durable Shield
+    - Stockpile
+  - count: 1
+    skills:
+    - U-Turn
+    - Blast Shield
+    - Boom!
+    - Rocket Boosters
+    - Stockpile
   name: Iva
 - builds:
-  - count: 33
+  - count: 25
     skills:
     - Delight
-    - Gunslinger
     - Ambush
+    - Gunslinger
     - Concussion Bomb
     - Deadly Focus
-  - count: 16
+  - count: 13
     skills:
     - Delight
+    - Ambush
+    - Shadow Shot
     - Gunslinger
-    - Blasting Pistols
-    - Desperado
-    - Concussion Bomb
+    - Deadly Focus
   - count: 10
     skills:
     - Delight
     - Gunslinger
-    - Shadow Shot
-    - Ambush
-    - Deadly Focus
+    - Desperado
+    - Blasting Pistols
+    - Concussion Bomb
   name: Jade
 - builds:
-  - count: 9
-    skills:
-    - Perfect Shot
-    - Deadly Trap
-    - Arrow Storm
-    - Trapper
-    - Death Mark
-  - count: 7
-    skills:
-    - Perfect Shot
-    - Arrow Storm
-    - Panther
-    - Trapper
-    - Viper
-  - count: 7
-    skills:
-    - Perfect Shot
-    - Power Shot
-    - Crippling Hail
-    - Trapper
-    - Death Mark
-  name: Jumong
-- builds:
-  - count: 18
-    skills:
-    - Swift Roll
-    - Alacrity
-    - Stimulant
-    - Potency
-    - Companion Potion
-  - count: 9
-    skills:
-    - Swift Roll
-    - Alacrity
-    - Stimulant
-    - Siege Barrier
-    - Companion Potion
   - count: 5
     skills:
-    - Swift Roll
-    - Alacrity
+    - Trapper
+    - Death Mark
+    - Arrow Storm
+    - Perfect Shot
+    - Crippling Hail
+  - count: 5
+    skills:
+    - Deadly Trap
+    - Death Mark
+    - Arrow Storm
+    - Trapper
+    - Perfect Shot
+  - count: 4
+    skills:
+    - Trapper
+    - Death Mark
+    - Arrow Storm
+    - Perfect Shot
+    - Panther
+  name: Jumong
+- builds:
+  - count: 13
+    skills:
     - Stimulant
     - Companion Potion
-    - Agility
+    - Potency
+    - Swift Roll
+    - Alacrity
+  - count: 5
+    skills:
+    - Siege Barrier
+    - Companion Potion
+    - Stimulant
+    - Swift Roll
+    - Alacrity
+  - count: 3
+    skills:
+    - Siege Barrier
+    - Companion Potion
+    - Potency
+    - Swift Roll
+    - Alacrity
   name: Lucie
 - builds:
-  - count: 14
+  - count: 8
     skills:
+    - Time Burst
     - Renew
-    - Sand Storm
+    - Recreate
+    - Sand Struck
+    - Dehydration
+  - count: 6
+    skills:
     - Drain
+    - Sand Storm
+    - Renew
     - Chrono Shift
     - Dehydration
   - count: 6
     skills:
-    - Renew
-    - Sand Struck
-    - Rewind
     - Dehydration
-    - Sand Tomb
-  - count: 5
-    skills:
-    - Time Burst
+    - Passage of Time
     - Renew
-    - Sand Struck
-    - Rewind
-    - Dehydration
+    - Chrono Shift
+    - Shared Fate
   name: Oldur
 - builds:
-  - count: 47
+  - count: 24
     skills:
+    - Soaking Wet
+    - Gush
     - Splash Damage
     - Riptide
-    - Gush
-    - Soaking Wet
     - Fountain
-  - count: 13
+  - count: 12
     skills:
-    - Splash Damage
-    - Sea Bubble
     - Gush
-    - Rippling Waters
+    - Splash Damage
     - Water Walk
+    - Sea Bubble
+    - Rippling Waters
   - count: 6
     skills:
-    - Splash Damage
-    - Tasty Fish
     - Gush
+    - Splash Damage
     - Rippling Waters
+    - Tasty Fish
     - Fountain
   name: Pearl
 - builds:
-  - count: 52
+  - count: 29
     skills:
-    - Spiderling Venom
-    - Hive Mind
-    - Swarm Queen
     - Egg Carrier
+    - Swarm Queen
     - Overlord
-  - count: 14
-    skills:
     - Spiderling Venom
     - Hive Mind
-    - Insectivore
-    - Swarm Queen
-    - Egg Carrier
-  - count: 14
+  - count: 11
     skills:
-    - Defiler
-    - Spiderling Venom
-    - Scourge
-    - Swarm Queen
     - Egg Carrier
+    - Swarm Queen
+    - Insectivore
+    - Spiderling Venom
+    - Hive Mind
+  - count: 5
+    skills:
+    - Egg Carrier
+    - Blood Leecher
+    - Swarm Queen
+    - Spiderling Venom
+    - Hive Mind
   name: Pestilus
 - builds:
-  - count: 27
-    skills:
-    - Affection
-    - Spiritual Wind
-    - Specter
-    - Phantasm
-    - Vengeful Spirit
   - count: 17
     skills:
+    - Affection
+    - Phantasm
+    - Vengeful Spirit
+    - Specter
+    - Spiritual Wind
+  - count: 13
+    skills:
+    - Phantasm
+    - Specter
+    - Vengeful Spirit
     - Into the Realm
     - Spiritual Wind
-    - Specter
-    - Phantasm
-    - Vengeful Spirit
-  - count: 15
+  - count: 9
     skills:
-    - Affection
-    - Silver Fang
-    - Specter
     - Phantasm
+    - Silver Fang
     - Vengeful Spirit
+    - Specter
+    - Spiritual Wind
   name: Poloma
 - builds:
   - count: 5
     skills:
+    - Headlong Rush
     - Overflowing Power
+    - Invigorate
+    - Riposte
     - Hawk Dive
+  - count: 3
+    skills:
     - Headlong Rush
     - Invigorate
     - Riposte
-  - count: 4
-    skills:
-    - Acrobatics
-    - Dragon Mastery
-    - Hawk Dive
-    - Invigorate
-    - Riposte
-  - count: 4
-    skills:
     - Aerial Strike
-    - Overflowing Power
     - Hawk Dive
+  - count: 3
+    skills:
+    - Headlong Rush
     - Invigorate
-    - Dragon Mastery
+    - Duelist
+    - Aerial Strike
+    - Agility
   name: Raigon
 - builds:
-  - count: 26
+  - count: 15
     skills:
-    - Frenzy
-    - Giant
     - Squash
-    - Weapon Break
-    - Endurance
-  - count: 25
-    skills:
-    - Frenzy
-    - Giant
-    - Squash
-    - Endurance
-    - Madness
-  - count: 19
-    skills:
-    - Frenzy
-    - Giant
     - Rook Smash
-    - Squash
+    - Frenzy
+    - Giant
     - Endurance
+  - count: 11
+    skills:
+    - Endurance
+    - Weapon Break
+    - Frenzy
+    - Giant
+    - Crumble
+  - count: 8
+    skills:
+    - Madness
+    - Rook Smash
+    - Frenzy
+    - Squash
+    - Giant
   name: Rook
 - builds:
   - count: 9
     skills:
-    - Demonic Hunt
-    - Wicked Strike
-    - Reaper
-    - Tenacious Demon
+    - Affliction
+    - Leech Blade
     - Cold Embrace
-  - count: 4
+    - Gorge
+    - Grim Edge
+  - count: 5
     skills:
-    - Cold Embrace
+    - Demonic Hunt
     - Leech Blade
     - Gorge
-    - Night Stalker
-    - Affliction
-  - count: 3
+    - Tenacious Demon
+    - Grim Edge
+  - count: 5
     skills:
     - Demonic Hunt
+    - Reaper
     - Wicked Strike
     - Cold Embrace
-    - Leech Blade
-    - Nether Chains
+    - Tenacious Demon
   name: Ruh Kaan
 - builds:
-  - count: 40
+  - count: 33
     skills:
+    - Ceremonial Spear
+    - Ferocious Stance
+    - Thrust
     - Dirty Tricks
     - Swift Feet
-    - Ferocious Stance
-    - Thrust
-    - Ceremonial Spear
-  - count: 30
+  - count: 19
     skills:
-    - Swift Feet
-    - Ferocious Stance
-    - The Spear is the Way
-    - Thrust
     - Ceremonial Spear
-  - count: 15
-    skills:
-    - Swift Feet
     - Ferocious Stance
     - Thrust
     - Whirling Blade
+    - Swift Feet
+  - count: 18
+    skills:
     - Ceremonial Spear
+    - The Spear is the Way
+    - Thrust
+    - Ferocious Stance
+    - Swift Feet
   name: Shifu
 - builds:
-  - count: 28
+  - count: 12
     skills:
-    - Sunbath
     - Sunwell
     - Lunatic
     - Radiance
     - Lethal Slash
-  - count: 19
+    - Sunbath
+  - count: 12
     skills:
+    - Lethal Slash
     - Celestial Cycle
+    - Lunatic
     - Debilitating Slash
     - Sunwell
-    - Lunatic
-    - Lethal Slash
-  - count: 7
+  - count: 3
     skills:
+    - Saros Cycle
     - Celestial Cycle
-    - Debilitating Slash
-    - Sunbath
-    - Lunatic
+    - Radiance
     - Lethal Slash
+    - Sunscreen
   name: Sirius
 - builds:
-  - count: 43
+  - count: 32
     skills:
-    - Breath of Air
-    - Surprise Attack
     - Wind Fury
+    - Breath of Air
     - Cross Cut
     - Wind Stream
-  - count: 11
+    - Surprise Attack
+  - count: 9
     skills:
+    - Cyclone
+    - Surprise Attack
+    - Cross Cut
+    - Wind Stream
+    - Wind Fury
+  - count: 4
+    skills:
+    - Wind Stream
+    - Cross Cut
     - Surprise Attack
     - Cyclone
-    - Wind Fury
-    - Cross Cut
-    - Wind Stream
-  - count: 10
-    skills:
-    - Breath of Air
-    - Cold Wind
-    - Throwing Technique
-    - Cross Cut
-    - Wind Stream
+    - Gale
   name: Taya
 - builds:
-  - count: 36
+  - count: 24
     skills:
+    - Neurotoxin
+    - Regrowth
     - Critical Backlash
     - Impaling Roots
-    - Regrowth
-    - Neurotoxin
     - Lurker
-  - count: 31
+  - count: 8
     skills:
-    - Critical Backlash
-    - Impaling Roots
-    - Regrowth
-    - Fearsome Uprootal
     - Neurotoxin
-  - count: 14
+    - Regrowth
+    - Branch Out
+    - Impaling Roots
+    - Lurker
+  - count: 6
     skills:
+    - Neurotoxin
+    - Regrowth
     - Critical Backlash
     - Impaling Roots
-    - Regrowth
     - Parasitic Stems
-    - Neurotoxin
   name: Thorn
 - builds:
   - count: 16
     skills:
     - Ruin
-    - Devastation
     - Celerity
-    - Wonder
     - Silence
-  - count: 7
-    skills:
-    - Ruin
-    - Synergy
-    - Inhibitor
+    - Devastation
     - Wonder
-    - Silence
   - count: 4
     skills:
     - Inhibitor
+    - Silence
+    - Fracture
     - Wonder
     - Absolute Power
+  - count: 4
+    skills:
     - Unlimited Power
+    - Inhibitor
     - Fracture
+    - Wonder
+    - Absolute Power
   name: Varesh
 - builds:
-  - count: 26
+  - count: 24
     skills:
-    - Heart Restoration
     - Lead Astray
+    - Heart Restoration
+    - Arcane Conductor
+    - Stacked Deck
+    - Around the World
+  - count: 21
+    skills:
+    - Lead Astray
+    - Heart Restoration
+    - Arcane Conductor
     - Stacked Deck
     - Showdown
-    - Arcane Conductor
-  - count: 22
+  - count: 14
     skills:
-    - Heart Restoration
     - Lead Astray
-    - Around the World
     - Stacked Deck
     - Arcane Conductor
-  - count: 17
-    skills:
     - Arcane Shenanigans
-    - Heart Restoration
-    - Around the World
-    - Stacked Deck
-    - Arcane Conductor
+    - Showdown
   name: Zander
 twos:
 - builds:
@@ -580,573 +580,573 @@ twos:
     skills:
     - Snowstorm
     - Figure Skating
-    - Piercing Cold
     - Blizzard
     - Ice Breaker
+    - Piercing Cold
   - count: 4
     skills:
     - Twirl
-    - Snowstorm
     - Figure Skating
+    - Blizzard
     - Piercing Cold
     - Ice Breaker
   - count: 4
     skills:
     - Twirl
-    - Crystalline Lattice
-    - Figure Skating
-    - Cryogenic Lance
-    - Frost Nova
+    - Piercing Cold
+    - Ice Breaker
+    - Blizzard
+    - Vandalism
   name: Alysia
 - builds:
-  - count: 13
+  - count: 10
     skills:
-    - Burning Feet
-    - Conflagration
     - Magma
     - Heat
     - Inspiration
-  - count: 8
-    skills:
+    - Conflagration
     - Burning Feet
-    - Eruption
-    - Magma
-    - Combustion
-    - Heat
-  - count: 7
+  - count: 9
     skills:
-    - Magma
     - Combustion
-    - Heat
     - Blaze
     - Inspiration
+    - Magma
+    - Heat
+  - count: 8
+    skills:
+    - Heat
+    - Combustion
+    - Magma
+    - Burning Feet
+    - Eruption
   name: Ashka
 - builds:
-  - count: 16
+  - count: 10
     skills:
     - Shield Bash
-    - Warlord's Axe
     - Adrenaline Slam
     - The Red Axe
+    - Warlord's Axe
     - Dizzying Dash
   - count: 9
     skills:
-    - Shield Bash
     - Bravery
+    - Shield Bash
+    - Raging Ram
     - Axe and Shield
     - Hamstring
-    - Raging Ram
-  - count: 7
+  - count: 6
     skills:
-    - Shield Bash
     - Bravery
+    - Shield Bash
     - The Red Axe
     - Axe and Shield
     - Hamstring
   name: Bakko
 - builds:
-  - count: 48
+  - count: 58
     skills:
+    - Nature's Cycle
+    - Hop and Skip!
     - Healthful Bark
-    - Nature's Cycle
+    - Weakening Pitch
     - Spring Growth
-    - Hop and Skip!
-    - Weakening Pitch
-  - count: 42
+  - count: 35
     skills:
     - Nature's Cycle
-    - Cautious
+    - Hop and Skip!
     - Refreshing Seed
-    - Hop and Skip!
     - Weakening Pitch
-  - count: 37
+    - Cautious
+  - count: 24
     skills:
     - Nature's Cycle
+    - Hop and Skip!
+    - Weakening Pitch
     - Spring Growth
     - Nature's Presence
-    - Hop and Skip!
-    - Weakening Pitch
   name: Blossom
 - builds:
-  - count: 11
-    skills:
-    - Frog Slice
-    - Mending Toxin
-    - Jungle Toad
-    - Time to Strike
-    - Frog Frenzy
-  - count: 9
-    skills:
-    - Triple Strike
-    - Mending Toxin
-    - Jungle Toad
-    - Spit Spit Spit
-    - Venom Strike
-  - count: 7
-    skills:
-    - Frog Slice
-    - Triple Strike
-    - Noxious Reaction
-    - Spit Spit Spit
-    - Frog Frenzy
-  name: Croak
-- builds:
-  - count: 10
-    skills:
-    - Violent Revolution
-    - Power Attachment
-    - Globetrotter
-    - Blast Processing
-    - System Shock
-  - count: 7
-    skills:
-    - Violent Revolution
-    - Power Attachment
-    - Expansion Pack
-    - Globetrotter
-    - Blast Processing
   - count: 5
     skills:
-    - Power Attachment
-    - Expansion Pack
-    - Globetrotter
-    - Blast Processing
-    - System Shock
-  name: Destiny
+    - Mending Toxin
+    - Jungle Toad
+    - Venom Strike
+    - Triple Strike
+    - Spit Spit Spit
+  - count: 5
+    skills:
+    - Frog Slice
+    - Noxious Reaction
+    - Spit Spit Spit
+    - Triple Strike
+    - Frog Frenzy
+  - count: 4
+    skills:
+    - Slippery Skin
+    - Jungle Toad
+    - Mending Toxin
+    - Spit Spit Spit
+    - Triple Strike
+  name: Croak
 - builds:
-  - count: 128
-    skills:
-    - Disruption
-    - Spell Eater
-    - Feedback
-    - Whizz
-    - Tome Of Restoration
-  - count: 22
-    skills:
-    - Whizz
-    - Disruption
-    - Spell Eater
-    - Feedback
-    - Warlock's Grip
-  - count: 18
-    skills:
-    - Disruption
-    - Face Melt
-    - Spell Eater
-    - Feedback
-    - Warlock's Grip
-  name: Ezmo
-- builds:
-  - count: 34
-    skills:
-    - Lightning Rod
-    - Electric Conduction
-    - Positive Charge
-    - Torrent
-    - Lightning Speed
-  - count: 30
-    skills:
-    - Lightning Rod
-    - Electric Conduction
-    - Rolling Thunder
-    - Lightning Speed
-    - Tempest
   - count: 9
     skills:
-    - Lightning Rod
-    - Electric Conduction
-    - Positive Charge
-    - Lightning Speed
-    - Tempest
-  name: Freya
-- builds:
+    - Globetrotter
+    - Power Attachment
+    - Violent Revolution
+    - Blast Processing
+    - System Shock
   - count: 8
     skills:
-    - Blast Shield
+    - Globetrotter
+    - Violent Revolution
+    - Blast Processing
+    - Expansion Pack
+    - Power Attachment
+  - count: 6
+    skills:
+    - Globetrotter
+    - Expansion Pack
+    - Blast Processing
+    - System Shock
+    - Power Attachment
+  name: Destiny
+- builds:
+  - count: 60
+    skills:
+    - Spell Eater
+    - Feedback
+    - Whizz
+    - Disruption
+    - Tome Of Restoration
+  - count: 39
+    skills:
+    - Spell Eater
+    - Feedback
+    - Grimoire of Death
+    - Whizz
+    - Disruption
+  - count: 22
+    skills:
+    - Spell Eater
+    - Feedback
+    - Warlock's Grip
+    - Whizz
+    - Disruption
+  name: Ezmo
+- builds:
+  - count: 26
+    skills:
+    - Lightning Speed
+    - Electric Conduction
+    - Lightning Rod
+    - Positive Charge
+    - Torrent
+  - count: 20
+    skills:
+    - Lightning Speed
+    - Electric Conduction
+    - Rolling Thunder
+    - Lightning Rod
+    - Tempest
+  - count: 7
+    skills:
+    - Lightning Speed
+    - Electric Conduction
+    - Lightning Rod
+    - Tempest
+    - Positive Charge
+  name: Freya
+- builds:
+  - count: 3
+    skills:
     - EMP
     - Rocket Boosters
-    - Stockpile
     - Conductor
+    - Blast Shield
+    - Stockpile
   - count: 3
     skills:
     - Boom!
-    - Blast Shield
-    - Heavy Rocket
-    - U-Turn
-    - Rocket Boosters
-  - count: 3
-    skills:
-    - Igniting Spark
     - Hyperspeed
+    - Stockpile
     - Rocket Boosters
-    - Oil Blaster
-    - Durable Shield
+    - U-Turn
+  - count: 2
+    skills:
+    - U-Turn
+    - Blast Shield
+    - Hyperspeed
+    - EMP
+    - Rocket Boosters
   name: Iva
 - builds:
-  - count: 46
-    skills:
-    - Delight
-    - Gunslinger
-    - Blasting Pistols
-    - Desperado
-    - Concussion Bomb
-  - count: 16
+  - count: 29
     skills:
     - Delight
     - Gunslinger
     - Desperado
     - Blasting Pistols
+    - Concussion Bomb
+  - count: 9
+    skills:
     - Deadly Focus
-  - count: 12
+    - Ambush
+    - Gunslinger
+    - Blasting Pistols
+    - Concussion Bomb
+  - count: 9
     skills:
     - Delight
     - Gunslinger
+    - Deadly Focus
     - Desperado
     - Concussion Bomb
-    - Deadly Focus
   name: Jade
 - builds:
-  - count: 17
+  - count: 14
     skills:
+    - Viper
     - Perfect Shot
+    - Panther
     - Precision
-    - Arrow Storm
-    - Disabling Trap
+    - Prey Drive
+  - count: 14
+    skills:
     - Trapper
-  - count: 15
-    skills:
-    - Perfect Shot
-    - Precision
     - Arrow Storm
+    - Perfect Shot
+    - Disabling Trap
+    - Precision
+  - count: 6
+    skills:
     - Trapper
     - Death Mark
-  - count: 15
-    skills:
+    - Arrow Storm
     - Perfect Shot
-    - Prey Drive
     - Precision
-    - Panther
-    - Viper
   name: Jumong
 - builds:
-  - count: 11
+  - count: 9
     skills:
-    - Weakening Toxin
-    - Swift Roll
-    - Stimulant
     - Potency
-    - Companion Potion
-  - count: 7
-    skills:
-    - Weakening Toxin
     - Stimulant
-    - Potency
-    - Sticky Goo
-    - Companion Potion
-  - count: 7
-    skills:
     - Swift Roll
     - Alacrity
-    - Potency
+    - Blast Shield
+  - count: 6
+    skills:
+    - Weakening Toxin
+    - Companion Potion
     - Stimulant
+    - Potency
+    - Swift Roll
+  - count: 6
+    skills:
+    - Adhesive Component
+    - Stimulant
+    - Swift Roll
+    - Alacrity
     - Blast Shield
   name: Lucie
 - builds:
-  - count: 30
+  - count: 20
     skills:
     - Renew
-    - Sand Storm
-    - Drain
-    - Chrono Shift
-    - Dehydration
-  - count: 26
-    skills:
-    - Renew
-    - Sand Storm
-    - Drain
-    - Passage of Time
-    - Dehydration
-  - count: 18
-    skills:
-    - Renew
-    - Shared Fate
     - Sand Struck
+    - Shared Fate
     - Chrono Shift
+    - Dehydration
+  - count: 16
+    skills:
+    - Drain
+    - Sand Storm
+    - Renew
+    - Chrono Shift
+    - Dehydration
+  - count: 14
+    skills:
+    - Drain
+    - Sand Storm
+    - Renew
+    - Passage of Time
     - Dehydration
   name: Oldur
 - builds:
-  - count: 27
+  - count: 31
     skills:
-    - Splash Damage
-    - Sea Bubble
-    - Gush
-    - Soaking Wet
     - Ocean Tide
-  - count: 18
-    skills:
+    - Gush
     - Splash Damage
     - Sea Bubble
+    - Soaking Wet
+  - count: 19
+    skills:
     - Gush
-    - Rippling Waters
-    - Ocean Sage
-  - count: 18
-    skills:
+    - Splash Damage
     - Sea Bubble
-    - Tsunami
+    - Tasty Fish
     - Rippling Waters
-    - Water Walk
-    - Ocean Sage
-  name: Pearl
-- builds:
-  - count: 68
-    skills:
-    - Spiderling Venom
-    - Hive Mind
-    - Swarm Queen
-    - Egg Carrier
-    - Overlord
   - count: 11
     skills:
-    - Spiderling Venom
-    - Hive Mind
-    - Blood Leecher
-    - Swarm Queen
-    - Egg Carrier
-  - count: 10
-    skills:
-    - Spiderling Venom
-    - Hive Mind
-    - Colony
-    - Swarm Queen
-    - Egg Carrier
-  name: Pestilus
+    - Gush
+    - Splash Damage
+    - Ocean Sage
+    - Sea Bubble
+    - Rippling Waters
+  name: Pearl
 - builds:
-  - count: 33
+  - count: 67
     skills:
-    - Affection
-    - Into the Realm
-    - Spiritual Wind
-    - Phantasm
-    - Vengeful Spirit
+    - Egg Carrier
+    - Swarm Queen
+    - Spiderling Venom
+    - Overlord
+    - Hive Mind
   - count: 9
     skills:
-    - Affection
-    - Into the Realm
-    - Silver Fang
-    - Specter
-    - Phantasm
-  - count: 8
+    - Egg Carrier
+    - Colony
+    - Swarm Queen
+    - Spiderling Venom
+    - Hive Mind
+  - count: 9
+    skills:
+    - Egg Carrier
+    - Swarm Queen
+    - Spiderling Venom
+    - Disperse
+    - Hive Mind
+  name: Pestilus
+- builds:
+  - count: 27
     skills:
     - Affection
-    - Silver Fang
-    - Specter
     - Phantasm
     - Vengeful Spirit
+    - Into the Realm
+    - Spiritual Wind
+  - count: 7
+    skills:
+    - Affection
+    - Phantasm
+    - Silver Fang
+    - Vengeful Spirit
+    - Specter
+  - count: 5
+    skills:
+    - Affection
+    - Phantasm
+    - Silver Fang
+    - Vengeful Spirit
+    - Into the Realm
   name: Poloma
 - builds:
-  - count: 8
+  - count: 7
     skills:
     - Royal Descent
-    - Hawk Dive
-    - Headlong Rush
     - Riposte
-    - Binding Light
+    - Invigorate
+    - Dragon Mastery
+    - Hawk Dive
   - count: 6
     skills:
     - Royal Descent
-    - Riposte
-    - Hawk Dive
-    - Invigorate
     - Dragon Mastery
+    - Invigorate
+    - Riposte
+    - Aerial Strike
   - count: 5
     skills:
     - Royal Descent
-    - Dragon Mastery
-    - Overflowing Power
+    - Headlong Rush
     - Invigorate
     - Riposte
+    - Binding Light
   name: Raigon
 - builds:
-  - count: 58
+  - count: 40
     skills:
-    - Frenzy
-    - Giant
-    - Squash
     - Rook Smash
-    - Endurance
-  - count: 49
-    skills:
+    - Squash
     - Crumble
     - Frenzy
-    - Squash
-    - Rook Smash
     - Endurance
-  - count: 33
+  - count: 30
     skills:
+    - Madness
+    - Squash
     - Frenzy
     - Giant
-    - Squash
     - Endurance
-    - Madness
+  - count: 26
+    skills:
+    - Rook Smash
+    - Squash
+    - Frenzy
+    - Giant
+    - Endurance
   name: Rook
 - builds:
-  - count: 13
+  - count: 11
     skills:
     - Demonic Hunt
-    - Wicked Strike
-    - Tenacious Demon
     - Agony
+    - Wicked Strike
+    - Tenacious Demon
     - Grim Edge
   - count: 6
     skills:
     - Demonic Hunt
-    - Wicked Strike
-    - Tenacious Demon
-    - Death Grip
-    - Grim Edge
-  - count: 6
-    skills:
-    - Wicked Strike
-    - Tenacious Demon
     - Leech Blade
-    - Cold Embrace
+    - Wicked Strike
     - Nether Chains
+    - Tenacious Demon
+  - count: 5
+    skills:
+    - Demonic Hunt
+    - Wicked Strike
+    - Cold Embrace
+    - Tenacious Demon
+    - Grim Edge
   name: Ruh Kaan
 - builds:
-  - count: 131
+  - count: 81
     skills:
+    - Ceremonial Spear
+    - Ferocious Stance
+    - Thrust
     - Dirty Tricks
     - Swift Feet
-    - Ferocious Stance
-    - Thrust
-    - Ceremonial Spear
-  - count: 62
+  - count: 42
     skills:
-    - Swift Feet
+    - Ceremonial Spear
     - Ferocious Stance
     - Thrust
+    - Swift Feet
     - Whirling Blade
-    - Ceremonial Spear
-  - count: 38
+  - count: 33
     skills:
-    - Dirty Tricks
-    - Swift Feet
+    - Ceremonial Spear
     - The Spear is the Way
     - Thrust
-    - Ceremonial Spear
+    - Dirty Tricks
+    - Swift Feet
   name: Shifu
 - builds:
-  - count: 20
+  - count: 17
     skills:
-    - Celestial Cycle
-    - Debilitating Slash
-    - Sunbath
-    - Lunatic
     - Lethal Slash
-  - count: 19
-    skills:
     - Celestial Cycle
+    - Lunatic
     - Debilitating Slash
     - Sunwell
-    - Lunatic
-    - Lethal Slash
-  - count: 4
+  - count: 10
     skills:
+    - Lethal Slash
     - Celestial Cycle
-    - Sunbath
-    - Saros Cycle
     - Lunatic
+    - Debilitating Slash
+    - Sunbath
+  - count: 3
+    skills:
+    - Saros Cycle
+    - Celestial Cycle
+    - Lunatic
+    - Radiance
     - Lethal Slash
   name: Sirius
 - builds:
-  - count: 39
+  - count: 26
     skills:
-    - Surprise Attack
-    - Cyclone
     - Wind Fury
+    - Surprise Attack
     - Cross Cut
     - Wind Stream
-  - count: 9
-    skills:
-    - Breath of Air
-    - Inspiration
     - Cyclone
-    - Wind Fury
+  - count: 6
+    skills:
     - Wind Stream
-  - count: 8
+    - Cross Cut
+    - Surprise Attack
+    - Breath of Air
+    - Wind Fury
+  - count: 5
     skills:
     - Breath of Air
-    - Surprise Attack
-    - Wind Fury
     - Cross Cut
+    - Cold Wind
     - Wind Stream
+    - Surprise Attack
   name: Taya
 - builds:
-  - count: 21
+  - count: 10
     skills:
+    - Neurotoxin
+    - Regrowth
     - Critical Backlash
     - Impaling Roots
-    - Regrowth
-    - Neurotoxin
     - Lurker
-  - count: 9
+  - count: 5
     skills:
+    - Neurotoxin
+    - Branch Out
+    - Critical Backlash
     - Impaling Roots
-    - Regrowth
+    - Lurker
+  - count: 5
+    skills:
     - No Escape
     - Branch Out
-    - Lurker
-  - count: 7
-    skills:
-    - Critical Backlash
+    - Regrowth
     - Impaling Roots
-    - Neurotoxin
-    - Branch Out
     - Lurker
   name: Thorn
 - builds:
-  - count: 21
+  - count: 22
     skills:
-    - Law Bender
     - Celerity
+    - Law Bender
+    - Silence
     - Wonder
     - Unlimited Power
-    - Silence
   - count: 6
     skills:
-    - Fervor
     - Celerity
     - Inhibitor
-    - Unlimited Power
-    - Kinetic Corruption
+    - Fracture
+    - Wonder
+    - Absolute Power
   - count: 5
     skills:
-    - Fervor
-    - Celerity
-    - Inhibitor
     - Unlimited Power
+    - Inhibitor
+    - Celerity
+    - Fervor
     - Fracture
   name: Varesh
 - builds:
-  - count: 72
+  - count: 38
     skills:
     - Arcane Shenanigans
     - Heart Restoration
-    - Stacked Deck
     - Showdown
+    - Stacked Deck
     - Arcane Conductor
-  - count: 50
+  - count: 26
     skills:
+    - Lead Astray
+    - Heart Restoration
     - Late to the Show
-    - Heart Restoration
-    - Lead Astray
     - Stacked Deck
     - Arcane Conductor
-  - count: 24
+  - count: 20
     skills:
-    - Heart Restoration
     - Lead Astray
-    - Around the World
-    - Stacked Deck
+    - Heart Restoration
     - Arcane Conductor
+    - Stacked Deck
+    - Around the World
   name: Zander
