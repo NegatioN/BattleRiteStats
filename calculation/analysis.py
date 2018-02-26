@@ -39,7 +39,7 @@ def load_locale(path):
 
 
 locale_lookup = load_locale('assets/English.ini')
-characters = json.loads(gplay)['characters']
+characters = json.loads(gplay.decode('utf-8'))['characters']
 char_id_lookup = {x['typeID']: i for i,x in enumerate(characters)}
 
 
