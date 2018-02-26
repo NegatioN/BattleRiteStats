@@ -14,7 +14,7 @@ These statistics were made by looking at the replays from the last 7 days of the
 
 Is there anything that leaves you puzzled? Or maybe something you want to help out the site with?
 
-Contact me directly on twitter [@JoakimRi](https://twitter.com/JoakimRi)
+Contact me directly on twitter [@JoakimRi](https://twitter.com/JoakimRi) or [joakimrishaug@gmail.com](mailto:joakimrishaug+brbcontact@gmail.com)
 
 
 
