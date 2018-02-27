@@ -108,5 +108,6 @@ def sort_by_heroname(buils_arr):
     return sorted(buils_arr, key=lambda k: k['name'])
 
 master_d = {'twos': sort_by_heroname(twos_builds), 'threes': sort_by_heroname(threes_builds)}
-with open('assets/result.yml', 'w') as yaml_file:
-    yaml.dump(master_d, yaml_file, default_flow_style=False)
+if len(twos_builds) > 100 and len(threes_builds) > 100:
+    with open('assets/result.yml', 'w') as yaml_file:
+        yaml.dump(master_d, yaml_file, default_flow_style=False)
