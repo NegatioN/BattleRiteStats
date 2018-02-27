@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8
 import requests
 import json
 import pickle
@@ -12,7 +14,7 @@ def chunks(arr, n):
 def get_content(url, headers):
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
-        return json.loads(response.content)['data']
+        return json.loads(response.content.decode('utf-8'))['data']
     else:
         return []
 
@@ -21,7 +23,7 @@ def get_telemtry(url, headers):
     match_ids = set()
     telemetry_urls = set()
     if response.status_code == 200:
-        content = json.loads(response.content)
+        content = json.loads(response.content.decode('utf-8'))
         all_data_nodes = content['data']
         for n in all_data_nodes:
             match_ids.add(n['relationships']['assets']['data'][0]['id'])
