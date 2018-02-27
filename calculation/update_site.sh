@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+git pull
+git checkout gh-pages
 export PYTHONPATH="$(pwd)"
 echo $PYTHONPATH
 mkdir assets
