@@ -294,8 +294,9 @@ footer {
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  font-size: 14px;
+  font-size: 0.8em;
   width: 100%;
+  table-layout: fixed;
 }
 
 th {
@@ -303,7 +304,7 @@ th {
 }
 
 tbody > tr:first-of-type td {
-  padding-top: 30px;
+  padding-top: 1.5em;
 }
 
 tr > td:first-of-type {
@@ -317,8 +318,8 @@ tbody > tr:first-of-type > td:first-of-type {
 }
 
 td, th {
-  text-align: left;
-  padding: 5px;
+  text-align: center;
+  padding: 0.2em;
 }
 
 tr:hover td {
@@ -329,7 +330,6 @@ td > div {
   max-width: 100px;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .explainer-text {
