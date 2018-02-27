@@ -1,5 +1,8 @@
 Site made with Jekyll Now
 
+Site is developed on `master`-branch, and published live on `gh-pages`-branch.
+
+
 #TODOS
 * top heroes sorted by usage in each mode
 * searchable players (and their most used heroes + builds)
