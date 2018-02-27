@@ -33,7 +33,8 @@ with open('assets/gameplay.json', 'rb') as gplay:
     gplay = gplay.read()
 
 def load_locale(path):
-    with open(path, 'r') as f:
+    with open(path, 'r', encoding='utf-8') as f:
+        
         data = [x.strip().split('=') for x in f]
         return {x[0]: x[1] for x in data}
 
@@ -108,6 +109,7 @@ def sort_by_heroname(buils_arr):
     return sorted(buils_arr, key=lambda k: k['name'])
 
 master_d = {'twos': sort_by_heroname(twos_builds), 'threes': sort_by_heroname(threes_builds)}
-if len(twos_builds) > 100 and len(threes_builds) > 100:
+
+if len(twos_builds) > 15 and len(threes_builds) > 15:
     with open('assets/result.yml', 'w') as yaml_file:
         yaml.dump(master_d, yaml_file, default_flow_style=False)
