@@ -54,11 +54,14 @@ def sorted_by_count(x):
 def make_brite_names(character_data, brite_lookup, brites):
     brite_names = []
     for b in brites:
+        entry = {}
         try:
-            name = locale_lookup[character_data['battlerites'][brite_lookup[b]]['name']]
+            entry['name'] = locale_lookup[character_data['battlerites'][brite_lookup[b]]['name']]
+            entry['icon'] = character_data['battlerites'][brite_lookup[b]]['icon']
         except:
-            name = "VERY UNKNOWN"
-        brite_names.append(name)
+            entry['name'] = "VERY UNKNOWN"
+            entry['icon'] = "VERY UNKNOWN"
+        brite_names.append(entry)
     return brite_names
 
 def render_character_builds(brite_lookup, character_data, character_dict, max_count=3):

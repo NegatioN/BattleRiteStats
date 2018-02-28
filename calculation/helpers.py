@@ -4,6 +4,7 @@ import requests
 import json
 import pickle
 from collections import defaultdict
+import ntpath
 
 def chunks(arr, n):
     """Yield successive n-sized chunks from l."""
@@ -48,3 +49,7 @@ def pickle_info(build_info, filename):
 def load_pickle(filename):
     with open('assets/{}'.format(filename), 'rb') as f:
         return pickle.loads(f.read())
+
+def path_leaf(path):
+    head, tail = ntpath.split(path)
+    return tail or ntpath.basename(head)

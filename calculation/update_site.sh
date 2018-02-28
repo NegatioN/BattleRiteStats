@@ -3,7 +3,6 @@ git pull
 git checkout gh-pages
 export PYTHONPATH="$(pwd)"
 echo $PYTHONPATH
-echo $BATTLERITE_API_KEY
 mkdir assets
 sudo pip3 install -r requirements.txt
 python3 prepare_analysis_assets.py

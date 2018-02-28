@@ -1,11 +1,8 @@
 from git import Repo
 import os
 import shutil
-import ntpath
+from helpers import path_leaf
 
-def path_leaf(path):
-    head, tail = ntpath.split(path)
-    return tail or ntpath.basename(head)
 
 to_dir = 'assets'
 
