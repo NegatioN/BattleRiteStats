@@ -9,7 +9,7 @@ Gemfile.lock
 node_modules
 package.json
 
-assets/
+calculation/assets/
 .idea/
 # Byte-compiled / optimized / DLL files
 __pycache__/
