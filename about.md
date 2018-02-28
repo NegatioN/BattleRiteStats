@@ -20,10 +20,13 @@ Contact me directly on twitter [@JoakimRi](https://twitter.com/JoakimRi) or [joa
 
 ### Privacy Policy
 
-This site does not share personal information with third parties nor do we store any information about your visit to this site other than to analyze and optimize your content and reading experience through the use of cookies.
+On this site, third party vendors, including Google, use cookies to serve ads based on a user's prior visits to your website or other websites.
+Google's use of advertising cookies enables it and its partners to serve ads to your users based on their visit to your sites and/or other 
+sites on the Internet. Users may opt out of personalized advertising by visiting [Ads Settings](https://www.google.com/settings/ads).
+Or they can use [www.aboutads.info](www.aboutads.info) to opt-out of third-party vendor's use of cookies for personalized advertising.
 
-You can turn off the use of cookies at any time by changing your specific browser settings.
+You can also turn off the use of cookies at any time by changing your specific browser settings.
 
 We are not responsible for republished content from this site on other sites or websites without our permission.
 
-This privacy policy is subject to change without notice and was last updated on February, 26th, 2018. If you have any questions feel free to contact me directly on twitter [@JoakimRi](https://twitter.com/JoakimRi)
+This privacy policy is subject to change without notice and was last updated on February, 28th, 2018. If you have any questions feel free to contact me directly on twitter [@JoakimRi](https://twitter.com/JoakimRi)
