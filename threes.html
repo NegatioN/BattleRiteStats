@@ -19,7 +19,7 @@ explainer: True
             <td>{{char.name}}</td>
             {% for skill in build.skills %}
               <td>
-                <div title="{{skill}}">{{skill}}</div>
+                <div title="{{skill.name}}">{{skill.name}}</div>
               </td>
             {% endfor %}
             <td class="text-right">{{build.count}}</td>
