@@ -6,7 +6,7 @@ echo $PYTHONPATH
 echo $BATTLERITE_API_KEY
 mkdir assets
 sudo pip3 install -r requirements.txt
-python3 prepare_assets.py
+python3 prepare_analysis_assets.py
 BATTLERITE_API_KEY=${BATTLERITE_API_KEY} python3 calculate_builds.py
 python3 analysis.py
 
