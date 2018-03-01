@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
-git pull
-git checkout gh-pages
+
+if [[ $(uname -a) = *"armv7l"* ]]; then
+  echo "Running raspberry pi, installng PIL"
+  sudo apt-get update && sudo apt-get install -y python-imaging python3-pil.imagetk
+fi
+
 export PYTHONPATH="$(pwd)"
 echo $PYTHONPATH
 mkdir assets
