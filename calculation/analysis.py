@@ -51,6 +51,12 @@ character_builds = load_pickle('character_builds.p')
 def sorted_by_count(x):
     return reversed(sorted(x.items(), key=operator.itemgetter(1)))
 
+def sorted_by_countarr(x):
+    return reversed(sorted(x, key=lambda k: k['num']))
+
+def hero_id_to_name(hero_id):
+    return locale_lookup[characters[char_id_lookup[hero_id]]['name']]
+
 def make_brite_names(character_data, brite_lookup, brites):
     brite_names = []
     for b in brites:
@@ -64,29 +70,17 @@ def make_brite_names(character_data, brite_lookup, brites):
         brite_names.append(entry)
     return brite_names
 
-def render_character_builds(brite_lookup, character_data, character_dict, max_count=3):
-    print('Most popular builds for {}:\n'.format(locale_lookup[character_data['name']]))
-    num_builds = 0
-    for build, count in sorted_by_count(character_dict):
-        if num_builds >= max_count:
-            break
-        print(make_brite_names(character_data, brite_lookup, build), count)
-        num_builds += 1
-
-def dictify_character_builds(brite_lookup, character_data, character_dict, max_count=3):
+def dictify_character_builds(brite_lookup, character_data, character_dict):
     builds = []
-    num_builds = 0
     for build, count in sorted_by_count(character_dict):
-        if num_builds >= max_count:
-            break
         b = {'skills': make_brite_names(character_data, brite_lookup, build),
-             'count': count}
+             'num': count}
         builds.append(b)
-        num_builds += 1
     return builds
 
 twos_builds = []
 threes_builds = []
+
 for mode, mode_dict in character_builds.items():
     d = twos_builds if '2' in mode else threes_builds
     #Find most popular builds for each hero
@@ -102,7 +96,7 @@ for mode, mode_dict in character_builds.items():
     #Find most popular heroes
     appearance_summary = defaultdict(lambda: 0)
     for hero_id, build_dict in mode_dict.items():
-        name = locale_lookup[characters[char_id_lookup[hero_id]]['name']]
+        name = hero_id_to_name(hero_id)
         for build, count in build_dict.items():
             appearance_summary[name] += count
 
@@ -111,8 +105,44 @@ for mode, mode_dict in character_builds.items():
 def sort_by_heroname(buils_arr):
     return sorted(buils_arr, key=lambda k: k['name'])
 
-master_d = {'twos': sort_by_heroname(twos_builds), 'threes': sort_by_heroname(threes_builds)}
+
+def num_builds_subset(character_build_array, num=3):
+    limited_subset = []
+    for x in character_build_array:
+        builds = [x for x in sorted_by_countarr(x['builds'])][:num]
+        limited_subset.append({'name': x['name'], 'builds': builds})
+    return limited_subset
+
+num_builds_subset(twos_builds)
+
+master_d = {'twos': sort_by_heroname(num_builds_subset(twos_builds)),
+            'threes': sort_by_heroname(num_builds_subset(threes_builds))}
+
+def create_character_page_data(twos, threes):
+    chars = []
+    all_entries = [x for x in zip(sort_by_heroname(num_builds_subset(twos,5 )), sort_by_heroname(num_builds_subset(threes, 5)))]
+    for x in all_entries:
+        name = x[0]['name']
+        chars.append({
+            'layout': 'character',
+            'name': name,
+            'title': name,
+            'builds':
+                {'twos': x[0]['builds'],
+                'threes': x[1]['builds']
+                 },
+            'num': appearance_summary[name]
+        })
+    return chars
+
+character_page_data = create_character_page_data(twos_builds, threes_builds)
+
 
 if len(twos_builds) > 15 and len(threes_builds) > 15:
     with open('assets/result.yml', 'w') as yaml_file:
         yaml.dump(master_d, yaml_file, default_flow_style=False)
+
+for entry in character_page_data:
+    char_name = entry['name']
+    with open('assets/characters/{}.md'.format(char_name), 'w') as yaml_file:
+        yaml.dump(entry, yaml_file, default_flow_style=False, explicit_start=True, explicit_end=True)
