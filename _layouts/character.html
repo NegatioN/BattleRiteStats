@@ -1,19 +1,41 @@
 ---
-layout: default
+layout: page
 ---
-<div class="characters">
-    {% for character in site.characters %}
-    <article class="character">
-        <h2>{{ character.name }}</h2>
-        <div class="entry">
-            {% for build in character.builds %}
-            <ul>
-                {% for item in build %}
-                <li><h4>{{ item }}</h4></li>
-                {% endfor %}
-            </ul>
+<article class="character">
+    <h3>Played {{page.num}} times last 7 days</h3>
+    <table>
+        <thead>
+        <tr>
+            <th>Mode</th>
+            <th class="text-center" colspan="5">Skills</th>
+            <th class="text-right">Count</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for build in page.builds.twos %}
+        <tr>
+            <td>2 vs 2</td>
+            {% for skill in build.skills %}
+            <td>
+                <div title="{{skill.name}}">{{skill.name}}</div>
+            </td>
             {% endfor %}
-        </div>
-    </article>
-    {% endfor %}
-</div>
+            <td class="text-right">{{build.num}}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+        <tbody>
+        {% for build in page.builds.threes %}
+        <tr>
+            <td>3 vs 3</td>
+            {% for skill in build.skills %}
+            <td>
+                <div title="{{skill.name}}">{{skill.name}}</div>
+            </td>
+            {% endfor %}
+            <td class="text-right">{{build.num}}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</article>

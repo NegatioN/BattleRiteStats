@@ -30,6 +30,7 @@ body {
   width: 100%;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
@@ -341,3 +342,4 @@ td > div {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+@import "bootstrap";
