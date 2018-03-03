@@ -11,6 +11,12 @@ description: The most popular league builds in Battlerite
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://www.battlerite.com/logos/logo-small.png
 
+collections:
+  characters:
+    output: true
+    permalink: /:collection/:name
+    url: /:colletion
+
 #
 # Flags below are optional
 #
@@ -86,3 +92,4 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - calculation

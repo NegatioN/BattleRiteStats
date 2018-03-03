@@ -10,3 +10,6 @@ Site is developed on `master`-branch, and published live on `gh-pages`-branch.
 * * https://arcath.net/2016/02/setting-up-lunr-js-in-jekyll/
 * Try to categorize each build as Offensive / Control / Support based on relative stats for each round of a build.
 * Add Win-rates for each build
+
+
+* only push to gh-pages after successful test-suite? https://docs.travis-ci.com/user/deployment/pages/

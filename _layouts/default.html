@@ -28,10 +28,22 @@
             <p class="site-description">{{ site.description }}</p>
           </div>
 
+
+
           <nav>
-            <a href="{{ site.baseurl }}/">2v2</a>
-            <a href="{{ site.baseurl }}/threes">3v3</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="{{ site.baseurl }}/characters" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Champions <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="{{ site.baseurl }}/characters">Champion Popularity</a></li>
+                  {% for character in site.characters %}
+                  <li>
+                    <a href="{{ site.characters.url }}{{ character.title | downcase }}.html">{{ character.title }}</a>
+                  </li>
+                  {% endfor %}
+                </ul>
+              </li>
+            </ul>
           </nav>
         </header>
       </div>
@@ -46,10 +58,11 @@
       <div class="container">
         <footer class="footer">
           {% include svg-icons.html %}
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         </footer>
       </div>
     </div>
-
     {% include analytics.html %}
   </body>
 </html>
