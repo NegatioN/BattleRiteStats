@@ -17,6 +17,7 @@ python3 picture_assets.py
 
 cp assets/result.yml ../_data/cdata.yml
 cp assets/characters/* ../_characters
+rm assets/characters/*
 rm assets/result.yml
 cd ..
 git add .
