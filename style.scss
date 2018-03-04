@@ -7,6 +7,7 @@
 
 @import "reset";
 @import "variables";
+@import "bootstrap";
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -225,7 +226,7 @@ nav {
   }
 
   a {
-    margin-left: 20px;
+    margin-left: 0px;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
@@ -334,7 +335,7 @@ td > div {
 }
 
 .explainer-text {
-  font-size: 0.8em;
+  font-size: 0.9rem;
   margin-bottom: 50px;
 }
 
@@ -342,4 +343,3 @@ td > div {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
-@import "bootstrap";
