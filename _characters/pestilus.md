@@ -1,16 +1,16 @@
 ---
 builds:
   threes:
-  - num: 18
+  - num: 19
     skills:
     - icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Egg Carrier
     - icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
-    - icon: afd7ecd77cdb3064690b9f0277a774dd
-      name: Spiderling Venom
     - icon: f561a4d171334264d8f0eac3e9eb6d24
       name: Overlord
+    - icon: afd7ecd77cdb3064690b9f0277a774dd
+      name: Spiderling Venom
     - icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Hive Mind
   - num: 11
@@ -100,14 +100,14 @@ builds:
       name: Hive Mind
   - num: 6
     skills:
+    - icon: c9f7e2e324bbed3469cbe356da833c9b
+      name: Disperse
     - icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Egg Carrier
     - icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
     - icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Spiderling Venom
-    - icon: c9f7e2e324bbed3469cbe356da833c9b
-      name: Disperse
     - icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Hive Mind
   - num: 5
@@ -124,7 +124,7 @@ builds:
       name: Hive Mind
 layout: character
 name: pestilus
-num: 74
+num: 77
 title: Pestilus
 url: characters/pestilus.html
 ...

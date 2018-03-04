@@ -17,12 +17,12 @@ builds:
     skills:
     - icon: 1ac43589909cda746bafbf3da20d1559
       name: Twirl
-    - icon: 61e058b8f4b79f4419ec1496f223ee36
-      name: Inspiration
     - icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Blizzard
     - icon: bffd25b328052f647a5e1705071fe746
       name: Ice Breaker
+    - icon: 61e058b8f4b79f4419ec1496f223ee36
+      name: Inspiration
     - icon: bffd25b328052f647a5e1705071fe746
       name: Piercing Cold
   - num: 5
@@ -124,7 +124,7 @@ builds:
       name: Piercing Cold
 layout: character
 name: alysia
-num: 75
+num: 79
 title: Alysia
 url: characters/alysia.html
 ...

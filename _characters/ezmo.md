@@ -1,7 +1,7 @@
 ---
 builds:
   threes:
-  - num: 29
+  - num: 44
     skills:
     - icon: 563027e5fd687db4697308c54fe91381
       name: Spell Eater
@@ -25,7 +25,7 @@ builds:
       name: Whizz
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Disruption
-  - num: 18
+  - num: 20
     skills:
     - icon: 563027e5fd687db4697308c54fe91381
       name: Spell Eater
@@ -49,7 +49,7 @@ builds:
       name: Warlock's Grip
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Disruption
-  - num: 6
+  - num: 7
     skills:
     - icon: 563027e5fd687db4697308c54fe91381
       name: Spell Eater
@@ -74,7 +74,7 @@ builds:
       name: Whizz
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Disruption
-  - num: 10
+  - num: 11
     skills:
     - icon: 563027e5fd687db4697308c54fe91381
       name: Spell Eater
@@ -98,7 +98,7 @@ builds:
       name: Warlock's Grip
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Disruption
-  - num: 7
+  - num: 8
     skills:
     - icon: 563027e5fd687db4697308c54fe91381
       name: Spell Eater
@@ -124,7 +124,7 @@ builds:
       name: Disruption
 layout: character
 name: ezmo
-num: 162
+num: 183
 title: Ezmo
 url: characters/ezmo.html
 ...

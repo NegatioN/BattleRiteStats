@@ -25,18 +25,18 @@ builds:
       name: Triple Strike
     - icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
-  - num: 3
+  - num: 4
     skills:
-    - icon: 97d6d4df3883adc4d99a900f62576ff7
-      name: Slippery Skin
     - icon: 84e29daadee87714294bbdabd3fdd4ab
-      name: Mending Toxin
+      name: Lethal Toxins
     - icon: 97d6d4df3883adc4d99a900f62576ff7
-      name: Venom Strike
-    - icon: f4d1c9994ff77524bacb0bfe5347e118
-      name: Triple Strike
+      name: Cut to the Chase
+    - icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
+      name: Noxious Reaction
     - icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
+    - icon: f4d1c9994ff77524bacb0bfe5347e118
+      name: Triple Strike
   - num: 3
     skills:
     - icon: 97d6d4df3883adc4d99a900f62576ff7
@@ -52,15 +52,15 @@ builds:
   - num: 3
     skills:
     - icon: 84e29daadee87714294bbdabd3fdd4ab
-      name: Lethal Toxins
-    - icon: 97d6d4df3883adc4d99a900f62576ff7
-      name: Cut to the Chase
+      name: Mending Toxin
+    - icon: f4d1c9994ff77524bacb0bfe5347e118
+      name: Jungle Toad
     - icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
       name: Noxious Reaction
+    - icon: 97d6d4df3883adc4d99a900f62576ff7
+      name: Venom Strike
     - icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
-    - icon: f4d1c9994ff77524bacb0bfe5347e118
-      name: Triple Strike
   twos:
   - num: 9
     skills:
@@ -74,19 +74,7 @@ builds:
       name: Triple Strike
     - icon: 2c885df2336558e489fbe57b32a9fb94
       name: Frog Frenzy
-  - num: 6
-    skills:
-    - icon: 84e29daadee87714294bbdabd3fdd4ab
-      name: Mending Toxin
-    - icon: 97d6d4df3883adc4d99a900f62576ff7
-      name: Slippery Skin
-    - icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
-      name: Frog Slice
-    - icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
-      name: Noxious Reaction
-    - icon: 2c885df2336558e489fbe57b32a9fb94
-      name: Frog Frenzy
-  - num: 6
+  - num: 7
     skills:
     - icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Mending Toxin
@@ -98,6 +86,18 @@ builds:
       name: Triple Strike
     - icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
+  - num: 6
+    skills:
+    - icon: 97d6d4df3883adc4d99a900f62576ff7
+      name: Slippery Skin
+    - icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
+      name: Frog Slice
+    - icon: 84e29daadee87714294bbdabd3fdd4ab
+      name: Mending Toxin
+    - icon: 2c885df2336558e489fbe57b32a9fb94
+      name: Frog Frenzy
+    - icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
+      name: Noxious Reaction
   - num: 4
     skills:
     - icon: 97d6d4df3883adc4d99a900f62576ff7
@@ -124,7 +124,7 @@ builds:
       name: Cut to the Chase
 layout: character
 name: croak
-num: 109
+num: 113
 title: Croak
 url: characters/croak.html
 ...

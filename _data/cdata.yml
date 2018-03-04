@@ -1,3 +1,6 @@
+extra:
+  num_matches: 935
+  time_generated: 04 March 2018, 15:15
 threes:
 - builds:
   - num: 17
@@ -16,12 +19,12 @@ threes:
     skills:
     - icon: 1ac43589909cda746bafbf3da20d1559
       name: Twirl
-    - icon: 61e058b8f4b79f4419ec1496f223ee36
-      name: Inspiration
     - icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Blizzard
     - icon: bffd25b328052f647a5e1705071fe746
       name: Ice Breaker
+    - icon: 61e058b8f4b79f4419ec1496f223ee36
+      name: Inspiration
     - icon: bffd25b328052f647a5e1705071fe746
       name: Piercing Cold
   - num: 5
@@ -40,14 +43,14 @@ threes:
 - builds:
   - num: 21
     skills:
-    - icon: 7612ba34ea3cdf9429a033d92e85c117
-      name: Magma
     - icon: 117c35c7f757858428a733d8da4982be
       name: Heat
-    - icon: 61e058b8f4b79f4419ec1496f223ee36
-      name: Inspiration
     - icon: c6d71f7b4598ec14cab637f6d9ffce64
       name: Conflagration
+    - icon: 61e058b8f4b79f4419ec1496f223ee36
+      name: Inspiration
+    - icon: 7612ba34ea3cdf9429a033d92e85c117
+      name: Magma
     - icon: de69286ec8d6c934c9b04c51d1814b5c
       name: Burning Feet
   - num: 10
@@ -62,7 +65,7 @@ threes:
       name: Magma
     - icon: de69286ec8d6c934c9b04c51d1814b5c
       name: Burning Feet
-  - num: 9
+  - num: 10
     skills:
     - icon: 48122c1a1a8cae7408409c90126f11cb
       name: Inferno
@@ -107,11 +110,11 @@ threes:
     - icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
       name: Shield Bash
     - icon: 84ba51168b08df3489362e3a9be59704
-      name: Adrenaline Slam
-    - icon: 84ba51168b08df3489362e3a9be59704
       name: Raging Ram
     - icon: 741da913acab25641862d0312d75a7a1
       name: Hamstring
+    - icon: 84ba51168b08df3489362e3a9be59704
+      name: Adrenaline Slam
   name: Bakko
 - builds:
   - num: 12
@@ -142,14 +145,14 @@ threes:
     skills:
     - icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
-    - icon: 493cac6f13fb41849aaf95ed03fbb488
-      name: Healthful Bark
-    - icon: e0ead374bbde24c44a10cc34294a6e44
-      name: Weakening Pitch
     - icon: 36048e053d179474491aa317959b3eb7
       name: Hop and Skip!
     - icon: 493cac6f13fb41849aaf95ed03fbb488
+      name: Healthful Bark
+    - icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Bountiful Tree
+    - icon: e0ead374bbde24c44a10cc34294a6e44
+      name: Weakening Pitch
   name: Blossom
 - builds:
   - num: 5
@@ -176,18 +179,18 @@ threes:
       name: Triple Strike
     - icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
-  - num: 3
+  - num: 4
     skills:
-    - icon: 97d6d4df3883adc4d99a900f62576ff7
-      name: Slippery Skin
     - icon: 84e29daadee87714294bbdabd3fdd4ab
-      name: Mending Toxin
+      name: Lethal Toxins
     - icon: 97d6d4df3883adc4d99a900f62576ff7
-      name: Venom Strike
-    - icon: f4d1c9994ff77524bacb0bfe5347e118
-      name: Triple Strike
+      name: Cut to the Chase
+    - icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
+      name: Noxious Reaction
     - icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
+    - icon: f4d1c9994ff77524bacb0bfe5347e118
+      name: Triple Strike
   name: Croak
 - builds:
   - num: 7
@@ -206,18 +209,6 @@ threes:
     skills:
     - icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Globetrotter
-    - icon: 14568f096fcd91f488876796605f5063
-      name: Sizzle
-    - icon: 1d95f324f635c9447a68299999e8597e
-      name: Blast Processing
-    - icon: 751839d4f58db9445aa7fc86411521a1
-      name: Expansion Pack
-    - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: Power Attachment
-  - num: 1
-    skills:
-    - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: System Shock
     - icon: 1d95f324f635c9447a68299999e8597e
       name: Energy Conversion
     - icon: 1d95f324f635c9447a68299999e8597e
@@ -226,9 +217,21 @@ threes:
       name: Violent Revolution
     - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: Power Attachment
+  - num: 2
+    skills:
+    - icon: 32189e52d279bcc498ede10b3d3ff6d1
+      name: Globetrotter
+    - icon: 14568f096fcd91f488876796605f5063
+      name: Sizzle
+    - icon: 1d95f324f635c9447a68299999e8597e
+      name: Blast Processing
+    - icon: 751839d4f58db9445aa7fc86411521a1
+      name: Expansion Pack
+    - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: Power Attachment
   name: Destiny
 - builds:
-  - num: 29
+  - num: 44
     skills:
     - icon: 563027e5fd687db4697308c54fe91381
       name: Spell Eater
@@ -252,7 +255,7 @@ threes:
       name: Whizz
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Disruption
-  - num: 18
+  - num: 20
     skills:
     - icon: 563027e5fd687db4697308c54fe91381
       name: Spell Eater
@@ -266,7 +269,7 @@ threes:
       name: Disruption
   name: Ezmo
 - builds:
-  - num: 141
+  - num: 159
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
       name: Lightning Speed
@@ -292,28 +295,28 @@ threes:
       name: Twin Hammers
   - num: 5
     skills:
-    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
-      name: Overcharge
     - icon: 883e2720ad11f2d49b51d9f649c67203
       name: Lightning Speed
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
     - icon: f5f7b137c0c9d444899035c91cedda42
       name: Rolling Thunder
     - icon: f5f7b137c0c9d444899035c91cedda42
       name: Lightning Rod
-    - icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Electric Conduction
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Overcharge
   name: Freya
 - builds:
-  - num: 3
+  - num: 4
     skills:
-    - icon: 7442381b626556c4e8193c48031d01ef
-      name: U-Turn
-    - icon: 7442381b626556c4e8193c48031d01ef
-      name: Rocket Boosters
-    - icon: 9274b3f40ab2b4048b5cde1e9164901e
-      name: Hyperspeed
     - icon: d80cae4dd7699264fb3c37675b59f263
       name: Boom!
+    - icon: 7442381b626556c4e8193c48031d01ef
+      name: U-Turn
+    - icon: 9274b3f40ab2b4048b5cde1e9164901e
+      name: Hyperspeed
+    - icon: 7442381b626556c4e8193c48031d01ef
+      name: Rocket Boosters
     - icon: d80cae4dd7699264fb3c37675b59f263
       name: Stockpile
   - num: 3
@@ -332,17 +335,17 @@ threes:
     skills:
     - icon: d80cae4dd7699264fb3c37675b59f263
       name: Boom!
+    - icon: 7442381b626556c4e8193c48031d01ef
+      name: Rocket Boosters
     - icon: 9274b3f40ab2b4048b5cde1e9164901e
-      name: Hyperspeed
-    - icon: c9cd772b84da5454e9888a19fa249483
-      name: Conductor
+      name: Durable Shield
     - icon: 9274b3f40ab2b4048b5cde1e9164901e
       name: Blast Shield
-    - icon: d80cae4dd7699264fb3c37675b59f263
-      name: Stockpile
+    - icon: 7442381b626556c4e8193c48031d01ef
+      name: U-Turn
   name: Iva
 - builds:
-  - num: 21
+  - num: 23
     skills:
     - icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
       name: Delight
@@ -354,7 +357,7 @@ threes:
       name: Concussion Bomb
     - icon: 20e8f262eca757942bc23d94aa73ab2a
       name: Deadly Focus
-  - num: 11
+  - num: 12
     skills:
     - icon: ead2d318c0e3f8f4793207ab3e12da21
       name: Blasting Pistols
@@ -368,19 +371,19 @@ threes:
       name: Concussion Bomb
   - num: 8
     skills:
-    - icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
-      name: Desperado
+    - icon: ead2d318c0e3f8f4793207ab3e12da21
+      name: Blasting Pistols
     - icon: c5da66a86ca45a1449a49d55cc92d1fc
       name: Ambush
     - icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
-    - icon: ead2d318c0e3f8f4793207ab3e12da21
-      name: Blasting Pistols
+    - icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
+      name: Desperado
     - icon: 20e8f262eca757942bc23d94aa73ab2a
       name: Deadly Focus
   name: Jade
 - builds:
-  - num: 7
+  - num: 10
     skills:
     - icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
@@ -435,25 +438,25 @@ threes:
     - icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
     - icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Companion Potion
-    - icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
     - icon: d0c4449b33eef2e4ca2cfa8900910041
       name: Potency
-    - icon: 470a917c1ac62c04ea45acc6a35c5f73
-      name: Swift Roll
+    - icon: e45c9dbf4c532ca4c8c8dfca14798771
+      name: Hysteria
+    - icon: 46e144a65c818c04eb3d00a21cf513b3
+      name: Blast Shield
   - num: 2
     skills:
-    - icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Companion Potion
-    - icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Stimulant
+    - icon: d0c4449b33eef2e4ca2cfa8900910041
+      name: Adhesive Component
     - icon: 470a917c1ac62c04ea45acc6a35c5f73
       name: Swift Roll
     - icon: 46e144a65c818c04eb3d00a21cf513b3
       name: Alacrity
     - icon: 46e144a65c818c04eb3d00a21cf513b3
       name: Blast Shield
+    - icon: bbe2697d5982f654d8dab2223790bd77
+      name: Agility
   name: Lucie
 - builds:
   - num: 12
@@ -480,7 +483,7 @@ threes:
       name: Dehydration
     - icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
-  - num: 8
+  - num: 9
     skills:
     - icon: a22c6c4bc967d4e48a44f0e87a93023e
       name: Drain
@@ -494,31 +497,31 @@ threes:
       name: Dehydration
   name: Oldur
 - builds:
-  - num: 35
+  - num: 39
     skills:
-    - icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Soaking Wet
-    - icon: baa9baf5b01c5ee42902398a8f946a5a
-      name: Gush
-    - icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Splash Damage
-    - icon: 6c30b1e6992030e4dae06a355b7a4fb4
-      name: Riptide
     - icon: 81f898538a9eba14b82110f8ebf6654e
       name: Fountain
-  - num: 21
-    skills:
-    - icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Soaking Wet
     - icon: baa9baf5b01c5ee42902398a8f946a5a
       name: Gush
     - icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
     - icon: baa9baf5b01c5ee42902398a8f946a5a
       name: Sea Bubble
+    - icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Soaking Wet
+  - num: 35
+    skills:
     - icon: 81f898538a9eba14b82110f8ebf6654e
       name: Fountain
-  - num: 20
+    - icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Gush
+    - icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Splash Damage
+    - icon: 6c30b1e6992030e4dae06a355b7a4fb4
+      name: Riptide
+    - icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Soaking Wet
+  - num: 21
     skills:
     - icon: baa9baf5b01c5ee42902398a8f946a5a
       name: Gush
@@ -532,16 +535,16 @@ threes:
       name: Rippling Waters
   name: Pearl
 - builds:
-  - num: 18
+  - num: 19
     skills:
     - icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Egg Carrier
     - icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
-    - icon: afd7ecd77cdb3064690b9f0277a774dd
-      name: Spiderling Venom
     - icon: f561a4d171334264d8f0eac3e9eb6d24
       name: Overlord
+    - icon: afd7ecd77cdb3064690b9f0277a774dd
+      name: Spiderling Venom
     - icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Hive Mind
   - num: 11
@@ -572,16 +575,16 @@ threes:
 - builds:
   - num: 19
     skills:
+    - icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Affection
     - icon: 510f65762365d8a47815877780d9227d
       name: Shimmering Bond
     - icon: 7bd09f2f761edd0438938579a6942e82
       name: Phantasm
-    - icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Silver Fang
     - icon: dfc86226d7b2a6d438dad7dfca7a0d52
       name: Into the Realm
     - icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Affection
+      name: Silver Fang
   - num: 18
     skills:
     - icon: 70d64cab20af264438c599ba3ecdd2c4
@@ -594,16 +597,16 @@ threes:
       name: Specter
     - icon: b6b9a08408c476c4a9f91eba6dacbb52
       name: Spiritual Wind
-  - num: 4
+  - num: 7
     skills:
-    - icon: 510f65762365d8a47815877780d9227d
-      name: Shimmering Bond
+    - icon: 7bd09f2f761edd0438938579a6942e82
+      name: Phantasm
     - icon: 70d64cab20af264438c599ba3ecdd2c4
       name: Silver Fang
     - icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
     - icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Into the Realm
+      name: Specter
     - icon: b6b9a08408c476c4a9f91eba6dacbb52
       name: Spiritual Wind
   name: Poloma
@@ -622,14 +625,14 @@ threes:
       name: Duelist
   - num: 3
     skills:
-    - icon: fbfb00ff4fa4bc542b54639b84406f01
-      name: Riposte
+    - icon: d25b4fc0d427d424891492d2b61469a9
+      name: Dragon Mastery
     - icon: 3c1f1a5c65f54594a9d3ba17b8f1b2a2
       name: Perilous Height
     - icon: fbfb00ff4fa4bc542b54639b84406f01
       name: Invigorate
-    - icon: d25b4fc0d427d424891492d2b61469a9
-      name: Dragon Mastery
+    - icon: fbfb00ff4fa4bc542b54639b84406f01
+      name: Riposte
     - icon: bbe2697d5982f654d8dab2223790bd77
       name: Agility
   - num: 3
@@ -646,7 +649,7 @@ threes:
       name: Duelist
   name: Raigon
 - builds:
-  - num: 20
+  - num: 21
     skills:
     - icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
@@ -658,19 +661,19 @@ threes:
       name: Giant
     - icon: 0cfff8a481a64fd499bfaeb3da1cbca5
       name: Endurance
-  - num: 16
+  - num: 20
     skills:
     - icon: bc4e2e34829b8af4c92bb6a8f570fc96
-      name: Squash
-    - icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Rook Smash
+    - icon: bc4e2e34829b8af4c92bb6a8f570fc96
+      name: Squash
     - icon: 0cfff8a481a64fd499bfaeb3da1cbca5
       name: Frenzy
     - icon: df78f943fca96314181fdf1827f825db
       name: Giant
     - icon: 0cfff8a481a64fd499bfaeb3da1cbca5
       name: Endurance
-  - num: 14
+  - num: 15
     skills:
     - icon: df78f943fca96314181fdf1827f825db
       name: Madness
@@ -684,6 +687,30 @@ threes:
       name: Endurance
   name: Rook
 - builds:
+  - num: 5
+    skills:
+    - icon: 2a54393ededda834a8070123fbc265cc
+      name: Agony
+    - icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Wicked Strike
+    - icon: 13fbbdb9e7cbde8429053e33e1022fa8
+      name: Tenacious Demon
+    - icon: 5a7e98c96d8346948b9f3f2a907e84ea
+      name: Hunger
+    - icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Grim Edge
+  - num: 3
+    skills:
+    - icon: fe85f5b940cf1ff44825f090b2bb34ce
+      name: Demonic Hunt
+    - icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Wicked Strike
+    - icon: 13fbbdb9e7cbde8429053e33e1022fa8
+      name: Cold Embrace
+    - icon: 13fbbdb9e7cbde8429053e33e1022fa8
+      name: Tenacious Demon
+    - icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Grim Edge
   - num: 3
     skills:
     - icon: fe85f5b940cf1ff44825f090b2bb34ce
@@ -696,40 +723,16 @@ threes:
       name: Hunger
     - icon: 13fbbdb9e7cbde8429053e33e1022fa8
       name: Tenacious Demon
-  - num: 3
-    skills:
-    - icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Grim Edge
-    - icon: c84fd648ae9f196428ba4e9b3bc42d1e
-      name: Gorge
-    - icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Cold Embrace
-    - icon: fe85f5b940cf1ff44825f090b2bb34ce
-      name: Nether Chains
-    - icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Tenacious Demon
-  - num: 3
-    skills:
-    - icon: 2a54393ededda834a8070123fbc265cc
-      name: Agony
-    - icon: c84fd648ae9f196428ba4e9b3bc42d1e
-      name: Gorge
-    - icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Grim Edge
-    - icon: 2a54393ededda834a8070123fbc265cc
-      name: Affliction
-    - icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Tenacious Demon
   name: Ruh Kaan
 - builds:
-  - num: 61
+  - num: 62
     skills:
+    - icon: 18eee826117df534d91bd518653fc360
+      name: Thrust
     - icon: 18eee826117df534d91bd518653fc360
       name: Ceremonial Spear
     - icon: 19e037c83991916449cd9475c20ca0d1
       name: Ferocious Stance
-    - icon: 18eee826117df534d91bd518653fc360
-      name: Thrust
     - icon: 2b30312258b7fec4a90040d475f5b31f
       name: Dirty Tricks
     - icon: 0b6f5070063c16f4eb62990034cffd29
@@ -762,18 +765,6 @@ threes:
 - builds:
   - num: 5
     skills:
-    - icon: 6827f63e526ef4d46b82332e042bf06a
-      name: Sunwell
-    - icon: c2d82c257d770664682e9df0dadb6596
-      name: Daybreak
-    - icon: f13a6cad4bcaa974f8147e8a29a49dfe
-      name: Radiance
-    - icon: 86a75fb294677254e8706e98f7507f8b
-      name: Lethal Slash
-    - icon: 550d7ec44eda09941a7b713422b042d0
-      name: Celestial Cycle
-  - num: 4
-    skills:
     - icon: f138c9c126ce8934bbe8d6ba98327181
       name: Lunatic
     - icon: 550d7ec44eda09941a7b713422b042d0
@@ -784,6 +775,18 @@ threes:
       name: Lethal Slash
     - icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
+  - num: 5
+    skills:
+    - icon: 6827f63e526ef4d46b82332e042bf06a
+      name: Sunwell
+    - icon: c2d82c257d770664682e9df0dadb6596
+      name: Daybreak
+    - icon: f13a6cad4bcaa974f8147e8a29a49dfe
+      name: Radiance
+    - icon: 86a75fb294677254e8706e98f7507f8b
+      name: Lethal Slash
+    - icon: 550d7ec44eda09941a7b713422b042d0
+      name: Celestial Cycle
   - num: 3
     skills:
     - icon: 86a75fb294677254e8706e98f7507f8b
@@ -800,8 +803,6 @@ threes:
 - builds:
   - num: 21
     skills:
-    - icon: 9a292cf4ed808d54c922ab48f5881c5a
-      name: Wind Fury
     - icon: e6c2b076242187d44941ae0cefa96f62
       name: Breath of Air
     - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
@@ -810,18 +811,20 @@ threes:
       name: Wind Stream
     - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
       name: Surprise Attack
+    - icon: 9a292cf4ed808d54c922ab48f5881c5a
+      name: Wind Fury
   - num: 13
     skills:
     - icon: 9a292cf4ed808d54c922ab48f5881c5a
-      name: Cyclone
-    - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
-      name: Wind Stream
-    - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
-      name: Cross Cut
+      name: Wind Fury
     - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
       name: Surprise Attack
+    - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
+      name: Cross Cut
+    - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
+      name: Wind Stream
     - icon: 9a292cf4ed808d54c922ab48f5881c5a
-      name: Wind Fury
+      name: Cyclone
   - num: 7
     skills:
     - icon: 9a292cf4ed808d54c922ab48f5881c5a
@@ -874,7 +877,7 @@ threes:
       name: Fearsome Uprootal
   name: Thorn
 - builds:
-  - num: 13
+  - num: 14
     skills:
     - icon: 2771f14010b802143b0b4d5fc8e4bb9c
       name: Ruin
@@ -898,7 +901,7 @@ threes:
       name: Wonder
     - icon: af1b0c6a44fc0a34694eafc090cd68ee
       name: Absolute Power
-  - num: 3
+  - num: 4
     skills:
     - icon: d6c97da35fc19134881cb5a4c44e3912
       name: Inhibitor
@@ -912,7 +915,7 @@ threes:
       name: Absolute Power
   name: Varesh
 - builds:
-  - num: 42
+  - num: 43
     skills:
     - icon: 1180e87d69492d442afaa79cbba36746
       name: Lead Astray
@@ -930,24 +933,24 @@ threes:
       name: Lead Astray
     - icon: 144efc709ac628542aee319b14932b2c
       name: Heart Restoration
-    - icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Around the World
-    - icon: 2632a24f2167af14f9869abb401dd67f
-      name: Stacked Deck
     - icon: a970261549d4e2b4c923db1944ac2e4b
       name: Arcane Conductor
-  - num: 29
-    skills:
-    - icon: 1180e87d69492d442afaa79cbba36746
-      name: Lead Astray
     - icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
+    - icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Around the World
+  - num: 29
+    skills:
+    - icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Arcane Shenanigans
     - icon: af5ff3eb2bad4b04a9c6dd30739068e6
       name: Showdown
     - icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Arcane Shenanigans
-    - icon: a970261549d4e2b4c923db1944ac2e4b
       name: Arcane Conductor
+    - icon: 2632a24f2167af14f9869abb401dd67f
+      name: Stacked Deck
+    - icon: 1180e87d69492d442afaa79cbba36746
+      name: Lead Astray
   name: Zander
 twos:
 - builds:
@@ -989,16 +992,16 @@ twos:
       name: Frost Nova
   name: Alysia
 - builds:
-  - num: 8
+  - num: 15
     skills:
+    - icon: 117c35c7f757858428a733d8da4982be
+      name: Heat
     - icon: c6d71f7b4598ec14cab637f6d9ffce64
       name: Conflagration
     - icon: 61e058b8f4b79f4419ec1496f223ee36
       name: Inspiration
     - icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
-    - icon: 117c35c7f757858428a733d8da4982be
-      name: Heat
     - icon: de69286ec8d6c934c9b04c51d1814b5c
       name: Burning Feet
   - num: 4
@@ -1031,14 +1034,14 @@ twos:
     skills:
     - icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
       name: Shield Bash
+    - icon: 84ba51168b08df3489362e3a9be59704
+      name: Adrenaline Slam
     - icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
-    - icon: 84ba51168b08df3489362e3a9be59704
-      name: Dizzying Dash
     - icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
     - icon: 84ba51168b08df3489362e3a9be59704
-      name: Adrenaline Slam
+      name: Dizzying Dash
   - num: 9
     skills:
     - icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
@@ -1053,26 +1056,26 @@ twos:
       name: Adrenaline Slam
   - num: 3
     skills:
+    - icon: 16e7e84d6c786cf4abc695c9b1c29b31
+      name: Bravery
     - icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
       name: Shield Bash
-    - icon: 16e7e84d6c786cf4abc695c9b1c29b31
-      name: Adrenaline Rush
-    - icon: 84ba51168b08df3489362e3a9be59704
-      name: Adrenaline Slam
-    - icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
-      name: Mobile Defence
+    - icon: 741da913acab25641862d0312d75a7a1
+      name: The Red Axe
     - icon: e0a2c1fab3bd3d5468cbc7f4942b5448
       name: Axe and Shield
+    - icon: 741da913acab25641862d0312d75a7a1
+      name: Hamstring
   name: Bakko
 - builds:
-  - num: 72
+  - num: 80
     skills:
     - icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
-    - icon: 36048e053d179474491aa317959b3eb7
-      name: Hop and Skip!
     - icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Healthful Bark
+    - icon: 36048e053d179474491aa317959b3eb7
+      name: Hop and Skip!
     - icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
     - icon: 4832a1022ed764241a63b8dacc299ee9
@@ -1084,11 +1087,11 @@ twos:
     - icon: 36048e053d179474491aa317959b3eb7
       name: Hop and Skip!
     - icon: 493cac6f13fb41849aaf95ed03fbb488
-      name: Bountiful Tree
+      name: Healthful Bark
     - icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
     - icon: 493cac6f13fb41849aaf95ed03fbb488
-      name: Healthful Bark
+      name: Bountiful Tree
   - num: 11
     skills:
     - icon: e0ead374bbde24c44a10cc34294a6e44
@@ -1115,19 +1118,7 @@ twos:
       name: Triple Strike
     - icon: 2c885df2336558e489fbe57b32a9fb94
       name: Frog Frenzy
-  - num: 6
-    skills:
-    - icon: 84e29daadee87714294bbdabd3fdd4ab
-      name: Mending Toxin
-    - icon: 97d6d4df3883adc4d99a900f62576ff7
-      name: Slippery Skin
-    - icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
-      name: Frog Slice
-    - icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
-      name: Noxious Reaction
-    - icon: 2c885df2336558e489fbe57b32a9fb94
-      name: Frog Frenzy
-  - num: 6
+  - num: 7
     skills:
     - icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Mending Toxin
@@ -1139,6 +1130,18 @@ twos:
       name: Triple Strike
     - icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
+  - num: 6
+    skills:
+    - icon: 97d6d4df3883adc4d99a900f62576ff7
+      name: Slippery Skin
+    - icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
+      name: Frog Slice
+    - icon: 84e29daadee87714294bbdabd3fdd4ab
+      name: Mending Toxin
+    - icon: 2c885df2336558e489fbe57b32a9fb94
+      name: Frog Frenzy
+    - icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
+      name: Noxious Reaction
   name: Croak
 - builds:
   - num: 7
@@ -1157,24 +1160,24 @@ twos:
     skills:
     - icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Globetrotter
+    - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: Power Attachment
     - icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
     - icon: 1d95f324f635c9447a68299999e8597e
       name: Blast Processing
     - icon: 751839d4f58db9445aa7fc86411521a1
       name: Expansion Pack
-    - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: Power Attachment
   - num: 3
     skills:
     - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: Power Attachment
-    - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: System Shock
-    - icon: 14568f096fcd91f488876796605f5063
-      name: Sizzle
     - icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
+    - icon: 14568f096fcd91f488876796605f5063
+      name: Sizzle
+    - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: System Shock
     - icon: 751839d4f58db9445aa7fc86411521a1
       name: Expansion Pack
   name: Destiny
@@ -1191,7 +1194,7 @@ twos:
       name: Whizz
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Disruption
-  - num: 10
+  - num: 11
     skills:
     - icon: 563027e5fd687db4697308c54fe91381
       name: Spell Eater
@@ -1232,6 +1235,18 @@ twos:
   - num: 4
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Lightning Speed
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: a4b023549fa7dbb46bb159a9b8557df2
+      name: Positive Charge
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+  - num: 4
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
       name: Electric Conduction
     - icon: f5f7b137c0c9d444899035c91cedda42
       name: Rolling Thunder
@@ -1241,32 +1256,20 @@ twos:
       name: Thunderbolt
     - icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
-  - num: 4
-    skills:
-    - icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Lightning Speed
-    - icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Electric Conduction
-    - icon: f5f7b137c0c9d444899035c91cedda42
-      name: Rolling Thunder
-    - icon: f5f7b137c0c9d444899035c91cedda42
-      name: Lightning Rod
-    - icon: a4b023549fa7dbb46bb159a9b8557df2
-      name: Positive Charge
   name: Freya
 - builds:
   - num: 6
     skills:
     - icon: d80cae4dd7699264fb3c37675b59f263
       name: Boom!
-    - icon: 7442381b626556c4e8193c48031d01ef
-      name: U-Turn
     - icon: 9274b3f40ab2b4048b5cde1e9164901e
       name: Hyperspeed
-    - icon: 7442381b626556c4e8193c48031d01ef
-      name: Rocket Boosters
     - icon: d80cae4dd7699264fb3c37675b59f263
       name: Stockpile
+    - icon: 7442381b626556c4e8193c48031d01ef
+      name: Rocket Boosters
+    - icon: 7442381b626556c4e8193c48031d01ef
+      name: U-Turn
   - num: 2
     skills:
     - icon: c9cd772b84da5454e9888a19fa249483
@@ -1285,15 +1288,15 @@ twos:
       name: Boom!
     - icon: a001d096a99f9a84da3e8b1056dc0535
       name: Gunge
-    - icon: 9274b3f40ab2b4048b5cde1e9164901e
-      name: Blast Shield
     - icon: 7442381b626556c4e8193c48031d01ef
       name: Rocket Boosters
+    - icon: 9274b3f40ab2b4048b5cde1e9164901e
+      name: Blast Shield
     - icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
   name: Iva
 - builds:
-  - num: 15
+  - num: 16
     skills:
     - icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
       name: Delight
@@ -1359,17 +1362,17 @@ twos:
     skills:
     - icon: 60a73a3140321ec448f7f97f00a07897
       name: Death Mark
-    - icon: ce1e01246a2a09145a192bb0deeeb400
-      name: Arrow Storm
     - icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Viper
     - icon: 594fdf8c70a83404da422aa6463e0e03
       name: Perfect Shot
     - icon: bcb5bbf5676057e4bb4278f5c20bb865
       name: Panther
+    - icon: 4b81fcaeb29b2cd4e81e67d224552899
+      name: Precision
   name: Jumong
 - builds:
-  - num: 7
+  - num: 8
     skills:
     - icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
@@ -1407,7 +1410,7 @@ twos:
       name: Alacrity
   name: Lucie
 - builds:
-  - num: 21
+  - num: 25
     skills:
     - icon: a22c6c4bc967d4e48a44f0e87a93023e
       name: Drain
@@ -1435,12 +1438,12 @@ twos:
     skills:
     - icon: 1e376cc95b8550443b527db1234300bd
       name: Dehydration
+    - icon: 89c37320af892ae43b410f4d610d7ea8
+      name: Chrono Shift
     - icon: 838ae06cda41a2544a1d2a528389d5b5
       name: Renew
     - icon: 35a1515e35b5104449dfa8802c5aa0e2
       name: Sand Struck
-    - icon: 89c37320af892ae43b410f4d610d7ea8
-      name: Chrono Shift
     - icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
   name: Oldur
@@ -1469,7 +1472,7 @@ twos:
       name: Tasty Fish
     - icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Rippling Waters
-  - num: 7
+  - num: 9
     skills:
     - icon: baa9baf5b01c5ee42902398a8f946a5a
       name: Gush
@@ -1523,6 +1526,18 @@ twos:
 - builds:
   - num: 7
     skills:
+    - icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Affection
+    - icon: dfc86226d7b2a6d438dad7dfca7a0d52
+      name: Into the Realm
+    - icon: 7bd09f2f761edd0438938579a6942e82
+      name: Vengeful Spirit
+    - icon: dfc86226d7b2a6d438dad7dfca7a0d52
+      name: Specter
+    - icon: b6b9a08408c476c4a9f91eba6dacbb52
+      name: Spiritual Wind
+  - num: 7
+    skills:
     - icon: 7bd09f2f761edd0438938579a6942e82
       name: Phantasm
     - icon: 70d64cab20af264438c599ba3ecdd2c4
@@ -1533,18 +1548,6 @@ twos:
       name: Specter
     - icon: dfc86226d7b2a6d438dad7dfca7a0d52
       name: Spirit Walker
-  - num: 7
-    skills:
-    - icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Affection
-    - icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Specter
-    - icon: 7bd09f2f761edd0438938579a6942e82
-      name: Vengeful Spirit
-    - icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Into the Realm
-    - icon: b6b9a08408c476c4a9f91eba6dacbb52
-      name: Spiritual Wind
   - num: 6
     skills:
     - icon: 70d64cab20af264438c599ba3ecdd2c4
@@ -1561,28 +1564,28 @@ twos:
 - builds:
   - num: 14
     skills:
-    - icon: d5c38afdefecf224b9a71bdfdb60dee1
-      name: Headlong Rush
+    - icon: d25b4fc0d427d424891492d2b61469a9
+      name: Dragon Mastery
     - icon: fbfb00ff4fa4bc542b54639b84406f01
       name: Invigorate
     - icon: fbfb00ff4fa4bc542b54639b84406f01
       name: Riposte
-    - icon: d25b4fc0d427d424891492d2b61469a9
-      name: Dragon Mastery
     - icon: d5c38afdefecf224b9a71bdfdb60dee1
       name: Binding Light
-  - num: 4
+    - icon: d5c38afdefecf224b9a71bdfdb60dee1
+      name: Headlong Rush
+  - num: 5
     skills:
     - icon: d5c38afdefecf224b9a71bdfdb60dee1
       name: Headlong Rush
-    - icon: d25b4fc0d427d424891492d2b61469a9
-      name: Dragon Mastery
-    - icon: 47dabb046c0ec4d4c96bde0832713a46
-      name: Hawk Dive
-    - icon: 3c1f1a5c65f54594a9d3ba17b8f1b2a2
-      name: Aerial Strike
     - icon: fbfb00ff4fa4bc542b54639b84406f01
       name: Duelist
+    - icon: d25b4fc0d427d424891492d2b61469a9
+      name: Dragon Mastery
+    - icon: 3c1f1a5c65f54594a9d3ba17b8f1b2a2
+      name: Aerial Strike
+    - icon: 47dabb046c0ec4d4c96bde0832713a46
+      name: Hawk Dive
   - num: 3
     skills:
     - icon: d25b4fc0d427d424891492d2b61469a9
@@ -1597,7 +1600,7 @@ twos:
       name: Aerial Strike
   name: Raigon
 - builds:
-  - num: 21
+  - num: 22
     skills:
     - icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
@@ -1612,23 +1615,23 @@ twos:
   - num: 18
     skills:
     - icon: bc4e2e34829b8af4c92bb6a8f570fc96
-      name: Rook Smash
-    - icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
+    - icon: bc4e2e34829b8af4c92bb6a8f570fc96
+      name: Rook Smash
     - icon: 0cfff8a481a64fd499bfaeb3da1cbca5
       name: Frenzy
     - icon: df78f943fca96314181fdf1827f825db
       name: Giant
     - icon: 0cfff8a481a64fd499bfaeb3da1cbca5
       name: Endurance
-  - num: 8
+  - num: 11
     skills:
     - icon: bc4e2e34829b8af4c92bb6a8f570fc96
-      name: Squash
+      name: Rook Smash
     - icon: ec50e13a62a38194186bf0763d8ae951
       name: Crag
     - icon: bc4e2e34829b8af4c92bb6a8f570fc96
-      name: Rook Smash
+      name: Squash
     - icon: ec50e13a62a38194186bf0763d8ae951
       name: Crumble
     - icon: 0cfff8a481a64fd499bfaeb3da1cbca5
@@ -1673,7 +1676,7 @@ twos:
       name: Grim Edge
   name: Ruh Kaan
 - builds:
-  - num: 67
+  - num: 72
     skills:
     - icon: 18eee826117df534d91bd518653fc360
       name: Ceremonial Spear
@@ -1735,7 +1738,7 @@ twos:
       name: Radiance
     - icon: f13a6cad4bcaa974f8147e8a29a49dfe
       name: Sunbath
-  - num: 4
+  - num: 5
     skills:
     - icon: 86a75fb294677254e8706e98f7507f8b
       name: Saros Cycle
@@ -1749,18 +1752,18 @@ twos:
       name: Sunbath
   name: Sirius
 - builds:
-  - num: 16
+  - num: 19
     skills:
     - icon: 9a292cf4ed808d54c922ab48f5881c5a
-      name: Wind Fury
-    - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
-      name: Surprise Attack
+      name: Cyclone
     - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
       name: Cross Cut
     - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
+    - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
+      name: Surprise Attack
     - icon: 9a292cf4ed808d54c922ab48f5881c5a
-      name: Cyclone
+      name: Wind Fury
   - num: 12
     skills:
     - icon: e6c2b076242187d44941ae0cefa96f62
@@ -1775,14 +1778,14 @@ twos:
       name: Wind Fury
   - num: 8
     skills:
+    - icon: 61e058b8f4b79f4419ec1496f223ee36
+      name: Inspiration
     - icon: e6c2b076242187d44941ae0cefa96f62
       name: Breath of Air
     - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
       name: Cross Cut
     - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
-    - icon: 61e058b8f4b79f4419ec1496f223ee36
-      name: Inspiration
     - icon: 9a292cf4ed808d54c922ab48f5881c5a
       name: Wind Fury
   name: Taya
@@ -1816,9 +1819,9 @@ twos:
     - icon: 3bf2758e82cebed44856097532c5dd9b
       name: Neurotoxin
     - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
-      name: Regrowth
-    - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Branch Out
+    - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
+      name: Regrowth
     - icon: 297830658f259844cb3ce7d0711f15d8
       name: Impaling Roots
     - icon: 297830658f259844cb3ce7d0711f15d8
@@ -1827,16 +1830,16 @@ twos:
 - builds:
   - num: 7
     skills:
-    - icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Celerity
     - icon: 2771f14010b802143b0b4d5fc8e4bb9c
       name: Ruin
+    - icon: d6c97da35fc19134881cb5a4c44e3912
+      name: Inhibitor
+    - icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Celerity
     - icon: c2525970f8ab5574191da4938fa5619b
       name: Devastation
     - icon: fe5369baf5a80dc47b0656ae7be82e09
       name: Synergy
-    - icon: d6c97da35fc19134881cb5a4c44e3912
-      name: Inhibitor
   - num: 5
     skills:
     - icon: 0eb9279bebee4a24b8fe4604894d3fb6
@@ -1851,30 +1854,30 @@ twos:
       name: Unlimited Power
   - num: 5
     skills:
-    - icon: fe5369baf5a80dc47b0656ae7be82e09
-      name: Unlimited Power
-    - icon: d6c97da35fc19134881cb5a4c44e3912
-      name: Inhibitor
-    - icon: d6c97da35fc19134881cb5a4c44e3912
-      name: Fracture
+    - icon: 2771f14010b802143b0b4d5fc8e4bb9c
+      name: Ruin
+    - icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Celerity
+    - icon: c2525970f8ab5574191da4938fa5619b
+      name: Silence
+    - icon: c2525970f8ab5574191da4938fa5619b
+      name: Devastation
     - icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
-    - icon: af1b0c6a44fc0a34694eafc090cd68ee
-      name: Absolute Power
   name: Varesh
 - builds:
-  - num: 38
+  - num: 43
     skills:
     - icon: 1180e87d69492d442afaa79cbba36746
       name: Lead Astray
     - icon: 144efc709ac628542aee319b14932b2c
       name: Heart Restoration
-    - icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Showdown
-    - icon: 2632a24f2167af14f9869abb401dd67f
-      name: Stacked Deck
     - icon: a970261549d4e2b4c923db1944ac2e4b
       name: Arcane Conductor
+    - icon: 2632a24f2167af14f9869abb401dd67f
+      name: Stacked Deck
+    - icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Showdown
   - num: 15
     skills:
     - icon: 1180e87d69492d442afaa79cbba36746
@@ -1894,9 +1897,9 @@ twos:
     - icon: 144efc709ac628542aee319b14932b2c
       name: Heart Restoration
     - icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Around the World
+      name: Showdown
     - icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
     - icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Showdown
+      name: Around the World
   name: Zander

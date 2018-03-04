@@ -1,14 +1,14 @@
 ---
 builds:
   threes:
-  - num: 61
+  - num: 62
     skills:
+    - icon: 18eee826117df534d91bd518653fc360
+      name: Thrust
     - icon: 18eee826117df534d91bd518653fc360
       name: Ceremonial Spear
     - icon: 19e037c83991916449cd9475c20ca0d1
       name: Ferocious Stance
-    - icon: 18eee826117df534d91bd518653fc360
-      name: Thrust
     - icon: 2b30312258b7fec4a90040d475f5b31f
       name: Dirty Tricks
     - icon: 0b6f5070063c16f4eb62990034cffd29
@@ -39,12 +39,12 @@ builds:
       name: Swift Feet
   - num: 7
     skills:
+    - icon: 19e037c83991916449cd9475c20ca0d1
+      name: Poised to Strike
     - icon: 18eee826117df534d91bd518653fc360
       name: Ceremonial Spear
     - icon: 18eee826117df534d91bd518653fc360
       name: Thrust
-    - icon: 19e037c83991916449cd9475c20ca0d1
-      name: Poised to Strike
     - icon: 2b30312258b7fec4a90040d475f5b31f
       name: Dirty Tricks
     - icon: 0b6f5070063c16f4eb62990034cffd29
@@ -62,7 +62,7 @@ builds:
     - icon: 19e037c83991916449cd9475c20ca0d1
       name: Ferocious Stance
   twos:
-  - num: 67
+  - num: 72
     skills:
     - icon: 18eee826117df534d91bd518653fc360
       name: Ceremonial Spear
@@ -117,14 +117,14 @@ builds:
     - icon: 18eee826117df534d91bd518653fc360
       name: Thrust
     - icon: 2b30312258b7fec4a90040d475f5b31f
-      name: Spear Slinger
-    - icon: 2b30312258b7fec4a90040d475f5b31f
       name: Dirty Tricks
+    - icon: 2b30312258b7fec4a90040d475f5b31f
+      name: Spear Slinger
     - icon: 19e037c83991916449cd9475c20ca0d1
       name: Mantra
 layout: character
 name: shifu
-num: 150
+num: 152
 title: Shifu
 url: characters/shifu.html
 ...

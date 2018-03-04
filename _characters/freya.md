@@ -1,7 +1,7 @@
 ---
 builds:
   threes:
-  - num: 141
+  - num: 159
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
       name: Lightning Speed
@@ -27,16 +27,16 @@ builds:
       name: Twin Hammers
   - num: 5
     skills:
-    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
-      name: Overcharge
     - icon: 883e2720ad11f2d49b51d9f649c67203
       name: Lightning Speed
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
     - icon: f5f7b137c0c9d444899035c91cedda42
       name: Rolling Thunder
     - icon: f5f7b137c0c9d444899035c91cedda42
       name: Lightning Rod
-    - icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Electric Conduction
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Overcharge
   - num: 5
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
@@ -77,6 +77,18 @@ builds:
   - num: 4
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Lightning Speed
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: a4b023549fa7dbb46bb159a9b8557df2
+      name: Positive Charge
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+  - num: 4
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
       name: Electric Conduction
     - icon: f5f7b137c0c9d444899035c91cedda42
       name: Rolling Thunder
@@ -98,18 +110,6 @@ builds:
       name: Lightning Rod
     - icon: a4b023549fa7dbb46bb159a9b8557df2
       name: Positive Charge
-  - num: 4
-    skills:
-    - icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Lightning Speed
-    - icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Electric Conduction
-    - icon: f5f7b137c0c9d444899035c91cedda42
-      name: Lightning Rod
-    - icon: a4b023549fa7dbb46bb159a9b8557df2
-      name: Positive Charge
-    - icon: f5f7b137c0c9d444899035c91cedda42
-      name: Torrent
   - num: 3
     skills:
     - icon: 11106dc7b3c44144c94a5cfa08bbb84f
@@ -124,7 +124,7 @@ builds:
       name: Twin Hammers
 layout: character
 name: freya
-num: 193
+num: 212
 title: Freya
 url: characters/freya.html
 ...
