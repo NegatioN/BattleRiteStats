@@ -125,8 +125,8 @@ def create_character_page_data(twos, threes):
         name = x[0]['name']
         chars.append({
             'layout': 'character',
-            'name': name,
             'title': name,
+            'name': name.replace(' ', '_').lower(),
             'url': "characters/" + name.replace(' ', '_').lower() + ".html",
             'builds':
                 {'twos': x[0]['builds'],
