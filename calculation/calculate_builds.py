@@ -125,6 +125,7 @@ if __name__ == "__main__":
         print('processing {}'.format(telem_url))
         parse_battlerites(get_telemetry_data(telem_url))
 
-
+    extras = {'num_matches': len(all_telemetries)}
     pickle_info(character_builds, 'character_builds.p')
     pickle_info(player_builds, 'player_builds.p')
+    pickle_info(extras, 'extras.p')

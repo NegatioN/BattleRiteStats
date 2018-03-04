@@ -4,6 +4,7 @@ from helpers import load_pickle, chunks, get_content
 from furrycorn.location import mk_origin, mk_path, mk_query, to_url
 import json
 from ratelimiter import RateLimiter
+from datetime import datetime
 import yaml
 import operator
 from collections import defaultdict
@@ -46,6 +47,7 @@ char_id_lookup = {x['typeID']: i for i,x in enumerate(characters)}
 
 player_data = load_pickle('player_builds.p')
 character_builds = load_pickle('character_builds.p')
+extras = load_pickle('extras.p')
 #player_lookup = make_player_lookup([str(x) for x in player_data.keys()])
 
 def sorted_by_count(x):
@@ -116,7 +118,9 @@ def num_builds_subset(character_build_array, num=3):
 num_builds_subset(twos_builds)
 
 master_d = {'twos': sort_by_heroname(num_builds_subset(twos_builds)),
-            'threes': sort_by_heroname(num_builds_subset(threes_builds))}
+            'threes': sort_by_heroname(num_builds_subset(threes_builds)),
+            'extra': {'time_generated': datetime.now().strftime('%d %B %Y, %H:%M'),
+                      'num_matches': extras['num_matches']}}
 
 def create_character_page_data(twos, threes):
     chars = []
