@@ -234,7 +234,6 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
     }
   }
 }
@@ -337,6 +336,10 @@ td > div {
 .explainer-text {
   font-size: 0.9rem;
   margin-bottom: 50px;
+}
+
+.glyphicon-menu-hamburger {
+  font-size: 35px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
