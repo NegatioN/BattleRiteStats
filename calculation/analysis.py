@@ -104,27 +104,34 @@ for mode, mode_dict in character_builds.items():
 
     print([x for x in sorted_by_count(appearance_summary)])
 
-def sort_by_heroname(buils_arr):
-    return sorted(buils_arr, key=lambda k: k['name'])
+def sort_array_dicts_by_key(dict_arr, key):
+    return sorted(dict_arr, key=lambda k: k[key])
 
+
+def sort_skills_alphabetically(builds_array):
+    print(builds_array)
+    alphabetically_sorted_skills = sort_array_dicts_by_key(builds_array['skills'], 'name')
+    builds_array['skills'] = alphabetically_sorted_skills
+    return builds_array
 
 def num_builds_subset(character_build_array, num=3):
     limited_subset = []
     for x in character_build_array:
         builds = [x for x in sorted_by_countarr(x['builds'])][:num]
         limited_subset.append({'name': x['name'], 'builds': builds})
-    return limited_subset
+    return [sort_skills_alphabetically(x['builds'][0]) for x in limited_subset]
 
-num_builds_subset(twos_builds)
 
-master_d = {'twos': sort_by_heroname(num_builds_subset(twos_builds)),
-            'threes': sort_by_heroname(num_builds_subset(threes_builds)),
+prepare_dict = lambda d, num: sort_array_dicts_by_key(num_builds_subset(d, num), 'name')
+
+master_d = {'twos': prepare_dict(twos_builds, 3),
+            'threes': prepare_dict(threes_builds, 3),
             'extra': {'time_generated': datetime.now().strftime('%d %B %Y, %H:%M'),
                       'num_matches': extras['num_matches']}}
 
 def create_character_page_data(twos, threes):
     chars = []
-    all_entries = [x for x in zip(sort_by_heroname(num_builds_subset(twos,5 )), sort_by_heroname(num_builds_subset(threes, 5)))]
+    all_entries = [x for x in zip(prepare_dict(twos, 5), prepare_dict(threes, 5))]
     for x in all_entries:
         name = x[0]['name']
         chars.append({
