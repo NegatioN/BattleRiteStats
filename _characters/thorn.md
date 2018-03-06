@@ -1,22 +1,20 @@
 ---
 builds:
   threes:
-  - num: 25
+  - num: 24
     skills:
-    - icon: 3bf2758e82cebed44856097532c5dd9b
-      name: Neurotoxin
-    - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
-      name: Regrowth
     - icon: e6cee4151f85f62479addb2c5f459016
       name: Critical Backlash
     - icon: 297830658f259844cb3ce7d0711f15d8
       name: Impaling Roots
     - icon: 297830658f259844cb3ce7d0711f15d8
       name: Lurker
-  - num: 4
-    skills:
     - icon: 3bf2758e82cebed44856097532c5dd9b
       name: Neurotoxin
+    - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
+      name: Regrowth
+  - num: 6
+    skills:
     - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Branch Out
     - icon: e6cee4151f85f62479addb2c5f459016
@@ -25,59 +23,59 @@ builds:
       name: Impaling Roots
     - icon: 297830658f259844cb3ce7d0711f15d8
       name: Lurker
-  - num: 4
-    skills:
     - icon: 3bf2758e82cebed44856097532c5dd9b
       name: Neurotoxin
-    - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
-      name: Regrowth
+  - num: 4
+    skills:
     - icon: e6cee4151f85f62479addb2c5f459016
       name: Critical Backlash
-    - icon: 297830658f259844cb3ce7d0711f15d8
-      name: Impaling Roots
     - icon: 297830658f259844cb3ce7d0711f15d8
       name: Fearsome Uprootal
+    - icon: 297830658f259844cb3ce7d0711f15d8
+      name: Impaling Roots
+    - icon: 3bf2758e82cebed44856097532c5dd9b
+      name: Neurotoxin
+    - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
+      name: Regrowth
   - num: 4
     skills:
-    - icon: 3bf2758e82cebed44856097532c5dd9b
-      name: Neurotoxin
-    - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
-      name: Regrowth
-    - icon: e6cee4151f85f62479addb2c5f459016
-      name: Critical Backlash
-    - icon: 297830658f259844cb3ce7d0711f15d8
-      name: Deep Burrow
-    - icon: 0939b3a016f47504e99e00148489743b
-      name: Sinister Sap
-  - num: 3
-    skills:
-    - icon: 3bf2758e82cebed44856097532c5dd9b
-      name: Neurotoxin
-    - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
-      name: Regrowth
     - icon: e6cee4151f85f62479addb2c5f459016
       name: Critical Backlash
     - icon: 297830658f259844cb3ce7d0711f15d8
       name: Impaling Roots
+    - icon: 297830658f259844cb3ce7d0711f15d8
+      name: Lurker
+    - icon: 3bf2758e82cebed44856097532c5dd9b
+      name: Neurotoxin
     - icon: 3bf2758e82cebed44856097532c5dd9b
       name: Parasitic Stems
+  - num: 4
+    skills:
+    - icon: e6cee4151f85f62479addb2c5f459016
+      name: Critical Backlash
+    - icon: 297830658f259844cb3ce7d0711f15d8
+      name: Fearsome Uprootal
+    - icon: 297830658f259844cb3ce7d0711f15d8
+      name: Lurker
+    - icon: 3bf2758e82cebed44856097532c5dd9b
+      name: Neurotoxin
+    - icon: 0939b3a016f47504e99e00148489743b
+      name: Sinister Sap
   twos:
   - num: 20
     skills:
-    - icon: 3bf2758e82cebed44856097532c5dd9b
-      name: Neurotoxin
-    - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
-      name: Regrowth
     - icon: e6cee4151f85f62479addb2c5f459016
       name: Critical Backlash
     - icon: 297830658f259844cb3ce7d0711f15d8
       name: Impaling Roots
     - icon: 297830658f259844cb3ce7d0711f15d8
       name: Lurker
-  - num: 10
-    skills:
     - icon: 3bf2758e82cebed44856097532c5dd9b
       name: Neurotoxin
+    - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
+      name: Regrowth
+  - num: 7
+    skills:
     - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Branch Out
     - icon: e6cee4151f85f62479addb2c5f459016
@@ -86,45 +84,47 @@ builds:
       name: Impaling Roots
     - icon: 297830658f259844cb3ce7d0711f15d8
       name: Lurker
-  - num: 3
-    skills:
     - icon: 3bf2758e82cebed44856097532c5dd9b
       name: Neurotoxin
+  - num: 4
+    skills:
     - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Branch Out
-    - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
-      name: Regrowth
     - icon: 297830658f259844cb3ce7d0711f15d8
       name: Impaling Roots
     - icon: 297830658f259844cb3ce7d0711f15d8
       name: Lurker
-  - num: 2
-    skills:
     - icon: 3bf2758e82cebed44856097532c5dd9b
       name: Neurotoxin
     - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
-    - icon: e6cee4151f85f62479addb2c5f459016
-      name: Critical Backlash
+  - num: 4
+    skills:
+    - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
+      name: Branch Out
     - icon: 297830658f259844cb3ce7d0711f15d8
       name: Impaling Roots
     - icon: 297830658f259844cb3ce7d0711f15d8
-      name: Fearsome Uprootal
-  - num: 1
-    skills:
+      name: Lurker
     - icon: 1ab62461fd3d7784f99630bc3350498c
       name: No Escape
-    - icon: 0939b3a016f47504e99e00148489743b
-      name: Creeping Roots
+    - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
+      name: Regrowth
+  - num: 2
+    skills:
     - icon: e6cee4151f85f62479addb2c5f459016
       name: Critical Backlash
     - icon: 297830658f259844cb3ce7d0711f15d8
-      name: Impaling Roots
+      name: Fearsome Uprootal
     - icon: 297830658f259844cb3ce7d0711f15d8
-      name: Lurker
+      name: Impaling Roots
+    - icon: 3bf2758e82cebed44856097532c5dd9b
+      name: Neurotoxin
+    - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
+      name: Regrowth
 layout: character
 name: thorn
-num: 78
+num: 92
 title: Thorn
 url: characters/thorn.html
 ...
