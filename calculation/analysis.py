@@ -109,24 +109,24 @@ def sort_array_dicts_by_key(dict_arr, key):
 
 
 def sort_skills_alphabetically(builds_array):
-    print(builds_array)
-    alphabetically_sorted_skills = sort_array_dicts_by_key(builds_array['skills'], 'name')
-    builds_array['skills'] = alphabetically_sorted_skills
+    for build in builds_array:
+        build['skills'] = sort_array_dicts_by_key(build['skills'], 'name')
+
     return builds_array
 
 def num_builds_subset(character_build_array, num=3):
     limited_subset = []
     for x in character_build_array:
         builds = [x for x in sorted_by_countarr(x['builds'])][:num]
-        limited_subset.append({'name': x['name'], 'builds': builds})
-    return [sort_skills_alphabetically(x['builds'][0]) for x in limited_subset]
+        limited_subset.append({'name': x['name'], 'builds': sort_skills_alphabetically(builds)})
+    return limited_subset
 
 
 prepare_dict = lambda d, num: sort_array_dicts_by_key(num_builds_subset(d, num), 'name')
 
 master_d = {'twos': prepare_dict(twos_builds, 3),
             'threes': prepare_dict(threes_builds, 3),
-            'extra': {'time_generated': datetime.now().strftime('%d %B %Y, %H:%M'),
+            'extra': {'time_generated': datetime.now().strftime('%d %B %Y'),
                       'num_matches': extras['num_matches']}}
 
 def create_character_page_data(twos, threes):
