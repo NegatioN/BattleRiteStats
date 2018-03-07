@@ -1,19 +1,7 @@
 ---
 builds:
   threes:
-  - num: 12
-    skills:
-    - icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Celerity
-    - icon: c2525970f8ab5574191da4938fa5619b
-      name: Devastation
-    - icon: 2771f14010b802143b0b4d5fc8e4bb9c
-      name: Ruin
-    - icon: c2525970f8ab5574191da4938fa5619b
-      name: Silence
-    - icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Wonder
-  - num: 11
+  - num: 10
     skills:
     - icon: af1b0c6a44fc0a34694eafc090cd68ee
       name: Absolute Power
@@ -23,6 +11,18 @@ builds:
       name: Inhibitor
     - icon: fe5369baf5a80dc47b0656ae7be82e09
       name: Unlimited Power
+    - icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Wonder
+  - num: 9
+    skills:
+    - icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Celerity
+    - icon: c2525970f8ab5574191da4938fa5619b
+      name: Devastation
+    - icon: 2771f14010b802143b0b4d5fc8e4bb9c
+      name: Ruin
+    - icon: c2525970f8ab5574191da4938fa5619b
+      name: Silence
     - icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
   - num: 4
@@ -37,18 +37,18 @@ builds:
       name: Inspiration
     - icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
-  - num: 2
+  - num: 3
     skills:
-    - icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Celerity
+    - icon: d6c97da35fc19134881cb5a4c44e3912
+      name: Fracture
     - icon: d6c97da35fc19134881cb5a4c44e3912
       name: Inhibitor
     - icon: 2771f14010b802143b0b4d5fc8e4bb9c
+      name: Return
+    - icon: 2771f14010b802143b0b4d5fc8e4bb9c
       name: Ruin
-    - icon: c2525970f8ab5574191da4938fa5619b
-      name: Silence
-    - icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Wonder
+    - icon: fe5369baf5a80dc47b0656ae7be82e09
+      name: Unlimited Power
   - num: 2
     skills:
     - icon: fe5369baf5a80dc47b0656ae7be82e09
@@ -62,7 +62,7 @@ builds:
     - icon: fe5369baf5a80dc47b0656ae7be82e09
       name: Unlimited Power
   twos:
-  - num: 7
+  - num: 8
     skills:
     - icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Celerity
@@ -74,7 +74,7 @@ builds:
       name: Inhibitor
     - icon: fe5369baf5a80dc47b0656ae7be82e09
       name: Unlimited Power
-  - num: 7
+  - num: 8
     skills:
     - icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Celerity
@@ -86,7 +86,19 @@ builds:
       name: Ruin
     - icon: fe5369baf5a80dc47b0656ae7be82e09
       name: Synergy
-  - num: 7
+  - num: 5
+    skills:
+    - icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Celerity
+    - icon: d6c97da35fc19134881cb5a4c44e3912
+      name: Law Bender
+    - icon: c2525970f8ab5574191da4938fa5619b
+      name: Silence
+    - icon: fe5369baf5a80dc47b0656ae7be82e09
+      name: Unlimited Power
+    - icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Wonder
+  - num: 5
     skills:
     - icon: af1b0c6a44fc0a34694eafc090cd68ee
       name: Absolute Power
@@ -108,18 +120,6 @@ builds:
       name: Inhibitor
     - icon: 2771f14010b802143b0b4d5fc8e4bb9c
       name: Ruin
-    - icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Wonder
-  - num: 4
-    skills:
-    - icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Celerity
-    - icon: c2525970f8ab5574191da4938fa5619b
-      name: Devastation
-    - icon: 2771f14010b802143b0b4d5fc8e4bb9c
-      name: Ruin
-    - icon: c2525970f8ab5574191da4938fa5619b
-      name: Silence
     - icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
 layout: character

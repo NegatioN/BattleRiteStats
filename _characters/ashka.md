@@ -1,7 +1,7 @@
 ---
 builds:
   threes:
-  - num: 33
+  - num: 37
     skills:
     - icon: de69286ec8d6c934c9b04c51d1814b5c
       name: Burning Feet
@@ -25,7 +25,7 @@ builds:
       name: Heat
     - icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
-  - num: 9
+  - num: 11
     skills:
     - icon: 117c35c7f757858428a733d8da4982be
       name: Combustion
@@ -37,19 +37,7 @@ builds:
       name: Inferno
     - icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
-  - num: 8
-    skills:
-    - icon: 117c35c7f757858428a733d8da4982be
-      name: Combustion
-    - icon: c6d71f7b4598ec14cab637f6d9ffce64
-      name: Conflagration
-    - icon: 117c35c7f757858428a733d8da4982be
-      name: Heat
-    - icon: 48122c1a1a8cae7408409c90126f11cb
-      name: Inferno
-    - icon: 7612ba34ea3cdf9429a033d92e85c117
-      name: Magma
-  - num: 7
+  - num: 10
     skills:
     - icon: de69286ec8d6c934c9b04c51d1814b5c
       name: Burning Feet
@@ -61,8 +49,20 @@ builds:
       name: Inspiration
     - icon: 117c35c7f757858428a733d8da4982be
       name: Wildfire
+  - num: 10
+    skills:
+    - icon: 117c35c7f757858428a733d8da4982be
+      name: Combustion
+    - icon: c6d71f7b4598ec14cab637f6d9ffce64
+      name: Conflagration
+    - icon: 117c35c7f757858428a733d8da4982be
+      name: Heat
+    - icon: 48122c1a1a8cae7408409c90126f11cb
+      name: Inferno
+    - icon: 7612ba34ea3cdf9429a033d92e85c117
+      name: Magma
   twos:
-  - num: 25
+  - num: 33
     skills:
     - icon: de69286ec8d6c934c9b04c51d1814b5c
       name: Burning Feet
@@ -74,7 +74,7 @@ builds:
       name: Inspiration
     - icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
-  - num: 5
+  - num: 6
     skills:
     - icon: de69286ec8d6c934c9b04c51d1814b5c
       name: Blaze
@@ -103,7 +103,7 @@ builds:
     - icon: 117c35c7f757858428a733d8da4982be
       name: Combustion
     - icon: 48122c1a1a8cae7408409c90126f11cb
-      name: Eruption
+      name: Ember Fire
     - icon: 117c35c7f757858428a733d8da4982be
       name: Heat
     - icon: 48122c1a1a8cae7408409c90126f11cb
@@ -114,17 +114,17 @@ builds:
     skills:
     - icon: de69286ec8d6c934c9b04c51d1814b5c
       name: Blaze
-    - icon: 117c35c7f757858428a733d8da4982be
-      name: Combustion
+    - icon: de69286ec8d6c934c9b04c51d1814b5c
+      name: Burning Feet
     - icon: 117c35c7f757858428a733d8da4982be
       name: Heat
-    - icon: 61e058b8f4b79f4419ec1496f223ee36
-      name: Inspiration
     - icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
+    - icon: 117c35c7f757858428a733d8da4982be
+      name: Wildfire
 layout: character
 name: ashka
-num: 140
+num: 175
 title: Ashka
 url: characters/ashka.html
 ...

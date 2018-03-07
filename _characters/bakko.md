@@ -1,7 +1,7 @@
 ---
 builds:
   threes:
-  - num: 10
+  - num: 11
     skills:
     - icon: e0a2c1fab3bd3d5468cbc7f4942b5448
       name: Axe and Shield
@@ -13,7 +13,19 @@ builds:
       name: Shield Bash
     - icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
-  - num: 8
+  - num: 7
+    skills:
+    - icon: 16e7e84d6c786cf4abc695c9b1c29b31
+      name: Bravery
+    - icon: 741da913acab25641862d0312d75a7a1
+      name: Hamstring
+    - icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
+      name: Mobile Defence
+    - icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
+      name: Shield Bash
+    - icon: 741da913acab25641862d0312d75a7a1
+      name: The Red Axe
+  - num: 6
     skills:
     - icon: 84ba51168b08df3489362e3a9be59704
       name: Adrenaline Slam
@@ -25,19 +37,7 @@ builds:
       name: Raging Ram
     - icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
       name: Shield Bash
-  - num: 6
-    skills:
-    - icon: 16e7e84d6c786cf4abc695c9b1c29b31
-      name: Bravery
-    - icon: 741da913acab25641862d0312d75a7a1
-      name: Hamstring
-    - icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
-      name: Mobile Defence
-    - icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
-      name: Shield Bash
-    - icon: 741da913acab25641862d0312d75a7a1
-      name: The Red Axe
-  - num: 6
+  - num: 5
     skills:
     - icon: e0a2c1fab3bd3d5468cbc7f4942b5448
       name: Axe and Shield
@@ -46,9 +46,9 @@ builds:
     - icon: 61e058b8f4b79f4419ec1496f223ee36
       name: Inspiration
     - icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
-      name: Mobile Defence
-    - icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
       name: Shield Bash
+    - icon: 741da913acab25641862d0312d75a7a1
+      name: The Red Axe
   - num: 5
     skills:
     - icon: e0a2c1fab3bd3d5468cbc7f4942b5448
@@ -62,7 +62,7 @@ builds:
     - icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
   twos:
-  - num: 13
+  - num: 11
     skills:
     - icon: 84ba51168b08df3489362e3a9be59704
       name: Adrenaline Slam
@@ -86,19 +86,7 @@ builds:
       name: Shield Bash
     - icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
-  - num: 3
-    skills:
-    - icon: 16e7e84d6c786cf4abc695c9b1c29b31
-      name: Bravery
-    - icon: 741da913acab25641862d0312d75a7a1
-      name: Hamstring
-    - icon: 84ba51168b08df3489362e3a9be59704
-      name: Raging Ram
-    - icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
-      name: Shield Bash
-    - icon: 741da913acab25641862d0312d75a7a1
-      name: The Red Axe
-  - num: 3
+  - num: 4
     skills:
     - icon: e0a2c1fab3bd3d5468cbc7f4942b5448
       name: Axe and Shield
@@ -110,21 +98,33 @@ builds:
       name: Shield Bash
     - icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
-  - num: 3
+  - num: 4
     skills:
     - icon: 84ba51168b08df3489362e3a9be59704
       name: Adrenaline Slam
+    - icon: b778ec70cf3198442a522a40aefd88df
+      name: Rampage
+    - icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
+      name: Shield Bash
     - icon: 741da913acab25641862d0312d75a7a1
-      name: Hamstring
-    - icon: 1c5109f70b75da840a551747febdf716
-      name: Mammoth Stomp
-    - icon: 84ba51168b08df3489362e3a9be59704
-      name: Raging Ram
+      name: The Red Axe
     - icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
+  - num: 3
+    skills:
+    - icon: 16e7e84d6c786cf4abc695c9b1c29b31
+      name: Bravery
+    - icon: 741da913acab25641862d0312d75a7a1
+      name: Hamstring
+    - icon: 84ba51168b08df3489362e3a9be59704
+      name: Raging Ram
+    - icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
+      name: Shield Bash
+    - icon: 741da913acab25641862d0312d75a7a1
+      name: The Red Axe
 layout: character
 name: bakko
-num: 116
+num: 118
 title: Bakko
 url: characters/bakko.html
 ...

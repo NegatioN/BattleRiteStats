@@ -1,7 +1,7 @@
 ---
 builds:
   threes:
-  - num: 52
+  - num: 50
     skills:
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Disruption
@@ -13,7 +13,7 @@ builds:
       name: Spell Eater
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Warlock's Grip
-  - num: 31
+  - num: 30
     skills:
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Disruption
@@ -25,7 +25,7 @@ builds:
       name: Warlock's Grip
     - icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
-  - num: 26
+  - num: 19
     skills:
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Disruption
@@ -49,21 +49,10 @@ builds:
       name: Warlock's Grip
     - icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
-  - num: 9
+  - num: 7
     skills:
     - icon: da12579e4ef58ba4c87c1819bf1c699b
-      name: Disruption
-    - icon: 563027e5fd687db4697308c54fe91381
-      name: Feedback
-    - icon: 563027e5fd687db4697308c54fe91381
-      name: Spell Eater
-    - icon: b51e6f88de6853d46bec81bbb3a655a4
-      name: Undermine
-    - icon: da12579e4ef58ba4c87c1819bf1c699b
-      name: Warlock's Grip
-  twos:
-  - num: 14
-    skills:
+      name: Collapse
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Disruption
     - icon: 563027e5fd687db4697308c54fe91381
@@ -72,6 +61,17 @@ builds:
       name: Grimoire of Death
     - icon: 563027e5fd687db4697308c54fe91381
       name: Spell Eater
+  twos:
+  - num: 15
+    skills:
+    - icon: da12579e4ef58ba4c87c1819bf1c699b
+      name: Disruption
+    - icon: 41cc34493bbdcb44985028d3000656d8
+      name: Grimoire of Death
+    - icon: b51e6f88de6853d46bec81bbb3a655a4
+      name: Undermine
+    - icon: da12579e4ef58ba4c87c1819bf1c699b
+      name: Warlock's Grip
     - icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
   - num: 10
@@ -86,30 +86,6 @@ builds:
       name: Tome Of Restoration
     - icon: b51e6f88de6853d46bec81bbb3a655a4
       name: Undermine
-  - num: 9
-    skills:
-    - icon: da12579e4ef58ba4c87c1819bf1c699b
-      name: Disruption
-    - icon: 563027e5fd687db4697308c54fe91381
-      name: Feedback
-    - icon: 563027e5fd687db4697308c54fe91381
-      name: Spell Eater
-    - icon: da12579e4ef58ba4c87c1819bf1c699b
-      name: Warlock's Grip
-    - icon: 99a21ff998aff1248a10df2d317faa20
-      name: Whizz
-  - num: 8
-    skills:
-    - icon: da12579e4ef58ba4c87c1819bf1c699b
-      name: Disruption
-    - icon: 41cc34493bbdcb44985028d3000656d8
-      name: Grimoire of Death
-    - icon: b51e6f88de6853d46bec81bbb3a655a4
-      name: Undermine
-    - icon: da12579e4ef58ba4c87c1819bf1c699b
-      name: Warlock's Grip
-    - icon: 99a21ff998aff1248a10df2d317faa20
-      name: Whizz
   - num: 7
     skills:
     - icon: da12579e4ef58ba4c87c1819bf1c699b
@@ -122,9 +98,33 @@ builds:
       name: Spell Eater
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Warlock's Grip
+  - num: 6
+    skills:
+    - icon: da12579e4ef58ba4c87c1819bf1c699b
+      name: Disruption
+    - icon: 563027e5fd687db4697308c54fe91381
+      name: Feedback
+    - icon: 41cc34493bbdcb44985028d3000656d8
+      name: Grimoire of Death
+    - icon: 563027e5fd687db4697308c54fe91381
+      name: Spell Eater
+    - icon: 99a21ff998aff1248a10df2d317faa20
+      name: Whizz
+  - num: 4
+    skills:
+    - icon: da12579e4ef58ba4c87c1819bf1c699b
+      name: Disruption
+    - icon: 563027e5fd687db4697308c54fe91381
+      name: Feedback
+    - icon: 563027e5fd687db4697308c54fe91381
+      name: Spell Eater
+    - icon: 99a21ff998aff1248a10df2d317faa20
+      name: Whizz
+    - icon: 99a21ff998aff1248a10df2d317faa20
+      name: Wreak Havoc
 layout: character
 name: ezmo
-num: 216
+num: 215
 title: Ezmo
 url: characters/ezmo.html
 ...
