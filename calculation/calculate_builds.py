@@ -4,7 +4,7 @@ import requests
 from urllib.parse import quote
 import json
 from ratelimiter import RateLimiter
-from datetime import date, timedelta
+from datetime import date, timedelta, datetime
 import os
 
 from helpers import chunks, get_content, pickle_info, get_telemtry
@@ -18,8 +18,16 @@ headers = {'Accept': 'application/vnd.api+json',
            'Authorization': 'Bearer {0}'.format(api_key)}
 rate_limiter = RateLimiter(max_calls=50, period=61)
 
+def jsonify_datetime(d):
+    return d.strftime('%Y-%m-%dT%H:00:00Z')
+
 #Last seven days of replays
-created_after_date = '{}T08:00:00Z'.format((date.today() - timedelta(days=7)).strftime('%Y-%m-%d'))
+last_patch = datetime(year=2018, month=3, day=8, hour=12)
+seven_days_ago = datetime.now() - timedelta(days=7)
+if last_patch < datetime.now() and last_patch > seven_days_ago:
+    created_after_date = jsonify_datetime(last_patch)
+else:
+    created_after_date = jsonify_datetime(seven_days_ago)
 
 print('Getting matches from {} to now'.format(created_after_date))
 
