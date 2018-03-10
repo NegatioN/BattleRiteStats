@@ -1,7 +1,7 @@
 ---
 builds:
   threes:
-  - num: 7
+  - num: 48
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
       name: Electric Conduction
@@ -25,7 +25,31 @@ builds:
       name: Tempest
     - icon: 883e2720ad11f2d49b51d9f649c67203
       name: Thundering Spring
-  - num: 3
+  - num: 5
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Hammer Time
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 54d351d4df0d47e48b37ee2b1959c2aa
+      name: Surge
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+  - num: 5
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Hammer Time
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Lightning Speed
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+  - num: 4
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
       name: Electric Conduction
@@ -37,6 +61,210 @@ builds:
       name: Overcharge
     - icon: f5f7b137c0c9d444899035c91cedda42
       name: Rolling Thunder
+  - num: 3
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Hammer Time
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Lightning Speed
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
+  - num: 3
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Overcharge
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Tempest
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+  - num: 2
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
+    - icon: 296bc93338f9bc94a8afca3763e4a778
+      name: Thunderstruck
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Twin Hammers
+  - num: 2
+    skills:
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Hammer Time
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Lightning Speed
+    - icon: a4b023549fa7dbb46bb159a9b8557df2
+      name: Positive Charge
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+  - num: 2
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: a4b023549fa7dbb46bb159a9b8557df2
+      name: Positive Charge
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
+    - icon: 54d351d4df0d47e48b37ee2b1959c2aa
+      name: Surge
+  - num: 2
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Tempest
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Twin Hammers
+  - num: 1
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 54d351d4df0d47e48b37ee2b1959c2aa
+      name: Surge
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Tempest
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+  - num: 1
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: a4b023549fa7dbb46bb159a9b8557df2
+      name: Positive Charge
+    - icon: 54d351d4df0d47e48b37ee2b1959c2aa
+      name: Surge
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+  - num: 1
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Overcharge
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Tempest
+  - num: 1
+    skills:
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Hammer Time
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Overcharge
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Twin Hammers
+  - num: 1
+    skills:
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Hammer Time
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Lightning Speed
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Tempest
+    - icon: 296bc93338f9bc94a8afca3763e4a778
+      name: Thunderstruck
+  - num: 1
+    skills:
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Overcharge
+    - icon: a4b023549fa7dbb46bb159a9b8557df2
+      name: Positive Charge
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Tempest
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+  - num: 1
+    skills:
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Hammer Time
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Overcharge
+    - icon: 54d351d4df0d47e48b37ee2b1959c2aa
+      name: Surge
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+  - num: 1
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
+    - icon: 54d351d4df0d47e48b37ee2b1959c2aa
+      name: Surge
+    - icon: 296bc93338f9bc94a8afca3763e4a778
+      name: Thunderstruck
+  - num: 1
+    skills:
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Hammer Time
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Lightning Speed
+    - icon: 54d351d4df0d47e48b37ee2b1959c2aa
+      name: Surge
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+  - num: 1
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Hammer Time
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: a4b023549fa7dbb46bb159a9b8557df2
+      name: Positive Charge
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
+  - num: 1
+    skills:
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Overcharge
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Tempest
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Thundering Spring
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
   - num: 1
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
@@ -49,32 +277,8 @@ builds:
       name: Rolling Thunder
     - icon: 54d351d4df0d47e48b37ee2b1959c2aa
       name: Surge
-  - num: 1
-    skills:
-    - icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Electric Conduction
-    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
-      name: Hammer Time
-    - icon: f5f7b137c0c9d444899035c91cedda42
-      name: Lightning Rod
-    - icon: 54d351d4df0d47e48b37ee2b1959c2aa
-      name: Surge
-    - icon: f5f7b137c0c9d444899035c91cedda42
-      name: Torrent
   twos:
-  - num: 3
-    skills:
-    - icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Electric Conduction
-    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
-      name: Hammer Time
-    - icon: f5f7b137c0c9d444899035c91cedda42
-      name: Lightning Rod
-    - icon: 54d351d4df0d47e48b37ee2b1959c2aa
-      name: Surge
-    - icon: f5f7b137c0c9d444899035c91cedda42
-      name: Torrent
-  - num: 2
+  - num: 15
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
       name: Electric Conduction
@@ -82,6 +286,66 @@ builds:
       name: Lightning Rod
     - icon: f5f7b137c0c9d444899035c91cedda42
       name: Rolling Thunder
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Thunderbolt
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Twin Hammers
+  - num: 14
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Hammer Time
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 54d351d4df0d47e48b37ee2b1959c2aa
+      name: Surge
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+  - num: 11
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Lightning Speed
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Tempest
+  - num: 6
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Lightning Speed
+    - icon: a4b023549fa7dbb46bb159a9b8557df2
+      name: Positive Charge
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+  - num: 4
+    skills:
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
+    - icon: 54d351d4df0d47e48b37ee2b1959c2aa
+      name: Surge
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Thunderbolt
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Twin Hammers
+  - num: 2
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: a4b023549fa7dbb46bb159a9b8557df2
+      name: Positive Charge
     - icon: 92dd476aa2340694c9f1167dfc761287
       name: Thunderbolt
     - icon: 92dd476aa2340694c9f1167dfc761287
@@ -97,7 +361,67 @@ builds:
     - icon: a4b023549fa7dbb46bb159a9b8557df2
       name: Positive Charge
     - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
+  - num: 2
+    skills:
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Overcharge
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
+    - icon: 296bc93338f9bc94a8afca3763e4a778
+      name: Thunderstruck
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Twin Hammers
+  - num: 2
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Lightning Speed
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Twin Hammers
+  - num: 2
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 54d351d4df0d47e48b37ee2b1959c2aa
+      name: Surge
+    - icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Twin Hammers
+  - num: 2
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 54d351d4df0d47e48b37ee2b1959c2aa
+      name: Surge
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Tempest
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Twin Hammers
+  - num: 2
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: a4b023549fa7dbb46bb159a9b8557df2
+      name: Positive Charge
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
+    - icon: 54d351d4df0d47e48b37ee2b1959c2aa
+      name: Surge
   - num: 2
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
@@ -108,6 +432,30 @@ builds:
       name: Rolling Thunder
     - icon: 92dd476aa2340694c9f1167dfc761287
       name: Tempest
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Twin Hammers
+  - num: 2
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: a4b023549fa7dbb46bb159a9b8557df2
+      name: Positive Charge
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Tempest
+  - num: 1
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Hammer Time
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
     - icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
   - num: 1
@@ -122,9 +470,153 @@ builds:
       name: Tempest
     - icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
+  - num: 1
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: a4b023549fa7dbb46bb159a9b8557df2
+      name: Positive Charge
+    - icon: 8df5b9cfc6dd7cd469d9b211f42c1076
+      name: Static Hammers
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Tempest
+  - num: 1
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Lightning Speed
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Overcharge
+    - icon: a4b023549fa7dbb46bb159a9b8557df2
+      name: Positive Charge
+  - num: 1
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Tempest
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Thunderbolt
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+  - num: 1
+    skills:
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 54d351d4df0d47e48b37ee2b1959c2aa
+      name: Surge
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Tempest
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Twin Hammers
+  - num: 1
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
+    - icon: 54d351d4df0d47e48b37ee2b1959c2aa
+      name: Surge
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Tempest
+  - num: 1
+    skills:
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Lightning Speed
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Thunderbolt
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Twin Hammers
+  - num: 1
+    skills:
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Lightning Speed
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Overcharge
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Tempest
+  - num: 1
+    skills:
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Hammer Time
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 54d351d4df0d47e48b37ee2b1959c2aa
+      name: Surge
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Tempest
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+  - num: 1
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 54d351d4df0d47e48b37ee2b1959c2aa
+      name: Surge
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Thunderbolt
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+  - num: 1
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Tempest
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Twin Hammers
+  - num: 1
+    skills:
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Hammer Time
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Lightning Speed
+    - icon: a4b023549fa7dbb46bb159a9b8557df2
+      name: Positive Charge
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+  - num: 1
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Lightning Speed
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Overcharge
+    - icon: a4b023549fa7dbb46bb159a9b8557df2
+      name: Positive Charge
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Twin Hammers
 layout: character
 name: freya
-num: 28
+num: 82
 title: Freya
 url: characters/freya.html
 ...
