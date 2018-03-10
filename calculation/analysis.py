@@ -117,7 +117,7 @@ def sort_skills_alphabetically(builds_array):
 def num_builds_subset(character_build_array, num=3):
     limited_subset = []
     for x in character_build_array:
-        n = num if num > len(x['builds']) else len(x['builds'])
+        n = len(x['builds']) if num > len(x['builds']) else num
         builds = [x for x in sorted_by_countarr(x['builds'])][:n]
         limited_subset.append({'name': x['name'], 'builds': sort_skills_alphabetically(builds)})
     return limited_subset
