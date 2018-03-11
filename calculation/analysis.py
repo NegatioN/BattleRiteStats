@@ -1,34 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8
-from helpers import load_pickle, chunks, get_content
-from furrycorn.location import mk_origin, mk_path, mk_query, to_url
 import json
-from ratelimiter import RateLimiter
 from datetime import datetime
 import yaml
-import operator
 from collections import defaultdict
-'''
-origin = mk_origin('https', 'api.dc01.gamelockerapp.com', '/shards/global')
-headers = {'Accept': 'application/vnd.api+json',
-           'Authorization': 'Bearer {0}'.format(api_key)}
-rate_limiter = RateLimiter(max_calls=10, period=61)
-
-
-def get_player(player_ids):
-    if type(player_ids) != list:
-        player_ids = [player_ids]
-    url = to_url(origin, mk_path('/players'), mk_query({'filter[playerIds]': ','.join(player_ids)}))
-    with rate_limiter:
-        return get_content(url, headers)
-        
-
-def make_player_lookup(player_ids):
-    p_data = []
-    for c in chunks(player_ids, 5):
-        p_data.append(get_player(c))
-    return {y['id']: y['attributes']['name'] for x in p_data for y in x}
-    '''
+import pandas as pd
+import numpy as np
+import re
 
 with open('assets/gameplay.json', 'rb') as gplay:
     gplay = gplay.read()
@@ -42,116 +20,156 @@ def load_locale(path):
 
 locale_lookup = load_locale('assets/English.ini')
 characters = json.loads(gplay.decode('utf-8'))['characters']
-char_id_lookup = {x['typeID']: i for i,x in enumerate(characters)}
+char_id_lookup = {x['typeID']: x for x in characters}
+flattned_battlerites = {y['typeID']: y for x in characters for y in x['battlerites']}
 
 
-player_data = load_pickle('player_builds.p')
-character_builds = load_pickle('character_builds.p')
-extras = load_pickle('extras.p')
-#player_lookup = make_player_lookup([str(x) for x in player_data.keys()])
+main_df = pd.read_csv('assets/character_df.csv')
+match_df = pd.read_csv('assets/match_df.csv')
 
-def sorted_by_count(x):
-    return reversed(sorted(x.items(), key=operator.itemgetter(1)))
+# Make each build hashably unique
+main_df['build'] = main_df['build'].apply(lambda x: frozenset(x.split(',')))
 
-def sorted_by_countarr(x):
-    return reversed(sorted(x, key=lambda k: k['num']))
+def aggregate_lookup(main_df, match_df):
+    round_dict = defaultdict((lambda: defaultdict(lambda: [])))
+    for (matchid, userid), group in match_df.groupby(['matchid', 'userid']):
+        round_dict[matchid][userid].extend(group.index.values)
 
-def hero_id_to_name(hero_id):
-    return locale_lookup[characters[char_id_lookup[hero_id]]['name']]
+    return main_df.apply(lambda x: round_dict[x['matchid']][x['userid']], axis=1)
 
-def make_brite_names(character_data, brite_lookup, brites):
-    brite_names = []
-    for b in brites:
-        entry = {}
+main_df['round_lookup'] = aggregate_lookup(main_df, match_df)
+
+exclude_columns = set(['matchid', 'userid', 'wonFlag', 'round_num', 'team'])
+print(match_df.columns)
+print('---------')
+print(main_df.columns)
+sum_cols = set(match_df.columns).symmetric_difference(exclude_columns)
+
+def summer(rounds, col):
+    return match_df.iloc[rounds][col].agg('sum')
+
+def averager(rounds, col):
+    return match_df.iloc[rounds][col].agg('mean')
+
+for col in sum_cols:
+    main_df["sum_" + col] = main_df.apply(lambda x: summer(x['round_lookup'], col), axis=1)
+    main_df["mean_" + col] = main_df.apply(lambda x: averager(x['round_lookup'], col), axis=1)
+
+agg_cols = ['{}_{}'.format(y, x) for x in sum_cols for y in ['sum', 'mean']]
+agg_cols.append('percent_alive')
+
+main_df['percent_alive'] = main_df['sum_time_alive'] / main_df['sum_round_duration']
+
+grouped = main_df.groupby(['character', 'matchMode', 'build']).agg({k: np.mean for k in agg_cols})
+
+build_counts = main_df.groupby(['character', 'matchMode'])['build'].value_counts().to_dict()
+win_counts = main_df.groupby(['character', 'matchMode', 'build'])['wonFlag'].value_counts().to_dict()
+character_dict = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: 0))))
+for aggregation, entry in grouped.items():
+    for (character, mode, build), value in entry.items():
+        character_dict[character][mode][build][aggregation] = value
+        character_dict[character][mode][build]['num'] = build_counts[(character, mode, build)]
         try:
-            entry['name'] = locale_lookup[character_data['battlerites'][brite_lookup[b]]['name']]
-            entry['icon'] = character_data['battlerites'][brite_lookup[b]]['icon']
+            character_dict[character][mode][build]['win_num'] = win_counts[(character, mode, build, 1)]
         except:
-            entry['name'] = "VERY UNKNOWN"
-            entry['icon'] = "VERY UNKNOWN"
-        brite_names.append(entry)
-    return brite_names
-
-def dictify_character_builds(brite_lookup, character_data, character_dict):
-    builds = []
-    for build, count in sorted_by_count(character_dict):
-        b = {'skills': make_brite_names(character_data, brite_lookup, build),
-             'num': count}
-        builds.append(b)
-    return builds
-
-twos_builds = []
-threes_builds = []
-
-for mode, mode_dict in character_builds.items():
-    d = twos_builds if '2' in mode else threes_builds
-    #Find most popular builds for each hero
-    for hero_id, build_dict in mode_dict.items():
-        character_data = characters[char_id_lookup[hero_id]]
-        name = locale_lookup[character_data['name']]
-        brite_lookup = {x['typeID']: i for i, x in enumerate(character_data['battlerites'])}
-        c_dict = {'builds': dictify_character_builds(brite_lookup, character_data, build_dict),
-                  'name': name}
-        d.append(c_dict)
-
-    print('Most popular heroes in {}:\n'.format(mode))
-    #Find most popular heroes
-    appearance_summary = defaultdict(lambda: 0)
-    for hero_id, build_dict in mode_dict.items():
-        name = hero_id_to_name(hero_id)
-        for build, count in build_dict.items():
-            appearance_summary[name] += count
-
-    print([x for x in sorted_by_count(appearance_summary)])
-
-def sort_array_dicts_by_key(dict_arr, key):
-    return sorted(dict_arr, key=lambda k: k[key])
+            character_dict[character][mode][build]['win_num'] = 0
 
 
-def sort_skills_alphabetically(builds_array):
-    for build in builds_array:
-        build['skills'] = sort_array_dicts_by_key(build['skills'], 'name')
 
-    return builds_array
+### Rendering methods
+def get_hero_resource(hero_id, resource):
+    character_data = char_id_lookup[hero_id]
+    return locale_lookup[character_data[resource]]
 
-def num_builds_subset(character_build_array, num=3):
-    limited_subset = []
-    for x in character_build_array:
-        n = len(x['builds']) if num > len(x['builds']) else num
-        builds = [x for x in sorted_by_countarr(x['builds'])][:n]
-        limited_subset.append({'name': x['name'], 'builds': sort_skills_alphabetically(builds)})
-    return limited_subset
+def hero_name(hero_id):
+    return locale_lookup[char_id_lookup[hero_id]['name']]
+
+def hero_description(hero_id):
+    return locale_lookup[char_id_lookup[hero_id]['description']]
+
+def hero_title(hero_id):
+    return locale_lookup[char_id_lookup[hero_id]['title']]
+
+def hero_icon(hero_id):
+    return char_id_lookup[hero_id]['wideIcon']
+
+def brite_icon(battlerite_id):
+    return flattned_battlerites[battlerite_id]['icon']
+
+def brite_name(battlerite_id):
+    return locale_lookup[flattned_battlerites[battlerite_id]['name']]
+
+def brite_description(battlerite_id):
+    brite = flattned_battlerites[battlerite_id]
+    description = locale_lookup[brite['description']]
+    vals = {x['Name'].lower(): x['Value'] for x in brite['tooltipData']}
+    description = re.sub('{\d+}|{-}', '', description)
+    return description.format(**vals)
+
+twos = defaultdict(lambda: [])
+threes = defaultdict(lambda: [])
+for character, modes in character_dict.items():
+    character_name = hero_name(character)
+    for mode, builds in modes.items():
+        if '3' in mode:
+            cur_dict = threes
+        else:
+            cur_dict = twos
+        for build, aggregations in builds.items():
+            b = {'skills': [{'name': brite_name(int(x)), 'icon': brite_icon(int(x)) }
+                            for x in build],
+                 'num': aggregations['num'],
+                 'winrate': int(float(aggregations['win_num']) / float(aggregations['num']) * 100)}
+            cur_dict[character_name].append(b)
 
 
-prepare_dict = lambda d, num: sort_array_dicts_by_key(num_builds_subset(d, num), 'name')
+def sort_dict_array_by_key(dict_arr, key, rev=False):
+    if rev:
+        return reversed(sorted(dict_arr, key=lambda k: k[key]))
+    else:
+        return sorted(dict_arr, key=lambda k: k[key])
 
-master_d = {'twos': prepare_dict(twos_builds, 3),
-            'threes': prepare_dict(threes_builds, 3),
+def sort_builds(builds, limit):
+    def sort_alphabetically(stats):
+        stats['skills'] = sort_dict_array_by_key(stats['skills'], 'name')
+        return stats
+    n = len(builds) if limit > len(builds) else limit
+    return [sort_alphabetically(x) for x in [z for z in sort_dict_array_by_key(builds, 'num', rev=True)][:n]]
+
+def render_sort(mode_dict, limit):
+    return [{'name': hero, 'builds': sort_builds(mode_dict[hero], limit)} for hero in sorted(mode_dict.keys())]
+
+master_d = {'twos': render_sort(twos, 3),
+            'threes': render_sort(threes, 3),
             'extra': {'time_generated': datetime.now().strftime('%d %B %Y'),
-                      'num_matches': extras['num_matches']}}
+                      'num_matches': main_df['matchid'].nunique()}}
+
+
+appearance_summary = {hero_name(h_id): v for h_id, v in main_df.groupby('character').size().to_dict().items()}
 
 def create_character_page_data(twos, threes):
     chars = []
-    all_entries = [x for x in zip(prepare_dict(twos, 5), prepare_dict(threes, 5))]
+    all_entries = [x for x in zip(render_sort(twos, 5), render_sort(threes, 5))]
     for x in all_entries:
         name = x[0]['name']
+        escaped_name = name.replace(' ', '_').lower()
         chars.append({
             'layout': 'character',
             'title': name,
-            'name': name.replace(' ', '_').lower(),
-            'url': "characters/" + name.replace(' ', '_').lower() + ".html",
+            'name': escaped_name,
+            'url': "characters/" + escaped_name + ".html",
             'builds':
                 {'twos': x[0]['builds'],
-                'threes': x[1]['builds']
+                 'threes': x[1]['builds']
                  },
             'num': appearance_summary[name]
         })
     return chars
 
-character_page_data = create_character_page_data(twos_builds, threes_builds)
+character_page_data = create_character_page_data(twos, threes)
 
 
-if len(twos_builds) > 15 and len(threes_builds) > 15:
+if len(twos) > 15 and len(threes) > 15:
     with open('assets/result.yml', 'w') as yaml_file:
         yaml.dump(master_d, yaml_file, default_flow_style=False)
 
