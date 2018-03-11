@@ -19,15 +19,16 @@ def get_content(url, headers):
     else:
         return []
 
+def parse_list_node(all_data_nodes, typ):
+    return set([y['id'] for x in all_data_nodes for y in x['relationships'][typ]['data']])
+
 def get_telemtry(url, headers):
     response = requests.get(url, headers=headers)
-    match_ids = set()
     telemetry_urls = set()
     if response.status_code == 200:
         content = json.loads(response.content.decode('utf-8'))
         all_data_nodes = content['data']
-        for n in all_data_nodes:
-            match_ids.add(n['relationships']['assets']['data'][0]['id'])
+        match_ids = parse_list_node(all_data_nodes, 'assets')
 
         for node in content['included']:
             if 'id' in node and node['id'] in match_ids:
