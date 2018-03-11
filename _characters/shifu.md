@@ -1,7 +1,7 @@
 ---
 builds:
   threes:
-  - num: 65
+  - num: 77
     skills:
     - icon: 18eee826117df534d91bd518653fc360
       name: Ceremonial Spear
@@ -13,7 +13,7 @@ builds:
       name: Swift Feet
     - icon: 18eee826117df534d91bd518653fc360
       name: Thrust
-  - num: 13
+  - num: 17
     skills:
     - icon: 18eee826117df534d91bd518653fc360
       name: Ceremonial Spear
@@ -25,7 +25,7 @@ builds:
       name: Swift Feet
     - icon: 18eee826117df534d91bd518653fc360
       name: Thrust
-  - num: 11
+  - num: 14
     skills:
     - icon: 18eee826117df534d91bd518653fc360
       name: Ceremonial Spear
@@ -37,6 +37,18 @@ builds:
       name: Thrust
     - icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
+  - num: 10
+    skills:
+    - icon: 18eee826117df534d91bd518653fc360
+      name: Ceremonial Spear
+    - icon: 19e037c83991916449cd9475c20ca0d1
+      name: Ferocious Stance
+    - icon: 0b6f5070063c16f4eb62990034cffd29
+      name: Swift Feet
+    - icon: 0b6f5070063c16f4eb62990034cffd29
+      name: The Spear is the Way
+    - icon: 18eee826117df534d91bd518653fc360
+      name: Thrust
   - num: 7
     skills:
     - icon: 18eee826117df534d91bd518653fc360
@@ -49,20 +61,8 @@ builds:
       name: Spear Lunge
     - icon: 0b6f5070063c16f4eb62990034cffd29
       name: Swift Feet
-  - num: 7
-    skills:
-    - icon: 18eee826117df534d91bd518653fc360
-      name: Ceremonial Spear
-    - icon: 19e037c83991916449cd9475c20ca0d1
-      name: Ferocious Stance
-    - icon: 0b6f5070063c16f4eb62990034cffd29
-      name: Swift Feet
-    - icon: 0b6f5070063c16f4eb62990034cffd29
-      name: The Spear is the Way
-    - icon: 18eee826117df534d91bd518653fc360
-      name: Thrust
   twos:
-  - num: 52
+  - num: 98
     skills:
     - icon: 18eee826117df534d91bd518653fc360
       name: Ceremonial Spear
@@ -74,7 +74,7 @@ builds:
       name: Swift Feet
     - icon: 18eee826117df534d91bd518653fc360
       name: Thrust
-  - num: 18
+  - num: 37
     skills:
     - icon: 18eee826117df534d91bd518653fc360
       name: Ceremonial Spear
@@ -86,7 +86,7 @@ builds:
       name: Thrust
     - icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
-  - num: 7
+  - num: 8
     skills:
     - icon: 18eee826117df534d91bd518653fc360
       name: Ceremonial Spear
@@ -98,7 +98,7 @@ builds:
       name: Swift Feet
     - icon: 18eee826117df534d91bd518653fc360
       name: Thrust
-  - num: 6
+  - num: 7
     skills:
     - icon: 18eee826117df534d91bd518653fc360
       name: Ceremonial Spear
@@ -110,21 +110,21 @@ builds:
       name: The Spear is the Way
     - icon: 18eee826117df534d91bd518653fc360
       name: Thrust
-  - num: 5
+  - num: 7
     skills:
-    - icon: 2b30312258b7fec4a90040d475f5b31f
-      name: Dirty Tricks
     - icon: 19e037c83991916449cd9475c20ca0d1
       name: Ferocious Stance
-    - icon: 18eee826117df534d91bd518653fc360
-      name: Spear Lunge
+    - icon: 19e037c83991916449cd9475c20ca0d1
+      name: Poised to Strike
     - icon: 0b6f5070063c16f4eb62990034cffd29
       name: Swift Feet
     - icon: 18eee826117df534d91bd518653fc360
       name: Thrust
+    - icon: 51550c5d60b411544a130bfc026b306d
+      name: Whirling Blade
 layout: character
 name: shifu
-num: 135
+num: 181
 title: Shifu
 url: characters/shifu.html
 ...

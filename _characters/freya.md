@@ -1,7 +1,7 @@
 ---
 builds:
   threes:
-  - num: 50
+  - num: 68
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
       name: Electric Conduction
@@ -17,18 +17,6 @@ builds:
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
       name: Electric Conduction
-    - icon: f5f7b137c0c9d444899035c91cedda42
-      name: Lightning Rod
-    - icon: f5f7b137c0c9d444899035c91cedda42
-      name: Rolling Thunder
-    - icon: 92dd476aa2340694c9f1167dfc761287
-      name: Tempest
-    - icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Thundering Spring
-  - num: 5
-    skills:
-    - icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Electric Conduction
     - icon: 11106dc7b3c44144c94a5cfa08bbb84f
       name: Hammer Time
     - icon: f5f7b137c0c9d444899035c91cedda42
@@ -37,7 +25,19 @@ builds:
       name: Surge
     - icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
-  - num: 5
+  - num: 6
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
+    - icon: 92dd476aa2340694c9f1167dfc761287
+      name: Tempest
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Thundering Spring
+  - num: 6
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
       name: Electric Conduction
@@ -62,7 +62,7 @@ builds:
     - icon: f5f7b137c0c9d444899035c91cedda42
       name: Rolling Thunder
   twos:
-  - num: 15
+  - num: 21
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
       name: Electric Conduction
@@ -74,19 +74,7 @@ builds:
       name: Thunderbolt
     - icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
-  - num: 14
-    skills:
-    - icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Electric Conduction
-    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
-      name: Hammer Time
-    - icon: f5f7b137c0c9d444899035c91cedda42
-      name: Lightning Rod
-    - icon: 54d351d4df0d47e48b37ee2b1959c2aa
-      name: Surge
-    - icon: f5f7b137c0c9d444899035c91cedda42
-      name: Torrent
-  - num: 11
+  - num: 16
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
       name: Electric Conduction
@@ -98,7 +86,19 @@ builds:
       name: Rolling Thunder
     - icon: 92dd476aa2340694c9f1167dfc761287
       name: Tempest
-  - num: 6
+  - num: 15
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Hammer Time
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 54d351d4df0d47e48b37ee2b1959c2aa
+      name: Surge
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+  - num: 8
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
       name: Electric Conduction
@@ -110,21 +110,21 @@ builds:
       name: Positive Charge
     - icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
-  - num: 4
+  - num: 6
     skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
     - icon: f5f7b137c0c9d444899035c91cedda42
       name: Lightning Rod
     - icon: f5f7b137c0c9d444899035c91cedda42
       name: Rolling Thunder
-    - icon: 54d351d4df0d47e48b37ee2b1959c2aa
-      name: Surge
     - icon: 92dd476aa2340694c9f1167dfc761287
-      name: Thunderbolt
+      name: Tempest
     - icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
 layout: character
 name: freya
-num: 82
+num: 125
 title: Freya
 url: characters/freya.html
 ...

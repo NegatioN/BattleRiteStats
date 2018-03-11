@@ -1,7 +1,7 @@
 ---
 builds:
   threes:
-  - num: 12
+  - num: 14
     skills:
     - icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Bountiful Tree
@@ -13,7 +13,7 @@ builds:
       name: Kindhearted
     - icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
-  - num: 9
+  - num: 13
     skills:
     - icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Healthful Bark
@@ -25,7 +25,7 @@ builds:
       name: Spring Growth
     - icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
-  - num: 3
+  - num: 5
     skills:
     - icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Bountiful Tree
@@ -35,18 +35,6 @@ builds:
       name: Hop and Skip!
     - icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
-    - icon: e0ead374bbde24c44a10cc34294a6e44
-      name: Weakening Pitch
-  - num: 2
-    skills:
-    - icon: 493cac6f13fb41849aaf95ed03fbb488
-      name: Bountiful Tree
-    - icon: 36048e053d179474491aa317959b3eb7
-      name: Cautious
-    - icon: 493cac6f13fb41849aaf95ed03fbb488
-      name: Healthful Bark
-    - icon: 36048e053d179474491aa317959b3eb7
-      name: Hop and Skip!
     - icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
   - num: 2
@@ -61,8 +49,20 @@ builds:
       name: Pollen
     - icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Refreshing Seed
+  - num: 2
+    skills:
+    - icon: 36048e053d179474491aa317959b3eb7
+      name: Cautious
+    - icon: 493cac6f13fb41849aaf95ed03fbb488
+      name: Healthful Bark
+    - icon: 36048e053d179474491aa317959b3eb7
+      name: Hop and Skip!
+    - icon: e0ead374bbde24c44a10cc34294a6e44
+      name: Nature's Cycle
+    - icon: e0ead374bbde24c44a10cc34294a6e44
+      name: Weakening Pitch
   twos:
-  - num: 26
+  - num: 46
     skills:
     - icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Healthful Bark
@@ -74,7 +74,7 @@ builds:
       name: Spring Growth
     - icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
-  - num: 19
+  - num: 25
     skills:
     - icon: 36048e053d179474491aa317959b3eb7
       name: Gift of Nature
@@ -86,7 +86,7 @@ builds:
       name: Spring Growth
     - icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
-  - num: 12
+  - num: 20
     skills:
     - icon: 36048e053d179474491aa317959b3eb7
       name: Cautious
@@ -98,7 +98,7 @@ builds:
       name: Refreshing Seed
     - icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
-  - num: 11
+  - num: 14
     skills:
     - icon: 36048e053d179474491aa317959b3eb7
       name: Hop and Skip!
@@ -110,21 +110,21 @@ builds:
       name: Spring Growth
     - icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
-  - num: 9
+  - num: 10
     skills:
+    - icon: 493cac6f13fb41849aaf95ed03fbb488
+      name: Bountiful Tree
     - icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Healthful Bark
     - icon: 36048e053d179474491aa317959b3eb7
       name: Hop and Skip!
-    - icon: 2b94035c77e083845a78221a5130146e
-      name: Kindhearted
     - icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
     - icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
 layout: character
 name: blossom
-num: 129
+num: 72
 title: Blossom
 url: characters/blossom.html
 ...

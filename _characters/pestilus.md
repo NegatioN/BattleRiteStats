@@ -1,7 +1,7 @@
 ---
 builds:
   threes:
-  - num: 45
+  - num: 51
     skills:
     - icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Egg Carrier
@@ -13,7 +13,7 @@ builds:
       name: Spiderling Venom
     - icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
-  - num: 14
+  - num: 19
     skills:
     - icon: 991db4d450443e9498711ab935bedf13
       name: Blood Leecher
@@ -25,7 +25,7 @@ builds:
       name: Spiderling Venom
     - icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
-  - num: 6
+  - num: 7
     skills:
     - icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Egg Carrier
@@ -62,7 +62,7 @@ builds:
     - icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
   twos:
-  - num: 20
+  - num: 38
     skills:
     - icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Egg Carrier
@@ -74,7 +74,7 @@ builds:
       name: Spiderling Venom
     - icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
-  - num: 6
+  - num: 9
     skills:
     - icon: 991db4d450443e9498711ab935bedf13
       name: Colony
@@ -86,7 +86,7 @@ builds:
       name: Overlord
     - icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
-  - num: 5
+  - num: 6
     skills:
     - icon: 991db4d450443e9498711ab935bedf13
       name: Blood Leecher
@@ -98,7 +98,7 @@ builds:
       name: Spiderling Venom
     - icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
-  - num: 4
+  - num: 6
     skills:
     - icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Egg Carrier
@@ -124,7 +124,7 @@ builds:
       name: Swarm Queen
 layout: character
 name: pestilus
-num: 54
+num: 105
 title: Pestilus
 url: characters/pestilus.html
 ...

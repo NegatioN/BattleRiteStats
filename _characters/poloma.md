@@ -1,7 +1,7 @@
 ---
 builds:
   threes:
-  - num: 17
+  - num: 19
     skills:
     - icon: dfc86226d7b2a6d438dad7dfca7a0d52
       name: Into the Realm
@@ -15,18 +15,6 @@ builds:
       name: Vengeful Spirit
   - num: 11
     skills:
-    - icon: 7bd09f2f761edd0438938579a6942e82
-      name: Phantasm
-    - icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Silver Fang
-    - icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Specter
-    - icon: b6b9a08408c476c4a9f91eba6dacbb52
-      name: Spiritual Wind
-    - icon: 7bd09f2f761edd0438938579a6942e82
-      name: Vengeful Spirit
-  - num: 10
-    skills:
     - icon: 70d64cab20af264438c599ba3ecdd2c4
       name: Affection
     - icon: dfc86226d7b2a6d438dad7dfca7a0d52
@@ -37,6 +25,30 @@ builds:
       name: Shimmering Bond
     - icon: 70d64cab20af264438c599ba3ecdd2c4
       name: Silver Fang
+  - num: 11
+    skills:
+    - icon: 7bd09f2f761edd0438938579a6942e82
+      name: Phantasm
+    - icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Silver Fang
+    - icon: dfc86226d7b2a6d438dad7dfca7a0d52
+      name: Specter
+    - icon: b6b9a08408c476c4a9f91eba6dacbb52
+      name: Spiritual Wind
+    - icon: 7bd09f2f761edd0438938579a6942e82
+      name: Vengeful Spirit
+  - num: 8
+    skills:
+    - icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Affection
+    - icon: 7bd09f2f761edd0438938579a6942e82
+      name: Phantasm
+    - icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Silver Fang
+    - icon: dfc86226d7b2a6d438dad7dfca7a0d52
+      name: Specter
+    - icon: 7bd09f2f761edd0438938579a6942e82
+      name: Vengeful Spirit
   - num: 8
     skills:
     - icon: 70d64cab20af264438c599ba3ecdd2c4
@@ -49,20 +61,8 @@ builds:
       name: Spiritual Wind
     - icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
-  - num: 7
-    skills:
-    - icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Affection
-    - icon: 7bd09f2f761edd0438938579a6942e82
-      name: Phantasm
-    - icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Silver Fang
-    - icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Specter
-    - icon: 7bd09f2f761edd0438938579a6942e82
-      name: Vengeful Spirit
   twos:
-  - num: 24
+  - num: 34
     skills:
     - icon: 70d64cab20af264438c599ba3ecdd2c4
       name: Affection
@@ -86,7 +86,7 @@ builds:
       name: Specter
     - icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
-  - num: 6
+  - num: 8
     skills:
     - icon: 70d64cab20af264438c599ba3ecdd2c4
       name: Affection
@@ -98,7 +98,7 @@ builds:
       name: Silver Fang
     - icon: dfc86226d7b2a6d438dad7dfca7a0d52
       name: Specter
-  - num: 4
+  - num: 5
     skills:
     - icon: 70d64cab20af264438c599ba3ecdd2c4
       name: Affection
@@ -124,7 +124,7 @@ builds:
       name: Silver Fang
 layout: character
 name: poloma
-num: 93
+num: 178
 title: Poloma
 url: characters/poloma.html
 ...

@@ -1,12 +1,24 @@
 ---
 builds:
   threes:
-  - num: 35
+  - num: 38
     skills:
     - icon: e6c2b076242187d44941ae0cefa96f62
       name: Breath of Air
     - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
       name: Cross Cut
+    - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
+      name: Surprise Attack
+    - icon: 9a292cf4ed808d54c922ab48f5881c5a
+      name: Wind Fury
+    - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
+      name: Wind Stream
+  - num: 9
+    skills:
+    - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
+      name: Cross Cut
+    - icon: 9a292cf4ed808d54c922ab48f5881c5a
+      name: Cyclone
     - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
       name: Surprise Attack
     - icon: 9a292cf4ed808d54c922ab48f5881c5a
@@ -49,7 +61,8 @@ builds:
       name: Wind Fury
     - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
-  - num: 2
+  twos:
+  - num: 13
     skills:
     - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
       name: Cross Cut
@@ -58,10 +71,21 @@ builds:
     - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
       name: Surprise Attack
     - icon: 9a292cf4ed808d54c922ab48f5881c5a
-      name: Turbulence
+      name: Wind Fury
     - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
-  twos:
+  - num: 5
+    skills:
+    - icon: e6c2b076242187d44941ae0cefa96f62
+      name: Breath of Air
+    - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
+      name: Cross Cut
+    - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
+      name: Surprise Attack
+    - icon: 9a292cf4ed808d54c922ab48f5881c5a
+      name: Wind Fury
+    - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
+      name: Wind Stream
   - num: 5
     skills:
     - icon: e6c2b076242187d44941ae0cefa96f62
@@ -70,42 +94,6 @@ builds:
       name: Cross Cut
     - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
       name: Throwing Technique
-    - icon: 9a292cf4ed808d54c922ab48f5881c5a
-      name: Wind Fury
-    - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
-      name: Wind Stream
-  - num: 5
-    skills:
-    - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
-      name: Cross Cut
-    - icon: 9a292cf4ed808d54c922ab48f5881c5a
-      name: Cyclone
-    - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
-      name: Surprise Attack
-    - icon: 9a292cf4ed808d54c922ab48f5881c5a
-      name: Wind Fury
-    - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
-      name: Wind Stream
-  - num: 2
-    skills:
-    - icon: e6c2b076242187d44941ae0cefa96f62
-      name: Cold Wind
-    - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
-      name: Cross Cut
-    - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
-      name: Surprise Attack
-    - icon: 9a292cf4ed808d54c922ab48f5881c5a
-      name: Wind Fury
-    - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
-      name: Wind Stream
-  - num: 2
-    skills:
-    - icon: e6c2b076242187d44941ae0cefa96f62
-      name: Breath of Air
-    - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
-      name: Cross Cut
-    - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
-      name: Surprise Attack
     - icon: 9a292cf4ed808d54c922ab48f5881c5a
       name: Wind Fury
     - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
@@ -122,9 +110,21 @@ builds:
       name: Wind Fury
     - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
+  - num: 2
+    skills:
+    - icon: e6c2b076242187d44941ae0cefa96f62
+      name: Breath of Air
+    - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
+      name: Surprise Attack
+    - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
+      name: Vortex
+    - icon: 9a292cf4ed808d54c922ab48f5881c5a
+      name: Wind Fury
+    - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
+      name: Wind Stream
 layout: character
 name: taya
-num: 32
+num: 87
 title: Taya
 url: characters/taya.html
 ...

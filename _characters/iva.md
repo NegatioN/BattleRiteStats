@@ -1,7 +1,7 @@
 ---
 builds:
   threes:
-  - num: 4
+  - num: 6
     skills:
     - icon: d80cae4dd7699264fb3c37675b59f263
       name: Boom!
@@ -25,7 +25,19 @@ builds:
       name: EMP
     - icon: d80cae4dd7699264fb3c37675b59f263
       name: Stockpile
-  - num: 2
+  - num: 3
+    skills:
+    - icon: 9274b3f40ab2b4048b5cde1e9164901e
+      name: Blast Shield
+    - icon: d80cae4dd7699264fb3c37675b59f263
+      name: Boom!
+    - icon: 9274b3f40ab2b4048b5cde1e9164901e
+      name: Hyperspeed
+    - icon: 7442381b626556c4e8193c48031d01ef
+      name: Rocket Boosters
+    - icon: 7442381b626556c4e8193c48031d01ef
+      name: U-Turn
+  - num: 3
     skills:
     - icon: 9274b3f40ab2b4048b5cde1e9164901e
       name: Blast Shield
@@ -49,20 +61,8 @@ builds:
       name: Oil Blaster
     - icon: d80cae4dd7699264fb3c37675b59f263
       name: Stockpile
-  - num: 2
-    skills:
-    - icon: 9274b3f40ab2b4048b5cde1e9164901e
-      name: Blast Shield
-    - icon: d80cae4dd7699264fb3c37675b59f263
-      name: Boom!
-    - icon: 9274b3f40ab2b4048b5cde1e9164901e
-      name: Hyperspeed
-    - icon: 7442381b626556c4e8193c48031d01ef
-      name: Rocket Boosters
-    - icon: 7442381b626556c4e8193c48031d01ef
-      name: U-Turn
   twos:
-  - num: 9
+  - num: 29
     skills:
     - icon: 9274b3f40ab2b4048b5cde1e9164901e
       name: Blast Shield
@@ -74,7 +74,7 @@ builds:
       name: Stockpile
     - icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
-  - num: 8
+  - num: 10
     skills:
     - icon: d80cae4dd7699264fb3c37675b59f263
       name: Boom!
@@ -100,6 +100,18 @@ builds:
       name: Rocket Boosters
   - num: 2
     skills:
+    - icon: d80cae4dd7699264fb3c37675b59f263
+      name: Boom!
+    - icon: a001d096a99f9a84da3e8b1056dc0535
+      name: Gunge
+    - icon: 9274b3f40ab2b4048b5cde1e9164901e
+      name: Hyperspeed
+    - icon: 7442381b626556c4e8193c48031d01ef
+      name: Oil Blaster
+    - icon: 7442381b626556c4e8193c48031d01ef
+      name: U-Turn
+  - num: 2
+    skills:
     - icon: 9274b3f40ab2b4048b5cde1e9164901e
       name: Blast Shield
     - icon: d80cae4dd7699264fb3c37675b59f263
@@ -110,21 +122,9 @@ builds:
       name: Rocket Boosters
     - icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
-  - num: 2
-    skills:
-    - icon: 9274b3f40ab2b4048b5cde1e9164901e
-      name: Blast Shield
-    - icon: d80cae4dd7699264fb3c37675b59f263
-      name: Boom!
-    - icon: c9cd772b84da5454e9888a19fa249483
-      name: Conductor
-    - icon: 7442381b626556c4e8193c48031d01ef
-      name: Rocket Boosters
-    - icon: 7442381b626556c4e8193c48031d01ef
-      name: U-Turn
 layout: character
 name: iva
-num: 38
+num: 57
 title: Iva
 url: characters/iva.html
 ...

@@ -43,12 +43,12 @@ builds:
       name: Aerial Strike
     - icon: d25b4fc0d427d424891492d2b61469a9
       name: Dragon Mastery
+    - icon: 47dabb046c0ec4d4c96bde0832713a46
+      name: Hawk Dive
     - icon: fbfb00ff4fa4bc542b54639b84406f01
       name: Invigorate
-    - icon: fbfb00ff4fa4bc542b54639b84406f01
-      name: Riposte
     - icon: 47dabb046c0ec4d4c96bde0832713a46
-      name: Royal Descent
+      name: Overflowing Power
   - num: 3
     skills:
     - icon: d25b4fc0d427d424891492d2b61469a9
@@ -74,7 +74,19 @@ builds:
       name: Headlong Rush
     - icon: fbfb00ff4fa4bc542b54639b84406f01
       name: Riposte
-  - num: 4
+  - num: 6
+    skills:
+    - icon: d25b4fc0d427d424891492d2b61469a9
+      name: Dragon Mastery
+    - icon: 47dabb046c0ec4d4c96bde0832713a46
+      name: Hawk Dive
+    - icon: fbfb00ff4fa4bc542b54639b84406f01
+      name: Invigorate
+    - icon: fbfb00ff4fa4bc542b54639b84406f01
+      name: Riposte
+    - icon: 47dabb046c0ec4d4c96bde0832713a46
+      name: Royal Descent
+  - num: 5
     skills:
     - icon: 3c1f1a5c65f54594a9d3ba17b8f1b2a2
       name: Aerial Strike
@@ -86,31 +98,19 @@ builds:
       name: Riposte
     - icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
-  - num: 3
+  - num: 4
     skills:
-    - icon: d25b4fc0d427d424891492d2b61469a9
-      name: Dragon Mastery
-    - icon: 47dabb046c0ec4d4c96bde0832713a46
-      name: Hawk Dive
-    - icon: fbfb00ff4fa4bc542b54639b84406f01
-      name: Invigorate
-    - icon: fbfb00ff4fa4bc542b54639b84406f01
-      name: Riposte
-    - icon: 47dabb046c0ec4d4c96bde0832713a46
-      name: Royal Descent
-  - num: 3
-    skills:
-    - icon: d25b4fc0d427d424891492d2b61469a9
-      name: Dragon Mastery
     - icon: fbfb00ff4fa4bc542b54639b84406f01
       name: Duelist
     - icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Hawk Dive
+    - icon: d5c38afdefecf224b9a71bdfdb60dee1
+      name: Headlong Rush
+    - icon: fbfb00ff4fa4bc542b54639b84406f01
+      name: Invigorate
     - icon: 47dabb046c0ec4d4c96bde0832713a46
-      name: Overflowing Power
-    - icon: 3c1f1a5c65f54594a9d3ba17b8f1b2a2
-      name: Perilous Height
-  - num: 2
+      name: Royal Descent
+  - num: 3
     skills:
     - icon: 3c1f1a5c65f54594a9d3ba17b8f1b2a2
       name: Aerial Strike
@@ -124,7 +124,7 @@ builds:
       name: Overflowing Power
 layout: character
 name: raigon
-num: 53
+num: 52
 title: Raigon
 url: characters/raigon.html
 ...
