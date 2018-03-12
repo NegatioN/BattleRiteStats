@@ -1,6 +1,6 @@
 extra:
-  num_matches: 1295
-  time_generated: 11 March 2018
+  num_matches: 1399
+  time_generated: 12 March 2018
 threes:
 - builds:
   - num: 9
@@ -15,6 +15,20 @@ threes:
       name: Piercing Cold
     - icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
+    winrate: 33
+  - num: 5
+    skills:
+    - icon: 54bc49f3587260f45b1c4e8e2856e6b7
+      name: Blizzard
+    - icon: 257737da8189b1242be43990b8caf5a6
+      name: Figure Skating
+    - icon: bffd25b328052f647a5e1705071fe746
+      name: Ice Breaker
+    - icon: bffd25b328052f647a5e1705071fe746
+      name: Piercing Cold
+    - icon: 54bc49f3587260f45b1c4e8e2856e6b7
+      name: Snowstorm
+    winrate: 60
   - num: 5
     skills:
     - icon: 257737da8189b1242be43990b8caf5a6
@@ -27,21 +41,10 @@ threes:
       name: Snowstorm
     - icon: 1ac43589909cda746bafbf3da20d1559
       name: Twirl
-  - num: 4
-    skills:
-    - icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Blizzard
-    - icon: 257737da8189b1242be43990b8caf5a6
-      name: Figure Skating
-    - icon: bffd25b328052f647a5e1705071fe746
-      name: Ice Breaker
-    - icon: bffd25b328052f647a5e1705071fe746
-      name: Piercing Cold
-    - icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Snowstorm
+    winrate: 40
   name: Alysia
 - builds:
-  - num: 36
+  - num: 39
     skills:
     - icon: de69286ec8d6c934c9b04c51d1814b5c
       name: Burning Feet
@@ -53,7 +56,8 @@ threes:
       name: Inspiration
     - icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
-  - num: 9
+    winrate: 79
+  - num: 10
     skills:
     - icon: 117c35c7f757858428a733d8da4982be
       name: Combustion
@@ -65,6 +69,7 @@ threes:
       name: Inferno
     - icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
+    winrate: 20
   - num: 7
     skills:
     - icon: 117c35c7f757858428a733d8da4982be
@@ -77,6 +82,7 @@ threes:
       name: Inferno
     - icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
+    winrate: 57
   name: Ashka
 - builds:
   - num: 24
@@ -91,6 +97,7 @@ threes:
       name: Raging Ram
     - icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
       name: Shield Bash
+    winrate: 79
   - num: 14
     skills:
     - icon: e0a2c1fab3bd3d5468cbc7f4942b5448
@@ -103,6 +110,7 @@ threes:
       name: Mobile Defence
     - icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
       name: Shield Bash
+    winrate: 50
   - num: 11
     skills:
     - icon: e0a2c1fab3bd3d5468cbc7f4942b5448
@@ -115,8 +123,22 @@ threes:
       name: Shield Bash
     - icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
+    winrate: 36
   name: Bakko
 - builds:
+  - num: 15
+    skills:
+    - icon: 493cac6f13fb41849aaf95ed03fbb488
+      name: Healthful Bark
+    - icon: 36048e053d179474491aa317959b3eb7
+      name: Hop and Skip!
+    - icon: e0ead374bbde24c44a10cc34294a6e44
+      name: Nature's Cycle
+    - icon: 4832a1022ed764241a63b8dacc299ee9
+      name: Spring Growth
+    - icon: e0ead374bbde24c44a10cc34294a6e44
+      name: Weakening Pitch
+    winrate: 33
   - num: 14
     skills:
     - icon: 493cac6f13fb41849aaf95ed03fbb488
@@ -129,19 +151,8 @@ threes:
       name: Kindhearted
     - icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
-  - num: 13
-    skills:
-    - icon: 493cac6f13fb41849aaf95ed03fbb488
-      name: Healthful Bark
-    - icon: 36048e053d179474491aa317959b3eb7
-      name: Hop and Skip!
-    - icon: e0ead374bbde24c44a10cc34294a6e44
-      name: Nature's Cycle
-    - icon: 4832a1022ed764241a63b8dacc299ee9
-      name: Spring Growth
-    - icon: e0ead374bbde24c44a10cc34294a6e44
-      name: Weakening Pitch
-  - num: 5
+    winrate: 50
+  - num: 6
     skills:
     - icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Bountiful Tree
@@ -153,6 +164,7 @@ threes:
       name: Nature's Cycle
     - icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
+    winrate: 33
   name: Blossom
 - builds:
   - num: 27
@@ -167,7 +179,8 @@ threes:
       name: Spit Spit Spit
     - icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
-  - num: 12
+    winrate: 51
+  - num: 16
     skills:
     - icon: 97d6d4df3883adc4d99a900f62576ff7
       name: Cut to the Chase
@@ -179,18 +192,20 @@ threes:
       name: Noxious Reaction
     - icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
-  - num: 8
+    winrate: 43
+  - num: 9
     skills:
+    - icon: 2c885df2336558e489fbe57b32a9fb94
+      name: Frog Frenzy
     - icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
       name: Frog Slice
     - icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Mending Toxin
     - icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
-    - icon: 97d6d4df3883adc4d99a900f62576ff7
-      name: Time to Strike
-    - icon: 97d6d4df3883adc4d99a900f62576ff7
-      name: Venom Strike
+    - icon: f4d1c9994ff77524bacb0bfe5347e118
+      name: Triple Strike
+    winrate: 33
   name: Croak
 - builds:
   - num: 25
@@ -205,7 +220,8 @@ threes:
       name: Power Attachment
     - icon: 14568f096fcd91f488876796605f5063
       name: Sizzle
-  - num: 21
+    winrate: 48
+  - num: 22
     skills:
     - icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Globetrotter
@@ -217,7 +233,8 @@ threes:
       name: System Shock
     - icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
-  - num: 10
+    winrate: 36
+  - num: 11
     skills:
     - icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Dispatch
@@ -229,9 +246,10 @@ threes:
       name: Power Attachment
     - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
+    winrate: 36
   name: Destiny
 - builds:
-  - num: 26
+  - num: 31
     skills:
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Disruption
@@ -243,7 +261,8 @@ threes:
       name: Warlock's Grip
     - icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
-  - num: 9
+    winrate: 64
+  - num: 10
     skills:
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Disruption
@@ -255,18 +274,20 @@ threes:
       name: Undermine
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Warlock's Grip
-  - num: 4
+    winrate: 100
+  - num: 5
     skills:
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Disruption
+    - icon: b51e6f88de6853d46bec81bbb3a655a4
+      name: Face Melt
     - icon: 41cc34493bbdcb44985028d3000656d8
       name: Grimoire of Death
-    - icon: 563027e5fd687db4697308c54fe91381
-      name: Imp Rush
-    - icon: b51e6f88de6853d46bec81bbb3a655a4
-      name: Undermine
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Warlock's Grip
+    - icon: 99a21ff998aff1248a10df2d317faa20
+      name: Whizz
+    winrate: 40
   name: Ezmo
 - builds:
   - num: 68
@@ -281,6 +302,20 @@ threes:
       name: Rolling Thunder
     - icon: 92dd476aa2340694c9f1167dfc761287
       name: Tempest
+    winrate: 64
+  - num: 6
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Hammer Time
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Lightning Speed
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+    winrate: 33
   - num: 6
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
@@ -293,18 +328,7 @@ threes:
       name: Surge
     - icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
-  - num: 6
-    skills:
-    - icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Electric Conduction
-    - icon: f5f7b137c0c9d444899035c91cedda42
-      name: Lightning Rod
-    - icon: f5f7b137c0c9d444899035c91cedda42
-      name: Rolling Thunder
-    - icon: 92dd476aa2340694c9f1167dfc761287
-      name: Tempest
-    - icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Thundering Spring
+    winrate: 66
   name: Freya
 - builds:
   - num: 6
@@ -319,18 +343,20 @@ threes:
       name: Stockpile
     - icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
-  - num: 3
+    winrate: 33
+  - num: 4
     skills:
     - icon: 9274b3f40ab2b4048b5cde1e9164901e
       name: Blast Shield
     - icon: d80cae4dd7699264fb3c37675b59f263
       name: Boom!
-    - icon: c9cd772b84da5454e9888a19fa249483
-      name: Conductor
-    - icon: c9cd772b84da5454e9888a19fa249483
-      name: EMP
-    - icon: d80cae4dd7699264fb3c37675b59f263
-      name: Stockpile
+    - icon: a001d096a99f9a84da3e8b1056dc0535
+      name: Gunge
+    - icon: 7442381b626556c4e8193c48031d01ef
+      name: Oil Blaster
+    - icon: 7442381b626556c4e8193c48031d01ef
+      name: U-Turn
+    winrate: 25
   - num: 3
     skills:
     - icon: 9274b3f40ab2b4048b5cde1e9164901e
@@ -343,8 +369,22 @@ threes:
       name: Rocket Boosters
     - icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
+    winrate: 33
   name: Iva
 - builds:
+  - num: 30
+    skills:
+    - icon: ead2d318c0e3f8f4793207ab3e12da21
+      name: Blasting Pistols
+    - icon: ead2d318c0e3f8f4793207ab3e12da21
+      name: Concussion Bomb
+    - icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
+      name: Delight
+    - icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
+      name: Desperado
+    - icon: 6410a3c5ef2055247ad58f6ed2e36953
+      name: Gunslinger
+    winrate: 63
   - num: 29
     skills:
     - icon: c5da66a86ca45a1449a49d55cc92d1fc
@@ -357,19 +397,8 @@ threes:
       name: Delight
     - icon: 20e8f262eca757942bc23d94aa73ab2a
       name: Surprise Shot
-  - num: 22
-    skills:
-    - icon: ead2d318c0e3f8f4793207ab3e12da21
-      name: Blasting Pistols
-    - icon: ead2d318c0e3f8f4793207ab3e12da21
-      name: Concussion Bomb
-    - icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
-      name: Delight
-    - icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
-      name: Desperado
-    - icon: 6410a3c5ef2055247ad58f6ed2e36953
-      name: Gunslinger
-  - num: 14
+    winrate: 51
+  - num: 17
     skills:
     - icon: c5da66a86ca45a1449a49d55cc92d1fc
       name: Ambush
@@ -381,6 +410,7 @@ threes:
       name: Delight
     - icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
+    winrate: 64
   name: Jade
 - builds:
   - num: 23
@@ -395,6 +425,7 @@ threes:
       name: Inspiration
     - icon: fa9b6a58fa6398b4ea4c4756152bd079
       name: Push Off
+    winrate: 78
   - num: 18
     skills:
     - icon: 19e2c4e8bea39984ea45d9ab01faf7fa
@@ -407,7 +438,8 @@ threes:
       name: Push Off
     - icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
-  - num: 12
+    winrate: 72
+  - num: 13
     skills:
     - icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Deep Wounds
@@ -419,6 +451,7 @@ threes:
       name: Momentum Strike
     - icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
+    winrate: 30
   name: Jamila
 - builds:
   - num: 14
@@ -433,7 +466,8 @@ threes:
       name: Perfect Shot
     - icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
-  - num: 9
+    winrate: 35
+  - num: 10
     skills:
     - icon: ce1e01246a2a09145a192bb0deeeb400
       name: Arrow Storm
@@ -445,6 +479,7 @@ threes:
       name: Perfect Shot
     - icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
+    winrate: 20
   - num: 7
     skills:
     - icon: ce1e01246a2a09145a192bb0deeeb400
@@ -457,8 +492,22 @@ threes:
       name: Precision
     - icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
+    winrate: 85
   name: Jumong
 - builds:
+  - num: 11
+    skills:
+    - icon: 46e144a65c818c04eb3d00a21cf513b3
+      name: Alacrity
+    - icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Companion Potion
+    - icon: d0c4449b33eef2e4ca2cfa8900910041
+      name: Potency
+    - icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Stimulant
+    - icon: 470a917c1ac62c04ea45acc6a35c5f73
+      name: Swift Roll
+    winrate: 54
   - num: 9
     skills:
     - icon: 940ddc80c69eead49bfc8a5066a9afc5
@@ -471,18 +520,7 @@ threes:
       name: Swift Roll
     - icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
-  - num: 9
-    skills:
-    - icon: 46e144a65c818c04eb3d00a21cf513b3
-      name: Alacrity
-    - icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Companion Potion
-    - icon: d0c4449b33eef2e4ca2cfa8900910041
-      name: Potency
-    - icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Stimulant
-    - icon: 470a917c1ac62c04ea45acc6a35c5f73
-      name: Swift Roll
+    winrate: 88
   - num: 7
     skills:
     - icon: 46e144a65c818c04eb3d00a21cf513b3
@@ -495,33 +533,10 @@ threes:
       name: Swift Roll
     - icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
+    winrate: 57
   name: Lucie
 - builds:
-  - num: 10
-    skills:
-    - icon: 89c37320af892ae43b410f4d610d7ea8
-      name: Chrono Shift
-    - icon: 1e376cc95b8550443b527db1234300bd
-      name: Dehydration
-    - icon: 35a1515e35b5104449dfa8802c5aa0e2
-      name: Sand Struck
-    - icon: 89c37320af892ae43b410f4d610d7ea8
-      name: Sandstorm
-    - icon: 1e376cc95b8550443b527db1234300bd
-      name: Shared Fate
-  - num: 9
-    skills:
-    - icon: 1e376cc95b8550443b527db1234300bd
-      name: Dehydration
-    - icon: 838ae06cda41a2544a1d2a528389d5b5
-      name: Renew
-    - icon: 35a1515e35b5104449dfa8802c5aa0e2
-      name: Sand Struck
-    - icon: 35a1515e35b5104449dfa8802c5aa0e2
-      name: Sand Tomb
-    - icon: 1e376cc95b8550443b527db1234300bd
-      name: Shared Fate
-  - num: 9
+  - num: 11
     skills:
     - icon: 89c37320af892ae43b410f4d610d7ea8
       name: Chrono Shift
@@ -533,9 +548,36 @@ threes:
       name: Sand Struck
     - icon: 89c37320af892ae43b410f4d610d7ea8
       name: Sandstorm
+    winrate: 45
+  - num: 10
+    skills:
+    - icon: 89c37320af892ae43b410f4d610d7ea8
+      name: Chrono Shift
+    - icon: 1e376cc95b8550443b527db1234300bd
+      name: Dehydration
+    - icon: 35a1515e35b5104449dfa8802c5aa0e2
+      name: Sand Struck
+    - icon: 89c37320af892ae43b410f4d610d7ea8
+      name: Sandstorm
+    - icon: 1e376cc95b8550443b527db1234300bd
+      name: Shared Fate
+    winrate: 60
+  - num: 10
+    skills:
+    - icon: 1e376cc95b8550443b527db1234300bd
+      name: Dehydration
+    - icon: 838ae06cda41a2544a1d2a528389d5b5
+      name: Renew
+    - icon: 35a1515e35b5104449dfa8802c5aa0e2
+      name: Sand Struck
+    - icon: 35a1515e35b5104449dfa8802c5aa0e2
+      name: Sand Tomb
+    - icon: 1e376cc95b8550443b527db1234300bd
+      name: Shared Fate
+    winrate: 50
   name: Oldur
 - builds:
-  - num: 11
+  - num: 12
     skills:
     - icon: baa9baf5b01c5ee42902398a8f946a5a
       name: Gush
@@ -547,7 +589,8 @@ threes:
       name: Spring Water
     - icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
-  - num: 10
+    winrate: 33
+  - num: 11
     skills:
     - icon: baa9baf5b01c5ee42902398a8f946a5a
       name: Gush
@@ -559,6 +602,7 @@ threes:
       name: Splash Damage
     - icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
+    winrate: 90
   - num: 7
     skills:
     - icon: baa9baf5b01c5ee42902398a8f946a5a
@@ -570,10 +614,11 @@ threes:
     - icon: baa9baf5b01c5ee42902398a8f946a5a
       name: Sea Bubble
     - icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Soaking Wet
+      name: Splash Damage
+    winrate: 14
   name: Pearl
 - builds:
-  - num: 51
+  - num: 55
     skills:
     - icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Egg Carrier
@@ -585,7 +630,8 @@ threes:
       name: Spiderling Venom
     - icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
-  - num: 19
+    winrate: 40
+  - num: 22
     skills:
     - icon: 991db4d450443e9498711ab935bedf13
       name: Blood Leecher
@@ -597,7 +643,8 @@ threes:
       name: Spiderling Venom
     - icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
-  - num: 7
+    winrate: 59
+  - num: 10
     skills:
     - icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Egg Carrier
@@ -609,9 +656,10 @@ threes:
       name: Spiderling Venom
     - icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
+    winrate: 50
   name: Pestilus
 - builds:
-  - num: 19
+  - num: 21
     skills:
     - icon: dfc86226d7b2a6d438dad7dfca7a0d52
       name: Into the Realm
@@ -623,6 +671,20 @@ threes:
       name: Spiritual Wind
     - icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
+    winrate: 76
+  - num: 12
+    skills:
+    - icon: 7bd09f2f761edd0438938579a6942e82
+      name: Phantasm
+    - icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Silver Fang
+    - icon: dfc86226d7b2a6d438dad7dfca7a0d52
+      name: Specter
+    - icon: b6b9a08408c476c4a9f91eba6dacbb52
+      name: Spiritual Wind
+    - icon: 7bd09f2f761edd0438938579a6942e82
+      name: Vengeful Spirit
+    winrate: 25
   - num: 11
     skills:
     - icon: 70d64cab20af264438c599ba3ecdd2c4
@@ -635,18 +697,7 @@ threes:
       name: Shimmering Bond
     - icon: 70d64cab20af264438c599ba3ecdd2c4
       name: Silver Fang
-  - num: 11
-    skills:
-    - icon: 7bd09f2f761edd0438938579a6942e82
-      name: Phantasm
-    - icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Silver Fang
-    - icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Specter
-    - icon: b6b9a08408c476c4a9f91eba6dacbb52
-      name: Spiritual Wind
-    - icon: 7bd09f2f761edd0438938579a6942e82
-      name: Vengeful Spirit
+    winrate: 54
   name: Poloma
 - builds:
   - num: 5
@@ -661,6 +712,7 @@ threes:
       name: Perilous Height
     - icon: fbfb00ff4fa4bc542b54639b84406f01
       name: Riposte
+    winrate: 40
   - num: 4
     skills:
     - icon: fbfb00ff4fa4bc542b54639b84406f01
@@ -673,6 +725,7 @@ threes:
       name: Royal Descent
     - icon: 9712b4171f1869245b0f079805f126d3
       name: The Tiger and the Dragon
+    winrate: 50
   - num: 3
     skills:
     - icon: 3c1f1a5c65f54594a9d3ba17b8f1b2a2
@@ -680,14 +733,15 @@ threes:
     - icon: d25b4fc0d427d424891492d2b61469a9
       name: Dragon Mastery
     - icon: fbfb00ff4fa4bc542b54639b84406f01
-      name: Duelist
-    - icon: 47dabb046c0ec4d4c96bde0832713a46
-      name: Hawk Dive
-    - icon: fbfb00ff4fa4bc542b54639b84406f01
       name: Invigorate
+    - icon: fbfb00ff4fa4bc542b54639b84406f01
+      name: Riposte
+    - icon: 47dabb046c0ec4d4c96bde0832713a46
+      name: Royal Descent
+    winrate: 66
   name: Raigon
 - builds:
-  - num: 21
+  - num: 26
     skills:
     - icon: 0cfff8a481a64fd499bfaeb3da1cbca5
       name: Endurance
@@ -699,7 +753,8 @@ threes:
       name: Rook Smash
     - icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
-  - num: 14
+    winrate: 57
+  - num: 17
     skills:
     - icon: ec50e13a62a38194186bf0763d8ae951
       name: Crumble
@@ -711,7 +766,8 @@ threes:
       name: Rook Smash
     - icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
-  - num: 12
+    winrate: 29
+  - num: 13
     skills:
     - icon: ec50e13a62a38194186bf0763d8ae951
       name: Crumble
@@ -723,21 +779,10 @@ threes:
       name: Squash
     - icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
+    winrate: 76
   name: Rook
 - builds:
-  - num: 4
-    skills:
-    - icon: 2a54393ededda834a8070123fbc265cc
-      name: Agony
-    - icon: fe85f5b940cf1ff44825f090b2bb34ce
-      name: Demonic Hunt
-    - icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Grim Edge
-    - icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Tenacious Demon
-    - icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Wicked Strike
-  - num: 3
+  - num: 7
     skills:
     - icon: 2a54393ededda834a8070123fbc265cc
       name: Affliction
@@ -749,6 +794,20 @@ threes:
       name: Leech Blade
     - icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Night Stalker
+    winrate: 28
+  - num: 7
+    skills:
+    - icon: 2a54393ededda834a8070123fbc265cc
+      name: Agony
+    - icon: fe85f5b940cf1ff44825f090b2bb34ce
+      name: Demonic Hunt
+    - icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Grim Edge
+    - icon: 13fbbdb9e7cbde8429053e33e1022fa8
+      name: Tenacious Demon
+    - icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Wicked Strike
+    winrate: 57
   - num: 3
     skills:
     - icon: fe85f5b940cf1ff44825f090b2bb34ce
@@ -761,9 +820,10 @@ threes:
       name: Nether Chains
     - icon: 13fbbdb9e7cbde8429053e33e1022fa8
       name: Tenacious Demon
+    winrate: 33
   name: Ruh Kaan
 - builds:
-  - num: 77
+  - num: 91
     skills:
     - icon: 18eee826117df534d91bd518653fc360
       name: Ceremonial Spear
@@ -775,7 +835,8 @@ threes:
       name: Swift Feet
     - icon: 18eee826117df534d91bd518653fc360
       name: Thrust
-  - num: 17
+    winrate: 69
+  - num: 21
     skills:
     - icon: 18eee826117df534d91bd518653fc360
       name: Ceremonial Spear
@@ -787,7 +848,8 @@ threes:
       name: Swift Feet
     - icon: 18eee826117df534d91bd518653fc360
       name: Thrust
-  - num: 14
+    winrate: 33
+  - num: 15
     skills:
     - icon: 18eee826117df534d91bd518653fc360
       name: Ceremonial Spear
@@ -799,9 +861,10 @@ threes:
       name: Thrust
     - icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
+    winrate: 40
   name: Shifu
 - builds:
-  - num: 14
+  - num: 15
     skills:
     - icon: 550d7ec44eda09941a7b713422b042d0
       name: Celestial Cycle
@@ -813,7 +876,8 @@ threes:
       name: Saros Slash
     - icon: f13a6cad4bcaa974f8147e8a29a49dfe
       name: Sunbath
-  - num: 9
+    winrate: 66
+  - num: 11
     skills:
     - icon: 550d7ec44eda09941a7b713422b042d0
       name: Celestial Cycle
@@ -825,7 +889,8 @@ threes:
       name: Sunbath
     - icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
-  - num: 8
+    winrate: 45
+  - num: 10
     skills:
     - icon: 550d7ec44eda09941a7b713422b042d0
       name: Celestial Cycle
@@ -837,6 +902,7 @@ threes:
       name: Saros Slash
     - icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
+    winrate: 40
   name: Sirius
 - builds:
   - num: 38
@@ -851,7 +917,8 @@ threes:
       name: Wind Fury
     - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
-  - num: 9
+    winrate: 65
+  - num: 11
     skills:
     - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
       name: Cross Cut
@@ -863,6 +930,7 @@ threes:
       name: Wind Fury
     - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
+    winrate: 54
   - num: 8
     skills:
     - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
@@ -875,9 +943,10 @@ threes:
       name: Wind Fury
     - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
+    winrate: 37
   name: Taya
 - builds:
-  - num: 30
+  - num: 31
     skills:
     - icon: e6cee4151f85f62479addb2c5f459016
       name: Critical Backlash
@@ -889,7 +958,8 @@ threes:
       name: Neurotoxin
     - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
-  - num: 9
+    winrate: 38
+  - num: 10
     skills:
     - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Branch Out
@@ -901,6 +971,7 @@ threes:
       name: No Escape
     - icon: 0939b3a016f47504e99e00148489743b
       name: Sinister Sap
+    winrate: 30
   - num: 6
     skills:
     - icon: e6cee4151f85f62479addb2c5f459016
@@ -913,9 +984,10 @@ threes:
       name: Parasitic Stems
     - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
+    winrate: 50
   name: Thorn
 - builds:
-  - num: 26
+  - num: 29
     skills:
     - icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Celerity
@@ -927,7 +999,8 @@ threes:
       name: Silence
     - icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
-  - num: 5
+    winrate: 58
+  - num: 6
     skills:
     - icon: 61e058b8f4b79f4419ec1496f223ee36
       name: Inspiration
@@ -939,6 +1012,7 @@ threes:
       name: Synergy
     - icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
+    winrate: 50
   - num: 4
     skills:
     - icon: d6c97da35fc19134881cb5a4c44e3912
@@ -951,9 +1025,10 @@ threes:
       name: Silence
     - icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
+    winrate: 75
   name: Varesh
 - builds:
-  - num: 83
+  - num: 91
     skills:
     - icon: a970261549d4e2b4c923db1944ac2e4b
       name: Arcane Conductor
@@ -965,7 +1040,8 @@ threes:
       name: Showdown
     - icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
-  - num: 73
+    winrate: 54
+  - num: 84
     skills:
     - icon: a970261549d4e2b4c923db1944ac2e4b
       name: Arcane Conductor
@@ -977,22 +1053,24 @@ threes:
       name: Lead Astray
     - icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
-  - num: 9
+    winrate: 65
+  - num: 15
     skills:
+    - icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Ace up the Sleeve
     - icon: a970261549d4e2b4c923db1944ac2e4b
       name: Arcane Conductor
     - icon: 144efc709ac628542aee319b14932b2c
       name: Heart Restoration
     - icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Late to the Show
-    - icon: 1180e87d69492d442afaa79cbba36746
-      name: Lead Astray
+      name: Showdown
     - icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
+    winrate: 80
   name: Zander
 twos:
 - builds:
-  - num: 7
+  - num: 8
     skills:
     - icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Blizzard
@@ -1004,6 +1082,7 @@ twos:
       name: Piercing Cold
     - icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
+    winrate: 50
   - num: 6
     skills:
     - icon: 54bc49f3587260f45b1c4e8e2856e6b7
@@ -1016,6 +1095,7 @@ twos:
       name: Piercing Cold
     - icon: 257737da8189b1242be43990b8caf5a6
       name: Wintry Blast
+    winrate: 16
   - num: 3
     skills:
     - icon: 54bc49f3587260f45b1c4e8e2856e6b7
@@ -1028,6 +1108,7 @@ twos:
       name: Snowstorm
     - icon: 1ac43589909cda746bafbf3da20d1559
       name: Twirl
+    winrate: 66
   name: Alysia
 - builds:
   - num: 22
@@ -1042,6 +1123,7 @@ twos:
       name: Inspiration
     - icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
+    winrate: 95
   - num: 8
     skills:
     - icon: de69286ec8d6c934c9b04c51d1814b5c
@@ -1054,6 +1136,7 @@ twos:
       name: Inspiration
     - icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
+    winrate: 75
   - num: 8
     skills:
     - icon: de69286ec8d6c934c9b04c51d1814b5c
@@ -1066,6 +1149,7 @@ twos:
       name: Inspiration
     - icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
+    winrate: 50
   name: Ashka
 - builds:
   - num: 9
@@ -1080,6 +1164,7 @@ twos:
       name: The Red Axe
     - icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
+    winrate: 44
   - num: 7
     skills:
     - icon: 84ba51168b08df3489362e3a9be59704
@@ -1092,6 +1177,7 @@ twos:
       name: Shield Bash
     - icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
+    winrate: 71
   - num: 5
     skills:
     - icon: 16e7e84d6c786cf4abc695c9b1c29b31
@@ -1104,9 +1190,10 @@ twos:
       name: Rampage
     - icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
+    winrate: 20
   name: Bakko
 - builds:
-  - num: 46
+  - num: 53
     skills:
     - icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Healthful Bark
@@ -1118,6 +1205,7 @@ twos:
       name: Spring Growth
     - icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
+    winrate: 50
   - num: 25
     skills:
     - icon: 36048e053d179474491aa317959b3eb7
@@ -1130,7 +1218,8 @@ twos:
       name: Spring Growth
     - icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
-  - num: 20
+    winrate: 60
+  - num: 21
     skills:
     - icon: 36048e053d179474491aa317959b3eb7
       name: Cautious
@@ -1142,6 +1231,7 @@ twos:
       name: Refreshing Seed
     - icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
+    winrate: 42
   name: Blossom
 - builds:
   - num: 7
@@ -1156,18 +1246,7 @@ twos:
       name: Spit Spit Spit
     - icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
-  - num: 5
-    skills:
-    - icon: 2c885df2336558e489fbe57b32a9fb94
-      name: Frog Frenzy
-    - icon: f4d1c9994ff77524bacb0bfe5347e118
-      name: Jungle Toad
-    - icon: 84e29daadee87714294bbdabd3fdd4ab
-      name: Lethal Toxins
-    - icon: 84e29daadee87714294bbdabd3fdd4ab
-      name: Mending Toxin
-    - icon: f4d1c9994ff77524bacb0bfe5347e118
-      name: Triple Strike
+    winrate: 42
   - num: 5
     skills:
     - icon: 2c885df2336558e489fbe57b32a9fb94
@@ -1180,9 +1259,23 @@ twos:
       name: Noxious Reaction
     - icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
+    winrate: 20
+  - num: 5
+    skills:
+    - icon: 2c885df2336558e489fbe57b32a9fb94
+      name: Frog Frenzy
+    - icon: f4d1c9994ff77524bacb0bfe5347e118
+      name: Jungle Toad
+    - icon: 84e29daadee87714294bbdabd3fdd4ab
+      name: Lethal Toxins
+    - icon: 84e29daadee87714294bbdabd3fdd4ab
+      name: Mending Toxin
+    - icon: f4d1c9994ff77524bacb0bfe5347e118
+      name: Triple Strike
+    winrate: 80
   name: Croak
 - builds:
-  - num: 6
+  - num: 7
     skills:
     - icon: 1d95f324f635c9447a68299999e8597e
       name: Blast Processing
@@ -1194,18 +1287,7 @@ twos:
       name: System Shock
     - icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
-  - num: 2
-    skills:
-    - icon: 1d95f324f635c9447a68299999e8597e
-      name: Blast Processing
-    - icon: 32189e52d279bcc498ede10b3d3ff6d1
-      name: Globetrotter
-    - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: Power Attachment
-    - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: System Shock
-    - icon: 32189e52d279bcc498ede10b3d3ff6d1
-      name: Violent Revolution
+    winrate: 71
   - num: 2
     skills:
     - icon: 32189e52d279bcc498ede10b3d3ff6d1
@@ -1218,9 +1300,23 @@ twos:
       name: Power Attachment
     - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
+    winrate: 100
+  - num: 2
+    skills:
+    - icon: 1d95f324f635c9447a68299999e8597e
+      name: Blast Processing
+    - icon: 32189e52d279bcc498ede10b3d3ff6d1
+      name: Globetrotter
+    - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: Power Attachment
+    - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: System Shock
+    - icon: 32189e52d279bcc498ede10b3d3ff6d1
+      name: Violent Revolution
+    winrate: 50
   name: Destiny
 - builds:
-  - num: 26
+  - num: 28
     skills:
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Disruption
@@ -1232,6 +1328,7 @@ twos:
       name: Warlock's Grip
     - icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
+    winrate: 78
   - num: 16
     skills:
     - icon: da12579e4ef58ba4c87c1819bf1c699b
@@ -1244,6 +1341,7 @@ twos:
       name: Undermine
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Warlock's Grip
+    winrate: 93
   - num: 9
     skills:
     - icon: da12579e4ef58ba4c87c1819bf1c699b
@@ -1256,6 +1354,7 @@ twos:
       name: Warlock's Grip
     - icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
+    winrate: 77
   name: Ezmo
 - builds:
   - num: 21
@@ -1270,7 +1369,8 @@ twos:
       name: Thunderbolt
     - icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
-  - num: 16
+    winrate: 33
+  - num: 18
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
       name: Electric Conduction
@@ -1282,7 +1382,8 @@ twos:
       name: Rolling Thunder
     - icon: 92dd476aa2340694c9f1167dfc761287
       name: Tempest
-  - num: 15
+    winrate: 77
+  - num: 16
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
       name: Electric Conduction
@@ -1294,6 +1395,7 @@ twos:
       name: Surge
     - icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
+    winrate: 93
   name: Freya
 - builds:
   - num: 29
@@ -1308,6 +1410,7 @@ twos:
       name: Stockpile
     - icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
+    winrate: 37
   - num: 10
     skills:
     - icon: d80cae4dd7699264fb3c37675b59f263
@@ -1320,6 +1423,7 @@ twos:
       name: Stockpile
     - icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
+    winrate: 20
   - num: 4
     skills:
     - icon: 9274b3f40ab2b4048b5cde1e9164901e
@@ -1332,9 +1436,10 @@ twos:
       name: Oil Blaster
     - icon: 7442381b626556c4e8193c48031d01ef
       name: Rocket Boosters
+    winrate: 0
   name: Iva
 - builds:
-  - num: 24
+  - num: 26
     skills:
     - icon: ead2d318c0e3f8f4793207ab3e12da21
       name: Blasting Pistols
@@ -1346,6 +1451,7 @@ twos:
       name: Desperado
     - icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
+    winrate: 57
   - num: 7
     skills:
     - icon: c5da66a86ca45a1449a49d55cc92d1fc
@@ -1358,18 +1464,20 @@ twos:
       name: Desperado
     - icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
+    winrate: 57
   - num: 6
     skills:
+    - icon: c5da66a86ca45a1449a49d55cc92d1fc
+      name: Ambush
     - icon: ead2d318c0e3f8f4793207ab3e12da21
       name: Concussion Bomb
     - icon: 20e8f262eca757942bc23d94aa73ab2a
       name: Deadly Focus
     - icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
       name: Delight
-    - icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
-      name: Desperado
-    - icon: 6410a3c5ef2055247ad58f6ed2e36953
-      name: Gunslinger
+    - icon: 20e8f262eca757942bc23d94aa73ab2a
+      name: Shadow Shot
+    winrate: 66
   name: Jade
 - builds:
   - num: 28
@@ -1384,6 +1492,7 @@ twos:
       name: Inspiration
     - icon: fa9b6a58fa6398b4ea4c4756152bd079
       name: Push Off
+    winrate: 100
   - num: 23
     skills:
     - icon: 19e2c4e8bea39984ea45d9ab01faf7fa
@@ -1396,6 +1505,7 @@ twos:
       name: Push Off
     - icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
+    winrate: 47
   - num: 12
     skills:
     - icon: 19e2c4e8bea39984ea45d9ab01faf7fa
@@ -1408,9 +1518,10 @@ twos:
       name: Quick Strike
     - icon: fa9b6a58fa6398b4ea4c4756152bd079
       name: Roundhouse Kick
+    winrate: 83
   name: Jamila
 - builds:
-  - num: 20
+  - num: 23
     skills:
     - icon: bcb5bbf5676057e4bb4278f5c20bb865
       name: Panther
@@ -1422,7 +1533,8 @@ twos:
       name: Prey Drive
     - icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Viper
-  - num: 11
+    winrate: 34
+  - num: 14
     skills:
     - icon: ce1e01246a2a09145a192bb0deeeb400
       name: Arrow Storm
@@ -1434,32 +1546,22 @@ twos:
       name: Precision
     - icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
-  - num: 8
+    winrate: 64
+  - num: 10
     skills:
-    - icon: ce1e01246a2a09145a192bb0deeeb400
-      name: Arrow Storm
+    - icon: 60a73a3140321ec448f7f97f00a07897
+      name: Death Mark
+    - icon: bcb5bbf5676057e4bb4278f5c20bb865
+      name: Panther
     - icon: 594fdf8c70a83404da422aa6463e0e03
       name: Perfect Shot
     - icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Precision
-    - icon: 6e30eed38d549fa4794a4543bf2b8de2
-      name: Trapper
     - icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Viper
+    winrate: 50
   name: Jumong
 - builds:
-  - num: 9
-    skills:
-    - icon: 46e144a65c818c04eb3d00a21cf513b3
-      name: Alacrity
-    - icon: e45c9dbf4c532ca4c8c8dfca14798771
-      name: Deadly Brew
-    - icon: d0c4449b33eef2e4ca2cfa8900910041
-      name: Potency
-    - icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Stimulant
-    - icon: 470a917c1ac62c04ea45acc6a35c5f73
-      name: Swift Roll
   - num: 9
     skills:
     - icon: 46e144a65c818c04eb3d00a21cf513b3
@@ -1472,10 +1574,24 @@ twos:
       name: Swift Roll
     - icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Vampiric Toxin
-  - num: 4
+    winrate: 100
+  - num: 9
     skills:
     - icon: 46e144a65c818c04eb3d00a21cf513b3
       name: Alacrity
+    - icon: e45c9dbf4c532ca4c8c8dfca14798771
+      name: Deadly Brew
+    - icon: d0c4449b33eef2e4ca2cfa8900910041
+      name: Potency
+    - icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Stimulant
+    - icon: 470a917c1ac62c04ea45acc6a35c5f73
+      name: Swift Roll
+    winrate: 66
+  - num: 4
+    skills:
+    - icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Companion Potion
     - icon: d0c4449b33eef2e4ca2cfa8900910041
       name: Potency
     - icon: 940ddc80c69eead49bfc8a5066a9afc5
@@ -1484,6 +1600,7 @@ twos:
       name: Swift Roll
     - icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
+    winrate: 100
   name: Lucie
 - builds:
   - num: 27
@@ -1498,6 +1615,7 @@ twos:
       name: Sand Tomb
     - icon: 89c37320af892ae43b410f4d610d7ea8
       name: Sandstorm
+    winrate: 29
   - num: 18
     skills:
     - icon: 89c37320af892ae43b410f4d610d7ea8
@@ -1510,6 +1628,7 @@ twos:
       name: Shared Fate
     - icon: a22c6c4bc967d4e48a44f0e87a93023e
       name: Time Walker
+    winrate: 77
   - num: 14
     skills:
     - icon: 1e376cc95b8550443b527db1234300bd
@@ -1522,9 +1641,10 @@ twos:
       name: Shared Fate
     - icon: a22c6c4bc967d4e48a44f0e87a93023e
       name: Time Walker
+    winrate: 57
   name: Oldur
 - builds:
-  - num: 24
+  - num: 25
     skills:
     - icon: baa9baf5b01c5ee42902398a8f946a5a
       name: Gush
@@ -1536,6 +1656,7 @@ twos:
       name: Sea Bubble
     - icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
+    winrate: 44
   - num: 15
     skills:
     - icon: baa9baf5b01c5ee42902398a8f946a5a
@@ -1548,6 +1669,7 @@ twos:
       name: Sea Bubble
     - icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Soaking Wet
+    winrate: 86
   - num: 12
     skills:
     - icon: baa9baf5b01c5ee42902398a8f946a5a
@@ -1560,9 +1682,10 @@ twos:
       name: Splash Damage
     - icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
+    winrate: 25
   name: Pearl
 - builds:
-  - num: 38
+  - num: 44
     skills:
     - icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Egg Carrier
@@ -1574,6 +1697,7 @@ twos:
       name: Spiderling Venom
     - icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
+    winrate: 45
   - num: 9
     skills:
     - icon: 991db4d450443e9498711ab935bedf13
@@ -1586,18 +1710,20 @@ twos:
       name: Overlord
     - icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
+    winrate: 44
   - num: 6
     skills:
-    - icon: 991db4d450443e9498711ab935bedf13
-      name: Blood Leecher
     - icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Egg Carrier
     - icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Hive Mind
+    - icon: 991db4d450443e9498711ab935bedf13
+      name: Insectivore
     - icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Spiderling Venom
     - icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
+    winrate: 0
   name: Pestilus
 - builds:
   - num: 34
@@ -1612,6 +1738,7 @@ twos:
       name: Spiritual Wind
     - icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
+    winrate: 67
   - num: 16
     skills:
     - icon: 70d64cab20af264438c599ba3ecdd2c4
@@ -1624,6 +1751,7 @@ twos:
       name: Specter
     - icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
+    winrate: 81
   - num: 8
     skills:
     - icon: 70d64cab20af264438c599ba3ecdd2c4
@@ -1636,6 +1764,7 @@ twos:
       name: Silver Fang
     - icon: dfc86226d7b2a6d438dad7dfca7a0d52
       name: Specter
+    winrate: 50
   name: Poloma
 - builds:
   - num: 8
@@ -1650,6 +1779,7 @@ twos:
       name: Headlong Rush
     - icon: fbfb00ff4fa4bc542b54639b84406f01
       name: Riposte
+    winrate: 87
   - num: 6
     skills:
     - icon: d25b4fc0d427d424891492d2b61469a9
@@ -1662,6 +1792,7 @@ twos:
       name: Riposte
     - icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
+    winrate: 50
   - num: 5
     skills:
     - icon: 3c1f1a5c65f54594a9d3ba17b8f1b2a2
@@ -1674,6 +1805,7 @@ twos:
       name: Riposte
     - icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
+    winrate: 60
   name: Raigon
 - builds:
   - num: 22
@@ -1688,7 +1820,8 @@ twos:
       name: Rook Smash
     - icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
-  - num: 13
+    winrate: 50
+  - num: 14
     skills:
     - icon: ec50e13a62a38194186bf0763d8ae951
       name: Crumble
@@ -1700,6 +1833,7 @@ twos:
       name: Rook Smash
     - icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
+    winrate: 50
   - num: 6
     skills:
     - icon: 0cfff8a481a64fd499bfaeb3da1cbca5
@@ -1712,9 +1846,10 @@ twos:
       name: Madness
     - icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
+    winrate: 33
   name: Rook
 - builds:
-  - num: 9
+  - num: 14
     skills:
     - icon: 2a54393ededda834a8070123fbc265cc
       name: Agony
@@ -1726,6 +1861,7 @@ twos:
       name: Tenacious Demon
     - icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
+    winrate: 42
   - num: 8
     skills:
     - icon: 2a54393ededda834a8070123fbc265cc
@@ -1738,21 +1874,23 @@ twos:
       name: Tenacious Demon
     - icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
+    winrate: 12
   - num: 3
     skills:
     - icon: 13fbbdb9e7cbde8429053e33e1022fa8
       name: Cold Embrace
-    - icon: fe85f5b940cf1ff44825f090b2bb34ce
-      name: Demonic Hunt
     - icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Leech Blade
+    - icon: fe85f5b940cf1ff44825f090b2bb34ce
+      name: Nether Chains
     - icon: 13fbbdb9e7cbde8429053e33e1022fa8
       name: Tenacious Demon
     - icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
+    winrate: 33
   name: Ruh Kaan
 - builds:
-  - num: 98
+  - num: 108
     skills:
     - icon: 18eee826117df534d91bd518653fc360
       name: Ceremonial Spear
@@ -1764,7 +1902,8 @@ twos:
       name: Swift Feet
     - icon: 18eee826117df534d91bd518653fc360
       name: Thrust
-  - num: 37
+    winrate: 57
+  - num: 38
     skills:
     - icon: 18eee826117df534d91bd518653fc360
       name: Ceremonial Spear
@@ -1776,10 +1915,9 @@ twos:
       name: Thrust
     - icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
-  - num: 8
+    winrate: 55
+  - num: 13
     skills:
-    - icon: 18eee826117df534d91bd518653fc360
-      name: Ceremonial Spear
     - icon: 19e037c83991916449cd9475c20ca0d1
       name: Ferocious Stance
     - icon: 19e037c83991916449cd9475c20ca0d1
@@ -1788,6 +1926,9 @@ twos:
       name: Swift Feet
     - icon: 18eee826117df534d91bd518653fc360
       name: Thrust
+    - icon: 51550c5d60b411544a130bfc026b306d
+      name: Whirling Blade
+    winrate: 53
   name: Shifu
 - builds:
   - num: 17
@@ -1802,6 +1943,7 @@ twos:
       name: Saros Slash
     - icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
+    winrate: 64
   - num: 14
     skills:
     - icon: 550d7ec44eda09941a7b713422b042d0
@@ -1814,6 +1956,7 @@ twos:
       name: Saros Slash
     - icon: f13a6cad4bcaa974f8147e8a29a49dfe
       name: Sunbath
+    winrate: 71
   - num: 8
     skills:
     - icon: 550d7ec44eda09941a7b713422b042d0
@@ -1826,6 +1969,7 @@ twos:
       name: Sunbath
     - icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
+    winrate: 87
   name: Sirius
 - builds:
   - num: 13
@@ -1840,7 +1984,8 @@ twos:
       name: Wind Fury
     - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
-  - num: 5
+    winrate: 46
+  - num: 6
     skills:
     - icon: e6c2b076242187d44941ae0cefa96f62
       name: Breath of Air
@@ -1852,6 +1997,7 @@ twos:
       name: Wind Fury
     - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
+    winrate: 33
   - num: 5
     skills:
     - icon: e6c2b076242187d44941ae0cefa96f62
@@ -1864,6 +2010,7 @@ twos:
       name: Wind Fury
     - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
+    winrate: 80
   name: Taya
 - builds:
   - num: 6
@@ -1878,7 +2025,8 @@ twos:
       name: Lurker
     - icon: 3bf2758e82cebed44856097532c5dd9b
       name: Neurotoxin
-  - num: 4
+    winrate: 50
+  - num: 6
     skills:
     - icon: e6cee4151f85f62479addb2c5f459016
       name: Critical Backlash
@@ -1890,7 +2038,8 @@ twos:
       name: Neurotoxin
     - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
-  - num: 4
+    winrate: 50
+  - num: 5
     skills:
     - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Branch Out
@@ -1902,6 +2051,7 @@ twos:
       name: No Escape
     - icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
+    winrate: 40
   name: Thorn
 - builds:
   - num: 17
@@ -1916,6 +2066,7 @@ twos:
       name: Unlimited Power
     - icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Zeal
+    winrate: 41
   - num: 9
     skills:
     - icon: 0eb9279bebee4a24b8fe4604894d3fb6
@@ -1928,21 +2079,23 @@ twos:
       name: Unlimited Power
     - icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
+    winrate: 100
   - num: 3
     skills:
     - icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Celerity
-    - icon: fe5369baf5a80dc47b0656ae7be82e09
-      name: Fervor
-    - icon: d6c97da35fc19134881cb5a4c44e3912
-      name: Fracture
+    - icon: c2525970f8ab5574191da4938fa5619b
+      name: Devastation
     - icon: d6c97da35fc19134881cb5a4c44e3912
       name: Inhibitor
+    - icon: 2771f14010b802143b0b4d5fc8e4bb9c
+      name: Ruin
     - icon: fe5369baf5a80dc47b0656ae7be82e09
-      name: Unlimited Power
+      name: Synergy
+    winrate: 66
   name: Varesh
 - builds:
-  - num: 64
+  - num: 65
     skills:
     - icon: a970261549d4e2b4c923db1944ac2e4b
       name: Arcane Conductor
@@ -1954,7 +2107,8 @@ twos:
       name: Showdown
     - icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
-  - num: 27
+    winrate: 70
+  - num: 29
     skills:
     - icon: a970261549d4e2b4c923db1944ac2e4b
       name: Arcane Conductor
@@ -1966,6 +2120,7 @@ twos:
       name: Lead Astray
     - icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
+    winrate: 89
   - num: 24
     skills:
     - icon: a970261549d4e2b4c923db1944ac2e4b
@@ -1978,4 +2133,5 @@ twos:
       name: Lead Astray
     - icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
+    winrate: 66
   name: Zander

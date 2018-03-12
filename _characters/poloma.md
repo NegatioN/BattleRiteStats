@@ -1,7 +1,7 @@
 ---
 builds:
   threes:
-  - num: 19
+  - num: 21
     skills:
     - icon: dfc86226d7b2a6d438dad7dfca7a0d52
       name: Into the Realm
@@ -13,6 +13,20 @@ builds:
       name: Spiritual Wind
     - icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
+    winrate: 76
+  - num: 12
+    skills:
+    - icon: 7bd09f2f761edd0438938579a6942e82
+      name: Phantasm
+    - icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Silver Fang
+    - icon: dfc86226d7b2a6d438dad7dfca7a0d52
+      name: Specter
+    - icon: b6b9a08408c476c4a9f91eba6dacbb52
+      name: Spiritual Wind
+    - icon: 7bd09f2f761edd0438938579a6942e82
+      name: Vengeful Spirit
+    winrate: 25
   - num: 11
     skills:
     - icon: 70d64cab20af264438c599ba3ecdd2c4
@@ -25,19 +39,8 @@ builds:
       name: Shimmering Bond
     - icon: 70d64cab20af264438c599ba3ecdd2c4
       name: Silver Fang
-  - num: 11
-    skills:
-    - icon: 7bd09f2f761edd0438938579a6942e82
-      name: Phantasm
-    - icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Silver Fang
-    - icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Specter
-    - icon: b6b9a08408c476c4a9f91eba6dacbb52
-      name: Spiritual Wind
-    - icon: 7bd09f2f761edd0438938579a6942e82
-      name: Vengeful Spirit
-  - num: 8
+    winrate: 54
+  - num: 9
     skills:
     - icon: 70d64cab20af264438c599ba3ecdd2c4
       name: Affection
@@ -49,6 +52,7 @@ builds:
       name: Specter
     - icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
+    winrate: 55
   - num: 8
     skills:
     - icon: 70d64cab20af264438c599ba3ecdd2c4
@@ -61,6 +65,7 @@ builds:
       name: Spiritual Wind
     - icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
+    winrate: 62
   twos:
   - num: 34
     skills:
@@ -74,6 +79,7 @@ builds:
       name: Spiritual Wind
     - icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
+    winrate: 67
   - num: 16
     skills:
     - icon: 70d64cab20af264438c599ba3ecdd2c4
@@ -86,6 +92,7 @@ builds:
       name: Specter
     - icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
+    winrate: 81
   - num: 8
     skills:
     - icon: 70d64cab20af264438c599ba3ecdd2c4
@@ -98,6 +105,7 @@ builds:
       name: Silver Fang
     - icon: dfc86226d7b2a6d438dad7dfca7a0d52
       name: Specter
+    winrate: 50
   - num: 5
     skills:
     - icon: 70d64cab20af264438c599ba3ecdd2c4
@@ -110,21 +118,23 @@ builds:
       name: Specter
     - icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
+    winrate: 20
   - num: 3
     skills:
-    - icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Affection
-    - icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Into the Realm
     - icon: 7bd09f2f761edd0438938579a6942e82
       name: Phantasm
-    - icon: eb89a558d4c3f23498b8a442c7ef6964
-      name: Pixie Dust
     - icon: 70d64cab20af264438c599ba3ecdd2c4
       name: Silver Fang
+    - icon: dfc86226d7b2a6d438dad7dfca7a0d52
+      name: Specter
+    - icon: b6b9a08408c476c4a9f91eba6dacbb52
+      name: Spiritual Wind
+    - icon: 7bd09f2f761edd0438938579a6942e82
+      name: Vengeful Spirit
+    winrate: 33
 layout: character
 name: poloma
-num: 178
+num: 315
 title: Poloma
 url: characters/poloma.html
 ...

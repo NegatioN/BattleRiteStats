@@ -13,7 +13,8 @@ builds:
       name: Power Attachment
     - icon: 14568f096fcd91f488876796605f5063
       name: Sizzle
-  - num: 21
+    winrate: 48
+  - num: 22
     skills:
     - icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Globetrotter
@@ -25,7 +26,8 @@ builds:
       name: System Shock
     - icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
-  - num: 10
+    winrate: 36
+  - num: 11
     skills:
     - icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Dispatch
@@ -37,6 +39,7 @@ builds:
       name: Power Attachment
     - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
+    winrate: 36
   - num: 6
     skills:
     - icon: 14568f096fcd91f488876796605f5063
@@ -49,6 +52,7 @@ builds:
       name: Sizzle
     - icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
+    winrate: 83
   - num: 5
     skills:
     - icon: 1d95f324f635c9447a68299999e8597e
@@ -61,8 +65,9 @@ builds:
       name: Sizzle
     - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
+    winrate: 40
   twos:
-  - num: 6
+  - num: 7
     skills:
     - icon: 1d95f324f635c9447a68299999e8597e
       name: Blast Processing
@@ -74,18 +79,7 @@ builds:
       name: System Shock
     - icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
-  - num: 2
-    skills:
-    - icon: 1d95f324f635c9447a68299999e8597e
-      name: Blast Processing
-    - icon: 32189e52d279bcc498ede10b3d3ff6d1
-      name: Globetrotter
-    - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: Power Attachment
-    - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: System Shock
-    - icon: 32189e52d279bcc498ede10b3d3ff6d1
-      name: Violent Revolution
+    winrate: 71
   - num: 2
     skills:
     - icon: 32189e52d279bcc498ede10b3d3ff6d1
@@ -98,33 +92,49 @@ builds:
       name: Power Attachment
     - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
-  - num: 1
+    winrate: 100
+  - num: 2
     skills:
+    - icon: 1d95f324f635c9447a68299999e8597e
+      name: Blast Processing
     - icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Globetrotter
-    - icon: 14568f096fcd91f488876796605f5063
-      name: Plasma Booster
     - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: Power Attachment
     - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
     - icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
+    winrate: 50
+  - num: 1
+    skills:
+    - icon: 1d95f324f635c9447a68299999e8597e
+      name: Blast Processing
+    - icon: 751839d4f58db9445aa7fc86411521a1
+      name: Expansion Pack
+    - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: Power Attachment
+    - icon: 14568f096fcd91f488876796605f5063
+      name: Sizzle
+    - icon: 32189e52d279bcc498ede10b3d3ff6d1
+      name: Violent Revolution
+    winrate: 0
   - num: 1
     skills:
     - icon: 1d95f324f635c9447a68299999e8597e
       name: Blast Processing
     - icon: 32189e52d279bcc498ede10b3d3ff6d1
-      name: Dispatch
-    - icon: 751839d4f58db9445aa7fc86411521a1
-      name: Expansion Pack
-    - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: Power Attachment
+      name: Globetrotter
+    - icon: 14568f096fcd91f488876796605f5063
+      name: Sizzle
     - icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
+    - icon: 32189e52d279bcc498ede10b3d3ff6d1
+      name: Violent Revolution
+    winrate: 0
 layout: character
 name: destiny
-num: 123
+num: 155
 title: Destiny
 url: characters/destiny.html
 ...

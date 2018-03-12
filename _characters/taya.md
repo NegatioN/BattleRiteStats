@@ -13,7 +13,8 @@ builds:
       name: Wind Fury
     - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
-  - num: 9
+    winrate: 65
+  - num: 11
     skills:
     - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
       name: Cross Cut
@@ -25,6 +26,7 @@ builds:
       name: Wind Fury
     - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
+    winrate: 54
   - num: 8
     skills:
     - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
@@ -37,6 +39,7 @@ builds:
       name: Wind Fury
     - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
+    winrate: 37
   - num: 6
     skills:
     - icon: e6c2b076242187d44941ae0cefa96f62
@@ -49,7 +52,8 @@ builds:
       name: Wind Fury
     - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
-  - num: 4
+    winrate: 83
+  - num: 6
     skills:
     - icon: e6c2b076242187d44941ae0cefa96f62
       name: Cold Wind
@@ -61,6 +65,7 @@ builds:
       name: Wind Fury
     - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
+    winrate: 83
   twos:
   - num: 13
     skills:
@@ -74,7 +79,8 @@ builds:
       name: Wind Fury
     - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
-  - num: 5
+    winrate: 46
+  - num: 6
     skills:
     - icon: e6c2b076242187d44941ae0cefa96f62
       name: Breath of Air
@@ -86,6 +92,7 @@ builds:
       name: Wind Fury
     - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
+    winrate: 33
   - num: 5
     skills:
     - icon: e6c2b076242187d44941ae0cefa96f62
@@ -98,7 +105,8 @@ builds:
       name: Wind Fury
     - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
-  - num: 2
+    winrate: 80
+  - num: 3
     skills:
     - icon: e6c2b076242187d44941ae0cefa96f62
       name: Breath of Air
@@ -110,21 +118,23 @@ builds:
       name: Wind Fury
     - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
-  - num: 2
+    winrate: 0
+  - num: 3
     skills:
     - icon: e6c2b076242187d44941ae0cefa96f62
-      name: Breath of Air
+      name: Cold Wind
+    - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
+      name: Cross Cut
     - icon: a1e1ca01cc40ea24c9e8e0fa7de49581
       name: Surprise Attack
-    - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
-      name: Vortex
     - icon: 9a292cf4ed808d54c922ab48f5881c5a
       name: Wind Fury
     - icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
+    winrate: 66
 layout: character
 name: taya
-num: 87
+num: 145
 title: Taya
 url: characters/taya.html
 ...

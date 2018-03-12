@@ -13,6 +13,20 @@ builds:
       name: Piercing Cold
     - icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
+    winrate: 33
+  - num: 5
+    skills:
+    - icon: 54bc49f3587260f45b1c4e8e2856e6b7
+      name: Blizzard
+    - icon: 257737da8189b1242be43990b8caf5a6
+      name: Figure Skating
+    - icon: bffd25b328052f647a5e1705071fe746
+      name: Ice Breaker
+    - icon: bffd25b328052f647a5e1705071fe746
+      name: Piercing Cold
+    - icon: 54bc49f3587260f45b1c4e8e2856e6b7
+      name: Snowstorm
+    winrate: 60
   - num: 5
     skills:
     - icon: 257737da8189b1242be43990b8caf5a6
@@ -25,18 +39,7 @@ builds:
       name: Snowstorm
     - icon: 1ac43589909cda746bafbf3da20d1559
       name: Twirl
-  - num: 4
-    skills:
-    - icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Blizzard
-    - icon: 257737da8189b1242be43990b8caf5a6
-      name: Figure Skating
-    - icon: bffd25b328052f647a5e1705071fe746
-      name: Ice Breaker
-    - icon: bffd25b328052f647a5e1705071fe746
-      name: Piercing Cold
-    - icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Snowstorm
+    winrate: 40
   - num: 4
     skills:
     - icon: 54bc49f3587260f45b1c4e8e2856e6b7
@@ -49,6 +52,7 @@ builds:
       name: Snowstorm
     - icon: 46faed2871863c34d83a612e2ddccc9e
       name: Vandalism
+    winrate: 25
   - num: 4
     skills:
     - icon: 54bc49f3587260f45b1c4e8e2856e6b7
@@ -61,8 +65,9 @@ builds:
       name: Ice Breaker
     - icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
+    winrate: 100
   twos:
-  - num: 7
+  - num: 8
     skills:
     - icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Blizzard
@@ -74,6 +79,7 @@ builds:
       name: Piercing Cold
     - icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
+    winrate: 50
   - num: 6
     skills:
     - icon: 54bc49f3587260f45b1c4e8e2856e6b7
@@ -86,6 +92,7 @@ builds:
       name: Piercing Cold
     - icon: 257737da8189b1242be43990b8caf5a6
       name: Wintry Blast
+    winrate: 16
   - num: 3
     skills:
     - icon: 54bc49f3587260f45b1c4e8e2856e6b7
@@ -98,6 +105,20 @@ builds:
       name: Snowstorm
     - icon: 1ac43589909cda746bafbf3da20d1559
       name: Twirl
+    winrate: 66
+  - num: 3
+    skills:
+    - icon: 54bc49f3587260f45b1c4e8e2856e6b7
+      name: Blizzard
+    - icon: 257737da8189b1242be43990b8caf5a6
+      name: Crystalline Lattice
+    - icon: bffd25b328052f647a5e1705071fe746
+      name: Piercing Cold
+    - icon: 54bc49f3587260f45b1c4e8e2856e6b7
+      name: Snowstorm
+    - icon: 46faed2871863c34d83a612e2ddccc9e
+      name: Vandalism
+    winrate: 0
   - num: 3
     skills:
     - icon: 54bc49f3587260f45b1c4e8e2856e6b7
@@ -110,21 +131,10 @@ builds:
       name: Snowstorm
     - icon: 1ac43589909cda746bafbf3da20d1559
       name: Twirl
-  - num: 2
-    skills:
-    - icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Blizzard
-    - icon: 257737da8189b1242be43990b8caf5a6
-      name: Crystalline Lattice
-    - icon: bffd25b328052f647a5e1705071fe746
-      name: Ice Breaker
-    - icon: bffd25b328052f647a5e1705071fe746
-      name: Piercing Cold
-    - icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Snowstorm
+    winrate: 100
 layout: character
 name: alysia
-num: 73
+num: 137
 title: Alysia
 url: characters/alysia.html
 ...

@@ -1,7 +1,7 @@
 ---
 builds:
   threes:
-  - num: 11
+  - num: 12
     skills:
     - icon: baa9baf5b01c5ee42902398a8f946a5a
       name: Gush
@@ -13,7 +13,8 @@ builds:
       name: Spring Water
     - icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
-  - num: 10
+    winrate: 33
+  - num: 11
     skills:
     - icon: baa9baf5b01c5ee42902398a8f946a5a
       name: Gush
@@ -25,18 +26,7 @@ builds:
       name: Splash Damage
     - icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
-  - num: 7
-    skills:
-    - icon: baa9baf5b01c5ee42902398a8f946a5a
-      name: Gush
-    - icon: dba76bbb88cac764f9a8aeff389abb99
-      name: Ocean Sage
-    - icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Rippling Waters
-    - icon: baa9baf5b01c5ee42902398a8f946a5a
-      name: Sea Bubble
-    - icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Soaking Wet
+    winrate: 90
   - num: 7
     skills:
     - icon: baa9baf5b01c5ee42902398a8f946a5a
@@ -49,6 +39,20 @@ builds:
       name: Sea Bubble
     - icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
+    winrate: 14
+  - num: 7
+    skills:
+    - icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Gush
+    - icon: dba76bbb88cac764f9a8aeff389abb99
+      name: Ocean Sage
+    - icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Rippling Waters
+    - icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Sea Bubble
+    - icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Soaking Wet
+    winrate: 57
   - num: 5
     skills:
     - icon: baa9baf5b01c5ee42902398a8f946a5a
@@ -61,8 +65,9 @@ builds:
       name: Splash Damage
     - icon: dba76bbb88cac764f9a8aeff389abb99
       name: Water Walk
+    winrate: 0
   twos:
-  - num: 24
+  - num: 25
     skills:
     - icon: baa9baf5b01c5ee42902398a8f946a5a
       name: Gush
@@ -74,6 +79,7 @@ builds:
       name: Sea Bubble
     - icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
+    winrate: 44
   - num: 15
     skills:
     - icon: baa9baf5b01c5ee42902398a8f946a5a
@@ -86,6 +92,7 @@ builds:
       name: Sea Bubble
     - icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Soaking Wet
+    winrate: 86
   - num: 12
     skills:
     - icon: baa9baf5b01c5ee42902398a8f946a5a
@@ -98,6 +105,20 @@ builds:
       name: Splash Damage
     - icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
+    winrate: 25
+  - num: 11
+    skills:
+    - icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Gush
+    - icon: 6c30b1e6992030e4dae06a355b7a4fb4
+      name: Riptide
+    - icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Sea Bubble
+    - icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Soaking Wet
+    - icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Splash Damage
+    winrate: 27
   - num: 10
     skills:
     - icon: baa9baf5b01c5ee42902398a8f946a5a
@@ -110,21 +131,10 @@ builds:
       name: Soaking Wet
     - icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
-  - num: 8
-    skills:
-    - icon: baa9baf5b01c5ee42902398a8f946a5a
-      name: Gush
-    - icon: 6c30b1e6992030e4dae06a355b7a4fb4
-      name: Riptide
-    - icon: baa9baf5b01c5ee42902398a8f946a5a
-      name: Sea Bubble
-    - icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Soaking Wet
-    - icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Splash Damage
+    winrate: 40
 layout: character
 name: pearl
-num: 79
+num: 239
 title: Pearl
 url: characters/pearl.html
 ...

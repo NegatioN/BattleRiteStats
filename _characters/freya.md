@@ -13,6 +13,20 @@ builds:
       name: Rolling Thunder
     - icon: 92dd476aa2340694c9f1167dfc761287
       name: Tempest
+    winrate: 64
+  - num: 6
+    skills:
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Hammer Time
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+    - icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Lightning Speed
+    - icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+    winrate: 33
   - num: 6
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
@@ -25,6 +39,7 @@ builds:
       name: Surge
     - icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
+    winrate: 66
   - num: 6
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
@@ -37,19 +52,8 @@ builds:
       name: Tempest
     - icon: 883e2720ad11f2d49b51d9f649c67203
       name: Thundering Spring
-  - num: 6
-    skills:
-    - icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Electric Conduction
-    - icon: 11106dc7b3c44144c94a5cfa08bbb84f
-      name: Hammer Time
-    - icon: f5f7b137c0c9d444899035c91cedda42
-      name: Lightning Rod
-    - icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Lightning Speed
-    - icon: f5f7b137c0c9d444899035c91cedda42
-      name: Torrent
-  - num: 4
+    winrate: 66
+  - num: 5
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
       name: Electric Conduction
@@ -61,6 +65,7 @@ builds:
       name: Overcharge
     - icon: f5f7b137c0c9d444899035c91cedda42
       name: Rolling Thunder
+    winrate: 60
   twos:
   - num: 21
     skills:
@@ -74,7 +79,8 @@ builds:
       name: Thunderbolt
     - icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
-  - num: 16
+    winrate: 33
+  - num: 18
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
       name: Electric Conduction
@@ -86,7 +92,8 @@ builds:
       name: Rolling Thunder
     - icon: 92dd476aa2340694c9f1167dfc761287
       name: Tempest
-  - num: 15
+    winrate: 77
+  - num: 16
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
       name: Electric Conduction
@@ -98,7 +105,8 @@ builds:
       name: Surge
     - icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
-  - num: 8
+    winrate: 93
+  - num: 9
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
       name: Electric Conduction
@@ -110,6 +118,7 @@ builds:
       name: Positive Charge
     - icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
+    winrate: 44
   - num: 6
     skills:
     - icon: 883e2720ad11f2d49b51d9f649c67203
@@ -122,9 +131,10 @@ builds:
       name: Tempest
     - icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
+    winrate: 16
 layout: character
 name: freya
-num: 125
+num: 264
 title: Freya
 url: characters/freya.html
 ...
