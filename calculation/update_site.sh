@@ -3,6 +3,10 @@
 if [[ $(uname -a) = *"armv7l"* ]]; then
   echo "Running raspberry pi, installng PIL"
   sudo apt-get update && sudo apt-get install -y python-imaging python3-pil.imagetk
+  echo "Setting default python to berryconda"
+  export PATH=/home/pi/berryconda3/bin:${PATH}
+  echo "Installing numpy and pandas with conda"
+  conda install -y numpy pandas
 fi
 
 export PYTHONPATH="$(pwd)"
