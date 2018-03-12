@@ -9,6 +9,7 @@ layout: page
             <th>Mode</th>
             <th class="text-center" colspan="5">Skills</th>
             <th class="text-right">Count</th>
+            <th class="text-right">Winrate</th>
         </tr>
         </thead>
         <tbody>
@@ -21,6 +22,7 @@ layout: page
             </td>
             {% endfor %}
             <td class="text-right">{{build.num}}</td>
+            <td class="text-right">{{build.winrate}}%</td>
         </tr>
         {% endfor %}
         </tbody>
@@ -34,6 +36,7 @@ layout: page
             </td>
             {% endfor %}
             <td class="text-right">{{build.num}}</td>
+            <td class="text-right">{{build.winrate}}%</td>
         </tr>
         {% endfor %}
         </tbody>
