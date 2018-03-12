@@ -1,7 +1,7 @@
 ---
 builds:
   threes:
-  - num: 14
+  - num: 16
     skills:
     - icon: ce1e01246a2a09145a192bb0deeeb400
       name: Arrow Storm
@@ -13,7 +13,7 @@ builds:
       name: Perfect Shot
     - icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
-    winrate: 35
+    winrate: 31
   - num: 10
     skills:
     - icon: ce1e01246a2a09145a192bb0deeeb400
@@ -27,7 +27,7 @@ builds:
     - icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
     winrate: 20
-  - num: 7
+  - num: 9
     skills:
     - icon: ce1e01246a2a09145a192bb0deeeb400
       name: Arrow Storm
@@ -39,7 +39,20 @@ builds:
       name: Precision
     - icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
-    winrate: 85
+    winrate: 66
+  - num: 7
+    skills:
+    - icon: ce1e01246a2a09145a192bb0deeeb400
+      name: Arrow Storm
+    - icon: 60a73a3140321ec448f7f97f00a07897
+      name: Death Mark
+    - icon: bcb5bbf5676057e4bb4278f5c20bb865
+      name: Panther
+    - icon: 594fdf8c70a83404da422aa6463e0e03
+      name: Perfect Shot
+    - icon: 6e30eed38d549fa4794a4543bf2b8de2
+      name: Trapper
+    winrate: 0
   - num: 6
     skills:
     - icon: ce1e01246a2a09145a192bb0deeeb400
@@ -53,21 +66,8 @@ builds:
     - icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Viper
     winrate: 16
-  - num: 5
-    skills:
-    - icon: ce1e01246a2a09145a192bb0deeeb400
-      name: Arrow Storm
-    - icon: 60a73a3140321ec448f7f97f00a07897
-      name: Death Mark
-    - icon: bcb5bbf5676057e4bb4278f5c20bb865
-      name: Panther
-    - icon: 594fdf8c70a83404da422aa6463e0e03
-      name: Perfect Shot
-    - icon: 4b81fcaeb29b2cd4e81e67d224552899
-      name: Viper
-    winrate: 60
   twos:
-  - num: 23
+  - num: 34
     skills:
     - icon: bcb5bbf5676057e4bb4278f5c20bb865
       name: Panther
@@ -79,8 +79,8 @@ builds:
       name: Prey Drive
     - icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Viper
-    winrate: 34
-  - num: 14
+    winrate: 44
+  - num: 21
     skills:
     - icon: ce1e01246a2a09145a192bb0deeeb400
       name: Arrow Storm
@@ -92,8 +92,8 @@ builds:
       name: Precision
     - icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
-    winrate: 64
-  - num: 10
+    winrate: 57
+  - num: 11
     skills:
     - icon: 60a73a3140321ec448f7f97f00a07897
       name: Death Mark
@@ -105,7 +105,7 @@ builds:
       name: Precision
     - icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Viper
-    winrate: 50
+    winrate: 54
   - num: 8
     skills:
     - icon: ce1e01246a2a09145a192bb0deeeb400
@@ -134,7 +134,7 @@ builds:
     winrate: 50
 layout: character
 name: jumong
-num: 261
+num: 306
 title: Jumong
 url: characters/jumong.html
 ...

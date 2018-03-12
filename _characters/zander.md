@@ -1,7 +1,7 @@
 ---
 builds:
   threes:
-  - num: 91
+  - num: 100
     skills:
     - icon: a970261549d4e2b4c923db1944ac2e4b
       name: Arcane Conductor
@@ -14,7 +14,7 @@ builds:
     - icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
     winrate: 54
-  - num: 84
+  - num: 97
     skills:
     - icon: a970261549d4e2b4c923db1944ac2e4b
       name: Arcane Conductor
@@ -26,7 +26,7 @@ builds:
       name: Lead Astray
     - icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
-    winrate: 65
+    winrate: 69
   - num: 15
     skills:
     - icon: a970261549d4e2b4c923db1944ac2e4b
@@ -53,7 +53,7 @@ builds:
     - icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
     winrate: 64
-  - num: 9
+  - num: 10
     skills:
     - icon: a970261549d4e2b4c923db1944ac2e4b
       name: Ace up the Sleeve
@@ -65,9 +65,9 @@ builds:
       name: Lead Astray
     - icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
-    winrate: 22
+    winrate: 30
   twos:
-  - num: 65
+  - num: 67
     skills:
     - icon: a970261549d4e2b4c923db1944ac2e4b
       name: Arcane Conductor
@@ -93,7 +93,7 @@ builds:
     - icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
     winrate: 89
-  - num: 24
+  - num: 25
     skills:
     - icon: a970261549d4e2b4c923db1944ac2e4b
       name: Arcane Conductor
@@ -105,8 +105,8 @@ builds:
       name: Lead Astray
     - icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
-    winrate: 66
-  - num: 8
+    winrate: 68
+  - num: 14
     skills:
     - icon: a970261549d4e2b4c923db1944ac2e4b
       name: Ace up the Sleeve
@@ -118,8 +118,8 @@ builds:
       name: Showdown
     - icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
-    winrate: 62
-  - num: 7
+    winrate: 50
+  - num: 9
     skills:
     - icon: a970261549d4e2b4c923db1944ac2e4b
       name: Ace up the Sleeve
@@ -131,10 +131,10 @@ builds:
       name: Showdown
     - icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
-    winrate: 42
+    winrate: 44
 layout: character
 name: zander
-num: 488
+num: 546
 title: Zander
 url: characters/zander.html
 ...

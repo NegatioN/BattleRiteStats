@@ -14,7 +14,7 @@ builds:
     - icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
     winrate: 33
-  - num: 5
+  - num: 6
     skills:
     - icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Blizzard
@@ -26,7 +26,20 @@ builds:
       name: Piercing Cold
     - icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
-    winrate: 60
+    winrate: 66
+  - num: 5
+    skills:
+    - icon: 54bc49f3587260f45b1c4e8e2856e6b7
+      name: Blizzard
+    - icon: bffd25b328052f647a5e1705071fe746
+      name: Cryogenic Lance
+    - icon: 257737da8189b1242be43990b8caf5a6
+      name: Figure Skating
+    - icon: bffd25b328052f647a5e1705071fe746
+      name: Ice Breaker
+    - icon: 54bc49f3587260f45b1c4e8e2856e6b7
+      name: Snowstorm
+    winrate: 80
   - num: 5
     skills:
     - icon: 257737da8189b1242be43990b8caf5a6
@@ -53,19 +66,6 @@ builds:
     - icon: 46faed2871863c34d83a612e2ddccc9e
       name: Vandalism
     winrate: 25
-  - num: 4
-    skills:
-    - icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Blizzard
-    - icon: bffd25b328052f647a5e1705071fe746
-      name: Cryogenic Lance
-    - icon: 257737da8189b1242be43990b8caf5a6
-      name: Figure Skating
-    - icon: bffd25b328052f647a5e1705071fe746
-      name: Ice Breaker
-    - icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Snowstorm
-    winrate: 100
   twos:
   - num: 8
     skills:
@@ -93,7 +93,7 @@ builds:
     - icon: 257737da8189b1242be43990b8caf5a6
       name: Wintry Blast
     winrate: 16
-  - num: 3
+  - num: 4
     skills:
     - icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Blizzard
@@ -105,20 +105,7 @@ builds:
       name: Snowstorm
     - icon: 1ac43589909cda746bafbf3da20d1559
       name: Twirl
-    winrate: 66
-  - num: 3
-    skills:
-    - icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Blizzard
-    - icon: 257737da8189b1242be43990b8caf5a6
-      name: Crystalline Lattice
-    - icon: bffd25b328052f647a5e1705071fe746
-      name: Piercing Cold
-    - icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Snowstorm
-    - icon: 46faed2871863c34d83a612e2ddccc9e
-      name: Vandalism
-    winrate: 0
+    winrate: 50
   - num: 3
     skills:
     - icon: 54bc49f3587260f45b1c4e8e2856e6b7
@@ -132,9 +119,22 @@ builds:
     - icon: 1ac43589909cda746bafbf3da20d1559
       name: Twirl
     winrate: 100
+  - num: 3
+    skills:
+    - icon: 54bc49f3587260f45b1c4e8e2856e6b7
+      name: Blizzard
+    - icon: bffd25b328052f647a5e1705071fe746
+      name: Cryogenic Lance
+    - icon: bffd25b328052f647a5e1705071fe746
+      name: Ice Breaker
+    - icon: 54bc49f3587260f45b1c4e8e2856e6b7
+      name: Snowstorm
+    - icon: 1ac43589909cda746bafbf3da20d1559
+      name: Twirl
+    winrate: 66
 layout: character
 name: alysia
-num: 137
+num: 163
 title: Alysia
 url: characters/alysia.html
 ...

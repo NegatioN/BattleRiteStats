@@ -27,7 +27,7 @@ builds:
     - icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
       name: Shield Bash
     winrate: 50
-  - num: 11
+  - num: 12
     skills:
     - icon: e0a2c1fab3bd3d5468cbc7f4942b5448
       name: Axe and Shield
@@ -39,8 +39,8 @@ builds:
       name: Shield Bash
     - icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
-    winrate: 36
-  - num: 7
+    winrate: 41
+  - num: 11
     skills:
     - icon: e0a2c1fab3bd3d5468cbc7f4942b5448
       name: Axe and Shield
@@ -52,7 +52,7 @@ builds:
       name: Shield Bash
     - icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
-    winrate: 71
+    winrate: 63
   - num: 5
     skills:
     - icon: e0a2c1fab3bd3d5468cbc7f4942b5448
@@ -67,7 +67,7 @@ builds:
       name: The Red Axe
     winrate: 80
   twos:
-  - num: 9
+  - num: 10
     skills:
     - icon: 84ba51168b08df3489362e3a9be59704
       name: Adrenaline Slam
@@ -79,7 +79,7 @@ builds:
       name: The Red Axe
     - icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
-    winrate: 44
+    winrate: 50
   - num: 7
     skills:
     - icon: 84ba51168b08df3489362e3a9be59704
@@ -121,20 +121,20 @@ builds:
     winrate: 100
   - num: 3
     skills:
-    - icon: e0a2c1fab3bd3d5468cbc7f4942b5448
-      name: Axe and Shield
-    - icon: 741da913acab25641862d0312d75a7a1
-      name: Hamstring
-    - icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
-      name: Mobile Defence
+    - icon: 84ba51168b08df3489362e3a9be59704
+      name: Adrenaline Slam
+    - icon: 16e7e84d6c786cf4abc695c9b1c29b31
+      name: Bravery
     - icon: 84ba51168b08df3489362e3a9be59704
       name: Raging Ram
-    - icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
-      name: Shield Bash
-    winrate: 100
+    - icon: 741da913acab25641862d0312d75a7a1
+      name: The Red Axe
+    - icon: 741da913acab25641862d0312d75a7a1
+      name: Warlord's Axe
+    winrate: 66
 layout: character
 name: bakko
-num: 232
+num: 250
 title: Bakko
 url: characters/bakko.html
 ...

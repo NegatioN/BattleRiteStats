@@ -1,7 +1,7 @@
 ---
 builds:
   threes:
-  - num: 31
+  - num: 39
     skills:
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Disruption
@@ -13,7 +13,7 @@ builds:
       name: Warlock's Grip
     - icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
-    winrate: 64
+    winrate: 61
   - num: 10
     skills:
     - icon: da12579e4ef58ba4c87c1819bf1c699b
@@ -27,7 +27,7 @@ builds:
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Warlock's Grip
     winrate: 100
-  - num: 5
+  - num: 6
     skills:
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Disruption
@@ -39,7 +39,20 @@ builds:
       name: Warlock's Grip
     - icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
-    winrate: 40
+    winrate: 33
+  - num: 4
+    skills:
+    - icon: da12579e4ef58ba4c87c1819bf1c699b
+      name: Disruption
+    - icon: 41cc34493bbdcb44985028d3000656d8
+      name: Grimoire of Death
+    - icon: 563027e5fd687db4697308c54fe91381
+      name: Imp Rush
+    - icon: 563027e5fd687db4697308c54fe91381
+      name: Spell Eater
+    - icon: da12579e4ef58ba4c87c1819bf1c699b
+      name: Warlock's Grip
+    winrate: 0
   - num: 4
     skills:
     - icon: da12579e4ef58ba4c87c1819bf1c699b
@@ -53,21 +66,8 @@ builds:
     - icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
     winrate: 75
-  - num: 4
-    skills:
-    - icon: da12579e4ef58ba4c87c1819bf1c699b
-      name: Disruption
-    - icon: 41cc34493bbdcb44985028d3000656d8
-      name: Grimoire of Death
-    - icon: 563027e5fd687db4697308c54fe91381
-      name: Imp Rush
-    - icon: b51e6f88de6853d46bec81bbb3a655a4
-      name: Undermine
-    - icon: da12579e4ef58ba4c87c1819bf1c699b
-      name: Warlock's Grip
-    winrate: 50
   twos:
-  - num: 28
+  - num: 34
     skills:
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Disruption
@@ -79,8 +79,8 @@ builds:
       name: Warlock's Grip
     - icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
-    winrate: 78
-  - num: 16
+    winrate: 73
+  - num: 23
     skills:
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Disruption
@@ -92,8 +92,8 @@ builds:
       name: Undermine
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Warlock's Grip
-    winrate: 93
-  - num: 9
+    winrate: 86
+  - num: 10
     skills:
     - icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Disruption
@@ -105,7 +105,7 @@ builds:
       name: Warlock's Grip
     - icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
-    winrate: 77
+    winrate: 80
   - num: 8
     skills:
     - icon: da12579e4ef58ba4c87c1819bf1c699b
@@ -134,7 +134,7 @@ builds:
     winrate: 50
 layout: character
 name: ezmo
-num: 223
+num: 271
 title: Ezmo
 url: characters/ezmo.html
 ...

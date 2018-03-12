@@ -33,19 +33,6 @@ builds:
       name: Blast Shield
     - icon: d80cae4dd7699264fb3c37675b59f263
       name: Boom!
-    - icon: 9274b3f40ab2b4048b5cde1e9164901e
-      name: Hyperspeed
-    - icon: 7442381b626556c4e8193c48031d01ef
-      name: Rocket Boosters
-    - icon: 7442381b626556c4e8193c48031d01ef
-      name: U-Turn
-    winrate: 33
-  - num: 3
-    skills:
-    - icon: 9274b3f40ab2b4048b5cde1e9164901e
-      name: Blast Shield
-    - icon: d80cae4dd7699264fb3c37675b59f263
-      name: Boom!
     - icon: c9cd772b84da5454e9888a19fa249483
       name: Conductor
     - icon: c9cd772b84da5454e9888a19fa249483
@@ -53,6 +40,19 @@ builds:
     - icon: d80cae4dd7699264fb3c37675b59f263
       name: Stockpile
     winrate: 66
+  - num: 3
+    skills:
+    - icon: 9274b3f40ab2b4048b5cde1e9164901e
+      name: Blast Shield
+    - icon: d80cae4dd7699264fb3c37675b59f263
+      name: Boom!
+    - icon: 9274b3f40ab2b4048b5cde1e9164901e
+      name: Hyperspeed
+    - icon: 7442381b626556c4e8193c48031d01ef
+      name: Rocket Boosters
+    - icon: 7442381b626556c4e8193c48031d01ef
+      name: U-Turn
+    winrate: 33
   - num: 2
     skills:
     - icon: 9274b3f40ab2b4048b5cde1e9164901e
@@ -60,12 +60,12 @@ builds:
     - icon: d80cae4dd7699264fb3c37675b59f263
       name: Boom!
     - icon: c9cd772b84da5454e9888a19fa249483
-      name: Conductor
-    - icon: 9274b3f40ab2b4048b5cde1e9164901e
-      name: Hyperspeed
+      name: EMP
+    - icon: d80cae4dd7699264fb3c37675b59f263
+      name: Stockpile
     - icon: 7442381b626556c4e8193c48031d01ef
-      name: Rocket Boosters
-    winrate: 100
+      name: U-Turn
+    winrate: 50
   twos:
   - num: 29
     skills:
@@ -80,7 +80,7 @@ builds:
     - icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
     winrate: 37
-  - num: 10
+  - num: 11
     skills:
     - icon: d80cae4dd7699264fb3c37675b59f263
       name: Boom!
@@ -92,7 +92,7 @@ builds:
       name: Stockpile
     - icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
-    winrate: 20
+    winrate: 18
   - num: 4
     skills:
     - icon: 9274b3f40ab2b4048b5cde1e9164901e
@@ -112,6 +112,19 @@ builds:
       name: Blast Shield
     - icon: d80cae4dd7699264fb3c37675b59f263
       name: Boom!
+    - icon: 9274b3f40ab2b4048b5cde1e9164901e
+      name: Hyperspeed
+    - icon: 7442381b626556c4e8193c48031d01ef
+      name: Rocket Boosters
+    - icon: 7442381b626556c4e8193c48031d01ef
+      name: U-Turn
+    winrate: 100
+  - num: 3
+    skills:
+    - icon: 9274b3f40ab2b4048b5cde1e9164901e
+      name: Blast Shield
+    - icon: d80cae4dd7699264fb3c37675b59f263
+      name: Boom!
     - icon: 7442381b626556c4e8193c48031d01ef
       name: Oil Blaster
     - icon: 7442381b626556c4e8193c48031d01ef
@@ -119,22 +132,9 @@ builds:
     - icon: d80cae4dd7699264fb3c37675b59f263
       name: Stockpile
     winrate: 33
-  - num: 2
-    skills:
-    - icon: 9274b3f40ab2b4048b5cde1e9164901e
-      name: Blast Shield
-    - icon: d80cae4dd7699264fb3c37675b59f263
-      name: Boom!
-    - icon: c9cd772b84da5454e9888a19fa249483
-      name: Conductor
-    - icon: 9274b3f40ab2b4048b5cde1e9164901e
-      name: Hyperspeed
-    - icon: 7442381b626556c4e8193c48031d01ef
-      name: Rocket Boosters
-    winrate: 100
 layout: character
 name: iva
-num: 139
+num: 145
 title: Iva
 url: characters/iva.html
 ...

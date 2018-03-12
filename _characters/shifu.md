@@ -1,7 +1,7 @@
 ---
 builds:
   threes:
-  - num: 91
+  - num: 105
     skills:
     - icon: 18eee826117df534d91bd518653fc360
       name: Ceremonial Spear
@@ -13,8 +13,8 @@ builds:
       name: Swift Feet
     - icon: 18eee826117df534d91bd518653fc360
       name: Thrust
-    winrate: 69
-  - num: 21
+    winrate: 63
+  - num: 23
     skills:
     - icon: 18eee826117df534d91bd518653fc360
       name: Ceremonial Spear
@@ -26,8 +26,8 @@ builds:
       name: Swift Feet
     - icon: 18eee826117df534d91bd518653fc360
       name: Thrust
-    winrate: 33
-  - num: 15
+    winrate: 30
+  - num: 16
     skills:
     - icon: 18eee826117df534d91bd518653fc360
       name: Ceremonial Spear
@@ -39,8 +39,8 @@ builds:
       name: Thrust
     - icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
-    winrate: 40
-  - num: 11
+    winrate: 37
+  - num: 13
     skills:
     - icon: 18eee826117df534d91bd518653fc360
       name: Ceremonial Spear
@@ -52,7 +52,7 @@ builds:
       name: The Spear is the Way
     - icon: 18eee826117df534d91bd518653fc360
       name: Thrust
-    winrate: 72
+    winrate: 76
   - num: 7
     skills:
     - icon: 18eee826117df534d91bd518653fc360
@@ -67,7 +67,7 @@ builds:
       name: Swift Feet
     winrate: 71
   twos:
-  - num: 108
+  - num: 125
     skills:
     - icon: 18eee826117df534d91bd518653fc360
       name: Ceremonial Spear
@@ -79,7 +79,7 @@ builds:
       name: Swift Feet
     - icon: 18eee826117df534d91bd518653fc360
       name: Thrust
-    winrate: 57
+    winrate: 59
   - num: 38
     skills:
     - icon: 18eee826117df534d91bd518653fc360
@@ -93,7 +93,7 @@ builds:
     - icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
     winrate: 55
-  - num: 13
+  - num: 14
     skills:
     - icon: 19e037c83991916449cd9475c20ca0d1
       name: Ferocious Stance
@@ -105,7 +105,7 @@ builds:
       name: Thrust
     - icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
-    winrate: 53
+    winrate: 50
   - num: 9
     skills:
     - icon: 18eee826117df534d91bd518653fc360
@@ -134,7 +134,7 @@ builds:
     winrate: 62
 layout: character
 name: shifu
-num: 460
+num: 505
 title: Shifu
 url: characters/shifu.html
 ...

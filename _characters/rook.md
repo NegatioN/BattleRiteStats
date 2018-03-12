@@ -14,7 +14,7 @@ builds:
     - icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
     winrate: 57
-  - num: 17
+  - num: 19
     skills:
     - icon: ec50e13a62a38194186bf0763d8ae951
       name: Crumble
@@ -26,7 +26,7 @@ builds:
       name: Rook Smash
     - icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
-    winrate: 29
+    winrate: 31
   - num: 13
     skills:
     - icon: ec50e13a62a38194186bf0763d8ae951
@@ -93,7 +93,7 @@ builds:
     - icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
     winrate: 50
-  - num: 6
+  - num: 7
     skills:
     - icon: 0cfff8a481a64fd499bfaeb3da1cbca5
       name: Endurance
@@ -105,36 +105,36 @@ builds:
       name: Madness
     - icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
-    winrate: 33
-  - num: 6
+    winrate: 28
+  - num: 7
     skills:
+    - icon: ec50e13a62a38194186bf0763d8ae951
+      name: Crumble
     - icon: 0cfff8a481a64fd499bfaeb3da1cbca5
       name: Frenzy
     - icon: df78f943fca96314181fdf1827f825db
       name: Giant
+    - icon: bc4e2e34829b8af4c92bb6a8f570fc96
+      name: Rook Smash
+    - icon: bc4e2e34829b8af4c92bb6a8f570fc96
+      name: Squash
+    winrate: 0
+  - num: 6
+    skills:
+    - icon: ec50e13a62a38194186bf0763d8ae951
+      name: Crumble
+    - icon: 0cfff8a481a64fd499bfaeb3da1cbca5
+      name: Frenzy
     - icon: df78f943fca96314181fdf1827f825db
       name: Madness
     - icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Rook Smash
     - icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
-    winrate: 33
-  - num: 5
-    skills:
-    - icon: ec50e13a62a38194186bf0763d8ae951
-      name: Crag
-    - icon: ec50e13a62a38194186bf0763d8ae951
-      name: Crumble
-    - icon: 0cfff8a481a64fd499bfaeb3da1cbca5
-      name: Frenzy
-    - icon: bc4e2e34829b8af4c92bb6a8f570fc96
-      name: Rook Smash
-    - icon: bc4e2e34829b8af4c92bb6a8f570fc96
-      name: Weapon Break
-    winrate: 80
+    winrate: 16
 layout: character
 name: rook
-num: 263
+num: 284
 title: Rook
 url: characters/rook.html
 ...

@@ -1,7 +1,7 @@
 ---
 builds:
   threes:
-  - num: 55
+  - num: 58
     skills:
     - icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Egg Carrier
@@ -13,8 +13,8 @@ builds:
       name: Spiderling Venom
     - icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
-    winrate: 40
-  - num: 22
+    winrate: 41
+  - num: 25
     skills:
     - icon: 991db4d450443e9498711ab935bedf13
       name: Blood Leecher
@@ -26,8 +26,8 @@ builds:
       name: Spiderling Venom
     - icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
-    winrate: 59
-  - num: 10
+    winrate: 60
+  - num: 12
     skills:
     - icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Egg Carrier
@@ -53,7 +53,7 @@ builds:
     - icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Spiderling Venom
     winrate: 0
-  - num: 3
+  - num: 4
     skills:
     - icon: 991db4d450443e9498711ab935bedf13
       name: Blood Leecher
@@ -65,9 +65,9 @@ builds:
       name: Scourge
     - icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
-    winrate: 33
+    winrate: 50
   twos:
-  - num: 44
+  - num: 51
     skills:
     - icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Egg Carrier
@@ -79,7 +79,7 @@ builds:
       name: Spiderling Venom
     - icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
-    winrate: 45
+    winrate: 50
   - num: 9
     skills:
     - icon: 991db4d450443e9498711ab935bedf13
@@ -95,19 +95,6 @@ builds:
     winrate: 44
   - num: 6
     skills:
-    - icon: afd7ecd77cdb3064690b9f0277a774dd
-      name: Egg Carrier
-    - icon: 7a1d6423f91ba824d8855aa3e9a42247
-      name: Hive Mind
-    - icon: 991db4d450443e9498711ab935bedf13
-      name: Insectivore
-    - icon: afd7ecd77cdb3064690b9f0277a774dd
-      name: Spiderling Venom
-    - icon: 7a1d6423f91ba824d8855aa3e9a42247
-      name: Swarm Queen
-    winrate: 0
-  - num: 6
-    skills:
     - icon: 991db4d450443e9498711ab935bedf13
       name: Blood Leecher
     - icon: afd7ecd77cdb3064690b9f0277a774dd
@@ -119,6 +106,19 @@ builds:
     - icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
     winrate: 66
+  - num: 6
+    skills:
+    - icon: afd7ecd77cdb3064690b9f0277a774dd
+      name: Egg Carrier
+    - icon: 7a1d6423f91ba824d8855aa3e9a42247
+      name: Hive Mind
+    - icon: 991db4d450443e9498711ab935bedf13
+      name: Insectivore
+    - icon: afd7ecd77cdb3064690b9f0277a774dd
+      name: Spiderling Venom
+    - icon: 7a1d6423f91ba824d8855aa3e9a42247
+      name: Swarm Queen
+    winrate: 0
   - num: 3
     skills:
     - icon: c9f7e2e324bbed3469cbe356da833c9b
@@ -134,7 +134,7 @@ builds:
     winrate: 66
 layout: character
 name: pestilus
-num: 210
+num: 234
 title: Pestilus
 url: characters/pestilus.html
 ...

@@ -55,17 +55,17 @@ builds:
     winrate: 33
   - num: 3
     skills:
-    - icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Celerity
-    - icon: fe5369baf5a80dc47b0656ae7be82e09
-      name: Fervor
+    - icon: c2525970f8ab5574191da4938fa5619b
+      name: Devastation
     - icon: d6c97da35fc19134881cb5a4c44e3912
       name: Inhibitor
-    - icon: d6c97da35fc19134881cb5a4c44e3912
-      name: Law Bender
+    - icon: 2771f14010b802143b0b4d5fc8e4bb9c
+      name: Ruin
+    - icon: c2525970f8ab5574191da4938fa5619b
+      name: Silence
     - icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Zeal
-    winrate: 100
+      name: Wonder
+    winrate: 66
   twos:
   - num: 17
     skills:
@@ -80,7 +80,7 @@ builds:
     - icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Zeal
     winrate: 41
-  - num: 9
+  - num: 10
     skills:
     - icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Celerity
@@ -93,19 +93,19 @@ builds:
     - icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
     winrate: 100
-  - num: 3
+  - num: 4
     skills:
-    - icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Celerity
-    - icon: c2525970f8ab5574191da4938fa5619b
-      name: Devastation
+    - icon: af1b0c6a44fc0a34694eafc090cd68ee
+      name: Absolute Power
+    - icon: d6c97da35fc19134881cb5a4c44e3912
+      name: Fracture
     - icon: d6c97da35fc19134881cb5a4c44e3912
       name: Inhibitor
-    - icon: 2771f14010b802143b0b4d5fc8e4bb9c
-      name: Ruin
     - icon: fe5369baf5a80dc47b0656ae7be82e09
-      name: Synergy
-    winrate: 66
+      name: Unlimited Power
+    - icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Wonder
+    winrate: 100
   - num: 3
     skills:
     - icon: 0eb9279bebee4a24b8fe4604894d3fb6
@@ -119,22 +119,22 @@ builds:
     - icon: fe5369baf5a80dc47b0656ae7be82e09
       name: Unlimited Power
     winrate: 66
-  - num: 2
+  - num: 3
     skills:
     - icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Celerity
-    - icon: fe5369baf5a80dc47b0656ae7be82e09
-      name: Fervor
+    - icon: c2525970f8ab5574191da4938fa5619b
+      name: Devastation
     - icon: d6c97da35fc19134881cb5a4c44e3912
       name: Inhibitor
     - icon: 2771f14010b802143b0b4d5fc8e4bb9c
-      name: Return
-    - icon: 2771f14010b802143b0b4d5fc8e4bb9c
       name: Ruin
-    winrate: 50
+    - icon: fe5369baf5a80dc47b0656ae7be82e09
+      name: Synergy
+    winrate: 66
 layout: character
 name: varesh
-num: 137
+num: 145
 title: Varesh
 url: characters/varesh.html
 ...
