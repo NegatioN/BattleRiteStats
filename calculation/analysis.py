@@ -54,6 +54,7 @@ def averager(rounds, col):
 for col in sum_cols:
     main_df["sum_" + col] = main_df.apply(lambda x: summer(x['round_lookup'], col), axis=1)
     main_df["mean_" + col] = main_df.apply(lambda x: averager(x['round_lookup'], col), axis=1)
+    print('Procession match data for column={}'.format(col))
 
 agg_cols = ['{}_{}'.format(y, x) for x in sum_cols for y in ['sum', 'mean']]
 agg_cols.append('percent_alive')
