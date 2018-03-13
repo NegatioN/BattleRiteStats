@@ -26,5 +26,6 @@ rm assets/result.yml
 cd ..
 git add .
 git commit -m "Updated all champion data"
+git pull --rebase
 git push
 #rm -rf assets
