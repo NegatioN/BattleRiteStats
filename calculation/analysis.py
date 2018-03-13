@@ -13,7 +13,7 @@ with open('assets/gameplay.json', 'rb') as gplay:
 
 def load_locale(path):
     with open(path, 'r', encoding='utf-8') as f:
-        
+
         data = [x.strip().split('=') for x in f]
         return {x[0]: x[1] for x in data}
 
@@ -110,18 +110,17 @@ def brite_description(battlerite_id):
 twos = defaultdict(lambda: [])
 threes = defaultdict(lambda: [])
 for character, modes in character_dict.items():
-    character_name = hero_name(character)
     for mode, builds in modes.items():
         if '3' in mode:
             cur_dict = threes
         else:
             cur_dict = twos
         for build, aggregations in builds.items():
-            b = {'skills': [{'name': brite_name(int(x)), 'icon': brite_icon(int(x)) }
+            b = {'skills': [{'name': brite_name(int(x)), 'icon': brite_icon(int(x)), 'description': brite_description(int(x))}
                             for x in build],
                  'num': aggregations['num'],
                  'winrate': int(float(aggregations['win_num']) / float(aggregations['num']) * 100)}
-            cur_dict[character_name].append(b)
+            cur_dict[character].append(b)
 
 
 def sort_dict_array_by_key(dict_arr, key, rev=False):
@@ -138,7 +137,12 @@ def sort_builds(builds, limit):
     return [sort_alphabetically(x) for x in [z for z in sort_dict_array_by_key(builds, 'num', rev=True)][:n]]
 
 def render_sort(mode_dict, limit):
-    return [{'name': hero, 'builds': sort_builds(mode_dict[hero], limit)} for hero in sorted(mode_dict.keys())]
+    rendered_mode = [{'name': hero_name(hero_id),
+                      'description': hero_description(hero_id),
+                      'icon': hero_icon(hero_id),
+                      'builds': sort_builds(mode_dict[hero_id], limit)}
+                     for hero_id in mode_dict.keys()]
+    return sort_dict_array_by_key(rendered_mode, 'name')
 
 master_d = {'twos': render_sort(twos, 3),
             'threes': render_sort(threes, 3),
@@ -147,6 +151,9 @@ master_d = {'twos': render_sort(twos, 3),
 
 
 appearance_summary = {hero_name(h_id): v for h_id, v in main_df.groupby('character').size().to_dict().items()}
+win_agg = main_df.groupby('character')['wonFlag'].agg('sum')
+winrate_summary = {x[0]: int(float(x[1]) / float(appearance_summary[x[0]]) * 100)
+                   for x in zip([hero_name(z) for z in win_agg.index], win_agg)}
 
 def create_character_page_data(twos, threes):
     chars = []
@@ -158,12 +165,15 @@ def create_character_page_data(twos, threes):
             'layout': 'character',
             'title': name,
             'name': escaped_name,
+            'description': x[0]['description'],
+            'icon': x[0]['icon'],
             'url': "characters/" + escaped_name + ".html",
             'builds':
                 {'twos': x[0]['builds'],
                  'threes': x[1]['builds']
                  },
-            'num': appearance_summary[name]
+            'num': appearance_summary[name],
+            'winrate': winrate_summary[name]
         })
     return chars
 
