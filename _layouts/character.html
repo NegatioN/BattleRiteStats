@@ -2,7 +2,8 @@
 layout: page
 ---
 <article class="character">
-    <h3>Played {{page.num}} times last 7 days</h3>
+    <p>{{page.description}}</p>
+    <h3>Played {{page.num}} times last 7 days, with a winrate of {{page.winrate}}%</h3>
     <table>
         <thead>
         <tr>
@@ -18,7 +19,7 @@ layout: page
             <td>2 vs 2</td>
             {% for skill in build.skills %}
             <td>
-                <div title="{{skill.name}}">{{skill.name}}</div>
+                <div title="{{skill.name}} - {{skill.description}}">{{skill.name}}</div>
             </td>
             {% endfor %}
             <td class="text-right">{{build.num}}</td>
@@ -32,7 +33,7 @@ layout: page
             <td>3 vs 3</td>
             {% for skill in build.skills %}
             <td>
-                <div title="{{skill.name}}">{{skill.name}}</div>
+                <div title="{{skill.name}} - {{skill.description}}">{{skill.name}}</div>
             </td>
             {% endfor %}
             <td class="text-right">{{build.num}}</td>

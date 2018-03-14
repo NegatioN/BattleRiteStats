@@ -20,7 +20,7 @@ explainer: True
             <td>{{char.name}}</td>
             {% for skill in build.skills %}
               <td>
-                <div title="{{skill.name}}">{{skill.name}}</div>
+                <div title="{{skill.name}} - {{skill.description}}">{{skill.name}}</div>
               </td>
             {% endfor %}
             <td class="text-right">{{build.num}}</td>
