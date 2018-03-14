@@ -3,138 +3,239 @@ builds:
   threes:
   - num: 11
     skills:
-    - icon: 89c37320af892ae43b410f4d610d7ea8
+    - description: ^2Shifting Sands^- creates a ^2Lesser Chronoflux^- that reflects
+        projectiles and slows movement speed.
+      icon: 89c37320af892ae43b410f4d610d7ea8
       name: Chrono Shift
-    - icon: 1e376cc95b8550443b527db1234300bd
+    - description: Time Bomb reduces incoming healing by 20 and outgoing damage by
+        10.
+      icon: 1e376cc95b8550443b527db1234300bd
       name: Dehydration
-    - icon: 35a1515e35b5104449dfa8802c5aa0e2
+    - description: Each enemy hit by Quicksand grants 1 Rejuvenating Sands charge.
+      icon: 35a1515e35b5104449dfa8802c5aa0e2
       name: Eternal Dunes
-    - icon: 35a1515e35b5104449dfa8802c5aa0e2
+    - description: Quicksand can be recast to throw Lesser Quicksand. It applies Time
+        Bomb instead of consuming it.
+      icon: 35a1515e35b5104449dfa8802c5aa0e2
       name: Sand Struck
-    - icon: 89c37320af892ae43b410f4d610d7ea8
+    - description: Shifting Sands causes your next Sands of Time to deal 6 bonus damage
+        and inflict Fading Snare for 1.
+      icon: 89c37320af892ae43b410f4d610d7ea8
       name: Sandstorm
     winrate: 45
   - num: 11
     skills:
-    - icon: 1e376cc95b8550443b527db1234300bd
+    - description: Time Bomb reduces incoming healing by 20 and outgoing damage by
+        10.
+      icon: 1e376cc95b8550443b527db1234300bd
       name: Dehydration
-    - icon: 838ae06cda41a2544a1d2a528389d5b5
+    - description: Rejuvenate heals for an additional 15 of damage taken over its
+        duration. Restores up to a maximum of 6 bonus health.
+      icon: 838ae06cda41a2544a1d2a528389d5b5
       name: Renew
-    - icon: 35a1515e35b5104449dfa8802c5aa0e2
+    - description: Quicksand can be recast to throw Lesser Quicksand. It applies Time
+        Bomb instead of consuming it.
+      icon: 35a1515e35b5104449dfa8802c5aa0e2
       name: Sand Struck
-    - icon: 35a1515e35b5104449dfa8802c5aa0e2
+    - description: Quicksand inflicts Root for 1.
+      icon: 35a1515e35b5104449dfa8802c5aa0e2
       name: Sand Tomb
-    - icon: 1e376cc95b8550443b527db1234300bd
+    - description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
+        enemies when it detonates.
+      icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
     winrate: 45
   - num: 10
     skills:
-    - icon: 89c37320af892ae43b410f4d610d7ea8
+    - description: ^2Shifting Sands^- creates a ^2Lesser Chronoflux^- that reflects
+        projectiles and slows movement speed.
+      icon: 89c37320af892ae43b410f4d610d7ea8
       name: Chrono Shift
-    - icon: 1e376cc95b8550443b527db1234300bd
+    - description: Time Bomb reduces incoming healing by 20 and outgoing damage by
+        10.
+      icon: 1e376cc95b8550443b527db1234300bd
       name: Dehydration
-    - icon: 35a1515e35b5104449dfa8802c5aa0e2
+    - description: Quicksand can be recast to throw Lesser Quicksand. It applies Time
+        Bomb instead of consuming it.
+      icon: 35a1515e35b5104449dfa8802c5aa0e2
       name: Sand Struck
-    - icon: 89c37320af892ae43b410f4d610d7ea8
+    - description: Shifting Sands causes your next Sands of Time to deal 6 bonus damage
+        and inflict Fading Snare for 1.
+      icon: 89c37320af892ae43b410f4d610d7ea8
       name: Sandstorm
-    - icon: 1e376cc95b8550443b527db1234300bd
+    - description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
+        enemies when it detonates.
+      icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
     winrate: 60
   - num: 8
     skills:
-    - icon: 89c37320af892ae43b410f4d610d7ea8
+    - description: ^2Shifting Sands^- creates a ^2Lesser Chronoflux^- that reflects
+        projectiles and slows movement speed.
+      icon: 89c37320af892ae43b410f4d610d7ea8
       name: Chrono Shift
-    - icon: 1e376cc95b8550443b527db1234300bd
+    - description: Time Bomb reduces incoming healing by 20 and outgoing damage by
+        10.
+      icon: 1e376cc95b8550443b527db1234300bd
       name: Dehydration
-    - icon: 838ae06cda41a2544a1d2a528389d5b5
+    - description: Rejuvenate heals for an additional 15 of damage taken over its
+        duration. Restores up to a maximum of 6 bonus health.
+      icon: 838ae06cda41a2544a1d2a528389d5b5
       name: Renew
-    - icon: 89c37320af892ae43b410f4d610d7ea8
+    - description: Shifting Sands causes your next Sands of Time to deal 6 bonus damage
+        and inflict Fading Snare for 1.
+      icon: 89c37320af892ae43b410f4d610d7ea8
       name: Sandstorm
-    - icon: 1e376cc95b8550443b527db1234300bd
+    - description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
+        enemies when it detonates.
+      icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
     winrate: 50
   - num: 7
     skills:
-    - icon: 1e376cc95b8550443b527db1234300bd
+    - description: Time Bomb reduces incoming healing by 20 and outgoing damage by
+        10.
+      icon: 1e376cc95b8550443b527db1234300bd
       name: Dehydration
-    - icon: 89c37320af892ae43b410f4d610d7ea8
+    - description: Passing through an ally with Shifting Sands grants you and your
+        ally a Shield that absorbs up to 16 damage for 3.\n
+      icon: 89c37320af892ae43b410f4d610d7ea8
       name: Recreate
-    - icon: 838ae06cda41a2544a1d2a528389d5b5
+    - description: Rejuvenate heals for an additional 15 of damage taken over its
+        duration. Restores up to a maximum of 6 bonus health.
+      icon: 838ae06cda41a2544a1d2a528389d5b5
       name: Renew
-    - icon: 1e376cc95b8550443b527db1234300bd
+    - description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
+        enemies when it detonates.
+      icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
-    - icon: a22c6c4bc967d4e48a44f0e87a93023e
+    - description: Negating an attack with Time Bender reduces cooldown of Shifting
+        Sands by 3.
+      icon: a22c6c4bc967d4e48a44f0e87a93023e
       name: Time Walker
     winrate: 42
   twos:
   - num: 27
     skills:
-    - icon: 1e376cc95b8550443b527db1234300bd
+    - description: Time Bomb reduces incoming healing by 20 and outgoing damage by
+        10.
+      icon: 1e376cc95b8550443b527db1234300bd
       name: Dehydration
-    - icon: 838ae06cda41a2544a1d2a528389d5b5
+    - description: Rejuvenate heals for an additional 15 of damage taken over its
+        duration. Restores up to a maximum of 6 bonus health.
+      icon: 838ae06cda41a2544a1d2a528389d5b5
       name: Renew
-    - icon: 35a1515e35b5104449dfa8802c5aa0e2
+    - description: Quicksand can be recast to throw Lesser Quicksand. It applies Time
+        Bomb instead of consuming it.
+      icon: 35a1515e35b5104449dfa8802c5aa0e2
       name: Sand Struck
-    - icon: 35a1515e35b5104449dfa8802c5aa0e2
+    - description: Quicksand inflicts Root for 1.
+      icon: 35a1515e35b5104449dfa8802c5aa0e2
       name: Sand Tomb
-    - icon: 89c37320af892ae43b410f4d610d7ea8
+    - description: Shifting Sands causes your next Sands of Time to deal 6 bonus damage
+        and inflict Fading Snare for 1.
+      icon: 89c37320af892ae43b410f4d610d7ea8
       name: Sandstorm
     winrate: 29
   - num: 19
     skills:
-    - icon: 89c37320af892ae43b410f4d610d7ea8
+    - description: ^2Shifting Sands^- creates a ^2Lesser Chronoflux^- that reflects
+        projectiles and slows movement speed.
+      icon: 89c37320af892ae43b410f4d610d7ea8
       name: Chrono Shift
-    - icon: 1e376cc95b8550443b527db1234300bd
+    - description: Time Bomb reduces incoming healing by 20 and outgoing damage by
+        10.
+      icon: 1e376cc95b8550443b527db1234300bd
       name: Dehydration
-    - icon: 89c37320af892ae43b410f4d610d7ea8
+    - description: Shifting Sands causes your next Sands of Time to deal 6 bonus damage
+        and inflict Fading Snare for 1.
+      icon: 89c37320af892ae43b410f4d610d7ea8
       name: Sandstorm
-    - icon: 1e376cc95b8550443b527db1234300bd
+    - description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
+        enemies when it detonates.
+      icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
-    - icon: a22c6c4bc967d4e48a44f0e87a93023e
+    - description: Negating an attack with Time Bender reduces cooldown of Shifting
+        Sands by 3.
+      icon: a22c6c4bc967d4e48a44f0e87a93023e
       name: Time Walker
     winrate: 78
   - num: 14
     skills:
-    - icon: 1e376cc95b8550443b527db1234300bd
+    - description: Time Bomb reduces incoming healing by 20 and outgoing damage by
+        10.
+      icon: 1e376cc95b8550443b527db1234300bd
       name: Dehydration
-    - icon: 838ae06cda41a2544a1d2a528389d5b5
+    - description: Rejuvenate heals for an additional 15 of damage taken over its
+        duration. Restores up to a maximum of 6 bonus health.
+      icon: 838ae06cda41a2544a1d2a528389d5b5
       name: Renew
-    - icon: 89c37320af892ae43b410f4d610d7ea8
+    - description: Shifting Sands causes your next Sands of Time to deal 6 bonus damage
+        and inflict Fading Snare for 1.
+      icon: 89c37320af892ae43b410f4d610d7ea8
       name: Sandstorm
-    - icon: 1e376cc95b8550443b527db1234300bd
+    - description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
+        enemies when it detonates.
+      icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
-    - icon: a22c6c4bc967d4e48a44f0e87a93023e
+    - description: Negating an attack with Time Bender reduces cooldown of Shifting
+        Sands by 3.
+      icon: a22c6c4bc967d4e48a44f0e87a93023e
       name: Time Walker
     winrate: 57
   - num: 11
     skills:
-    - icon: 89c37320af892ae43b410f4d610d7ea8
+    - description: ^2Shifting Sands^- creates a ^2Lesser Chronoflux^- that reflects
+        projectiles and slows movement speed.
+      icon: 89c37320af892ae43b410f4d610d7ea8
       name: Chrono Shift
-    - icon: 1e376cc95b8550443b527db1234300bd
+    - description: Time Bomb reduces incoming healing by 20 and outgoing damage by
+        10.
+      icon: 1e376cc95b8550443b527db1234300bd
       name: Dehydration
-    - icon: 838ae06cda41a2544a1d2a528389d5b5
+    - description: Rejuvenate heals for an additional 15 of damage taken over its
+        duration. Restores up to a maximum of 6 bonus health.
+      icon: 838ae06cda41a2544a1d2a528389d5b5
       name: Renew
-    - icon: 35a1515e35b5104449dfa8802c5aa0e2
+    - description: Quicksand can be recast to throw Lesser Quicksand. It applies Time
+        Bomb instead of consuming it.
+      icon: 35a1515e35b5104449dfa8802c5aa0e2
       name: Sand Struck
-    - icon: 1e376cc95b8550443b527db1234300bd
+    - description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
+        enemies when it detonates.
+      icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
     winrate: 27
   - num: 10
     skills:
-    - icon: 1e376cc95b8550443b527db1234300bd
+    - description: Time Bomb reduces incoming healing by 20 and outgoing damage by
+        10.
+      icon: 1e376cc95b8550443b527db1234300bd
       name: Dehydration
-    - icon: a22c6c4bc967d4e48a44f0e87a93023e
+    - description: Negating attacks with Time Bender grants you a Shield that absorbs
+        up to {Can't represent GameValueList} damage for 3.5. Shield value is reduced
+        for each negated attack.
+      icon: a22c6c4bc967d4e48a44f0e87a93023e
       name: Drain
-    - icon: 838ae06cda41a2544a1d2a528389d5b5
+    - description: Rejuvenate heals for an additional 15 of damage taken over its
+        duration. Restores up to a maximum of 6 bonus health.
+      icon: 838ae06cda41a2544a1d2a528389d5b5
       name: Renew
-    - icon: 89c37320af892ae43b410f4d610d7ea8
+    - description: Shifting Sands causes your next Sands of Time to deal 6 bonus damage
+        and inflict Fading Snare for 1.
+      icon: 89c37320af892ae43b410f4d610d7ea8
       name: Sandstorm
-    - icon: 35a1515e35b5104449dfa8802c5aa0e2
+    - description: Consuming Time Bomb with Quicksand deals 6 bonus damage.
+      icon: 35a1515e35b5104449dfa8802c5aa0e2
       name: Time Burst
     winrate: 70
+description: Oldur, a mysterious creature able to bend time and space. He can mend
+  wounds with powerful heals and reverse enemy attacks by freezing them in time.
+icon: b0d66b8b9f228724093b8a3e66c3fef6
 layout: character
 name: oldur
 num: 473
 title: Oldur
 url: characters/oldur.html
+winrate: 53
 ...

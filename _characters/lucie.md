@@ -3,138 +3,210 @@ builds:
   threes:
   - num: 13
     skills:
-    - icon: 46e144a65c818c04eb3d00a21cf513b3
+    - description: ^2Barrier^- increases movement speed by 33.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
       name: Alacrity
-    - icon: 940ddc80c69eead49bfc8a5066a9afc5
+    - description: Healing Potion heals other allies for 4 bonus health.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Companion Potion
-    - icon: d0c4449b33eef2e4ca2cfa8900910041
+    - description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
+        10 damage when removing a buff.
+      icon: d0c4449b33eef2e4ca2cfa8900910041
       name: Potency
-    - icon: 940ddc80c69eead49bfc8a5066a9afc5
+    - description: ^2Revitalize^- increases damage output by 12.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
-    - icon: 470a917c1ac62c04ea45acc6a35c5f73
+    - description: Roll increases movement speed by 33 for 2.5. Reduces cooldown of
+        Roll by 3.
+      icon: 470a917c1ac62c04ea45acc6a35c5f73
       name: Swift Roll
     winrate: 46
   - num: 9
     skills:
-    - icon: 940ddc80c69eead49bfc8a5066a9afc5
+    - description: Healing Potion heals other allies for 4 bonus health.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Companion Potion
-    - icon: d0c4449b33eef2e4ca2cfa8900910041
+    - description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
+        10 damage when removing a buff.
+      icon: d0c4449b33eef2e4ca2cfa8900910041
       name: Potency
-    - icon: 940ddc80c69eead49bfc8a5066a9afc5
+    - description: ^2Revitalize^- increases damage output by 12.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
-    - icon: 470a917c1ac62c04ea45acc6a35c5f73
+    - description: Roll increases movement speed by 33 for 2.5. Reduces cooldown of
+        Roll by 3.
+      icon: 470a917c1ac62c04ea45acc6a35c5f73
       name: Swift Roll
-    - icon: 948d85cf5c36f504f8b964acde19ed3e
+    - description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
+      icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
     winrate: 88
   - num: 7
     skills:
-    - icon: 46e144a65c818c04eb3d00a21cf513b3
+    - description: ^2Barrier^- increases movement speed by 33.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
       name: Alacrity
-    - icon: d0c4449b33eef2e4ca2cfa8900910041
+    - description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
+        10 damage when removing a buff.
+      icon: d0c4449b33eef2e4ca2cfa8900910041
       name: Potency
-    - icon: 940ddc80c69eead49bfc8a5066a9afc5
+    - description: ^2Revitalize^- increases damage output by 12.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
-    - icon: 470a917c1ac62c04ea45acc6a35c5f73
+    - description: Roll increases movement speed by 33 for 2.5. Reduces cooldown of
+        Roll by 3.
+      icon: 470a917c1ac62c04ea45acc6a35c5f73
       name: Swift Roll
-    - icon: 948d85cf5c36f504f8b964acde19ed3e
+    - description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
+      icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
     winrate: 57
   - num: 4
     skills:
-    - icon: bbe2697d5982f654d8dab2223790bd77
+    - description: Increases movement speed by 10.
+      icon: bbe2697d5982f654d8dab2223790bd77
       name: Agility
-    - icon: 46e144a65c818c04eb3d00a21cf513b3
+    - description: ^2Barrier^- increases movement speed by 33.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
       name: Alacrity
-    - icon: 940ddc80c69eead49bfc8a5066a9afc5
+    - description: Healing Potion heals other allies for 4 bonus health.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Companion Potion
-    - icon: 940ddc80c69eead49bfc8a5066a9afc5
+    - description: ^2Revitalize^- increases damage output by 12.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
-    - icon: 470a917c1ac62c04ea45acc6a35c5f73
+    - description: Roll increases movement speed by 33 for 2.5. Reduces cooldown of
+        Roll by 3.
+      icon: 470a917c1ac62c04ea45acc6a35c5f73
       name: Swift Roll
     winrate: 25
   - num: 4
     skills:
-    - icon: 46e144a65c818c04eb3d00a21cf513b3
+    - description: ^2Barrier^- increases movement speed by 33.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
       name: Alacrity
-    - icon: 940ddc80c69eead49bfc8a5066a9afc5
+    - description: Healing Potion heals other allies for 4 bonus health.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Companion Potion
-    - icon: d0c4449b33eef2e4ca2cfa8900910041
+    - description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
+        10 damage when removing a buff.
+      icon: d0c4449b33eef2e4ca2cfa8900910041
       name: Potency
-    - icon: 46e144a65c818c04eb3d00a21cf513b3
+    - description: Barrier absorbs 8 bonus damage and duration increases by 0.5.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
       name: Siege Barrier
-    - icon: 940ddc80c69eead49bfc8a5066a9afc5
+    - description: ^2Revitalize^- increases damage output by 12.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
     winrate: 50
   twos:
   - num: 9
     skills:
-    - icon: 46e144a65c818c04eb3d00a21cf513b3
+    - description: ^2Barrier^- increases movement speed by 33.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
       name: Alacrity
-    - icon: e45c9dbf4c532ca4c8c8dfca14798771
+    - description: Panic Flask deals 10 bonus damage.
+      icon: e45c9dbf4c532ca4c8c8dfca14798771
       name: Deadly Brew
-    - icon: d0c4449b33eef2e4ca2cfa8900910041
+    - description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
+        10 damage when removing a buff.
+      icon: d0c4449b33eef2e4ca2cfa8900910041
       name: Potency
-    - icon: 940ddc80c69eead49bfc8a5066a9afc5
+    - description: ^2Revitalize^- increases damage output by 12.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
-    - icon: 470a917c1ac62c04ea45acc6a35c5f73
+    - description: Roll increases movement speed by 33 for 2.5. Reduces cooldown of
+        Roll by 3.
+      icon: 470a917c1ac62c04ea45acc6a35c5f73
       name: Swift Roll
     winrate: 66
   - num: 9
     skills:
-    - icon: 46e144a65c818c04eb3d00a21cf513b3
+    - description: ^2Barrier^- increases movement speed by 33.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
       name: Alacrity
-    - icon: 46e144a65c818c04eb3d00a21cf513b3
+    - description: Applying Barrier causes a shockwave, dealing 10 damage to nearby
+        enemies and knocking them back.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
       name: Blast Shield
-    - icon: d0c4449b33eef2e4ca2cfa8900910041
+    - description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
+        10 damage when removing a buff.
+      icon: d0c4449b33eef2e4ca2cfa8900910041
       name: Potency
-    - icon: 470a917c1ac62c04ea45acc6a35c5f73
+    - description: Roll increases movement speed by 33 for 2.5. Reduces cooldown of
+        Roll by 3.
+      icon: 470a917c1ac62c04ea45acc6a35c5f73
       name: Swift Roll
-    - icon: 948d85cf5c36f504f8b964acde19ed3e
+    - description: Toxic heals you for 9 health over 6.
+      icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Vampiric Toxin
     winrate: 100
   - num: 6
     skills:
-    - icon: 940ddc80c69eead49bfc8a5066a9afc5
+    - description: Healing Potion heals other allies for 4 bonus health.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Companion Potion
-    - icon: d0c4449b33eef2e4ca2cfa8900910041
+    - description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
+        10 damage when removing a buff.
+      icon: d0c4449b33eef2e4ca2cfa8900910041
       name: Potency
-    - icon: 940ddc80c69eead49bfc8a5066a9afc5
+    - description: ^2Revitalize^- increases damage output by 12.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
-    - icon: 470a917c1ac62c04ea45acc6a35c5f73
+    - description: Roll increases movement speed by 33 for 2.5. Reduces cooldown of
+        Roll by 3.
+      icon: 470a917c1ac62c04ea45acc6a35c5f73
       name: Swift Roll
-    - icon: 948d85cf5c36f504f8b964acde19ed3e
+    - description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
+      icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
     winrate: 100
   - num: 4
     skills:
-    - icon: 46e144a65c818c04eb3d00a21cf513b3
+    - description: ^2Barrier^- increases movement speed by 33.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
       name: Alacrity
-    - icon: d0c4449b33eef2e4ca2cfa8900910041
+    - description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
+        10 damage when removing a buff.
+      icon: d0c4449b33eef2e4ca2cfa8900910041
       name: Potency
-    - icon: 940ddc80c69eead49bfc8a5066a9afc5
+    - description: ^2Revitalize^- increases damage output by 12.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
-    - icon: 470a917c1ac62c04ea45acc6a35c5f73
+    - description: Roll increases movement speed by 33 for 2.5. Reduces cooldown of
+        Roll by 3.
+      icon: 470a917c1ac62c04ea45acc6a35c5f73
       name: Swift Roll
-    - icon: 948d85cf5c36f504f8b964acde19ed3e
+    - description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
+      icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
     winrate: 50
   - num: 4
     skills:
-    - icon: 46e144a65c818c04eb3d00a21cf513b3
+    - description: ^2Barrier^- increases movement speed by 33.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
       name: Alacrity
-    - icon: e45c9dbf4c532ca4c8c8dfca14798771
+    - description: Panic Flask deals 10 bonus damage.
+      icon: e45c9dbf4c532ca4c8c8dfca14798771
       name: Deadly Brew
-    - icon: d0c4449b33eef2e4ca2cfa8900910041
+    - description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
+        10 damage when removing a buff.
+      icon: d0c4449b33eef2e4ca2cfa8900910041
       name: Potency
-    - icon: d2c956821eb75a44e98ec7c47710a0cf
+    - description: Increases Snare factor of Crippling Goo from 35 to 60.
+      icon: d2c956821eb75a44e98ec7c47710a0cf
       name: Sticky Goo
-    - icon: 940ddc80c69eead49bfc8a5066a9afc5
+    - description: ^2Revitalize^- increases damage output by 12.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
     winrate: 75
+description: Lucie is a diverse contender who knows which brew makes you choke, heal
+  or flee in fear. The arena has become her new playground for wild experiments.
+icon: e5554b8a15ffc1a499a3807bb3a37b56
 layout: character
 name: lucie
 num: 256
 title: Lucie
 url: characters/lucie.html
+winrate: 54
 ...

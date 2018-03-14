@@ -3,138 +3,213 @@ builds:
   threes:
   - num: 19
     skills:
-    - icon: 493cac6f13fb41849aaf95ed03fbb488
+    - description: Increases Tree of Life health by 10.
+      icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Healthful Bark
-    - icon: 36048e053d179474491aa317959b3eb7
+    - description: Hop can be recast for a Lesser Hop that travels a shorter distance.
+      icon: 36048e053d179474491aa317959b3eb7
       name: Hop and Skip!
-    - icon: e0ead374bbde24c44a10cc34294a6e44
+    - description: Reduces your weapon charge cooldown by 30.
+      icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
-    - icon: 4832a1022ed764241a63b8dacc299ee9
+    - description: Boom Bloom hits charge your weapon by 50.
+      icon: 4832a1022ed764241a63b8dacc299ee9
       name: Spring Growth
-    - icon: e0ead374bbde24c44a10cc34294a6e44
+    - description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
+        output by 40 for 1.5.
+      icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
     winrate: 31
   - num: 16
     skills:
-    - icon: 493cac6f13fb41849aaf95ed03fbb488
+    - description: Whenever Tree of Life is healed by Nourish, nearby allies are healed
+        for the same amount.
+      icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Bountiful Tree
-    - icon: 493cac6f13fb41849aaf95ed03fbb488
+    - description: Increases Tree of Life health by 10.
+      icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Healthful Bark
-    - icon: 36048e053d179474491aa317959b3eb7
+    - description: Hop can be recast for a Lesser Hop that travels a shorter distance.
+      icon: 36048e053d179474491aa317959b3eb7
       name: Hop and Skip!
-    - icon: 2b94035c77e083845a78221a5130146e
+    - description: Nourish heals 2 bonus health when healing another ally. Butterflies
+        heals for 2 bonus health.
+      icon: 2b94035c77e083845a78221a5130146e
       name: Kindhearted
-    - icon: e0ead374bbde24c44a10cc34294a6e44
+    - description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
+        output by 40 for 1.5.
+      icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
     winrate: 50
   - num: 7
     skills:
-    - icon: 493cac6f13fb41849aaf95ed03fbb488
+    - description: Whenever Tree of Life is healed by Nourish, nearby allies are healed
+        for the same amount.
+      icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Bountiful Tree
-    - icon: 493cac6f13fb41849aaf95ed03fbb488
+    - description: Increases Tree of Life health by 10.
+      icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Healthful Bark
-    - icon: 36048e053d179474491aa317959b3eb7
+    - description: Hop can be recast for a Lesser Hop that travels a shorter distance.
+      icon: 36048e053d179474491aa317959b3eb7
       name: Hop and Skip!
-    - icon: e0ead374bbde24c44a10cc34294a6e44
+    - description: Reduces your weapon charge cooldown by 30.
+      icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
-    - icon: e0ead374bbde24c44a10cc34294a6e44
+    - description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
+        output by 40 for 1.5.
+      icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
     winrate: 28
   - num: 4
     skills:
-    - icon: 493cac6f13fb41849aaf95ed03fbb488
+    - description: Whenever Tree of Life is healed by Nourish, nearby allies are healed
+        for the same amount.
+      icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Bountiful Tree
-    - icon: 493cac6f13fb41849aaf95ed03fbb488
+    - description: Increases Tree of Life health by 10.
+      icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Healthful Bark
-    - icon: 36048e053d179474491aa317959b3eb7
+    - description: Hop can be recast for a Lesser Hop that travels a shorter distance.
+      icon: 36048e053d179474491aa317959b3eb7
       name: Hop and Skip!
-    - icon: 4832a1022ed764241a63b8dacc299ee9
+    - description: Boom Bloom hits charge your weapon by 50.
+      icon: 4832a1022ed764241a63b8dacc299ee9
       name: Spring Growth
-    - icon: e0ead374bbde24c44a10cc34294a6e44
+    - description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
+        output by 40 for 1.5.
+      icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
     winrate: 25
   - num: 3
     skills:
-    - icon: 36048e053d179474491aa317959b3eb7
+    - description: Hop can be recast for a Lesser Hop that travels a shorter distance.
+      icon: 36048e053d179474491aa317959b3eb7
       name: Hop and Skip!
-    - icon: 2b94035c77e083845a78221a5130146e
+    - description: Nourish heals 2 bonus health when healing another ally. Butterflies
+        heals for 2 bonus health.
+      icon: 2b94035c77e083845a78221a5130146e
       name: Kindhearted
-    - icon: 493cac6f13fb41849aaf95ed03fbb488
+    - description: Tree of Life grants nearby allies 35 increased movement speed for
+        2.5 when destroyed or at the end of its duration.
+      icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Refreshing Seed
-    - icon: 4832a1022ed764241a63b8dacc299ee9
+    - description: Boom Bloom hits charge your weapon by 50.
+      icon: 4832a1022ed764241a63b8dacc299ee9
       name: Spring Growth
-    - icon: e0ead374bbde24c44a10cc34294a6e44
+    - description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
+        output by 40 for 1.5.
+      icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
     winrate: 100
   twos:
   - num: 61
     skills:
-    - icon: 493cac6f13fb41849aaf95ed03fbb488
+    - description: Increases Tree of Life health by 10.
+      icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Healthful Bark
-    - icon: 36048e053d179474491aa317959b3eb7
+    - description: Hop can be recast for a Lesser Hop that travels a shorter distance.
+      icon: 36048e053d179474491aa317959b3eb7
       name: Hop and Skip!
-    - icon: e0ead374bbde24c44a10cc34294a6e44
+    - description: Reduces your weapon charge cooldown by 30.
+      icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
-    - icon: 4832a1022ed764241a63b8dacc299ee9
+    - description: Boom Bloom hits charge your weapon by 50.
+      icon: 4832a1022ed764241a63b8dacc299ee9
       name: Spring Growth
-    - icon: e0ead374bbde24c44a10cc34294a6e44
+    - description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
+        output by 40 for 1.5.
+      icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
     winrate: 50
   - num: 33
     skills:
-    - icon: 36048e053d179474491aa317959b3eb7
+    - description: Hop causes you to leave behind a Lesser Boom Bloom seed. After
+        1.1, the seed inflicts Stun for 0.8 on nearby enemies.
+      icon: 36048e053d179474491aa317959b3eb7
       name: Gift of Nature
-    - icon: 36048e053d179474491aa317959b3eb7
+    - description: Hop can be recast for a Lesser Hop that travels a shorter distance.
+      icon: 36048e053d179474491aa317959b3eb7
       name: Hop and Skip!
-    - icon: e0ead374bbde24c44a10cc34294a6e44
+    - description: Reduces your weapon charge cooldown by 30.
+      icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
-    - icon: 4832a1022ed764241a63b8dacc299ee9
+    - description: Boom Bloom hits charge your weapon by 50.
+      icon: 4832a1022ed764241a63b8dacc299ee9
       name: Spring Growth
-    - icon: e0ead374bbde24c44a10cc34294a6e44
+    - description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
+        output by 40 for 1.5.
+      icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
     winrate: 57
   - num: 24
     skills:
-    - icon: 36048e053d179474491aa317959b3eb7
+    - description: Increases Hop invisibility duration by 1.
+      icon: 36048e053d179474491aa317959b3eb7
       name: Cautious
-    - icon: 36048e053d179474491aa317959b3eb7
+    - description: Hop can be recast for a Lesser Hop that travels a shorter distance.
+      icon: 36048e053d179474491aa317959b3eb7
       name: Hop and Skip!
-    - icon: e0ead374bbde24c44a10cc34294a6e44
+    - description: Reduces your weapon charge cooldown by 30.
+      icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
-    - icon: 493cac6f13fb41849aaf95ed03fbb488
+    - description: Tree of Life grants nearby allies 35 increased movement speed for
+        2.5 when destroyed or at the end of its duration.
+      icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Refreshing Seed
-    - icon: e0ead374bbde24c44a10cc34294a6e44
+    - description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
+        output by 40 for 1.5.
+      icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
     winrate: 45
   - num: 16
     skills:
-    - icon: 36048e053d179474491aa317959b3eb7
+    - description: Hop can be recast for a Lesser Hop that travels a shorter distance.
+      icon: 36048e053d179474491aa317959b3eb7
       name: Hop and Skip!
-    - icon: e0ead374bbde24c44a10cc34294a6e44
+    - description: Reduces your weapon charge cooldown by 30.
+      icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
-    - icon: 493cac6f13fb41849aaf95ed03fbb488
+    - description: Tree of Life grants nearby allies 35 increased movement speed for
+        2.5 when destroyed or at the end of its duration.
+      icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Refreshing Seed
-    - icon: 4832a1022ed764241a63b8dacc299ee9
+    - description: Boom Bloom hits charge your weapon by 50.
+      icon: 4832a1022ed764241a63b8dacc299ee9
       name: Spring Growth
-    - icon: e0ead374bbde24c44a10cc34294a6e44
+    - description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
+        output by 40 for 1.5.
+      icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
     winrate: 50
   - num: 10
     skills:
-    - icon: 36048e053d179474491aa317959b3eb7
+    - description: Hop can be recast for a Lesser Hop that travels a shorter distance.
+      icon: 36048e053d179474491aa317959b3eb7
       name: Hop and Skip!
-    - icon: e0ead374bbde24c44a10cc34294a6e44
+    - description: Reduces your weapon charge cooldown by 30.
+      icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
-    - icon: 36048e053d179474491aa317959b3eb7
+    - description: Hop grants 15 increased damage and healing output to nearby allies
+        for 3.
+      icon: 36048e053d179474491aa317959b3eb7
       name: Nature's Presence
-    - icon: 4832a1022ed764241a63b8dacc299ee9
+    - description: Boom Bloom hits charge your weapon by 50.
+      icon: 4832a1022ed764241a63b8dacc299ee9
       name: Spring Growth
-    - icon: e0ead374bbde24c44a10cc34294a6e44
+    - description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
+        output by 40 for 1.5.
+      icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
     winrate: 80
+description: Blossom is a happy, bubbly young faun from the Silverdeep Forest. She
+  has left her home to investigate a disturbance in the natural order. She is never
+  far from her bird companion, Maxwell.
+icon: 6f50396e26efe6c4bbad274e2c90b8a4
 layout: character
 name: blossom
 num: 331
 title: Blossom
 url: characters/blossom.html
+winrate: 47
 ...
