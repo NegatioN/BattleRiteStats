@@ -1,9 +1,16 @@
 ---
-layout: page
+layout: default
 ---
+
+<div class="character-container">
+<div class="characterdiv">
+    <img class="line" src="{{site.url}}/assets/img/{{ page.icon }}.png" />
+    <h1 class="line">{{ page.title }}</h1>
+</div>
+<p class="character-description">{{page.description}}</p>
+<h3>Played {{page.num}} times last 7 days, with a winrate of {{page.winrate}}%</h3>
+</div>
 <article class="character">
-    <p>{{page.description}}</p>
-    <h3>Played {{page.num}} times last 7 days, with a winrate of {{page.winrate}}%</h3>
     <table>
         <thead>
         <tr>

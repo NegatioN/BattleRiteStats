@@ -37,7 +37,6 @@ h1, h2, h3, h4, h5, h6 {
   color: $darkerGray;
   font-weight: bold;
 
-  line-height: 1.7;
   margin: 0.25em 0 0.1em;
   padding: 0;
 
@@ -67,7 +66,7 @@ h4 {
 }
 
 p {
-  margin: 15px 0;
+  margin: 10px 0;
 }
 
 a {
@@ -153,7 +152,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .masthead {
@@ -340,6 +339,27 @@ td > div {
 
 .glyphicon-menu-hamburger {
   font-size: 35px;
+}
+
+.characterdiv {
+  display: flex;
+  align-items: flex-start;
+}
+
+.line{
+  margin: 5px 5px;
+  align-self:baseline;
+  max-height: 120px;
+}
+
+.character-description {
+  letter-spacing: 0.05rem;
+  line-height:1rem;
+}
+
+.character-container {
+  box-shadow: 0 0 0 0.08rem lightgray;
+  padding: 0.5em 0.5em;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
