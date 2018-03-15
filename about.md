@@ -4,6 +4,12 @@ title: About
 permalink: /about/
 ---
 
+### What is this site?
+
+This site is trying to describe the metagame of [Battlerite](https://www.battlerite.com) as well as possible, through statistics
+from the best players in the game. Hopefully it can help newer players get a decent setup for their character without 
+having to figure out everything for themselves.
+
 ### How were these stats made?
 
 These statistics were made by looking at the replays from the last 7 days of the top 50 ranked solo players in Battlerite. 
