@@ -1,7 +1,7 @@
 ---
 builds:
   threes:
-  - num: 16
+  - num: 13
     skills:
     - description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
         over the duration.
@@ -21,7 +21,7 @@ builds:
         that lasts for 3.
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
-    winrate: 31
+    winrate: 61
   - num: 10
     skills:
     - description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
@@ -42,28 +42,8 @@ builds:
         that lasts for 3.
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
-    winrate: 20
-  - num: 9
-    skills:
-    - description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
-        over the duration.
-      icon: ce1e01246a2a09145a192bb0deeeb400
-      name: Arrow Storm
-    - description: Consuming ^2Seekers Mark^- deals 4 bonus damage.
-      icon: 60a73a3140321ec448f7f97f00a07897
-      name: Death Mark
-    - description: Steady Shot inflicts Stun for 0.5.
-      icon: 594fdf8c70a83404da422aa6463e0e03
-      name: Perfect Shot
-    - description: Black Arrow deals 4 bonus damage and grants 4 bonus energy.
-      icon: 4b81fcaeb29b2cd4e81e67d224552899
-      name: Precision
-    - description: Bear Trap lays down an additional trap in front of the first one
-        that lasts for 3.
-      icon: 6e30eed38d549fa4794a4543bf2b8de2
-      name: Trapper
-    winrate: 66
-  - num: 7
+    winrate: 30
+  - num: 10
     skills:
     - description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
         over the duration.
@@ -83,16 +63,17 @@ builds:
         that lasts for 3.
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
-    winrate: 0
-  - num: 6
+    winrate: 40
+  - num: 10
     skills:
     - description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
         over the duration.
       icon: ce1e01246a2a09145a192bb0deeeb400
       name: Arrow Storm
-    - description: Increases Snare factor of Rain of Arrows from 20 to 40.
-      icon: ce1e01246a2a09145a192bb0deeeb400
-      name: Crippling Hail
+    - description: Increases duration of Prowl by 0.5 and reduces its cooldown by
+        3.
+      icon: bcb5bbf5676057e4bb4278f5c20bb865
+      name: Panther
     - description: Steady Shot inflicts Stun for 0.5.
       icon: 594fdf8c70a83404da422aa6463e0e03
       name: Perfect Shot
@@ -103,9 +84,29 @@ builds:
     - description: Black Arrow grants 60 Fading Haste for 1.5.
       icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Viper
-    winrate: 16
+    winrate: 50
+  - num: 8
+    skills:
+    - description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
+        over the duration.
+      icon: ce1e01246a2a09145a192bb0deeeb400
+      name: Arrow Storm
+    - description: Consuming ^2Seekers Mark^- deals 4 bonus damage.
+      icon: 60a73a3140321ec448f7f97f00a07897
+      name: Death Mark
+    - description: Steady Shot inflicts Stun for 0.5.
+      icon: 594fdf8c70a83404da422aa6463e0e03
+      name: Perfect Shot
+    - description: Black Arrow deals 4 bonus damage and grants 4 bonus energy.
+      icon: 4b81fcaeb29b2cd4e81e67d224552899
+      name: Precision
+    - description: Bear Trap lays down an additional trap in front of the first one
+        that lasts for 3.
+      icon: 6e30eed38d549fa4794a4543bf2b8de2
+      name: Trapper
+    winrate: 50
   twos:
-  - num: 34
+  - num: 70
     skills:
     - description: Increases duration of Prowl by 0.5 and reduces its cooldown by
         3.
@@ -124,8 +125,8 @@ builds:
     - description: Black Arrow grants 60 Fading Haste for 1.5.
       icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Viper
-    winrate: 44
-  - num: 21
+    winrate: 60
+  - num: 33
     skills:
     - description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
         over the duration.
@@ -144,7 +145,47 @@ builds:
         that lasts for 3.
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
-    winrate: 57
+    winrate: 54
+  - num: 21
+    skills:
+    - description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
+        over the duration.
+      icon: ce1e01246a2a09145a192bb0deeeb400
+      name: Arrow Storm
+    - description: Consuming ^2Seekers Mark^- deals 4 bonus damage.
+      icon: 60a73a3140321ec448f7f97f00a07897
+      name: Death Mark
+    - description: Increases duration of Prowl by 0.5 and reduces its cooldown by
+        3.
+      icon: bcb5bbf5676057e4bb4278f5c20bb865
+      name: Panther
+    - description: Steady Shot inflicts Stun for 0.5.
+      icon: 594fdf8c70a83404da422aa6463e0e03
+      name: Perfect Shot
+    - description: Black Arrow grants 60 Fading Haste for 1.5.
+      icon: 4b81fcaeb29b2cd4e81e67d224552899
+      name: Viper
+    winrate: 71
+  - num: 15
+    skills:
+    - description: Consuming ^2Seekers Mark^- deals 4 bonus damage.
+      icon: 60a73a3140321ec448f7f97f00a07897
+      name: Death Mark
+    - description: Increases duration of Prowl by 0.5 and reduces its cooldown by
+        3.
+      icon: bcb5bbf5676057e4bb4278f5c20bb865
+      name: Panther
+    - description: Steady Shot inflicts Stun for 0.5.
+      icon: 594fdf8c70a83404da422aa6463e0e03
+      name: Perfect Shot
+    - description: Black Arrow deals 4 bonus damage and grants 4 bonus energy.
+      icon: 4b81fcaeb29b2cd4e81e67d224552899
+      name: Precision
+    - description: Bear Trap lays down an additional trap in front of the first one
+        that lasts for 3.
+      icon: 6e30eed38d549fa4794a4543bf2b8de2
+      name: Trapper
+    winrate: 53
   - num: 11
     skills:
     - description: Consuming ^2Seekers Mark^- deals 4 bonus damage.
@@ -157,53 +198,13 @@ builds:
     - description: Steady Shot inflicts Stun for 0.5.
       icon: 594fdf8c70a83404da422aa6463e0e03
       name: Perfect Shot
+    - description: Steady Shot deals 6 bonus damage and knocks the enemy back.
+      icon: 594fdf8c70a83404da422aa6463e0e03
+      name: Power Shot
     - description: Black Arrow deals 4 bonus damage and grants 4 bonus energy.
       icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Precision
-    - description: Black Arrow grants 60 Fading Haste for 1.5.
-      icon: 4b81fcaeb29b2cd4e81e67d224552899
-      name: Viper
     winrate: 54
-  - num: 8
-    skills:
-    - description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
-        over the duration.
-      icon: ce1e01246a2a09145a192bb0deeeb400
-      name: Arrow Storm
-    - description: Steady Shot inflicts Stun for 0.5.
-      icon: 594fdf8c70a83404da422aa6463e0e03
-      name: Perfect Shot
-    - description: Black Arrow deals 4 bonus damage and grants 4 bonus energy.
-      icon: 4b81fcaeb29b2cd4e81e67d224552899
-      name: Precision
-    - description: Bear Trap lays down an additional trap in front of the first one
-        that lasts for 3.
-      icon: 6e30eed38d549fa4794a4543bf2b8de2
-      name: Trapper
-    - description: Black Arrow grants 60 Fading Haste for 1.5.
-      icon: 4b81fcaeb29b2cd4e81e67d224552899
-      name: Viper
-    winrate: 25
-  - num: 6
-    skills:
-    - description: Increases duration of Prowl by 0.5 and reduces its cooldown by
-        3.
-      icon: bcb5bbf5676057e4bb4278f5c20bb865
-      name: Panther
-    - description: Steady Shot inflicts Stun for 0.5.
-      icon: 594fdf8c70a83404da422aa6463e0e03
-      name: Perfect Shot
-    - description: Black Arrow deals 4 bonus damage and grants 4 bonus energy.
-      icon: 4b81fcaeb29b2cd4e81e67d224552899
-      name: Precision
-    - description: Bear Trap lays down an additional trap in front of the first one
-        that lasts for 3.
-      icon: 6e30eed38d549fa4794a4543bf2b8de2
-      name: Trapper
-    - description: Black Arrow grants 60 Fading Haste for 1.5.
-      icon: 4b81fcaeb29b2cd4e81e67d224552899
-      name: Viper
-    winrate: 50
 description: Jumong is a trophy collector who has wandered the wildlands in the pursuit
   of a worthy challenge. No longer being content with hunting the great beasts of
   the world has led him to enter the arena, looking for a new type of prey. He traps
@@ -211,8 +212,8 @@ description: Jumong is a trophy collector who has wandered the wildlands in the 
 icon: 42a665b9c285a1243a201c8d533980e5
 layout: character
 name: jumong
-num: 306
+num: 429
 title: Jumong
 url: characters/jumong.html
-winrate: 42
+winrate: 48
 ...
