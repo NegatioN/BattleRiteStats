@@ -1,7 +1,7 @@
 ---
 builds:
   threes:
-  - num: 52
+  - num: 41
     skills:
     - description: During Haste, the first hit of each Razor Boomerang heals you for
         6 health.
@@ -22,8 +22,8 @@ builds:
         by 0.8.
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
-    winrate: 42
-  - num: 22
+    winrate: 60
+  - num: 12
     skills:
     - description: X-Strike boomerangs each deal 4 bonus damage, and an additional
         4 bonus damage if both boomerangs hit at the intersection.
@@ -44,27 +44,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
     winrate: 50
-  - num: 14
-    skills:
-    - description: During Haste, Razor Boomerang inflicts Fading Snare for 0.4.
-      icon: e6c2b076242187d44941ae0cefa96f62
-      name: Cold Wind
-    - description: X-Strike boomerangs each deal 4 bonus damage, and an additional
-        4 bonus damage if both boomerangs hit at the intersection.
-      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
-      name: Cross Cut
-    - description: Increases maximum range of X-Strike by 15.
-      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
-      name: Throwing Technique
-    - description: During Haste, Wind Strike hits reapply Haste.
-      icon: 9a292cf4ed808d54c922ab48f5881c5a
-      name: Wind Fury
-    - description: Increases Wind Stream duration by 1 and the Haste duration it grants
-        by 0.8.
-      icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
-      name: Wind Stream
-    winrate: 64
-  - num: 7
+  - num: 8
     skills:
     - description: X-Strike boomerangs each deal 4 bonus damage, and an additional
         4 bonus damage if both boomerangs hit at the intersection.
@@ -84,8 +64,28 @@ builds:
         by 0.8.
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
-    winrate: 28
+    winrate: 37
   - num: 7
+    skills:
+    - description: During Haste, Razor Boomerang inflicts Fading Snare for 0.4.
+      icon: e6c2b076242187d44941ae0cefa96f62
+      name: Cold Wind
+    - description: X-Strike boomerangs each deal 4 bonus damage, and an additional
+        4 bonus damage if both boomerangs hit at the intersection.
+      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
+      name: Cross Cut
+    - description: Increases maximum range of X-Strike by 15.
+      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
+      name: Throwing Technique
+    - description: During Haste, Wind Strike hits reapply Haste.
+      icon: 9a292cf4ed808d54c922ab48f5881c5a
+      name: Wind Fury
+    - description: Increases Wind Stream duration by 1 and the Haste duration it grants
+        by 0.8.
+      icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
+      name: Wind Stream
+    winrate: 71
+  - num: 6
     skills:
     - description: During Haste, Razor Boomerang inflicts Fading Snare for 0.4.
       icon: e6c2b076242187d44941ae0cefa96f62
@@ -105,9 +105,9 @@ builds:
         by 0.8.
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
-    winrate: 85
+    winrate: 83
   twos:
-  - num: 26
+  - num: 18
     skills:
     - description: X-Strike boomerangs each deal 4 bonus damage, and an additional
         4 bonus damage if both boomerangs hit at the intersection.
@@ -127,12 +127,13 @@ builds:
         by 0.8.
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
-    winrate: 38
-  - num: 12
+    winrate: 44
+  - num: 7
     skills:
-    - description: During Haste, Razor Boomerang inflicts Fading Snare for 0.4.
+    - description: During Haste, the first hit of each Razor Boomerang heals you for
+        6 health.
       icon: e6c2b076242187d44941ae0cefa96f62
-      name: Cold Wind
+      name: Breath of Air
     - description: X-Strike boomerangs each deal 4 bonus damage, and an additional
         4 bonus damage if both boomerangs hit at the intersection.
       icon: a1e1ca01cc40ea24c9e8e0fa7de49581
@@ -148,8 +149,8 @@ builds:
         by 0.8.
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
-    winrate: 50
-  - num: 10
+    winrate: 28
+  - num: 5
     skills:
     - description: During Haste, Razor Boomerang inflicts Fading Snare for 0.4.
       icon: e6c2b076242187d44941ae0cefa96f62
@@ -168,13 +169,33 @@ builds:
         by 0.8.
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
-    winrate: 60
-  - num: 8
+    winrate: 80
+  - num: 4
     skills:
     - description: During Haste, the first hit of each Razor Boomerang heals you for
         6 health.
       icon: e6c2b076242187d44941ae0cefa96f62
       name: Breath of Air
+    - description: During Haste, Razor Boomerang inflicts Fading Snare for 0.4.
+      icon: e6c2b076242187d44941ae0cefa96f62
+      name: Cold Wind
+    - description: Increases energy gain from abilities by 10 and maximum energy by
+        25.
+      icon: 61e058b8f4b79f4419ec1496f223ee36
+      name: Inspiration
+    - description: During Haste, Wind Strike hits reapply Haste.
+      icon: 9a292cf4ed808d54c922ab48f5881c5a
+      name: Wind Fury
+    - description: Increases Wind Stream duration by 1 and the Haste duration it grants
+        by 0.8.
+      icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
+      name: Wind Stream
+    winrate: 0
+  - num: 3
+    skills:
+    - description: During Haste, Razor Boomerang inflicts Fading Snare for 0.4.
+      icon: e6c2b076242187d44941ae0cefa96f62
+      name: Cold Wind
     - description: X-Strike boomerangs each deal 4 bonus damage, and an additional
         4 bonus damage if both boomerangs hit at the intersection.
       icon: a1e1ca01cc40ea24c9e8e0fa7de49581
@@ -190,27 +211,6 @@ builds:
         by 0.8.
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
-    winrate: 0
-  - num: 6
-    skills:
-    - description: During Haste, the first hit of each Razor Boomerang heals you for
-        6 health.
-      icon: e6c2b076242187d44941ae0cefa96f62
-      name: Breath of Air
-    - description: During Haste, Razor Boomerang inflicts Fading Snare for 0.4.
-      icon: e6c2b076242187d44941ae0cefa96f62
-      name: Cold Wind
-    - description: X-Strike boomerangs each deal 4 bonus damage, and an additional
-        4 bonus damage if both boomerangs hit at the intersection.
-      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
-      name: Cross Cut
-    - description: During Haste, Wind Strike hits reapply Haste.
-      icon: 9a292cf4ed808d54c922ab48f5881c5a
-      name: Wind Fury
-    - description: Increases Wind Stream duration by 1 and the Haste duration it grants
-        by 0.8.
-      icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
-      name: Wind Stream
     winrate: 66
 description: An exceptionally swift hunter wielding a razor sharp boomerang. By shaping
   the wind around her Taya is able to increase her speed and control her boomerang
@@ -218,8 +218,8 @@ description: An exceptionally swift hunter wielding a razor sharp boomerang. By 
 icon: 2905515bc00a1d64e83466ec8e50f8b6
 layout: character
 name: taya
-num: 251
+num: 166
 title: Taya
 url: characters/taya.html
-winrate: 46
+winrate: 47
 ...
