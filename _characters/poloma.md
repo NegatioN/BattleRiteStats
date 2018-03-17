@@ -1,7 +1,27 @@
 ---
 builds:
   threes:
-  - num: 21
+  - num: 22
+    skills:
+    - description: Ally affected by ^2Spirit Guide^- takes 33 less damage and enemy
+        affected by ^2Spirit Guide^- takes 20 more damage.
+      icon: 7bd09f2f761edd0438938579a6942e82
+      name: Phantasm
+    - description: Increases Ghost Wolf range by 10. The first hit deals 4 bonus damage.
+      icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Silver Fang
+    - description: Other Side causes your ally to become invisible for 1.5.
+      icon: dfc86226d7b2a6d438dad7dfca7a0d52
+      name: Specter
+    - description: Spirit Rift increases your movement speed by 40 for 3 when it inflicts
+        Spell Block.
+      icon: b6b9a08408c476c4a9f91eba6dacbb52
+      name: Spiritual Wind
+    - description: Teleporting to Spirit Guide resets the cooldown of Spirit Rift.
+      icon: 7bd09f2f761edd0438938579a6942e82
+      name: Vengeful Spirit
+    winrate: 54
+  - num: 22
     skills:
     - description: Other Side heals 6 bonus healing. Also reduces cooldown of Other
         Side by 1.
@@ -20,8 +40,8 @@ builds:
     - description: Teleporting to Spirit Guide resets the cooldown of Spirit Rift.
       icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
-    winrate: 76
-  - num: 14
+    winrate: 68
+  - num: 19
     skills:
     - description: Ghost Wolf returns to you afterward, granting you 5 energy and
         healing you for 12 health.
@@ -41,29 +61,28 @@ builds:
     - description: Increases Ghost Wolf range by 10. The first hit deals 4 bonus damage.
       icon: 70d64cab20af264438c599ba3ecdd2c4
       name: Silver Fang
-    winrate: 50
+    winrate: 42
+  - num: 17
+    skills:
+    - description: Ally affected by ^2Spirit Guide^- takes 33 less damage and enemy
+        affected by ^2Spirit Guide^- takes 20 more damage.
+      icon: 7bd09f2f761edd0438938579a6942e82
+      name: Phantasm
+    - description: Increases healing shared by Spirit Link from 50 to 70.
+      icon: 510f65762365d8a47815877780d9227d
+      name: Shimmering Bond
+    - description: Increases Ghost Wolf range by 10. The first hit deals 4 bonus damage.
+      icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Silver Fang
+    - description: Other Side causes your ally to become invisible for 1.5.
+      icon: dfc86226d7b2a6d438dad7dfca7a0d52
+      name: Specter
+    - description: Teleporting to Spirit Guide resets the cooldown of Spirit Rift.
+      icon: 7bd09f2f761edd0438938579a6942e82
+      name: Vengeful Spirit
+    winrate: 58
   - num: 13
     skills:
-    - description: Ally affected by ^2Spirit Guide^- takes 33 less damage and enemy
-        affected by ^2Spirit Guide^- takes 20 more damage.
-      icon: 7bd09f2f761edd0438938579a6942e82
-      name: Phantasm
-    - description: Increases Ghost Wolf range by 10. The first hit deals 4 bonus damage.
-      icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Silver Fang
-    - description: Other Side causes your ally to become invisible for 1.5.
-      icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Specter
-    - description: Spirit Rift increases your movement speed by 40 for 3 when it inflicts
-        Spell Block.
-      icon: b6b9a08408c476c4a9f91eba6dacbb52
-      name: Spiritual Wind
-    - description: Teleporting to Spirit Guide resets the cooldown of Spirit Rift.
-      icon: 7bd09f2f761edd0438938579a6942e82
-      name: Vengeful Spirit
-    winrate: 23
-  - num: 9
-    skills:
     - description: Other Side heals 6 bonus healing. Also reduces cooldown of Other
         Side by 1.
       icon: dfc86226d7b2a6d438dad7dfca7a0d52
@@ -78,32 +97,12 @@ builds:
     - description: Increases Ghost Wolf range by 10. The first hit deals 4 bonus damage.
       icon: 70d64cab20af264438c599ba3ecdd2c4
       name: Silver Fang
-    - description: Teleporting to Spirit Guide resets the cooldown of Spirit Rift.
-      icon: 7bd09f2f761edd0438938579a6942e82
-      name: Vengeful Spirit
-    winrate: 44
-  - num: 9
-    skills:
-    - description: Ghost Wolf returns to you afterward, granting you 5 energy and
-        healing you for 12 health.
-      icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Affection
-    - description: Ally affected by ^2Spirit Guide^- takes 33 less damage and enemy
-        affected by ^2Spirit Guide^- takes 20 more damage.
-      icon: 7bd09f2f761edd0438938579a6942e82
-      name: Phantasm
-    - description: Increases Ghost Wolf range by 10. The first hit deals 4 bonus damage.
-      icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Silver Fang
     - description: Other Side causes your ally to become invisible for 1.5.
       icon: dfc86226d7b2a6d438dad7dfca7a0d52
       name: Specter
-    - description: Teleporting to Spirit Guide resets the cooldown of Spirit Rift.
-      icon: 7bd09f2f761edd0438938579a6942e82
-      name: Vengeful Spirit
-    winrate: 55
+    winrate: 53
   twos:
-  - num: 36
+  - num: 26
     skills:
     - description: Ghost Wolf returns to you afterward, granting you 5 energy and
         healing you for 12 health.
@@ -124,13 +123,17 @@ builds:
     - description: Teleporting to Spirit Guide resets the cooldown of Spirit Rift.
       icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
-    winrate: 66
-  - num: 16
+    winrate: 69
+  - num: 12
     skills:
     - description: Ghost Wolf returns to you afterward, granting you 5 energy and
         healing you for 12 health.
       icon: 70d64cab20af264438c599ba3ecdd2c4
       name: Affection
+    - description: Other Side heals 6 bonus healing. Also reduces cooldown of Other
+        Side by 1.
+      icon: dfc86226d7b2a6d438dad7dfca7a0d52
+      name: Into the Realm
     - description: Ally affected by ^2Spirit Guide^- takes 33 less damage and enemy
         affected by ^2Spirit Guide^- takes 20 more damage.
       icon: 7bd09f2f761edd0438938579a6942e82
@@ -141,74 +144,72 @@ builds:
     - description: Other Side causes your ally to become invisible for 1.5.
       icon: dfc86226d7b2a6d438dad7dfca7a0d52
       name: Specter
+    winrate: 25
+  - num: 9
+    skills:
+    - description: Ghost Wolf returns to you afterward, granting you 5 energy and
+        healing you for 12 health.
+      icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Affection
+    - description: The first Ghost Wolf hit inflicts Root for 1.
+      icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Dire Wolf
+    - description: Other Side heals 6 bonus healing. Also reduces cooldown of Other
+        Side by 1.
+      icon: dfc86226d7b2a6d438dad7dfca7a0d52
+      name: Into the Realm
+    - description: Reduces cooldown of Spirit Rift by 1. Spell Block interrupts further
+        reduce cooldown by 1.
+      icon: b6b9a08408c476c4a9f91eba6dacbb52
+      name: Soul Essence
+    - description: Spirit Rift increases your movement speed by 40 for 3 when it inflicts
+        Spell Block.
+      icon: b6b9a08408c476c4a9f91eba6dacbb52
+      name: Spiritual Wind
+    winrate: 77
+  - num: 8
+    skills:
+    - description: Ghost Wolf returns to you afterward, granting you 5 energy and
+        healing you for 12 health.
+      icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Affection
+    - description: Other Side heals 6 bonus healing. Also reduces cooldown of Other
+        Side by 1.
+      icon: dfc86226d7b2a6d438dad7dfca7a0d52
+      name: Into the Realm
+    - description: Ally affected by ^2Spirit Guide^- takes 33 less damage and enemy
+        affected by ^2Spirit Guide^- takes 20 more damage.
+      icon: 7bd09f2f761edd0438938579a6942e82
+      name: Phantasm
+    - description: Increases Ghost Wolf range by 10. The first hit deals 4 bonus damage.
+      icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Silver Fang
     - description: Teleporting to Spirit Guide resets the cooldown of Spirit Rift.
       icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
-    winrate: 81
-  - num: 10
+    winrate: 62
+  - num: 7
     skills:
     - description: Ghost Wolf returns to you afterward, granting you 5 energy and
         healing you for 12 health.
       icon: 70d64cab20af264438c599ba3ecdd2c4
       name: Affection
+    - description: Spirit Guide deals 6 bonus damage and knockback force increases
+        by 60.
+      icon: 7bd09f2f761edd0438938579a6942e82
+      name: Ghostly Strike
     - description: Other Side heals 6 bonus healing. Also reduces cooldown of Other
         Side by 1.
       icon: dfc86226d7b2a6d438dad7dfca7a0d52
       name: Into the Realm
-    - description: Ally affected by ^2Spirit Guide^- takes 33 less damage and enemy
-        affected by ^2Spirit Guide^- takes 20 more damage.
-      icon: 7bd09f2f761edd0438938579a6942e82
-      name: Phantasm
-    - description: Increases Ghost Wolf range by 10. The first hit deals 4 bonus damage.
-      icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Silver Fang
-    - description: Other Side causes your ally to become invisible for 1.5.
-      icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Specter
-    winrate: 50
-  - num: 5
-    skills:
-    - description: Ghost Wolf returns to you afterward, granting you 5 energy and
-        healing you for 12 health.
-      icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Affection
-    - description: Other Side heals 6 bonus healing. Also reduces cooldown of Other
-        Side by 1.
-      icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Into the Realm
-    - description: Ally affected by ^2Spirit Guide^- takes 33 less damage and enemy
-        affected by ^2Spirit Guide^- takes 20 more damage.
-      icon: 7bd09f2f761edd0438938579a6942e82
-      name: Phantasm
-    - description: Other Side causes your ally to become invisible for 1.5.
-      icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Specter
+    - description: Spirit Rift increases your movement speed by 40 for 3 when it inflicts
+        Spell Block.
+      icon: b6b9a08408c476c4a9f91eba6dacbb52
+      name: Spiritual Wind
     - description: Teleporting to Spirit Guide resets the cooldown of Spirit Rift.
       icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
-    winrate: 20
-  - num: 3
-    skills:
-    - description: Ghost Wolf returns to you afterward, granting you 5 energy and
-        healing you for 12 health.
-      icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Affection
-    - description: Other Side heals 6 bonus healing. Also reduces cooldown of Other
-        Side by 1.
-      icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Into the Realm
-    - description: Ally affected by ^2Spirit Guide^- takes 33 less damage and enemy
-        affected by ^2Spirit Guide^- takes 20 more damage.
-      icon: 7bd09f2f761edd0438938579a6942e82
-      name: Phantasm
-    - description: Pixie deals full damage and healing on mimicked Soul Bolts and
-        cooldown reduces by 3.
-      icon: eb89a558d4c3f23498b8a442c7ef6964
-      name: Pixie Dust
-    - description: Increases Ghost Wolf range by 10. The first hit deals 4 bonus damage.
-      icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Silver Fang
-    winrate: 33
+    winrate: 57
 description: Poloma uses shamanic powers to guide life and spirits alongside her protector
   and loyal creature, Toki. A dark disturbance among souls has put Poloma on a new
   path, leaving her safety and home behind. Driven by her burning curiosity and extraordinary
@@ -216,8 +217,8 @@ description: Poloma uses shamanic powers to guide life and spirits alongside her
 icon: 9872f8cd16d7327418b09294cfa319e6
 layout: character
 name: poloma
-num: 362
+num: 487
 title: Poloma
 url: characters/poloma.html
-winrate: 47
+winrate: 51
 ...
