@@ -119,8 +119,8 @@ for character, modes in character_dict.items():
             b = {'skills': [{'name': brite_name(int(x)),
                              'icon': brite_icon(int(x)),
                              'description': brite_description(int(x)),
-                             'color': color_lookup[int(x)],
-                             'type': type_lookup[int(x)]
+                             'color': color_lookup[str(x)],
+                             'type': type_lookup[str(x)]
                              }
                             for x in build],
                  'num': int(aggregations['num']),
@@ -155,7 +155,7 @@ master_d = {'twos': render_sort(twos, 3),
                       'num_matches': main_df['matchid'].nunique()}}
 
 
-appearance_summary = {hero_name(h_id): v for h_id, v in main_df.groupby('character').size().to_dict().items()}
+appearance_summary = {hero_name(h_id): int(v) for h_id, v in main_df.groupby('character').size().to_dict().items()}
 win_agg = main_df.groupby('character')['wonFlag'].agg('sum')
 winrate_summary = {x[0]: int(float(x[1]) / float(appearance_summary[x[0]]) * 100)
                    for x in zip([hero_name(z) for z in win_agg.index], win_agg)}
