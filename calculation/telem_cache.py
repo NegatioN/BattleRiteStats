@@ -29,7 +29,7 @@ def cache_telemetry(telemetry_url, content):
     head, tail = ntpath.split(telem_path)
     mkdir_path(head)
     with open(telem_path, 'w+', encoding='utf-8') as f:
-        json.dump(content, f)
+        json.dump(content, f, ensure_ascii=False)
 
 
 def get_n_folder_levels(path, n):
