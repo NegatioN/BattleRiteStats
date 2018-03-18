@@ -7,6 +7,7 @@ from collections import defaultdict
 import pandas as pd
 import numpy as np
 import re
+from helpers import get_battlerite_type_mapping, get_battlerite_color_mapping
 
 with open('assets/gameplay.json', 'rb') as gplay:
     gplay = gplay.read()
@@ -54,7 +55,7 @@ def averager(rounds, col):
 for col in sum_cols:
     main_df["sum_" + col] = main_df.apply(lambda x: summer(x['round_lookup'], col), axis=1)
     main_df["mean_" + col] = main_df.apply(lambda x: averager(x['round_lookup'], col), axis=1)
-    print('Procession match data for column={}'.format(col))
+    print('Processing match data for column={}'.format(col))
 
 agg_cols = ['{}_{}'.format(y, x) for x in sum_cols for y in ['sum', 'mean']]
 agg_cols.append('percent_alive')
@@ -78,10 +79,6 @@ for aggregation, entry in grouped.items():
 
 
 ### Rendering methods
-def get_hero_resource(hero_id, resource):
-    character_data = char_id_lookup[hero_id]
-    return locale_lookup[character_data[resource]]
-
 def hero_name(hero_id):
     return locale_lookup[char_id_lookup[hero_id]['name']]
 
@@ -107,6 +104,9 @@ def brite_description(battlerite_id):
     description = re.sub('{\d+}|{-}', '', description)
     return description.format(**vals)
 
+color_lookup = get_battlerite_color_mapping()
+type_lookup = get_battlerite_type_mapping()
+
 twos = defaultdict(lambda: [])
 threes = defaultdict(lambda: [])
 for character, modes in character_dict.items():
@@ -116,9 +116,14 @@ for character, modes in character_dict.items():
         else:
             cur_dict = twos
         for build, aggregations in builds.items():
-            b = {'skills': [{'name': brite_name(int(x)), 'icon': brite_icon(int(x)), 'description': brite_description(int(x))}
+            b = {'skills': [{'name': brite_name(int(x)),
+                             'icon': brite_icon(int(x)),
+                             'description': brite_description(int(x)),
+                             'color': color_lookup[int(x)],
+                             'type': type_lookup[int(x)]
+                             }
                             for x in build],
-                 'num': aggregations['num'],
+                 'num': int(aggregations['num']),
                  'winrate': int(float(aggregations['win_num']) / float(aggregations['num']) * 100)}
             cur_dict[character].append(b)
 

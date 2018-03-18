@@ -5,6 +5,9 @@ import json
 import pickle
 from collections import defaultdict
 import ntpath
+import re
+from bs4 import BeautifulSoup
+from collections import defaultdict
 
 def chunks(arr, n):
     """Yield successive n-sized chunks from l."""
@@ -54,3 +57,41 @@ def load_pickle(filename):
 def path_leaf(path):
     head, tail = ntpath.split(path)
     return tail or ntpath.basename(head)
+
+'''Kinda manual method for getting color-scheme of character skills for now. Just run for all heros'''
+def bootstrap_character_colors(hero_name):
+    cont = requests.get('https://battlerite.gamepedia.com/{}/Battlerites'.format(hero_name.replace(' ', '_'))).text
+    bs = BeautifulSoup(cont, "html.parser")
+    stuff = bs.find_all('div', {'class': 'battlerite'})
+    char_colors = []
+    for s in stuff:
+        title = s.find('div', {'class': 'battlerite--title'}).p.text
+        color_alt = s.find('div', {'class': 'battlerite--art'}).img['alt']
+        color = re.split('\s', color_alt)[-1].split('.')[0].lower()
+        char_colors.append({'title': title, 'color': color})
+    return char_colors
+
+battlerite_type_mapping = {1: {'color': 'red', 'type': 'offense'},
+                           2: {'color': 'yellow', 'type': 'mobility'},
+                           3: {'color': 'blue', 'type': 'utility'},
+                           4: {'color': 'green', 'type': 'survival'},
+                           5: {'color': 'pink', 'type': 'control'},
+                           6: {'color': 'teal', 'type': 'support'},
+                           7: {'color': 'grey', 'type': 'mixed'}}
+
+def get_battlerite_color_mapping():
+    with open('battlerites_type_mappings.json', 'r') as f:
+        defined_mappings = json.load(f)
+        color_mappings = defaultdict(lambda: battlerite_type_mapping[7]['color'])
+        for k, v in defined_mappings.items():
+            color_mappings[k] = battlerite_type_mapping[v]['color']
+        return color_mappings
+
+
+def get_battlerite_type_mapping():
+    with open('battlerites_type_mappings.json', 'r') as f:
+        defined_mappings = json.load(f)
+        type_mappings = defaultdict(lambda: battlerite_type_mapping[7]['type'])
+        for k, v in defined_mappings.items():
+            type_mappings[k] = battlerite_type_mapping[v]['type']
+        return type_mappings
