@@ -18,8 +18,8 @@ def mkdir_path(path):
 def get_cached_telemetry(telemetry_url):
     telem_path = to_cache_dir(extract_telem_path(telemetry_url))
     if os.path.exists(telem_path):
-        with open(telem_path, 'rb', encoding='utf-8') as f:
-            return json.loads(f.read())
+        with open(telem_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
     else:
         return None
 
