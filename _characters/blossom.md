@@ -1,7 +1,7 @@
 ---
 builds:
   threes:
-  - num: 23
+  - num: 24
     skills:
     - description: Whenever Tree of Life is healed by Nourish, nearby allies are healed
         for the same amount.
@@ -21,8 +21,8 @@ builds:
         output by 40 for 1.5.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
-    winrate: 39
-  - num: 17
+    winrate: 41
+  - num: 15
     skills:
     - description: Increases Tree of Life health by 10.
       icon: 493cac6f13fb41849aaf95ed03fbb488
@@ -40,7 +40,7 @@ builds:
         output by 40 for 1.5.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
-    winrate: 47
+    winrate: 53
   - num: 9
     skills:
     - description: Whenever Tree of Life is healed by Nourish, nearby allies are healed
@@ -94,16 +94,16 @@ builds:
     - description: Hop can be recast for a Lesser Hop that travels a shorter distance.
       icon: 36048e053d179474491aa317959b3eb7
       name: Hop and Skip!
-    - description: Reduces your weapon charge cooldown by 30.
-      icon: e0ead374bbde24c44a10cc34294a6e44
-      name: Nature's Cycle
+    - description: Boom Bloom hits charge your weapon by 50.
+      icon: 4832a1022ed764241a63b8dacc299ee9
+      name: Spring Growth
     - description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
         output by 40 for 1.5.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
-    winrate: 28
+    winrate: 42
   twos:
-  - num: 94
+  - num: 98
     skills:
     - description: Increases Tree of Life health by 10.
       icon: 493cac6f13fb41849aaf95ed03fbb488
@@ -121,8 +121,8 @@ builds:
         output by 40 for 1.5.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
-    winrate: 55
-  - num: 52
+    winrate: 50
+  - num: 49
     skills:
     - description: Increases Hop invisibility duration by 1.
       icon: 36048e053d179474491aa317959b3eb7
@@ -141,8 +141,8 @@ builds:
         output by 40 for 1.5.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
-    winrate: 38
-  - num: 40
+    winrate: 44
+  - num: 31
     skills:
     - description: Hop causes you to leave behind a Lesser Boom Bloom seed. After
         1.1, the seed inflicts Stun for 0.8 on nearby enemies.
@@ -161,8 +161,8 @@ builds:
         output by 40 for 1.5.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
-    winrate: 70
-  - num: 20
+    winrate: 67
+  - num: 21
     skills:
     - description: Increases Tree of Life health by 10.
       icon: 493cac6f13fb41849aaf95ed03fbb488
@@ -181,8 +181,8 @@ builds:
         output by 40 for 1.5.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
-    winrate: 45
-  - num: 19
+    winrate: 47
+  - num: 16
     skills:
     - description: Hop can be recast for a Lesser Hop that travels a shorter distance.
       icon: 36048e053d179474491aa317959b3eb7
@@ -201,14 +201,14 @@ builds:
         output by 40 for 1.5.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
-    winrate: 63
+    winrate: 68
 description: Blossom is a happy, bubbly young faun from the Silverdeep Forest. She
   has left her home to investigate a disturbance in the natural order. She is never
   far from her bird companion, Maxwell.
 icon: 6f50396e26efe6c4bbad274e2c90b8a4
 layout: character
 name: blossom
-num: 479
+num: 460
 title: Blossom
 url: characters/blossom.html
 winrate: 49

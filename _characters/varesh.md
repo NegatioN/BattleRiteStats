@@ -1,28 +1,7 @@
 ---
 builds:
   threes:
-  - num: 16
-    skills:
-    - description: Inhibitor's Guard increases movement speed by 25 and damage output
-        by 15.
-      icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Celerity
-    - description: Hand of Judgement deals 4 bonus damage and hitting an enemy resets
-        its cooldown.
-      icon: c2525970f8ab5574191da4938fa5619b
-      name: Devastation
-    - description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
-      icon: 2771f14010b802143b0b4d5fc8e4bb9c
-      name: Ruin
-    - description: Consuming Judgement with Shatter increases Silence duration from
-        0.5 to 1.
-      icon: c2525970f8ab5574191da4938fa5619b
-      name: Silence
-    - description: Inhibitor's Guard absorbs 14 more damage.
-      icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Wonder
-    winrate: 68
-  - num: 9
+  - num: 12
     skills:
     - description: Inhibitor's Guard increases movement speed by 25 and damage output
         by 15.
@@ -42,13 +21,17 @@ builds:
         0.5 to 1.
       icon: c2525970f8ab5574191da4938fa5619b
       name: Silence
-    winrate: 55
+    winrate: 50
   - num: 6
     skills:
-    - description: Increases energy gain from abilities by 10 and maximum energy by
-        25.
-      icon: 61e058b8f4b79f4419ec1496f223ee36
-      name: Inspiration
+    - description: Inhibitor's Guard increases movement speed by 25 and damage output
+        by 15.
+      icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Celerity
+    - description: Hand of Judgement deals 4 bonus damage and hitting an enemy resets
+        its cooldown.
+      icon: c2525970f8ab5574191da4938fa5619b
+      name: Devastation
     - description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
       icon: 2771f14010b802143b0b4d5fc8e4bb9c
       name: Ruin
@@ -56,15 +39,29 @@ builds:
         0.5 to 1.
       icon: c2525970f8ab5574191da4938fa5619b
       name: Silence
-    - description: While both Corruption and Judgement are active on an enemy, their
-        factors are increased by 5 and both effects are reapplied by Hand of Corruption
-        / Judgement when hitting that enemy.
-      icon: fe5369baf5a80dc47b0656ae7be82e09
-      name: Synergy
     - description: Inhibitor's Guard absorbs 14 more damage.
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
-    winrate: 33
+    winrate: 66
+  - num: 5
+    skills:
+    - description: Powers Combined repeats itself 1 extra time.
+      icon: af1b0c6a44fc0a34694eafc090cd68ee
+      name: Absolute Power
+    - description: Shatter can be cast while moving at 75 speed.
+      icon: d6c97da35fc19134881cb5a4c44e3912
+      name: Inhibitor
+    - description: Increases energy gain from abilities by 10 and maximum energy by
+        25.
+      icon: 61e058b8f4b79f4419ec1496f223ee36
+      name: Inspiration
+    - description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
+      icon: 2771f14010b802143b0b4d5fc8e4bb9c
+      name: Ruin
+    - description: Inhibitor's Guard absorbs 14 more damage.
+      icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Wonder
+    winrate: 60
   - num: 5
     skills:
     - description: Inhibitor's Guard increases movement speed by 25 and damage output
@@ -89,25 +86,26 @@ builds:
     winrate: 60
   - num: 5
     skills:
-    - description: Powers Combined repeats itself 1 extra time.
-      icon: af1b0c6a44fc0a34694eafc090cd68ee
-      name: Absolute Power
+    - description: Inhibitor's Guard increases movement speed by 25 and damage output
+        by 15.
+      icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Celerity
+    - description: Hand of Judgement deals 4 bonus damage and hitting an enemy resets
+        its cooldown.
+      icon: c2525970f8ab5574191da4938fa5619b
+      name: Devastation
     - description: Shatter can be cast while moving at 75 speed.
       icon: d6c97da35fc19134881cb5a4c44e3912
       name: Inhibitor
-    - description: Increases energy gain from abilities by 10 and maximum energy by
-        25.
-      icon: 61e058b8f4b79f4419ec1496f223ee36
-      name: Inspiration
     - description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
       icon: 2771f14010b802143b0b4d5fc8e4bb9c
       name: Ruin
     - description: Inhibitor's Guard absorbs 14 more damage.
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
-    winrate: 60
+    winrate: 40
   twos:
-  - num: 25
+  - num: 17
     skills:
     - description: Inhibitor's Guard increases movement speed by 25 and damage output
         by 15.
@@ -129,7 +127,7 @@ builds:
         each Corruption consumed.
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Zeal
-    winrate: 48
+    winrate: 47
   - num: 13
     skills:
     - description: Inhibitor's Guard increases movement speed by 25 and damage output
@@ -152,7 +150,28 @@ builds:
       icon: fe5369baf5a80dc47b0656ae7be82e09
       name: Synergy
     winrate: 100
-  - num: 6
+  - num: 9
+    skills:
+    - description: Inhibitor's Guard increases movement speed by 25 and damage output
+        by 15.
+      icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Celerity
+    - description: Shatter can be cast while moving at 75 speed.
+      icon: d6c97da35fc19134881cb5a4c44e3912
+      name: Inhibitor
+    - description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
+      icon: 2771f14010b802143b0b4d5fc8e4bb9c
+      name: Ruin
+    - description: Consuming Judgement with Shatter increases Silence duration from
+        0.5 to 1.
+      icon: c2525970f8ab5574191da4938fa5619b
+      name: Silence
+    - description: Consuming Corruption with Shatter increases Fading Snare duration
+        from 1 to 1.5 and reapplies Corruption.
+      icon: fe5369baf5a80dc47b0656ae7be82e09
+      name: Unlimited Power
+    winrate: 22
+  - num: 7
     skills:
     - description: Inhibitor's Guard increases movement speed by 25 and damage output
         by 15.
@@ -171,7 +190,7 @@ builds:
     - description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
       icon: 2771f14010b802143b0b4d5fc8e4bb9c
       name: Ruin
-    winrate: 66
+    winrate: 71
   - num: 6
     skills:
     - description: Powers Combined repeats itself 1 extra time.
@@ -192,36 +211,14 @@ builds:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
     winrate: 83
-  - num: 4
-    skills:
-    - description: Inhibitor's Guard increases movement speed by 25 and damage output
-        by 15.
-      icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Celerity
-    - description: Each Corruption or Judgement consumed by Shatter reduces Inhibitors
-        Guard cooldown by 2.
-      icon: d6c97da35fc19134881cb5a4c44e3912
-      name: Law Bender
-    - description: Consuming Judgement with Shatter increases Silence duration from
-        0.5 to 1.
-      icon: c2525970f8ab5574191da4938fa5619b
-      name: Silence
-    - description: Consuming Corruption with Shatter increases Fading Snare duration
-        from 1 to 1.5 and reapplies Corruption.
-      icon: fe5369baf5a80dc47b0656ae7be82e09
-      name: Unlimited Power
-    - description: Inhibitor's Guard absorbs 14 more damage.
-      icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Wonder
-    winrate: 100
 description: A being formed by the energies of others. Varesh uses his power  to weaken
   and disrupt his enemies. By combining his powers he is able to unleash devastating
   attacks.
 icon: f1cc53a29c58089478f6438589d9b32d
 layout: character
 name: varesh
-num: 245
+num: 248
 title: Varesh
 url: characters/varesh.html
-winrate: 59
+winrate: 56
 ...
