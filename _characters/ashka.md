@@ -1,231 +1,327 @@
 ---
 builds:
   threes:
-  - num: 43
+  - num: 44
     skills:
-    - description: Searing Flight increases movement speed by 30 for 2.
+    - color: yellow
+      description: Searing Flight increases movement speed by 30 for 2.
       icon: de69286ec8d6c934c9b04c51d1814b5c
       name: Burning Feet
-    - description: Fireballs traveling through Firewall turn into Fire Storm bolts.
+      type: mobility
+    - color: red
+      description: Fireballs traveling through Firewall turn into Fire Storm bolts.
       icon: c6d71f7b4598ec14cab637f6d9ffce64
       name: Conflagration
-    - description: Fire Storm can be cast while moving at 50 movement speed and 30
+      type: offense
+    - color: yellow
+      description: Fire Storm can be cast while moving at 50 movement speed and 30
         while channeling.
       icon: 117c35c7f757858428a733d8da4982be
       name: Heat
-    - description: Increases energy gain from abilities by 10 and maximum energy by
+      type: mobility
+    - color: blue
+      description: Increases energy gain from abilities by 10 and maximum energy by
         25.
       icon: 61e058b8f4b79f4419ec1496f223ee36
       name: Inspiration
-    - description: Ignite deals 2 bonus damage when first applied and reduces target's
+      type: utility
+    - color: red
+      description: Ignite deals 2 bonus damage when first applied and reduces target's
         movement speed by 10.
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
-    winrate: 53
-  - num: 37
+      type: offense
+    winrate: 52
+  - num: 21
     skills:
-    - description: Searing Flight increases movement speed by 30 for 2.
+    - color: yellow
+      description: Searing Flight increases movement speed by 30 for 2.
       icon: de69286ec8d6c934c9b04c51d1814b5c
       name: Burning Feet
-    - description: Fire Storm hits deal 2 bonus damage and spread fire to other nearby
+      type: mobility
+    - color: red
+      description: Fire Storm hits deal 2 bonus damage and spread fire to other nearby
         enemies, dealing 8 damage and inflicting Ignite.
       icon: 117c35c7f757858428a733d8da4982be
       name: Combustion
-    - description: Fire Storm can be cast while moving at 50 movement speed and 30
+      type: offense
+    - color: yellow
+      description: Fire Storm can be cast while moving at 50 movement speed and 30
         while channeling.
       icon: 117c35c7f757858428a733d8da4982be
       name: Heat
-    - description: Flamestrike deals 10 bonus damage and inflicts Ignite.
+      type: mobility
+    - color: red
+      description: Flamestrike deals 10 bonus damage and inflicts Ignite.
       icon: 48122c1a1a8cae7408409c90126f11cb
       name: Inferno
-    - description: Ignite deals 2 bonus damage when first applied and reduces target's
+      type: offense
+    - color: red
+      description: Ignite deals 2 bonus damage when first applied and reduces target's
         movement speed by 10.
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
-    winrate: 51
+      type: offense
+    winrate: 52
+  - num: 17
+    skills:
+    - color: red
+      description: Fire Storm hits deal 2 bonus damage and spread fire to other nearby
+        enemies, dealing 8 damage and inflicting Ignite.
+      icon: 117c35c7f757858428a733d8da4982be
+      name: Combustion
+      type: offense
+    - color: red
+      description: Fireballs traveling through Firewall turn into Fire Storm bolts.
+      icon: c6d71f7b4598ec14cab637f6d9ffce64
+      name: Conflagration
+      type: offense
+    - color: yellow
+      description: Fire Storm can be cast while moving at 50 movement speed and 30
+        while channeling.
+      icon: 117c35c7f757858428a733d8da4982be
+      name: Heat
+      type: mobility
+    - color: red
+      description: Flamestrike deals 10 bonus damage and inflicts Ignite.
+      icon: 48122c1a1a8cae7408409c90126f11cb
+      name: Inferno
+      type: offense
+    - color: red
+      description: Ignite deals 2 bonus damage when first applied and reduces target's
+        movement speed by 10.
+      icon: 7612ba34ea3cdf9429a033d92e85c117
+      name: Magma
+      type: offense
+    winrate: 64
   - num: 13
     skills:
-    - description: Fire Storm hits deal 2 bonus damage and spread fire to other nearby
+    - color: red
+      description: Fire Storm hits deal 2 bonus damage and spread fire to other nearby
         enemies, dealing 8 damage and inflicting Ignite.
       icon: 117c35c7f757858428a733d8da4982be
       name: Combustion
-    - description: Fireballs traveling through Firewall turn into Fire Storm bolts.
-      icon: c6d71f7b4598ec14cab637f6d9ffce64
-      name: Conflagration
-    - description: Fire Storm can be cast while moving at 50 movement speed and 30
-        while channeling.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Heat
-    - description: Flamestrike deals 10 bonus damage and inflicts Ignite.
-      icon: 48122c1a1a8cae7408409c90126f11cb
-      name: Inferno
-    - description: Ignite deals 2 bonus damage when first applied and reduces target's
-        movement speed by 10.
-      icon: 7612ba34ea3cdf9429a033d92e85c117
-      name: Magma
-    winrate: 61
-  - num: 12
-    skills:
-    - description: Searing Flight grants a Shield. It absorbs up to 15 damage for
-        3.
-      icon: de69286ec8d6c934c9b04c51d1814b5c
-      name: Fire Ward
-    - description: Fire Storm can be cast while moving at 50 movement speed and 30
-        while channeling.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Heat
-    - description: Increases energy gain from abilities by 10 and maximum energy by
-        25.
-      icon: 61e058b8f4b79f4419ec1496f223ee36
-      name: Inspiration
-    - description: Ignite deals 2 bonus damage when first applied and reduces target's
-        movement speed by 10.
-      icon: 7612ba34ea3cdf9429a033d92e85c117
-      name: Magma
-    - description: Fire Storm launches 1 additional projectile but increases its cooldown
-        by 0.5.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Wildfire
-    winrate: 33
-  - num: 9
-    skills:
-    - description: Fire Storm hits deal 2 bonus damage and spread fire to other nearby
-        enemies, dealing 8 damage and inflicting Ignite.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Combustion
-    - description: Increases Flamestrike radius by 15 and reduces cooldown by 1.
+      type: offense
+    - color: grey
+      description: Increases Flamestrike radius by 15 and reduces cooldown by 1.
       icon: 48122c1a1a8cae7408409c90126f11cb
       name: Eruption
-    - description: Fire Storm can be cast while moving at 50 movement speed and 30
+      type: mixed
+    - color: yellow
+      description: Fire Storm can be cast while moving at 50 movement speed and 30
         while channeling.
       icon: 117c35c7f757858428a733d8da4982be
       name: Heat
-    - description: Flamestrike deals 10 bonus damage and inflicts Ignite.
+      type: mobility
+    - color: red
+      description: Flamestrike deals 10 bonus damage and inflicts Ignite.
       icon: 48122c1a1a8cae7408409c90126f11cb
       name: Inferno
-    - description: Ignite deals 2 bonus damage when first applied and reduces target's
+      type: offense
+    - color: red
+      description: Ignite deals 2 bonus damage when first applied and reduces target's
         movement speed by 10.
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
-    winrate: 33
-  twos:
-  - num: 18
+      type: offense
+    winrate: 46
+  - num: 13
     skills:
-    - description: Searing Flight increases movement speed by 30 for 2.
+    - color: yellow
+      description: Searing Flight increases movement speed by 30 for 2.
       icon: de69286ec8d6c934c9b04c51d1814b5c
       name: Burning Feet
-    - description: Fireballs traveling through Firewall turn into Fire Storm bolts.
+      type: mobility
+    - color: red
+      description: Fireballs traveling through Firewall turn into Fire Storm bolts.
       icon: c6d71f7b4598ec14cab637f6d9ffce64
       name: Conflagration
-    - description: Fire Storm can be cast while moving at 50 movement speed and 30
+      type: offense
+    - color: yellow
+      description: Fire Storm can be cast while moving at 50 movement speed and 30
         while channeling.
       icon: 117c35c7f757858428a733d8da4982be
       name: Heat
-    - description: Increases energy gain from abilities by 10 and maximum energy by
+      type: mobility
+    - color: red
+      description: Flamestrike deals 10 bonus damage and inflicts Ignite.
+      icon: 48122c1a1a8cae7408409c90126f11cb
+      name: Inferno
+      type: offense
+    - color: red
+      description: Ignite deals 2 bonus damage when first applied and reduces target's
+        movement speed by 10.
+      icon: 7612ba34ea3cdf9429a033d92e85c117
+      name: Magma
+      type: offense
+    winrate: 46
+  twos:
+  - num: 24
+    skills:
+    - color: yellow
+      description: Searing Flight increases movement speed by 30 for 2.
+      icon: de69286ec8d6c934c9b04c51d1814b5c
+      name: Burning Feet
+      type: mobility
+    - color: red
+      description: Fireballs traveling through Firewall turn into Fire Storm bolts.
+      icon: c6d71f7b4598ec14cab637f6d9ffce64
+      name: Conflagration
+      type: offense
+    - color: yellow
+      description: Fire Storm can be cast while moving at 50 movement speed and 30
+        while channeling.
+      icon: 117c35c7f757858428a733d8da4982be
+      name: Heat
+      type: mobility
+    - color: blue
+      description: Increases energy gain from abilities by 10 and maximum energy by
         25.
       icon: 61e058b8f4b79f4419ec1496f223ee36
       name: Inspiration
-    - description: Ignite deals 2 bonus damage when first applied and reduces target's
+      type: utility
+    - color: red
+      description: Ignite deals 2 bonus damage when first applied and reduces target's
         movement speed by 10.
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
-    winrate: 61
-  - num: 10
-    skills:
-    - description: Searing Flight causes your next Fireball to deal 2 bonus damage
-        and inflict Ignite.
-      icon: de69286ec8d6c934c9b04c51d1814b5c
-      name: Blaze
-    - description: Searing Flight increases movement speed by 30 for 2.
-      icon: de69286ec8d6c934c9b04c51d1814b5c
-      name: Burning Feet
-    - description: Fireballs traveling through Firewall turn into Fire Storm bolts.
-      icon: c6d71f7b4598ec14cab637f6d9ffce64
-      name: Conflagration
-    - description: Fire Storm can be cast while moving at 50 movement speed and 30
-        while channeling.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Heat
-    - description: Ignite deals 2 bonus damage when first applied and reduces target's
-        movement speed by 10.
-      icon: 7612ba34ea3cdf9429a033d92e85c117
-      name: Magma
+      type: offense
     winrate: 50
-  - num: 9
+  - num: 8
     skills:
-    - description: Searing Flight causes your next Fireball to deal 2 bonus damage
+    - color: red
+      description: Searing Flight causes your next Fireball to deal 2 bonus damage
         and inflict Ignite.
       icon: de69286ec8d6c934c9b04c51d1814b5c
       name: Blaze
-    - description: Molten Fist travel distance increases by 50 and knockback force
+      type: offense
+    - color: grey
+      description: Molten Fist travel distance increases by 50 and knockback force
         increases by 25.
       icon: 64ae838604146444aac3474b78250f52
       name: Fire Punch
-    - description: Searing Flight grants a Shield. It absorbs up to 15 damage for
+      type: mixed
+    - color: green
+      description: Searing Flight grants a Shield. It absorbs up to 15 damage for
         3.
       icon: de69286ec8d6c934c9b04c51d1814b5c
       name: Fire Ward
-    - description: Fire Storm can be cast while moving at 50 movement speed and 30
+      type: survival
+    - color: yellow
+      description: Fire Storm can be cast while moving at 50 movement speed and 30
         while channeling.
       icon: 117c35c7f757858428a733d8da4982be
       name: Heat
-    - description: Knocking an enemy into a wall using Molten Fist inflicts Stun for
+      type: mobility
+    - color: pink
+      description: Knocking an enemy into a wall using Molten Fist inflicts Stun for
         1.2.
       icon: 64ae838604146444aac3474b78250f52
       name: Knockout
-    winrate: 22
-  - num: 5
+      type: control
+    winrate: 12
+  - num: 7
     skills:
-    - description: Searing Flight causes your next Fireball to deal 2 bonus damage
+    - color: red
+      description: Searing Flight causes your next Fireball to deal 2 bonus damage
         and inflict Ignite.
       icon: de69286ec8d6c934c9b04c51d1814b5c
       name: Blaze
-    - description: Fire Storm hits deal 2 bonus damage and spread fire to other nearby
-        enemies, dealing 8 damage and inflicting Ignite.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Combustion
-    - description: Fire Storm can be cast while moving at 50 movement speed and 30
+      type: offense
+    - color: yellow
+      description: Searing Flight increases movement speed by 30 for 2.
+      icon: de69286ec8d6c934c9b04c51d1814b5c
+      name: Burning Feet
+      type: mobility
+    - color: red
+      description: Fireballs traveling through Firewall turn into Fire Storm bolts.
+      icon: c6d71f7b4598ec14cab637f6d9ffce64
+      name: Conflagration
+      type: offense
+    - color: yellow
+      description: Fire Storm can be cast while moving at 50 movement speed and 30
         while channeling.
       icon: 117c35c7f757858428a733d8da4982be
       name: Heat
-    - description: Increases energy gain from abilities by 10 and maximum energy by
+      type: mobility
+    - color: red
+      description: Ignite deals 2 bonus damage when first applied and reduces target's
+        movement speed by 10.
+      icon: 7612ba34ea3cdf9429a033d92e85c117
+      name: Magma
+      type: offense
+    winrate: 42
+  - num: 5
+    skills:
+    - color: red
+      description: Searing Flight causes your next Fireball to deal 2 bonus damage
+        and inflict Ignite.
+      icon: de69286ec8d6c934c9b04c51d1814b5c
+      name: Blaze
+      type: offense
+    - color: red
+      description: Fireballs traveling through Firewall turn into Fire Storm bolts.
+      icon: c6d71f7b4598ec14cab637f6d9ffce64
+      name: Conflagration
+      type: offense
+    - color: yellow
+      description: Fire Storm can be cast while moving at 50 movement speed and 30
+        while channeling.
+      icon: 117c35c7f757858428a733d8da4982be
+      name: Heat
+      type: mobility
+    - color: blue
+      description: Increases energy gain from abilities by 10 and maximum energy by
         25.
       icon: 61e058b8f4b79f4419ec1496f223ee36
       name: Inspiration
-    - description: Ignite deals 2 bonus damage when first applied and reduces target's
+      type: utility
+    - color: red
+      description: Ignite deals 2 bonus damage when first applied and reduces target's
         movement speed by 10.
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
-    winrate: 80
-  - num: 5
+      type: offense
+    winrate: 60
+  - num: 4
     skills:
-    - description: Flamestrike heals you for 75 of damage dealt.
+    - color: green
+      description: Flamestrike heals you for 75 of damage dealt.
       icon: 48122c1a1a8cae7408409c90126f11cb
       name: Ember Fire
-    - description: Searing Flight grants a Shield. It absorbs up to 15 damage for
+      type: survival
+    - color: green
+      description: Searing Flight grants a Shield. It absorbs up to 15 damage for
         3.
       icon: de69286ec8d6c934c9b04c51d1814b5c
       name: Fire Ward
-    - description: Fire Storm can be cast while moving at 50 movement speed and 30
+      type: survival
+    - color: yellow
+      description: Fire Storm can be cast while moving at 50 movement speed and 30
         while channeling.
       icon: 117c35c7f757858428a733d8da4982be
       name: Heat
-    - description: Flamestrike deals 10 bonus damage and inflicts Ignite.
+      type: mobility
+    - color: red
+      description: Flamestrike deals 10 bonus damage and inflicts Ignite.
       icon: 48122c1a1a8cae7408409c90126f11cb
       name: Inferno
-    - description: Ignite deals 2 bonus damage when first applied and reduces target's
+      type: offense
+    - color: red
+      description: Ignite deals 2 bonus damage when first applied and reduces target's
         movement speed by 10.
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
-    winrate: 40
+      type: offense
+    winrate: 25
 description: A masked creature specialized in dark sorcery and pyro-kinetic powers.
   Casts devastating fire spells on his opponents and avoids close combat. Don't be
   fooled by his size, Ashka's inner demon strikes fear into all who face him.
 icon: 02fbe1fea9e22054a9ab1b0c5007dbae
 layout: character
 name: ashka
-num: 329
+num: 326
 title: Ashka
 url: characters/ashka.html
-winrate: 44
+winrate: 45
 ...
