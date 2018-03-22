@@ -8,7 +8,7 @@ from ratelimiter import RateLimiter
 from datetime import timedelta, datetime
 from copy import deepcopy
 
-from helpers import chunks, get_content,  get_telemtry, get_user_ids
+from helpers import get_user_ids
 from telem_cache import cache_telemetry, get_cached_telemetry, clean_cache
 from collections import defaultdict
 from furrycorn.location import mk_origin, mk_path, mk_query, to_url
@@ -37,23 +37,6 @@ else:
 
 print('Getting matches from {} to now'.format(created_after_date))
 
-
-def get_match_info(player_id, offset=0, ranked=True):
-    query_params = {'filter[playerIds]': quote(player_id), 'page[offset]': offset, 'filter[createdAt-start]': created_after_date}
-    if ranked:
-        query_params['filter[rankingType]'] = 'RANKED'
-        query_params['filter[serverType]'] = 'QUICK2V2,QUICK3v3'
-    url = to_url(origin, mk_path('/matches'), mk_query(query_params))
-    return get_telemtry(url, headers)
-
-def get_player(player_names):
-    if type(player_names) != list:
-        player_names = [player_names]
-    player_names = list(map(lambda n: quote(n), player_names))
-    url = to_url(origin, mk_path('/players'), mk_query({'filter[playerNames]': player_names}))
-    with rate_limiter:
-        return get_content(url, headers)
-
 main_df = pd.DataFrame(columns=['matchid', 'userid', 'character', 'build', 'matchMode'])
 match_df = pd.DataFrame(columns=['matchid', 'round_num', 'round_duration', 'userid', 'team',
                                  'kills', 'score', 'deaths', 'damage', 'healing', 'disable',
@@ -61,12 +44,6 @@ match_df = pd.DataFrame(columns=['matchid', 'round_num', 'round_duration', 'user
                                  'disable_taken', 'wonFlag', 'time_alive'])
 base_collector_dict = {x: [] for x in main_df.columns}
 base_match_collector_dict = {x: [] for x in match_df.columns}
-
-def get_player_ids(player_names):
-    p_data = []
-    for c in chunks(player_names, 5):
-        p_data.append(get_player(c))
-    return [y['id'] for x in p_data for y in x]
 
 def find_match_type(telemetry_entry):
     for cursor in telemetry_entry:
@@ -148,24 +125,35 @@ def parse_round_statistics(telem_entry):
     return pd.DataFrame.from_dict(data=collector_dict)[match_df.columns]
 
 
-def get_player_telemetry(player_id, max_count=20):
-    count, step = 0, 5
-    telemetry_links = []
-    while count < max_count:
-        with rate_limiter:
-            try:
-                t_links = get_match_info(player_id, offset=step * count)
-                if len(t_links) > 0:
-                    telemetry_links.append(t_links)
-                    count += 1
-                else:
-                    print('Most likely no more pages of matches which meet requirements for player={}'.format(player_id))
-                    break
-            except:
-                print('Most likely no more pages of matches which meet requirements for player={}'.format(player_id))
-                break
+def construct_url(player_id, ranked=True):
+    query_params = {'filter[playerIds]': quote(player_id), 'filter[createdAt-start]': created_after_date}
+    if ranked:
+        query_params['filter[rankingType]'] = 'RANKED'
+        query_params['filter[serverType]'] = 'QUICK2V2,QUICK3v3'
+    return to_url(origin, mk_path('/matches'), mk_query(query_params))
 
-    telemetry_links = [y for x in telemetry_links for y in x]
+def parse_list_node(all_data_nodes, typ):
+    return set([y['id'] for x in all_data_nodes for y in x['relationships'][typ]['data']])
+
+def get_player_telemetry(player_id):
+    telemetry_links = set()
+    url = construct_url(player_id)
+    while url:
+        with rate_limiter:
+            response = requests.get(url, headers=headers)
+            if response.status_code == 200:
+                content = json.loads(response.content.decode('utf-8'))
+                all_data_nodes = content['data']
+                match_ids = parse_list_node(all_data_nodes, 'assets')
+
+                for node in content['included']:
+                    if 'id' in node and node['id'] in match_ids:
+                        telemetry_links.add(node['attributes']['URL'])
+
+                url = content['links']['next'] if 'next' in content['links'] else None
+            else:
+                url = None
+
     print('found {} matches for player={}'.format(len(telemetry_links), player_id))
     return telemetry_links
 

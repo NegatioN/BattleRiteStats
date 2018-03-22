@@ -10,37 +10,12 @@ from collections import defaultdict
 import numpy as np
 from ratelimiter import RateLimiter
 
-def chunks(arr, n):
-    """Yield successive n-sized chunks from l."""
-    for i in range(0, len(arr), n):
-            yield arr[i:i + n]
-
-
 def get_content(url, headers):
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
         return json.loads(response.content.decode('utf-8'))['data']
     else:
         return []
-
-def parse_list_node(all_data_nodes, typ):
-    return set([y['id'] for x in all_data_nodes for y in x['relationships'][typ]['data']])
-
-def get_telemtry(url, headers):
-    response = requests.get(url, headers=headers)
-    telemetry_urls = set()
-    if response.status_code == 200:
-        content = json.loads(response.content.decode('utf-8'))
-        all_data_nodes = content['data']
-        match_ids = parse_list_node(all_data_nodes, 'assets')
-
-        for node in content['included']:
-            if 'id' in node and node['id'] in match_ids:
-                telemetry_urls.add(node['attributes']['URL'])
-
-        return telemetry_urls
-    else:
-        return set()
 
 def default_to_regular(d):
     if isinstance(d, defaultdict):
@@ -99,21 +74,31 @@ def get_battlerite_type_mapping():
 
 
 def get_user_ids():
+    query_url = 'https://battlerite-stats.com/leaderboards'
     ids = []
     offset = 0
+    session = requests.Session()
+    resp = session.get(query_url)
+    session_cookies = session.cookies.get_dict()
+    bs = BeautifulSoup(resp.content, "html.parser")
+    csrf_token = bs.find('meta', {'name': 'csrf-token'})['content']
+    cookies = 'theme={theme}; lang={lang}; XSRF-TOKEN={XSRF-TOKEN}; laravel_session={laravel_session}'.format(**session_cookies)
+    headers = {'X-CSRF-TOKEN': csrf_token,
+               'Cookie': cookies}
+
     only_grand_champions = True
     rate_limiter = RateLimiter(max_calls=5, period=60)
     while only_grand_champions:
         with rate_limiter:
-            content = requests.get('https://masterbattlerite.com/leaderboards/data?offset={}'.format(offset)).text
-            cur_div, cur_ids = [], []
-            for e in json.loads(content)['entries']:
-                bs = BeautifulSoup(e, "html.parser")
-                cur_div.append(int(bs.find('span', {'class': 'badge-league'})['data-division']))
-                cur_ids.append(bs.find('a', {'class': 'table-row-link'})['href'].replace('/profile/', ''))
-            only_grand_champions = np.all(np.array(cur_div) == 1)
+            response = requests.post(query_url, headers=headers, data={'id': offset})
+            bs = BeautifulSoup(json.loads(response.content)['blocks'], "html.parser")
+            cur_ids = [x['href'].replace('https://battlerite-stats.com/profile/', '')
+                       for x in bs.find_all('a', {'class': 'table-row-link'})]
+            divisions = bs.find_all('div', {'class': 'league-name'})
+
+            only_grand_champions = np.all([True if x.text in ['Grand Champion', 'Champion League'] else False
+                                           for x in divisions])
             offset += 50
             ids.extend(cur_ids)
-
 
     return ids
