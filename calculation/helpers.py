@@ -3,11 +3,12 @@
 import requests
 import json
 import pickle
-from collections import defaultdict
 import ntpath
 import re
 from bs4 import BeautifulSoup
 from collections import defaultdict
+import numpy as np
+from ratelimiter import RateLimiter
 
 def chunks(arr, n):
     """Yield successive n-sized chunks from l."""
@@ -95,3 +96,24 @@ def get_battlerite_type_mapping():
         for k, v in defined_mappings.items():
             type_mappings[k] = battlerite_type_mapping[v]['type']
         return type_mappings
+
+
+def get_user_ids():
+    ids = []
+    offset = 0
+    only_grand_champions = True
+    rate_limiter = RateLimiter(max_calls=5, period=60)
+    while only_grand_champions:
+        with rate_limiter:
+            content = requests.get('https://masterbattlerite.com/leaderboards/data?offset={}'.format(offset)).text
+            cur_div, cur_ids = [], []
+            for e in json.loads(content)['entries']:
+                bs = BeautifulSoup(e, "html.parser")
+                cur_div.append(int(bs.find('span', {'class': 'badge-league'})['data-division']))
+                cur_ids.append(bs.find('a', {'class': 'table-row-link'})['href'].replace('/profile/', ''))
+            only_grand_champions = np.all(np.array(cur_div) == 1)
+            offset += 50
+            ids.extend(cur_ids)
+
+
+    return ids

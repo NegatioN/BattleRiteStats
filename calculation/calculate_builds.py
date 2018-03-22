@@ -3,12 +3,12 @@
 import requests
 from urllib.parse import quote
 import json
+import os
 from ratelimiter import RateLimiter
 from datetime import timedelta, datetime
-import os
 from copy import deepcopy
 
-from helpers import chunks, get_content,  get_telemtry
+from helpers import chunks, get_content,  get_telemtry, get_user_ids
 from telem_cache import cache_telemetry, get_cached_telemetry, clean_cache
 from collections import defaultdict
 from furrycorn.location import mk_origin, mk_path, mk_query, to_url
@@ -187,7 +187,8 @@ def get_telemetry_data(url):
 
 
 if __name__ == "__main__":
-    player_ids = {'1041', '779479758588243968', '776787878587011072', '132', '803650591871082496', '933', '3275', '786984970710310912', '821991447724175360', '885802503927644160', '1832', '781174824604164096', '289', '917233253176455168', '2106', '776043473915744256', '949654411112792064', '872272421724504064', '776122211131068416', '783003075697864704', '835837657555812352', '779862011638087680', '778293979656622080', '936282883222585344', '779117673312313344', '7854', '783445891691466752', '538', '778261434919424000', '777348984623730688', '825738634681528320', '778595379959717888', '131', '779528393816432640', '3511', '776666749549547520', '776450744541908992', '50', '804919733530013696', '777364499022876672', '3891', '948755982438277120', '2012', '927923317564911616', '776384000058068992', '776040988803207168', '783149438397984768', '777039017609924608', '778348927501082624', '781074452443181056'}
+    player_ids = get_user_ids()
+    print('Number of users to process: {}'.format(len(player_ids)))
     all_telemetries = set()
     #clean_cache(created_ad)
 
