@@ -12,7 +12,7 @@ having to figure out everything for themselves.
 
 ### How were these stats made?
 
-These statistics were made by looking at the replays from the last 7 days of the top 50 ranked solo players in Battlerite. 
+These statistics were made by looking at the replays from the last 7 days of all Champion and above ranked solo players in Battlerite. 
 
 
 
