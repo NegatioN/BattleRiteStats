@@ -362,6 +362,33 @@ td > div {
   padding: 0.5em 0.5em;
 }
 
+.build-wrapper {
+  margin: 3px 0px 0px 0px;
+  background: rgba(166, 166, 166, .2);
+  border-radius: 5px;
+  background: linear-gradient(to bottom, rgba(166, 166, 166, .2), rgba(166, 166, 166, .1));
+}
+
+.skill-parent {
+  vertical-align:top;
+}
+
+.statistics-parent {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.skill-element {
+  padding: 3px;
+  text-align: center;
+  font-size:0.7rem;
+}
+
+
+.statistics-element {
+  padding: 3px;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
