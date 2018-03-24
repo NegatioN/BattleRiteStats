@@ -4,7 +4,7 @@ layout: default
 
 <div class="character-container">
 <div class="characterdiv">
-    <img class="line" src="{{site.url}}/assets/img/{{ page.icon }}.png" />
+    <img class="line" alt="{{ page.title }} character portrait" src="{{site.url}}/assets/img/{{ page.icon }}.png" />
     <h1 class="line">{{ page.title }}</h1>
 </div>
 <p class="character-description">{{page.description}}</p>
@@ -20,7 +20,7 @@ layout: default
                 <div class="col-md-1"></div>
             {% for skill in build.skills %}
                 <div class="col-sm-1 col-md-2 skill-element" title="{{skill.name}} - {{skill.description}}">
-                    <img class="skill-{{skill.color}}" src="{{site.url}}/assets/img/{{skill.icon}}.png" />
+                    <img class="skill-{{skill.color}}" alt="{{skill.name}} icon" src="{{site.url}}/assets/img/{{skill.icon}}.png" />
                     <p>{{skill.name}}</p>
                 </div>
                 {% endfor %}
@@ -44,7 +44,7 @@ layout: default
                 <div class="col-md-1"></div>
                 {% for skill in build.skills %}
                 <div class="col-sm-1 col-md-2 skill-element" title="{{skill.name}} - {{skill.description}}">
-                    <img class="skill-{{skill.color}}" src="{{site.url}}/assets/img/{{skill.icon}}.png" />
+                    <img class="skill-{{skill.color}}" alt="{{skill.name}} icon" src="{{site.url}}/assets/img/{{skill.icon}}.png" />
                     <p>{{skill.name}}</p>
                 </div>
                 {% endfor %}
