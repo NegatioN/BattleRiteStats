@@ -360,6 +360,7 @@ td > div {
 .character-container {
   box-shadow: 0 0 0 0.08rem lightgray;
   padding: 0.5em 0.5em;
+  margin-bottom: 20px;
 }
 
 .build-wrapper {
@@ -370,24 +371,76 @@ td > div {
 }
 
 .skill-parent {
+  padding: 5px;
   vertical-align:top;
 }
 
 .statistics-parent {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .skill-element {
-  padding: 3px;
   text-align: center;
   font-size:0.7rem;
+}
+
+.skill-element p {
+  margin: 5px;
 }
 
 
 .statistics-element {
   padding: 3px;
 }
+
+.statistics-element p {
+  margin: auto;
+  font-size: 0.9rem;
+}
+
+$icon-border-thickness: 3px;
+
+.skill-icon {
+  border-radius: 64px;
+  max-width: 64px;
+}
+
+.skill-green {
+  @extend .skill-icon;
+  border: $icon-border-thickness solid green;
+}
+.skill-pink {
+  @extend .skill-icon;
+  border: $icon-border-thickness solid deeppink;
+}
+.skill-grey {
+  @extend .skill-icon;
+  border: $icon-border-thickness solid grey;
+}
+.skill-blue {
+  @extend .skill-icon;
+  border: $icon-border-thickness solid blue;
+}
+.skill-yellow {
+  @extend .skill-icon;
+  border: $icon-border-thickness solid yellow;
+}
+.skill-red {
+  @extend .skill-icon;
+  border: $icon-border-thickness solid red;
+}
+.skill-teal {
+  @extend .skill-icon;
+  border: $icon-border-thickness solid teal;
+}
+
+.mode-header {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
