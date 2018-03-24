@@ -12,27 +12,49 @@ layout: default
 </div>
 <article class="character">
         <div class="container table">
-        <h2>2 vs 2</h2>
+        <h2 class="mode-header">2 vs 2 builds</h2>
         {% for build in page.builds.twos %}
-
         <div class="row build-wrapper">
             <div class="col-xs-6 col-md-12 skill-parent">
                 <!-- Use manual offset columns to center content...  -->
                 <div class="col-md-1"></div>
             {% for skill in build.skills %}
                 <div class="col-sm-1 col-md-2 skill-element" title="{{skill.name}} - {{skill.description}}">
-                    <img class="" src="{{site.url}}/assets/img/{{skill.icon}}.png" />
-                    {{skill.name}}
+                    <img class="skill-{{skill.color}}" src="{{site.url}}/assets/img/{{skill.icon}}.png" />
+                    <p>{{skill.name}}</p>
                 </div>
                 {% endfor %}
                 <div class="col-md-1"></div>
             </div>
             <div class="col-xs-6 col-md-12 statistics-parent">
-                <div class="statistics-element">Occurances: {{build.num}}</div>
-                <div class="statistics-element">Winrate: {{build.winrate}}%</div>
+                <div class="statistics-element"><p>Count: {{build.num}}</p></div>
+                <div class="statistics-element"><p>Winrate: {{build.winrate}}%</p></div>
             </div>
         </div>
-
         {% endfor %}
         </div>
+
+
+    <div class="container table">
+        <h2 class="mode-header">3 vs 3 builds</h2>
+        {% for build in page.builds.threes %}
+        <div class="row build-wrapper">
+            <div class="col-xs-6 col-md-12 skill-parent">
+                <!-- Use manual offset columns to center content...  -->
+                <div class="col-md-1"></div>
+                {% for skill in build.skills %}
+                <div class="col-sm-1 col-md-2 skill-element" title="{{skill.name}} - {{skill.description}}">
+                    <img class="skill-{{skill.color}}" src="{{site.url}}/assets/img/{{skill.icon}}.png" />
+                    <p>{{skill.name}}</p>
+                </div>
+                {% endfor %}
+                <div class="col-md-1"></div>
+            </div>
+            <div class="col-xs-6 col-md-12 statistics-parent">
+                <div class="statistics-element"><p>Count: {{build.num}}</p></div>
+                <div class="statistics-element"><p>Winrate: {{build.winrate}}%</p></div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
 </article>
