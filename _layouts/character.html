@@ -11,42 +11,28 @@ layout: default
 <h3>Played {{page.num}} times last 7 days, with a winrate of {{page.winrate}}%</h3>
 </div>
 <article class="character">
-    <table>
-        <thead>
-        <tr>
-            <th>Mode</th>
-            <th class="text-center" colspan="5">Skills</th>
-            <th class="text-right">Count</th>
-            <th class="text-right">Winrate</th>
-        </tr>
-        </thead>
-        <tbody>
+        <div class="container table">
+        <h2>2 vs 2</h2>
         {% for build in page.builds.twos %}
-        <tr>
-            <td>2 vs 2</td>
+
+        <div class="row build-wrapper">
+            <div class="col-xs-6 col-md-12 skill-parent">
+                <!-- Use manual offset columns to center content...  -->
+                <div class="col-md-1"></div>
             {% for skill in build.skills %}
-            <td>
-                <div title="{{skill.name}} - {{skill.description}}">{{skill.name}}</div>
-            </td>
-            {% endfor %}
-            <td class="text-right">{{build.num}}</td>
-            <td class="text-right">{{build.winrate}}%</td>
-        </tr>
+                <div class="col-sm-1 col-md-2 skill-element" title="{{skill.name}} - {{skill.description}}">
+                    <img class="" src="{{site.url}}/assets/img/{{skill.icon}}.png" />
+                    {{skill.name}}
+                </div>
+                {% endfor %}
+                <div class="col-md-1"></div>
+            </div>
+            <div class="col-xs-6 col-md-12 statistics-parent">
+                <div class="statistics-element">Occurances: {{build.num}}</div>
+                <div class="statistics-element">Winrate: {{build.winrate}}%</div>
+            </div>
+        </div>
+
         {% endfor %}
-        </tbody>
-        <tbody>
-        {% for build in page.builds.threes %}
-        <tr>
-            <td>3 vs 3</td>
-            {% for skill in build.skills %}
-            <td>
-                <div title="{{skill.name}} - {{skill.description}}">{{skill.name}}</div>
-            </td>
-            {% endfor %}
-            <td class="text-right">{{build.num}}</td>
-            <td class="text-right">{{build.winrate}}%</td>
-        </tr>
-        {% endfor %}
-        </tbody>
-    </table>
+        </div>
 </article>
