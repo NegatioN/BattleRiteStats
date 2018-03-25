@@ -378,6 +378,7 @@ td > div {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  margin-top: 5px;
 }
 
 .skill-element {
@@ -396,7 +397,7 @@ td > div {
 
 .statistics-element p {
   margin: auto;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 $icon-border-thickness: 3px;

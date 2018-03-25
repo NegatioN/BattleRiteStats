@@ -15,6 +15,8 @@ having to figure out everything for themselves.
 These statistics were made by looking at the replays from the last 7 days of all Champion and above ranked solo players in Battlerite. 
 
 
+### How are statistics about damage, protection etc calculated?
+These statistics are computed averages for each round played with a given build.
 
 ### Contact us
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 import yaml
 from collections import defaultdict
 import pandas as pd
@@ -109,6 +109,13 @@ type_lookup = get_battlerite_type_mapping()
 
 twos = defaultdict(lambda: [])
 threes = defaultdict(lambda: [])
+
+def prep_output(num):
+    try:
+        return int(num)
+    except:
+        return 0
+
 for character, modes in character_dict.items():
     for mode, builds in modes.items():
         if '3' in mode:
@@ -116,6 +123,7 @@ for character, modes in character_dict.items():
         else:
             cur_dict = twos
         for build, aggregations in builds.items():
+            time_alive_data = datetime.today() + timedelta(seconds=int(aggregations['sum_time_alive']))
             b = {'skills': [{'name': brite_name(int(x)),
                              'icon': brite_icon(int(x)),
                              'description': brite_description(int(x)),
@@ -124,7 +132,12 @@ for character, modes in character_dict.items():
                              }
                             for x in build],
                  'num': int(aggregations['num']),
-                 'winrate': int(float(aggregations['win_num']) / float(aggregations['num']) * 100)}
+                 'winrate': prep_output(float(aggregations['win_num']) / float(aggregations['num']) * 100),
+                 'damage': prep_output(aggregations['mean_damage']),
+                 'protection': prep_output(aggregations['mean_healing']),
+                 'disable': prep_output(aggregations['mean_disable']),
+                 'time_alive': time_alive_data.strftime('%Y-%m-%dT%H:%M:%SZ')  # String is parsed in front-matter and only min/secs used.
+                 }
             cur_dict[character].append(b)
 
 
