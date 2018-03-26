@@ -159,8 +159,7 @@ def get_player_telemetry(player_id):
 
 
 def get_telemetry_data(url):
-    #telemetry_entry = get_cached_telemetry(url)
-    telemetry_entry = None
+    telemetry_entry = get_cached_telemetry(url)
     if not telemetry_entry:
         try:
             resp = requests.get(url)
@@ -178,7 +177,7 @@ if __name__ == "__main__":
     player_ids = get_user_ids()
     print('Number of users to process: {}'.format(len(player_ids)))
     all_telemetries = set()
-    #clean_cache(created_ad)
+    clean_cache(created_ad)
 
     # For some reason this function returns duplicates ¯\_(ツ)_/¯
     for player_id in player_ids:
