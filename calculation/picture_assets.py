@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8
 import os
+import json
 from helpers import path_leaf
 from PIL import Image
 import yaml
@@ -21,6 +22,12 @@ def get_unique_brite_icon(characters):
                 unique_assets.add(vals['icon'])
     return unique_assets
 
+with open('assets/gameplay.json', 'rb') as gplay:
+    gplay = gplay.read()
+
+characters = json.loads(gplay.decode('utf-8'))['characters']
+flattned_battlerites = {y['typeID']: y for x in characters for y in x['battlerites']}
+
 
 with open('assets/result.yml', 'r', encoding='utf-8') as f:
     result_data = yaml.load(f)
@@ -29,14 +36,17 @@ pic_assets_path = 'assets/brite_assets/mappings/assets'
 
 webpage_to_path = '../assets/img'
 
-twos_unq = get_unique_brite_icon(result_data['twos'])
-threes_unq = get_unique_brite_icon(result_data['threes'])
-# These are the same but whatever.
-threes_heroes = {c['icon'] for c in result_data['threes']}
-twos_heroes = {c['icon'] for c in result_data['twos']}
+skill_icons = set()
+for brite in flattned_battlerites:
+    d = flattned_battlerites[brite]
+    skill_icons.add(d['icon'])
 
+char_icons = set()
+for c in characters:
+    char_icons.add(c['icon'])
+    char_icons.add(c['wideIcon'])
 
-unique_assets = twos_unq.union(threes_unq).union(threes_heroes).union(twos_heroes)
+unique_assets = skill_icons.union(char_icons)
 
 existing_image_resources = [base(x) for x in os.listdir(webpage_to_path)]
 
