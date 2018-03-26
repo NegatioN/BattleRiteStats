@@ -9,7 +9,7 @@ from datetime import timedelta, datetime
 from copy import deepcopy
 
 from helpers import get_user_ids
-from telem_cache import cache_telemetry, get_cached_telemetry, clean_cache
+from telem_cache import TelemetryCache
 from collections import defaultdict
 from furrycorn.location import mk_origin, mk_path, mk_query, to_url
 import pandas as pd
@@ -21,6 +21,8 @@ headers = {'Accept': 'application/vnd.api+json',
            'Accept-Encoding': 'gzip',
            'Authorization': 'Bearer {0}'.format(api_key)}
 rate_limiter = RateLimiter(max_calls=50, period=61)
+
+telem_cache = TelemetryCache()
 
 def jsonify_datetime(d):
     return d.strftime('%Y-%m-%dT%H:00:00Z')
@@ -159,13 +161,13 @@ def get_player_telemetry(player_id):
 
 
 def get_telemetry_data(url):
-    telemetry_entry = get_cached_telemetry(url)
+    telemetry_entry = telem_cache.get_cached_telemetry(url)
     if not telemetry_entry:
         try:
             resp = requests.get(url)
             if resp.status_code == 200:
                 telemetry_entry = json.loads(resp.content.decode('utf-8'))
-                cache_telemetry(url, telemetry_entry)
+                telem_cache.cache_telemetry(url, telemetry_entry)
         except:
             print('something bad happened')
             telemetry_entry = []
@@ -177,7 +179,7 @@ if __name__ == "__main__":
     player_ids = get_user_ids()
     print('Number of users to process: {}'.format(len(player_ids)))
     all_telemetries = set()
-    clean_cache(created_ad)
+    telem_cache.clean_cache(created_ad)
 
     # For some reason this function returns duplicates ¯\_(ツ)_/¯
     for player_id in player_ids:
@@ -211,3 +213,6 @@ if __name__ == "__main__":
 
     main_df.to_csv('assets/character_df.csv', index=False)
     match_df.to_csv('assets/match_df.csv', index=False)
+
+print('Cache hits: {}'.format(telem_cache.cache_hits))
+print('Added to cache: {}'.format(telem_cache.added_to_cache))
