@@ -39,7 +39,8 @@ def get_n_folder_levels(path, n):
             ps = root.split('/')
             cur_d = d
             for p in ps:
-                cur_d[p] = {}
+                if p not in cur_d:
+                    cur_d[p] = {}
                 cur_d = cur_d[p]
     return d
 
