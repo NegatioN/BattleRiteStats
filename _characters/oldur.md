@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: 485
-    disable: 57
-    num: 94
-    protection: 283
+  - damage: 490
+    disable: 60
+    num: 88
+    protection: 295
     skills:
     - color: blue
       description: ^2Shifting Sands^- creates a ^2Lesser Chronoflux^- that reflects
@@ -36,12 +36,48 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    time_alive: '2018-03-27T01:59:52Z'
-    winrate: 51
+    time_alive: '2018-03-27T07:15:33Z'
+    winrate: 46
+  - damage: 329
+    disable: 59
+    num: 70
+    protection: 300
+    skills:
+    - color: grey
+      description: Time Bomb reduces incoming healing by 20 and outgoing damage by
+        10.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Dehydration
+      type: mixed
+    - color: teal
+      description: Rejuvenate heals for an additional 15 of damage taken over its
+        duration. Restores up to a maximum of 6 bonus health.
+      icon: 838ae06cda41a2544a1d2a528389d5b5
+      name: Renew
+      type: support
+    - color: red
+      description: Quicksand can be recast to throw Lesser Quicksand. It applies Time
+        Bomb instead of consuming it.
+      icon: 35a1515e35b5104449dfa8802c5aa0e2
+      name: Sand Struck
+      type: offense
+    - color: pink
+      description: Quicksand inflicts Root for 1.
+      icon: 35a1515e35b5104449dfa8802c5aa0e2
+      name: Sand Tomb
+      type: control
+    - color: red
+      description: Shifting Sands causes your next Sands of Time to deal 6 bonus damage
+        and inflict Fading Snare for 1.
+      icon: 89c37320af892ae43b410f4d610d7ea8
+      name: Sandstorm
+      type: offense
+    time_alive: '2018-03-27T07:14:41Z'
+    winrate: 50
   - damage: 432
-    disable: 53
-    num: 82
-    protection: 328
+    disable: 50
+    num: 66
+    protection: 325
     skills:
     - color: grey
       description: Time Bomb reduces incoming healing by 20 and outgoing damage by
@@ -72,84 +108,48 @@ builds:
       icon: 35a1515e35b5104449dfa8802c5aa0e2
       name: Time Burst
       type: offense
-    time_alive: '2018-03-27T01:59:48Z'
-    winrate: 63
-  - damage: 393
-    disable: 56
-    num: 51
-    protection: 311
+    time_alive: '2018-03-27T07:15:25Z'
+    winrate: 65
+  - damage: 356
+    disable: 52
+    num: 64
+    protection: 326
     skills:
-    - color: grey
-      description: Time Bomb reduces incoming healing by 20 and outgoing damage by
-        10.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Dehydration
-      type: mixed
-    - color: teal
-      description: Rejuvenate heals for an additional 15 of damage taken over its
-        duration. Restores up to a maximum of 6 bonus health.
-      icon: 838ae06cda41a2544a1d2a528389d5b5
-      name: Renew
-      type: support
-    - color: red
-      description: Quicksand can be recast to throw Lesser Quicksand. It applies Time
-        Bomb instead of consuming it.
-      icon: 35a1515e35b5104449dfa8802c5aa0e2
-      name: Sand Struck
-      type: offense
-    - color: pink
-      description: Quicksand inflicts Root for 1.
-      icon: 35a1515e35b5104449dfa8802c5aa0e2
-      name: Sand Tomb
-      type: control
-    - color: red
-      description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
-        enemies when it detonates.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Shared Fate
-      type: offense
-    time_alive: '2018-03-27T01:59:33Z'
-    winrate: 50
-  - damage: 361
-    disable: 63
-    num: 47
-    protection: 298
-    skills:
-    - color: grey
-      description: Time Bomb reduces incoming healing by 20 and outgoing damage by
-        10.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Dehydration
-      type: mixed
-    - color: teal
-      description: Rejuvenate heals for an additional 15 of damage taken over its
-        duration. Restores up to a maximum of 6 bonus health.
-      icon: 838ae06cda41a2544a1d2a528389d5b5
-      name: Renew
-      type: support
-    - color: red
-      description: Quicksand can be recast to throw Lesser Quicksand. It applies Time
-        Bomb instead of consuming it.
-      icon: 35a1515e35b5104449dfa8802c5aa0e2
-      name: Sand Struck
-      type: offense
-    - color: pink
-      description: Quicksand inflicts Root for 1.
-      icon: 35a1515e35b5104449dfa8802c5aa0e2
-      name: Sand Tomb
-      type: control
-    - color: red
-      description: Shifting Sands causes your next Sands of Time to deal 6 bonus damage
-        and inflict Fading Snare for 1.
+    - color: blue
+      description: ^2Shifting Sands^- creates a ^2Lesser Chronoflux^- that reflects
+        projectiles and slows movement speed.
       icon: 89c37320af892ae43b410f4d610d7ea8
-      name: Sandstorm
+      name: Chrono Shift
+      type: utility
+    - color: grey
+      description: Time Bomb reduces incoming healing by 20 and outgoing damage by
+        10.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Dehydration
+      type: mixed
+    - color: teal
+      description: Rejuvenate heals for an additional 15 of damage taken over its
+        duration. Restores up to a maximum of 6 bonus health.
+      icon: 838ae06cda41a2544a1d2a528389d5b5
+      name: Renew
+      type: support
+    - color: red
+      description: Quicksand can be recast to throw Lesser Quicksand. It applies Time
+        Bomb instead of consuming it.
+      icon: 35a1515e35b5104449dfa8802c5aa0e2
+      name: Sand Struck
       type: offense
-    time_alive: '2018-03-27T01:59:23Z'
-    winrate: 53
-  - damage: 371
+    - color: pink
+      description: Quicksand inflicts Root for 1.
+      icon: 35a1515e35b5104449dfa8802c5aa0e2
+      name: Sand Tomb
+      type: control
+    time_alive: '2018-03-27T07:15:48Z'
+    winrate: 46
+  - damage: 384
     disable: 53
-    num: 35
-    protection: 355
+    num: 49
+    protection: 351
     skills:
     - color: grey
       description: Time Bomb reduces incoming healing by 20 and outgoing damage by
@@ -182,13 +182,13 @@ builds:
       icon: a22c6c4bc967d4e48a44f0e87a93023e
       name: Time Walker
       type: mobility
-    time_alive: '2018-03-27T01:59:40Z'
-    winrate: 40
+    time_alive: '2018-03-27T07:15:19Z'
+    winrate: 42
   twos:
-  - damage: 448
-    disable: 73
-    num: 225
-    protection: 265
+  - damage: 437
+    disable: 71
+    num: 188
+    protection: 258
     skills:
     - color: grey
       description: Time Bomb reduces incoming healing by 20 and outgoing damage by
@@ -219,86 +219,12 @@ builds:
       icon: 89c37320af892ae43b410f4d610d7ea8
       name: Sandstorm
       type: offense
-    time_alive: '2018-03-27T01:59:42Z'
-    winrate: 57
-  - damage: 477
-    disable: 51
-    num: 99
-    protection: 304
-    skills:
-    - color: blue
-      description: ^2Shifting Sands^- creates a ^2Lesser Chronoflux^- that reflects
-        projectiles and slows movement speed.
-      icon: 89c37320af892ae43b410f4d610d7ea8
-      name: Chrono Shift
-      type: utility
-    - color: grey
-      description: Time Bomb reduces incoming healing by 20 and outgoing damage by
-        10.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Dehydration
-      type: mixed
-    - color: teal
-      description: Rejuvenate heals for an additional 15 of damage taken over its
-        duration. Restores up to a maximum of 6 bonus health.
-      icon: 838ae06cda41a2544a1d2a528389d5b5
-      name: Renew
-      type: support
-    - color: red
-      description: Quicksand can be recast to throw Lesser Quicksand. It applies Time
-        Bomb instead of consuming it.
-      icon: 35a1515e35b5104449dfa8802c5aa0e2
-      name: Sand Struck
-      type: offense
-    - color: red
-      description: Shifting Sands causes your next Sands of Time to deal 6 bonus damage
-        and inflict Fading Snare for 1.
-      icon: 89c37320af892ae43b410f4d610d7ea8
-      name: Sandstorm
-      type: offense
-    time_alive: '2018-03-27T02:00:06Z'
-    winrate: 59
-  - damage: 498
-    disable: 39
-    num: 74
-    protection: 300
-    skills:
-    - color: blue
-      description: ^2Shifting Sands^- creates a ^2Lesser Chronoflux^- that reflects
-        projectiles and slows movement speed.
-      icon: 89c37320af892ae43b410f4d610d7ea8
-      name: Chrono Shift
-      type: utility
-    - color: grey
-      description: Time Bomb reduces incoming healing by 20 and outgoing damage by
-        10.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Dehydration
-      type: mixed
-    - color: teal
-      description: Rejuvenate heals for an additional 15 of damage taken over its
-        duration. Restores up to a maximum of 6 bonus health.
-      icon: 838ae06cda41a2544a1d2a528389d5b5
-      name: Renew
-      type: support
-    - color: red
-      description: Quicksand can be recast to throw Lesser Quicksand. It applies Time
-        Bomb instead of consuming it.
-      icon: 35a1515e35b5104449dfa8802c5aa0e2
-      name: Sand Struck
-      type: offense
-    - color: red
-      description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
-        enemies when it detonates.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Shared Fate
-      type: offense
-    time_alive: '2018-03-27T02:00:05Z'
+    time_alive: '2018-03-27T07:15:01Z'
     winrate: 52
-  - damage: 456
-    disable: 76
-    num: 72
-    protection: 306
+  - damage: 449
+    disable: 71
+    num: 90
+    protection: 298
     skills:
     - color: grey
       description: Time Bomb reduces incoming healing by 20 and outgoing damage by
@@ -329,12 +255,12 @@ builds:
       icon: a22c6c4bc967d4e48a44f0e87a93023e
       name: Time Walker
       type: mobility
-    time_alive: '2018-03-27T01:59:46Z'
+    time_alive: '2018-03-27T07:15:15Z'
     winrate: 62
-  - damage: 445
-    disable: 58
-    num: 65
-    protection: 283
+  - damage: 470
+    disable: 59
+    num: 80
+    protection: 277
     skills:
     - color: grey
       description: Time Bomb reduces incoming healing by 20 and outgoing damage by
@@ -365,15 +291,89 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    time_alive: '2018-03-27T01:59:58Z'
-    winrate: 47
+    time_alive: '2018-03-27T07:15:34Z'
+    winrate: 51
+  - damage: 481
+    disable: 52
+    num: 79
+    protection: 307
+    skills:
+    - color: blue
+      description: ^2Shifting Sands^- creates a ^2Lesser Chronoflux^- that reflects
+        projectiles and slows movement speed.
+      icon: 89c37320af892ae43b410f4d610d7ea8
+      name: Chrono Shift
+      type: utility
+    - color: grey
+      description: Time Bomb reduces incoming healing by 20 and outgoing damage by
+        10.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Dehydration
+      type: mixed
+    - color: teal
+      description: Rejuvenate heals for an additional 15 of damage taken over its
+        duration. Restores up to a maximum of 6 bonus health.
+      icon: 838ae06cda41a2544a1d2a528389d5b5
+      name: Renew
+      type: support
+    - color: red
+      description: Quicksand can be recast to throw Lesser Quicksand. It applies Time
+        Bomb instead of consuming it.
+      icon: 35a1515e35b5104449dfa8802c5aa0e2
+      name: Sand Struck
+      type: offense
+    - color: red
+      description: Shifting Sands causes your next Sands of Time to deal 6 bonus damage
+        and inflict Fading Snare for 1.
+      icon: 89c37320af892ae43b410f4d610d7ea8
+      name: Sandstorm
+      type: offense
+    time_alive: '2018-03-27T07:15:37Z'
+    winrate: 63
+  - damage: 487
+    disable: 44
+    num: 66
+    protection: 278
+    skills:
+    - color: blue
+      description: ^2Shifting Sands^- creates a ^2Lesser Chronoflux^- that reflects
+        projectiles and slows movement speed.
+      icon: 89c37320af892ae43b410f4d610d7ea8
+      name: Chrono Shift
+      type: utility
+    - color: grey
+      description: Time Bomb reduces incoming healing by 20 and outgoing damage by
+        10.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Dehydration
+      type: mixed
+    - color: teal
+      description: Rejuvenate heals for an additional 15 of damage taken over its
+        duration. Restores up to a maximum of 6 bonus health.
+      icon: 838ae06cda41a2544a1d2a528389d5b5
+      name: Renew
+      type: support
+    - color: red
+      description: Quicksand can be recast to throw Lesser Quicksand. It applies Time
+        Bomb instead of consuming it.
+      icon: 35a1515e35b5104449dfa8802c5aa0e2
+      name: Sand Struck
+      type: offense
+    - color: red
+      description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
+        enemies when it detonates.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Shared Fate
+      type: offense
+    time_alive: '2018-03-27T07:15:19Z'
+    winrate: 54
 description: Oldur, a mysterious creature able to bend time and space. He can mend
   wounds with powerful heals and reverse enemy attacks by freezing them in time.
 icon: b0d66b8b9f228724093b8a3e66c3fef6
 layout: character
 name: oldur
-num: 3948
+num: 3709
 title: Oldur
 url: characters/oldur.html
-winrate: 51
+winrate: 52
 ...

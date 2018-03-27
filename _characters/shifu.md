@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: 559
-    disable: 65
-    num: 533
-    protection: 115
+  - damage: 551
+    disable: 64
+    num: 456
+    protection: 113
     skills:
     - color: green
       description: Impale heals you for 2 health and 2 additional health per weapon
@@ -35,12 +35,12 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    time_alive: '2018-03-27T01:59:26Z'
-    winrate: 63
-  - damage: 560
-    disable: 45
-    num: 72
-    protection: 113
+    time_alive: '2018-03-27T07:15:01Z'
+    winrate: 57
+  - damage: 536
+    disable: 42
+    num: 81
+    protection: 111
     skills:
     - color: green
       description: Impale heals you for 2 health and 2 additional health per weapon
@@ -72,84 +72,12 @@ builds:
       icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
       type: offense
-    time_alive: '2018-03-27T01:59:21Z'
-    winrate: 51
-  - damage: 518
-    disable: 47
-    num: 54
-    protection: 99
-    skills:
-    - color: green
-      description: Impale heals you for 2 health and 2 additional health per weapon
-        charge.
-      icon: 18eee826117df534d91bd518653fc360
-      name: Ceremonial Spear
-      type: survival
-    - color: red
-      description: Increases your maximum weapon charges by 1 and countering an attack
-        with Kunju grants 1 weapon charge.
-      icon: 19e037c83991916449cd9475c20ca0d1
-      name: Ferocious Stance
-      type: offense
-    - color: blue
-      description: Javelin deals 4 bonus damage. Also increases its range by 10.
-      icon: 2b30312258b7fec4a90040d475f5b31f
-      name: Javelin Master
-      type: utility
-    - color: yellow
-      description: Increases Fleetfoot movement speed bonus from 35 to 50 and haste
-        duration by 1.
-      icon: 0b6f5070063c16f4eb62990034cffd29
-      name: Swift Feet
-      type: mobility
-    - color: pink
-      description: Impale deals 2 bonus damage and an additional 1 bonus damage per
-        weapon charge.
-      icon: 18eee826117df534d91bd518653fc360
-      name: Thrust
-      type: control
-    time_alive: '2018-03-27T01:59:13Z'
-    winrate: 37
-  - damage: 545
-    disable: 45
-    num: 41
-    protection: 110
-    skills:
-    - color: green
-      description: Impale heals you for 2 health and 2 additional health per weapon
-        charge.
-      icon: 18eee826117df534d91bd518653fc360
-      name: Ceremonial Spear
-      type: survival
-    - color: red
-      description: Increases your maximum weapon charges by 1 and countering an attack
-        with Kunju grants 1 weapon charge.
-      icon: 19e037c83991916449cd9475c20ca0d1
-      name: Ferocious Stance
-      type: offense
-    - color: yellow
-      description: Increases Fleetfoot movement speed bonus from 35 to 50 and haste
-        duration by 1.
-      icon: 0b6f5070063c16f4eb62990034cffd29
-      name: Swift Feet
-      type: mobility
-    - color: blue
-      description: During Fleetfoot, Spear Slash hits grant 8 bonus energy.
-      icon: 0b6f5070063c16f4eb62990034cffd29
-      name: The Spear is the Way
-      type: utility
-    - color: pink
-      description: Impale deals 2 bonus damage and an additional 1 bonus damage per
-        weapon charge.
-      icon: 18eee826117df534d91bd518653fc360
-      name: Thrust
-      type: control
-    time_alive: '2018-03-27T01:59:22Z'
+    time_alive: '2018-03-27T07:14:50Z'
     winrate: 53
-  - damage: 502
-    disable: 40
-    num: 33
-    protection: 99
+  - damage: 516
+    disable: 45
+    num: 45
+    protection: 97
     skills:
     - color: green
       description: Impale heals you for 2 health and 2 additional health per weapon
@@ -181,13 +109,84 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    time_alive: '2018-03-27T01:59:25Z'
-    winrate: 39
+    time_alive: '2018-03-27T07:15:08Z'
+    winrate: 48
+  - damage: 505
+    disable: 49
+    num: 39
+    protection: 94
+    skills:
+    - color: green
+      description: Impale heals you for 2 health and 2 additional health per weapon
+        charge.
+      icon: 18eee826117df534d91bd518653fc360
+      name: Ceremonial Spear
+      type: survival
+    - color: pink
+      description: Javelin inflicts Root for 1.2.
+      icon: 2b30312258b7fec4a90040d475f5b31f
+      name: Dirty Tricks
+      type: control
+    - color: red
+      description: Increases your maximum weapon charges by 1 and countering an attack
+        with Kunju grants 1 weapon charge.
+      icon: 19e037c83991916449cd9475c20ca0d1
+      name: Ferocious Stance
+      type: offense
+    - color: blue
+      description: During Fleetfoot, Spear Slash hits grant 8 bonus energy.
+      icon: 0b6f5070063c16f4eb62990034cffd29
+      name: The Spear is the Way
+      type: utility
+    - color: pink
+      description: Impale deals 2 bonus damage and an additional 1 bonus damage per
+        weapon charge.
+      icon: 18eee826117df534d91bd518653fc360
+      name: Thrust
+      type: control
+    time_alive: '2018-03-27T07:14:55Z'
+    winrate: 48
+  - damage: 597
+    disable: 55
+    num: 37
+    protection: 118
+    skills:
+    - color: green
+      description: Impale heals you for 2 health and 2 additional health per weapon
+        charge.
+      icon: 18eee826117df534d91bd518653fc360
+      name: Ceremonial Spear
+      type: survival
+    - color: red
+      description: Increases your maximum weapon charges by 1 and countering an attack
+        with Kunju grants 1 weapon charge.
+      icon: 19e037c83991916449cd9475c20ca0d1
+      name: Ferocious Stance
+      type: offense
+    - color: blue
+      description: Javelin deals 4 bonus damage. Also increases its range by 10.
+      icon: 2b30312258b7fec4a90040d475f5b31f
+      name: Javelin Master
+      type: utility
+    - color: yellow
+      description: Increases Fleetfoot movement speed bonus from 35 to 50 and haste
+        duration by 1.
+      icon: 0b6f5070063c16f4eb62990034cffd29
+      name: Swift Feet
+      type: mobility
+    - color: pink
+      description: Impale deals 2 bonus damage and an additional 1 bonus damage per
+        weapon charge.
+      icon: 18eee826117df534d91bd518653fc360
+      name: Thrust
+      type: control
+    time_alive: '2018-03-27T07:15:16Z'
+    winrate: 59
   twos:
-  - damage: 593
-    disable: 66
-    num: 1202
-    protection: 124
+  - damage: 581
+    disable: 65
+    num: 954
+    protection: 121
     skills:
     - color: green
       description: Impale heals you for 2 health and 2 additional health per weapon
@@ -218,12 +217,12 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    time_alive: '2018-03-27T01:59:37Z'
-    winrate: 54
-  - damage: 608
-    disable: 45
-    num: 424
-    protection: 127
+    time_alive: '2018-03-27T07:15:03Z'
+    winrate: 53
+  - damage: 578
+    disable: 41
+    num: 361
+    protection: 121
     skills:
     - color: green
       description: Impale heals you for 2 health and 2 additional health per weapon
@@ -255,83 +254,12 @@ builds:
       icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
       type: offense
-    time_alive: '2018-03-27T01:59:37Z'
-    winrate: 51
-  - damage: 568
-    disable: 44
-    num: 90
-    protection: 111
-    skills:
-    - color: green
-      description: Impale heals you for 2 health and 2 additional health per weapon
-        charge.
-      icon: 18eee826117df534d91bd518653fc360
-      name: Ceremonial Spear
-      type: survival
-    - color: red
-      description: Increases your maximum weapon charges by 1 and countering an attack
-        with Kunju grants 1 weapon charge.
-      icon: 19e037c83991916449cd9475c20ca0d1
-      name: Ferocious Stance
-      type: offense
-    - color: yellow
-      description: Increases Fleetfoot movement speed bonus from 35 to 50 and haste
-        duration by 1.
-      icon: 0b6f5070063c16f4eb62990034cffd29
-      name: Swift Feet
-      type: mobility
-    - color: blue
-      description: During Fleetfoot, Spear Slash hits grant 8 bonus energy.
-      icon: 0b6f5070063c16f4eb62990034cffd29
-      name: The Spear is the Way
-      type: utility
-    - color: pink
-      description: Impale deals 2 bonus damage and an additional 1 bonus damage per
-        weapon charge.
-      icon: 18eee826117df534d91bd518653fc360
-      name: Thrust
-      type: control
-    time_alive: '2018-03-27T01:59:20Z'
-    winrate: 41
-  - damage: 557
-    disable: 58
-    num: 71
-    protection: 73
-    skills:
-    - color: pink
-      description: Javelin inflicts Root for 1.2.
-      icon: 2b30312258b7fec4a90040d475f5b31f
-      name: Dirty Tricks
-      type: control
-    - color: red
-      description: Increases your maximum weapon charges by 1 and countering an attack
-        with Kunju grants 1 weapon charge.
-      icon: 19e037c83991916449cd9475c20ca0d1
-      name: Ferocious Stance
-      type: offense
-    - color: yellow
-      description: Increases lunge distance of Impale by 100.
-      icon: 18eee826117df534d91bd518653fc360
-      name: Spear Lunge
-      type: mobility
-    - color: yellow
-      description: Increases Fleetfoot movement speed bonus from 35 to 50 and haste
-        duration by 1.
-      icon: 0b6f5070063c16f4eb62990034cffd29
-      name: Swift Feet
-      type: mobility
-    - color: pink
-      description: Impale deals 2 bonus damage and an additional 1 bonus damage per
-        weapon charge.
-      icon: 18eee826117df534d91bd518653fc360
-      name: Thrust
-      type: control
-    time_alive: '2018-03-27T01:59:16Z'
-    winrate: 52
-  - damage: 546
-    disable: 42
-    num: 66
-    protection: 113
+    time_alive: '2018-03-27T07:14:55Z'
+    winrate: 49
+  - damage: 597
+    disable: 50
+    num: 98
+    protection: 116
     skills:
     - color: green
       description: Impale heals you for 2 health and 2 additional health per weapon
@@ -362,15 +290,88 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    time_alive: '2018-03-27T01:59:43Z'
-    winrate: 50
+    time_alive: '2018-03-27T07:15:35Z'
+    winrate: 48
+  - damage: 582
+    disable: 46
+    num: 88
+    protection: 111
+    skills:
+    - color: green
+      description: Impale heals you for 2 health and 2 additional health per weapon
+        charge.
+      icon: 18eee826117df534d91bd518653fc360
+      name: Ceremonial Spear
+      type: survival
+    - color: red
+      description: Increases your maximum weapon charges by 1 and countering an attack
+        with Kunju grants 1 weapon charge.
+      icon: 19e037c83991916449cd9475c20ca0d1
+      name: Ferocious Stance
+      type: offense
+    - color: red
+      description: Countering an attack with Kunju causes your next Spear Slash to
+        deal 10 bonus damage.
+      icon: 19e037c83991916449cd9475c20ca0d1
+      name: Poised to Strike
+      type: offense
+    - color: yellow
+      description: Increases Fleetfoot movement speed bonus from 35 to 50 and haste
+        duration by 1.
+      icon: 0b6f5070063c16f4eb62990034cffd29
+      name: Swift Feet
+      type: mobility
+    - color: pink
+      description: Impale deals 2 bonus damage and an additional 1 bonus damage per
+        weapon charge.
+      icon: 18eee826117df534d91bd518653fc360
+      name: Thrust
+      type: control
+    time_alive: '2018-03-27T07:15:17Z'
+    winrate: 52
+  - damage: 584
+    disable: 44
+    num: 84
+    protection: 109
+    skills:
+    - color: green
+      description: Impale heals you for 2 health and 2 additional health per weapon
+        charge.
+      icon: 18eee826117df534d91bd518653fc360
+      name: Ceremonial Spear
+      type: survival
+    - color: red
+      description: Increases your maximum weapon charges by 1 and countering an attack
+        with Kunju grants 1 weapon charge.
+      icon: 19e037c83991916449cd9475c20ca0d1
+      name: Ferocious Stance
+      type: offense
+    - color: yellow
+      description: Increases Fleetfoot movement speed bonus from 35 to 50 and haste
+        duration by 1.
+      icon: 0b6f5070063c16f4eb62990034cffd29
+      name: Swift Feet
+      type: mobility
+    - color: blue
+      description: During Fleetfoot, Spear Slash hits grant 8 bonus energy.
+      icon: 0b6f5070063c16f4eb62990034cffd29
+      name: The Spear is the Way
+      type: utility
+    - color: pink
+      description: Impale deals 2 bonus damage and an additional 1 bonus damage per
+        weapon charge.
+      icon: 18eee826117df534d91bd518653fc360
+      name: Thrust
+      type: control
+    time_alive: '2018-03-27T07:15:07Z'
+    winrate: 51
 description: Expert in the martial art of Ni'Shu and master of the spear. A highly
   mobile and dangerous duelist. His extraordinary combat prowess culminates in a range
   of deadly melee attacks. Facing Shifu is like walking into a tornado of spearheads.
 icon: 6f69edc7410650c43bee267eef585b06
 layout: character
 name: shifu
-num: 3888
+num: 3439
 title: Shifu
 url: characters/shifu.html
 winrate: 51
