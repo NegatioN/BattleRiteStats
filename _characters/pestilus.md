@@ -35,7 +35,7 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    time_alive: '2018-03-26T01:48:09Z'
+    time_alive: '2018-03-27T02:00:13Z'
     winrate: 49
   - damage: 336
     disable: 94
@@ -71,7 +71,7 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    time_alive: '2018-03-26T01:48:13Z'
+    time_alive: '2018-03-27T02:00:17Z'
     winrate: 52
   - damage: 318
     disable: 82
@@ -107,7 +107,7 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    time_alive: '2018-03-26T01:48:04Z'
+    time_alive: '2018-03-27T02:00:08Z'
     winrate: 35
   - damage: 292
     disable: 79
@@ -142,7 +142,7 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    time_alive: '2018-03-26T01:47:59Z'
+    time_alive: '2018-03-27T02:00:03Z'
     winrate: 42
   - damage: 270
     disable: 98
@@ -177,7 +177,7 @@ builds:
       icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Spiderling Venom
       type: offense
-    time_alive: '2018-03-26T01:47:24Z'
+    time_alive: '2018-03-27T01:59:28Z'
     winrate: 55
   twos:
   - damage: 413
@@ -214,7 +214,7 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    time_alive: '2018-03-26T01:48:42Z'
+    time_alive: '2018-03-27T02:00:45Z'
     winrate: 52
   - damage: 426
     disable: 101
@@ -250,7 +250,7 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    time_alive: '2018-03-26T01:48:47Z'
+    time_alive: '2018-03-27T02:00:50Z'
     winrate: 47
   - damage: 441
     disable: 76
@@ -287,7 +287,7 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    time_alive: '2018-03-26T01:48:31Z'
+    time_alive: '2018-03-27T02:00:34Z'
     winrate: 68
   - damage: 426
     disable: 128
@@ -323,7 +323,7 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    time_alive: '2018-03-26T01:49:08Z'
+    time_alive: '2018-03-27T02:01:11Z'
     winrate: 53
   - damage: 452
     disable: 92
@@ -360,7 +360,7 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    time_alive: '2018-03-26T01:49:37Z'
+    time_alive: '2018-03-27T02:01:40Z'
     winrate: 51
 description: Pestilus, secret devotee of the evil Rasal, unleashes swarms of insects
   to infest and cripple his enemies. Advisor to the King of Quna, Pestilus is able

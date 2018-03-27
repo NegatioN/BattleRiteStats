@@ -34,7 +34,7 @@ builds:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    time_alive: '2018-03-26T01:47:27Z'
+    time_alive: '2018-03-27T01:59:30Z'
     winrate: 54
   - damage: 518
     disable: 104
@@ -70,7 +70,7 @@ builds:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    time_alive: '2018-03-26T01:47:33Z'
+    time_alive: '2018-03-27T01:59:36Z'
     winrate: 46
   - damage: 543
     disable: 116
@@ -106,7 +106,7 @@ builds:
       icon: 3bf2758e82cebed44856097532c5dd9b
       name: Neurotoxin
       type: support
-    time_alive: '2018-03-26T01:47:26Z'
+    time_alive: '2018-03-27T01:59:29Z'
     winrate: 36
   - damage: 536
     disable: 115
@@ -142,7 +142,7 @@ builds:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    time_alive: '2018-03-26T01:47:49Z'
+    time_alive: '2018-03-27T01:59:52Z'
     winrate: 51
   - damage: 592
     disable: 139
@@ -178,7 +178,7 @@ builds:
       icon: 024cb70192c82c9468e69a41161f490a
       name: Whiplash
       type: offense
-    time_alive: '2018-03-26T01:48:17Z'
+    time_alive: '2018-03-27T02:00:20Z'
     winrate: 55
   twos:
   - damage: 548
@@ -215,7 +215,7 @@ builds:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    time_alive: '2018-03-26T01:47:43Z'
+    time_alive: '2018-03-27T01:59:46Z'
     winrate: 48
   - damage: 627
     disable: 125
@@ -250,7 +250,7 @@ builds:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    time_alive: '2018-03-26T01:47:45Z'
+    time_alive: '2018-03-27T01:59:48Z'
     winrate: 52
   - damage: 674
     disable: 146
@@ -286,7 +286,7 @@ builds:
       icon: 0939b3a016f47504e99e00148489743b
       name: Sinister Sap
       type: offense
-    time_alive: '2018-03-26T01:48:37Z'
+    time_alive: '2018-03-27T02:00:40Z'
     winrate: 50
   - damage: 463
     disable: 92
@@ -322,7 +322,7 @@ builds:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    time_alive: '2018-03-26T01:46:45Z'
+    time_alive: '2018-03-27T01:58:48Z'
     winrate: 70
   - damage: 663
     disable: 144
@@ -358,7 +358,7 @@ builds:
       icon: 024cb70192c82c9468e69a41161f490a
       name: Whiplash
       type: offense
-    time_alive: '2018-03-26T01:48:22Z'
+    time_alive: '2018-03-27T02:00:25Z'
     winrate: 61
 description: "Ancient folklore speaks of Thorn, the destructive apparition. Using\
   \ its network of thorn-covered roots, it would whip, rupture and drain the life\

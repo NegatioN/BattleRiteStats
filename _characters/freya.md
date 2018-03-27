@@ -33,7 +33,7 @@ builds:
       icon: 296bc93338f9bc94a8afca3763e4a778
       name: Thunderstruck
       type: control
-    time_alive: '2018-03-26T01:47:52Z'
+    time_alive: '2018-03-27T01:59:55Z'
     winrate: 63
   - damage: 554
     disable: 79
@@ -67,7 +67,7 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Tempest
       type: mobility
-    time_alive: '2018-03-26T01:47:33Z'
+    time_alive: '2018-03-27T01:59:36Z'
     winrate: 50
   - damage: 547
     disable: 89
@@ -102,7 +102,7 @@ builds:
       icon: 883e2720ad11f2d49b51d9f649c67203
       name: Thundering Spring
       type: mobility
-    time_alive: '2018-03-26T01:47:43Z'
+    time_alive: '2018-03-27T01:59:46Z'
     winrate: 53
   - damage: 479
     disable: 74
@@ -137,7 +137,7 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    time_alive: '2018-03-26T01:47:32Z'
+    time_alive: '2018-03-27T01:59:35Z'
     winrate: 45
   - damage: 499
     disable: 70
@@ -172,7 +172,7 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Rolling Thunder
       type: mobility
-    time_alive: '2018-03-26T01:47:19Z'
+    time_alive: '2018-03-27T01:59:22Z'
     winrate: 76
   twos:
   - damage: 538
@@ -208,7 +208,7 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    time_alive: '2018-03-26T01:47:46Z'
+    time_alive: '2018-03-27T01:59:49Z'
     winrate: 40
   - damage: 627
     disable: 108
@@ -242,7 +242,7 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Tempest
       type: mobility
-    time_alive: '2018-03-26T01:48:08Z'
+    time_alive: '2018-03-27T02:00:11Z'
     winrate: 47
   - damage: 528
     disable: 99
@@ -277,7 +277,7 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
       type: mixed
-    time_alive: '2018-03-26T01:47:22Z'
+    time_alive: '2018-03-27T01:59:25Z'
     winrate: 60
   - damage: 583
     disable: 78
@@ -311,7 +311,7 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    time_alive: '2018-03-26T01:47:54Z'
+    time_alive: '2018-03-27T01:59:57Z'
     winrate: 55
   - damage: 549
     disable: 68
@@ -346,7 +346,7 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    time_alive: '2018-03-26T01:47:51Z'
+    time_alive: '2018-03-27T01:59:54Z'
     winrate: 57
 description: Once a tribe queen, now a fearless contender. Her titanic hammers and
   overwhelming power of lightning is the perfect recipe for destruction.

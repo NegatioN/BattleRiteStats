@@ -34,7 +34,7 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    time_alive: '2018-03-26T01:47:17Z'
+    time_alive: '2018-03-27T01:59:20Z'
     winrate: 56
   - damage: 475
     disable: 64
@@ -67,7 +67,7 @@ builds:
       icon: 97d6d4df3883adc4d99a900f62576ff7
       name: Venom Strike
       type: offense
-    time_alive: '2018-03-26T01:47:49Z'
+    time_alive: '2018-03-27T01:59:52Z'
     winrate: 64
   - damage: 516
     disable: 110
@@ -102,7 +102,7 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    time_alive: '2018-03-26T01:48:00Z'
+    time_alive: '2018-03-27T02:00:03Z'
     winrate: 65
   - damage: 536
     disable: 85
@@ -136,7 +136,7 @@ builds:
       icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
       type: utility
-    time_alive: '2018-03-26T01:47:57Z'
+    time_alive: '2018-03-27T02:00:00Z'
     winrate: 65
   - damage: 335
     disable: 40
@@ -170,7 +170,7 @@ builds:
       icon: 97d6d4df3883adc4d99a900f62576ff7
       name: Venom Strike
       type: offense
-    time_alive: '2018-03-26T01:47:15Z'
+    time_alive: '2018-03-27T01:59:18Z'
     winrate: 57
   twos:
   - damage: 431
@@ -204,7 +204,7 @@ builds:
       icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Mending Toxin
       type: survival
-    time_alive: '2018-03-26T01:46:30Z'
+    time_alive: '2018-03-27T01:58:33Z'
     winrate: 69
   - damage: 571
     disable: 59
@@ -239,7 +239,7 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    time_alive: '2018-03-26T01:47:39Z'
+    time_alive: '2018-03-27T01:59:42Z'
     winrate: 50
   - damage: 469
     disable: 62
@@ -272,7 +272,7 @@ builds:
       icon: 97d6d4df3883adc4d99a900f62576ff7
       name: Slippery Skin
       type: survival
-    time_alive: '2018-03-26T01:47:35Z'
+    time_alive: '2018-03-27T01:59:38Z'
     winrate: 50
   - damage: 581
     disable: 48
@@ -308,7 +308,7 @@ builds:
       icon: 97d6d4df3883adc4d99a900f62576ff7
       name: Venom Strike
       type: offense
-    time_alive: '2018-03-26T01:48:06Z'
+    time_alive: '2018-03-27T02:00:09Z'
     winrate: 45
   - damage: 625
     disable: 87
@@ -343,7 +343,7 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    time_alive: '2018-03-26T01:48:37Z'
+    time_alive: '2018-03-27T02:00:40Z'
     winrate: 67
 description: His background is shrouded in mystery, his movements are supernatural
   and his reputation is whispered about. Croak loves to surprise his enemies, using

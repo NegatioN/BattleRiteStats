@@ -34,7 +34,7 @@ builds:
       icon: baa9baf5b01c5ee42902398a8f946a5a
       name: Tsunami
       type: offense
-    time_alive: '2018-03-26T01:48:01Z'
+    time_alive: '2018-03-27T02:00:04Z'
     winrate: 45
   - damage: 358
     disable: 72
@@ -70,7 +70,7 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Water Walk
       type: mobility
-    time_alive: '2018-03-26T01:48:18Z'
+    time_alive: '2018-03-27T02:00:21Z'
     winrate: 38
   - damage: 297
     disable: 90
@@ -104,7 +104,7 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    time_alive: '2018-03-26T01:47:47Z'
+    time_alive: '2018-03-27T01:59:50Z'
     winrate: 51
   - damage: 360
     disable: 70
@@ -140,7 +140,7 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    time_alive: '2018-03-26T01:48:15Z'
+    time_alive: '2018-03-27T02:00:18Z'
     winrate: 47
   - damage: 335
     disable: 65
@@ -176,7 +176,7 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    time_alive: '2018-03-26T01:48:28Z'
+    time_alive: '2018-03-27T02:00:31Z'
     winrate: 38
   twos:
   - damage: 456
@@ -213,7 +213,7 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    time_alive: '2018-03-26T01:48:56Z'
+    time_alive: '2018-03-27T02:00:59Z'
     winrate: 50
   - damage: 479
     disable: 78
@@ -249,7 +249,7 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    time_alive: '2018-03-26T01:49:11Z'
+    time_alive: '2018-03-27T02:01:14Z'
     winrate: 60
   - damage: 436
     disable: 82
@@ -284,7 +284,7 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Soaking Wet
       type: control
-    time_alive: '2018-03-26T01:48:44Z'
+    time_alive: '2018-03-27T02:00:47Z'
     winrate: 54
   - damage: 468
     disable: 104
@@ -318,7 +318,7 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    time_alive: '2018-03-26T01:48:47Z'
+    time_alive: '2018-03-27T02:00:50Z'
     winrate: 59
   - damage: 416
     disable: 54
@@ -355,7 +355,7 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Water Walk
       type: mobility
-    time_alive: '2018-03-26T01:48:17Z'
+    time_alive: '2018-03-27T02:00:20Z'
     winrate: 58
 description: A sage able to control the oceans and whatever creatures that lurk below.
   Pearl transforms water into volatile attacks, rejuvenating streams and protecting

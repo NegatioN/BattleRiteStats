@@ -33,7 +33,7 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    time_alive: '2018-03-26T01:47:52Z'
+    time_alive: '2018-03-27T01:59:55Z'
     winrate: 51
   - damage: 476
     disable: 106
@@ -67,7 +67,7 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    time_alive: '2018-03-26T01:47:19Z'
+    time_alive: '2018-03-27T01:59:22Z'
     winrate: 43
   - damage: 495
     disable: 103
@@ -101,7 +101,7 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    time_alive: '2018-03-26T01:48:04Z'
+    time_alive: '2018-03-27T02:00:07Z'
     winrate: 68
   - damage: 397
     disable: 63
@@ -136,7 +136,7 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    time_alive: '2018-03-26T01:47:17Z'
+    time_alive: '2018-03-27T01:59:20Z'
     winrate: 44
   - damage: 495
     disable: 117
@@ -170,7 +170,7 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    time_alive: '2018-03-26T01:47:45Z'
+    time_alive: '2018-03-27T01:59:48Z'
     winrate: 52
   twos:
   - damage: 524
@@ -207,7 +207,7 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    time_alive: '2018-03-26T01:47:28Z'
+    time_alive: '2018-03-27T01:59:32Z'
     winrate: 61
   - damage: 532
     disable: 84
@@ -244,7 +244,7 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
       type: offense
-    time_alive: '2018-03-26T01:47:50Z'
+    time_alive: '2018-03-27T01:59:54Z'
     winrate: 49
   - damage: 640
     disable: 113
@@ -281,7 +281,7 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
       type: offense
-    time_alive: '2018-03-26T01:48:09Z'
+    time_alive: '2018-03-27T02:00:13Z'
     winrate: 60
   - damage: 596
     disable: 94
@@ -315,7 +315,7 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    time_alive: '2018-03-26T01:48:25Z'
+    time_alive: '2018-03-27T02:00:29Z'
     winrate: 55
   - damage: 598
     disable: 114
@@ -349,7 +349,7 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
       type: offense
-    time_alive: '2018-03-26T01:48:10Z'
+    time_alive: '2018-03-27T02:00:14Z'
     winrate: 60
 description: Bakko has a proud history as a heroic brawler, armed with both axe and
   shield. He uses his shield to protect teammates and outmaneuver enemies. Watch out

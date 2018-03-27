@@ -34,7 +34,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    time_alive: '2018-03-26T01:47:47Z'
+    time_alive: '2018-03-27T01:59:50Z'
     winrate: 53
   - damage: 607
     disable: 70
@@ -69,7 +69,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    time_alive: '2018-03-26T01:47:24Z'
+    time_alive: '2018-03-27T01:59:27Z'
     winrate: 55
   - damage: 660
     disable: 79
@@ -104,7 +104,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    time_alive: '2018-03-26T01:47:32Z'
+    time_alive: '2018-03-27T01:59:35Z'
     winrate: 60
   - damage: 643
     disable: 74
@@ -139,7 +139,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    time_alive: '2018-03-26T01:47:27Z'
+    time_alive: '2018-03-27T01:59:30Z'
     winrate: 45
   - damage: 575
     disable: 40
@@ -174,7 +174,7 @@ builds:
       icon: 61e058b8f4b79f4419ec1496f223ee36
       name: Inspiration
       type: utility
-    time_alive: '2018-03-26T01:47:28Z'
+    time_alive: '2018-03-27T01:59:31Z'
     winrate: 50
   twos:
   - damage: 547
@@ -210,7 +210,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    time_alive: '2018-03-26T01:47:11Z'
+    time_alive: '2018-03-27T01:59:14Z'
     winrate: 57
   - damage: 560
     disable: 66
@@ -247,7 +247,7 @@ builds:
       icon: 64ae838604146444aac3474b78250f52
       name: Knockout
       type: control
-    time_alive: '2018-03-26T01:47:17Z'
+    time_alive: '2018-03-27T01:59:20Z'
     winrate: 40
   - damage: 638
     disable: 68
@@ -282,7 +282,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    time_alive: '2018-03-26T01:48:01Z'
+    time_alive: '2018-03-27T02:00:04Z'
     winrate: 64
   - damage: 660
     disable: 66
@@ -317,7 +317,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    time_alive: '2018-03-26T01:48:12Z'
+    time_alive: '2018-03-27T02:00:15Z'
     winrate: 50
   - damage: 602
     disable: 67
@@ -354,7 +354,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    time_alive: '2018-03-26T01:46:47Z'
+    time_alive: '2018-03-27T01:58:50Z'
     winrate: 82
 description: A masked creature specialized in dark sorcery and pyro-kinetic powers.
   Casts devastating fire spells on his opponents and avoids close combat. Don't be

@@ -35,7 +35,7 @@ builds:
       icon: 20e8f262eca757942bc23d94aa73ab2a
       name: Surprise Shot
       type: control
-    time_alive: '2018-03-26T01:47:42Z'
+    time_alive: '2018-03-27T01:59:45Z'
     winrate: 53
   - damage: 536
     disable: 104
@@ -70,7 +70,7 @@ builds:
       icon: 20e8f262eca757942bc23d94aa73ab2a
       name: Surprise Shot
       type: control
-    time_alive: '2018-03-26T01:47:44Z'
+    time_alive: '2018-03-27T01:59:47Z'
     winrate: 51
   - damage: 568
     disable: 72
@@ -105,7 +105,7 @@ builds:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    time_alive: '2018-03-26T01:47:32Z'
+    time_alive: '2018-03-27T01:59:35Z'
     winrate: 57
   - damage: 572
     disable: 87
@@ -140,7 +140,7 @@ builds:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    time_alive: '2018-03-26T01:47:59Z'
+    time_alive: '2018-03-27T02:00:02Z'
     winrate: 53
   - damage: 504
     disable: 76
@@ -175,7 +175,7 @@ builds:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    time_alive: '2018-03-26T01:47:11Z'
+    time_alive: '2018-03-27T01:59:14Z'
     winrate: 47
   twos:
   - damage: 551
@@ -211,7 +211,7 @@ builds:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    time_alive: '2018-03-26T01:47:38Z'
+    time_alive: '2018-03-27T01:59:42Z'
     winrate: 48
   - damage: 517
     disable: 75
@@ -245,7 +245,7 @@ builds:
       icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
       name: Desperado
       type: offense
-    time_alive: '2018-03-26T01:47:34Z'
+    time_alive: '2018-03-27T01:59:38Z'
     winrate: 52
   - damage: 531
     disable: 86
@@ -279,7 +279,7 @@ builds:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    time_alive: '2018-03-26T01:47:40Z'
+    time_alive: '2018-03-27T01:59:44Z'
     winrate: 53
   - damage: 492
     disable: 59
@@ -314,7 +314,7 @@ builds:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    time_alive: '2018-03-26T01:47:20Z'
+    time_alive: '2018-03-27T01:59:24Z'
     winrate: 36
   - damage: 557
     disable: 72
@@ -349,7 +349,7 @@ builds:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    time_alive: '2018-03-26T01:47:29Z'
+    time_alive: '2018-03-27T01:59:33Z'
     winrate: 41
 description: A mysterious gunslinger. Born with eagle-eyes and armed with a lethal
   sniper rifle, Jade's pinpoint accuracy is a serious threat for anyone who enters

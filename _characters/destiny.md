@@ -33,7 +33,7 @@ builds:
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
-    time_alive: '2018-03-26T01:47:18Z'
+    time_alive: '2018-03-27T01:59:22Z'
     winrate: 50
   - damage: 535
     disable: 79
@@ -67,7 +67,7 @@ builds:
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
-    time_alive: '2018-03-26T01:47:31Z'
+    time_alive: '2018-03-27T01:59:35Z'
     winrate: 71
   - damage: 549
     disable: 75
@@ -103,7 +103,7 @@ builds:
       icon: 14568f096fcd91f488876796605f5063
       name: Sizzle
       type: offense
-    time_alive: '2018-03-26T01:46:46Z'
+    time_alive: '2018-03-27T01:58:50Z'
     winrate: 46
   - damage: 553
     disable: 88
@@ -137,7 +137,7 @@ builds:
       icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
       type: offense
-    time_alive: '2018-03-26T01:47:20Z'
+    time_alive: '2018-03-27T01:59:24Z'
     winrate: 46
   - damage: 414
     disable: 95
@@ -173,7 +173,7 @@ builds:
       icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
       type: offense
-    time_alive: '2018-03-26T01:46:47Z'
+    time_alive: '2018-03-27T01:58:51Z'
     winrate: 30
   twos:
   - damage: 546
@@ -208,7 +208,7 @@ builds:
       icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
       type: offense
-    time_alive: '2018-03-26T01:47:25Z'
+    time_alive: '2018-03-27T01:59:29Z'
     winrate: 56
   - damage: 526
     disable: 81
@@ -242,7 +242,7 @@ builds:
       icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
       type: offense
-    time_alive: '2018-03-26T01:47:03Z'
+    time_alive: '2018-03-27T01:59:07Z'
     winrate: 52
   - damage: 475
     disable: 72
@@ -277,7 +277,7 @@ builds:
       icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
       type: offense
-    time_alive: '2018-03-26T01:47:34Z'
+    time_alive: '2018-03-27T01:59:38Z'
     winrate: 41
   - damage: 586
     disable: 97
@@ -312,7 +312,7 @@ builds:
       icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
       type: offense
-    time_alive: '2018-03-26T01:48:04Z'
+    time_alive: '2018-03-27T02:00:08Z'
     winrate: 78
   - damage: 411
     disable: 49
@@ -347,7 +347,7 @@ builds:
       icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
       type: offense
-    time_alive: '2018-03-26T01:46:28Z'
+    time_alive: '2018-03-27T01:58:32Z'
     winrate: 46
 description: An elite sky ranger from the secluded, invisible city of Enza. Many years
   of rigorous combat training using Magi-tech weaponry makes Destiny an agile and

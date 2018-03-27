@@ -32,7 +32,7 @@ builds:
       icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
       type: offense
-    time_alive: '2018-03-26T01:48:00Z'
+    time_alive: '2018-03-27T02:00:04Z'
     winrate: 49
   - damage: 203
     disable: 71
@@ -66,7 +66,7 @@ builds:
       icon: 470a917c1ac62c04ea45acc6a35c5f73
       name: Swift Roll
       type: mobility
-    time_alive: '2018-03-26T01:47:26Z'
+    time_alive: '2018-03-27T01:59:29Z'
     winrate: 55
   - damage: 249
     disable: 72
@@ -99,7 +99,7 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    time_alive: '2018-03-26T01:47:45Z'
+    time_alive: '2018-03-27T01:59:48Z'
     winrate: 65
   - damage: 270
     disable: 74
@@ -134,7 +134,7 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    time_alive: '2018-03-26T01:47:33Z'
+    time_alive: '2018-03-27T01:59:36Z'
     winrate: 66
   - damage: 239
     disable: 82
@@ -167,7 +167,7 @@ builds:
       icon: 470a917c1ac62c04ea45acc6a35c5f73
       name: Swift Roll
       type: mobility
-    time_alive: '2018-03-26T01:47:55Z'
+    time_alive: '2018-03-27T01:59:59Z'
     winrate: 61
   twos:
   - damage: 373
@@ -201,7 +201,7 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    time_alive: '2018-03-26T01:47:42Z'
+    time_alive: '2018-03-27T01:59:45Z'
     winrate: 60
   - damage: 311
     disable: 87
@@ -236,7 +236,7 @@ builds:
       icon: 470a917c1ac62c04ea45acc6a35c5f73
       name: Swift Roll
       type: mobility
-    time_alive: '2018-03-26T01:46:56Z'
+    time_alive: '2018-03-27T01:58:59Z'
     winrate: 50
   - damage: 413
     disable: 98
@@ -271,7 +271,7 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    time_alive: '2018-03-26T01:48:08Z'
+    time_alive: '2018-03-27T02:00:11Z'
     winrate: 64
   - damage: 369
     disable: 88
@@ -305,7 +305,7 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    time_alive: '2018-03-26T01:47:47Z'
+    time_alive: '2018-03-27T01:59:50Z'
     winrate: 60
   - damage: 348
     disable: 99
@@ -340,7 +340,7 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    time_alive: '2018-03-26T01:47:57Z'
+    time_alive: '2018-03-27T02:00:00Z'
     winrate: 57
 description: Lucie is a diverse contender who knows which brew makes you choke, heal
   or flee in fear. The arena has become her new playground for wild experiments.

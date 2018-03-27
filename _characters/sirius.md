@@ -35,7 +35,7 @@ builds:
       icon: f13a6cad4bcaa974f8147e8a29a49dfe
       name: Sunbath
       type: support
-    time_alive: '2018-03-26T01:47:06Z'
+    time_alive: '2018-03-27T01:59:09Z'
     winrate: 51
   - damage: 274
     disable: 93
@@ -73,7 +73,7 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    time_alive: '2018-03-26T01:48:08Z'
+    time_alive: '2018-03-27T02:00:11Z'
     winrate: 55
   - damage: 267
     disable: 62
@@ -109,7 +109,7 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    time_alive: '2018-03-26T01:47:09Z'
+    time_alive: '2018-03-27T01:59:12Z'
     winrate: 54
   - damage: 270
     disable: 93
@@ -147,7 +147,7 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    time_alive: '2018-03-26T01:48:10Z'
+    time_alive: '2018-03-27T02:00:13Z'
     winrate: 49
   - damage: 295
     disable: 55
@@ -182,7 +182,7 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    time_alive: '2018-03-26T01:47:18Z'
+    time_alive: '2018-03-27T01:59:21Z'
     winrate: 52
   twos:
   - damage: 353
@@ -219,7 +219,7 @@ builds:
       icon: f13a6cad4bcaa974f8147e8a29a49dfe
       name: Sunbath
       type: support
-    time_alive: '2018-03-26T01:48:02Z'
+    time_alive: '2018-03-27T02:00:05Z'
     winrate: 51
   - damage: 335
     disable: 79
@@ -255,7 +255,7 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    time_alive: '2018-03-26T01:47:44Z'
+    time_alive: '2018-03-27T01:59:47Z'
     winrate: 48
   - damage: 390
     disable: 57
@@ -289,7 +289,7 @@ builds:
       icon: f13a6cad4bcaa974f8147e8a29a49dfe
       name: Sunbath
       type: support
-    time_alive: '2018-03-26T01:48:10Z'
+    time_alive: '2018-03-27T02:00:13Z'
     winrate: 53
   - damage: 332
     disable: 57
@@ -324,7 +324,7 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    time_alive: '2018-03-26T01:47:37Z'
+    time_alive: '2018-03-27T01:59:40Z'
     winrate: 52
   - damage: 335
     disable: 76
@@ -361,7 +361,7 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    time_alive: '2018-03-26T01:47:54Z'
+    time_alive: '2018-03-27T01:59:57Z'
     winrate: 44
 description: Sirius, a calm prodigy who uses the energies of stars and planets as
   destructive spells and healing powers. The prophecy was true and foretold the birth

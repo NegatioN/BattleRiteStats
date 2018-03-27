@@ -33,7 +33,7 @@ builds:
       icon: d5c38afdefecf224b9a71bdfdb60dee1
       name: Headlong Rush
       type: mobility
-    time_alive: '2018-03-26T01:48:02Z'
+    time_alive: '2018-03-27T02:00:05Z'
     winrate: 53
   - damage: 506
     disable: 35
@@ -69,7 +69,7 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Overflowing Power
       type: survival
-    time_alive: '2018-03-26T01:47:55Z'
+    time_alive: '2018-03-27T01:59:58Z'
     winrate: 72
   - damage: 473
     disable: 56
@@ -103,7 +103,7 @@ builds:
       icon: d5c38afdefecf224b9a71bdfdb60dee1
       name: Headlong Rush
       type: mobility
-    time_alive: '2018-03-26T01:47:53Z'
+    time_alive: '2018-03-27T01:59:56Z'
     winrate: 54
   - damage: 505
     disable: 88
@@ -137,7 +137,7 @@ builds:
       icon: d5c38afdefecf224b9a71bdfdb60dee1
       name: Headlong Rush
       type: mobility
-    time_alive: '2018-03-26T01:47:46Z'
+    time_alive: '2018-03-27T01:59:49Z'
     winrate: 44
   - damage: 433
     disable: 59
@@ -172,7 +172,7 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Overflowing Power
       type: survival
-    time_alive: '2018-03-26T01:46:36Z'
+    time_alive: '2018-03-27T01:58:39Z'
     winrate: 28
   twos:
   - damage: 497
@@ -208,7 +208,7 @@ builds:
       icon: fbfb00ff4fa4bc542b54639b84406f01
       name: Invigorate
       type: support
-    time_alive: '2018-03-26T01:47:31Z'
+    time_alive: '2018-03-27T01:59:34Z'
     winrate: 47
   - damage: 584
     disable: 103
@@ -244,7 +244,7 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    time_alive: '2018-03-26T01:48:28Z'
+    time_alive: '2018-03-27T02:00:31Z'
     winrate: 41
   - damage: 522
     disable: 69
@@ -279,7 +279,7 @@ builds:
       icon: 3c1f1a5c65f54594a9d3ba17b8f1b2a2
       name: Perilous Height
       type: offense
-    time_alive: '2018-03-26T01:47:33Z'
+    time_alive: '2018-03-27T01:59:36Z'
     winrate: 29
   - damage: 549
     disable: 53
@@ -315,7 +315,7 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Overflowing Power
       type: survival
-    time_alive: '2018-03-26T01:47:58Z'
+    time_alive: '2018-03-27T02:00:01Z'
     winrate: 37
   - damage: 579
     disable: 54
@@ -352,7 +352,7 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Overflowing Power
       type: survival
-    time_alive: '2018-03-26T01:48:38Z'
+    time_alive: '2018-03-27T02:00:41Z'
     winrate: 33
 description: Raigon, formerly the crown prince of Quna, is a skilled melee fighter
   trained in two-handed swordsmanship and martial arts. He hopes to break the evil

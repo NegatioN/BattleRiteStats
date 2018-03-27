@@ -33,7 +33,7 @@ builds:
       icon: dfc86226d7b2a6d438dad7dfca7a0d52
       name: Specter
       type: support
-    time_alive: '2018-03-26T01:47:32Z'
+    time_alive: '2018-03-27T01:59:35Z'
     winrate: 59
   - damage: 416
     disable: 57
@@ -68,7 +68,7 @@ builds:
       icon: 70d64cab20af264438c599ba3ecdd2c4
       name: Silver Fang
       type: offense
-    time_alive: '2018-03-26T01:47:49Z'
+    time_alive: '2018-03-27T01:59:52Z'
     winrate: 74
   - damage: 328
     disable: 75
@@ -102,7 +102,7 @@ builds:
       icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
       type: control
-    time_alive: '2018-03-26T01:48:22Z'
+    time_alive: '2018-03-27T02:00:25Z'
     winrate: 67
   - damage: 406
     disable: 78
@@ -136,7 +136,7 @@ builds:
       icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
       type: control
-    time_alive: '2018-03-26T01:47:51Z'
+    time_alive: '2018-03-27T01:59:54Z'
     winrate: 65
   - damage: 376
     disable: 73
@@ -170,7 +170,7 @@ builds:
       icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
       type: control
-    time_alive: '2018-03-26T01:48:10Z'
+    time_alive: '2018-03-27T02:00:13Z'
     winrate: 46
   twos:
   - damage: 420
@@ -207,7 +207,7 @@ builds:
       icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
       type: control
-    time_alive: '2018-03-26T01:48:17Z'
+    time_alive: '2018-03-27T02:00:20Z'
     winrate: 50
   - damage: 431
     disable: 61
@@ -242,7 +242,7 @@ builds:
       icon: dfc86226d7b2a6d438dad7dfca7a0d52
       name: Specter
       type: support
-    time_alive: '2018-03-26T01:48:31Z'
+    time_alive: '2018-03-27T02:00:35Z'
     winrate: 30
   - damage: 380
     disable: 78
@@ -277,7 +277,7 @@ builds:
       icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
       type: control
-    time_alive: '2018-03-26T01:47:57Z'
+    time_alive: '2018-03-27T02:00:00Z'
     winrate: 48
   - damage: 421
     disable: 82
@@ -312,7 +312,7 @@ builds:
       icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
       type: control
-    time_alive: '2018-03-26T01:47:46Z'
+    time_alive: '2018-03-27T01:59:49Z'
     winrate: 62
   - damage: 445
     disable: 65
@@ -347,7 +347,7 @@ builds:
       icon: 70d64cab20af264438c599ba3ecdd2c4
       name: Silver Fang
       type: offense
-    time_alive: '2018-03-26T01:49:18Z'
+    time_alive: '2018-03-27T02:01:21Z'
     winrate: 60
 description: Poloma uses shamanic powers to guide life and spirits alongside her protector
   and loyal creature, Toki. A dark disturbance among souls has put Poloma on a new

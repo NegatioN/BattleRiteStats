@@ -36,7 +36,7 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    time_alive: '2018-03-26T01:47:49Z'
+    time_alive: '2018-03-27T01:59:52Z'
     winrate: 51
   - damage: 432
     disable: 53
@@ -72,7 +72,7 @@ builds:
       icon: 35a1515e35b5104449dfa8802c5aa0e2
       name: Time Burst
       type: offense
-    time_alive: '2018-03-26T01:47:45Z'
+    time_alive: '2018-03-27T01:59:48Z'
     winrate: 63
   - damage: 393
     disable: 56
@@ -108,7 +108,7 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    time_alive: '2018-03-26T01:47:30Z'
+    time_alive: '2018-03-27T01:59:33Z'
     winrate: 50
   - damage: 361
     disable: 63
@@ -144,7 +144,7 @@ builds:
       icon: 89c37320af892ae43b410f4d610d7ea8
       name: Sandstorm
       type: offense
-    time_alive: '2018-03-26T01:47:20Z'
+    time_alive: '2018-03-27T01:59:23Z'
     winrate: 53
   - damage: 371
     disable: 53
@@ -182,7 +182,7 @@ builds:
       icon: a22c6c4bc967d4e48a44f0e87a93023e
       name: Time Walker
       type: mobility
-    time_alive: '2018-03-26T01:47:37Z'
+    time_alive: '2018-03-27T01:59:40Z'
     winrate: 40
   twos:
   - damage: 448
@@ -219,7 +219,7 @@ builds:
       icon: 89c37320af892ae43b410f4d610d7ea8
       name: Sandstorm
       type: offense
-    time_alive: '2018-03-26T01:47:39Z'
+    time_alive: '2018-03-27T01:59:42Z'
     winrate: 57
   - damage: 477
     disable: 51
@@ -256,7 +256,7 @@ builds:
       icon: 89c37320af892ae43b410f4d610d7ea8
       name: Sandstorm
       type: offense
-    time_alive: '2018-03-26T01:48:03Z'
+    time_alive: '2018-03-27T02:00:06Z'
     winrate: 59
   - damage: 498
     disable: 39
@@ -293,7 +293,7 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    time_alive: '2018-03-26T01:48:02Z'
+    time_alive: '2018-03-27T02:00:05Z'
     winrate: 52
   - damage: 456
     disable: 76
@@ -329,7 +329,7 @@ builds:
       icon: a22c6c4bc967d4e48a44f0e87a93023e
       name: Time Walker
       type: mobility
-    time_alive: '2018-03-26T01:47:43Z'
+    time_alive: '2018-03-27T01:59:46Z'
     winrate: 62
   - damage: 445
     disable: 58
@@ -365,7 +365,7 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    time_alive: '2018-03-26T01:47:55Z'
+    time_alive: '2018-03-27T01:59:58Z'
     winrate: 47
 description: Oldur, a mysterious creature able to bend time and space. He can mend
   wounds with powerful heals and reverse enemy attacks by freezing them in time.

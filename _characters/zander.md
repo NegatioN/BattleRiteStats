@@ -34,7 +34,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    time_alive: '2018-03-26T01:48:11Z'
+    time_alive: '2018-03-27T02:00:14Z'
     winrate: 56
   - damage: 295
     disable: 44
@@ -68,7 +68,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    time_alive: '2018-03-26T01:48:09Z'
+    time_alive: '2018-03-27T02:00:12Z'
     winrate: 55
   - damage: 327
     disable: 48
@@ -102,7 +102,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    time_alive: '2018-03-26T01:48:20Z'
+    time_alive: '2018-03-27T02:00:23Z'
     winrate: 70
   - damage: 309
     disable: 38
@@ -137,7 +137,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    time_alive: '2018-03-26T01:48:23Z'
+    time_alive: '2018-03-27T02:00:26Z'
     winrate: 43
   - damage: 354
     disable: 54
@@ -173,7 +173,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    time_alive: '2018-03-26T01:48:29Z'
+    time_alive: '2018-03-27T02:00:32Z'
     winrate: 61
   twos:
   - damage: 352
@@ -209,7 +209,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    time_alive: '2018-03-26T01:48:23Z'
+    time_alive: '2018-03-27T02:00:26Z'
     winrate: 46
   - damage: 403
     disable: 51
@@ -243,7 +243,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    time_alive: '2018-03-26T01:48:37Z'
+    time_alive: '2018-03-27T02:00:40Z'
     winrate: 63
   - damage: 389
     disable: 51
@@ -278,7 +278,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    time_alive: '2018-03-26T01:49:01Z'
+    time_alive: '2018-03-27T02:01:04Z'
     winrate: 54
   - damage: 399
     disable: 47
@@ -314,7 +314,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    time_alive: '2018-03-26T01:48:56Z'
+    time_alive: '2018-03-27T02:00:59Z'
     winrate: 49
   - damage: 426
     disable: 53
@@ -350,7 +350,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    time_alive: '2018-03-26T01:48:29Z'
+    time_alive: '2018-03-27T02:00:32Z'
     winrate: 66
 description: When the famous theatre troupe "The Phantomime Masquerade" disbanded
   after a series of tragic events, their magnificent magician Zander vanished without
