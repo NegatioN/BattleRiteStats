@@ -34,7 +34,7 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    time_alive: '2018-03-27T07:14:55Z'
+    time_alive: '2018-03-28T01:44:32Z'
     winrate: 46
   - damage: 326
     disable: 65
@@ -67,7 +67,7 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    time_alive: '2018-03-27T07:15:11Z'
+    time_alive: '2018-03-28T01:44:48Z'
     winrate: 50
   - damage: 225
     disable: 49
@@ -101,7 +101,7 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    time_alive: '2018-03-27T07:14:42Z'
+    time_alive: '2018-03-28T01:44:19Z'
     winrate: 31
   - damage: 393
     disable: 78
@@ -135,7 +135,7 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    time_alive: '2018-03-27T07:15:00Z'
+    time_alive: '2018-03-28T01:44:37Z'
     winrate: 57
   - damage: 225
     disable: 47
@@ -169,7 +169,7 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    time_alive: '2018-03-27T07:14:55Z'
+    time_alive: '2018-03-28T01:44:32Z'
     winrate: 30
   twos:
   - damage: 418
@@ -203,7 +203,7 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    time_alive: '2018-03-27T07:15:45Z'
+    time_alive: '2018-03-28T01:45:22Z'
     winrate: 57
   - damage: 411
     disable: 78
@@ -237,7 +237,7 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    time_alive: '2018-03-27T07:15:46Z'
+    time_alive: '2018-03-28T01:45:23Z'
     winrate: 53
   - damage: 365
     disable: 69
@@ -271,7 +271,7 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    time_alive: '2018-03-27T07:15:10Z'
+    time_alive: '2018-03-28T01:44:47Z'
     winrate: 47
   - damage: 459
     disable: 83
@@ -305,7 +305,7 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    time_alive: '2018-03-27T07:15:52Z'
+    time_alive: '2018-03-28T01:45:29Z'
     winrate: 59
   - damage: 395
     disable: 74
@@ -338,7 +338,7 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    time_alive: '2018-03-27T07:15:02Z'
+    time_alive: '2018-03-28T01:44:39Z'
     winrate: 62
 description: Blossom is a happy, bubbly young faun from the Silverdeep Forest. She
   has left her home to investigate a disturbance in the natural order. She is never

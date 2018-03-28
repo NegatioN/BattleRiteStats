@@ -35,7 +35,7 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    time_alive: '2018-03-27T07:15:01Z'
+    time_alive: '2018-03-28T01:44:38Z'
     winrate: 57
   - damage: 536
     disable: 42
@@ -72,7 +72,7 @@ builds:
       icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
       type: offense
-    time_alive: '2018-03-27T07:14:50Z'
+    time_alive: '2018-03-28T01:44:27Z'
     winrate: 53
   - damage: 516
     disable: 45
@@ -109,7 +109,7 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    time_alive: '2018-03-27T07:15:08Z'
+    time_alive: '2018-03-28T01:44:45Z'
     winrate: 48
   - damage: 505
     disable: 49
@@ -144,7 +144,7 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    time_alive: '2018-03-27T07:14:55Z'
+    time_alive: '2018-03-28T01:44:32Z'
     winrate: 48
   - damage: 597
     disable: 55
@@ -180,7 +180,7 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    time_alive: '2018-03-27T07:15:16Z'
+    time_alive: '2018-03-28T01:44:53Z'
     winrate: 59
   twos:
   - damage: 581
@@ -217,7 +217,7 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    time_alive: '2018-03-27T07:15:03Z'
+    time_alive: '2018-03-28T01:44:39Z'
     winrate: 53
   - damage: 578
     disable: 41
@@ -254,7 +254,7 @@ builds:
       icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
       type: offense
-    time_alive: '2018-03-27T07:14:55Z'
+    time_alive: '2018-03-28T01:44:31Z'
     winrate: 49
   - damage: 597
     disable: 50
@@ -290,7 +290,7 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    time_alive: '2018-03-27T07:15:35Z'
+    time_alive: '2018-03-28T01:45:11Z'
     winrate: 48
   - damage: 582
     disable: 46
@@ -327,7 +327,7 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    time_alive: '2018-03-27T07:15:17Z'
+    time_alive: '2018-03-28T01:44:53Z'
     winrate: 52
   - damage: 584
     disable: 44
@@ -363,7 +363,7 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    time_alive: '2018-03-27T07:15:07Z'
+    time_alive: '2018-03-28T01:44:43Z'
     winrate: 51
 description: Expert in the martial art of Ni'Shu and master of the spear. A highly
   mobile and dangerous duelist. His extraordinary combat prowess culminates in a range

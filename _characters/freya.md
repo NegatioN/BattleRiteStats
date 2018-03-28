@@ -33,7 +33,7 @@ builds:
       icon: 296bc93338f9bc94a8afca3763e4a778
       name: Thunderstruck
       type: control
-    time_alive: '2018-03-27T07:15:29Z'
+    time_alive: '2018-03-28T01:45:05Z'
     winrate: 47
   - damage: 514
     disable: 73
@@ -67,7 +67,7 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Tempest
       type: mobility
-    time_alive: '2018-03-27T07:15:06Z'
+    time_alive: '2018-03-28T01:44:42Z'
     winrate: 50
   - damage: 460
     disable: 69
@@ -102,7 +102,7 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    time_alive: '2018-03-27T07:15:11Z'
+    time_alive: '2018-03-28T01:44:47Z'
     winrate: 45
   - damage: 540
     disable: 89
@@ -137,7 +137,7 @@ builds:
       icon: 883e2720ad11f2d49b51d9f649c67203
       name: Thundering Spring
       type: mobility
-    time_alive: '2018-03-27T07:15:23Z'
+    time_alive: '2018-03-28T01:44:59Z'
     winrate: 42
   - damage: 598
     disable: 117
@@ -172,7 +172,7 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
       type: mixed
-    time_alive: '2018-03-27T07:15:41Z'
+    time_alive: '2018-03-28T01:45:17Z'
     winrate: 55
   twos:
   - damage: 597
@@ -207,7 +207,7 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Tempest
       type: mobility
-    time_alive: '2018-03-27T07:15:33Z'
+    time_alive: '2018-03-28T01:45:10Z'
     winrate: 47
   - damage: 545
     disable: 75
@@ -242,7 +242,7 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    time_alive: '2018-03-27T07:15:17Z'
+    time_alive: '2018-03-28T01:44:54Z'
     winrate: 50
   - damage: 533
     disable: 97
@@ -277,7 +277,7 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
       type: mixed
-    time_alive: '2018-03-27T07:15:03Z'
+    time_alive: '2018-03-28T01:44:40Z'
     winrate: 56
   - damage: 522
     disable: 96
@@ -312,7 +312,7 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
       type: mixed
-    time_alive: '2018-03-27T07:15:32Z'
+    time_alive: '2018-03-28T01:45:09Z'
     winrate: 50
   - damage: 580
     disable: 76
@@ -346,7 +346,7 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    time_alive: '2018-03-27T07:15:37Z'
+    time_alive: '2018-03-28T01:45:14Z'
     winrate: 42
 description: Once a tribe queen, now a fearless contender. Her titanic hammers and
   overwhelming power of lightning is the perfect recipe for destruction.

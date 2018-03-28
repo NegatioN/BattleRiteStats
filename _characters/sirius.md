@@ -35,7 +35,7 @@ builds:
       icon: f13a6cad4bcaa974f8147e8a29a49dfe
       name: Sunbath
       type: support
-    time_alive: '2018-03-27T07:14:36Z'
+    time_alive: '2018-03-28T01:44:13Z'
     winrate: 53
   - damage: 277
     disable: 91
@@ -73,7 +73,7 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    time_alive: '2018-03-27T07:15:28Z'
+    time_alive: '2018-03-28T01:45:05Z'
     winrate: 55
   - damage: 291
     disable: 62
@@ -109,7 +109,7 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    time_alive: '2018-03-27T07:14:52Z'
+    time_alive: '2018-03-28T01:44:29Z'
     winrate: 52
   - damage: 331
     disable: 57
@@ -143,7 +143,7 @@ builds:
       icon: f13a6cad4bcaa974f8147e8a29a49dfe
       name: Sunbath
       type: support
-    time_alive: '2018-03-27T07:15:26Z'
+    time_alive: '2018-03-28T01:45:03Z'
     winrate: 46
   - damage: 280
     disable: 63
@@ -180,7 +180,7 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    time_alive: '2018-03-27T07:16:12Z'
+    time_alive: '2018-03-28T01:45:49Z'
     winrate: 55
   twos:
   - damage: 313
@@ -217,7 +217,7 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    time_alive: '2018-03-27T07:15:06Z'
+    time_alive: '2018-03-28T01:44:43Z'
     winrate: 48
   - damage: 368
     disable: 81
@@ -253,7 +253,7 @@ builds:
       icon: f13a6cad4bcaa974f8147e8a29a49dfe
       name: Sunbath
       type: support
-    time_alive: '2018-03-27T07:15:25Z'
+    time_alive: '2018-03-28T01:45:02Z'
     winrate: 59
   - damage: 366
     disable: 65
@@ -288,7 +288,7 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    time_alive: '2018-03-27T07:15:22Z'
+    time_alive: '2018-03-28T01:44:59Z'
     winrate: 54
   - damage: 392
     disable: 63
@@ -322,7 +322,7 @@ builds:
       icon: f13a6cad4bcaa974f8147e8a29a49dfe
       name: Sunbath
       type: support
-    time_alive: '2018-03-27T07:15:33Z'
+    time_alive: '2018-03-28T01:45:10Z'
     winrate: 70
   - damage: 285
     disable: 54
@@ -358,7 +358,7 @@ builds:
       icon: c2d82c257d770664682e9df0dadb6596
       name: Sunscreen
       type: survival
-    time_alive: '2018-03-27T07:14:10Z'
+    time_alive: '2018-03-28T01:43:47Z'
     winrate: 48
 description: Sirius, a calm prodigy who uses the energies of stars and planets as
   destructive spells and healing powers. The prophecy was true and foretold the birth

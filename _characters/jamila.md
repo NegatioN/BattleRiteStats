@@ -34,7 +34,7 @@ builds:
       icon: fa9b6a58fa6398b4ea4c4756152bd079
       name: Push Off
       type: mobility
-    time_alive: '2018-03-27T07:15:30Z'
+    time_alive: '2018-03-28T01:45:07Z'
     winrate: 51
   - damage: 423
     disable: 105
@@ -69,7 +69,7 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    time_alive: '2018-03-27T07:14:50Z'
+    time_alive: '2018-03-28T01:44:27Z'
     winrate: 45
   - damage: 471
     disable: 86
@@ -104,7 +104,7 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    time_alive: '2018-03-27T07:15:03Z'
+    time_alive: '2018-03-28T01:44:40Z'
     winrate: 61
   - damage: 492
     disable: 114
@@ -139,7 +139,7 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    time_alive: '2018-03-27T07:14:57Z'
+    time_alive: '2018-03-28T01:44:34Z'
     winrate: 62
   - damage: 479
     disable: 88
@@ -175,7 +175,7 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    time_alive: '2018-03-27T07:15:10Z'
+    time_alive: '2018-03-28T01:44:47Z'
     winrate: 44
   twos:
   - damage: 480
@@ -211,7 +211,7 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    time_alive: '2018-03-27T07:15:15Z'
+    time_alive: '2018-03-28T01:44:52Z'
     winrate: 44
   - damage: 384
     disable: 73
@@ -245,7 +245,7 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    time_alive: '2018-03-27T07:14:04Z'
+    time_alive: '2018-03-28T01:43:41Z'
     winrate: 35
   - damage: 450
     disable: 85
@@ -279,7 +279,7 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    time_alive: '2018-03-27T07:14:45Z'
+    time_alive: '2018-03-28T01:44:22Z'
     winrate: 48
   - damage: 512
     disable: 81
@@ -315,7 +315,7 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    time_alive: '2018-03-27T07:15:03Z'
+    time_alive: '2018-03-28T01:44:40Z'
     winrate: 62
   - damage: 461
     disable: 83
@@ -350,7 +350,7 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    time_alive: '2018-03-27T07:14:32Z'
+    time_alive: '2018-03-28T01:44:09Z'
     winrate: 28
 description: "A young assassin from the Shadowblade clan, Jamila suddenly found herself\
   \ the new leader after the death of her mother, the previous matriarch. As the youngest\

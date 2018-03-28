@@ -34,7 +34,7 @@ builds:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
       type: support
-    time_alive: '2018-03-27T07:15:41Z'
+    time_alive: '2018-03-28T01:45:18Z'
     winrate: 64
   - damage: 546
     disable: 25
@@ -69,7 +69,7 @@ builds:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
       type: support
-    time_alive: '2018-03-27T07:14:33Z'
+    time_alive: '2018-03-28T01:44:10Z'
     winrate: 57
   - damage: 505
     disable: 27
@@ -103,7 +103,7 @@ builds:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
       type: support
-    time_alive: '2018-03-27T07:15:36Z'
+    time_alive: '2018-03-28T01:45:13Z'
     winrate: 36
   - damage: 494
     disable: 36
@@ -137,7 +137,7 @@ builds:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
       type: support
-    time_alive: '2018-03-27T07:14:54Z'
+    time_alive: '2018-03-28T01:44:31Z'
     winrate: 61
   - damage: 516
     disable: 36
@@ -174,7 +174,7 @@ builds:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Zeal
       type: control
-    time_alive: '2018-03-27T07:15:22Z'
+    time_alive: '2018-03-28T01:44:59Z'
     winrate: 61
   twos:
   - damage: 538
@@ -210,7 +210,7 @@ builds:
       icon: c2525970f8ab5574191da4938fa5619b
       name: Silence
       type: control
-    time_alive: '2018-03-27T07:15:25Z'
+    time_alive: '2018-03-28T01:45:01Z'
     winrate: 64
   - damage: 554
     disable: 33
@@ -244,7 +244,7 @@ builds:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
       type: support
-    time_alive: '2018-03-27T07:14:41Z'
+    time_alive: '2018-03-28T01:44:18Z'
     winrate: 60
   - damage: 554
     disable: 41
@@ -281,7 +281,7 @@ builds:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Zeal
       type: control
-    time_alive: '2018-03-27T07:15:27Z'
+    time_alive: '2018-03-28T01:45:04Z'
     winrate: 46
   - damage: 475
     disable: 37
@@ -315,7 +315,7 @@ builds:
       icon: 2771f14010b802143b0b4d5fc8e4bb9c
       name: Ruin
       type: offense
-    time_alive: '2018-03-27T07:15:41Z'
+    time_alive: '2018-03-28T01:45:18Z'
     winrate: 66
   - damage: 477
     disable: 32
@@ -351,7 +351,7 @@ builds:
       icon: fe5369baf5a80dc47b0656ae7be82e09
       name: Unlimited Power
       type: survival
-    time_alive: '2018-03-27T07:14:50Z'
+    time_alive: '2018-03-28T01:44:26Z'
     winrate: 62
 description: A being formed by the energies of others. Varesh uses his power  to weaken
   and disrupt his enemies. By combining his powers he is able to unleash devastating

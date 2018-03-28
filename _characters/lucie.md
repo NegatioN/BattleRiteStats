@@ -32,7 +32,7 @@ builds:
       icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
       type: offense
-    time_alive: '2018-03-27T07:15:18Z'
+    time_alive: '2018-03-28T01:44:55Z'
     winrate: 55
   - damage: 230
     disable: 75
@@ -66,7 +66,7 @@ builds:
       icon: 470a917c1ac62c04ea45acc6a35c5f73
       name: Swift Roll
       type: mobility
-    time_alive: '2018-03-27T07:15:39Z'
+    time_alive: '2018-03-28T01:45:16Z'
     winrate: 60
   - damage: 330
     disable: 97
@@ -100,7 +100,7 @@ builds:
       icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
       type: offense
-    time_alive: '2018-03-27T07:15:55Z'
+    time_alive: '2018-03-28T01:45:32Z'
     winrate: 57
   - damage: 232
     disable: 65
@@ -133,7 +133,7 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    time_alive: '2018-03-27T07:14:52Z'
+    time_alive: '2018-03-28T01:44:29Z'
     winrate: 64
   - damage: 325
     disable: 89
@@ -166,7 +166,7 @@ builds:
       icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
       type: offense
-    time_alive: '2018-03-27T07:15:29Z'
+    time_alive: '2018-03-28T01:45:06Z'
     winrate: 57
   twos:
   - damage: 381
@@ -202,7 +202,7 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    time_alive: '2018-03-27T07:15:55Z'
+    time_alive: '2018-03-28T01:45:32Z'
     winrate: 54
   - damage: 382
     disable: 95
@@ -235,7 +235,7 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    time_alive: '2018-03-27T07:15:46Z'
+    time_alive: '2018-03-28T01:45:23Z'
     winrate: 56
   - damage: 362
     disable: 88
@@ -269,7 +269,7 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    time_alive: '2018-03-27T07:15:26Z'
+    time_alive: '2018-03-28T01:45:03Z'
     winrate: 68
   - damage: 385
     disable: 99
@@ -303,7 +303,7 @@ builds:
       icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
       type: offense
-    time_alive: '2018-03-27T07:15:25Z'
+    time_alive: '2018-03-28T01:45:02Z'
     winrate: 53
   - damage: 300
     disable: 84
@@ -338,7 +338,7 @@ builds:
       icon: 470a917c1ac62c04ea45acc6a35c5f73
       name: Swift Roll
       type: mobility
-    time_alive: '2018-03-27T07:14:39Z'
+    time_alive: '2018-03-28T01:44:16Z'
     winrate: 52
 description: Lucie is a diverse contender who knows which brew makes you choke, heal
   or flee in fear. The arena has become her new playground for wild experiments.

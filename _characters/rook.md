@@ -32,7 +32,7 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    time_alive: '2018-03-27T07:15:25Z'
+    time_alive: '2018-03-28T01:45:02Z'
     winrate: 58
   - damage: 486
     disable: 104
@@ -65,7 +65,7 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
       type: support
-    time_alive: '2018-03-27T07:15:14Z'
+    time_alive: '2018-03-28T01:44:51Z'
     winrate: 57
   - damage: 432
     disable: 99
@@ -97,7 +97,7 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    time_alive: '2018-03-27T07:14:53Z'
+    time_alive: '2018-03-28T01:44:30Z'
     winrate: 50
   - damage: 458
     disable: 99
@@ -129,7 +129,7 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    time_alive: '2018-03-27T07:15:35Z'
+    time_alive: '2018-03-28T01:45:12Z'
     winrate: 46
   - damage: 488
     disable: 109
@@ -162,7 +162,7 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    time_alive: '2018-03-27T07:15:39Z'
+    time_alive: '2018-03-28T01:45:16Z'
     winrate: 43
   twos:
   - damage: 472
@@ -196,7 +196,7 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    time_alive: '2018-03-27T07:15:18Z'
+    time_alive: '2018-03-28T01:44:55Z'
     winrate: 48
   - damage: 543
     disable: 114
@@ -229,7 +229,7 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    time_alive: '2018-03-27T07:16:11Z'
+    time_alive: '2018-03-28T01:45:48Z'
     winrate: 53
   - damage: 518
     disable: 107
@@ -262,7 +262,7 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
       type: support
-    time_alive: '2018-03-27T07:15:52Z'
+    time_alive: '2018-03-28T01:45:29Z'
     winrate: 56
   - damage: 508
     disable: 108
@@ -294,7 +294,7 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    time_alive: '2018-03-27T07:15:50Z'
+    time_alive: '2018-03-28T01:45:27Z'
     winrate: 44
   - damage: 501
     disable: 123
@@ -327,7 +327,7 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    time_alive: '2018-03-27T07:15:23Z'
+    time_alive: '2018-03-28T01:45:00Z'
     winrate: 55
 description: A mighty chieftain rushing into battle with a giant hammer in one hand
   and his dinner in the other. Rook likes to smash his enemies, with boulders, with

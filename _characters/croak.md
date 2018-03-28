@@ -34,7 +34,7 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    time_alive: '2018-03-27T07:14:50Z'
+    time_alive: '2018-03-28T01:44:27Z'
     winrate: 59
   - damage: 526
     disable: 79
@@ -68,7 +68,7 @@ builds:
       icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
       type: utility
-    time_alive: '2018-03-27T07:15:20Z'
+    time_alive: '2018-03-28T01:44:57Z'
     winrate: 67
   - damage: 533
     disable: 82
@@ -102,7 +102,7 @@ builds:
       icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
       type: utility
-    time_alive: '2018-03-27T07:15:32Z'
+    time_alive: '2018-03-28T01:45:09Z'
     winrate: 55
   - damage: 428
     disable: 63
@@ -135,7 +135,7 @@ builds:
       icon: 97d6d4df3883adc4d99a900f62576ff7
       name: Venom Strike
       type: offense
-    time_alive: '2018-03-27T07:15:06Z'
+    time_alive: '2018-03-28T01:44:43Z'
     winrate: 44
   - damage: 552
     disable: 76
@@ -169,7 +169,7 @@ builds:
       icon: 97d6d4df3883adc4d99a900f62576ff7
       name: Venom Strike
       type: offense
-    time_alive: '2018-03-27T07:16:12Z'
+    time_alive: '2018-03-28T01:45:49Z'
     winrate: 61
   twos:
   - damage: 599
@@ -205,7 +205,7 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    time_alive: '2018-03-27T07:15:51Z'
+    time_alive: '2018-03-28T01:45:28Z'
     winrate: 56
   - damage: 476
     disable: 42
@@ -238,7 +238,7 @@ builds:
       icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Mending Toxin
       type: survival
-    time_alive: '2018-03-27T07:14:30Z'
+    time_alive: '2018-03-28T01:44:07Z'
     winrate: 69
   - damage: 534
     disable: 72
@@ -272,7 +272,7 @@ builds:
       icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
       type: utility
-    time_alive: '2018-03-27T07:15:41Z'
+    time_alive: '2018-03-28T01:45:18Z'
     winrate: 68
   - damage: 575
     disable: 66
@@ -307,7 +307,7 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    time_alive: '2018-03-27T07:15:36Z'
+    time_alive: '2018-03-28T01:45:13Z'
     winrate: 68
   - damage: 529
     disable: 85
@@ -342,7 +342,7 @@ builds:
       icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
       type: utility
-    time_alive: '2018-03-27T07:14:59Z'
+    time_alive: '2018-03-28T01:44:36Z'
     winrate: 65
 description: His background is shrouded in mystery, his movements are supernatural
   and his reputation is whispered about. Croak loves to surprise his enemies, using

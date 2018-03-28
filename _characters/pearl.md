@@ -34,7 +34,7 @@ builds:
       icon: baa9baf5b01c5ee42902398a8f946a5a
       name: Tsunami
       type: offense
-    time_alive: '2018-03-27T07:15:35Z'
+    time_alive: '2018-03-28T01:45:12Z'
     winrate: 45
   - damage: 351
     disable: 71
@@ -70,7 +70,7 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    time_alive: '2018-03-27T07:15:47Z'
+    time_alive: '2018-03-28T01:45:24Z'
     winrate: 45
   - damage: 369
     disable: 70
@@ -106,7 +106,7 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    time_alive: '2018-03-27T07:15:30Z'
+    time_alive: '2018-03-28T01:45:07Z'
     winrate: 44
   - damage: 302
     disable: 88
@@ -140,7 +140,7 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    time_alive: '2018-03-27T07:15:46Z'
+    time_alive: '2018-03-28T01:45:23Z'
     winrate: 71
   - damage: 356
     disable: 67
@@ -176,7 +176,7 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    time_alive: '2018-03-27T07:16:05Z'
+    time_alive: '2018-03-28T01:45:42Z'
     winrate: 52
   twos:
   - damage: 442
@@ -213,7 +213,7 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    time_alive: '2018-03-27T07:16:34Z'
+    time_alive: '2018-03-28T01:46:11Z'
     winrate: 51
   - damage: 461
     disable: 74
@@ -249,7 +249,7 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    time_alive: '2018-03-27T07:16:53Z'
+    time_alive: '2018-03-28T01:46:30Z'
     winrate: 53
   - damage: 433
     disable: 69
@@ -285,7 +285,7 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Water Walk
       type: mobility
-    time_alive: '2018-03-27T07:16:23Z'
+    time_alive: '2018-03-28T01:46:00Z'
     winrate: 58
   - damage: 431
     disable: 80
@@ -320,7 +320,7 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Soaking Wet
       type: control
-    time_alive: '2018-03-27T07:16:24Z'
+    time_alive: '2018-03-28T01:46:01Z'
     winrate: 50
   - damage: 474
     disable: 79
@@ -357,7 +357,7 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    time_alive: '2018-03-27T07:15:55Z'
+    time_alive: '2018-03-28T01:45:32Z'
     winrate: 61
 description: A sage able to control the oceans and whatever creatures that lurk below.
   Pearl transforms water into volatile attacks, rejuvenating streams and protecting

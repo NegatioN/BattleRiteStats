@@ -32,7 +32,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    time_alive: '2018-03-27T07:14:45Z'
+    time_alive: '2018-03-28T01:44:22Z'
     winrate: 37
   - damage: 550
     disable: 80
@@ -65,7 +65,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    time_alive: '2018-03-27T07:15:28Z'
+    time_alive: '2018-03-28T01:45:05Z'
     winrate: 58
   - damage: 570
     disable: 107
@@ -99,7 +99,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    time_alive: '2018-03-27T07:15:48Z'
+    time_alive: '2018-03-28T01:45:25Z'
     winrate: 66
   - damage: 435
     disable: 79
@@ -132,7 +132,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    time_alive: '2018-03-27T07:15:21Z'
+    time_alive: '2018-03-28T01:44:58Z'
     winrate: 72
   - damage: 573
     disable: 90
@@ -165,7 +165,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: Rocket Boosters
       type: mobility
-    time_alive: '2018-03-27T07:15:49Z'
+    time_alive: '2018-03-28T01:45:26Z'
     winrate: 54
   twos:
   - damage: 612
@@ -199,7 +199,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    time_alive: '2018-03-27T07:15:46Z'
+    time_alive: '2018-03-28T01:45:23Z'
     winrate: 62
   - damage: 609
     disable: 76
@@ -232,7 +232,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    time_alive: '2018-03-27T07:15:34Z'
+    time_alive: '2018-03-28T01:45:11Z'
     winrate: 52
   - damage: 567
     disable: 86
@@ -265,7 +265,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    time_alive: '2018-03-27T07:15:24Z'
+    time_alive: '2018-03-28T01:45:01Z'
     winrate: 65
   - damage: 481
     disable: 76
@@ -298,7 +298,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: Rocket Boosters
       type: mobility
-    time_alive: '2018-03-27T07:14:40Z'
+    time_alive: '2018-03-28T01:44:17Z'
     winrate: 54
   - damage: 530
     disable: 87
@@ -330,7 +330,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    time_alive: '2018-03-27T07:15:22Z'
+    time_alive: '2018-03-28T01:44:59Z'
     winrate: 54
 description: A scavenger from the outer realms. Iva has engineered her own arsenal
   of weapons. Firing crazy rockets or unleashing a storm of bullets is her way of

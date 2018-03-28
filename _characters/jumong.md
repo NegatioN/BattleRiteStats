@@ -34,7 +34,7 @@ builds:
       icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Viper
       type: mobility
-    time_alive: '2018-03-27T07:15:03Z'
+    time_alive: '2018-03-28T01:44:40Z'
     winrate: 44
   - damage: 492
     disable: 67
@@ -69,7 +69,7 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    time_alive: '2018-03-27T07:14:47Z'
+    time_alive: '2018-03-28T01:44:24Z'
     winrate: 52
   - damage: 575
     disable: 71
@@ -104,7 +104,7 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    time_alive: '2018-03-27T07:14:46Z'
+    time_alive: '2018-03-28T01:44:23Z'
     winrate: 33
   - damage: 557
     disable: 47
@@ -138,7 +138,7 @@ builds:
       icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Precision
       type: offense
-    time_alive: '2018-03-27T07:14:41Z'
+    time_alive: '2018-03-28T01:44:18Z'
     winrate: 48
   - damage: 569
     disable: 65
@@ -172,7 +172,7 @@ builds:
       icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Viper
       type: mobility
-    time_alive: '2018-03-27T07:15:10Z'
+    time_alive: '2018-03-28T01:44:47Z'
     winrate: 45
   twos:
   - damage: 575
@@ -208,7 +208,7 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    time_alive: '2018-03-27T07:14:54Z'
+    time_alive: '2018-03-28T01:44:31Z'
     winrate: 47
   - damage: 623
     disable: 67
@@ -242,7 +242,7 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    time_alive: '2018-03-27T07:15:16Z'
+    time_alive: '2018-03-28T01:44:53Z'
     winrate: 41
   - damage: 587
     disable: 44
@@ -275,7 +275,7 @@ builds:
       icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Viper
       type: mobility
-    time_alive: '2018-03-27T07:14:31Z'
+    time_alive: '2018-03-28T01:44:08Z'
     winrate: 60
   - damage: 584
     disable: 58
@@ -310,7 +310,7 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    time_alive: '2018-03-27T07:15:01Z'
+    time_alive: '2018-03-28T01:44:38Z'
     winrate: 44
   - damage: 569
     disable: 42
@@ -344,7 +344,7 @@ builds:
       icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Precision
       type: offense
-    time_alive: '2018-03-27T07:14:27Z'
+    time_alive: '2018-03-28T01:44:04Z'
     winrate: 43
 description: Jumong is a trophy collector who has wandered the wildlands in the pursuit
   of a worthy challenge. No longer being content with hunting the great beasts of

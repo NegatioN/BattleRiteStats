@@ -1,6 +1,6 @@
 extra:
   num_matches: 11590
-  time_generated: 27 March 2018
+  time_generated: 28 March 2018
 threes:
 - builds:
   - damage: 619
@@ -38,7 +38,7 @@ threes:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    time_alive: '2018-03-27T07:15:17Z'
+    time_alive: '2018-03-28T01:44:54Z'
     winrate: 50
   - damage: 675
     disable: 79
@@ -74,7 +74,7 @@ threes:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    time_alive: '2018-03-27T07:15:45Z'
+    time_alive: '2018-03-28T01:45:22Z'
     winrate: 50
   - damage: 599
     disable: 67
@@ -110,7 +110,7 @@ threes:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    time_alive: '2018-03-27T07:15:26Z'
+    time_alive: '2018-03-28T01:45:03Z'
     winrate: 57
   description: From the frozen north comes the ice sculptor Alysia. Her power allows
     her to wield ice with both grace and deadly precision. She can damage and freeze
@@ -153,7 +153,7 @@ threes:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    time_alive: '2018-03-27T07:14:58Z'
+    time_alive: '2018-03-28T01:44:35Z'
     winrate: 49
   - damage: 590
     disable: 39
@@ -188,7 +188,7 @@ threes:
       icon: 61e058b8f4b79f4419ec1496f223ee36
       name: Inspiration
       type: utility
-    time_alive: '2018-03-27T07:15:16Z'
+    time_alive: '2018-03-28T01:44:52Z'
     winrate: 47
   - damage: 633
     disable: 75
@@ -223,7 +223,7 @@ threes:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    time_alive: '2018-03-27T07:15:00Z'
+    time_alive: '2018-03-28T01:44:36Z'
     winrate: 53
   description: A masked creature specialized in dark sorcery and pyro-kinetic powers.
     Casts devastating fire spells on his opponents and avoids close combat. Don't
@@ -263,7 +263,7 @@ threes:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    time_alive: '2018-03-27T07:15:37Z'
+    time_alive: '2018-03-28T01:45:14Z'
     winrate: 51
   - damage: 501
     disable: 107
@@ -297,7 +297,7 @@ threes:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    time_alive: '2018-03-27T07:14:55Z'
+    time_alive: '2018-03-28T01:44:32Z'
     winrate: 57
   - damage: 485
     disable: 112
@@ -331,7 +331,7 @@ threes:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    time_alive: '2018-03-27T07:15:13Z'
+    time_alive: '2018-03-28T01:44:50Z'
     winrate: 60
   description: Bakko has a proud history as a heroic brawler, armed with both axe
     and shield. He uses his shield to protect teammates and outmaneuver enemies. Watch
@@ -373,7 +373,7 @@ threes:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    time_alive: '2018-03-27T07:14:55Z'
+    time_alive: '2018-03-28T01:44:32Z'
     winrate: 46
   - damage: 326
     disable: 65
@@ -406,7 +406,7 @@ threes:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    time_alive: '2018-03-27T07:15:11Z'
+    time_alive: '2018-03-28T01:44:48Z'
     winrate: 50
   - damage: 225
     disable: 49
@@ -440,7 +440,7 @@ threes:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    time_alive: '2018-03-27T07:14:42Z'
+    time_alive: '2018-03-28T01:44:19Z'
     winrate: 31
   description: Blossom is a happy, bubbly young faun from the Silverdeep Forest. She
     has left her home to investigate a disturbance in the natural order. She is never
@@ -481,7 +481,7 @@ threes:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    time_alive: '2018-03-27T07:14:50Z'
+    time_alive: '2018-03-28T01:44:27Z'
     winrate: 59
   - damage: 526
     disable: 79
@@ -515,7 +515,7 @@ threes:
       icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
       type: utility
-    time_alive: '2018-03-27T07:15:20Z'
+    time_alive: '2018-03-28T01:44:57Z'
     winrate: 67
   - damage: 533
     disable: 82
@@ -549,7 +549,7 @@ threes:
       icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
       type: utility
-    time_alive: '2018-03-27T07:15:32Z'
+    time_alive: '2018-03-28T01:45:09Z'
     winrate: 55
   description: His background is shrouded in mystery, his movements are supernatural
     and his reputation is whispered about. Croak loves to surprise his enemies, using
@@ -590,7 +590,7 @@ threes:
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
-    time_alive: '2018-03-27T07:14:33Z'
+    time_alive: '2018-03-28T01:44:10Z'
     winrate: 34
   - damage: 522
     disable: 77
@@ -624,7 +624,7 @@ threes:
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
-    time_alive: '2018-03-27T07:14:36Z'
+    time_alive: '2018-03-28T01:44:13Z'
     winrate: 56
   - damage: 462
     disable: 72
@@ -658,7 +658,7 @@ threes:
       icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
       type: offense
-    time_alive: '2018-03-27T07:14:38Z'
+    time_alive: '2018-03-28T01:44:15Z'
     winrate: 31
   description: An elite sky ranger from the secluded, invisible city of Enza. Many
     years of rigorous combat training using Magi-tech weaponry makes Destiny an agile
@@ -700,7 +700,7 @@ threes:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    time_alive: '2018-03-27T07:14:19Z'
+    time_alive: '2018-03-28T01:43:56Z'
     winrate: 50
   - damage: 550
     disable: 55
@@ -735,7 +735,7 @@ threes:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    time_alive: '2018-03-27T07:15:26Z'
+    time_alive: '2018-03-28T01:45:03Z'
     winrate: 49
   - damage: 549
     disable: 62
@@ -770,7 +770,7 @@ threes:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    time_alive: '2018-03-27T07:15:28Z'
+    time_alive: '2018-03-28T01:45:05Z'
     winrate: 53
   description: Ezmo is an aggressive spell caster who can move quickly across the
     arena. Aradu, a powerful warlock summoned and imprisoned Ezmo but Ezmo saw his
@@ -812,7 +812,7 @@ threes:
       icon: 296bc93338f9bc94a8afca3763e4a778
       name: Thunderstruck
       type: control
-    time_alive: '2018-03-27T07:15:29Z'
+    time_alive: '2018-03-28T01:45:05Z'
     winrate: 47
   - damage: 514
     disable: 73
@@ -846,7 +846,7 @@ threes:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Tempest
       type: mobility
-    time_alive: '2018-03-27T07:15:06Z'
+    time_alive: '2018-03-28T01:44:42Z'
     winrate: 50
   - damage: 460
     disable: 69
@@ -881,7 +881,7 @@ threes:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    time_alive: '2018-03-27T07:15:11Z'
+    time_alive: '2018-03-28T01:44:47Z'
     winrate: 45
   description: Once a tribe queen, now a fearless contender. Her titanic hammers and
     overwhelming power of lightning is the perfect recipe for destruction.
@@ -919,7 +919,7 @@ threes:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    time_alive: '2018-03-27T07:14:45Z'
+    time_alive: '2018-03-28T01:44:22Z'
     winrate: 37
   - damage: 550
     disable: 80
@@ -952,7 +952,7 @@ threes:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    time_alive: '2018-03-27T07:15:28Z'
+    time_alive: '2018-03-28T01:45:05Z'
     winrate: 58
   - damage: 570
     disable: 107
@@ -986,7 +986,7 @@ threes:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    time_alive: '2018-03-27T07:15:48Z'
+    time_alive: '2018-03-28T01:45:25Z'
     winrate: 66
   description: A scavenger from the outer realms. Iva has engineered her own arsenal
     of weapons. Firing crazy rockets or unleashing a storm of bullets is her way of
@@ -1028,7 +1028,7 @@ threes:
       icon: 20e8f262eca757942bc23d94aa73ab2a
       name: Surprise Shot
       type: control
-    time_alive: '2018-03-27T07:15:13Z'
+    time_alive: '2018-03-28T01:44:50Z'
     winrate: 60
   - damage: 564
     disable: 70
@@ -1063,7 +1063,7 @@ threes:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    time_alive: '2018-03-27T07:15:05Z'
+    time_alive: '2018-03-28T01:44:42Z'
     winrate: 56
   - damage: 523
     disable: 80
@@ -1098,7 +1098,7 @@ threes:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    time_alive: '2018-03-27T07:15:24Z'
+    time_alive: '2018-03-28T01:45:01Z'
     winrate: 50
   description: A mysterious gunslinger. Born with eagle-eyes and armed with a lethal
     sniper rifle, Jade's pinpoint accuracy is a serious threat for anyone who enters
@@ -1140,7 +1140,7 @@ threes:
       icon: fa9b6a58fa6398b4ea4c4756152bd079
       name: Push Off
       type: mobility
-    time_alive: '2018-03-27T07:15:30Z'
+    time_alive: '2018-03-28T01:45:07Z'
     winrate: 51
   - damage: 423
     disable: 105
@@ -1175,7 +1175,7 @@ threes:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    time_alive: '2018-03-27T07:14:50Z'
+    time_alive: '2018-03-28T01:44:27Z'
     winrate: 45
   - damage: 471
     disable: 86
@@ -1210,7 +1210,7 @@ threes:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    time_alive: '2018-03-27T07:15:03Z'
+    time_alive: '2018-03-28T01:44:40Z'
     winrate: 61
   description: "A young assassin from the Shadowblade clan, Jamila suddenly found\
     \ herself the new leader after the death of her mother, the previous matriarch.\
@@ -1253,7 +1253,7 @@ threes:
       icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Viper
       type: mobility
-    time_alive: '2018-03-27T07:15:03Z'
+    time_alive: '2018-03-28T01:44:40Z'
     winrate: 44
   - damage: 492
     disable: 67
@@ -1288,7 +1288,7 @@ threes:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    time_alive: '2018-03-27T07:14:47Z'
+    time_alive: '2018-03-28T01:44:24Z'
     winrate: 52
   - damage: 575
     disable: 71
@@ -1323,7 +1323,7 @@ threes:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    time_alive: '2018-03-27T07:14:46Z'
+    time_alive: '2018-03-28T01:44:23Z'
     winrate: 33
   description: Jumong is a trophy collector who has wandered the wildlands in the
     pursuit of a worthy challenge. No longer being content with hunting the great
@@ -1364,7 +1364,7 @@ threes:
       icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
       type: offense
-    time_alive: '2018-03-27T07:15:18Z'
+    time_alive: '2018-03-28T01:44:55Z'
     winrate: 55
   - damage: 230
     disable: 75
@@ -1398,7 +1398,7 @@ threes:
       icon: 470a917c1ac62c04ea45acc6a35c5f73
       name: Swift Roll
       type: mobility
-    time_alive: '2018-03-27T07:15:39Z'
+    time_alive: '2018-03-28T01:45:16Z'
     winrate: 60
   - damage: 330
     disable: 97
@@ -1432,7 +1432,7 @@ threes:
       icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
       type: offense
-    time_alive: '2018-03-27T07:15:55Z'
+    time_alive: '2018-03-28T01:45:32Z'
     winrate: 57
   description: Lucie is a diverse contender who knows which brew makes you choke,
     heal or flee in fear. The arena has become her new playground for wild experiments.
@@ -1474,7 +1474,7 @@ threes:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    time_alive: '2018-03-27T07:15:33Z'
+    time_alive: '2018-03-28T01:45:10Z'
     winrate: 46
   - damage: 329
     disable: 59
@@ -1510,7 +1510,7 @@ threes:
       icon: 89c37320af892ae43b410f4d610d7ea8
       name: Sandstorm
       type: offense
-    time_alive: '2018-03-27T07:14:41Z'
+    time_alive: '2018-03-28T01:44:18Z'
     winrate: 50
   - damage: 432
     disable: 50
@@ -1546,7 +1546,7 @@ threes:
       icon: 35a1515e35b5104449dfa8802c5aa0e2
       name: Time Burst
       type: offense
-    time_alive: '2018-03-27T07:15:25Z'
+    time_alive: '2018-03-28T01:45:02Z'
     winrate: 65
   description: Oldur, a mysterious creature able to bend time and space. He can mend
     wounds with powerful heals and reverse enemy attacks by freezing them in time.
@@ -1586,7 +1586,7 @@ threes:
       icon: baa9baf5b01c5ee42902398a8f946a5a
       name: Tsunami
       type: offense
-    time_alive: '2018-03-27T07:15:35Z'
+    time_alive: '2018-03-28T01:45:12Z'
     winrate: 45
   - damage: 351
     disable: 71
@@ -1622,7 +1622,7 @@ threes:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    time_alive: '2018-03-27T07:15:47Z'
+    time_alive: '2018-03-28T01:45:24Z'
     winrate: 45
   - damage: 369
     disable: 70
@@ -1658,7 +1658,7 @@ threes:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    time_alive: '2018-03-27T07:15:30Z'
+    time_alive: '2018-03-28T01:45:07Z'
     winrate: 44
   description: A sage able to control the oceans and whatever creatures that lurk
     below. Pearl transforms water into volatile attacks, rejuvenating streams and
@@ -1700,7 +1700,7 @@ threes:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    time_alive: '2018-03-27T07:15:54Z'
+    time_alive: '2018-03-28T01:45:31Z'
     winrate: 53
   - damage: 315
     disable: 83
@@ -1735,7 +1735,7 @@ threes:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    time_alive: '2018-03-27T07:15:56Z'
+    time_alive: '2018-03-28T01:45:33Z'
     winrate: 47
   - damage: 317
     disable: 91
@@ -1771,7 +1771,7 @@ threes:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    time_alive: '2018-03-27T07:15:46Z'
+    time_alive: '2018-03-28T01:45:23Z'
     winrate: 77
   description: Pestilus, secret devotee of the evil Rasal, unleashes swarms of insects
     to infest and cripple his enemies. Advisor to the King of Quna, Pestilus is able
@@ -1811,7 +1811,7 @@ threes:
       icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
       type: control
-    time_alive: '2018-03-27T07:15:19Z'
+    time_alive: '2018-03-28T01:44:56Z'
     winrate: 50
   - damage: 352
     disable: 50
@@ -1845,7 +1845,7 @@ threes:
       icon: dfc86226d7b2a6d438dad7dfca7a0d52
       name: Specter
       type: support
-    time_alive: '2018-03-27T07:15:28Z'
+    time_alive: '2018-03-28T01:45:05Z'
     winrate: 61
   - damage: 361
     disable: 68
@@ -1879,7 +1879,7 @@ threes:
       icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
       type: control
-    time_alive: '2018-03-27T07:15:38Z'
+    time_alive: '2018-03-28T01:45:15Z'
     winrate: 52
   description: Poloma uses shamanic powers to guide life and spirits alongside her
     protector and loyal creature, Toki. A dark disturbance among souls has put Poloma
@@ -1920,7 +1920,7 @@ threes:
       icon: d5c38afdefecf224b9a71bdfdb60dee1
       name: Headlong Rush
       type: mobility
-    time_alive: '2018-03-27T07:15:36Z'
+    time_alive: '2018-03-28T01:45:13Z'
     winrate: 52
   - damage: 467
     disable: 68
@@ -1956,7 +1956,7 @@ threes:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    time_alive: '2018-03-27T07:14:14Z'
+    time_alive: '2018-03-28T01:43:51Z'
     winrate: 73
   - damage: 449
     disable: 70
@@ -1993,7 +1993,7 @@ threes:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    time_alive: '2018-03-27T07:14:39Z'
+    time_alive: '2018-03-28T01:44:16Z'
     winrate: 50
   description: Raigon, formerly the crown prince of Quna, is a skilled melee fighter
     trained in two-handed swordsmanship and martial arts. He hopes to break the evil
@@ -2033,7 +2033,7 @@ threes:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    time_alive: '2018-03-27T07:15:25Z'
+    time_alive: '2018-03-28T01:45:02Z'
     winrate: 58
   - damage: 486
     disable: 104
@@ -2066,7 +2066,7 @@ threes:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
       type: support
-    time_alive: '2018-03-27T07:15:14Z'
+    time_alive: '2018-03-28T01:44:51Z'
     winrate: 57
   - damage: 432
     disable: 99
@@ -2098,7 +2098,7 @@ threes:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    time_alive: '2018-03-27T07:14:53Z'
+    time_alive: '2018-03-28T01:44:30Z'
     winrate: 50
   description: A mighty chieftain rushing into battle with a giant hammer in one hand
     and his dinner in the other. Rook likes to smash his enemies, with boulders, with
@@ -2138,7 +2138,7 @@ threes:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    time_alive: '2018-03-27T07:14:45Z'
+    time_alive: '2018-03-28T01:44:22Z'
     winrate: 70
   - damage: 451
     disable: 75
@@ -2172,7 +2172,7 @@ threes:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    time_alive: '2018-03-27T07:14:50Z'
+    time_alive: '2018-03-28T01:44:27Z'
     winrate: 62
   - damage: 510
     disable: 85
@@ -2205,7 +2205,7 @@ threes:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    time_alive: '2018-03-27T07:15:09Z'
+    time_alive: '2018-03-28T01:44:46Z'
     winrate: 47
   description: "Ruh Kaan was awoken when a grave robber desecrated the sacred crypts\
     \ Ark\u2019dun. Pursuing the trespasser led him to the Arenas where he is still\
@@ -2248,7 +2248,7 @@ threes:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    time_alive: '2018-03-27T07:15:01Z'
+    time_alive: '2018-03-28T01:44:38Z'
     winrate: 57
   - damage: 536
     disable: 42
@@ -2285,7 +2285,7 @@ threes:
       icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
       type: offense
-    time_alive: '2018-03-27T07:14:50Z'
+    time_alive: '2018-03-28T01:44:27Z'
     winrate: 53
   - damage: 516
     disable: 45
@@ -2322,7 +2322,7 @@ threes:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    time_alive: '2018-03-27T07:15:08Z'
+    time_alive: '2018-03-28T01:44:45Z'
     winrate: 48
   description: Expert in the martial art of Ni'Shu and master of the spear. A highly
     mobile and dangerous duelist. His extraordinary combat prowess culminates in a
@@ -2365,7 +2365,7 @@ threes:
       icon: f13a6cad4bcaa974f8147e8a29a49dfe
       name: Sunbath
       type: support
-    time_alive: '2018-03-27T07:14:36Z'
+    time_alive: '2018-03-28T01:44:13Z'
     winrate: 53
   - damage: 277
     disable: 91
@@ -2403,7 +2403,7 @@ threes:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    time_alive: '2018-03-27T07:15:28Z'
+    time_alive: '2018-03-28T01:45:05Z'
     winrate: 55
   - damage: 291
     disable: 62
@@ -2439,7 +2439,7 @@ threes:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    time_alive: '2018-03-27T07:14:52Z'
+    time_alive: '2018-03-28T01:44:29Z'
     winrate: 52
   description: Sirius, a calm prodigy who uses the energies of stars and planets as
     destructive spells and healing powers. The prophecy was true and foretold the
@@ -2480,7 +2480,7 @@ threes:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    time_alive: '2018-03-27T07:14:54Z'
+    time_alive: '2018-03-28T01:44:31Z'
     winrate: 45
   - damage: 636
     disable: 56
@@ -2516,7 +2516,7 @@ threes:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    time_alive: '2018-03-27T07:15:25Z'
+    time_alive: '2018-03-28T01:45:02Z'
     winrate: 58
   - damage: 566
     disable: 48
@@ -2550,7 +2550,7 @@ threes:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    time_alive: '2018-03-27T07:15:14Z'
+    time_alive: '2018-03-28T01:44:51Z'
     winrate: 50
   description: An exceptionally swift hunter wielding a razor sharp boomerang. By
     shaping the wind around her Taya is able to increase her speed and control her
@@ -2591,7 +2591,7 @@ threes:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    time_alive: '2018-03-27T07:15:14Z'
+    time_alive: '2018-03-28T01:44:51Z'
     winrate: 57
   - damage: 511
     disable: 103
@@ -2627,7 +2627,7 @@ threes:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    time_alive: '2018-03-27T07:15:13Z'
+    time_alive: '2018-03-28T01:44:50Z'
     winrate: 44
   - damage: 597
     disable: 126
@@ -2663,7 +2663,7 @@ threes:
       icon: 3bf2758e82cebed44856097532c5dd9b
       name: Neurotoxin
       type: support
-    time_alive: '2018-03-27T07:15:12Z'
+    time_alive: '2018-03-28T01:44:49Z'
     winrate: 44
   description: "Ancient folklore speaks of Thorn, the destructive apparition. Using\
     \ its network of thorn-covered roots, it would whip, rupture and drain the life\
@@ -2707,7 +2707,7 @@ threes:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
       type: support
-    time_alive: '2018-03-27T07:15:41Z'
+    time_alive: '2018-03-28T01:45:18Z'
     winrate: 64
   - damage: 546
     disable: 25
@@ -2742,7 +2742,7 @@ threes:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
       type: support
-    time_alive: '2018-03-27T07:14:33Z'
+    time_alive: '2018-03-28T01:44:10Z'
     winrate: 57
   - damage: 505
     disable: 27
@@ -2776,7 +2776,7 @@ threes:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
       type: support
-    time_alive: '2018-03-27T07:15:36Z'
+    time_alive: '2018-03-28T01:45:13Z'
     winrate: 36
   description: A being formed by the energies of others. Varesh uses his power  to
     weaken and disrupt his enemies. By combining his powers he is able to unleash
@@ -2817,7 +2817,7 @@ threes:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    time_alive: '2018-03-27T07:15:35Z'
+    time_alive: '2018-03-28T01:45:12Z'
     winrate: 55
   - damage: 289
     disable: 43
@@ -2851,7 +2851,7 @@ threes:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    time_alive: '2018-03-27T07:15:34Z'
+    time_alive: '2018-03-28T01:45:11Z'
     winrate: 57
   - damage: 234
     disable: 38
@@ -2886,7 +2886,7 @@ threes:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    time_alive: '2018-03-27T07:16:19Z'
+    time_alive: '2018-03-28T01:45:56Z'
     winrate: 51
   description: When the famous theatre troupe "The Phantomime Masquerade" disbanded
     after a series of tragic events, their magnificent magician Zander vanished without
@@ -2933,7 +2933,7 @@ twos:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    time_alive: '2018-03-27T07:15:31Z'
+    time_alive: '2018-03-28T01:45:08Z'
     winrate: 62
   - damage: 609
     disable: 64
@@ -2969,7 +2969,7 @@ twos:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    time_alive: '2018-03-27T07:15:41Z'
+    time_alive: '2018-03-28T01:45:18Z'
     winrate: 64
   - damage: 634
     disable: 66
@@ -3006,7 +3006,7 @@ twos:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    time_alive: '2018-03-27T07:14:56Z'
+    time_alive: '2018-03-28T01:44:33Z'
     winrate: 50
   description: From the frozen north comes the ice sculptor Alysia. Her power allows
     her to wield ice with both grace and deadly precision. She can damage and freeze
@@ -3049,7 +3049,7 @@ twos:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    time_alive: '2018-03-27T07:14:46Z'
+    time_alive: '2018-03-28T01:44:23Z'
     winrate: 48
   - damage: 559
     disable: 53
@@ -3084,7 +3084,7 @@ twos:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    time_alive: '2018-03-27T07:14:48Z'
+    time_alive: '2018-03-28T01:44:25Z'
     winrate: 45
   - damage: 476
     disable: 64
@@ -3119,7 +3119,7 @@ twos:
       icon: 64ae838604146444aac3474b78250f52
       name: Lava Punch
       type: control
-    time_alive: '2018-03-27T07:15:16Z'
+    time_alive: '2018-03-28T01:44:53Z'
     winrate: 37
   description: A masked creature specialized in dark sorcery and pyro-kinetic powers.
     Casts devastating fire spells on his opponents and avoids close combat. Don't
@@ -3161,7 +3161,7 @@ twos:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    time_alive: '2018-03-27T07:15:10Z'
+    time_alive: '2018-03-28T01:44:47Z'
     winrate: 52
   - damage: 559
     disable: 82
@@ -3195,7 +3195,7 @@ twos:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    time_alive: '2018-03-27T07:15:22Z'
+    time_alive: '2018-03-28T01:44:59Z'
     winrate: 56
   - damage: 502
     disable: 79
@@ -3232,7 +3232,7 @@ twos:
       icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
       type: offense
-    time_alive: '2018-03-27T07:15:15Z'
+    time_alive: '2018-03-28T01:44:52Z'
     winrate: 53
   description: Bakko has a proud history as a heroic brawler, armed with both axe
     and shield. He uses his shield to protect teammates and outmaneuver enemies. Watch
@@ -3272,7 +3272,7 @@ twos:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    time_alive: '2018-03-27T07:15:45Z'
+    time_alive: '2018-03-28T01:45:22Z'
     winrate: 57
   - damage: 411
     disable: 78
@@ -3306,7 +3306,7 @@ twos:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    time_alive: '2018-03-27T07:15:46Z'
+    time_alive: '2018-03-28T01:45:23Z'
     winrate: 53
   - damage: 365
     disable: 69
@@ -3340,7 +3340,7 @@ twos:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    time_alive: '2018-03-27T07:15:10Z'
+    time_alive: '2018-03-28T01:44:47Z'
     winrate: 47
   description: Blossom is a happy, bubbly young faun from the Silverdeep Forest. She
     has left her home to investigate a disturbance in the natural order. She is never
@@ -3381,7 +3381,7 @@ twos:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    time_alive: '2018-03-27T07:15:51Z'
+    time_alive: '2018-03-28T01:45:28Z'
     winrate: 56
   - damage: 476
     disable: 42
@@ -3414,7 +3414,7 @@ twos:
       icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Mending Toxin
       type: survival
-    time_alive: '2018-03-27T07:14:30Z'
+    time_alive: '2018-03-28T01:44:07Z'
     winrate: 69
   - damage: 534
     disable: 72
@@ -3448,7 +3448,7 @@ twos:
       icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
       type: utility
-    time_alive: '2018-03-27T07:15:41Z'
+    time_alive: '2018-03-28T01:45:18Z'
     winrate: 68
   description: His background is shrouded in mystery, his movements are supernatural
     and his reputation is whispered about. Croak loves to surprise his enemies, using
@@ -3489,7 +3489,7 @@ twos:
       icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
       type: offense
-    time_alive: '2018-03-27T07:14:45Z'
+    time_alive: '2018-03-28T01:44:22Z'
     winrate: 52
   - damage: 490
     disable: 79
@@ -3523,7 +3523,7 @@ twos:
       icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
       type: offense
-    time_alive: '2018-03-27T07:14:44Z'
+    time_alive: '2018-03-28T01:44:21Z'
     winrate: 44
   - damage: 517
     disable: 86
@@ -3557,7 +3557,7 @@ twos:
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
-    time_alive: '2018-03-27T07:15:24Z'
+    time_alive: '2018-03-28T01:45:01Z'
     winrate: 36
   description: An elite sky ranger from the secluded, invisible city of Enza. Many
     years of rigorous combat training using Magi-tech weaponry makes Destiny an agile
@@ -3600,7 +3600,7 @@ twos:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    time_alive: '2018-03-27T07:14:47Z'
+    time_alive: '2018-03-28T01:44:24Z'
     winrate: 54
   - damage: 627
     disable: 60
@@ -3635,7 +3635,7 @@ twos:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    time_alive: '2018-03-27T07:15:06Z'
+    time_alive: '2018-03-28T01:44:42Z'
     winrate: 71
   - damage: 722
     disable: 81
@@ -3671,7 +3671,7 @@ twos:
       icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Warlock's Grip
       type: utility
-    time_alive: '2018-03-27T07:15:27Z'
+    time_alive: '2018-03-28T01:45:04Z'
     winrate: 61
   description: Ezmo is an aggressive spell caster who can move quickly across the
     arena. Aradu, a powerful warlock summoned and imprisoned Ezmo but Ezmo saw his
@@ -3713,7 +3713,7 @@ twos:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Tempest
       type: mobility
-    time_alive: '2018-03-27T07:15:33Z'
+    time_alive: '2018-03-28T01:45:10Z'
     winrate: 47
   - damage: 545
     disable: 75
@@ -3748,7 +3748,7 @@ twos:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    time_alive: '2018-03-27T07:15:17Z'
+    time_alive: '2018-03-28T01:44:54Z'
     winrate: 50
   - damage: 533
     disable: 97
@@ -3783,7 +3783,7 @@ twos:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
       type: mixed
-    time_alive: '2018-03-27T07:15:03Z'
+    time_alive: '2018-03-28T01:44:40Z'
     winrate: 56
   description: Once a tribe queen, now a fearless contender. Her titanic hammers and
     overwhelming power of lightning is the perfect recipe for destruction.
@@ -3821,7 +3821,7 @@ twos:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    time_alive: '2018-03-27T07:15:46Z'
+    time_alive: '2018-03-28T01:45:23Z'
     winrate: 62
   - damage: 609
     disable: 76
@@ -3854,7 +3854,7 @@ twos:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    time_alive: '2018-03-27T07:15:34Z'
+    time_alive: '2018-03-28T01:45:11Z'
     winrate: 52
   - damage: 567
     disable: 86
@@ -3887,7 +3887,7 @@ twos:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    time_alive: '2018-03-27T07:15:24Z'
+    time_alive: '2018-03-28T01:45:01Z'
     winrate: 65
   description: A scavenger from the outer realms. Iva has engineered her own arsenal
     of weapons. Firing crazy rockets or unleashing a storm of bullets is her way of
@@ -3928,7 +3928,7 @@ twos:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    time_alive: '2018-03-27T07:15:03Z'
+    time_alive: '2018-03-28T01:44:40Z'
     winrate: 50
   - damage: 557
     disable: 72
@@ -3963,7 +3963,7 @@ twos:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    time_alive: '2018-03-27T07:15:16Z'
+    time_alive: '2018-03-28T01:44:53Z'
     winrate: 43
   - damage: 585
     disable: 75
@@ -4000,7 +4000,7 @@ twos:
       icon: 20e8f262eca757942bc23d94aa73ab2a
       name: Surprise Shot
       type: control
-    time_alive: '2018-03-27T07:15:17Z'
+    time_alive: '2018-03-28T01:44:54Z'
     winrate: 53
   description: A mysterious gunslinger. Born with eagle-eyes and armed with a lethal
     sniper rifle, Jade's pinpoint accuracy is a serious threat for anyone who enters
@@ -4042,7 +4042,7 @@ twos:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    time_alive: '2018-03-27T07:15:15Z'
+    time_alive: '2018-03-28T01:44:52Z'
     winrate: 44
   - damage: 384
     disable: 73
@@ -4076,7 +4076,7 @@ twos:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    time_alive: '2018-03-27T07:14:04Z'
+    time_alive: '2018-03-28T01:43:41Z'
     winrate: 35
   - damage: 450
     disable: 85
@@ -4110,7 +4110,7 @@ twos:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    time_alive: '2018-03-27T07:14:45Z'
+    time_alive: '2018-03-28T01:44:22Z'
     winrate: 48
   description: "A young assassin from the Shadowblade clan, Jamila suddenly found\
     \ herself the new leader after the death of her mother, the previous matriarch.\
@@ -4153,7 +4153,7 @@ twos:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    time_alive: '2018-03-27T07:14:54Z'
+    time_alive: '2018-03-28T01:44:31Z'
     winrate: 47
   - damage: 623
     disable: 67
@@ -4187,7 +4187,7 @@ twos:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    time_alive: '2018-03-27T07:15:16Z'
+    time_alive: '2018-03-28T01:44:53Z'
     winrate: 41
   - damage: 587
     disable: 44
@@ -4220,7 +4220,7 @@ twos:
       icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Viper
       type: mobility
-    time_alive: '2018-03-27T07:14:31Z'
+    time_alive: '2018-03-28T01:44:08Z'
     winrate: 60
   description: Jumong is a trophy collector who has wandered the wildlands in the
     pursuit of a worthy challenge. No longer being content with hunting the great
@@ -4263,7 +4263,7 @@ twos:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    time_alive: '2018-03-27T07:15:55Z'
+    time_alive: '2018-03-28T01:45:32Z'
     winrate: 54
   - damage: 382
     disable: 95
@@ -4296,7 +4296,7 @@ twos:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    time_alive: '2018-03-27T07:15:46Z'
+    time_alive: '2018-03-28T01:45:23Z'
     winrate: 56
   - damage: 362
     disable: 88
@@ -4330,7 +4330,7 @@ twos:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    time_alive: '2018-03-27T07:15:26Z'
+    time_alive: '2018-03-28T01:45:03Z'
     winrate: 68
   description: Lucie is a diverse contender who knows which brew makes you choke,
     heal or flee in fear. The arena has become her new playground for wild experiments.
@@ -4371,7 +4371,7 @@ twos:
       icon: 89c37320af892ae43b410f4d610d7ea8
       name: Sandstorm
       type: offense
-    time_alive: '2018-03-27T07:15:01Z'
+    time_alive: '2018-03-28T01:44:38Z'
     winrate: 52
   - damage: 449
     disable: 71
@@ -4407,7 +4407,7 @@ twos:
       icon: a22c6c4bc967d4e48a44f0e87a93023e
       name: Time Walker
       type: mobility
-    time_alive: '2018-03-27T07:15:15Z'
+    time_alive: '2018-03-28T01:44:52Z'
     winrate: 62
   - damage: 470
     disable: 59
@@ -4443,7 +4443,7 @@ twos:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    time_alive: '2018-03-27T07:15:34Z'
+    time_alive: '2018-03-28T01:45:11Z'
     winrate: 51
   description: Oldur, a mysterious creature able to bend time and space. He can mend
     wounds with powerful heals and reverse enemy attacks by freezing them in time.
@@ -4484,7 +4484,7 @@ twos:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    time_alive: '2018-03-27T07:16:34Z'
+    time_alive: '2018-03-28T01:46:11Z'
     winrate: 51
   - damage: 461
     disable: 74
@@ -4520,7 +4520,7 @@ twos:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    time_alive: '2018-03-27T07:16:53Z'
+    time_alive: '2018-03-28T01:46:30Z'
     winrate: 53
   - damage: 433
     disable: 69
@@ -4556,7 +4556,7 @@ twos:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Water Walk
       type: mobility
-    time_alive: '2018-03-27T07:16:23Z'
+    time_alive: '2018-03-28T01:46:00Z'
     winrate: 58
   description: A sage able to control the oceans and whatever creatures that lurk
     below. Pearl transforms water into volatile attacks, rejuvenating streams and
@@ -4598,7 +4598,7 @@ twos:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    time_alive: '2018-03-27T07:16:27Z'
+    time_alive: '2018-03-28T01:46:04Z'
     winrate: 52
   - damage: 444
     disable: 105
@@ -4634,7 +4634,7 @@ twos:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    time_alive: '2018-03-27T07:16:31Z'
+    time_alive: '2018-03-28T01:46:08Z'
     winrate: 57
   - damage: 425
     disable: 132
@@ -4670,7 +4670,7 @@ twos:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    time_alive: '2018-03-27T07:16:41Z'
+    time_alive: '2018-03-28T01:46:18Z'
     winrate: 60
   description: Pestilus, secret devotee of the evil Rasal, unleashes swarms of insects
     to infest and cripple his enemies. Advisor to the King of Quna, Pestilus is able
@@ -4712,7 +4712,7 @@ twos:
       icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
       type: control
-    time_alive: '2018-03-27T07:15:34Z'
+    time_alive: '2018-03-28T01:45:11Z'
     winrate: 57
   - damage: 374
     disable: 68
@@ -4748,7 +4748,7 @@ twos:
       icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
       type: control
-    time_alive: '2018-03-27T07:15:41Z'
+    time_alive: '2018-03-28T01:45:18Z'
     winrate: 40
   - damage: 398
     disable: 89
@@ -4783,7 +4783,7 @@ twos:
       icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
       type: control
-    time_alive: '2018-03-27T07:15:46Z'
+    time_alive: '2018-03-28T01:45:23Z'
     winrate: 41
   description: Poloma uses shamanic powers to guide life and spirits alongside her
     protector and loyal creature, Toki. A dark disturbance among souls has put Poloma
@@ -4826,7 +4826,7 @@ twos:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    time_alive: '2018-03-27T07:14:33Z'
+    time_alive: '2018-03-28T01:44:10Z'
     winrate: 57
   - damage: 486
     disable: 97
@@ -4861,7 +4861,7 @@ twos:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    time_alive: '2018-03-27T07:14:38Z'
+    time_alive: '2018-03-28T01:44:15Z'
     winrate: 63
   - damage: 277
     disable: 31
@@ -4897,7 +4897,7 @@ twos:
       icon: fbfb00ff4fa4bc542b54639b84406f01
       name: Riposte
       type: offense
-    time_alive: '2018-03-27T07:14:24Z'
+    time_alive: '2018-03-28T01:44:01Z'
     winrate: 70
   description: Raigon, formerly the crown prince of Quna, is a skilled melee fighter
     trained in two-handed swordsmanship and martial arts. He hopes to break the evil
@@ -4937,7 +4937,7 @@ twos:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    time_alive: '2018-03-27T07:15:18Z'
+    time_alive: '2018-03-28T01:44:55Z'
     winrate: 48
   - damage: 543
     disable: 114
@@ -4970,7 +4970,7 @@ twos:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    time_alive: '2018-03-27T07:16:11Z'
+    time_alive: '2018-03-28T01:45:48Z'
     winrate: 53
   - damage: 518
     disable: 107
@@ -5003,7 +5003,7 @@ twos:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
       type: support
-    time_alive: '2018-03-27T07:15:52Z'
+    time_alive: '2018-03-28T01:45:29Z'
     winrate: 56
   description: A mighty chieftain rushing into battle with a giant hammer in one hand
     and his dinner in the other. Rook likes to smash his enemies, with boulders, with
@@ -5044,7 +5044,7 @@ twos:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    time_alive: '2018-03-27T07:15:24Z'
+    time_alive: '2018-03-28T01:45:01Z'
     winrate: 63
   - damage: 579
     disable: 72
@@ -5077,7 +5077,7 @@ twos:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    time_alive: '2018-03-27T07:15:56Z'
+    time_alive: '2018-03-28T01:45:33Z'
     winrate: 63
   - damage: 490
     disable: 78
@@ -5110,7 +5110,7 @@ twos:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    time_alive: '2018-03-27T07:14:51Z'
+    time_alive: '2018-03-28T01:44:28Z'
     winrate: 54
   description: "Ruh Kaan was awoken when a grave robber desecrated the sacred crypts\
     \ Ark\u2019dun. Pursuing the trespasser led him to the Arenas where he is still\
@@ -5153,7 +5153,7 @@ twos:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    time_alive: '2018-03-27T07:15:03Z'
+    time_alive: '2018-03-28T01:44:39Z'
     winrate: 53
   - damage: 578
     disable: 41
@@ -5190,7 +5190,7 @@ twos:
       icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
       type: offense
-    time_alive: '2018-03-27T07:14:55Z'
+    time_alive: '2018-03-28T01:44:31Z'
     winrate: 49
   - damage: 597
     disable: 50
@@ -5226,7 +5226,7 @@ twos:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    time_alive: '2018-03-27T07:15:35Z'
+    time_alive: '2018-03-28T01:45:11Z'
     winrate: 48
   description: Expert in the martial art of Ni'Shu and master of the spear. A highly
     mobile and dangerous duelist. His extraordinary combat prowess culminates in a
@@ -5269,7 +5269,7 @@ twos:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    time_alive: '2018-03-27T07:15:06Z'
+    time_alive: '2018-03-28T01:44:43Z'
     winrate: 48
   - damage: 368
     disable: 81
@@ -5305,7 +5305,7 @@ twos:
       icon: f13a6cad4bcaa974f8147e8a29a49dfe
       name: Sunbath
       type: support
-    time_alive: '2018-03-27T07:15:25Z'
+    time_alive: '2018-03-28T01:45:02Z'
     winrate: 59
   - damage: 366
     disable: 65
@@ -5340,7 +5340,7 @@ twos:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    time_alive: '2018-03-27T07:15:22Z'
+    time_alive: '2018-03-28T01:44:59Z'
     winrate: 54
   description: Sirius, a calm prodigy who uses the energies of stars and planets as
     destructive spells and healing powers. The prophecy was true and foretold the
@@ -5381,7 +5381,7 @@ twos:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    time_alive: '2018-03-27T07:14:31Z'
+    time_alive: '2018-03-28T01:44:08Z'
     winrate: 51
   - damage: 646
     disable: 78
@@ -5416,7 +5416,7 @@ twos:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    time_alive: '2018-03-27T07:15:09Z'
+    time_alive: '2018-03-28T01:44:46Z'
     winrate: 67
   - damage: 560
     disable: 47
@@ -5452,7 +5452,7 @@ twos:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    time_alive: '2018-03-27T07:15:04Z'
+    time_alive: '2018-03-28T01:44:41Z'
     winrate: 42
   description: An exceptionally swift hunter wielding a razor sharp boomerang. By
     shaping the wind around her Taya is able to increase her speed and control her
@@ -5494,7 +5494,7 @@ twos:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    time_alive: '2018-03-27T07:15:01Z'
+    time_alive: '2018-03-28T01:44:38Z'
     winrate: 32
   - damage: 524
     disable: 105
@@ -5529,7 +5529,7 @@ twos:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    time_alive: '2018-03-27T07:15:18Z'
+    time_alive: '2018-03-28T01:44:55Z'
     winrate: 41
   - damage: 651
     disable: 143
@@ -5565,7 +5565,7 @@ twos:
       icon: 0939b3a016f47504e99e00148489743b
       name: Sinister Sap
       type: offense
-    time_alive: '2018-03-27T07:16:04Z'
+    time_alive: '2018-03-28T01:45:41Z'
     winrate: 51
   description: "Ancient folklore speaks of Thorn, the destructive apparition. Using\
     \ its network of thorn-covered roots, it would whip, rupture and drain the life\
@@ -5609,7 +5609,7 @@ twos:
       icon: c2525970f8ab5574191da4938fa5619b
       name: Silence
       type: control
-    time_alive: '2018-03-27T07:15:25Z'
+    time_alive: '2018-03-28T01:45:01Z'
     winrate: 64
   - damage: 554
     disable: 33
@@ -5643,7 +5643,7 @@ twos:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
       type: support
-    time_alive: '2018-03-27T07:14:41Z'
+    time_alive: '2018-03-28T01:44:18Z'
     winrate: 60
   - damage: 554
     disable: 41
@@ -5680,7 +5680,7 @@ twos:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Zeal
       type: control
-    time_alive: '2018-03-27T07:15:27Z'
+    time_alive: '2018-03-28T01:45:04Z'
     winrate: 46
   description: A being formed by the energies of others. Varesh uses his power  to
     weaken and disrupt his enemies. By combining his powers he is able to unleash
@@ -5721,7 +5721,7 @@ twos:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    time_alive: '2018-03-27T07:16:18Z'
+    time_alive: '2018-03-28T01:45:55Z'
     winrate: 50
   - damage: 388
     disable: 46
@@ -5756,7 +5756,7 @@ twos:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    time_alive: '2018-03-27T07:16:39Z'
+    time_alive: '2018-03-28T01:46:16Z'
     winrate: 47
   - damage: 380
     disable: 46
@@ -5790,7 +5790,7 @@ twos:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    time_alive: '2018-03-27T07:16:04Z'
+    time_alive: '2018-03-28T01:45:41Z'
     winrate: 62
   description: When the famous theatre troupe "The Phantomime Masquerade" disbanded
     after a series of tragic events, their magnificent magician Zander vanished without

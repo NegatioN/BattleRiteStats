@@ -36,7 +36,7 @@ builds:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    time_alive: '2018-03-27T07:15:17Z'
+    time_alive: '2018-03-28T01:44:54Z'
     winrate: 50
   - damage: 675
     disable: 79
@@ -72,7 +72,7 @@ builds:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    time_alive: '2018-03-27T07:15:45Z'
+    time_alive: '2018-03-28T01:45:22Z'
     winrate: 50
   - damage: 599
     disable: 67
@@ -108,7 +108,7 @@ builds:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    time_alive: '2018-03-27T07:15:26Z'
+    time_alive: '2018-03-28T01:45:03Z'
     winrate: 57
   - damage: 606
     disable: 61
@@ -144,7 +144,7 @@ builds:
       icon: 1ac43589909cda746bafbf3da20d1559
       name: Twirl
       type: mobility
-    time_alive: '2018-03-27T07:15:11Z'
+    time_alive: '2018-03-28T01:44:48Z'
     winrate: 51
   - damage: 473
     disable: 63
@@ -181,7 +181,7 @@ builds:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    time_alive: '2018-03-27T07:15:06Z'
+    time_alive: '2018-03-28T01:44:43Z'
     winrate: 39
   twos:
   - damage: 642
@@ -219,7 +219,7 @@ builds:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    time_alive: '2018-03-27T07:15:31Z'
+    time_alive: '2018-03-28T01:45:08Z'
     winrate: 62
   - damage: 609
     disable: 64
@@ -255,7 +255,7 @@ builds:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    time_alive: '2018-03-27T07:15:41Z'
+    time_alive: '2018-03-28T01:45:18Z'
     winrate: 64
   - damage: 634
     disable: 66
@@ -292,7 +292,7 @@ builds:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    time_alive: '2018-03-27T07:14:56Z'
+    time_alive: '2018-03-28T01:44:33Z'
     winrate: 50
   - damage: 509
     disable: 65
@@ -327,7 +327,7 @@ builds:
       icon: 46faed2871863c34d83a612e2ddccc9e
       name: Vandalism
       type: offense
-    time_alive: '2018-03-27T07:15:50Z'
+    time_alive: '2018-03-28T01:45:27Z'
     winrate: 21
   - damage: 501
     disable: 68
@@ -363,7 +363,7 @@ builds:
       icon: 46faed2871863c34d83a612e2ddccc9e
       name: Vandalism
       type: offense
-    time_alive: '2018-03-27T07:15:03Z'
+    time_alive: '2018-03-28T01:44:40Z'
     winrate: 61
 description: From the frozen north comes the ice sculptor Alysia. Her power allows
   her to wield ice with both grace and deadly precision. She can damage and freeze

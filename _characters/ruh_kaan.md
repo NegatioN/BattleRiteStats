@@ -32,7 +32,7 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    time_alive: '2018-03-27T07:14:45Z'
+    time_alive: '2018-03-28T01:44:22Z'
     winrate: 70
   - damage: 451
     disable: 75
@@ -66,7 +66,7 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    time_alive: '2018-03-27T07:14:50Z'
+    time_alive: '2018-03-28T01:44:27Z'
     winrate: 62
   - damage: 510
     disable: 85
@@ -99,7 +99,7 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    time_alive: '2018-03-27T07:15:09Z'
+    time_alive: '2018-03-28T01:44:46Z'
     winrate: 47
   - damage: 543
     disable: 81
@@ -134,7 +134,7 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Night Stalker
       type: mobility
-    time_alive: '2018-03-27T07:15:57Z'
+    time_alive: '2018-03-28T01:45:34Z'
     winrate: 64
   - damage: 494
     disable: 79
@@ -167,7 +167,7 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    time_alive: '2018-03-27T07:15:52Z'
+    time_alive: '2018-03-28T01:45:29Z'
     winrate: 30
   twos:
   - damage: 547
@@ -202,7 +202,7 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    time_alive: '2018-03-27T07:15:24Z'
+    time_alive: '2018-03-28T01:45:01Z'
     winrate: 63
   - damage: 579
     disable: 72
@@ -235,7 +235,7 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    time_alive: '2018-03-27T07:15:56Z'
+    time_alive: '2018-03-28T01:45:33Z'
     winrate: 63
   - damage: 490
     disable: 78
@@ -268,7 +268,7 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    time_alive: '2018-03-27T07:14:51Z'
+    time_alive: '2018-03-28T01:44:28Z'
     winrate: 54
   - damage: 571
     disable: 84
@@ -301,7 +301,7 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    time_alive: '2018-03-27T07:15:13Z'
+    time_alive: '2018-03-28T01:44:50Z'
     winrate: 61
   - damage: 512
     disable: 65
@@ -335,7 +335,7 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    time_alive: '2018-03-27T07:15:32Z'
+    time_alive: '2018-03-28T01:45:09Z'
     winrate: 43
 description: "Ruh Kaan was awoken when a grave robber desecrated the sacred crypts\
   \ Ark\u2019dun. Pursuing the trespasser led him to the Arenas where he is still\

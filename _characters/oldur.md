@@ -36,7 +36,7 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    time_alive: '2018-03-27T07:15:33Z'
+    time_alive: '2018-03-28T01:45:10Z'
     winrate: 46
   - damage: 329
     disable: 59
@@ -72,7 +72,7 @@ builds:
       icon: 89c37320af892ae43b410f4d610d7ea8
       name: Sandstorm
       type: offense
-    time_alive: '2018-03-27T07:14:41Z'
+    time_alive: '2018-03-28T01:44:18Z'
     winrate: 50
   - damage: 432
     disable: 50
@@ -108,7 +108,7 @@ builds:
       icon: 35a1515e35b5104449dfa8802c5aa0e2
       name: Time Burst
       type: offense
-    time_alive: '2018-03-27T07:15:25Z'
+    time_alive: '2018-03-28T01:45:02Z'
     winrate: 65
   - damage: 356
     disable: 52
@@ -144,7 +144,7 @@ builds:
       icon: 35a1515e35b5104449dfa8802c5aa0e2
       name: Sand Tomb
       type: control
-    time_alive: '2018-03-27T07:15:48Z'
+    time_alive: '2018-03-28T01:45:25Z'
     winrate: 46
   - damage: 384
     disable: 53
@@ -182,7 +182,7 @@ builds:
       icon: a22c6c4bc967d4e48a44f0e87a93023e
       name: Time Walker
       type: mobility
-    time_alive: '2018-03-27T07:15:19Z'
+    time_alive: '2018-03-28T01:44:56Z'
     winrate: 42
   twos:
   - damage: 437
@@ -219,7 +219,7 @@ builds:
       icon: 89c37320af892ae43b410f4d610d7ea8
       name: Sandstorm
       type: offense
-    time_alive: '2018-03-27T07:15:01Z'
+    time_alive: '2018-03-28T01:44:38Z'
     winrate: 52
   - damage: 449
     disable: 71
@@ -255,7 +255,7 @@ builds:
       icon: a22c6c4bc967d4e48a44f0e87a93023e
       name: Time Walker
       type: mobility
-    time_alive: '2018-03-27T07:15:15Z'
+    time_alive: '2018-03-28T01:44:52Z'
     winrate: 62
   - damage: 470
     disable: 59
@@ -291,7 +291,7 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    time_alive: '2018-03-27T07:15:34Z'
+    time_alive: '2018-03-28T01:45:11Z'
     winrate: 51
   - damage: 481
     disable: 52
@@ -328,7 +328,7 @@ builds:
       icon: 89c37320af892ae43b410f4d610d7ea8
       name: Sandstorm
       type: offense
-    time_alive: '2018-03-27T07:15:37Z'
+    time_alive: '2018-03-28T01:45:14Z'
     winrate: 63
   - damage: 487
     disable: 44
@@ -365,7 +365,7 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    time_alive: '2018-03-27T07:15:19Z'
+    time_alive: '2018-03-28T01:44:56Z'
     winrate: 54
 description: Oldur, a mysterious creature able to bend time and space. He can mend
   wounds with powerful heals and reverse enemy attacks by freezing them in time.

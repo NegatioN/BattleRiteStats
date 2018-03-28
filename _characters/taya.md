@@ -34,7 +34,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    time_alive: '2018-03-27T07:14:54Z'
+    time_alive: '2018-03-28T01:44:31Z'
     winrate: 45
   - damage: 636
     disable: 56
@@ -70,7 +70,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    time_alive: '2018-03-27T07:15:25Z'
+    time_alive: '2018-03-28T01:45:02Z'
     winrate: 58
   - damage: 566
     disable: 48
@@ -104,7 +104,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    time_alive: '2018-03-27T07:15:14Z'
+    time_alive: '2018-03-28T01:44:51Z'
     winrate: 50
   - damage: 648
     disable: 79
@@ -138,7 +138,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    time_alive: '2018-03-27T07:15:24Z'
+    time_alive: '2018-03-28T01:45:01Z'
     winrate: 57
   - damage: 560
     disable: 77
@@ -172,7 +172,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    time_alive: '2018-03-27T07:14:47Z'
+    time_alive: '2018-03-28T01:44:24Z'
     winrate: 52
   twos:
   - damage: 546
@@ -208,7 +208,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    time_alive: '2018-03-27T07:14:31Z'
+    time_alive: '2018-03-28T01:44:08Z'
     winrate: 51
   - damage: 646
     disable: 78
@@ -243,7 +243,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    time_alive: '2018-03-27T07:15:09Z'
+    time_alive: '2018-03-28T01:44:46Z'
     winrate: 67
   - damage: 560
     disable: 47
@@ -279,7 +279,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    time_alive: '2018-03-27T07:15:04Z'
+    time_alive: '2018-03-28T01:44:41Z'
     winrate: 42
   - damage: 593
     disable: 68
@@ -313,7 +313,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    time_alive: '2018-03-27T07:15:20Z'
+    time_alive: '2018-03-28T01:44:57Z'
     winrate: 69
   - damage: 553
     disable: 71
@@ -347,7 +347,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    time_alive: '2018-03-27T07:15:17Z'
+    time_alive: '2018-03-28T01:44:54Z'
     winrate: 68
 description: An exceptionally swift hunter wielding a razor sharp boomerang. By shaping
   the wind around her Taya is able to increase her speed and control her boomerang

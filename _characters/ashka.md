@@ -34,7 +34,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    time_alive: '2018-03-27T07:14:58Z'
+    time_alive: '2018-03-28T01:44:35Z'
     winrate: 49
   - damage: 590
     disable: 39
@@ -69,7 +69,7 @@ builds:
       icon: 61e058b8f4b79f4419ec1496f223ee36
       name: Inspiration
       type: utility
-    time_alive: '2018-03-27T07:15:16Z'
+    time_alive: '2018-03-28T01:44:52Z'
     winrate: 47
   - damage: 633
     disable: 75
@@ -104,7 +104,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    time_alive: '2018-03-27T07:15:00Z'
+    time_alive: '2018-03-28T01:44:36Z'
     winrate: 53
   - damage: 661
     disable: 68
@@ -139,7 +139,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    time_alive: '2018-03-27T07:15:07Z'
+    time_alive: '2018-03-28T01:44:43Z'
     winrate: 65
   - damage: 671
     disable: 77
@@ -174,7 +174,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    time_alive: '2018-03-27T07:14:54Z'
+    time_alive: '2018-03-28T01:44:31Z'
     winrate: 65
   twos:
   - damage: 517
@@ -210,7 +210,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    time_alive: '2018-03-27T07:14:46Z'
+    time_alive: '2018-03-28T01:44:23Z'
     winrate: 48
   - damage: 559
     disable: 53
@@ -245,7 +245,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    time_alive: '2018-03-27T07:14:48Z'
+    time_alive: '2018-03-28T01:44:25Z'
     winrate: 45
   - damage: 476
     disable: 64
@@ -280,7 +280,7 @@ builds:
       icon: 64ae838604146444aac3474b78250f52
       name: Lava Punch
       type: control
-    time_alive: '2018-03-27T07:15:16Z'
+    time_alive: '2018-03-28T01:44:53Z'
     winrate: 37
   - damage: 705
     disable: 88
@@ -316,7 +316,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    time_alive: '2018-03-27T07:16:02Z'
+    time_alive: '2018-03-28T01:45:39Z'
     winrate: 75
   - damage: 488
     disable: 62
@@ -350,7 +350,7 @@ builds:
       icon: 48122c1a1a8cae7408409c90126f11cb
       name: Inferno
       type: offense
-    time_alive: '2018-03-27T07:14:59Z'
+    time_alive: '2018-03-28T01:44:36Z'
     winrate: 42
 description: A masked creature specialized in dark sorcery and pyro-kinetic powers.
   Casts devastating fire spells on his opponents and avoids close combat. Don't be

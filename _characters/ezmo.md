@@ -33,7 +33,7 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    time_alive: '2018-03-27T07:14:19Z'
+    time_alive: '2018-03-28T01:43:56Z'
     winrate: 50
   - damage: 550
     disable: 55
@@ -68,7 +68,7 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    time_alive: '2018-03-27T07:15:26Z'
+    time_alive: '2018-03-28T01:45:03Z'
     winrate: 49
   - damage: 549
     disable: 62
@@ -103,7 +103,7 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    time_alive: '2018-03-27T07:15:28Z'
+    time_alive: '2018-03-28T01:45:05Z'
     winrate: 53
   - damage: 552
     disable: 62
@@ -139,7 +139,7 @@ builds:
       icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Warlock's Grip
       type: utility
-    time_alive: '2018-03-27T07:14:29Z'
+    time_alive: '2018-03-28T01:44:06Z'
     winrate: 61
   - damage: 530
     disable: 56
@@ -175,7 +175,7 @@ builds:
       icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Warlock's Grip
       type: utility
-    time_alive: '2018-03-27T07:15:48Z'
+    time_alive: '2018-03-28T01:45:25Z'
     winrate: 42
   twos:
   - damage: 517
@@ -211,7 +211,7 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    time_alive: '2018-03-27T07:14:47Z'
+    time_alive: '2018-03-28T01:44:24Z'
     winrate: 54
   - damage: 627
     disable: 60
@@ -246,7 +246,7 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    time_alive: '2018-03-27T07:15:06Z'
+    time_alive: '2018-03-28T01:44:42Z'
     winrate: 71
   - damage: 722
     disable: 81
@@ -282,7 +282,7 @@ builds:
       icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Warlock's Grip
       type: utility
-    time_alive: '2018-03-27T07:15:27Z'
+    time_alive: '2018-03-28T01:45:04Z'
     winrate: 61
   - damage: 522
     disable: 44
@@ -317,7 +317,7 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    time_alive: '2018-03-27T07:14:40Z'
+    time_alive: '2018-03-28T01:44:16Z'
     winrate: 48
   - damage: 583
     disable: 48
@@ -352,7 +352,7 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    time_alive: '2018-03-27T07:14:39Z'
+    time_alive: '2018-03-28T01:44:15Z'
     winrate: 72
 description: Ezmo is an aggressive spell caster who can move quickly across the arena.
   Aradu, a powerful warlock summoned and imprisoned Ezmo but Ezmo saw his opportunity
