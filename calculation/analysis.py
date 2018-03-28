@@ -40,7 +40,8 @@ def aggregate_lookup(main_df, match_df):
 
 main_df['round_lookup'] = aggregate_lookup(main_df, match_df)
 
-exclude_columns = set(['matchid', 'userid', 'wonFlag', 'round_num', 'team'])
+exclude_columns = set(['matchid', 'userid', 'wonFlag', 'round_num', 'team',
+                       'healing_taken', 'damage_taken', 'disable_taken', 'energy_used'])
 print(match_df.columns)
 print('---------')
 print(main_df.columns)
@@ -58,9 +59,13 @@ for col in sum_cols:
     print('Processing match data for column={}'.format(col))
 
 agg_cols = ['{}_{}'.format(y, x) for x in sum_cols for y in ['sum', 'mean']]
-agg_cols.append('percent_alive')
+agg_cols.extend(['damage_ps', 'protection_ps', 'disable_ps', 'energy_ps'])
 
-main_df['percent_alive'] = main_df['sum_time_alive'] / main_df['sum_round_duration']
+
+main_df['damage_ps'] = main_df['sum_damage'] / main_df['sum_time_alive']
+main_df['protection_ps'] = main_df['sum_healing'] / main_df['sum_time_alive']
+main_df['disable_ps'] = main_df['sum_disable'] / main_df['sum_time_alive']
+main_df['energy_ps'] = main_df['sum_energy_gained'] / main_df['sum_time_alive']
 
 grouped = main_df.groupby(['character', 'matchMode', 'build']).agg({k: np.mean for k in agg_cols})
 
@@ -110,9 +115,10 @@ type_lookup = get_battlerite_type_mapping()
 twos = defaultdict(lambda: [])
 threes = defaultdict(lambda: [])
 
-def prep_output(num):
+def prep_output(num, t=int):
     try:
-        return int(num)
+        a = t(num)
+        return "{0:.1f}".format(a)
     except:
         return 0
 
@@ -132,11 +138,11 @@ for character, modes in character_dict.items():
                              }
                             for x in build],
                  'num': int(aggregations['num']),
-                 'winrate': prep_output(float(aggregations['win_num']) / float(aggregations['num']) * 100),
-                 'damage': prep_output(aggregations['mean_damage']),
-                 'protection': prep_output(aggregations['mean_healing']),
-                 'disable': prep_output(aggregations['mean_disable']),
-                 'time_alive': time_alive_data.strftime('%Y-%m-%dT%H:%M:%SZ')  # String is parsed in front-matter and only min/secs used.
+                 'winrate': prep_output(float(aggregations['win_num']) / float(aggregations['num']) * 100, t=float),
+                 'damage': prep_output(aggregations['damage_ps'], t=float),
+                 'protection': prep_output(aggregations['protection_ps'], t=float),
+                 'disable': prep_output(aggregations['disable_ps'], t=float),
+                 'energy': prep_output(aggregations['energy_ps'], t=float)
                  }
             cur_dict[character].append(b)
 
@@ -156,6 +162,7 @@ def sort_builds(builds, limit):
 
 def render_sort(mode_dict, limit):
     rendered_mode = [{'name': hero_name(hero_id),
+                      'title': hero_name(hero_id).replace(' ', '-').lower(),
                       'description': hero_description(hero_id),
                       'icon': hero_icon(hero_id),
                       'builds': sort_builds(mode_dict[hero_id], limit)}

@@ -8,7 +8,7 @@ layout: default
     <h1 class="line">{{ page.title }}</h1>
 </div>
 <p class="character-description">{{page.description}}</p>
-<h3>Played {{page.num}} times last 7 days, with a winrate of {{page.winrate}}%</h3>
+<h3>Played {{page.num}} times, with a winrate of {{page.winrate}}%</h3>
 </div>
 <article class="character">
         <div class="container table">
@@ -29,9 +29,10 @@ layout: default
             <div class="col-xs-6 col-md-12 statistics-parent">
                 <div class="statistics-element"><p><b>Count:</b> {{build.num}}</p></div>
                 <div class="statistics-element"><p><b>Winrate:</b> {{build.winrate}}%</p></div>
-                <div class="statistics-element"><p><b>Damage:</b> {{build.damage}}</p></div>
-                <div class="statistics-element"><p><b>Protection:</b> {{build.protection}}</p></div>
-                <div class="statistics-element"><p><b>Disable:</b> {{build.disable}}</p></div>
+                <div class="statistics-element"><p><b>Damage/s:</b> {{build.damage}}</p></div>
+                <div class="statistics-element"><p><b>Protection/s:</b> {{build.protection}}</p></div>
+                <div class="statistics-element"><p><b>Disable/s:</b> {{build.disable}}</p></div>
+                <div class="statistics-element"><p><b>Energy/s:</b> {{build.energy}}</p></div>
             </div>
         </div>
         {% endfor %}
@@ -56,9 +57,10 @@ layout: default
             <div class="col-xs-6 col-md-12 statistics-parent">
                 <div class="statistics-element"><p><b>Count:</b> {{build.num}}</p></div>
                 <div class="statistics-element"><p><b>Winrate:</b> {{build.winrate}}%</p></div>
-                <div class="statistics-element"><p><b>Damage:</b> {{build.damage}}</p></div>
-                <div class="statistics-element"><p><b>Protection:</b> {{build.protection}}</p></div>
-                <div class="statistics-element"><p><b>Disable:</b> {{build.disable}}</p></div>
+                <div class="statistics-element"><p><b>Damage/s:</b> {{build.damage}}</p></div>
+                <div class="statistics-element"><p><b>Protection/s:</b> {{build.protection}}</p></div>
+                <div class="statistics-element"><p><b>Disable/s:</b> {{build.disable}}</p></div>
+                <div class="statistics-element"><p><b>Energy/s:</b> {{build.energy}}</p></div>
             </div>
         </div>
         {% endfor %}

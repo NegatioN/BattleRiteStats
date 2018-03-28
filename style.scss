@@ -334,7 +334,7 @@ td > div {
 
 .explainer-text {
   font-size: 0.9rem;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .glyphicon-menu-hamburger {
@@ -379,6 +379,33 @@ td > div {
   flex-flow: row wrap;
   justify-content: space-between;
   margin-top: 5px;
+}
+
+.character-layout {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 5px;
+}
+
+.mpcharacter-container {
+  max-width: 33%;
+  position: relative;
+  text-align: center;
+}
+
+.padding-0{
+  padding:0.5%;
+}
+
+.text-bottom {
+  position: absolute;
+  color: white;
+  font-size: 22px;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+  bottom: 5px;
+  right: 16px;
 }
 
 .skill-element {

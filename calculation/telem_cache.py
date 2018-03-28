@@ -33,7 +33,6 @@ class TelemetryCache:
 
     def get_cached_telemetry(self, telemetry_url):
         telem_path = to_cache_dir(extract_telem_path(telemetry_url))
-        print(telem_path)
         if os.path.exists(telem_path):
             with open(telem_path, 'r', encoding='utf-8') as f:
                 self.cache_hits += 1
