@@ -2,10 +2,10 @@
 builds:
   threes:
   - damage: '4.4'
-    disable: '1.0'
+    disable: '0.9'
     energy: '3.0'
-    num: 20
-    protection: '5.5'
+    num: 22
+    protection: '5.3'
     skills:
     - color: teal
       description: Healing Wave bounces to a nearby ally after healing, healing them
@@ -36,7 +36,7 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '45.0'
+    winrate: '40.9'
   - damage: '5.1'
     disable: '1.3'
     energy: '3.1'
@@ -74,7 +74,7 @@ builds:
   - damage: '4.7'
     disable: '0.9'
     energy: '2.3'
-    num: 9
+    num: 10
     protection: '4.3'
     skills:
     - color: pink
@@ -106,7 +106,7 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Water Walk
       type: mobility
-    winrate: '77.8'
+    winrate: '70.0'
   - damage: '4.7'
     disable: '1.3'
     energy: '3.2'
@@ -142,11 +142,11 @@ builds:
       name: Splash Damage
       type: control
     winrate: '71.4'
-  - damage: '4.2'
-    disable: '1.0'
-    energy: '2.9'
-    num: 4
-    protection: '5.8'
+  - damage: '3.5'
+    disable: '0.8'
+    energy: '3.1'
+    num: 5
+    protection: '5.6'
     skills:
     - color: teal
       description: Healing Wave bounces to a nearby ally after healing, healing them
@@ -159,12 +159,11 @@ builds:
       icon: baa9baf5b01c5ee42902398a8f946a5a
       name: Gush
       type: control
-    - color: red
-      description: Firing Volatile Water through a Bubble Barrier increases damage
-        by 5 and range by 25.
+    - color: pink
+      description: Increases Silence duration from 1 to 1.4.
       icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Rippling Waters
-      type: offense
+      name: Soaking Wet
+      type: control
     - color: pink
       description: Charged Volatile Water explodes upon hitting an enemy, dealing
         full damage and inflicting Silence to other nearby enemies.
@@ -172,17 +171,17 @@ builds:
       name: Splash Damage
       type: control
     - color: teal
-      description: Bubble Barrier spawns a tasty fish that heals 8 health and increases
-        damage output by 20 for 4 when picked up.
-      icon: dba76bbb88cac764f9a8aeff389abb99
-      name: Tasty Fish
+      description: Dive heals self for 6 health and other nearby allies for 18 health
+        when emerging from the deep.
+      icon: 6c30b1e6992030e4dae06a355b7a4fb4
+      name: Spring Water
       type: support
-    winrate: '50.0'
+    winrate: '60.0'
   twos:
   - damage: '4.8'
     disable: '0.8'
     energy: '2.7'
-    num: 79
+    num: 83
     protection: '3.8'
     skills:
     - color: pink
@@ -214,7 +213,7 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    winrate: '59.5'
+    winrate: '59.0'
   - damage: '4.3'
     disable: '1.1'
     energy: '2.7'
@@ -253,7 +252,7 @@ builds:
   - damage: '4.6'
     disable: '0.7'
     energy: '2.8'
-    num: 40
+    num: 42
     protection: '3.9'
     skills:
     - color: pink
@@ -285,12 +284,12 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    winrate: '60.0'
+    winrate: '59.5'
   - damage: '5.1'
     disable: '1.0'
-    energy: '3.0'
-    num: 22
-    protection: '3.6'
+    energy: '2.9'
+    num: 25
+    protection: '3.5'
     skills:
     - color: pink
       description: Countering an attack with Tidal Wave recharges your staff.
@@ -320,7 +319,7 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '63.6'
+    winrate: '68.0'
   - damage: '4.7'
     disable: '1.0'
     energy: '2.8'
@@ -361,8 +360,12 @@ description: A sage able to control the oceans and whatever creatures that lurk 
 icon: 427116cdee46bad4cbaa99d7063e0832
 layout: character
 name: pearl
-num: 598
+num:
+  threes: 142
+  twos: 493
 title: Pearl
 url: characters/pearl.html
-winrate: 50
+winrate:
+  threes: '45.07'
+  twos: '51.12'
 ...

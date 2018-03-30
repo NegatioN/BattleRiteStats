@@ -3,8 +3,8 @@ builds:
   threes:
   - damage: '7.4'
     disable: '1.5'
-    energy: '3.3'
-    num: 28
+    energy: '3.4'
+    num: 31
     protection: '2.0'
     skills:
     - color: grey
@@ -35,11 +35,11 @@ builds:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    winrate: '46.4'
+    winrate: '48.4'
   - damage: '7.4'
     disable: '1.5'
-    energy: '3.1'
-    num: 24
+    energy: '3.2'
+    num: 25
     protection: '1.5'
     skills:
     - color: red
@@ -71,7 +71,7 @@ builds:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    winrate: '58.3'
+    winrate: '56.0'
   - damage: '7.9'
     disable: '1.5'
     energy: '3.2'
@@ -111,7 +111,7 @@ builds:
   - damage: '8.1'
     disable: '1.7'
     energy: '3.4'
-    num: 11
+    num: 14
     protection: '2.4'
     skills:
     - color: grey
@@ -143,7 +143,7 @@ builds:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    winrate: '27.3'
+    winrate: '35.7'
   - damage: '7.6'
     disable: '1.4'
     energy: '3.1'
@@ -181,11 +181,11 @@ builds:
       type: offense
     winrate: '50.0'
   twos:
-  - damage: '6.9'
+  - damage: '6.8'
     disable: '1.3'
-    energy: '3.3'
+    energy: '3.2'
     num: 28
-    protection: '2.1'
+    protection: '2.0'
     skills:
     - color: grey
       description: Each stinging volley inflicts Thorns on nearby enemies. Reduces
@@ -217,10 +217,10 @@ builds:
       name: Regrowth
       type: survival
     winrate: '46.4'
-  - damage: '7.7'
+  - damage: '7.6'
     disable: '1.4'
     energy: '3.2'
-    num: 18
+    num: 17
     protection: '2.0'
     skills:
     - color: grey
@@ -251,11 +251,11 @@ builds:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    winrate: '38.9'
+    winrate: '41.2'
   - damage: '7.4'
     disable: '1.4'
     energy: '3.1'
-    num: 14
+    num: 15
     protection: '1.7'
     skills:
     - color: red
@@ -287,7 +287,7 @@ builds:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    winrate: '42.9'
+    winrate: '40.0'
   - damage: '9.0'
     disable: '1.7'
     energy: '3.7'
@@ -369,8 +369,12 @@ description: "Ancient folklore speaks of Thorn, the destructive apparition. Usin
 icon: aab126231d9ff344f9f88ab230a5e66f
 layout: character
 name: thorn
-num: 505
+num:
+  threes: 273
+  twos: 260
 title: Thorn
 url: characters/thorn.html
-winrate: 42
+winrate:
+  threes: '41.03'
+  twos: '44.23'
 ...

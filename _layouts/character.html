@@ -8,11 +8,11 @@ layout: default
     <h1 class="line">{{ page.title }}</h1>
 </div>
 <p class="character-description">{{page.description}}</p>
-<h3>Played {{page.num}} times, with a winrate of {{page.winrate}}%</h3>
 </div>
 <article class="character">
         <div class="container table">
         <h2 class="mode-header">2 vs 2 builds</h2>
+        <h4>Played {{ page.num.twos }} times in 2 vs 2 with a winrate of {{ page.winrate.twos }}%</h4>
         {% for build in page.builds.twos %}
         <div class="row build-wrapper">
             <div class="col-xs-6 col-md-12 skill-parent">
@@ -41,6 +41,7 @@ layout: default
 
     <div class="container table">
         <h2 class="mode-header">3 vs 3 builds</h2>
+        <h4>Played {{ page.num.threes }} times in 3 vs 3 with a winrate of {{ page.winrate.threes }}%</h4>
         {% for build in page.builds.threes %}
         <div class="row build-wrapper">
             <div class="col-xs-6 col-md-12 skill-parent">

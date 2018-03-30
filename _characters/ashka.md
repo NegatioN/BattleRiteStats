@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '8.6'
+  - damage: '8.9'
     disable: '1.1'
-    energy: '3.1'
-    num: 40
+    energy: '3.2'
+    num: 42
     protection: '0.0'
     skills:
     - color: red
@@ -35,11 +35,11 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '65.0'
-  - damage: '8.2'
+    winrate: '61.9'
+  - damage: '8.4'
     disable: '1.0'
     energy: '3.6'
-    num: 22
+    num: 27
     protection: '0.0'
     skills:
     - color: yellow
@@ -70,7 +70,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '45.5'
+    winrate: '51.9'
   - damage: '9.0'
     disable: '0.6'
     energy: '3.4'
@@ -176,10 +176,10 @@ builds:
       type: utility
     winrate: '58.3'
   twos:
-  - damage: '8.3'
-    disable: '1.0'
-    energy: '3.2'
-    num: 59
+  - damage: '8.1'
+    disable: '0.9'
+    energy: '3.1'
+    num: 30
     protection: '0.0'
     skills:
     - color: red
@@ -210,7 +210,42 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '50.8'
+    winrate: '26.7'
+  - damage: '8.4'
+    disable: '1.1'
+    energy: '3.8'
+    num: 18
+    protection: '0.1'
+    skills:
+    - color: yellow
+      description: Searing Flight increases movement speed by 30 for 2.
+      icon: de69286ec8d6c934c9b04c51d1814b5c
+      name: Burning Feet
+      type: mobility
+    - color: red
+      description: Fireballs traveling through Firewall turn into Fire Storm bolts.
+      icon: c6d71f7b4598ec14cab637f6d9ffce64
+      name: Conflagration
+      type: offense
+    - color: yellow
+      description: Fire Storm can be cast while moving at 50 movement speed and 30
+        while channeling.
+      icon: 117c35c7f757858428a733d8da4982be
+      name: Heat
+      type: mobility
+    - color: blue
+      description: Increases energy gain from abilities by 10 and maximum energy by
+        25.
+      icon: 61e058b8f4b79f4419ec1496f223ee36
+      name: Inspiration
+      type: utility
+    - color: red
+      description: Ignite deals 2 bonus damage when first applied and reduces target's
+        movement speed by 10.
+      icon: 7612ba34ea3cdf9429a033d92e85c117
+      name: Magma
+      type: offense
+    winrate: '44.4'
   - damage: '8.4'
     disable: '1.0'
     energy: '3.5'
@@ -282,45 +317,10 @@ builds:
       name: Magma
       type: offense
     winrate: '53.8'
-  - damage: '7.9'
-    disable: '1.1'
-    energy: '3.8'
-    num: 13
-    protection: '0.0'
-    skills:
-    - color: yellow
-      description: Searing Flight increases movement speed by 30 for 2.
-      icon: de69286ec8d6c934c9b04c51d1814b5c
-      name: Burning Feet
-      type: mobility
-    - color: red
-      description: Fireballs traveling through Firewall turn into Fire Storm bolts.
-      icon: c6d71f7b4598ec14cab637f6d9ffce64
-      name: Conflagration
-      type: offense
-    - color: yellow
-      description: Fire Storm can be cast while moving at 50 movement speed and 30
-        while channeling.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Heat
-      type: mobility
-    - color: blue
-      description: Increases energy gain from abilities by 10 and maximum energy by
-        25.
-      icon: 61e058b8f4b79f4419ec1496f223ee36
-      name: Inspiration
-      type: utility
-    - color: red
-      description: Ignite deals 2 bonus damage when first applied and reduces target's
-        movement speed by 10.
-      icon: 7612ba34ea3cdf9429a033d92e85c117
-      name: Magma
-      type: offense
-    winrate: '30.8'
-  - damage: '9.0'
-    disable: '1.0'
-    energy: '3.6'
-    num: 8
+  - damage: '8.9'
+    disable: '0.9'
+    energy: '3.4'
+    num: 10
     protection: '0.0'
     skills:
     - color: red
@@ -351,15 +351,19 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '25.0'
+    winrate: '30.0'
 description: A masked creature specialized in dark sorcery and pyro-kinetic powers.
   Casts devastating fire spells on his opponents and avoids close combat. Don't be
   fooled by his size, Ashka's inner demon strikes fear into all who face him.
 icon: 02fbe1fea9e22054a9ab1b0c5007dbae
 layout: character
 name: ashka
-num: 604
+num:
+  threes: 354
+  twos: 265
 title: Ashka
 url: characters/ashka.html
-winrate: 46
+winrate:
+  threes: '48.87'
+  twos: '38.49'
 ...
