@@ -115,10 +115,9 @@ type_lookup = get_battlerite_type_mapping()
 twos = defaultdict(lambda: [])
 threes = defaultdict(lambda: [])
 
-def prep_output(num, t=int):
+def prep_output(num, prec=1, t=float):
     try:
-        a = t(num)
-        return "{0:.1f}".format(a)
+        return '%.{}f'.format(prec) % t(num)
     except:
         return 0
 
@@ -138,18 +137,18 @@ for character, modes in character_dict.items():
                              }
                             for x in build],
                  'num': int(aggregations['num']),
-                 'winrate': prep_output(float(aggregations['win_num']) / float(aggregations['num']) * 100, t=float),
-                 'damage': prep_output(aggregations['damage_ps'], t=float),
-                 'protection': prep_output(aggregations['protection_ps'], t=float),
-                 'disable': prep_output(aggregations['disable_ps'], t=float),
-                 'energy': prep_output(aggregations['energy_ps'], t=float)
+                 'winrate': prep_output(float(aggregations['win_num']) / float(aggregations['num']) * 100),
+                 'damage': prep_output(aggregations['damage_ps']),
+                 'protection': prep_output(aggregations['protection_ps']),
+                 'disable': prep_output(aggregations['disable_ps']),
+                 'energy': prep_output(aggregations['energy_ps'])
                  }
             cur_dict[character].append(b)
 
 
 def sort_dict_array_by_key(dict_arr, key, rev=False):
     if rev:
-        return reversed(sorted(dict_arr, key=lambda k: k[key]))
+        return [x for x in reversed(sorted(dict_arr, key=lambda k: k[key]))]
     else:
         return sorted(dict_arr, key=lambda k: k[key])
 
@@ -169,23 +168,27 @@ def render_sort(mode_dict, limit):
                      for hero_id in mode_dict.keys()]
     return sort_dict_array_by_key(rendered_mode, 'name')
 
-master_d = {'twos': render_sort(twos, 3),
-            'threes': render_sort(threes, 3),
-            'extra': {'time_generated': datetime.now().strftime('%d %B %Y'),
-                      'num_matches': main_df['matchid'].nunique()}}
+character_wins = defaultdict(lambda: defaultdict(lambda: 0))
+for character, modes in character_dict.items():
+    for mode, builds in modes.items():
+        for build, aggregations in builds.items():
+            character_wins[character][mode] += aggregations['win_num']
 
+appearance_calculations = main_df.groupby(['character', 'matchMode']).size().to_dict().items()
+appearance_summary = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: 0)))
+for (h_id, mode), value in appearance_calculations:
+    appearance_summary[h_id][mode]['num'] = int(value)
+    appearance_summary[h_id][mode]['winrate'] = float(character_wins[h_id][mode]) / float(value)
 
-appearance_summary = {hero_name(h_id): int(v) for h_id, v in main_df.groupby('character').size().to_dict().items()}
-win_agg = main_df.groupby('character')['wonFlag'].agg('sum')
-winrate_summary = {x[0]: int(float(x[1]) / float(appearance_summary[x[0]]) * 100)
-                   for x in zip([hero_name(z) for z in win_agg.index], win_agg)}
+named_appearance_summary = {hero_name(c): mode for c, mode in appearance_summary.items()}
+
 
 def create_character_page_data(twos, threes):
     chars = []
     all_entries = [x for x in zip(render_sort(twos, 5), render_sort(threes, 5))]
     for x in all_entries:
         name = x[0]['name']
-        escaped_name = name.replace(' ', '_').lower()
+        escaped_name = name.replace(' ', '-').lower()
         chars.append({
             'layout': 'character',
             'title': name,
@@ -197,12 +200,32 @@ def create_character_page_data(twos, threes):
                 {'twos': x[0]['builds'],
                  'threes': x[1]['builds']
                  },
-            'num': appearance_summary[name],
-            'winrate': winrate_summary[name]
+            'num': {'twos': named_appearance_summary[name]['QUICK2V2']['num'],
+                    'threes': named_appearance_summary[name]['QUICK3V3']['num']},
+            'winrate': {'twos': prep_output(named_appearance_summary[name]['QUICK2V2']['winrate'] * 100, prec=2),
+                        'threes': prep_output(named_appearance_summary[name]['QUICK3V3']['winrate'] * 100, prec=2)}
         })
     return chars
 
 character_page_data = create_character_page_data(twos, threes)
+
+def hero_info(hero_id):
+    return {'name': hero_name(hero_id),
+            'title': hero_name(hero_id).replace(' ', '-').lower(),
+            'icon': hero_icon(hero_id)}
+
+def mode_winrate_sorted(mode_string):
+    arr = [{**hero_info(h_id),
+            **mode[mode_string]} for h_id, mode in appearance_summary.items()]
+    return sort_dict_array_by_key(arr, 'winrate', rev=True)
+
+frontpage_data = sort_dict_array_by_key([hero_info(h_id) for h_id, mode in appearance_summary.items()], 'name')
+
+master_d = {'frontpage': frontpage_data,
+            'twos': mode_winrate_sorted('QUICK2V2'),
+            'threes': mode_winrate_sorted('QUICK3V3'),
+            'extra': {'time_generated': datetime.now().strftime('%d %B %Y'),
+                      'num_matches': main_df['matchid'].nunique()}}
 
 
 if len(twos) > 15 and len(threes) > 15:

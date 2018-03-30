@@ -1,11 +1,11 @@
 ---
 builds:
   threes:
-  - damage: '4.3'
+  - damage: '4.4'
     disable: '0.9'
-    energy: '2.9'
-    num: 12
-    protection: '5.1'
+    energy: '3.0'
+    num: 22
+    protection: '5.3'
     skills:
     - color: teal
       description: Healing Wave bounces to a nearby ally after healing, healing them
@@ -36,7 +36,7 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '58.3'
+    winrate: '40.9'
   - damage: '5.1'
     disable: '1.3'
     energy: '3.1'
@@ -74,7 +74,7 @@ builds:
   - damage: '4.7'
     disable: '0.9'
     energy: '2.3'
-    num: 9
+    num: 10
     protection: '4.3'
     skills:
     - color: pink
@@ -106,7 +106,7 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Water Walk
       type: mobility
-    winrate: '77.8'
+    winrate: '70.0'
   - damage: '4.7'
     disable: '1.3'
     energy: '3.2'
@@ -142,29 +142,23 @@ builds:
       name: Splash Damage
       type: control
     winrate: '71.4'
-  - damage: '3.9'
-    disable: '1.2'
-    energy: '3.0'
-    num: 4
-    protection: '4.4'
+  - damage: '3.5'
+    disable: '0.8'
+    energy: '3.1'
+    num: 5
+    protection: '5.6'
     skills:
+    - color: teal
+      description: Healing Wave bounces to a nearby ally after healing, healing them
+        for 6 health.
+      icon: 81f898538a9eba14b82110f8ebf6654e
+      name: Fountain
+      type: support
     - color: pink
       description: Countering an attack with Tidal Wave recharges your staff.
       icon: baa9baf5b01c5ee42902398a8f946a5a
       name: Gush
       type: control
-    - color: yellow
-      description: Diving into a Bubble Barrier destroys the bubble and resets the
-        cooldown of Dive.
-      icon: 6c30b1e6992030e4dae06a355b7a4fb4
-      name: Ocean Tide
-      type: mobility
-    - color: green
-      description: Countering an attack with Tidal Wave spawns a Lesser Bubble Barrier
-        around you.
-      icon: baa9baf5b01c5ee42902398a8f946a5a
-      name: Sea Bubble
-      type: survival
     - color: pink
       description: Increases Silence duration from 1 to 1.4.
       icon: 70a26229b7880aa44a46e8cb2af9334f
@@ -176,12 +170,18 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '100.0'
+    - color: teal
+      description: Dive heals self for 6 health and other nearby allies for 18 health
+        when emerging from the deep.
+      icon: 6c30b1e6992030e4dae06a355b7a4fb4
+      name: Spring Water
+      type: support
+    winrate: '60.0'
   twos:
-  - damage: '4.9'
+  - damage: '4.8'
     disable: '0.8'
     energy: '2.7'
-    num: 72
+    num: 83
     protection: '3.8'
     skills:
     - color: pink
@@ -213,11 +213,11 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    winrate: '56.9'
+    winrate: '59.0'
   - damage: '4.3'
     disable: '1.1'
     energy: '2.7'
-    num: 40
+    num: 44
     protection: '3.7'
     skills:
     - color: pink
@@ -248,11 +248,11 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '55.0'
+    winrate: '52.3'
   - damage: '4.6'
     disable: '0.7'
     energy: '2.8'
-    num: 37
+    num: 42
     protection: '3.9'
     skills:
     - color: pink
@@ -285,10 +285,10 @@ builds:
       name: Tasty Fish
       type: support
     winrate: '59.5'
-  - damage: '5.2'
-    disable: '1.1'
-    energy: '3.0'
-    num: 23
+  - damage: '5.1'
+    disable: '1.0'
+    energy: '2.9'
+    num: 25
     protection: '3.5'
     skills:
     - color: pink
@@ -319,11 +319,11 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '65.2'
+    winrate: '68.0'
   - damage: '4.7'
     disable: '1.0'
     energy: '2.8'
-    num: 21
+    num: 20
     protection: '3.6'
     skills:
     - color: pink
@@ -353,15 +353,19 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    winrate: '52.4'
+    winrate: '50.0'
 description: A sage able to control the oceans and whatever creatures that lurk below.
   Pearl transforms water into volatile attacks, rejuvenating streams and protecting
   bubbles.
 icon: 427116cdee46bad4cbaa99d7063e0832
 layout: character
 name: pearl
-num: 512
+num:
+  threes: 142
+  twos: 493
 title: Pearl
 url: characters/pearl.html
-winrate: 51
+winrate:
+  threes: '45.07'
+  twos: '51.12'
 ...
