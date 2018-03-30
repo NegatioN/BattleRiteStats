@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '8.1'
+  - damage: '8.0'
     disable: '1.1'
     energy: '4.6'
-    num: 25
+    num: 33
     protection: '0.8'
     skills:
     - color: red
@@ -35,12 +35,12 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '72.0'
-  - damage: '6.7'
+    winrate: '63.6'
+  - damage: '7.1'
     disable: '0.8'
     energy: '4.1'
-    num: 14
-    protection: '0.6'
+    num: 21
+    protection: '0.7'
     skills:
     - color: red
       description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
@@ -70,11 +70,11 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '42.9'
-  - damage: '9.1'
-    disable: '1.0'
-    energy: '5.0'
-    num: 12
+    winrate: '38.1'
+  - damage: '8.9'
+    disable: '1.1'
+    energy: '4.9'
+    num: 16
     protection: '1.0'
     skills:
     - color: red
@@ -104,12 +104,12 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '66.7'
-  - damage: '8.4'
-    disable: '1.2'
+    winrate: '62.5'
+  - damage: '8.0'
+    disable: '1.1'
     energy: '5.0'
-    num: 9
-    protection: '1.0'
+    num: 13
+    protection: '0.9'
     skills:
     - color: red
       description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
@@ -139,11 +139,11 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '44.4'
-  - damage: '8.2'
+    winrate: '46.2'
+  - damage: '8.1'
     disable: '1.2'
     energy: '5.0'
-    num: 9
+    num: 11
     protection: '0.8'
     skills:
     - color: red
@@ -174,7 +174,7 @@ builds:
       icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Viper
       type: mobility
-    winrate: '55.6'
+    winrate: '54.5'
   twos:
   - damage: '8.7'
     disable: '0.6'
@@ -209,10 +209,10 @@ builds:
       name: Precision
       type: offense
     winrate: '63.9'
-  - damage: '7.0'
-    disable: '0.7'
-    energy: '4.1'
-    num: 9
+  - damage: '7.5'
+    disable: '0.6'
+    energy: '4.5'
+    num: 16
     protection: '1.0'
     skills:
     - color: red
@@ -241,11 +241,46 @@ builds:
       icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Viper
       type: mobility
-    winrate: '11.1'
-  - damage: '6.7'
-    disable: '0.7'
-    energy: '4.1'
-    num: 8
+    winrate: '18.8'
+  - damage: '8.2'
+    disable: '0.9'
+    energy: '4.9'
+    num: 14
+    protection: '1.1'
+    skills:
+    - color: red
+      description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
+        over the duration.
+      icon: ce1e01246a2a09145a192bb0deeeb400
+      name: Arrow Storm
+      type: offense
+    - color: red
+      description: Consuming ^2Seekers Mark^- deals 4 bonus damage.
+      icon: 60a73a3140321ec448f7f97f00a07897
+      name: Death Mark
+      type: offense
+    - color: yellow
+      description: Increases duration of Prowl by 0.5 and reduces its cooldown by
+        3.
+      icon: bcb5bbf5676057e4bb4278f5c20bb865
+      name: Panther
+      type: mobility
+    - color: pink
+      description: Steady Shot inflicts Stun for 0.5.
+      icon: 594fdf8c70a83404da422aa6463e0e03
+      name: Perfect Shot
+      type: control
+    - color: pink
+      description: Bear Trap lays down an additional trap in front of the first one
+        that lasts for 3.
+      icon: 6e30eed38d549fa4794a4543bf2b8de2
+      name: Trapper
+      type: control
+    winrate: '57.1'
+  - damage: '7.1'
+    disable: '0.8'
+    energy: '4.4'
+    num: 14
     protection: '0.9'
     skills:
     - color: red
@@ -276,46 +311,11 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '62.5'
-  - damage: '8.3'
-    disable: '0.9'
-    energy: '4.6'
-    num: 7
-    protection: '1.0'
-    skills:
-    - color: red
-      description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
-        over the duration.
-      icon: ce1e01246a2a09145a192bb0deeeb400
-      name: Arrow Storm
-      type: offense
-    - color: red
-      description: Consuming ^2Seekers Mark^- deals 4 bonus damage.
-      icon: 60a73a3140321ec448f7f97f00a07897
-      name: Death Mark
-      type: offense
-    - color: yellow
-      description: Increases duration of Prowl by 0.5 and reduces its cooldown by
-        3.
-      icon: bcb5bbf5676057e4bb4278f5c20bb865
-      name: Panther
-      type: mobility
-    - color: pink
-      description: Steady Shot inflicts Stun for 0.5.
-      icon: 594fdf8c70a83404da422aa6463e0e03
-      name: Perfect Shot
-      type: control
-    - color: pink
-      description: Bear Trap lays down an additional trap in front of the first one
-        that lasts for 3.
-      icon: 6e30eed38d549fa4794a4543bf2b8de2
-      name: Trapper
-      type: control
-    winrate: '71.4'
-  - damage: '7.3'
-    disable: '1.1'
+    winrate: '57.1'
+  - damage: '7.2'
+    disable: '1.0'
     energy: '4.5'
-    num: 7
+    num: 9
     protection: '0.6'
     skills:
     - color: red
@@ -346,7 +346,7 @@ builds:
       icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Viper
       type: mobility
-    winrate: '14.3'
+    winrate: '11.1'
 description: Jumong is a trophy collector who has wandered the wildlands in the pursuit
   of a worthy challenge. No longer being content with hunting the great beasts of
   the world has led him to enter the arena, looking for a new type of prey. He traps
@@ -354,8 +354,8 @@ description: Jumong is a trophy collector who has wandered the wildlands in the 
 icon: 42a665b9c285a1243a201c8d533980e5
 layout: character
 name: jumong
-num: 298
+num: 472
 title: Jumong
 url: characters/jumong.html
-winrate: 46
+winrate: 44
 ...

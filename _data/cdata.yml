@@ -1,5 +1,5 @@
 extra:
-  num_matches: 2128
+  num_matches: 3785
   time_generated: 30 March 2018
 threes:
 - builds:
@@ -74,11 +74,11 @@ threes:
       name: Snowstorm
       type: offense
     winrate: '46.7'
-  - damage: '7.7'
-    disable: '1.3'
-    energy: '3.2'
-    num: 9
-    protection: '0.3'
+  - damage: '7.2'
+    disable: '1.2'
+    energy: '3.1'
+    num: 14
+    protection: '0.4'
     skills:
     - color: blue
       description: Increases Flash Freeze radius by 10 and reduces cooldown by 1.
@@ -109,7 +109,7 @@ threes:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    winrate: '44.4'
+    winrate: '42.9'
   description: From the frozen north comes the ice sculptor Alysia. Her power allows
     her to wield ice with both grace and deadly precision. She can damage and freeze
     her enemies from a distance, while shielding her allies with ice. Obsessed with
@@ -119,45 +119,10 @@ threes:
   name: Alysia
   title: alysia
 - builds:
-  - damage: '8.1'
-    disable: '1.0'
-    energy: '3.6'
-    num: 13
-    protection: '0.0'
-    skills:
-    - color: yellow
-      description: Searing Flight increases movement speed by 30 for 2.
-      icon: de69286ec8d6c934c9b04c51d1814b5c
-      name: Burning Feet
-      type: mobility
-    - color: red
-      description: Fireballs traveling through Firewall turn into Fire Storm bolts.
-      icon: c6d71f7b4598ec14cab637f6d9ffce64
-      name: Conflagration
-      type: offense
-    - color: yellow
-      description: Fire Storm can be cast while moving at 50 movement speed and 30
-        while channeling.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Heat
-      type: mobility
-    - color: blue
-      description: Increases energy gain from abilities by 10 and maximum energy by
-        25.
-      icon: 61e058b8f4b79f4419ec1496f223ee36
-      name: Inspiration
-      type: utility
-    - color: red
-      description: Ignite deals 2 bonus damage when first applied and reduces target's
-        movement speed by 10.
-      icon: 7612ba34ea3cdf9429a033d92e85c117
-      name: Magma
-      type: offense
-    winrate: '38.5'
-  - damage: '9.1'
+  - damage: '8.7'
     disable: '1.1'
-    energy: '3.4'
-    num: 12
+    energy: '3.1'
+    num: 26
     protection: '0.0'
     skills:
     - color: red
@@ -188,11 +153,11 @@ threes:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '75.0'
-  - damage: '9.5'
+    winrate: '65.4'
+  - damage: '9.0'
     disable: '0.6'
-    energy: '3.6'
-    num: 9
+    energy: '3.4'
+    num: 20
     protection: '0.0'
     skills:
     - color: red
@@ -222,7 +187,42 @@ threes:
       icon: 48122c1a1a8cae7408409c90126f11cb
       name: Inferno
       type: offense
-    winrate: '100.0'
+    winrate: '80.0'
+  - damage: '8.2'
+    disable: '1.0'
+    energy: '3.6'
+    num: 19
+    protection: '0.0'
+    skills:
+    - color: yellow
+      description: Searing Flight increases movement speed by 30 for 2.
+      icon: de69286ec8d6c934c9b04c51d1814b5c
+      name: Burning Feet
+      type: mobility
+    - color: red
+      description: Fireballs traveling through Firewall turn into Fire Storm bolts.
+      icon: c6d71f7b4598ec14cab637f6d9ffce64
+      name: Conflagration
+      type: offense
+    - color: yellow
+      description: Fire Storm can be cast while moving at 50 movement speed and 30
+        while channeling.
+      icon: 117c35c7f757858428a733d8da4982be
+      name: Heat
+      type: mobility
+    - color: blue
+      description: Increases energy gain from abilities by 10 and maximum energy by
+        25.
+      icon: 61e058b8f4b79f4419ec1496f223ee36
+      name: Inspiration
+      type: utility
+    - color: red
+      description: Ignite deals 2 bonus damage when first applied and reduces target's
+        movement speed by 10.
+      icon: 7612ba34ea3cdf9429a033d92e85c117
+      name: Magma
+      type: offense
+    winrate: '47.4'
   description: A masked creature specialized in dark sorcery and pyro-kinetic powers.
     Casts devastating fire spells on his opponents and avoids close combat. Don't
     be fooled by his size, Ashka's inner demon strikes fear into all who face him.
@@ -230,10 +230,10 @@ threes:
   name: Ashka
   title: ashka
 - builds:
-  - damage: '7.7'
-    disable: '1.6'
+  - damage: '7.6'
+    disable: '1.7'
     energy: '3.3'
-    num: 28
+    num: 46
     protection: '1.6'
     skills:
     - color: red
@@ -267,8 +267,8 @@ threes:
   - damage: '6.7'
     disable: '1.8'
     energy: '3.3'
-    num: 27
-    protection: '1.9'
+    num: 37
+    protection: '2.0'
     skills:
     - color: green
       description: War Axe hits reduce the cooldown of Bulwark by 1.
@@ -297,11 +297,11 @@ threes:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '51.9'
+    winrate: '43.2'
   - damage: '6.5'
-    disable: '1.1'
-    energy: '3.5'
-    num: 22
+    disable: '1.2'
+    energy: '3.6'
+    num: 36
     protection: '2.1'
     skills:
     - color: green
@@ -331,7 +331,7 @@ threes:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '50.0'
+    winrate: '58.3'
   description: Bakko has a proud history as a heroic brawler, armed with both axe
     and shield. He uses his shield to protect teammates and outmaneuver enemies. Watch
     out for his earth-shattering dash attacks, as even calm warriors sometimes go
@@ -340,11 +340,44 @@ threes:
   name: Bakko
   title: bakko
 - builds:
-  - damage: '4.9'
+  - damage: '3.4'
+    disable: '0.8'
+    energy: '3.0'
+    num: 9
+    protection: '5.4'
+    skills:
+    - color: green
+      description: Increases Tree of Life health by 10.
+      icon: 493cac6f13fb41849aaf95ed03fbb488
+      name: Healthful Bark
+      type: survival
+    - color: yellow
+      description: Hop can be recast for a Lesser Hop that travels a shorter distance.
+      icon: 36048e053d179474491aa317959b3eb7
+      name: Hop and Skip!
+      type: mobility
+    - color: red
+      description: Reduces your weapon charge cooldown by 30.
+      icon: e0ead374bbde24c44a10cc34294a6e44
+      name: Nature's Cycle
+      type: offense
+    - color: red
+      description: Boom Bloom hits charge your weapon by 50.
+      icon: 4832a1022ed764241a63b8dacc299ee9
+      name: Spring Growth
+      type: offense
+    - color: teal
+      description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
+        output by 40 for 1.5.
+      icon: e0ead374bbde24c44a10cc34294a6e44
+      name: Weakening Pitch
+      type: support
+    winrate: '22.2'
+  - damage: '4.8'
     disable: '1.0'
-    energy: '4.1'
-    num: 7
-    protection: '5.2'
+    energy: '3.8'
+    num: 8
+    protection: '5.1'
     skills:
     - color: green
       description: Increases Hop invisibility duration by 1.
@@ -374,12 +407,18 @@ threes:
       name: Weakening Pitch
       type: support
     winrate: '100.0'
-  - damage: '3.3'
+  - damage: '3.8'
     disable: '0.8'
-    energy: '2.9'
-    num: 6
-    protection: '5.7'
+    energy: '3.0'
+    num: 7
+    protection: '5.8'
     skills:
+    - color: teal
+      description: Whenever Tree of Life is healed by Nourish, nearby allies are healed
+        for the same amount.
+      icon: 493cac6f13fb41849aaf95ed03fbb488
+      name: Bountiful Tree
+      type: support
     - color: green
       description: Increases Tree of Life health by 10.
       icon: 493cac6f13fb41849aaf95ed03fbb488
@@ -390,57 +429,19 @@ threes:
       icon: 36048e053d179474491aa317959b3eb7
       name: Hop and Skip!
       type: mobility
-    - color: red
-      description: Reduces your weapon charge cooldown by 30.
-      icon: e0ead374bbde24c44a10cc34294a6e44
-      name: Nature's Cycle
-      type: offense
-    - color: red
-      description: Boom Bloom hits charge your weapon by 50.
-      icon: 4832a1022ed764241a63b8dacc299ee9
-      name: Spring Growth
-      type: offense
+    - color: teal
+      description: Nourish heals 2 bonus health when healing another ally. Butterflies
+        heals for 2 bonus health.
+      icon: 2b94035c77e083845a78221a5130146e
+      name: Kindhearted
+      type: support
     - color: teal
       description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
         output by 40 for 1.5.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '16.7'
-  - damage: '4.5'
-    disable: '1.0'
-    energy: '3.5'
-    num: 6
-    protection: '5.3'
-    skills:
-    - color: teal
-      description: Whenever Tree of Life is healed by Nourish, nearby allies are healed
-        for the same amount.
-      icon: 493cac6f13fb41849aaf95ed03fbb488
-      name: Bountiful Tree
-      type: support
-    - color: yellow
-      description: Hop can be recast for a Lesser Hop that travels a shorter distance.
-      icon: 36048e053d179474491aa317959b3eb7
-      name: Hop and Skip!
-      type: mobility
-    - color: red
-      description: Reduces your weapon charge cooldown by 30.
-      icon: e0ead374bbde24c44a10cc34294a6e44
-      name: Nature's Cycle
-      type: offense
-    - color: red
-      description: Boom Bloom hits charge your weapon by 50.
-      icon: 4832a1022ed764241a63b8dacc299ee9
-      name: Spring Growth
-      type: offense
-    - color: teal
-      description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
-        output by 40 for 1.5.
-      icon: e0ead374bbde24c44a10cc34294a6e44
-      name: Weakening Pitch
-      type: support
-    winrate: '33.3'
+    winrate: '71.4'
   description: Blossom is a happy, bubbly young faun from the Silverdeep Forest. She
     has left her home to investigate a disturbance in the natural order. She is never
     far from her bird companion, Maxwell.
@@ -448,10 +449,10 @@ threes:
   name: Blossom
   title: blossom
 - builds:
-  - damage: '7.6'
+  - damage: '7.5'
     disable: '1.0'
-    energy: '3.4'
-    num: 17
+    energy: '3.3'
+    num: 27
     protection: '1.7'
     skills:
     - color: blue
@@ -481,12 +482,47 @@ threes:
       icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
       type: utility
-    winrate: '64.7'
-  - damage: '7.3'
-    disable: '1.3'
+    winrate: '70.4'
+  - damage: '7.7'
+    disable: '0.7'
     energy: '2.9'
-    num: 9
-    protection: '1.1'
+    num: 18
+    protection: '2.0'
+    skills:
+    - color: red
+      description: Activating Toxin Blades increases attack speed of your next 6 Blade
+        Flurry attacks. Also increases Toxin Blades bonus damage by 1.
+      icon: 2c885df2336558e489fbe57b32a9fb94
+      name: Frog Frenzy
+      type: offense
+    - color: yellow
+      description: Increases Noxious Lunge range by 30. It deals 4 bonus damage.
+      icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
+      name: Frog Slice
+      type: mobility
+    - color: green
+      description: Increases healing effect of Toxin from 8 to 16.
+      icon: 84e29daadee87714294bbdabd3fdd4ab
+      name: Mending Toxin
+      type: survival
+    - color: blue
+      description: Toxin Muck gains 1 ability charge but increases its cooldown by
+        1.
+      icon: 84e29daadee87714294bbdabd3fdd4ab
+      name: Spit Spit Spit
+      type: utility
+    - color: red
+      description: Frog Leap causes your next 3 Blade Flurry attacks to deal 2 bonus
+        damage.
+      icon: f4d1c9994ff77524bacb0bfe5347e118
+      name: Triple Strike
+      type: offense
+    winrate: '55.6'
+  - damage: '7.5'
+    disable: '1.4'
+    energy: '3.0'
+    num: 16
+    protection: '1.2'
     skills:
     - color: blue
       description: Increases invisibility duration of Camouflage by 1.
@@ -516,41 +552,7 @@ threes:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '44.4'
-  - damage: '7.3'
-    disable: '1.3'
-    energy: '3.9'
-    num: 7
-    protection: '2.2'
-    skills:
-    - color: red
-      description: Activating Toxin Blades increases attack speed of your next 6 Blade
-        Flurry attacks. Also increases Toxin Blades bonus damage by 1.
-      icon: 2c885df2336558e489fbe57b32a9fb94
-      name: Frog Frenzy
-      type: offense
-    - color: green
-      description: Frog Leap hits heal you for 12 health.
-      icon: f4d1c9994ff77524bacb0bfe5347e118
-      name: Jungle Toad
-      type: survival
-    - color: pink
-      description: Noxious Lunge inflicts Root for 1 and reapplies Toxin.
-      icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
-      name: Noxious Reaction
-      type: control
-    - color: green
-      description: Reduces damage taken by 30 for 2.5 after Camouflage ends.
-      icon: 97d6d4df3883adc4d99a900f62576ff7
-      name: Slippery Skin
-      type: survival
-    - color: blue
-      description: Toxin Muck gains 1 ability charge but increases its cooldown by
-        1.
-      icon: 84e29daadee87714294bbdabd3fdd4ab
-      name: Spit Spit Spit
-      type: utility
-    winrate: '57.1'
+    winrate: '43.8'
   description: His background is shrouded in mystery, his movements are supernatural
     and his reputation is whispered about. Croak loves to surprise his enemies, using
     his mobility to move in and out. His chameleonic stealth and flexible fighting
@@ -559,11 +561,11 @@ threes:
   name: Croak
   title: croak
 - builds:
-  - damage: '6.5'
-    disable: '1.6'
-    energy: '2.9'
-    num: 12
-    protection: '0.3'
+  - damage: '6.3'
+    disable: '1.5'
+    energy: '2.8'
+    num: 36
+    protection: '0.4'
     skills:
     - color: green
       description: Sky Strike grants you a shield that absorbs up to 12 damage and
@@ -594,11 +596,11 @@ threes:
       icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
       type: offense
-    winrate: '25.0'
-  - damage: '6.3'
+    winrate: '36.1'
+  - damage: '6.2'
     disable: '1.1'
-    energy: '2.9'
-    num: 10
+    energy: '2.8'
+    num: 12
     protection: '0.5'
     skills:
     - color: red
@@ -628,7 +630,7 @@ threes:
       icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
       type: offense
-    winrate: '60.0'
+    winrate: '58.3'
   - damage: '7.3'
     disable: '1.2'
     energy: '3.0'
@@ -672,10 +674,10 @@ threes:
   name: Destiny
   title: destiny
 - builds:
-  - damage: '7.8'
+  - damage: '8.1'
     disable: '0.8'
-    energy: '4.1'
-    num: 31
+    energy: '4.0'
+    num: 47
     protection: '0.3'
     skills:
     - color: pink
@@ -706,12 +708,12 @@ threes:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    winrate: '51.6'
-  - damage: '9.1'
+    winrate: '51.1'
+  - damage: '8.9'
     disable: '0.6'
-    energy: '4.5'
-    num: 14
-    protection: '0.4'
+    energy: '4.4'
+    num: 41
+    protection: '0.5'
     skills:
     - color: red
       description: Displace grants 1 extra weapon charge.
@@ -740,43 +742,43 @@ threes:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    winrate: '57.1'
-  - damage: '7.9'
-    disable: '0.7'
-    energy: '5.2'
-    num: 4
-    protection: '1.3'
+    winrate: '43.9'
+  - damage: '7.8'
+    disable: '0.8'
+    energy: '4.1'
+    num: 14
+    protection: '0.2'
     skills:
-    - color: red
-      description: Shackle hits grant 1 weapon charge and increase Arcane Fire range
-        by 50 until the next reload.
-      icon: b51e6f88de6853d46bec81bbb3a655a4
-      name: Bolted
-      type: offense
     - color: pink
       description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
         duration.
       icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Disruption
       type: control
+    - color: pink
+      description: Hitting the same enemy with 3 consecutive Arcane Fires inflicts
+        Fading Snare for 0.4.
+      icon: 18ab7b3d5a6d72c4983b091360323f41
+      name: Exhaust
+      type: control
     - color: red
-      description: ^2Arcane Fire^- deals 2 bonus damage to enemies rooted by ^2Shackle^-.
-      icon: b51e6f88de6853d46bec81bbb3a655a4
-      name: Face Melt
+      description: Increases pull force of Grimoire of Chaos by 25. It deals 10 bonus
+        damage.
+      icon: 41cc34493bbdcb44985028d3000656d8
+      name: Grimoire of Death
       type: offense
-    - color: green
-      description: Negating attacks with Arcane Barrier grants twice as many weapon
-        charges. For each charge gained, heal yourself for 6 health.
-      icon: 563027e5fd687db4697308c54fe91381
-      name: Spell Eater
-      type: survival
     - color: teal
-      description: Tome of Destruction leashes onto nearby allies, healing for 16
-        health over the duration.
-      icon: 09c45aed2b0414a42a18c1b81c9e589a
-      name: Tome Of Restoration
+      description: Shackle inflicts Weaken, reducing target's damage and healing output
+        by 50 for 3.
+      icon: b51e6f88de6853d46bec81bbb3a655a4
+      name: Undermine
       type: support
-    winrate: '25.0'
+    - color: blue
+      description: Increases Chaos Grip range by 25.
+      icon: da12579e4ef58ba4c87c1819bf1c699b
+      name: Warlock's Grip
+      type: utility
+    winrate: '42.9'
   description: Ezmo is an aggressive spell caster who can move quickly across the
     arena. Aradu, a powerful warlock summoned and imprisoned Ezmo but Ezmo saw his
     opportunity to escape when the warlock became too engrossed in reading his tome.
@@ -788,9 +790,9 @@ threes:
 - builds:
   - damage: '7.0'
     disable: '1.2'
-    energy: '3.9'
-    num: 24
-    protection: '2.4'
+    energy: '3.8'
+    num: 26
+    protection: '2.3'
     skills:
     - color: green
       description: Spring causes your next Bash to grant you a Shield. It absorbs
@@ -820,11 +822,11 @@ threes:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    winrate: '70.8'
+    winrate: '65.4'
   - damage: '6.4'
     disable: '0.9'
-    energy: '3.4'
-    num: 12
+    energy: '3.5'
+    num: 13
     protection: '1.6'
     skills:
     - color: green
@@ -856,12 +858,12 @@ threes:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Tempest
       type: mobility
-    winrate: '75.0'
-  - damage: '6.1'
-    disable: '1.0'
-    energy: '3.2'
-    num: 8
-    protection: '1.3'
+    winrate: '76.9'
+  - damage: '7.4'
+    disable: '1.1'
+    energy: '4.0'
+    num: 11
+    protection: '2.3'
     skills:
     - color: green
       description: Spring causes your next Bash to grant you a Shield. It absorbs
@@ -875,33 +877,35 @@ threes:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Lightning Rod
       type: survival
-    - color: yellow
-      description: Storm Mace hits increase your movement speed by 35 for 2.
-      icon: 92dd476aa2340694c9f1167dfc761287
-      name: Tempest
-      type: mobility
+    - color: grey
+      description: Countering an attack with Electric Shield inflicts Static on nearby
+        enemies and grants other nearby allies a Shield. It absorbs up to 16 damage
+        for 3.
+      icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Overcharge
+      type: mixed
+    - color: pink
+      description: Increases your damage output by 15 while you have an active Electric
+        Shield.
+      icon: a4b023549fa7dbb46bb159a9b8557df2
+      name: Positive Charge
+      type: control
     - color: red
       description: Thunderclap deals 5 bonus damage and pulls enemies towards you.
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    - color: grey
-      description: Storm Mace gains 1 ability charge but increases its cooldown by
-        1.
-      icon: 92dd476aa2340694c9f1167dfc761287
-      name: Twin Hammers
-      type: mixed
-    winrate: '62.5'
+    winrate: '63.6'
   description: Once a tribe queen, now a fearless contender. Her titanic hammers and
     overwhelming power of lightning is the perfect recipe for destruction.
   icon: be081702a8e70fe44ac0a4e3a9c46368
   name: Freya
   title: freya
 - builds:
-  - damage: '8.3'
+  - damage: '7.9'
     disable: '1.3'
-    energy: '3.8'
-    num: 17
+    energy: '3.6'
+    num: 34
     protection: '0.4'
     skills:
     - color: pink
@@ -929,11 +933,11 @@ threes:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '52.9'
-  - damage: '7.1'
+    winrate: '50.0'
+  - damage: '7.6'
     disable: '1.1'
     energy: '3.8'
-    num: 6
+    num: 22
     protection: '0.9'
     skills:
     - color: pink
@@ -963,12 +967,12 @@ threes:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '50.0'
-  - damage: '6.7'
-    disable: '0.9'
-    energy: '3.1'
-    num: 6
-    protection: '0.7'
+    winrate: '40.9'
+  - damage: '6.6'
+    disable: '1.0'
+    energy: '3.0'
+    num: 7
+    protection: '0.8'
     skills:
     - color: red
       description: Rocket X-67 deals 4 bonus damage.
@@ -996,7 +1000,7 @@ threes:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '50.0'
+    winrate: '57.1'
   description: A scavenger from the outer realms. Iva has engineered her own arsenal
     of weapons. Firing crazy rockets or unleashing a storm of bullets is her way of
     greeting her opponents in the Arena.
@@ -1004,10 +1008,10 @@ threes:
   name: Iva
   title: iva
 - builds:
-  - damage: '7.5'
-    disable: '1.1'
+  - damage: '7.2'
+    disable: '1.2'
     energy: '3.5'
-    num: 38
+    num: 62
     protection: '0.9'
     skills:
     - color: red
@@ -1039,12 +1043,12 @@ threes:
       icon: 20e8f262eca757942bc23d94aa73ab2a
       name: Surprise Shot
       type: control
-    winrate: '55.3'
-  - damage: '7.8'
+    winrate: '48.4'
+  - damage: '7.6'
     disable: '1.1'
-    energy: '4.1'
-    num: 18
-    protection: '1.3'
+    energy: '4.0'
+    num: 37
+    protection: '1.2'
     skills:
     - color: red
       description: Blast Vault causes your next 4 Revolver Shots to deal 2 bonus damage
@@ -1074,11 +1078,11 @@ threes:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    winrate: '44.4'
-  - damage: '8.0'
-    disable: '1.1'
-    energy: '5.0'
-    num: 15
+    winrate: '37.8'
+  - damage: '7.7'
+    disable: '1.0'
+    energy: '4.8'
+    num: 34
     protection: '1.2'
     skills:
     - color: red
@@ -1109,7 +1113,7 @@ threes:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    winrate: '40.0'
+    winrate: '47.1'
   description: A mysterious gunslinger. Born with eagle-eyes and armed with a lethal
     sniper rifle, Jade's pinpoint accuracy is a serious threat for anyone who enters
     the arena. For close encounters, she prefers a combination of stealth and trusty
@@ -1118,11 +1122,46 @@ threes:
   name: Jade
   title: jade
 - builds:
-  - damage: '6.7'
+  - damage: '7.2'
+    disable: '1.6'
+    energy: '3.1'
+    num: 19
+    protection: '1.0'
+    skills:
+    - color: pink
+      description: Elusive Strike inflicts Fading Snare for 1 and Incapacitate duration
+        increases by 0.5.
+      icon: fa9b6a58fa6398b4ea4c4756152bd079
+      name: Cripple
+      type: control
+    - color: pink
+      description: Increases Snare duration of Shuriken by 1.5.
+      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
+      name: Deep Wounds
+      type: control
+    - color: pink
+      description: Increases Stun duration of Deadly Blow by 0.5 and reduces its cooldown
+        by 2.
+      icon: c75e9702831a67e4b98aa0c24af2d865
+      name: Go for the Throat
+      type: control
+    - color: pink
+      description: Hook Shot deals 3 bonus damage and inflicts Root for 0.8.
+      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
+      name: Momentum Strike
+      type: control
+    - color: green
+      description: Shuriken returns to you afterward, healing you for {Can't represent
+        GameValueList} health based on enemies hit.
+      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
+      name: Taste of Blood
+      type: survival
+    winrate: '42.1'
+  - damage: '6.8'
     disable: '1.5'
     energy: '3.3'
-    num: 11
-    protection: '0.9'
+    num: 14
+    protection: '1.0'
     skills:
     - color: pink
       description: Elusive Strike inflicts Fading Snare for 1 and Incapacitate duration
@@ -1153,11 +1192,11 @@ threes:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '54.5'
-  - damage: '6.9'
-    disable: '1.9'
-    energy: '3.2'
-    num: 7
+    winrate: '57.1'
+  - damage: '6.6'
+    disable: '1.8'
+    energy: '3.1'
+    num: 11
     protection: '1.1'
     skills:
     - color: pink
@@ -1189,42 +1228,7 @@ threes:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '42.9'
-  - damage: '8.1'
-    disable: '1.7'
-    energy: '4.1'
-    num: 5
-    protection: '0.7'
-    skills:
-    - color: pink
-      description: Elusive Strike inflicts Fading Snare for 1 and Incapacitate duration
-        increases by 0.5.
-      icon: fa9b6a58fa6398b4ea4c4756152bd079
-      name: Cripple
-      type: control
-    - color: pink
-      description: Increases Snare duration of Shuriken by 1.5.
-      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
-      name: Deep Wounds
-      type: control
-    - color: pink
-      description: Increases Stun duration of Deadly Blow by 0.5 and reduces its cooldown
-        by 2.
-      icon: c75e9702831a67e4b98aa0c24af2d865
-      name: Go for the Throat
-      type: control
-    - color: blue
-      description: Increases energy gain from abilities by 10 and maximum energy by
-        25.
-      icon: 61e058b8f4b79f4419ec1496f223ee36
-      name: Inspiration
-      type: utility
-    - color: yellow
-      description: Increases the max range of Elusive Strike by 15.
-      icon: fa9b6a58fa6398b4ea4c4756152bd079
-      name: Push Off
-      type: mobility
-    winrate: '80.0'
+    winrate: '54.5'
   description: "A young assassin from the Shadowblade clan, Jamila suddenly found\
     \ herself the new leader after the death of her mother, the previous matriarch.\
     \ As the youngest leader in the clan\u2019s history, some call her too inexperienced\
@@ -1234,10 +1238,10 @@ threes:
   name: Jamila
   title: jamila
 - builds:
-  - damage: '8.1'
+  - damage: '8.0'
     disable: '1.1'
     energy: '4.6'
-    num: 25
+    num: 33
     protection: '0.8'
     skills:
     - color: red
@@ -1268,12 +1272,12 @@ threes:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '72.0'
-  - damage: '6.7'
+    winrate: '63.6'
+  - damage: '7.1'
     disable: '0.8'
     energy: '4.1'
-    num: 14
-    protection: '0.6'
+    num: 21
+    protection: '0.7'
     skills:
     - color: red
       description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
@@ -1303,11 +1307,11 @@ threes:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '42.9'
-  - damage: '9.1'
-    disable: '1.0'
-    energy: '5.0'
-    num: 12
+    winrate: '38.1'
+  - damage: '8.9'
+    disable: '1.1'
+    energy: '4.9'
+    num: 16
     protection: '1.0'
     skills:
     - color: red
@@ -1337,7 +1341,7 @@ threes:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '66.7'
+    winrate: '62.5'
   description: Jumong is a trophy collector who has wandered the wildlands in the
     pursuit of a worthy challenge. No longer being content with hunting the great
     beasts of the world has led him to enter the arena, looking for a new type of
@@ -1347,11 +1351,11 @@ threes:
   name: Jumong
   title: jumong
 - builds:
-  - damage: '3.0'
-    disable: '1.0'
-    energy: '2.9'
-    num: 11
-    protection: '5.7'
+  - damage: '3.1'
+    disable: '1.1'
+    energy: '2.7'
+    num: 19
+    protection: '5.5'
     skills:
     - color: yellow
       description: ^2Barrier^- increases movement speed by 33.
@@ -1379,7 +1383,7 @@ threes:
       icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
       type: offense
-    winrate: '27.3'
+    winrate: '31.6'
   - damage: '3.1'
     disable: '0.8'
     energy: '2.9'
@@ -1413,11 +1417,11 @@ threes:
       name: Stimulant
       type: offense
     winrate: '62.5'
-  - damage: '3.7'
+  - damage: '3.5'
     disable: '1.1'
-    energy: '2.8'
-    num: 4
-    protection: '6.2'
+    energy: '2.7'
+    num: 5
+    protection: '6.7'
     skills:
     - color: yellow
       description: ^2Barrier^- increases movement speed by 33.
@@ -1446,18 +1450,91 @@ threes:
       icon: 470a917c1ac62c04ea45acc6a35c5f73
       name: Swift Roll
       type: mobility
-    winrate: '50.0'
+    winrate: '40.0'
   description: Lucie is a diverse contender who knows which brew makes you choke,
     heal or flee in fear. The arena has become her new playground for wild experiments.
   icon: e5554b8a15ffc1a499a3807bb3a37b56
   name: Lucie
   title: lucie
 - builds:
-  - damage: '6.8'
+  - damage: '5.6'
+    disable: '0.8'
+    energy: '3.6'
+    num: 21
+    protection: '4.4'
+    skills:
+    - color: grey
+      description: Time Bomb reduces incoming healing by 20 and outgoing damage by
+        10.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Dehydration
+      type: mixed
+    - color: teal
+      description: Rejuvenate heals for an additional 15 of damage taken over its
+        duration. Restores up to a maximum of 6 bonus health.
+      icon: 838ae06cda41a2544a1d2a528389d5b5
+      name: Renew
+      type: support
+    - color: red
+      description: Quicksand can be recast to throw Lesser Quicksand. It applies Time
+        Bomb instead of consuming it.
+      icon: 35a1515e35b5104449dfa8802c5aa0e2
+      name: Sand Struck
+      type: offense
+    - color: pink
+      description: Quicksand inflicts Root for 1.
+      icon: 35a1515e35b5104449dfa8802c5aa0e2
+      name: Sand Tomb
+      type: control
+    - color: red
+      description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
+        enemies when it detonates.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Shared Fate
+      type: offense
+    winrate: '85.7'
+  - damage: '6.7'
+    disable: '0.7'
+    energy: '3.9'
+    num: 19
+    protection: '4.4'
+    skills:
+    - color: blue
+      description: ^2Shifting Sands^- creates a ^2Lesser Chronoflux^- that reflects
+        projectiles and slows movement speed.
+      icon: 89c37320af892ae43b410f4d610d7ea8
+      name: Chrono Shift
+      type: utility
+    - color: grey
+      description: Time Bomb reduces incoming healing by 20 and outgoing damage by
+        10.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Dehydration
+      type: mixed
+    - color: teal
+      description: Rejuvenate heals for an additional 15 of damage taken over its
+        duration. Restores up to a maximum of 6 bonus health.
+      icon: 838ae06cda41a2544a1d2a528389d5b5
+      name: Renew
+      type: support
+    - color: red
+      description: Shifting Sands causes your next Sands of Time to deal 6 bonus damage
+        and inflict Fading Snare for 1.
+      icon: 89c37320af892ae43b410f4d610d7ea8
+      name: Sandstorm
+      type: offense
+    - color: red
+      description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
+        enemies when it detonates.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Shared Fate
+      type: offense
+    winrate: '52.6'
+  - damage: '6.7'
     disable: '0.8'
     energy: '3.8'
-    num: 10
-    protection: '3.2'
+    num: 17
+    protection: '3.1'
     skills:
     - color: blue
       description: ^2Shifting Sands^- creates a ^2Lesser Chronoflux^- that reflects
@@ -1489,86 +1566,49 @@ threes:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    winrate: '80.0'
-  - damage: '5.3'
-    disable: '0.7'
-    energy: '3.3'
-    num: 7
-    protection: '3.9'
-    skills:
-    - color: grey
-      description: Time Bomb reduces incoming healing by 20 and outgoing damage by
-        10.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Dehydration
-      type: mixed
-    - color: teal
-      description: Rejuvenate heals for an additional 15 of damage taken over its
-        duration. Restores up to a maximum of 6 bonus health.
-      icon: 838ae06cda41a2544a1d2a528389d5b5
-      name: Renew
-      type: support
-    - color: red
-      description: Quicksand can be recast to throw Lesser Quicksand. It applies Time
-        Bomb instead of consuming it.
-      icon: 35a1515e35b5104449dfa8802c5aa0e2
-      name: Sand Struck
-      type: offense
-    - color: pink
-      description: Quicksand inflicts Root for 1.
-      icon: 35a1515e35b5104449dfa8802c5aa0e2
-      name: Sand Tomb
-      type: control
-    - color: red
-      description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
-        enemies when it detonates.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Shared Fate
-      type: offense
-    winrate: '100.0'
-  - damage: '5.8'
-    disable: '0.9'
-    energy: '3.6'
-    num: 6
-    protection: '3.9'
-    skills:
-    - color: grey
-      description: Time Bomb reduces incoming healing by 20 and outgoing damage by
-        10.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Dehydration
-      type: mixed
-    - color: teal
-      description: Rejuvenate heals for an additional 15 of damage taken over its
-        duration. Restores up to a maximum of 6 bonus health.
-      icon: 838ae06cda41a2544a1d2a528389d5b5
-      name: Renew
-      type: support
-    - color: red
-      description: Quicksand can be recast to throw Lesser Quicksand. It applies Time
-        Bomb instead of consuming it.
-      icon: 35a1515e35b5104449dfa8802c5aa0e2
-      name: Sand Struck
-      type: offense
-    - color: red
-      description: Shifting Sands causes your next Sands of Time to deal 6 bonus damage
-        and inflict Fading Snare for 1.
-      icon: 89c37320af892ae43b410f4d610d7ea8
-      name: Sandstorm
-      type: offense
-    - color: red
-      description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
-        enemies when it detonates.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Shared Fate
-      type: offense
-    winrate: '50.0'
+    winrate: '82.4'
   description: Oldur, a mysterious creature able to bend time and space. He can mend
     wounds with powerful heals and reverse enemy attacks by freezing them in time.
   icon: b0d66b8b9f228724093b8a3e66c3fef6
   name: Oldur
   title: oldur
 - builds:
+  - damage: '4.3'
+    disable: '0.9'
+    energy: '2.9'
+    num: 12
+    protection: '5.1'
+    skills:
+    - color: teal
+      description: Healing Wave bounces to a nearby ally after healing, healing them
+        for 6 health.
+      icon: 81f898538a9eba14b82110f8ebf6654e
+      name: Fountain
+      type: support
+    - color: pink
+      description: Countering an attack with Tidal Wave recharges your staff.
+      icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Gush
+      type: control
+    - color: red
+      description: Firing Volatile Water through a Bubble Barrier increases damage
+        by 5 and range by 25.
+      icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Rippling Waters
+      type: offense
+    - color: green
+      description: Countering an attack with Tidal Wave spawns a Lesser Bubble Barrier
+        around you.
+      icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Sea Bubble
+      type: survival
+    - color: pink
+      description: Charged Volatile Water explodes upon hitting an enemy, dealing
+        full damage and inflicting Silence to other nearby enemies.
+      icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Splash Damage
+      type: control
+    winrate: '58.3'
   - damage: '5.1'
     disable: '1.3'
     energy: '3.1'
@@ -1639,42 +1679,6 @@ threes:
       name: Water Walk
       type: mobility
     winrate: '77.8'
-  - damage: '4.0'
-    disable: '1.0'
-    energy: '2.9'
-    num: 3
-    protection: '4.6'
-    skills:
-    - color: teal
-      description: Healing Wave bounces to a nearby ally after healing, healing them
-        for 6 health.
-      icon: 81f898538a9eba14b82110f8ebf6654e
-      name: Fountain
-      type: support
-    - color: pink
-      description: Countering an attack with Tidal Wave recharges your staff.
-      icon: baa9baf5b01c5ee42902398a8f946a5a
-      name: Gush
-      type: control
-    - color: yellow
-      description: Diving into a Bubble Barrier destroys the bubble and resets the
-        cooldown of Dive.
-      icon: 6c30b1e6992030e4dae06a355b7a4fb4
-      name: Ocean Tide
-      type: mobility
-    - color: green
-      description: Countering an attack with Tidal Wave spawns a Lesser Bubble Barrier
-        around you.
-      icon: baa9baf5b01c5ee42902398a8f946a5a
-      name: Sea Bubble
-      type: survival
-    - color: pink
-      description: Charged Volatile Water explodes upon hitting an enemy, dealing
-        full damage and inflicting Silence to other nearby enemies.
-      icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Splash Damage
-      type: control
-    winrate: '33.3'
   description: A sage able to control the oceans and whatever creatures that lurk
     below. Pearl transforms water into volatile attacks, rejuvenating streams and
     protecting bubbles.
@@ -1682,10 +1686,10 @@ threes:
   name: Pearl
   title: pearl
 - builds:
-  - damage: '3.8'
-    disable: '1.1'
+  - damage: '3.7'
+    disable: '1.0'
     energy: '2.5'
-    num: 15
+    num: 24
     protection: '4.4'
     skills:
     - color: pink
@@ -1717,12 +1721,12 @@ threes:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '33.3'
+    winrate: '41.7'
   - damage: '4.0'
-    disable: '1.5'
-    energy: '2.4'
-    num: 6
-    protection: '6.3'
+    disable: '1.4'
+    energy: '2.5'
+    num: 9
+    protection: '6.1'
     skills:
     - color: green
       description: Hitting an ally with Bloodsucker causes you to deal no damage to
@@ -1753,13 +1757,19 @@ threes:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '50.0'
-  - damage: '4.3'
-    disable: '0.9'
-    energy: '3.0'
-    num: 4
-    protection: '5.8'
+    winrate: '55.6'
+  - damage: '3.8'
+    disable: '1.2'
+    energy: '2.6'
+    num: 5
+    protection: '6.1'
     skills:
+    - color: grey
+      description: Increases Infest duration by 0.5. Drains 10 health from enemies
+        and heals allies for 10 health over the duration.
+      icon: c9f7e2e324bbed3469cbe356da833c9b
+      name: Defiler
+      type: mixed
     - color: pink
       description: Arachnophobia bounces forward, causing another impact. The radius
         of the second impact is 15 larger.
@@ -1773,12 +1783,6 @@ threes:
       name: Hive Mind
       type: mixed
     - color: red
-      description: Hitting an enemy or ally affected by Moth with Bloodsucker deals
-        6 bonus damage to enemies and heals 6 bonus health to allies.
-      icon: 991db4d450443e9498711ab935bedf13
-      name: Insectivore
-      type: offense
-    - color: red
       description: Arachnophobia deals 8 damage. Increases Panic duration by 0.5.
       icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Spiderling Venom
@@ -1789,7 +1793,7 @@ threes:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '75.0'
+    winrate: '40.0'
   description: Pestilus, secret devotee of the evil Rasal, unleashes swarms of insects
     to infest and cripple his enemies. Advisor to the King of Quna, Pestilus is able
     to release his innermost darkest desires inside the arena.
@@ -1797,6 +1801,73 @@ threes:
   name: Pestilus
   title: pestilus
 - builds:
+  - damage: '4.3'
+    disable: '0.8'
+    energy: '2.9'
+    num: 15
+    protection: '5.4'
+    skills:
+    - color: green
+      description: Other Side heals 6 bonus healing. Also reduces cooldown of Other
+        Side by 1.
+      icon: dfc86226d7b2a6d438dad7dfca7a0d52
+      name: Into the Realm
+      type: survival
+    - color: red
+      description: Increases Ghost Wolf range by 10. The first hit deals 4 bonus damage.
+      icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Silver Fang
+      type: offense
+    - color: teal
+      description: Other Side causes your ally to become invisible for 1.5.
+      icon: dfc86226d7b2a6d438dad7dfca7a0d52
+      name: Specter
+      type: support
+    - color: yellow
+      description: Spirit Rift increases your movement speed by 40 for 3 when it inflicts
+        Spell Block.
+      icon: b6b9a08408c476c4a9f91eba6dacbb52
+      name: Spiritual Wind
+      type: mobility
+    - color: pink
+      description: Teleporting to Spirit Guide resets the cooldown of Spirit Rift.
+      icon: 7bd09f2f761edd0438938579a6942e82
+      name: Vengeful Spirit
+      type: control
+    winrate: '53.3'
+  - damage: '5.0'
+    disable: '1.2'
+    energy: '3.2'
+    num: 10
+    protection: '4.7'
+    skills:
+    - color: pink
+      description: The first Ghost Wolf hit inflicts Root for 1.
+      icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Dire Wolf
+      type: control
+    - color: teal
+      description: Ally affected by ^2Spirit Guide^- takes 33 less damage and enemy
+        affected by ^2Spirit Guide^- takes 20 more damage.
+      icon: 7bd09f2f761edd0438938579a6942e82
+      name: Phantasm
+      type: support
+    - color: red
+      description: Increases Ghost Wolf range by 10. The first hit deals 4 bonus damage.
+      icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Silver Fang
+      type: offense
+    - color: teal
+      description: Other Side causes your ally to become invisible for 1.5.
+      icon: dfc86226d7b2a6d438dad7dfca7a0d52
+      name: Specter
+      type: support
+    - color: pink
+      description: Teleporting to Spirit Guide resets the cooldown of Spirit Rift.
+      icon: 7bd09f2f761edd0438938579a6942e82
+      name: Vengeful Spirit
+      type: control
+    winrate: '60.0'
   - damage: '5.2'
     disable: '1.3'
     energy: '4.1'
@@ -1831,75 +1902,6 @@ threes:
       name: Vengeful Spirit
       type: control
     winrate: '44.4'
-  - damage: '4.1'
-    disable: '0.9'
-    energy: '2.8'
-    num: 9
-    protection: '5.4'
-    skills:
-    - color: green
-      description: Other Side heals 6 bonus healing. Also reduces cooldown of Other
-        Side by 1.
-      icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Into the Realm
-      type: survival
-    - color: red
-      description: Increases Ghost Wolf range by 10. The first hit deals 4 bonus damage.
-      icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Silver Fang
-      type: offense
-    - color: teal
-      description: Other Side causes your ally to become invisible for 1.5.
-      icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Specter
-      type: support
-    - color: yellow
-      description: Spirit Rift increases your movement speed by 40 for 3 when it inflicts
-        Spell Block.
-      icon: b6b9a08408c476c4a9f91eba6dacbb52
-      name: Spiritual Wind
-      type: mobility
-    - color: pink
-      description: Teleporting to Spirit Guide resets the cooldown of Spirit Rift.
-      icon: 7bd09f2f761edd0438938579a6942e82
-      name: Vengeful Spirit
-      type: control
-    winrate: '55.6'
-  - damage: '2.8'
-    disable: '0.7'
-    energy: '3.0'
-    num: 5
-    protection: '3.3'
-    skills:
-    - color: green
-      description: Other Side heals 6 bonus healing. Also reduces cooldown of Other
-        Side by 1.
-      icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Into the Realm
-      type: survival
-    - color: teal
-      description: Ally affected by ^2Spirit Guide^- takes 33 less damage and enemy
-        affected by ^2Spirit Guide^- takes 20 more damage.
-      icon: 7bd09f2f761edd0438938579a6942e82
-      name: Phantasm
-      type: support
-    - color: red
-      description: Increases Ghost Wolf range by 10. The first hit deals 4 bonus damage.
-      icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Silver Fang
-      type: offense
-    - color: teal
-      description: Other Side causes your ally to become invisible for 1.5.
-      icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Specter
-      type: support
-    - color: yellow
-      description: Spirit Rift increases your movement speed by 40 for 3 when it inflicts
-        Spell Block.
-      icon: b6b9a08408c476c4a9f91eba6dacbb52
-      name: Spiritual Wind
-      type: mobility
-    winrate: '60.0'
   description: Poloma uses shamanic powers to guide life and spirits alongside her
     protector and loyal creature, Toki. A dark disturbance among souls has put Poloma
     on a new path, leaving her safety and home behind. Driven by her burning curiosity
@@ -1908,10 +1910,10 @@ threes:
   name: Poloma
   title: poloma
 - builds:
-  - damage: '7.8'
-    disable: '1.5'
+  - damage: '7.7'
+    disable: '1.4'
     energy: '3.9'
-    num: 21
+    num: 22
     protection: '1.5'
     skills:
     - color: grey
@@ -1941,11 +1943,11 @@ threes:
       icon: d5c38afdefecf224b9a71bdfdb60dee1
       name: Headlong Rush
       type: mobility
-    winrate: '52.4'
-  - damage: '4.5'
+    winrate: '50.0'
+  - damage: '4.6'
     disable: '0.5'
-    energy: '2.6'
-    num: 5
+    energy: '2.5'
+    num: 7
     protection: '0.6'
     skills:
     - color: yellow
@@ -1977,12 +1979,12 @@ threes:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    winrate: '100.0'
-  - damage: '5.7'
-    disable: '0.7'
-    energy: '2.9'
-    num: 4
-    protection: '0.8'
+    winrate: '85.7'
+  - damage: '7.1'
+    disable: '1.2'
+    energy: '3.6'
+    num: 5
+    protection: '2.0'
     skills:
     - color: grey
       description: Seismic Shock can be recast to leap to the airborne enemy and strike
@@ -1990,29 +1992,29 @@ threes:
       icon: 3c1f1a5c65f54594a9d3ba17b8f1b2a2
       name: Aerial Strike
       type: mixed
-    - color: yellow
-      description: Increases movement speed by 10.
-      icon: bbe2697d5982f654d8dab2223790bd77
-      name: Agility
-      type: mobility
-    - color: grey
-      description: Retribution inflicts Fading Snare for 0.5. Increases duration by
-        0.3 per weapon charge.
-      icon: d5c38afdefecf224b9a71bdfdb60dee1
-      name: Binding Light
-      type: mixed
-    - color: yellow
-      description: Increases dash length of Retribution by 20.
-      icon: d5c38afdefecf224b9a71bdfdb60dee1
-      name: Headlong Rush
-      type: mobility
-    - color: red
-      description: Seismic Shock deals 10 bonus damage upon landing and deals 16 damage
-        to other nearby enemies.
-      icon: 3c1f1a5c65f54594a9d3ba17b8f1b2a2
-      name: Perilous Height
-      type: offense
-    winrate: '75.0'
+    - color: blue
+      description: Dragon Palm hits allow you to recast it for 1.5.
+      icon: d25b4fc0d427d424891492d2b61469a9
+      name: Dragon Mastery
+      type: utility
+    - color: green
+      description: Negating any attack with Parry heals you for 4 health. Negating
+        the first attack grants you a charge of Slicing Winds.
+      icon: fbfb00ff4fa4bc542b54639b84406f01
+      name: Duelist
+      type: survival
+    - color: teal
+      description: Heavenly Strike inflicts 50 Weaken for 2.
+      icon: 47dabb046c0ec4d4c96bde0832713a46
+      name: Hawk Dive
+      type: support
+    - color: teal
+      description: Move at 100% movement speed during Parry. Heal nearby allies for
+        8 health when Parry ends.
+      icon: fbfb00ff4fa4bc542b54639b84406f01
+      name: Invigorate
+      type: support
+    winrate: '80.0'
   description: Raigon, formerly the crown prince of Quna, is a skilled melee fighter
     trained in two-handed swordsmanship and martial arts. He hopes to break the evil
     spell cast upon his father and return home. For now, the arena serves as a decent
@@ -2021,11 +2023,11 @@ threes:
   name: Raigon
   title: raigon
 - builds:
-  - damage: '6.9'
+  - damage: '6.7'
     disable: '1.5'
-    energy: '3.1'
-    num: 34
-    protection: '1.8'
+    energy: '3.0'
+    num: 59
+    protection: '1.9'
     skills:
     - color: red
       description: Boulder Toss deals 2 bonus damage and inflicts Armor Break.
@@ -2053,45 +2055,12 @@ threes:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
       type: support
-    winrate: '64.7'
-  - damage: '6.4'
+    winrate: '61.0'
+  - damage: '7.1'
     disable: '1.6'
-    energy: '3.7'
-    num: 27
-    protection: '1.6'
-    skills:
-    - color: yellow
-      description: Rush cooldown reduces by 1. Using Rush without hitting an enemy
-        further reduces cooldown by 1.5.
-      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
-      name: Endurance
-      type: mobility
-    - color: red
-      description: Rush hits cause you to gain Berserk for 1.5.
-      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
-      name: Frenzy
-      type: offense
-    - color: green
-      description: Decreases damage taken during Berserk by 30.
-      icon: df78f943fca96314181fdf1827f825db
-      name: Giant
-      type: survival
-    - color: yellow
-      description: Increases movement speed bonus during Berserk by 30.
-      icon: df78f943fca96314181fdf1827f825db
-      name: Madness
-      type: mobility
-    - color: pink
-      description: Crushing Blow inflicts Stun for 0.5.
-      icon: bc4e2e34829b8af4c92bb6a8f570fc96
-      name: Squash
-      type: control
-    winrate: '74.1'
-  - damage: '7.2'
-    disable: '1.6'
-    energy: '3.8'
-    num: 21
-    protection: '2.0'
+    energy: '3.5'
+    num: 46
+    protection: '2.1'
     skills:
     - color: yellow
       description: Rush cooldown reduces by 1. Using Rush without hitting an enemy
@@ -2119,7 +2088,39 @@ threes:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    winrate: '52.4'
+    winrate: '54.3'
+  - damage: '6.5'
+    disable: '1.3'
+    energy: '3.2'
+    num: 32
+    protection: '1.7'
+    skills:
+    - color: red
+      description: Boulder Toss deals 2 bonus damage and inflicts Armor Break.
+      icon: ec50e13a62a38194186bf0763d8ae951
+      name: Crumble
+      type: offense
+    - color: red
+      description: Rush hits cause you to gain Berserk for 1.5.
+      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
+      name: Frenzy
+      type: offense
+    - color: green
+      description: Decreases damage taken during Berserk by 30.
+      icon: df78f943fca96314181fdf1827f825db
+      name: Giant
+      type: survival
+    - color: red
+      description: Crushing Blow deals 6 bonus damage.
+      icon: bc4e2e34829b8af4c92bb6a8f570fc96
+      name: Rook Smash
+      type: offense
+    - color: pink
+      description: Crushing Blow inflicts Stun for 0.5.
+      icon: bc4e2e34829b8af4c92bb6a8f570fc96
+      name: Squash
+      type: control
+    winrate: '50.0'
   description: A mighty chieftain rushing into battle with a giant hammer in one hand
     and his dinner in the other. Rook likes to smash his enemies, with boulders, with
     hammers and even with his body. Once he goes berserk he turns into an unstoppable
@@ -2128,6 +2129,40 @@ threes:
   name: Rook
   title: rook
 - builds:
+  - damage: '6.8'
+    disable: '0.9'
+    energy: '2.2'
+    num: 18
+    protection: '1.3'
+    skills:
+    - color: red
+      description: Shadow Bolt inflicts Amplify, increasing all damage the target
+        receives by 20 for 4.
+      icon: 2a54393ededda834a8070123fbc265cc
+      name: Affliction
+      type: offense
+    - color: yellow
+      description: Sinister Strike gains 1 ability charge, but increases its cooldown
+        by 2.
+      icon: fe85f5b940cf1ff44825f090b2bb34ce
+      name: Demonic Hunt
+      type: mobility
+    - color: red
+      description: Charged Defiled Blade deals 5 bonus damage.
+      icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Grim Edge
+      type: offense
+    - color: red
+      description: Claw of the Wicked deals 3 bonus damage. Increases range by 12.
+      icon: 13fbbdb9e7cbde8429053e33e1022fa8
+      name: Tenacious Demon
+      type: offense
+    - color: pink
+      description: Increases Silence duration from 0.3 to 0.8.
+      icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Wicked Strike
+      type: control
+    winrate: '77.8'
   - damage: '5.8'
     disable: '0.9'
     energy: '2.8'
@@ -2162,74 +2197,41 @@ threes:
       name: Wicked Strike
       type: control
     winrate: '33.3'
-  - damage: '6.7'
-    disable: '0.9'
-    energy: '2.3'
-    num: 8
-    protection: '1.3'
-    skills:
-    - color: red
-      description: Shadow Bolt inflicts Amplify, increasing all damage the target
-        receives by 20 for 4.
-      icon: 2a54393ededda834a8070123fbc265cc
-      name: Affliction
-      type: offense
-    - color: yellow
-      description: Sinister Strike gains 1 ability charge, but increases its cooldown
-        by 2.
-      icon: fe85f5b940cf1ff44825f090b2bb34ce
-      name: Demonic Hunt
-      type: mobility
-    - color: red
-      description: Charged Defiled Blade deals 5 bonus damage.
-      icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Grim Edge
-      type: offense
-    - color: red
-      description: Claw of the Wicked deals 3 bonus damage. Increases range by 12.
-      icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Tenacious Demon
-      type: offense
-    - color: pink
-      description: Increases Silence duration from 0.3 to 0.8.
-      icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Wicked Strike
-      type: control
-    winrate: '87.5'
-  - damage: '5.6'
-    disable: '0.8'
-    energy: '2.4'
-    num: 6
-    protection: '2.2'
+  - damage: '6.8'
+    disable: '1.1'
+    energy: '3.0'
+    num: 9
+    protection: '1.9'
     skills:
     - color: pink
       description: Claw of the Wicked inflicts both Root for 1.2 and Curse.
       icon: 13fbbdb9e7cbde8429053e33e1022fa8
       name: Cold Embrace
       type: control
-    - color: yellow
-      description: Sinister Strike gains 1 ability charge, but increases its cooldown
-        by 2.
-      icon: fe85f5b940cf1ff44825f090b2bb34ce
-      name: Demonic Hunt
-      type: mobility
+    - color: grey
+      description: Claw of the Wicked cooldown is reduced by 1 and hitting a target
+        further reduces its cooldown by 1.
+      icon: 13fbbdb9e7cbde8429053e33e1022fa8
+      name: Death Grip
+      type: mixed
     - color: green
-      description: Hitting Cursed enemies with Defiled Blade heals for 2 bonus health.
-        Charged Defiled Blade hits also heal for 6 bonus health.
-      icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Leech Blade
+      description: Reduces cooldown of Consume by 1. Negating attacks further reduces
+        the cooldown by {Can't represent GameValueList}s.
+      icon: c84fd648ae9f196428ba4e9b3bc42d1e
+      name: Gorge
       type: survival
-    - color: grey
-      description: Sinister Strike inflicts Curse.
-      icon: fe85f5b940cf1ff44825f090b2bb34ce
-      name: Nether Chains
-      type: mixed
-    - color: grey
-      description: Reduces your weapon charge cooldown by 30.
+    - color: red
+      description: Charged Defiled Blade deals 5 bonus damage.
       icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Reaper
-      type: mixed
-    winrate: '50.0'
+      name: Grim Edge
+      type: offense
+    - color: yellow
+      description: Your movement speed increases by 8 and is increased 8 further while
+        your weapon is fully charged.
+      icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Night Stalker
+      type: mobility
+    winrate: '55.6'
   description: "Ruh Kaan was awoken when a grave robber desecrated the sacred crypts\
     \ Ark\u2019dun. Pursuing the trespasser led him to the Arenas where he is still\
     \ tracking his quarry. He wields his dark powers to remove those who would stand\
@@ -2238,10 +2240,10 @@ threes:
   name: Ruh Kaan
   title: ruh-kaan
 - builds:
-  - damage: '7.8'
+  - damage: '7.7'
     disable: '0.8'
-    energy: '3.5'
-    num: 52
+    energy: '3.4'
+    num: 113
     protection: '1.6'
     skills:
     - color: green
@@ -2273,12 +2275,12 @@ threes:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '63.5'
-  - damage: '8.6'
+    winrate: '56.6'
+  - damage: '8.2'
     disable: '0.6'
     energy: '4.0'
-    num: 20
-    protection: '1.7'
+    num: 33
+    protection: '1.6'
     skills:
     - color: green
       description: Impale heals you for 2 health and 2 additional health per weapon
@@ -2310,12 +2312,12 @@ threes:
       icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
       type: offense
-    winrate: '40.0'
-  - damage: '7.9'
-    disable: '0.7'
-    energy: '3.6'
-    num: 7
-    protection: '1.6'
+    winrate: '42.4'
+  - damage: '7.4'
+    disable: '0.6'
+    energy: '3.5'
+    num: 11
+    protection: '1.5'
     skills:
     - color: green
       description: Impale heals you for 2 health and 2 additional health per weapon
@@ -2347,7 +2349,7 @@ threes:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '28.6'
+    winrate: '27.3'
   description: Expert in the martial art of Ni'Shu and master of the spear. A highly
     mobile and dangerous duelist. His extraordinary combat prowess culminates in a
     range of deadly melee attacks. Facing Shifu is like walking into a tornado of
@@ -2356,11 +2358,47 @@ threes:
   name: Shifu
   title: shifu
 - builds:
+  - damage: '4.5'
+    disable: '1.1'
+    energy: '3.3'
+    num: 30
+    protection: '5.3'
+    skills:
+    - color: red
+      description: Prismatic Strike hits charge your weapon by 50.
+      icon: 550d7ec44eda09941a7b713422b042d0
+      name: Celestial Cycle
+      type: offense
+    - color: teal
+      description: Increases Weaken factor by 10 and duration by 1.
+      icon: 86a75fb294677254e8706e98f7507f8b
+      name: Debilitating Slash
+      type: support
+    - color: pink
+      description: Lunar Strike can be recast within 1.8 to spawn Lesser Lunar Strike
+        with reduced radius and duration. It does not affect enemies already affected
+        by Lunar Strike.
+      icon: f138c9c126ce8934bbe8d6ba98327181
+      name: Lunatic
+      type: control
+    - color: red
+      description: Reduces weapon charge time by 15 and charged Crescent Strike deals
+        4 bonus damage.
+      icon: 86a75fb294677254e8706e98f7507f8b
+      name: Saros Slash
+      type: offense
+    - color: teal
+      description: Charged Crescent Strike hits empower your next Sunlight, causing
+        1 additional beam to heal the ally nearest the area for 12 health.
+      icon: f13a6cad4bcaa974f8147e8a29a49dfe
+      name: Sunbath
+      type: support
+    winrate: '43.3'
   - damage: '3.5'
     disable: '1.1'
     energy: '3.1'
-    num: 15
-    protection: '6.4'
+    num: 16
+    protection: '6.3'
     skills:
     - color: pink
       description: Lunar Strike can be recast within 1.8 to spawn Lesser Lunar Strike
@@ -2393,7 +2431,7 @@ threes:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '66.7'
+    winrate: '62.5'
   - damage: '4.7'
     disable: '0.9'
     energy: '3.9'
@@ -2428,44 +2466,6 @@ threes:
       name: Sunbath
       type: support
     winrate: '66.7'
-  - damage: '3.3'
-    disable: '1.3'
-    energy: '3.0'
-    num: 10
-    protection: '4.7'
-    skills:
-    - color: grey
-      description: Celestial Split deals 6 bonus damage and max range increases by
-        20%.
-      icon: 6827f63e526ef4d46b82332e042bf06a
-      name: Cosmic Reach
-      type: mixed
-    - color: pink
-      description: Lunar Strike can be recast within 1.8 to spawn Lesser Lunar Strike
-        with reduced radius and duration. It does not affect enemies already affected
-        by Lunar Strike.
-      icon: f138c9c126ce8934bbe8d6ba98327181
-      name: Lunatic
-      type: control
-    - color: pink
-      description: Increases Petrify duration by 0.5 and reduces cooldown of Lunar
-        Strike by 1.
-      icon: f138c9c126ce8934bbe8d6ba98327181
-      name: Moonstone
-      type: control
-    - color: red
-      description: Reduces weapon charge time by 15 and charged Crescent Strike deals
-        4 bonus damage.
-      icon: 86a75fb294677254e8706e98f7507f8b
-      name: Saros Slash
-      type: offense
-    - color: yellow
-      description: Celestial Split heals 8 bonus health. Healing an ally reduces its
-        cooldown by 4.
-      icon: 6827f63e526ef4d46b82332e042bf06a
-      name: Sunwell
-      type: mobility
-    winrate: '80.0'
   description: Sirius, a calm prodigy who uses the energies of stars and planets as
     destructive spells and healing powers. The prophecy was true and foretold the
     birth of the Zenith.
@@ -2473,11 +2473,11 @@ threes:
   name: Sirius
   title: sirius
 - builds:
-  - damage: '8.4'
+  - damage: '8.0'
     disable: '0.8'
-    energy: '3.5'
-    num: 29
-    protection: '0.2'
+    energy: '3.4'
+    num: 56
+    protection: '0.1'
     skills:
     - color: red
       description: X-Strike boomerangs each deal 4 bonus damage, and an additional
@@ -2507,12 +2507,12 @@ threes:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '48.3'
-  - damage: '8.7'
+    winrate: '46.4'
+  - damage: '8.3'
     disable: '0.7'
-    energy: '3.4'
-    num: 5
-    protection: '0.7'
+    energy: '3.3'
+    num: 13
+    protection: '0.8'
     skills:
     - color: green
       description: During Haste, the first hit of each Razor Boomerang heals you for
@@ -2543,13 +2543,19 @@ threes:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '80.0'
-  - damage: '9.4'
-    disable: '0.9'
-    energy: '4.1'
-    num: 3
-    protection: '0.1'
+    winrate: '53.8'
+  - damage: '9.2'
+    disable: '0.8'
+    energy: '3.5'
+    num: 11
+    protection: '0.9'
     skills:
+    - color: green
+      description: During Haste, the first hit of each Razor Boomerang heals you for
+        6 health.
+      icon: e6c2b076242187d44941ae0cefa96f62
+      name: Breath of Air
+      type: survival
     - color: red
       description: X-Strike boomerangs each deal 4 bonus damage, and an additional
         4 bonus damage if both boomerangs hit at the intersection.
@@ -2557,17 +2563,10 @@ threes:
       name: Cross Cut
       type: offense
     - color: blue
-      description: Increases energy gain from abilities by 10 and maximum energy by
-        25.
-      icon: 61e058b8f4b79f4419ec1496f223ee36
-      name: Inspiration
-      type: utility
-    - color: yellow
-      description: During Haste, X-Strike can be used while moving at 55 movement
-        speed.
+      description: Increases maximum range of X-Strike by 15.
       icon: a1e1ca01cc40ea24c9e8e0fa7de49581
-      name: Surprise Attack
-      type: mobility
+      name: Throwing Technique
+      type: utility
     - color: yellow
       description: During Haste, Wind Strike hits reapply Haste.
       icon: 9a292cf4ed808d54c922ab48f5881c5a
@@ -2579,7 +2578,7 @@ threes:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '66.7'
+    winrate: '45.5'
   description: An exceptionally swift hunter wielding a razor sharp boomerang. By
     shaping the wind around her Taya is able to increase her speed and control her
     boomerang with deadly precision.
@@ -2587,10 +2586,45 @@ threes:
   name: Taya
   title: taya
 - builds:
-  - damage: '8.0'
-    disable: '1.6'
-    energy: '3.1'
-    num: 14
+  - damage: '7.4'
+    disable: '1.5'
+    energy: '3.3'
+    num: 27
+    protection: '2.0'
+    skills:
+    - color: grey
+      description: Each stinging volley inflicts Thorns on nearby enemies. Reduces
+        cooldown of Barbed Husk by 2.
+      icon: e6cee4151f85f62479addb2c5f459016
+      name: Critical Backlash
+      type: mixed
+    - color: red
+      description: Moving under an enemy during Burrow sends impaling roots upwards,
+        dealing 10 damage to the enemy after a 0.4 delay.
+      icon: 297830658f259844cb3ce7d0711f15d8
+      name: Impaling Roots
+      type: offense
+    - color: blue
+      description: Increases Burrow duration by 0.5.
+      icon: 297830658f259844cb3ce7d0711f15d8
+      name: Lurker
+      type: utility
+    - color: teal
+      description: Thorns reduces target's damage and healing output by 20 for 1.5.
+      icon: 3bf2758e82cebed44856097532c5dd9b
+      name: Neurotoxin
+      type: support
+    - color: green
+      description: Root Claw and Root Grip hits reduce incoming damage by 6 for 2.2.
+        Stacks up to 3 times.
+      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
+      name: Regrowth
+      type: survival
+    winrate: '44.4'
+  - damage: '7.9'
+    disable: '1.5'
+    energy: '3.2'
+    num: 19
     protection: '2.1'
     skills:
     - color: red
@@ -2622,11 +2656,11 @@ threes:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    winrate: '64.3'
-  - damage: '7.3'
+    winrate: '52.6'
+  - damage: '7.4'
     disable: '1.4'
-    energy: '3.3'
-    num: 12
+    energy: '3.2'
+    num: 16
     protection: '1.5'
     skills:
     - color: red
@@ -2658,42 +2692,7 @@ threes:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    winrate: '50.0'
-  - damage: '7.5'
-    disable: '1.5'
-    energy: '3.3'
-    num: 10
-    protection: '2.1'
-    skills:
-    - color: grey
-      description: Each stinging volley inflicts Thorns on nearby enemies. Reduces
-        cooldown of Barbed Husk by 2.
-      icon: e6cee4151f85f62479addb2c5f459016
-      name: Critical Backlash
-      type: mixed
-    - color: red
-      description: Moving under an enemy during Burrow sends impaling roots upwards,
-        dealing 10 damage to the enemy after a 0.4 delay.
-      icon: 297830658f259844cb3ce7d0711f15d8
-      name: Impaling Roots
-      type: offense
-    - color: blue
-      description: Increases Burrow duration by 0.5.
-      icon: 297830658f259844cb3ce7d0711f15d8
-      name: Lurker
-      type: utility
-    - color: teal
-      description: Thorns reduces target's damage and healing output by 20 for 1.5.
-      icon: 3bf2758e82cebed44856097532c5dd9b
-      name: Neurotoxin
-      type: support
-    - color: green
-      description: Root Claw and Root Grip hits reduce incoming damage by 6 for 2.2.
-        Stacks up to 3 times.
-      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
-      name: Regrowth
-      type: survival
-    winrate: '50.0'
+    winrate: '56.2'
   description: "Ancient folklore speaks of Thorn, the destructive apparition. Using\
     \ its network of thorn-covered roots, it would whip, rupture and drain the life\
     \ out of any living thing indiscriminately. Some say Thorn is just a story to\
@@ -2704,11 +2703,11 @@ threes:
   name: Thorn
   title: thorn
 - builds:
-  - damage: '4.7'
-    disable: '0.8'
-    energy: '3.5'
-    num: 89
-    protection: '5.3'
+  - damage: '4.5'
+    disable: '0.7'
+    energy: '3.4'
+    num: 233
+    protection: '5.6'
     skills:
     - color: grey
       description: Charged Hammer of Justice deals 2 bonus damage. Deals full damage
@@ -2739,12 +2738,12 @@ threes:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '65.2'
+    winrate: '60.1'
   - damage: '4.6'
     disable: '0.7'
-    energy: '3.8'
-    num: 44
-    protection: '6.1'
+    energy: '3.7'
+    num: 76
+    protection: '6.4'
     skills:
     - color: grey
       description: Charged Hammer of Justice deals 2 bonus damage. Deals full damage
@@ -2774,12 +2773,12 @@ threes:
       icon: 43ddc4074c2b605478c43c9727704ce8
       name: Penitence
       type: mixed
-    winrate: '70.5'
-  - damage: '4.4'
+    winrate: '65.8'
+  - damage: '4.3'
     disable: '0.8'
-    energy: '3.7'
-    num: 30
-    protection: '5.8'
+    energy: '3.4'
+    num: 44
+    protection: '5.9'
     skills:
     - color: grey
       description: Charged Hammer of Justice deals 2 bonus damage. Deals full damage
@@ -2799,9 +2798,9 @@ threes:
       name: Divine Protection
       type: mixed
     - color: grey
-      description: Intervene travel distance increases by 33% when affected by Favor.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Initiation
+      description: Smite projectiles inflict a 35 Snare for 1.
+      icon: 6892bf3a45c0ad042b495a385cb5604f
+      name: Holy Shackles
       type: mixed
     - color: grey
       description: Condemn cooldown is reduced by 3 and hits refresh the cooldown
@@ -2809,7 +2808,7 @@ threes:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '46.7'
+    winrate: '59.1'
   description: Sworn protector of the weak, devout follower of the Way of Symphony,
     and unwavering light against the dark. Ulric, trained in the holy Monastery of
     Resonance, has spent many years traveling the lands to spread the word of the
@@ -2819,10 +2818,10 @@ threes:
   name: Ulric
   title: ulric
 - builds:
-  - damage: '6.8'
+  - damage: '6.7'
     disable: '0.5'
     energy: '3.6'
-    num: 12
+    num: 13
     protection: '1.9'
     skills:
     - color: grey
@@ -2855,7 +2854,41 @@ threes:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Zeal
       type: control
-    winrate: '58.3'
+    winrate: '61.5'
+  - damage: '7.4'
+    disable: '0.5'
+    energy: '3.7'
+    num: 13
+    protection: '2.0'
+    skills:
+    - color: grey
+      description: Inhibitor's Guard increases movement speed by 25 and damage output
+        by 15.
+      icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Celerity
+      type: mixed
+    - color: red
+      description: Hand of Judgement deals 4 bonus damage and hitting an enemy resets
+        its cooldown.
+      icon: c2525970f8ab5574191da4938fa5619b
+      name: Devastation
+      type: offense
+    - color: yellow
+      description: Shatter can be cast while moving at 75 speed.
+      icon: d6c97da35fc19134881cb5a4c44e3912
+      name: Inhibitor
+      type: mobility
+    - color: red
+      description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
+      icon: 2771f14010b802143b0b4d5fc8e4bb9c
+      name: Ruin
+      type: offense
+    - color: teal
+      description: Inhibitor's Guard absorbs 14 more damage.
+      icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Wonder
+      type: support
+    winrate: '53.8'
   - damage: '5.4'
     disable: '0.4'
     energy: '3.0'
@@ -2891,42 +2924,6 @@ threes:
       name: Silence
       type: control
     winrate: '50.0'
-  - damage: '7.4'
-    disable: '0.5'
-    energy: '4.0'
-    num: 7
-    protection: '1.6'
-    skills:
-    - color: grey
-      description: Inhibitor's Guard increases movement speed by 25 and damage output
-        by 15.
-      icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Celerity
-      type: mixed
-    - color: yellow
-      description: Consuming Corruption increases your movement speed by 10 for 5.
-        Can stack up to 3 times.
-      icon: fe5369baf5a80dc47b0656ae7be82e09
-      name: Fervor
-      type: mobility
-    - color: yellow
-      description: Shatter can be cast while moving at 75 speed.
-      icon: d6c97da35fc19134881cb5a4c44e3912
-      name: Inhibitor
-      type: mobility
-    - color: pink
-      description: Consuming Judgement with Shatter increases Silence duration from
-        0.5 to 1.
-      icon: c2525970f8ab5574191da4938fa5619b
-      name: Silence
-      type: control
-    - color: green
-      description: Consuming Corruption with Shatter increases Fading Snare duration
-        from 1 to 1.5 and reapplies Corruption.
-      icon: fe5369baf5a80dc47b0656ae7be82e09
-      name: Unlimited Power
-      type: survival
-    winrate: '71.4'
   description: A being formed by the energies of others. Varesh uses his power  to
     weaken and disrupt his enemies. By combining his powers he is able to unleash
     devastating attacks.
@@ -2934,11 +2931,11 @@ threes:
   name: Varesh
   title: varesh
 - builds:
-  - damage: '3.9'
+  - damage: '3.7'
     disable: '0.6'
     energy: '3.0'
-    num: 36
-    protection: '4.4'
+    num: 78
+    protection: '4.6'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 1 and damage taken
@@ -2968,11 +2965,11 @@ threes:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '55.6'
-  - damage: '3.2'
-    disable: '0.6'
+    winrate: '61.5'
+  - damage: '3.3'
+    disable: '0.5'
     energy: '3.2'
-    num: 22
+    num: 36
     protection: '5.1'
     skills:
     - color: red
@@ -3002,12 +2999,12 @@ threes:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '45.5'
-  - damage: '2.7'
+    winrate: '52.8'
+  - damage: '3.1'
     disable: '0.5'
-    energy: '3.6'
-    num: 3
-    protection: '5.0'
+    energy: '2.9'
+    num: 7
+    protection: '4.3'
     skills:
     - color: red
       description: Traveling through a portal resets the cooldown of Grand Conjuration.
@@ -3036,7 +3033,7 @@ threes:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '66.7'
+    winrate: '28.6'
   description: When the famous theatre troupe "The Phantomime Masquerade" disbanded
     after a series of tragic events, their magnificent magician Zander vanished without
     a trace. Known for his unparalleled perfection in card trickery, teleportation,
@@ -3048,11 +3045,11 @@ threes:
   title: zander
 twos:
 - builds:
-  - damage: '6.8'
-    disable: '0.7'
-    energy: '3.1'
-    num: 7
-    protection: '0.8'
+  - damage: '7.5'
+    disable: '0.9'
+    energy: '3.2'
+    num: 10
+    protection: '1.1'
     skills:
     - color: teal
       description: Hitting an ally with Flash Freeze applies Lesser Glacial Prism,
@@ -3084,49 +3081,58 @@ twos:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    winrate: '42.9'
-  - damage: '6.3'
-    disable: '0.7'
-    energy: '2.9'
-    num: 5
-    protection: '0.6'
+    winrate: '40.0'
+  - damage: '6.5'
+    disable: '0.9'
+    energy: '3.2'
+    num: 9
+    protection: '0.8'
     skills:
     - color: blue
       description: Increases Flash Freeze radius by 10 and reduces cooldown by 1.
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Blizzard
       type: utility
+    - color: pink
+      description: Increases Chill duration of Ice Lance by 1. Ice Lance explodes
+        upon hit or reaching max range to inflict Chill for 2 on nearby enemies.
+      icon: bffd25b328052f647a5e1705071fe746
+      name: Cryogenic Lance
+      type: control
     - color: teal
       description: Glacial Prism absorbs up to 12 more damage and its explosion range
         is increased by 20.
       icon: 257737da8189b1242be43990b8caf5a6
       name: Crystalline Lattice
       type: support
-    - color: yellow
-      description: Glacial Prism grants 60 Fading Haste for 1.4.
-      icon: 257737da8189b1242be43990b8caf5a6
-      name: Figure Skating
-      type: mobility
     - color: red
       description: Ice Lance deals 3 bonus damage and breaks Freeze before dealing
         damage.
       icon: bffd25b328052f647a5e1705071fe746
       name: Ice Breaker
       type: offense
-    - color: red
-      description: Flash Freeze impact leaves a lingering snowstorm that deals 12
-        damage and inflicts Chill over 2.5. The damage affects enemies with Freeze
-        directly.
-      icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Snowstorm
-      type: offense
-    winrate: '20.0'
-  - damage: '7.9'
-    disable: '0.9'
+    - color: yellow
+      description: Arctic Wind can be recast to perform a short leap.
+      icon: 1ac43589909cda746bafbf3da20d1559
+      name: Twirl
+      type: mobility
+    winrate: '44.4'
+  - damage: '6.7'
+    disable: '0.7'
     energy: '2.7'
-    num: 5
-    protection: '0.4'
+    num: 8
+    protection: '0.5'
     skills:
+    - color: blue
+      description: Increases Flash Freeze radius by 10 and reduces cooldown by 1.
+      icon: 54bc49f3587260f45b1c4e8e2856e6b7
+      name: Blizzard
+      type: utility
+    - color: yellow
+      description: Glacial Prism grants 60 Fading Haste for 1.4.
+      icon: 257737da8189b1242be43990b8caf5a6
+      name: Figure Skating
+      type: mobility
     - color: red
       description: Ice Lance deals 3 bonus damage and breaks Freeze before dealing
         damage.
@@ -3146,18 +3152,7 @@ twos:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    - color: yellow
-      description: Arctic Wind can be recast to perform a short leap.
-      icon: 1ac43589909cda746bafbf3da20d1559
-      name: Twirl
-      type: mobility
-    - color: red
-      description: You can break your own ice crown with a single Frost Bolt to launch
-        the cone of icicles.
-      icon: 46faed2871863c34d83a612e2ddccc9e
-      name: Vandalism
-      type: offense
-    winrate: '60.0'
+    winrate: '37.5'
   description: From the frozen north comes the ice sculptor Alysia. Her power allows
     her to wield ice with both grace and deadly precision. She can damage and freeze
     her enemies from a distance, while shielding her allies with ice. Obsessed with
@@ -3167,10 +3162,10 @@ twos:
   name: Alysia
   title: alysia
 - builds:
-  - damage: '8.6'
+  - damage: '8.4'
     disable: '1.0'
     energy: '3.0'
-    num: 22
+    num: 27
     protection: '0.0'
     skills:
     - color: red
@@ -3201,11 +3196,46 @@ twos:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '68.2'
-  - damage: '8.5'
+    winrate: '66.7'
+  - damage: '7.9'
     disable: '1.1'
-    energy: '3.7'
-    num: 10
+    energy: '3.5'
+    num: 14
+    protection: '0.0'
+    skills:
+    - color: yellow
+      description: Searing Flight increases movement speed by 30 for 2.
+      icon: de69286ec8d6c934c9b04c51d1814b5c
+      name: Burning Feet
+      type: mobility
+    - color: red
+      description: Fireballs traveling through Firewall turn into Fire Storm bolts.
+      icon: c6d71f7b4598ec14cab637f6d9ffce64
+      name: Conflagration
+      type: offense
+    - color: yellow
+      description: Fire Storm can be cast while moving at 50 movement speed and 30
+        while channeling.
+      icon: 117c35c7f757858428a733d8da4982be
+      name: Heat
+      type: mobility
+    - color: blue
+      description: Increases energy gain from abilities by 10 and maximum energy by
+        25.
+      icon: 61e058b8f4b79f4419ec1496f223ee36
+      name: Inspiration
+      type: utility
+    - color: red
+      description: Ignite deals 2 bonus damage when first applied and reduces target's
+        movement speed by 10.
+      icon: 7612ba34ea3cdf9429a033d92e85c117
+      name: Magma
+      type: offense
+    winrate: '35.7'
+  - damage: '8.6'
+    disable: '1.1'
+    energy: '3.6'
+    num: 14
     protection: '0.5'
     skills:
     - color: red
@@ -3237,42 +3267,7 @@ twos:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '30.0'
-  - damage: '7.4'
-    disable: '0.8'
-    energy: '2.6'
-    num: 9
-    protection: '0.6'
-    skills:
-    - color: red
-      description: Fire Storm hits deal 2 bonus damage and spread fire to other nearby
-        enemies, dealing 8 damage and inflicting Ignite.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Combustion
-      type: offense
-    - color: green
-      description: Flamestrike heals you for 75 of damage dealt.
-      icon: 48122c1a1a8cae7408409c90126f11cb
-      name: Ember Fire
-      type: survival
-    - color: yellow
-      description: Fire Storm can be cast while moving at 50 movement speed and 30
-        while channeling.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Heat
-      type: mobility
-    - color: red
-      description: Flamestrike deals 10 bonus damage and inflicts Ignite.
-      icon: 48122c1a1a8cae7408409c90126f11cb
-      name: Inferno
-      type: offense
-    - color: red
-      description: Ignite deals 2 bonus damage when first applied and reduces target's
-        movement speed by 10.
-      icon: 7612ba34ea3cdf9429a033d92e85c117
-      name: Magma
-      type: offense
-    winrate: '44.4'
+    winrate: '35.7'
   description: A masked creature specialized in dark sorcery and pyro-kinetic powers.
     Casts devastating fire spells on his opponents and avoids close combat. Don't
     be fooled by his size, Ashka's inner demon strikes fear into all who face him.
@@ -3280,10 +3275,10 @@ twos:
   name: Ashka
   title: ashka
 - builds:
-  - damage: '7.5'
-    disable: '1.2'
-    energy: '3.2'
-    num: 30
+  - damage: '7.4'
+    disable: '1.1'
+    energy: '3.4'
+    num: 58
     protection: '1.5'
     skills:
     - color: red
@@ -3315,23 +3310,25 @@ twos:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '60.0'
-  - damage: '7.1'
-    disable: '1.5'
-    energy: '3.7'
-    num: 10
+    winrate: '51.7'
+  - damage: '6.3'
+    disable: '1.1'
+    energy: '3.4'
+    num: 16
     protection: '1.5'
     skills:
     - color: red
-      description: Valiant Leap causes your next War Axe hit to deal 9 bonus damage.
-      icon: 16e7e84d6c786cf4abc695c9b1c29b31
-      name: Adrenaline Rush
+      description: Hitting an enemy with Shield Dash causes your next War Axe hit
+        to deal 9 bonus damage.
+      icon: 84ba51168b08df3489362e3a9be59704
+      name: Adrenaline Slam
       type: offense
-    - color: grey
-      description: ^2Bulwark^- increases movement speed by 60.
-      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
-      name: Mobile Defence
-      type: mixed
+    - color: red
+      description: War Shout increases attack speed of War Axe and Blood Axe by 33%
+        and movement speed by 15 for 4.
+      icon: b778ec70cf3198442a522a40aefd88df
+      name: Rampage
+      type: offense
     - color: teal
       description: Bulwark can be recast to use Shield Bash. It deals 6 damage and
         inflicts 50 Weaken for 2.
@@ -3350,12 +3347,12 @@ twos:
       icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
       type: offense
-    winrate: '80.0'
-  - damage: '6.9'
-    disable: '1.3'
-    energy: '3.7'
-    num: 10
-    protection: '2.4'
+    winrate: '37.5'
+  - damage: '7.2'
+    disable: '1.4'
+    energy: '3.8'
+    num: 14
+    protection: '2.3'
     skills:
     - color: green
       description: War Axe hits reduce the cooldown of Bulwark by 1.
@@ -3384,7 +3381,7 @@ twos:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '20.0'
+    winrate: '28.6'
   description: Bakko has a proud history as a heroic brawler, armed with both axe
     and shield. He uses his shield to protect teammates and outmaneuver enemies. Watch
     out for his earth-shattering dash attacks, as even calm warriors sometimes go
@@ -3393,43 +3390,10 @@ twos:
   name: Bakko
   title: bakko
 - builds:
-  - damage: '4.4'
-    disable: '0.8'
-    energy: '3.1'
-    num: 28
-    protection: '5.2'
-    skills:
-    - color: green
-      description: Increases Tree of Life health by 10.
-      icon: 493cac6f13fb41849aaf95ed03fbb488
-      name: Healthful Bark
-      type: survival
-    - color: yellow
-      description: Hop can be recast for a Lesser Hop that travels a shorter distance.
-      icon: 36048e053d179474491aa317959b3eb7
-      name: Hop and Skip!
-      type: mobility
-    - color: red
-      description: Reduces your weapon charge cooldown by 30.
-      icon: e0ead374bbde24c44a10cc34294a6e44
-      name: Nature's Cycle
-      type: offense
-    - color: red
-      description: Boom Bloom hits charge your weapon by 50.
-      icon: 4832a1022ed764241a63b8dacc299ee9
-      name: Spring Growth
-      type: offense
-    - color: teal
-      description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
-        output by 40 for 1.5.
-      icon: e0ead374bbde24c44a10cc34294a6e44
-      name: Weakening Pitch
-      type: support
-    winrate: '64.3'
-  - damage: '4.8'
+  - damage: '5.0'
     disable: '1.0'
-    energy: '3.2'
-    num: 19
+    energy: '3.4'
+    num: 61
     protection: '5.0'
     skills:
     - color: yellow
@@ -3459,12 +3423,12 @@ twos:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '63.2'
-  - damage: '4.0'
-    disable: '0.8'
-    energy: '3.1'
-    num: 14
-    protection: '5.2'
+    winrate: '55.7'
+  - damage: '4.8'
+    disable: '0.9'
+    energy: '3.3'
+    num: 52
+    protection: '5.4'
     skills:
     - color: green
       description: Increases Tree of Life health by 10.
@@ -3476,16 +3440,15 @@ twos:
       icon: 36048e053d179474491aa317959b3eb7
       name: Hop and Skip!
       type: mobility
-    - color: teal
-      description: Nourish heals 2 bonus health when healing another ally. Butterflies
-        heals for 2 bonus health.
-      icon: 2b94035c77e083845a78221a5130146e
-      name: Kindhearted
-      type: support
     - color: red
       description: Reduces your weapon charge cooldown by 30.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
+      type: offense
+    - color: red
+      description: Boom Bloom hits charge your weapon by 50.
+      icon: 4832a1022ed764241a63b8dacc299ee9
+      name: Spring Growth
       type: offense
     - color: teal
       description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
@@ -3493,7 +3456,42 @@ twos:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '42.9'
+    winrate: '65.4'
+  - damage: '4.1'
+    disable: '1.0'
+    energy: '2.8'
+    num: 20
+    protection: '4.4'
+    skills:
+    - color: pink
+      description: Hop causes you to leave behind a Lesser Boom Bloom seed. After
+        1.1, the seed inflicts Stun for 0.8 on nearby enemies.
+      icon: 36048e053d179474491aa317959b3eb7
+      name: Gift of Nature
+      type: control
+    - color: yellow
+      description: Hop can be recast for a Lesser Hop that travels a shorter distance.
+      icon: 36048e053d179474491aa317959b3eb7
+      name: Hop and Skip!
+      type: mobility
+    - color: red
+      description: Reduces your weapon charge cooldown by 30.
+      icon: e0ead374bbde24c44a10cc34294a6e44
+      name: Nature's Cycle
+      type: offense
+    - color: yellow
+      description: Tree of Life grants nearby allies 35 increased movement speed for
+        2.5 when destroyed or at the end of its duration.
+      icon: 493cac6f13fb41849aaf95ed03fbb488
+      name: Refreshing Seed
+      type: mobility
+    - color: teal
+      description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
+        output by 40 for 1.5.
+      icon: e0ead374bbde24c44a10cc34294a6e44
+      name: Weakening Pitch
+      type: support
+    winrate: '35.0'
   description: Blossom is a happy, bubbly young faun from the Silverdeep Forest. She
     has left her home to investigate a disturbance in the natural order. She is never
     far from her bird companion, Maxwell.
@@ -3501,11 +3499,11 @@ twos:
   name: Blossom
   title: blossom
 - builds:
-  - damage: '7.5'
-    disable: '1.0'
-    energy: '3.3'
-    num: 48
-    protection: '1.3'
+  - damage: '7.4'
+    disable: '0.9'
+    energy: '3.4'
+    num: 79
+    protection: '1.4'
     skills:
     - color: blue
       description: Increases invisibility duration of Camouflage by 1.
@@ -3536,11 +3534,11 @@ twos:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '52.1'
-  - damage: '7.3'
+    winrate: '49.4'
+  - damage: '7.1'
     disable: '0.5'
     energy: '2.9'
-    num: 25
+    num: 38
     protection: '2.0'
     skills:
     - color: red
@@ -3571,11 +3569,11 @@ twos:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '48.0'
-  - damage: '7.6'
-    disable: '1.0'
-    energy: '3.3'
-    num: 6
+    winrate: '39.5'
+  - damage: '7.4'
+    disable: '0.9'
+    energy: '3.4'
+    num: 10
     protection: '2.2'
     skills:
     - color: red
@@ -3605,7 +3603,7 @@ twos:
       icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
       type: utility
-    winrate: '66.7'
+    winrate: '60.0'
   description: His background is shrouded in mystery, his movements are supernatural
     and his reputation is whispered about. Croak loves to surprise his enemies, using
     his mobility to move in and out. His chameleonic stealth and flexible fighting
@@ -3648,6 +3646,40 @@ twos:
       name: Violent Revolution
       type: offense
     winrate: '36.4'
+  - damage: '7.1'
+    disable: '1.1'
+    energy: '3.3'
+    num: 7
+    protection: '0.1'
+    skills:
+    - color: red
+      description: Sky Strike deals 6 bonus damage. Also increases its radius by 10.
+      icon: 1d95f324f635c9447a68299999e8597e
+      name: Blast Processing
+      type: offense
+    - color: pink
+      description: Increases Fading Snare duration of Mega Sphere by 1 and reduces
+        its cooldown by 3.
+      icon: 751839d4f58db9445aa7fc86411521a1
+      name: Expansion Pack
+      type: control
+    - color: red
+      description: Charged Bolt deals 1 - 5 bonus damage, based on charge-up duration.
+      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: Power Attachment
+      type: offense
+    - color: pink
+      description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
+      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: System Shock
+      type: control
+    - color: red
+      description: Increases knockback force of Magnetic Orb by 20 and it deals 4
+        bonus damage.
+      icon: 32189e52d279bcc498ede10b3d3ff6d1
+      name: Violent Revolution
+      type: offense
+    winrate: '28.6'
   - damage: '7.7'
     disable: '1.6'
     energy: '4.1'
@@ -3683,41 +3715,6 @@ twos:
       name: Violent Revolution
       type: offense
     winrate: '100.0'
-  - damage: '5.8'
-    disable: '0.9'
-    energy: '2.9'
-    num: 5
-    protection: '1.1'
-    skills:
-    - color: yellow
-      description: Increases Magnetic Orb duration by 0.5 and its movement speed bonus
-        by 20.
-      icon: 32189e52d279bcc498ede10b3d3ff6d1
-      name: Globetrotter
-      type: mobility
-    - color: green
-      description: Firing Power Blaster through a Plasma Wall increases the range
-        by 30 and grants you a shield absorbing 10 damage on hit.
-      icon: 87c684273ffea0845863a8f80b904890
-      name: Plasma Infusion
-      type: survival
-    - color: red
-      description: Charged Bolt deals 1 - 5 bonus damage, based on charge-up duration.
-      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: Power Attachment
-      type: offense
-    - color: pink
-      description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
-      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: System Shock
-      type: control
-    - color: red
-      description: Increases knockback force of Magnetic Orb by 20 and it deals 4
-        bonus damage.
-      icon: 32189e52d279bcc498ede10b3d3ff6d1
-      name: Violent Revolution
-      type: offense
-    winrate: '60.0'
   description: An elite sky ranger from the secluded, invisible city of Enza. Many
     years of rigorous combat training using Magi-tech weaponry makes Destiny an agile
     and deadly force to be reckoned with. Fed up with the strict regulations of living
@@ -3729,9 +3726,9 @@ twos:
 - builds:
   - damage: '8.4'
     disable: '0.8'
-    energy: '3.8'
-    num: 30
-    protection: '0.2'
+    energy: '3.7'
+    num: 37
+    protection: '0.3'
     skills:
     - color: pink
       description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
@@ -3761,11 +3758,11 @@ twos:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    winrate: '80.0'
-  - damage: '9.4'
+    winrate: '73.0'
+  - damage: '8.9'
     disable: '0.9'
-    energy: '4.6'
-    num: 8
+    energy: '4.4'
+    num: 10
     protection: '0.2'
     skills:
     - color: pink
@@ -3798,43 +3795,42 @@ twos:
       icon: b51e6f88de6853d46bec81bbb3a655a4
       name: Undermine
       type: support
-    winrate: '100.0'
-  - damage: '9.0'
-    disable: '1.0'
-    energy: '4.5'
-    num: 6
-    protection: '0.5'
+    winrate: '80.0'
+  - damage: '9.2'
+    disable: '0.8'
+    energy: '4.4'
+    num: 8
+    protection: '0.4'
     skills:
+    - color: red
+      description: Displace grants 1 extra weapon charge.
+      icon: 99a21ff998aff1248a10df2d317faa20
+      name: Chaos Barrage
+      type: offense
     - color: pink
       description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
         duration.
       icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Disruption
       type: control
-    - color: pink
-      description: Hitting the same enemy with 3 consecutive Arcane Fires inflicts
-        Fading Snare for 0.4.
-      icon: 18ab7b3d5a6d72c4983b091360323f41
-      name: Exhaust
-      type: control
+    - color: yellow
+      description: Arcane Barrier increases your movement speed by 40. Also reduces
+        its cooldown by 1.
+      icon: 563027e5fd687db4697308c54fe91381
+      name: Imp Rush
+      type: mobility
+    - color: green
+      description: Negating attacks with Arcane Barrier grants twice as many weapon
+        charges. For each charge gained, heal yourself for 6 health.
+      icon: 563027e5fd687db4697308c54fe91381
+      name: Spell Eater
+      type: survival
     - color: red
-      description: Increases pull force of Grimoire of Chaos by 25. It deals 10 bonus
-        damage.
-      icon: 41cc34493bbdcb44985028d3000656d8
-      name: Grimoire of Death
+      description: Displace increases your Arcane Fire attack speed by 30% for 2.5.
+      icon: 99a21ff998aff1248a10df2d317faa20
+      name: Wreak Havoc
       type: offense
-    - color: teal
-      description: Shackle inflicts Weaken, reducing target's damage and healing output
-        by 50 for 3.
-      icon: b51e6f88de6853d46bec81bbb3a655a4
-      name: Undermine
-      type: support
-    - color: blue
-      description: Increases Chaos Grip range by 25.
-      icon: da12579e4ef58ba4c87c1819bf1c699b
-      name: Warlock's Grip
-      type: utility
-    winrate: '33.3'
+    winrate: '75.0'
   description: Ezmo is an aggressive spell caster who can move quickly across the
     arena. Aradu, a powerful warlock summoned and imprisoned Ezmo but Ezmo saw his
     opportunity to escape when the warlock became too engrossed in reading his tome.
@@ -3846,8 +3842,8 @@ twos:
 - builds:
   - damage: '7.6'
     disable: '1.1'
-    energy: '3.6'
-    num: 30
+    energy: '3.5'
+    num: 52
     protection: '2.1'
     skills:
     - color: green
@@ -3878,11 +3874,11 @@ twos:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    winrate: '56.7'
-  - damage: '7.4'
+    winrate: '57.7'
+  - damage: '7.8'
     disable: '1.5'
-    energy: '4.0'
-    num: 22
+    energy: '4.3'
+    num: 49
     protection: '2.0'
     skills:
     - color: green
@@ -3914,11 +3910,11 @@ twos:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
       type: mixed
-    winrate: '63.6'
-  - damage: '6.7'
-    disable: '1.0'
-    energy: '3.3'
-    num: 11
+    winrate: '57.1'
+  - damage: '7.6'
+    disable: '1.2'
+    energy: '3.7'
+    num: 42
     protection: '2.2'
     skills:
     - color: green
@@ -3948,17 +3944,49 @@ twos:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Tempest
       type: mobility
-    winrate: '45.5'
+    winrate: '54.8'
   description: Once a tribe queen, now a fearless contender. Her titanic hammers and
     overwhelming power of lightning is the perfect recipe for destruction.
   icon: be081702a8e70fe44ac0a4e3a9c46368
   name: Freya
   title: freya
 - builds:
+  - damage: '7.3'
+    disable: '1.1'
+    energy: '2.9'
+    num: 24
+    protection: '0.5'
+    skills:
+    - color: yellow
+      description: Zap knocks nearby enemies back and grants 25 Fading Haste for 2.
+      icon: 9274b3f40ab2b4048b5cde1e9164901e
+      name: Blast Shield
+      type: mobility
+    - color: red
+      description: Rocket X-67 deals 4 bonus damage.
+      icon: d80cae4dd7699264fb3c37675b59f263
+      name: Boom!
+      type: offense
+    - color: yellow
+      description: ^2Jet Pack^- increases movement speed by 40 for 2.5.
+      icon: 7442381b626556c4e8193c48031d01ef
+      name: Rocket Boosters
+      type: mobility
+    - color: red
+      description: Rocket X-67 gains 1 ability charge but cooldown increases by 1.5.
+      icon: d80cae4dd7699264fb3c37675b59f263
+      name: Stockpile
+      type: offense
+    - color: blue
+      description: Recast Jet Pack to fly back to your starting location.
+      icon: 7442381b626556c4e8193c48031d01ef
+      name: U-Turn
+      type: utility
+    winrate: '54.2'
   - damage: '7.8'
     disable: '1.0'
     energy: '3.6'
-    num: 14
+    num: 18
     protection: '0.9'
     skills:
     - color: pink
@@ -3988,44 +4016,12 @@ twos:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '35.7'
-  - damage: '7.7'
+    winrate: '33.3'
+  - damage: '7.8'
     disable: '1.3'
-    energy: '2.6'
-    num: 9
-    protection: '0.5'
-    skills:
-    - color: yellow
-      description: Zap knocks nearby enemies back and grants 25 Fading Haste for 2.
-      icon: 9274b3f40ab2b4048b5cde1e9164901e
-      name: Blast Shield
-      type: mobility
-    - color: pink
-      description: Tazer hits bounce once towards a nearby enemy.
-      icon: c9cd772b84da5454e9888a19fa249483
-      name: Conductor
-      type: control
-    - color: blue
-      description: Tazer hits remove positive effects from nearby enemies.
-      icon: c9cd772b84da5454e9888a19fa249483
-      name: EMP
-      type: utility
-    - color: yellow
-      description: ^2Jet Pack^- increases movement speed by 40 for 2.5.
-      icon: 7442381b626556c4e8193c48031d01ef
-      name: Rocket Boosters
-      type: mobility
-    - color: red
-      description: Rocket X-67 gains 1 ability charge but cooldown increases by 1.5.
-      icon: d80cae4dd7699264fb3c37675b59f263
-      name: Stockpile
-      type: offense
-    winrate: '77.8'
-  - damage: '7.2'
-    disable: '1.0'
-    energy: '3.9'
-    num: 7
-    protection: '0.6'
+    energy: '3.2'
+    num: 17
+    protection: '0.4'
     skills:
     - color: yellow
       description: Zap knocks nearby enemies back and grants 25 Fading Haste for 2.
@@ -4038,10 +4034,9 @@ twos:
       name: Boom!
       type: offense
     - color: blue
-      description: Increases energy gain from abilities by 10 and maximum energy by
-        25.
-      icon: 61e058b8f4b79f4419ec1496f223ee36
-      name: Inspiration
+      description: Tazer hits remove positive effects from nearby enemies.
+      icon: c9cd772b84da5454e9888a19fa249483
+      name: EMP
       type: utility
     - color: yellow
       description: ^2Jet Pack^- increases movement speed by 40 for 2.5.
@@ -4053,7 +4048,7 @@ twos:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '71.4'
+    winrate: '41.2'
   description: A scavenger from the outer realms. Iva has engineered her own arsenal
     of weapons. Firing crazy rockets or unleashing a storm of bullets is her way of
     greeting her opponents in the Arena.
@@ -4061,11 +4056,11 @@ twos:
   name: Iva
   title: iva
 - builds:
-  - damage: '7.2'
+  - damage: '7.0'
     disable: '1.1'
-    energy: '4.2'
-    num: 23
-    protection: '1.4'
+    energy: '4.1'
+    num: 40
+    protection: '1.3'
     skills:
     - color: red
       description: Blast Vault causes your next 4 Revolver Shots to deal 2 bonus damage
@@ -4095,12 +4090,12 @@ twos:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    winrate: '39.1'
+    winrate: '40.0'
   - damage: '6.9'
     disable: '0.9'
-    energy: '4.2'
-    num: 19
-    protection: '0.9'
+    energy: '4.0'
+    num: 32
+    protection: '1.0'
     skills:
     - color: red
       description: Stealth resets the cooldown of Snipe. Also increases duration of
@@ -4130,13 +4125,19 @@ twos:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    winrate: '47.4'
-  - damage: '6.8'
-    disable: '1.1'
-    energy: '3.9'
-    num: 10
-    protection: '1.0'
+    winrate: '46.9'
+  - damage: '6.6'
+    disable: '1.0'
+    energy: '3.7'
+    num: 17
+    protection: '0.9'
     skills:
+    - color: red
+      description: Stealth resets the cooldown of Snipe. Also increases duration of
+        invisibility by 0.3.
+      icon: c5da66a86ca45a1449a49d55cc92d1fc
+      name: Ambush
+      type: offense
     - color: pink
       description: Increases Stun duration of Blast Vault by 0.6.
       icon: ead2d318c0e3f8f4793207ab3e12da21
@@ -4153,18 +4154,13 @@ twos:
       icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
       name: Delight
       type: survival
-    - color: red
-      description: Disabling Shot hits instantly reload Revolver Shot with 6 ammo.
-      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
-      name: Desperado
-      type: offense
     - color: blue
       description: Revolver Shot hits reduce cooldown of Stealth by 0.3. Cooldown
         can't be reduced during Stealth.
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    winrate: '40.0'
+    winrate: '41.2'
   description: A mysterious gunslinger. Born with eagle-eyes and armed with a lethal
     sniper rifle, Jade's pinpoint accuracy is a serious threat for anyone who enters
     the arena. For close encounters, she prefers a combination of stealth and trusty
@@ -4173,45 +4169,10 @@ twos:
   name: Jade
   title: jade
 - builds:
-  - damage: '7.0'
-    disable: '1.4'
-    energy: '2.8'
-    num: 9
-    protection: '1.1'
-    skills:
-    - color: pink
-      description: Elusive Strike inflicts Fading Snare for 1 and Incapacitate duration
-        increases by 0.5.
-      icon: fa9b6a58fa6398b4ea4c4756152bd079
-      name: Cripple
-      type: control
-    - color: green
-      description: Shadow Slice heals you for 10 health.
-      icon: ef4060497167dcd43ab43e87def18d7b
-      name: Drawing Blood
-      type: survival
-    - color: pink
-      description: Increases Stun duration of Deadly Blow by 0.5 and reduces its cooldown
-        by 2.
-      icon: c75e9702831a67e4b98aa0c24af2d865
-      name: Go for the Throat
-      type: control
-    - color: red
-      description: Phantom Cut deals 8 bonus damage.
-      icon: ef4060497167dcd43ab43e87def18d7b
-      name: Phantom Blades
-      type: offense
-    - color: green
-      description: Shuriken returns to you afterward, healing you for {Can't represent
-        GameValueList} health based on enemies hit.
-      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
-      name: Taste of Blood
-      type: survival
-    winrate: '66.7'
-  - damage: '6.4'
+  - damage: '6.8'
     disable: '1.1'
-    energy: '2.7'
-    num: 8
+    energy: '2.9'
+    num: 13
     protection: '0.9'
     skills:
     - color: pink
@@ -4242,12 +4203,12 @@ twos:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '37.5'
-  - damage: '5.8'
+    winrate: '53.8'
+  - damage: '6.4'
     disable: '1.4'
-    energy: '3.0'
-    num: 7
-    protection: '0.8'
+    energy: '3.3'
+    num: 10
+    protection: '1.1'
     skills:
     - color: pink
       description: Elusive Strike inflicts Fading Snare for 1 and Incapacitate duration
@@ -4256,16 +4217,17 @@ twos:
       name: Cripple
       type: control
     - color: pink
-      description: Increases Snare duration of Shuriken by 1.5.
-      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
-      name: Deep Wounds
-      type: control
-    - color: pink
       description: Increases Stun duration of Deadly Blow by 0.5 and reduces its cooldown
         by 2.
       icon: c75e9702831a67e4b98aa0c24af2d865
       name: Go for the Throat
       type: control
+    - color: blue
+      description: Increases energy gain from abilities by 10 and maximum energy by
+        25.
+      icon: 61e058b8f4b79f4419ec1496f223ee36
+      name: Inspiration
+      type: utility
     - color: pink
       description: Hook Shot deals 3 bonus damage and inflicts Root for 0.8.
       icon: 17c2d1fcdba1a1540a6649ae0b3c0104
@@ -4277,7 +4239,43 @@ twos:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '14.3'
+    winrate: '60.0'
+  - damage: '6.7'
+    disable: '1.1'
+    energy: '3.6'
+    num: 10
+    protection: '1.0'
+    skills:
+    - color: yellow
+      description: Increases the range of Hook Shot by 15% and reduces its cooldown
+        by 1.
+      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
+      name: Firing Mechanism
+      type: mobility
+    - color: pink
+      description: Increases Stun duration of Deadly Blow by 0.5 and reduces its cooldown
+        by 2.
+      icon: c75e9702831a67e4b98aa0c24af2d865
+      name: Go for the Throat
+      type: control
+    - color: blue
+      description: Increases energy gain from abilities by 10 and maximum energy by
+        25.
+      icon: 61e058b8f4b79f4419ec1496f223ee36
+      name: Inspiration
+      type: utility
+    - color: pink
+      description: Hook Shot deals 3 bonus damage and inflicts Root for 0.8.
+      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
+      name: Momentum Strike
+      type: control
+    - color: green
+      description: Shuriken returns to you afterward, healing you for {Can't represent
+        GameValueList} health based on enemies hit.
+      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
+      name: Taste of Blood
+      type: survival
+    winrate: '50.0'
   description: "A young assassin from the Shadowblade clan, Jamila suddenly found\
     \ herself the new leader after the death of her mother, the previous matriarch.\
     \ As the youngest leader in the clan\u2019s history, some call her too inexperienced\
@@ -4320,10 +4318,10 @@ twos:
       name: Precision
       type: offense
     winrate: '63.9'
-  - damage: '7.0'
-    disable: '0.7'
-    energy: '4.1'
-    num: 9
+  - damage: '7.5'
+    disable: '0.6'
+    energy: '4.5'
+    num: 16
     protection: '1.0'
     skills:
     - color: red
@@ -4352,12 +4350,12 @@ twos:
       icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Viper
       type: mobility
-    winrate: '11.1'
-  - damage: '6.7'
-    disable: '0.7'
-    energy: '4.1'
-    num: 8
-    protection: '0.9'
+    winrate: '18.8'
+  - damage: '8.2'
+    disable: '0.9'
+    energy: '4.9'
+    num: 14
+    protection: '1.1'
     skills:
     - color: red
       description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
@@ -4366,16 +4364,16 @@ twos:
       name: Arrow Storm
       type: offense
     - color: red
-      description: Your projectiles deal 4 bonus damage to enemies caught in Bear
-        Trap.
-      icon: 6e30eed38d549fa4794a4543bf2b8de2
-      name: Deadly Trap
-      type: offense
-    - color: red
       description: Consuming ^2Seekers Mark^- deals 4 bonus damage.
       icon: 60a73a3140321ec448f7f97f00a07897
       name: Death Mark
       type: offense
+    - color: yellow
+      description: Increases duration of Prowl by 0.5 and reduces its cooldown by
+        3.
+      icon: bcb5bbf5676057e4bb4278f5c20bb865
+      name: Panther
+      type: mobility
     - color: pink
       description: Steady Shot inflicts Stun for 0.5.
       icon: 594fdf8c70a83404da422aa6463e0e03
@@ -4387,7 +4385,7 @@ twos:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '62.5'
+    winrate: '57.1'
   description: Jumong is a trophy collector who has wandered the wildlands in the
     pursuit of a worthy challenge. No longer being content with hunting the great
     beasts of the world has led him to enter the arena, looking for a new type of
@@ -4397,10 +4395,10 @@ twos:
   name: Jumong
   title: jumong
 - builds:
-  - damage: '4.6'
-    disable: '1.4'
-    energy: '2.9'
-    num: 7
+  - damage: '4.8'
+    disable: '1.5'
+    energy: '3.0'
+    num: 19
     protection: '5.2'
     skills:
     - color: pink
@@ -4431,11 +4429,11 @@ twos:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '71.4'
-  - damage: '3.2'
-    disable: '1.5'
-    energy: '3.2'
-    num: 6
+    winrate: '63.2'
+  - damage: '3.3'
+    disable: '1.4'
+    energy: '3.1'
+    num: 7
     protection: '5.4'
     skills:
     - color: pink
@@ -4464,50 +4462,90 @@ twos:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '16.7'
-  - damage: '4.7'
+    winrate: '28.6'
+  - damage: '3.5'
     disable: '1.0'
-    energy: '3.3'
-    num: 4
-    protection: '4.6'
+    energy: '2.8'
+    num: 5
+    protection: '4.2'
     skills:
     - color: yellow
       description: ^2Barrier^- increases movement speed by 33.
       icon: 46e144a65c818c04eb3d00a21cf513b3
       name: Alacrity
       type: mobility
-    - color: teal
-      description: Healing Potion heals other allies for 4 bonus health.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Companion Potion
-      type: support
-    - color: pink
-      description: Increases Snare factor of Crippling Goo from 35 to 60.
-      icon: d2c956821eb75a44e98ec7c47710a0cf
-      name: Sticky Goo
-      type: control
+    - color: grey
+      description: Applying Barrier causes a shockwave, dealing 10 damage to nearby
+        enemies and knocking them back.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
+      name: Blast Shield
+      type: mixed
+    - color: grey
+      description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
+        10 damage when removing a buff.
+      icon: d0c4449b33eef2e4ca2cfa8900910041
+      name: Potency
+      type: mixed
     - color: red
       description: ^2Revitalize^- increases damage output by 12.
       icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
       type: offense
-    - color: grey
-      description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
-      icon: 948d85cf5c36f504f8b964acde19ed3e
-      name: Weakening Toxin
-      type: mixed
-    winrate: '100.0'
+    - color: yellow
+      description: Roll increases movement speed by 33 for 2.5. Reduces cooldown of
+        Roll by 3.
+      icon: 470a917c1ac62c04ea45acc6a35c5f73
+      name: Swift Roll
+      type: mobility
+    winrate: '60.0'
   description: Lucie is a diverse contender who knows which brew makes you choke,
     heal or flee in fear. The arena has become her new playground for wild experiments.
   icon: e5554b8a15ffc1a499a3807bb3a37b56
   name: Lucie
   title: lucie
 - builds:
-  - damage: '5.6'
+  - damage: '6.0'
+    disable: '0.8'
+    energy: '3.2'
+    num: 28
+    protection: '3.1'
+    skills:
+    - color: grey
+      description: Time Bomb reduces incoming healing by 20 and outgoing damage by
+        10.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Dehydration
+      type: mixed
+    - color: teal
+      description: Rejuvenate heals for an additional 15 of damage taken over its
+        duration. Restores up to a maximum of 6 bonus health.
+      icon: 838ae06cda41a2544a1d2a528389d5b5
+      name: Renew
+      type: support
+    - color: red
+      description: Shifting Sands causes your next Sands of Time to deal 6 bonus damage
+        and inflict Fading Snare for 1.
+      icon: 89c37320af892ae43b410f4d610d7ea8
+      name: Sandstorm
+      type: offense
+    - color: red
+      description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
+        enemies when it detonates.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Shared Fate
+      type: offense
+    - color: yellow
+      description: Negating an attack with Time Bender reduces cooldown of Shifting
+        Sands by 3.
+      icon: a22c6c4bc967d4e48a44f0e87a93023e
+      name: Time Walker
+      type: mobility
+    winrate: '46.4'
+  - damage: '5.8'
     disable: '0.9'
-    energy: '3.7'
-    num: 18
-    protection: '3.5'
+    energy: '3.6'
+    num: 26
+    protection: '3.4'
     skills:
     - color: grey
       description: Time Bomb reduces incoming healing by 20 and outgoing damage by
@@ -4538,12 +4576,12 @@ twos:
       icon: 89c37320af892ae43b410f4d610d7ea8
       name: Sandstorm
       type: offense
-    winrate: '66.7'
-  - damage: '7.0'
-    disable: '1.0'
-    energy: '4.1'
-    num: 16
-    protection: '2.9'
+    winrate: '61.5'
+  - damage: '6.8'
+    disable: '0.9'
+    energy: '3.9'
+    num: 22
+    protection: '2.8'
     skills:
     - color: grey
       description: Time Bomb reduces incoming healing by 20 and outgoing damage by
@@ -4575,43 +4613,7 @@ twos:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    winrate: '81.2'
-  - damage: '7.1'
-    disable: '0.8'
-    energy: '3.9'
-    num: 14
-    protection: '3.1'
-    skills:
-    - color: blue
-      description: ^2Shifting Sands^- creates a ^2Lesser Chronoflux^- that reflects
-        projectiles and slows movement speed.
-      icon: 89c37320af892ae43b410f4d610d7ea8
-      name: Chrono Shift
-      type: utility
-    - color: grey
-      description: Time Bomb reduces incoming healing by 20 and outgoing damage by
-        10.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Dehydration
-      type: mixed
-    - color: red
-      description: Shifting Sands causes your next Sands of Time to deal 6 bonus damage
-        and inflict Fading Snare for 1.
-      icon: 89c37320af892ae43b410f4d610d7ea8
-      name: Sandstorm
-      type: offense
-    - color: red
-      description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
-        enemies when it detonates.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Shared Fate
-      type: offense
-    - color: red
-      description: Consuming Time Bomb with Quicksand deals 6 bonus damage.
-      icon: 35a1515e35b5104449dfa8802c5aa0e2
-      name: Time Burst
-      type: offense
-    winrate: '71.4'
+    winrate: '68.2'
   description: Oldur, a mysterious creature able to bend time and space. He can mend
     wounds with powerful heals and reverse enemy attacks by freezing them in time.
   icon: b0d66b8b9f228724093b8a3e66c3fef6
@@ -4620,9 +4622,9 @@ twos:
 - builds:
   - damage: '4.9'
     disable: '0.8'
-    energy: '2.8'
-    num: 34
-    protection: '3.9'
+    energy: '2.7'
+    num: 72
+    protection: '3.8'
     skills:
     - color: pink
       description: Countering an attack with Tidal Wave recharges your staff.
@@ -4653,12 +4655,12 @@ twos:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    winrate: '44.1'
-  - damage: '4.4'
+    winrate: '56.9'
+  - damage: '4.3'
     disable: '1.1'
-    energy: '2.8'
-    num: 29
-    protection: '3.8'
+    energy: '2.7'
+    num: 40
+    protection: '3.7'
     skills:
     - color: pink
       description: Countering an attack with Tidal Wave recharges your staff.
@@ -4688,12 +4690,12 @@ twos:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '55.2'
-  - damage: '4.5'
+    winrate: '55.0'
+  - damage: '4.6'
     disable: '0.7'
     energy: '2.8'
-    num: 28
-    protection: '3.8'
+    num: 37
+    protection: '3.9'
     skills:
     - color: pink
       description: Countering an attack with Tidal Wave recharges your staff.
@@ -4724,7 +4726,7 @@ twos:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    winrate: '64.3'
+    winrate: '59.5'
   description: A sage able to control the oceans and whatever creatures that lurk
     below. Pearl transforms water into volatile attacks, rejuvenating streams and
     protecting bubbles.
@@ -4732,11 +4734,11 @@ twos:
   name: Pearl
   title: pearl
 - builds:
-  - damage: '4.1'
-    disable: '1.0'
+  - damage: '4.4'
+    disable: '1.1'
     energy: '2.3'
-    num: 26
-    protection: '4.5'
+    num: 52
+    protection: '4.6'
     skills:
     - color: pink
       description: Arachnophobia bounces forward, causing another impact. The radius
@@ -4767,48 +4769,11 @@ twos:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '50.0'
-  - damage: '4.3'
-    disable: '0.9'
-    energy: '2.4'
-    num: 8
-    protection: '4.6'
-    skills:
-    - color: green
-      description: Hitting an ally with Bloodsucker causes you to deal no damage to
-        self.
-      icon: 991db4d450443e9498711ab935bedf13
-      name: Blood Leecher
-      type: survival
-    - color: pink
-      description: Releasing an Infested enemy inflicts a 20 Snare for 2.5 and pushes
-        it back in the opposite direction.
-      icon: c9f7e2e324bbed3469cbe356da833c9b
-      name: Disperse
-      type: control
-    - color: grey
-      description: Recasting the Queen commands it to fly towards target location.
-        Reduces cooldown of Queen by 1.
-      icon: 7a1d6423f91ba824d8855aa3e9a42247
-      name: Hive Mind
-      type: mixed
-    - color: red
-      description: Hitting an enemy or ally affected by Moth with Bloodsucker deals
-        6 bonus damage to enemies and heals 6 bonus health to allies.
-      icon: 991db4d450443e9498711ab935bedf13
-      name: Insectivore
-      type: offense
-    - color: teal
-      description: Queen spawns with a Swarm Shield that absorbs up to 28 damage and
-        lasts 1.2.
-      icon: 7a1d6423f91ba824d8855aa3e9a42247
-      name: Swarm Queen
-      type: support
-    winrate: '37.5'
-  - damage: '3.9'
-    disable: '0.9'
+    winrate: '53.8'
+  - damage: '4.2'
+    disable: '1.0'
     energy: '2.5'
-    num: 7
+    num: 15
     protection: '4.5'
     skills:
     - color: pink
@@ -4840,7 +4805,43 @@ twos:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '28.6'
+    winrate: '26.7'
+  - damage: '4.0'
+    disable: '1.0'
+    energy: '2.1'
+    num: 13
+    protection: '5.0'
+    skills:
+    - color: green
+      description: Hitting an ally with Bloodsucker causes you to deal no damage to
+        self.
+      icon: 991db4d450443e9498711ab935bedf13
+      name: Blood Leecher
+      type: survival
+    - color: pink
+      description: Arachnophobia bounces forward, causing another impact. The radius
+        of the second impact is 15 larger.
+      icon: afd7ecd77cdb3064690b9f0277a774dd
+      name: Egg Carrier
+      type: control
+    - color: grey
+      description: Recasting the Queen commands it to fly towards target location.
+        Reduces cooldown of Queen by 1.
+      icon: 7a1d6423f91ba824d8855aa3e9a42247
+      name: Hive Mind
+      type: mixed
+    - color: red
+      description: Arachnophobia deals 8 damage. Increases Panic duration by 0.5.
+      icon: afd7ecd77cdb3064690b9f0277a774dd
+      name: Spiderling Venom
+      type: offense
+    - color: teal
+      description: Queen spawns with a Swarm Shield that absorbs up to 28 damage and
+        lasts 1.2.
+      icon: 7a1d6423f91ba824d8855aa3e9a42247
+      name: Swarm Queen
+      type: support
+    winrate: '46.2'
   description: Pestilus, secret devotee of the evil Rasal, unleashes swarms of insects
     to infest and cripple his enemies. Advisor to the King of Quna, Pestilus is able
     to release his innermost darkest desires inside the arena.
@@ -4848,11 +4849,11 @@ twos:
   name: Pestilus
   title: pestilus
 - builds:
-  - damage: '5.1'
-    disable: '1.1'
+  - damage: '5.3'
+    disable: '1.2'
     energy: '2.8'
-    num: 18
-    protection: '4.3'
+    num: 30
+    protection: '4.1'
     skills:
     - color: pink
       description: The first Ghost Wolf hit inflicts Root for 1.
@@ -4881,12 +4882,12 @@ twos:
       icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
       type: control
-    winrate: '55.6'
-  - damage: '5.3'
-    disable: '1.0'
-    energy: '3.2'
-    num: 7
-    protection: '4.1'
+    winrate: '63.3'
+  - damage: '5.2'
+    disable: '1.1'
+    energy: '3.1'
+    num: 12
+    protection: '3.9'
     skills:
     - color: green
       description: Ghost Wolf returns to you afterward, granting you 5 energy and
@@ -4917,12 +4918,12 @@ twos:
       icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
       type: control
-    winrate: '57.1'
-  - damage: '6.7'
-    disable: '1.1'
-    energy: '3.4'
-    num: 7
-    protection: '4.1'
+    winrate: '58.3'
+  - damage: '5.0'
+    disable: '0.8'
+    energy: '3.3'
+    num: 10
+    protection: '4.2'
     skills:
     - color: green
       description: Ghost Wolf returns to you afterward, granting you 5 energy and
@@ -4942,18 +4943,18 @@ twos:
       icon: dfc86226d7b2a6d438dad7dfca7a0d52
       name: Into the Realm
       type: survival
-    - color: grey
-      description: Moving through an enemy during Other Side deals 8 damage and heals
-        you for 8 health.
+    - color: red
+      description: Increases Ghost Wolf range by 10. The first hit deals 4 bonus damage.
+      icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Silver Fang
+      type: offense
+    - color: yellow
+      description: Increases Other Side movement speed bonus from 40 to 50 and duration
+        by 0.5.
       icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Soul Theft
-      type: mixed
-    - color: pink
-      description: Teleporting to Spirit Guide resets the cooldown of Spirit Rift.
-      icon: 7bd09f2f761edd0438938579a6942e82
-      name: Vengeful Spirit
-      type: control
-    winrate: '28.6'
+      name: Spirit Walker
+      type: mobility
+    winrate: '50.0'
   description: Poloma uses shamanic powers to guide life and spirits alongside her
     protector and loyal creature, Toki. A dark disturbance among souls has put Poloma
     on a new path, leaving her safety and home behind. Driven by her burning curiosity
@@ -4962,47 +4963,44 @@ twos:
   name: Poloma
   title: poloma
 - builds:
-  - damage: '6.0'
-    disable: '0.6'
-    energy: '3.7'
-    num: 7
-    protection: '2.1'
+  - damage: '7.9'
+    disable: '1.2'
+    energy: '3.4'
+    num: 9
+    protection: '1.2'
     skills:
     - color: blue
-      description: Increases maximum range of Heavenly Strike by 30% and decreases
-        minimum distance by 50%.
-      icon: 47dabb046c0ec4d4c96bde0832713a46
-      name: Acrobatics
+      description: Dragon Palm hits allow you to recast it for 1.5.
+      icon: d25b4fc0d427d424891492d2b61469a9
+      name: Dragon Mastery
       type: utility
-    - color: grey
-      description: Seismic Shock can be recast to leap to the airborne enemy and strike
-        them, dealing 6 damage and increasing air duration by 0.7.
-      icon: 3c1f1a5c65f54594a9d3ba17b8f1b2a2
-      name: Aerial Strike
-      type: mixed
-    - color: green
-      description: Negating any attack with Parry heals you for 4 health. Negating
-        the first attack grants you a charge of Slicing Winds.
-      icon: fbfb00ff4fa4bc542b54639b84406f01
-      name: Duelist
-      type: survival
     - color: teal
-      description: Move at 100% movement speed during Parry. Heal nearby allies for
-        8 health when Parry ends.
-      icon: fbfb00ff4fa4bc542b54639b84406f01
-      name: Invigorate
-      type: support
-    - color: green
-      description: Hitting at least one enemy with Heavenly Strike grants you a charge
-        of Slicing Winds.
+      description: Heavenly Strike inflicts 50 Weaken for 2.
       icon: 47dabb046c0ec4d4c96bde0832713a46
-      name: Overflowing Power
-      type: survival
-    winrate: '28.6'
-  - damage: '6.4'
+      name: Hawk Dive
+      type: support
+    - color: yellow
+      description: Increases dash length of Retribution by 20.
+      icon: d5c38afdefecf224b9a71bdfdb60dee1
+      name: Headlong Rush
+      type: mobility
+    - color: red
+      description: When Parry expires, perform a Spinning Slash. It deals 8 damage
+        and inflict Stun for 0.3.
+      icon: fbfb00ff4fa4bc542b54639b84406f01
+      name: Riposte
+      type: offense
+    - color: red
+      description: Heavenly Strike deals 6 bonus damage and inflicts Fading Snare
+        for 1.2.
+      icon: 47dabb046c0ec4d4c96bde0832713a46
+      name: Royal Descent
+      type: offense
+    winrate: '88.9'
+  - damage: '6.5'
     disable: '1.3'
-    energy: '3.6'
-    num: 7
+    energy: '3.3'
+    num: 9
     protection: '1.4'
     skills:
     - color: grey
@@ -5034,12 +5032,12 @@ twos:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    winrate: '28.6'
-  - damage: '5.7'
+    winrate: '22.2'
+  - damage: '5.6'
     disable: '1.0'
-    energy: '2.7'
-    num: 6
-    protection: '1.1'
+    energy: '3.0'
+    num: 8
+    protection: '1.7'
     skills:
     - color: grey
       description: Seismic Shock can be recast to leap to the airborne enemy and strike
@@ -5047,6 +5045,12 @@ twos:
       icon: 3c1f1a5c65f54594a9d3ba17b8f1b2a2
       name: Aerial Strike
       type: mixed
+    - color: green
+      description: Negating any attack with Parry heals you for 4 health. Negating
+        the first attack grants you a charge of Slicing Winds.
+      icon: fbfb00ff4fa4bc542b54639b84406f01
+      name: Duelist
+      type: survival
     - color: yellow
       description: Increases dash length of Retribution by 20.
       icon: d5c38afdefecf224b9a71bdfdb60dee1
@@ -5058,19 +5062,13 @@ twos:
       icon: fbfb00ff4fa4bc542b54639b84406f01
       name: Invigorate
       type: support
-    - color: red
-      description: When Parry expires, perform a Spinning Slash. It deals 8 damage
-        and inflict Stun for 0.3.
-      icon: fbfb00ff4fa4bc542b54639b84406f01
-      name: Riposte
-      type: offense
-    - color: red
-      description: Heavenly Strike deals 6 bonus damage and inflicts Fading Snare
-        for 1.2.
+    - color: green
+      description: Hitting at least one enemy with Heavenly Strike grants you a charge
+        of Slicing Winds.
       icon: 47dabb046c0ec4d4c96bde0832713a46
-      name: Royal Descent
-      type: offense
-    winrate: '66.7'
+      name: Overflowing Power
+      type: survival
+    winrate: '25.0'
   description: Raigon, formerly the crown prince of Quna, is a skilled melee fighter
     trained in two-handed swordsmanship and martial arts. He hopes to break the evil
     spell cast upon his father and return home. For now, the arena serves as a decent
@@ -5079,11 +5077,11 @@ twos:
   name: Raigon
   title: raigon
 - builds:
-  - damage: '6.1'
+  - damage: '6.3'
     disable: '1.3'
-    energy: '3.1'
-    num: 37
-    protection: '2.0'
+    energy: '3.2'
+    num: 78
+    protection: '1.9'
     skills:
     - color: yellow
       description: Rush cooldown reduces by 1. Using Rush without hitting an enemy
@@ -5111,46 +5109,12 @@ twos:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    winrate: '62.2'
-  - damage: '6.9'
-    disable: '1.6'
-    energy: '3.3'
-    num: 34
-    protection: '1.9'
-    skills:
-    - color: yellow
-      description: Rush cooldown reduces by 1. Using Rush without hitting an enemy
-        further reduces cooldown by 1.5.
-      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
-      name: Endurance
-      type: mobility
-    - color: red
-      description: Rush hits cause you to gain Berserk for 1.5.
-      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
-      name: Frenzy
-      type: offense
-    - color: green
-      description: Decreases damage taken during Berserk by 30.
-      icon: df78f943fca96314181fdf1827f825db
-      name: Giant
-      type: survival
-    - color: pink
-      description: Crushing Blow inflicts Stun for 0.5.
-      icon: bc4e2e34829b8af4c92bb6a8f570fc96
-      name: Squash
-      type: control
-    - color: teal
-      description: Crushing Blow deals 2 bonus damage and enemies affected by Armor
-        Break deal 33 less damage.
-      icon: bc4e2e34829b8af4c92bb6a8f570fc96
-      name: Weapon Break
-      type: support
-    winrate: '61.8'
+    winrate: '60.3'
   - damage: '6.6'
     disable: '1.4'
-    energy: '3.0'
-    num: 30
-    protection: '2.0'
+    energy: '2.9'
+    num: 70
+    protection: '1.9'
     skills:
     - color: red
       description: Boulder Toss deals 2 bonus damage and inflicts Armor Break.
@@ -5178,7 +5142,39 @@ twos:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
       type: support
-    winrate: '56.7'
+    winrate: '64.3'
+  - damage: '6.3'
+    disable: '1.3'
+    energy: '2.8'
+    num: 69
+    protection: '1.3'
+    skills:
+    - color: red
+      description: Boulder Toss deals 2 bonus damage and inflicts Armor Break.
+      icon: ec50e13a62a38194186bf0763d8ae951
+      name: Crumble
+      type: offense
+    - color: red
+      description: Rush hits cause you to gain Berserk for 1.5.
+      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
+      name: Frenzy
+      type: offense
+    - color: green
+      description: Decreases damage taken during Berserk by 30.
+      icon: df78f943fca96314181fdf1827f825db
+      name: Giant
+      type: survival
+    - color: red
+      description: Crushing Blow deals 6 bonus damage.
+      icon: bc4e2e34829b8af4c92bb6a8f570fc96
+      name: Rook Smash
+      type: offense
+    - color: pink
+      description: Crushing Blow inflicts Stun for 0.5.
+      icon: bc4e2e34829b8af4c92bb6a8f570fc96
+      name: Squash
+      type: control
+    winrate: '52.2'
   description: A mighty chieftain rushing into battle with a giant hammer in one hand
     and his dinner in the other. Rook likes to smash his enemies, with boulders, with
     hammers and even with his body. Once he goes berserk he turns into an unstoppable
@@ -5187,11 +5183,11 @@ twos:
   name: Rook
   title: rook
 - builds:
-  - damage: '7.1'
-    disable: '0.9'
-    energy: '2.2'
-    num: 16
-    protection: '1.5'
+  - damage: '7.6'
+    disable: '1.0'
+    energy: '2.4'
+    num: 31
+    protection: '1.7'
     skills:
     - color: red
       description: Shadow Bolts deal 6 bonus damage.
@@ -5219,11 +5215,45 @@ twos:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    winrate: '93.8'
+    winrate: '80.6'
   - damage: '6.5'
+    disable: '1.0'
+    energy: '2.8'
+    num: 14
+    protection: '2.2'
+    skills:
+    - color: pink
+      description: Claw of the Wicked inflicts both Root for 1.2 and Curse.
+      icon: 13fbbdb9e7cbde8429053e33e1022fa8
+      name: Cold Embrace
+      type: control
+    - color: yellow
+      description: Sinister Strike gains 1 ability charge, but increases its cooldown
+        by 2.
+      icon: fe85f5b940cf1ff44825f090b2bb34ce
+      name: Demonic Hunt
+      type: mobility
+    - color: green
+      description: Hitting Cursed enemies with Defiled Blade heals for 2 bonus health.
+        Charged Defiled Blade hits also heal for 6 bonus health.
+      icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Leech Blade
+      type: survival
+    - color: red
+      description: Claw of the Wicked deals 3 bonus damage. Increases range by 12.
+      icon: 13fbbdb9e7cbde8429053e33e1022fa8
+      name: Tenacious Demon
+      type: offense
+    - color: pink
+      description: Increases Silence duration from 0.3 to 0.8.
+      icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Wicked Strike
+      type: control
+    winrate: '64.3'
+  - damage: '6.6'
     disable: '0.8'
     energy: '2.7'
-    num: 11
+    num: 12
     protection: '1.6'
     skills:
     - color: red
@@ -5252,39 +5282,6 @@ twos:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    winrate: '72.7'
-  - damage: '8.5'
-    disable: '1.3'
-    energy: '2.6'
-    num: 8
-    protection: '2.4'
-    skills:
-    - color: pink
-      description: Claw of the Wicked inflicts both Root for 1.2 and Curse.
-      icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Cold Embrace
-      type: control
-    - color: yellow
-      description: Sinister Strike gains 1 ability charge, but increases its cooldown
-        by 2.
-      icon: fe85f5b940cf1ff44825f090b2bb34ce
-      name: Demonic Hunt
-      type: mobility
-    - color: red
-      description: Charged Defiled Blade deals 5 bonus damage.
-      icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Grim Edge
-      type: offense
-    - color: red
-      description: Claw of the Wicked deals 3 bonus damage. Increases range by 12.
-      icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Tenacious Demon
-      type: offense
-    - color: pink
-      description: Increases Silence duration from 0.3 to 0.8.
-      icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Wicked Strike
-      type: control
     winrate: '75.0'
   description: "Ruh Kaan was awoken when a grave robber desecrated the sacred crypts\
     \ Ark\u2019dun. Pursuing the trespasser led him to the Arenas where he is still\
@@ -5296,8 +5293,8 @@ twos:
 - builds:
   - damage: '7.8'
     disable: '0.9'
-    energy: '3.5'
-    num: 121
+    energy: '3.4'
+    num: 205
     protection: '1.7'
     skills:
     - color: green
@@ -5329,11 +5326,11 @@ twos:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '47.9'
-  - damage: '8.2'
+    winrate: '50.2'
+  - damage: '8.1'
     disable: '0.6'
     energy: '4.0'
-    num: 63
+    num: 100
     protection: '1.8'
     skills:
     - color: green
@@ -5366,12 +5363,12 @@ twos:
       icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
       type: offense
-    winrate: '50.8'
-  - damage: '8.4'
-    disable: '0.5'
+    winrate: '50.0'
+  - damage: '8.2'
+    disable: '0.6'
     energy: '3.7'
-    num: 18
-    protection: '1.6'
+    num: 29
+    protection: '1.5'
     skills:
     - color: green
       description: Impale heals you for 2 health and 2 additional health per weapon
@@ -5402,7 +5399,7 @@ twos:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '55.6'
+    winrate: '55.2'
   description: Expert in the martial art of Ni'Shu and master of the spear. A highly
     mobile and dangerous duelist. His extraordinary combat prowess culminates in a
     range of deadly melee attacks. Facing Shifu is like walking into a tornado of
@@ -5411,11 +5408,46 @@ twos:
   name: Shifu
   title: shifu
 - builds:
-  - damage: '4.5'
+  - damage: '4.4'
+    disable: '0.8'
+    energy: '2.8'
+    num: 59
+    protection: '4.5'
+    skills:
+    - color: teal
+      description: Increases Weaken factor by 10 and duration by 1.
+      icon: 86a75fb294677254e8706e98f7507f8b
+      name: Debilitating Slash
+      type: support
+    - color: pink
+      description: Each Astral Beam hit inflicts a 35 Snare for 0.5.
+      icon: 49b693a4e0c03df4da87ed18a9b92b8d
+      name: Gravity
+      type: control
+    - color: teal
+      description: Countering an attack with Sunrise illuminates nearby allies, increasing
+        damage output by 20 and healing received by 40 for 3.
+      icon: c2d82c257d770664682e9df0dadb6596
+      name: Illumination
+      type: support
+    - color: red
+      description: Reduces weapon charge time by 15 and charged Crescent Strike deals
+        4 bonus damage.
+      icon: 86a75fb294677254e8706e98f7507f8b
+      name: Saros Slash
+      type: offense
+    - color: yellow
+      description: Celestial Split heals 8 bonus health. Healing an ally reduces its
+        cooldown by 4.
+      icon: 6827f63e526ef4d46b82332e042bf06a
+      name: Sunwell
+      type: mobility
+    winrate: '50.8'
+  - damage: '4.4'
     disable: '0.9'
     energy: '3.1'
-    num: 25
-    protection: '4.6'
+    num: 36
+    protection: '4.5'
     skills:
     - color: red
       description: Prismatic Strike hits charge your weapon by 50.
@@ -5446,63 +5478,30 @@ twos:
       icon: f13a6cad4bcaa974f8147e8a29a49dfe
       name: Sunbath
       type: support
-    winrate: '56.0'
-  - damage: '5.1'
-    disable: '0.8'
-    energy: '3.6'
-    num: 19
-    protection: '4.2'
+    winrate: '50.0'
+  - damage: '4.3'
+    disable: '0.9'
+    energy: '3.1'
+    num: 22
+    protection: '4.1'
     skills:
     - color: red
       description: Prismatic Strike hits charge your weapon by 50.
       icon: 550d7ec44eda09941a7b713422b042d0
       name: Celestial Cycle
       type: offense
-    - color: grey
-      description: Celestial Split deals 6 bonus damage and max range increases by
-        20%.
-      icon: 6827f63e526ef4d46b82332e042bf06a
-      name: Cosmic Reach
-      type: mixed
     - color: teal
       description: Increases Weaken factor by 10 and duration by 1.
       icon: 86a75fb294677254e8706e98f7507f8b
       name: Debilitating Slash
       type: support
     - color: pink
-      description: Each Astral Beam hit inflicts a 35 Snare for 0.5.
-      icon: 49b693a4e0c03df4da87ed18a9b92b8d
-      name: Gravity
+      description: Lunar Strike can be recast within 1.8 to spawn Lesser Lunar Strike
+        with reduced radius and duration. It does not affect enemies already affected
+        by Lunar Strike.
+      icon: f138c9c126ce8934bbe8d6ba98327181
+      name: Lunatic
       type: control
-    - color: teal
-      description: Charged Crescent Strike hits empower your next Sunlight, causing
-        1 additional beam to heal the ally nearest the area for 12 health.
-      icon: f13a6cad4bcaa974f8147e8a29a49dfe
-      name: Sunbath
-      type: support
-    winrate: '52.6'
-  - damage: '4.4'
-    disable: '0.8'
-    energy: '2.9'
-    num: 18
-    protection: '4.8'
-    skills:
-    - color: teal
-      description: Increases Weaken factor by 10 and duration by 1.
-      icon: 86a75fb294677254e8706e98f7507f8b
-      name: Debilitating Slash
-      type: support
-    - color: pink
-      description: Each Astral Beam hit inflicts a 35 Snare for 0.5.
-      icon: 49b693a4e0c03df4da87ed18a9b92b8d
-      name: Gravity
-      type: control
-    - color: teal
-      description: Countering an attack with Sunrise illuminates nearby allies, increasing
-        damage output by 20 and healing received by 40 for 3.
-      icon: c2d82c257d770664682e9df0dadb6596
-      name: Illumination
-      type: support
     - color: red
       description: Reduces weapon charge time by 15 and charged Crescent Strike deals
         4 bonus damage.
@@ -5515,7 +5514,7 @@ twos:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '27.8'
+    winrate: '45.5'
   description: Sirius, a calm prodigy who uses the energies of stars and planets as
     destructive spells and healing powers. The prophecy was true and foretold the
     birth of the Zenith.
@@ -5523,10 +5522,10 @@ twos:
   name: Sirius
   title: sirius
 - builds:
-  - damage: '8.4'
+  - damage: '8.1'
     disable: '0.8'
-    energy: '3.5'
-    num: 47
+    energy: '3.4'
+    num: 87
     protection: '0.1'
     skills:
     - color: red
@@ -5557,11 +5556,11 @@ twos:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '53.2'
-  - damage: '7.5'
-    disable: '0.8'
-    energy: '3.7'
-    num: 12
+    winrate: '42.5'
+  - damage: '8.1'
+    disable: '0.7'
+    energy: '3.3'
+    num: 40
     protection: '0.8'
     skills:
     - color: green
@@ -5570,17 +5569,18 @@ twos:
       icon: e6c2b076242187d44941ae0cefa96f62
       name: Breath of Air
       type: survival
-    - color: pink
-      description: During Haste, Razor Boomerang inflicts Fading Snare for 0.4.
-      icon: e6c2b076242187d44941ae0cefa96f62
-      name: Cold Wind
-      type: control
     - color: red
       description: X-Strike boomerangs each deal 4 bonus damage, and an additional
         4 bonus damage if both boomerangs hit at the intersection.
       icon: a1e1ca01cc40ea24c9e8e0fa7de49581
       name: Cross Cut
       type: offense
+    - color: yellow
+      description: During Haste, X-Strike can be used while moving at 55 movement
+        speed.
+      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
+      name: Surprise Attack
+      type: mobility
     - color: yellow
       description: During Haste, Wind Strike hits reapply Haste.
       icon: 9a292cf4ed808d54c922ab48f5881c5a
@@ -5592,11 +5592,11 @@ twos:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '33.3'
-  - damage: '8.9'
-    disable: '0.9'
+    winrate: '65.0'
+  - damage: '9.3'
+    disable: '1.0'
     energy: '4.3'
-    num: 7
+    num: 18
     protection: '0.2'
     skills:
     - color: pink
@@ -5627,7 +5627,7 @@ twos:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '42.9'
+    winrate: '55.6'
   description: An exceptionally swift hunter wielding a razor sharp boomerang. By
     shaping the wind around her Taya is able to increase her speed and control her
     boomerang with deadly precision.
@@ -5635,46 +5635,11 @@ twos:
   name: Taya
   title: taya
 - builds:
-  - damage: '8.6'
-    disable: '1.6'
-    energy: '3.5'
-    num: 8
-    protection: '2.2'
-    skills:
-    - color: grey
-      description: Each stinging volley inflicts Thorns on nearby enemies. Reduces
-        cooldown of Barbed Husk by 2.
-      icon: e6cee4151f85f62479addb2c5f459016
-      name: Critical Backlash
-      type: mixed
-    - color: red
-      description: Moving under an enemy during Burrow sends impaling roots upwards,
-        dealing 10 damage to the enemy after a 0.4 delay.
-      icon: 297830658f259844cb3ce7d0711f15d8
-      name: Impaling Roots
-      type: offense
-    - color: blue
-      description: Increases Burrow duration by 0.5.
-      icon: 297830658f259844cb3ce7d0711f15d8
-      name: Lurker
-      type: utility
-    - color: teal
-      description: Thorns reduces target's damage and healing output by 20 for 1.5.
-      icon: 3bf2758e82cebed44856097532c5dd9b
-      name: Neurotoxin
-      type: support
-    - color: green
-      description: Root Claw and Root Grip hits reduce incoming damage by 6 for 2.2.
-        Stacks up to 3 times.
-      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
-      name: Regrowth
-      type: survival
-    winrate: '75.0'
-  - damage: '7.5'
-    disable: '1.4'
-    energy: '3.6'
-    num: 7
-    protection: '2.4'
+  - damage: '6.9'
+    disable: '1.3'
+    energy: '3.3'
+    num: 25
+    protection: '2.0'
     skills:
     - color: grey
       description: Each stinging volley inflicts Thorns on nearby enemies. Reduces
@@ -5705,11 +5670,46 @@ twos:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    winrate: '42.9'
-  - damage: '7.3'
+    winrate: '52.0'
+  - damage: '7.6'
     disable: '1.4'
-    energy: '3.0'
-    num: 7
+    energy: '3.2'
+    num: 17
+    protection: '2.0'
+    skills:
+    - color: grey
+      description: Each stinging volley inflicts Thorns on nearby enemies. Reduces
+        cooldown of Barbed Husk by 2.
+      icon: e6cee4151f85f62479addb2c5f459016
+      name: Critical Backlash
+      type: mixed
+    - color: red
+      description: Moving under an enemy during Burrow sends impaling roots upwards,
+        dealing 10 damage to the enemy after a 0.4 delay.
+      icon: 297830658f259844cb3ce7d0711f15d8
+      name: Impaling Roots
+      type: offense
+    - color: blue
+      description: Increases Burrow duration by 0.5.
+      icon: 297830658f259844cb3ce7d0711f15d8
+      name: Lurker
+      type: utility
+    - color: teal
+      description: Thorns reduces target's damage and healing output by 20 for 1.5.
+      icon: 3bf2758e82cebed44856097532c5dd9b
+      name: Neurotoxin
+      type: support
+    - color: green
+      description: Root Claw and Root Grip hits reduce incoming damage by 6 for 2.2.
+        Stacks up to 3 times.
+      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
+      name: Regrowth
+      type: survival
+    winrate: '41.2'
+  - damage: '7.8'
+    disable: '1.4'
+    energy: '3.2'
+    num: 10
     protection: '1.7'
     skills:
     - color: red
@@ -5741,7 +5741,7 @@ twos:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    winrate: '28.6'
+    winrate: '40.0'
   description: "Ancient folklore speaks of Thorn, the destructive apparition. Using\
     \ its network of thorn-covered roots, it would whip, rupture and drain the life\
     \ out of any living thing indiscriminately. Some say Thorn is just a story to\
@@ -5752,11 +5752,11 @@ twos:
   name: Thorn
   title: thorn
 - builds:
-  - damage: '4.9'
-    disable: '0.8'
-    energy: '3.4'
-    num: 61
-    protection: '4.3'
+  - damage: '4.8'
+    disable: '0.7'
+    energy: '3.3'
+    num: 133
+    protection: '4.4'
     skills:
     - color: grey
       description: Charged Hammer of Justice deals 2 bonus damage. Deals full damage
@@ -5787,12 +5787,47 @@ twos:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '59.0'
-  - damage: '4.2'
-    disable: '0.6'
+    winrate: '51.1'
+  - damage: '5.0'
+    disable: '0.7'
     energy: '3.4'
-    num: 52
-    protection: '3.5'
+    num: 103
+    protection: '4.7'
+    skills:
+    - color: grey
+      description: Charged Hammer of Justice deals 2 bonus damage. Deals full damage
+        and inflicts Stun on secondary targets.
+      icon: 398f1e921a73f484e9fc54e1308407f7
+      name: Cleave
+      type: mixed
+    - color: grey
+      description: Holy Light healing increases by 3 when healing self or allies affected
+        by Favor.
+      icon: 85a79d3bf018b184887fb1a71ef51ac1
+      name: Devotion
+      type: mixed
+    - color: grey
+      description: Favor reduces damage taken by 15.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Divine Protection
+      type: mixed
+    - color: grey
+      description: Holy Light recharges 100 faster when Smite is active.
+      icon: 85a79d3bf018b184887fb1a71ef51ac1
+      name: Faith
+      type: mixed
+    - color: grey
+      description: Intervene deals 2 bonus damage and reduces incoming healing by
+        33 for 3.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Penitence
+      type: mixed
+    winrate: '62.1'
+  - damage: '4.3'
+    disable: '0.7'
+    energy: '3.3'
+    num: 74
+    protection: '3.6'
     skills:
     - color: grey
       description: Holy Light healing increases by 3 when healing self or allies affected
@@ -5823,42 +5858,7 @@ twos:
       icon: c7f49424687c9a744a6347a5e2eede0b
       name: Light's Embrace
       type: mixed
-    winrate: '28.8'
-  - damage: '5.2'
-    disable: '0.7'
-    energy: '3.3'
-    num: 44
-    protection: '5.1'
-    skills:
-    - color: grey
-      description: Charged Hammer of Justice deals 2 bonus damage. Deals full damage
-        and inflicts Stun on secondary targets.
-      icon: 398f1e921a73f484e9fc54e1308407f7
-      name: Cleave
-      type: mixed
-    - color: grey
-      description: Holy Light healing increases by 3 when healing self or allies affected
-        by Favor.
-      icon: 85a79d3bf018b184887fb1a71ef51ac1
-      name: Devotion
-      type: mixed
-    - color: grey
-      description: Favor reduces damage taken by 15.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Divine Protection
-      type: mixed
-    - color: grey
-      description: Holy Light recharges 100 faster when Smite is active.
-      icon: 85a79d3bf018b184887fb1a71ef51ac1
-      name: Faith
-      type: mixed
-    - color: grey
-      description: Intervene deals 2 bonus damage and reduces incoming healing by
-        33 for 3.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Penitence
-      type: mixed
-    winrate: '68.2'
+    winrate: '31.1'
   description: Sworn protector of the weak, devout follower of the Way of Symphony,
     and unwavering light against the dark. Ulric, trained in the holy Monastery of
     Resonance, has spent many years traveling the lands to spread the word of the
@@ -5868,23 +5868,100 @@ twos:
   name: Ulric
   title: ulric
 - builds:
-  - damage: '7.0'
-    disable: '0.7'
-    energy: '5.0'
-    num: 10
-    protection: '2.0'
+  - damage: '6.7'
+    disable: '0.6'
+    energy: '3.5'
+    num: 21
+    protection: '2.4'
     skills:
+    - color: grey
+      description: Inhibitor's Guard increases movement speed by 25 and damage output
+        by 15.
+      icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Celerity
+      type: mixed
+    - color: yellow
+      description: Consuming Corruption increases your movement speed by 10 for 5.
+        Can stack up to 3 times.
+      icon: fe5369baf5a80dc47b0656ae7be82e09
+      name: Fervor
+      type: mobility
     - color: yellow
       description: Shatter can be cast while moving at 75 speed.
       icon: d6c97da35fc19134881cb5a4c44e3912
       name: Inhibitor
       type: mobility
-    - color: blue
-      description: Increases energy gain from abilities by 10 and maximum energy by
-        25.
-      icon: 61e058b8f4b79f4419ec1496f223ee36
-      name: Inspiration
-      type: utility
+    - color: green
+      description: Consuming Corruption with Shatter increases Fading Snare duration
+        from 1 to 1.5 and reapplies Corruption.
+      icon: fe5369baf5a80dc47b0656ae7be82e09
+      name: Unlimited Power
+      type: survival
+    - color: pink
+      description: Applying Inhibitor's Guard consumes Corruption on nearby enemies,
+        inflicting Fading Snare for 1.5. Heal the shielded ally for 12 health for
+        each Corruption consumed.
+      icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Zeal
+      type: control
+    winrate: '47.6'
+  - damage: '7.3'
+    disable: '0.6'
+    energy: '3.6'
+    num: 18
+    protection: '2.2'
+    skills:
+    - color: grey
+      description: Inhibitor's Guard increases movement speed by 25 and damage output
+        by 15.
+      icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Celerity
+      type: mixed
+    - color: yellow
+      description: Consuming Corruption increases your movement speed by 10 for 5.
+        Can stack up to 3 times.
+      icon: fe5369baf5a80dc47b0656ae7be82e09
+      name: Fervor
+      type: mobility
+    - color: yellow
+      description: Shatter can be cast while moving at 75 speed.
+      icon: d6c97da35fc19134881cb5a4c44e3912
+      name: Inhibitor
+      type: mobility
+    - color: green
+      description: Countering an attack with Wuju allows you to recast it for 2.
+      icon: 2771f14010b802143b0b4d5fc8e4bb9c
+      name: Return
+      type: survival
+    - color: red
+      description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
+      icon: 2771f14010b802143b0b4d5fc8e4bb9c
+      name: Ruin
+      type: offense
+    winrate: '72.2'
+  - damage: '6.9'
+    disable: '0.5'
+    energy: '3.6'
+    num: 13
+    protection: '2.1'
+    skills:
+    - color: grey
+      description: Inhibitor's Guard increases movement speed by 25 and damage output
+        by 15.
+      icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Celerity
+      type: mixed
+    - color: red
+      description: Hand of Judgement deals 4 bonus damage and hitting an enemy resets
+        its cooldown.
+      icon: c2525970f8ab5574191da4938fa5619b
+      name: Devastation
+      type: offense
+    - color: yellow
+      description: Shatter can be cast while moving at 75 speed.
+      icon: d6c97da35fc19134881cb5a4c44e3912
+      name: Inhibitor
+      type: mobility
     - color: red
       description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
       icon: 2771f14010b802143b0b4d5fc8e4bb9c
@@ -5896,85 +5973,7 @@ twos:
       icon: c2525970f8ab5574191da4938fa5619b
       name: Silence
       type: control
-    - color: teal
-      description: Inhibitor's Guard absorbs 14 more damage.
-      icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Wonder
-      type: support
-    winrate: '50.0'
-  - damage: '6.5'
-    disable: '0.5'
-    energy: '3.1'
-    num: 9
-    protection: '1.8'
-    skills:
-    - color: grey
-      description: Inhibitor's Guard increases movement speed by 25 and damage output
-        by 15.
-      icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Celerity
-      type: mixed
-    - color: red
-      description: Hand of Judgement deals 4 bonus damage and hitting an enemy resets
-        its cooldown.
-      icon: c2525970f8ab5574191da4938fa5619b
-      name: Devastation
-      type: offense
-    - color: red
-      description: Ability charges of Shatter increase to 3 from 2, and Shatter deals
-        2 bonus damage.
-      icon: d6c97da35fc19134881cb5a4c44e3912
-      name: Fracture
-      type: offense
-    - color: grey
-      description: Reduces cooldown of Kinetic Energy by 3. Inflicts Corruption on
-        enemies hit.
-      icon: c38b2b35320a6894f98fd0814e08ea87
-      name: Kinetic Corruption
-      type: mixed
-    - color: green
-      description: Consuming Corruption with Shatter increases Fading Snare duration
-        from 1 to 1.5 and reapplies Corruption.
-      icon: fe5369baf5a80dc47b0656ae7be82e09
-      name: Unlimited Power
-      type: survival
-    winrate: '100.0'
-  - damage: '7.8'
-    disable: '0.5'
-    energy: '3.5'
-    num: 7
-    protection: '2.0'
-    skills:
-    - color: grey
-      description: Inhibitor's Guard increases movement speed by 25 and damage output
-        by 15.
-      icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Celerity
-      type: mixed
-    - color: red
-      description: Hand of Judgement deals 4 bonus damage and hitting an enemy resets
-        its cooldown.
-      icon: c2525970f8ab5574191da4938fa5619b
-      name: Devastation
-      type: offense
-    - color: yellow
-      description: Shatter can be cast while moving at 75 speed.
-      icon: d6c97da35fc19134881cb5a4c44e3912
-      name: Inhibitor
-      type: mobility
-    - color: red
-      description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
-      icon: 2771f14010b802143b0b4d5fc8e4bb9c
-      name: Ruin
-      type: offense
-    - color: grey
-      description: While both Corruption and Judgement are active on an enemy, their
-        factors are increased by 5 and both effects are reapplied by Hand of Corruption
-        / Judgement when hitting that enemy.
-      icon: fe5369baf5a80dc47b0656ae7be82e09
-      name: Synergy
-      type: mixed
-    winrate: '57.1'
+    winrate: '38.5'
   description: A being formed by the energies of others. Varesh uses his power  to
     weaken and disrupt his enemies. By combining his powers he is able to unleash
     devastating attacks.
@@ -5982,10 +5981,10 @@ twos:
   name: Varesh
   title: varesh
 - builds:
-  - damage: '4.0'
+  - damage: '3.9'
     disable: '0.5'
-    energy: '2.8'
-    num: 26
+    energy: '2.9'
+    num: 46
     protection: '3.6'
     skills:
     - color: red
@@ -6016,12 +6015,12 @@ twos:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '61.5'
+    winrate: '58.7'
   - damage: '5.5'
-    disable: '0.6'
+    disable: '0.7'
     energy: '3.6'
-    num: 14
-    protection: '3.1'
+    num: 21
+    protection: '3.2'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 1 and damage taken
@@ -6052,12 +6051,12 @@ twos:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '100.0'
-  - damage: '4.4'
+    winrate: '90.5'
+  - damage: '4.3'
     disable: '0.6'
-    energy: '2.8'
-    num: 11
-    protection: '3.8'
+    energy: '2.9'
+    num: 16
+    protection: '3.7'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 1 and damage taken
@@ -6086,7 +6085,7 @@ twos:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '54.5'
+    winrate: '50.0'
   description: When the famous theatre troupe "The Phantomime Masquerade" disbanded
     after a series of tragic events, their magnificent magician Zander vanished without
     a trace. Known for his unparalleled perfection in card trickery, teleportation,
