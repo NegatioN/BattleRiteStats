@@ -1,11 +1,11 @@
 ---
 builds:
   threes:
-  - damage: '8.0'
+  - damage: '8.2'
     disable: '1.1'
     energy: '4.6'
-    num: 33
-    protection: '0.8'
+    num: 36
+    protection: '0.9'
     skills:
     - color: red
       description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
@@ -35,11 +35,11 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '63.6'
-  - damage: '7.1'
+    winrate: '63.9'
+  - damage: '7.2'
     disable: '0.8'
-    energy: '4.1'
-    num: 21
+    energy: '4.2'
+    num: 20
     protection: '0.7'
     skills:
     - color: red
@@ -70,12 +70,12 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '38.1'
-  - damage: '8.9'
-    disable: '1.1'
-    energy: '4.9'
-    num: 16
-    protection: '1.0'
+    winrate: '45.0'
+  - damage: '8.7'
+    disable: '1.0'
+    energy: '4.8'
+    num: 17
+    protection: '0.9'
     skills:
     - color: red
       description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
@@ -104,12 +104,12 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '62.5'
-  - damage: '8.0'
+    winrate: '64.7'
+  - damage: '8.1'
     disable: '1.1'
-    energy: '5.0'
-    num: 13
-    protection: '0.9'
+    energy: '5.2'
+    num: 15
+    protection: '1.0'
     skills:
     - color: red
       description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
@@ -139,12 +139,12 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '46.2'
-  - damage: '8.1'
+    winrate: '40.0'
+  - damage: '7.8'
     disable: '1.2'
-    energy: '5.0'
-    num: 11
-    protection: '0.8'
+    energy: '5.1'
+    num: 14
+    protection: '0.7'
     skills:
     - color: red
       description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
@@ -174,7 +174,7 @@ builds:
       icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Viper
       type: mobility
-    winrate: '54.5'
+    winrate: '50.0'
   twos:
   - damage: '8.7'
     disable: '0.6'
@@ -209,23 +209,23 @@ builds:
       name: Precision
       type: offense
     winrate: '63.9'
-  - damage: '7.5'
-    disable: '0.6'
-    energy: '4.5'
-    num: 16
-    protection: '1.0'
+  - damage: '8.7'
+    disable: '0.8'
+    energy: '4.7'
+    num: 20
+    protection: '1.2'
     skills:
+    - color: red
+      description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
+        over the duration.
+      icon: ce1e01246a2a09145a192bb0deeeb400
+      name: Arrow Storm
+      type: offense
     - color: red
       description: Consuming ^2Seekers Mark^- deals 4 bonus damage.
       icon: 60a73a3140321ec448f7f97f00a07897
       name: Death Mark
       type: offense
-    - color: yellow
-      description: Increases duration of Prowl by 0.5 and reduces its cooldown by
-        3.
-      icon: bcb5bbf5676057e4bb4278f5c20bb865
-      name: Panther
-      type: mobility
     - color: pink
       description: Steady Shot inflicts Stun for 0.5.
       icon: 594fdf8c70a83404da422aa6463e0e03
@@ -236,17 +236,18 @@ builds:
       icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Precision
       type: offense
-    - color: yellow
-      description: Black Arrow grants 60 Fading Haste for 1.5.
-      icon: 4b81fcaeb29b2cd4e81e67d224552899
-      name: Viper
-      type: mobility
-    winrate: '18.8'
-  - damage: '8.2'
-    disable: '0.9'
-    energy: '4.9'
-    num: 14
-    protection: '1.1'
+    - color: pink
+      description: Bear Trap lays down an additional trap in front of the first one
+        that lasts for 3.
+      icon: 6e30eed38d549fa4794a4543bf2b8de2
+      name: Trapper
+      type: control
+    winrate: '55.0'
+  - damage: '8.0'
+    disable: '0.8'
+    energy: '4.7'
+    num: 20
+    protection: '1.0'
     skills:
     - color: red
       description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
@@ -276,12 +277,12 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '57.1'
-  - damage: '7.1'
+    winrate: '45.0'
+  - damage: '7.3'
     disable: '0.8'
-    energy: '4.4'
-    num: 14
-    protection: '0.9'
+    energy: '4.2'
+    num: 19
+    protection: '0.8'
     skills:
     - color: red
       description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
@@ -311,18 +312,17 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '57.1'
-  - damage: '7.2'
-    disable: '1.0'
-    energy: '4.5'
-    num: 9
-    protection: '0.6'
+    winrate: '57.9'
+  - damage: '7.3'
+    disable: '0.6'
+    energy: '4.4'
+    num: 18
+    protection: '0.9'
     skills:
     - color: red
-      description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
-        over the duration.
-      icon: ce1e01246a2a09145a192bb0deeeb400
-      name: Arrow Storm
+      description: Consuming ^2Seekers Mark^- deals 4 bonus damage.
+      icon: 60a73a3140321ec448f7f97f00a07897
+      name: Death Mark
       type: offense
     - color: yellow
       description: Increases duration of Prowl by 0.5 and reduces its cooldown by
@@ -335,18 +335,17 @@ builds:
       icon: 594fdf8c70a83404da422aa6463e0e03
       name: Perfect Shot
       type: control
-    - color: pink
-      description: Bear Trap lays down an additional trap in front of the first one
-        that lasts for 3.
-      icon: 6e30eed38d549fa4794a4543bf2b8de2
-      name: Trapper
-      type: control
+    - color: red
+      description: Black Arrow deals 4 bonus damage and grants 4 bonus energy.
+      icon: 4b81fcaeb29b2cd4e81e67d224552899
+      name: Precision
+      type: offense
     - color: yellow
       description: Black Arrow grants 60 Fading Haste for 1.5.
       icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Viper
       type: mobility
-    winrate: '11.1'
+    winrate: '22.2'
 description: Jumong is a trophy collector who has wandered the wildlands in the pursuit
   of a worthy challenge. No longer being content with hunting the great beasts of
   the world has led him to enter the arena, looking for a new type of prey. He traps
@@ -354,8 +353,8 @@ description: Jumong is a trophy collector who has wandered the wildlands in the 
 icon: 42a665b9c285a1243a201c8d533980e5
 layout: character
 name: jumong
-num: 472
+num: 587
 title: Jumong
 url: characters/jumong.html
-winrate: 44
+winrate: 46
 ...

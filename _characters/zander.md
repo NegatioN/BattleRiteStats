@@ -4,8 +4,8 @@ builds:
   - damage: '3.7'
     disable: '0.6'
     energy: '3.0'
-    num: 78
-    protection: '4.6'
+    num: 86
+    protection: '4.5'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 1 and damage taken
@@ -35,12 +35,12 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '61.5'
+    winrate: '60.5'
   - damage: '3.3'
     disable: '0.5'
-    energy: '3.2'
-    num: 36
-    protection: '5.1'
+    energy: '3.1'
+    num: 38
+    protection: '5.0'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 1 and damage taken
@@ -69,7 +69,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '52.8'
+    winrate: '55.3'
   - damage: '3.1'
     disable: '0.5'
     energy: '2.9'
@@ -176,10 +176,10 @@ builds:
       type: mixed
     winrate: '66.7'
   twos:
-  - damage: '3.9'
+  - damage: '4.0'
     disable: '0.5'
     energy: '2.9'
-    num: 46
+    num: 52
     protection: '3.6'
     skills:
     - color: red
@@ -210,7 +210,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '58.7'
+    winrate: '59.6'
   - damage: '5.5'
     disable: '0.7'
     energy: '3.6'
@@ -249,9 +249,9 @@ builds:
     winrate: '90.5'
   - damage: '4.3'
     disable: '0.6'
-    energy: '2.9'
-    num: 16
-    protection: '3.7'
+    energy: '3.0'
+    num: 19
+    protection: '3.9'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 1 and damage taken
@@ -280,7 +280,42 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '50.0'
+    winrate: '57.9'
+  - damage: '4.9'
+    disable: '0.6'
+    energy: '3.1'
+    num: 14
+    protection: '4.6'
+    skills:
+    - color: red
+      description: Traveling through a portal resets the cooldown of Grand Conjuration.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Ace up the Sleeve
+      type: offense
+    - color: red
+      description: Increases the duration of Arcane Catalyst by 1 and damage taken
+        by 5.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Arcane Conductor
+      type: offense
+    - color: teal
+      description: Hearts restores 6 health over the duration.
+      icon: 144efc709ac628542aee319b14932b2c
+      name: Heart Restoration
+      type: support
+    - color: teal
+      description: Grants self or allies traveling through your Portal a shield that
+        absorbs up to 14 damage for 3.
+      icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Showdown
+      type: support
+    - color: grey
+      description: Your first Trick Shot after using Mirror Image includes an additional
+        card for both you and your illusion.
+      icon: 2632a24f2167af14f9869abb401dd67f
+      name: Stacked Deck
+      type: mixed
+    winrate: '64.3'
   - damage: '4.0'
     disable: '0.6'
     energy: '3.0'
@@ -317,41 +352,6 @@ builds:
       name: Stacked Deck
       type: mixed
     winrate: '50.0'
-  - damage: '4.9'
-    disable: '0.6'
-    energy: '3.1'
-    num: 12
-    protection: '4.7'
-    skills:
-    - color: red
-      description: Traveling through a portal resets the cooldown of Grand Conjuration.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Ace up the Sleeve
-      type: offense
-    - color: red
-      description: Increases the duration of Arcane Catalyst by 1 and damage taken
-        by 5.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Arcane Conductor
-      type: offense
-    - color: teal
-      description: Hearts restores 6 health over the duration.
-      icon: 144efc709ac628542aee319b14932b2c
-      name: Heart Restoration
-      type: support
-    - color: teal
-      description: Grants self or allies traveling through your Portal a shield that
-        absorbs up to 14 damage for 3.
-      icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Showdown
-      type: support
-    - color: grey
-      description: Your first Trick Shot after using Mirror Image includes an additional
-        card for both you and your illusion.
-      icon: 2632a24f2167af14f9869abb401dd67f
-      name: Stacked Deck
-      type: mixed
-    winrate: '66.7'
 description: When the famous theatre troupe "The Phantomime Masquerade" disbanded
   after a series of tragic events, their magnificent magician Zander vanished without
   a trace. Known for his unparalleled perfection in card trickery, teleportation,
@@ -361,7 +361,7 @@ description: When the famous theatre troupe "The Phantomime Masquerade" disbande
 icon: 9c4186a6214f12448a7091710b0cde6c
 layout: character
 name: zander
-num: 384
+num: 434
 title: Zander
 url: characters/zander.html
 winrate: 53
