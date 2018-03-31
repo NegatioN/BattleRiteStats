@@ -4,7 +4,7 @@ builds:
   - damage: '7.7'
     disable: '0.9'
     energy: '3.4'
-    num: 152
+    num: 169
     protection: '1.6'
     skills:
     - color: green
@@ -36,11 +36,11 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '53.3'
-  - damage: '8.0'
+    winrate: '52.7'
+  - damage: '7.9'
     disable: '0.5'
-    energy: '3.9'
-    num: 60
+    energy: '3.8'
+    num: 67
     protection: '1.6'
     skills:
     - color: green
@@ -73,11 +73,11 @@ builds:
       icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
       type: offense
-    winrate: '51.7'
+    winrate: '52.2'
   - damage: '7.6'
     disable: '0.6'
     energy: '3.6'
-    num: 30
+    num: 31
     protection: '1.5'
     skills:
     - color: green
@@ -109,11 +109,11 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '56.7'
+    winrate: '54.8'
   - damage: '7.4'
     disable: '0.6'
     energy: '3.5'
-    num: 14
+    num: 16
     protection: '1.6'
     skills:
     - color: green
@@ -146,11 +146,11 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '28.6'
+    winrate: '37.5'
   - damage: '6.8'
     disable: '0.7'
     energy: '3.1'
-    num: 13
+    num: 14
     protection: '1.2'
     skills:
     - color: green
@@ -181,12 +181,12 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '46.2'
+    winrate: '42.9'
   twos:
   - damage: '7.7'
     disable: '0.9'
     energy: '3.4'
-    num: 278
+    num: 308
     protection: '1.7'
     skills:
     - color: green
@@ -218,11 +218,11 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '50.7'
+    winrate: '51.3'
   - damage: '8.1'
     disable: '0.6'
     energy: '4.0'
-    num: 137
+    num: 151
     protection: '1.8'
     skills:
     - color: green
@@ -255,11 +255,11 @@ builds:
       icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
       type: offense
-    winrate: '49.6'
-  - damage: '8.1'
+    winrate: '49.7'
+  - damage: '8.2'
     disable: '0.6'
     energy: '3.7'
-    num: 46
+    num: 54
     protection: '1.6'
     skills:
     - color: green
@@ -291,12 +291,12 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '58.7'
+    winrate: '61.1'
   - damage: '8.5'
     disable: '0.6'
     energy: '4.1'
-    num: 37
-    protection: '1.6'
+    num: 39
+    protection: '1.7'
     skills:
     - color: green
       description: Impale heals you for 2 health and 2 additional health per weapon
@@ -327,11 +327,11 @@ builds:
       icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
       type: offense
-    winrate: '37.8'
+    winrate: '35.9'
   - damage: '7.9'
     disable: '0.6'
     energy: '3.3'
-    num: 36
+    num: 39
     protection: '1.5'
     skills:
     - color: green
@@ -364,7 +364,7 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '58.3'
+    winrate: '56.4'
 description: Expert in the martial art of Ni'Shu and master of the spear. A highly
   mobile and dangerous duelist. His extraordinary combat prowess culminates in a range
   of deadly melee attacks. Facing Shifu is like walking into a tornado of spearheads.
@@ -372,11 +372,11 @@ icon: 6f69edc7410650c43bee267eef585b06
 layout: character
 name: shifu
 num:
-  threes: 411
-  twos: 907
+  threes: 457
+  twos: 1031
 title: Shifu
 url: characters/shifu.html
 winrate:
-  threes: '48.42'
-  twos: '47.96'
+  threes: '48.58'
+  twos: '47.33'
 ...

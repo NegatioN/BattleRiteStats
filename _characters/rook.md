@@ -4,7 +4,7 @@ builds:
   - damage: '6.5'
     disable: '1.4'
     energy: '3.0'
-    num: 65
+    num: 69
     protection: '1.9'
     skills:
     - color: red
@@ -33,12 +33,12 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
       type: support
-    winrate: '60.0'
+    winrate: '58.0'
   - damage: '6.9'
     disable: '1.6'
     energy: '3.5'
-    num: 50
-    protection: '2.1'
+    num: 52
+    protection: '2.0'
     skills:
     - color: yellow
       description: Rush cooldown reduces by 1. Using Rush without hitting an enemy
@@ -66,11 +66,11 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    winrate: '54.0'
+    winrate: '55.8'
   - damage: '6.5'
     disable: '1.3'
     energy: '3.1'
-    num: 39
+    num: 41
     protection: '1.6'
     skills:
     - color: red
@@ -98,12 +98,12 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    winrate: '51.3'
+    winrate: '51.2'
   - damage: '5.8'
     disable: '1.4'
     energy: '3.0'
-    num: 36
-    protection: '1.5'
+    num: 38
+    protection: '1.6'
     skills:
     - color: red
       description: Rush hits cause you to gain Berserk for 1.5.
@@ -130,11 +130,11 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    winrate: '55.6'
-  - damage: '6.2'
+    winrate: '52.6'
+  - damage: '6.1'
     disable: '1.5'
-    energy: '3.6'
-    num: 33
+    energy: '3.5'
+    num: 37
     protection: '1.6'
     skills:
     - color: yellow
@@ -163,12 +163,12 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    winrate: '66.7'
+    winrate: '67.6'
   twos:
-  - damage: '6.5'
+  - damage: '6.4'
     disable: '1.4'
     energy: '2.9'
-    num: 104
+    num: 118
     protection: '2.0'
     skills:
     - color: red
@@ -197,12 +197,12 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
       type: support
-    winrate: '60.6'
+    winrate: '61.9'
   - damage: '6.1'
     disable: '1.3'
     energy: '3.1'
-    num: 98
-    protection: '1.9'
+    num: 109
+    protection: '1.8'
     skills:
     - color: yellow
       description: Rush cooldown reduces by 1. Using Rush without hitting an enemy
@@ -230,11 +230,11 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    winrate: '56.1'
+    winrate: '56.9'
   - damage: '6.4'
     disable: '1.3'
     energy: '2.9'
-    num: 90
+    num: 91
     protection: '1.4'
     skills:
     - color: red
@@ -262,12 +262,12 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    winrate: '51.1'
+    winrate: '51.6'
   - damage: '6.1'
     disable: '1.3'
     energy: '2.8'
-    num: 56
-    protection: '1.2'
+    num: 59
+    protection: '1.3'
     skills:
     - color: red
       description: Boulder Toss deals 2 bonus damage and inflicts Armor Break.
@@ -295,9 +295,9 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    winrate: '57.1'
+    winrate: '57.6'
   - damage: '6.6'
-    disable: '1.5'
+    disable: '1.6'
     energy: '3.3'
     num: 52
     protection: '1.9'
@@ -329,7 +329,7 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
       type: support
-    winrate: '59.6'
+    winrate: '57.7'
 description: A mighty chieftain rushing into battle with a giant hammer in one hand
   and his dinner in the other. Rook likes to smash his enemies, with boulders, with
   hammers and even with his body. Once he goes berserk he turns into an unstoppable
@@ -338,11 +338,11 @@ icon: e5d5913527b842b41aed666d27d14231
 layout: character
 name: rook
 num:
-  threes: 480
-  twos: 781
+  threes: 530
+  twos: 864
 title: Rook
 url: characters/rook.html
 winrate:
-  threes: '53.96'
-  twos: '52.50'
+  threes: '53.77'
+  twos: '53.12'
 ...

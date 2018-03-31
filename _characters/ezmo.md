@@ -1,11 +1,11 @@
 ---
 builds:
   threes:
-  - damage: '7.8'
+  - damage: '7.7'
     disable: '0.8'
-    energy: '4.0'
-    num: 67
-    protection: '0.3'
+    energy: '3.9'
+    num: 77
+    protection: '0.2'
     skills:
     - color: pink
       description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
@@ -35,11 +35,11 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    winrate: '49.3'
-  - damage: '8.6'
+    winrate: '51.9'
+  - damage: '8.7'
     disable: '0.6'
     energy: '4.3'
-    num: 63
+    num: 68
     protection: '0.4'
     skills:
     - color: red
@@ -69,7 +69,7 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    winrate: '38.1'
+    winrate: '39.7'
   - damage: '7.5'
     disable: '0.7'
     energy: '4.6'
@@ -179,10 +179,10 @@ builds:
       type: support
     winrate: '62.5'
   twos:
-  - damage: '8.5'
+  - damage: '8.4'
     disable: '0.8'
-    energy: '3.8'
-    num: 60
+    energy: '3.9'
+    num: 64
     protection: '0.3'
     skills:
     - color: pink
@@ -213,7 +213,42 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    winrate: '78.3'
+    winrate: '76.6'
+  - damage: '8.4'
+    disable: '0.7'
+    energy: '4.2'
+    num: 26
+    protection: '1.0'
+    skills:
+    - color: red
+      description: Displace grants 1 extra weapon charge.
+      icon: 99a21ff998aff1248a10df2d317faa20
+      name: Chaos Barrage
+      type: offense
+    - color: pink
+      description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
+        duration.
+      icon: da12579e4ef58ba4c87c1819bf1c699b
+      name: Disruption
+      type: control
+    - color: teal
+      description: Tome of Destruction leashes onto nearby allies, healing for 16
+        health over the duration.
+      icon: 09c45aed2b0414a42a18c1b81c9e589a
+      name: Tome Of Restoration
+      type: support
+    - color: teal
+      description: Shackle inflicts Weaken, reducing target's damage and healing output
+        by 50 for 3.
+      icon: b51e6f88de6853d46bec81bbb3a655a4
+      name: Undermine
+      type: support
+    - color: red
+      description: Displace increases your Arcane Fire attack speed by 30% for 2.5.
+      icon: 99a21ff998aff1248a10df2d317faa20
+      name: Wreak Havoc
+      type: offense
+    winrate: '61.5'
   - damage: '8.7'
     disable: '0.7'
     energy: '5.2'
@@ -318,41 +353,6 @@ builds:
       name: Whizz
       type: mobility
     winrate: '46.7'
-  - damage: '8.4'
-    disable: '0.7'
-    energy: '4.2'
-    num: 15
-    protection: '1.1'
-    skills:
-    - color: red
-      description: Displace grants 1 extra weapon charge.
-      icon: 99a21ff998aff1248a10df2d317faa20
-      name: Chaos Barrage
-      type: offense
-    - color: pink
-      description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
-        duration.
-      icon: da12579e4ef58ba4c87c1819bf1c699b
-      name: Disruption
-      type: control
-    - color: teal
-      description: Tome of Destruction leashes onto nearby allies, healing for 16
-        health over the duration.
-      icon: 09c45aed2b0414a42a18c1b81c9e589a
-      name: Tome Of Restoration
-      type: support
-    - color: teal
-      description: Shackle inflicts Weaken, reducing target's damage and healing output
-        by 50 for 3.
-      icon: b51e6f88de6853d46bec81bbb3a655a4
-      name: Undermine
-      type: support
-    - color: red
-      description: Displace increases your Arcane Fire attack speed by 30% for 2.5.
-      icon: 99a21ff998aff1248a10df2d317faa20
-      name: Wreak Havoc
-      type: offense
-    winrate: '66.7'
 description: Ezmo is an aggressive spell caster who can move quickly across the arena.
   Aradu, a powerful warlock summoned and imprisoned Ezmo but Ezmo saw his opportunity
   to escape when the warlock became too engrossed in reading his tome. He sealed Aradu's
@@ -361,11 +361,11 @@ icon: 3af1fdc53169d044b939cce7ffb561a1
 layout: character
 name: ezmo
 num:
-  threes: 344
-  twos: 550
+  threes: 376
+  twos: 622
 title: Ezmo
 url: characters/ezmo.html
 winrate:
-  threes: '45.93'
-  twos: '56.91'
+  threes: '47.07'
+  twos: '55.31'
 ...

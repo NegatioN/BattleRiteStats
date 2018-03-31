@@ -4,7 +4,7 @@ builds:
   - damage: '3.7'
     disable: '0.6'
     energy: '3.0'
-    num: 112
+    num: 117
     protection: '4.5'
     skills:
     - color: red
@@ -35,12 +35,12 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '57.1'
+    winrate: '56.4'
   - damage: '3.4'
-    disable: '0.5'
+    disable: '0.6'
     energy: '3.1'
-    num: 47
-    protection: '5.0'
+    num: 54
+    protection: '5.1'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 1 and damage taken
@@ -69,7 +69,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '59.6'
+    winrate: '59.3'
   - damage: '3.6'
     disable: '0.6'
     energy: '3.5'
@@ -139,28 +139,29 @@ builds:
       name: Stacked Deck
       type: mixed
     winrate: '71.4'
-  - damage: '3.4'
-    disable: '0.7'
-    energy: '2.8'
-    num: 6
-    protection: '4.4'
+  - damage: '4.0'
+    disable: '0.6'
+    energy: '3.3'
+    num: 7
+    protection: '4.0'
     skills:
-    - color: teal
-      description: Hearts restores 6 health over the duration.
-      icon: 144efc709ac628542aee319b14932b2c
-      name: Heart Restoration
-      type: support
+    - color: red
+      description: Increases the duration of Arcane Catalyst by 1 and damage taken
+        by 5.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Arcane Conductor
+      type: offense
+    - color: blue
+      description: Allows Grand Conjuration to bounce once upon wall hit and increases
+        its max range by 10. Can still only hit once per enemy.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Arcane Shenanigans
+      type: utility
     - color: red
       description: Sheep Trick inflicts Arcane Catalyst on targets hit.
       icon: 1180e87d69492d442afaa79cbba36746
       name: Lead Astray
       type: offense
-    - color: blue
-      description: Increase the health of Mirror Image illusions by 10 and duration
-        by 2.
-      icon: 2632a24f2167af14f9869abb401dd67f
-      name: Phantasmagoria
-      type: utility
     - color: teal
       description: Grants self or allies traveling through your Portal a shield that
         absorbs up to 14 damage for 3.
@@ -173,13 +174,13 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '50.0'
+    winrate: '42.9'
   twos:
-  - damage: '4.0'
+  - damage: '4.1'
     disable: '0.5'
     energy: '2.9'
-    num: 63
-    protection: '3.7'
+    num: 67
+    protection: '3.8'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 1 and damage taken
@@ -209,11 +210,11 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '61.9'
+    winrate: '64.2'
   - damage: '4.3'
     disable: '0.6'
     energy: '3.0'
-    num: 26
+    num: 30
     protection: '4.0'
     skills:
     - color: red
@@ -245,10 +246,10 @@ builds:
       type: mixed
     winrate: '50.0'
   - damage: '5.5'
-    disable: '0.7'
+    disable: '0.6'
     energy: '3.6'
-    num: 21
-    protection: '3.2'
+    num: 24
+    protection: '3.3'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 1 and damage taken
@@ -279,7 +280,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '90.5'
+    winrate: '87.5'
   - damage: '3.8'
     disable: '0.5'
     energy: '2.9'
@@ -361,11 +362,11 @@ icon: 9c4186a6214f12448a7091710b0cde6c
 layout: character
 name: zander
 num:
-  threes: 275
-  twos: 279
+  threes: 307
+  twos: 307
 title: Zander
 url: characters/zander.html
 winrate:
-  threes: '53.82'
-  twos: '53.41'
+  threes: '53.42'
+  twos: '53.75'
 ...

@@ -4,7 +4,7 @@ builds:
   - damage: '4.4'
     disable: '0.7'
     energy: '3.4'
-    num: 344
+    num: 359
     protection: '5.7'
     skills:
     - color: grey
@@ -36,11 +36,11 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '59.6'
+    winrate: '59.1'
   - damage: '4.5'
     disable: '0.7'
     energy: '3.6'
-    num: 114
+    num: 120
     protection: '6.2'
     skills:
     - color: grey
@@ -71,12 +71,12 @@ builds:
       icon: 43ddc4074c2b605478c43c9727704ce8
       name: Penitence
       type: mixed
-    winrate: '60.5'
-  - damage: '4.2'
+    winrate: '60.0'
+  - damage: '4.3'
     disable: '0.8'
     energy: '3.4'
-    num: 57
-    protection: '5.9'
+    num: 59
+    protection: '5.8'
     skills:
     - color: grey
       description: Charged Hammer of Justice deals 2 bonus damage. Deals full damage
@@ -106,11 +106,11 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '54.4'
+    winrate: '54.2'
   - damage: '4.4'
     disable: '0.8'
     energy: '3.4'
-    num: 53
+    num: 54
     protection: '5.5'
     skills:
     - color: grey
@@ -141,11 +141,11 @@ builds:
       icon: 43ddc4074c2b605478c43c9727704ce8
       name: Penitence
       type: mixed
-    winrate: '37.7'
-  - damage: '4.4'
+    winrate: '35.2'
+  - damage: '4.3'
     disable: '0.8'
-    energy: '3.7'
-    num: 42
+    energy: '3.6'
+    num: 46
     protection: '5.6'
     skills:
     - color: grey
@@ -166,23 +166,23 @@ builds:
       name: Divine Protection
       type: mixed
     - color: grey
-      description: Intervene travel distance increases by 33% when affected by Favor.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Initiation
+      description: Smite projectiles inflict a 35 Snare for 1.
+      icon: 6892bf3a45c0ad042b495a385cb5604f
+      name: Holy Shackles
       type: mixed
     - color: grey
-      description: Condemn cooldown is reduced by 3 and hits refresh the cooldown
-        of Intervene.
-      icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
-      name: Vindicator
+      description: Intervene deals 2 bonus damage and reduces incoming healing by
+        33 for 3.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Penitence
       type: mixed
-    winrate: '42.9'
+    winrate: '45.7'
   twos:
-  - damage: '4.8'
+  - damage: '4.7'
     disable: '0.7'
     energy: '3.2'
-    num: 201
-    protection: '4.5'
+    num: 237
+    protection: '4.4'
     skills:
     - color: grey
       description: Charged Hammer of Justice deals 2 bonus damage. Deals full damage
@@ -213,11 +213,11 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '52.7'
+    winrate: '51.9'
   - damage: '4.9'
     disable: '0.7'
     energy: '3.5'
-    num: 133
+    num: 142
     protection: '4.6'
     skills:
     - color: grey
@@ -248,12 +248,12 @@ builds:
       icon: 43ddc4074c2b605478c43c9727704ce8
       name: Penitence
       type: mixed
-    winrate: '58.6'
-  - damage: '4.4'
+    winrate: '58.5'
+  - damage: '4.3'
     disable: '0.7'
     energy: '3.3'
-    num: 86
-    protection: '3.6'
+    num: 98
+    protection: '3.5'
     skills:
     - color: grey
       description: Holy Light healing increases by 3 when healing self or allies affected
@@ -284,11 +284,11 @@ builds:
       icon: c7f49424687c9a744a6347a5e2eede0b
       name: Light's Embrace
       type: mixed
-    winrate: '31.4'
-  - damage: '4.8'
+    winrate: '33.7'
+  - damage: '4.7'
     disable: '0.7'
     energy: '3.3'
-    num: 59
+    num: 62
     protection: '4.5'
     skills:
     - color: grey
@@ -320,11 +320,11 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '47.5'
+    winrate: '45.2'
   - damage: '4.6'
     disable: '0.7'
     energy: '3.3'
-    num: 56
+    num: 60
     protection: '4.7'
     skills:
     - color: grey
@@ -356,7 +356,7 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '50.0'
+    winrate: '48.3'
 description: Sworn protector of the weak, devout follower of the Way of Symphony,
   and unwavering light against the dark. Ulric, trained in the holy Monastery of Resonance,
   has spent many years traveling the lands to spread the word of the Light. He joins
@@ -366,11 +366,11 @@ icon: a90600a0f93cf3644b279b61ab3dc5c8
 layout: character
 name: ulric
 num:
-  threes: 2229
-  twos: 3435
+  threes: 2402
+  twos: 3706
 title: Ulric
 url: characters/ulric.html
 winrate:
   threes: '49.21'
-  twos: '46.43'
+  twos: '46.38'
 ...

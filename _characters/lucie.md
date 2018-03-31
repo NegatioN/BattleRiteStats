@@ -2,9 +2,9 @@
 builds:
   threes:
   - damage: '3.3'
-    disable: '1.1'
-    energy: '2.8'
-    num: 28
+    disable: '1.0'
+    energy: '2.7'
+    num: 36
     protection: '5.5'
     skills:
     - color: yellow
@@ -33,12 +33,12 @@ builds:
       icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
       type: offense
-    winrate: '25.0'
-  - damage: '3.0'
-    disable: '0.8'
-    energy: '2.9'
-    num: 9
-    protection: '5.8'
+    winrate: '30.6'
+  - damage: '3.2'
+    disable: '0.9'
+    energy: '3.0'
+    num: 13
+    protection: '5.7'
     skills:
     - color: yellow
       description: ^2Barrier^- increases movement speed by 33.
@@ -66,7 +66,76 @@ builds:
       icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
       type: offense
-    winrate: '55.6'
+    winrate: '69.2'
+  - damage: '4.0'
+    disable: '1.1'
+    energy: '3.0'
+    num: 7
+    protection: '6.1'
+    skills:
+    - color: yellow
+      description: ^2Barrier^- increases movement speed by 33.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
+      name: Alacrity
+      type: mobility
+    - color: grey
+      description: Applying Barrier causes a shockwave, dealing 10 damage to nearby
+        enemies and knocking them back.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
+      name: Blast Shield
+      type: mixed
+    - color: teal
+      description: Healing Potion heals other allies for 4 bonus health.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Companion Potion
+      type: support
+    - color: grey
+      description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
+        10 damage when removing a buff.
+      icon: d0c4449b33eef2e4ca2cfa8900910041
+      name: Potency
+      type: mixed
+    - color: red
+      description: ^2Revitalize^- increases damage output by 12.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Stimulant
+      type: offense
+    winrate: '14.3'
+  - damage: '3.5'
+    disable: '1.0'
+    energy: '2.7'
+    num: 6
+    protection: '4.3'
+    skills:
+    - color: grey
+      description: Applying Barrier causes a shockwave, dealing 10 damage to nearby
+        enemies and knocking them back.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
+      name: Blast Shield
+      type: mixed
+    - color: teal
+      description: Healing Potion heals other allies for 4 bonus health.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Companion Potion
+      type: support
+    - color: grey
+      description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
+        10 damage when removing a buff.
+      icon: d0c4449b33eef2e4ca2cfa8900910041
+      name: Potency
+      type: mixed
+    - color: red
+      description: ^2Revitalize^- increases damage output by 12.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Stimulant
+      type: offense
+    - color: yellow
+      description: Roll increases movement speed by 33 for 2.5. Reduces cooldown of
+        Roll by 3.
+      icon: 470a917c1ac62c04ea45acc6a35c5f73
+      name: Swift Roll
+      type: mobility
+    winrate: '66.7'
   - damage: '3.6'
     disable: '1.0'
     energy: '2.7'
@@ -101,80 +170,11 @@ builds:
       name: Swift Roll
       type: mobility
     winrate: '33.3'
-  - damage: '3.7'
-    disable: '1.1'
-    energy: '2.7'
-    num: 5
-    protection: '4.0'
-    skills:
-    - color: grey
-      description: Applying Barrier causes a shockwave, dealing 10 damage to nearby
-        enemies and knocking them back.
-      icon: 46e144a65c818c04eb3d00a21cf513b3
-      name: Blast Shield
-      type: mixed
-    - color: teal
-      description: Healing Potion heals other allies for 4 bonus health.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Companion Potion
-      type: support
-    - color: grey
-      description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
-        10 damage when removing a buff.
-      icon: d0c4449b33eef2e4ca2cfa8900910041
-      name: Potency
-      type: mixed
-    - color: red
-      description: ^2Revitalize^- increases damage output by 12.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Stimulant
-      type: offense
-    - color: yellow
-      description: Roll increases movement speed by 33 for 2.5. Reduces cooldown of
-        Roll by 3.
-      icon: 470a917c1ac62c04ea45acc6a35c5f73
-      name: Swift Roll
-      type: mobility
-    winrate: '60.0'
-  - damage: '3.9'
-    disable: '1.1'
-    energy: '3.0'
-    num: 5
-    protection: '5.9'
-    skills:
-    - color: yellow
-      description: ^2Barrier^- increases movement speed by 33.
-      icon: 46e144a65c818c04eb3d00a21cf513b3
-      name: Alacrity
-      type: mobility
-    - color: grey
-      description: Applying Barrier causes a shockwave, dealing 10 damage to nearby
-        enemies and knocking them back.
-      icon: 46e144a65c818c04eb3d00a21cf513b3
-      name: Blast Shield
-      type: mixed
-    - color: teal
-      description: Healing Potion heals other allies for 4 bonus health.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Companion Potion
-      type: support
-    - color: grey
-      description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
-        10 damage when removing a buff.
-      icon: d0c4449b33eef2e4ca2cfa8900910041
-      name: Potency
-      type: mixed
-    - color: red
-      description: ^2Revitalize^- increases damage output by 12.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Stimulant
-      type: offense
-    winrate: '0.0'
   twos:
-  - damage: '4.8'
+  - damage: '4.7'
     disable: '1.5'
     energy: '3.0'
-    num: 19
+    num: 22
     protection: '5.2'
     skills:
     - color: pink
@@ -205,12 +205,12 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '63.2'
-  - damage: '4.7'
+    winrate: '63.6'
+  - damage: '4.6'
     disable: '1.2'
     energy: '3.3'
-    num: 12
-    protection: '4.9'
+    num: 14
+    protection: '4.8'
     skills:
     - color: yellow
       description: ^2Barrier^- increases movement speed by 33.
@@ -238,7 +238,7 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '66.7'
+    winrate: '71.4'
   - damage: '4.4'
     disable: '1.1'
     energy: '2.6'
@@ -273,10 +273,10 @@ builds:
       name: Weakening Toxin
       type: mixed
     winrate: '88.9'
-  - damage: '4.1'
+  - damage: '3.9'
     disable: '1.1'
-    energy: '2.8'
-    num: 8
+    energy: '2.7'
+    num: 9
     protection: '4.2'
     skills:
     - color: yellow
@@ -307,12 +307,12 @@ builds:
       icon: 470a917c1ac62c04ea45acc6a35c5f73
       name: Swift Roll
       type: mobility
-    winrate: '50.0'
+    winrate: '44.4'
   - damage: '3.2'
-    disable: '1.5'
+    disable: '1.4'
     energy: '3.1'
-    num: 8
-    protection: '5.4'
+    num: 7
+    protection: '5.5'
     skills:
     - color: pink
       description: Clarity Potion inflicts 30 Snare for 3.
@@ -340,18 +340,18 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '37.5'
+    winrate: '42.9'
 description: Lucie is a diverse contender who knows which brew makes you choke, heal
   or flee in fear. The arena has become her new playground for wild experiments.
 icon: e5554b8a15ffc1a499a3807bb3a37b56
 layout: character
 name: lucie
 num:
-  threes: 154
-  twos: 259
+  threes: 180
+  twos: 307
 title: Lucie
 url: characters/lucie.html
 winrate:
-  threes: '36.36'
-  twos: '55.60'
+  threes: '37.78'
+  twos: '54.40'
 ...

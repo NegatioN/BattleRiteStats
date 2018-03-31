@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '6.7'
+  - damage: '6.6'
     disable: '0.9'
     energy: '2.3'
-    num: 19
+    num: 20
     protection: '1.3'
     skills:
     - color: red
@@ -34,7 +34,7 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    winrate: '78.9'
+    winrate: '80.0'
   - damage: '6.6'
     disable: '1.0'
     energy: '3.0'
@@ -70,10 +70,10 @@ builds:
       name: Night Stalker
       type: mobility
     winrate: '40.0'
-  - damage: '7.5'
+  - damage: '7.4'
     disable: '0.9'
     energy: '2.6'
-    num: 12
+    num: 13
     protection: '1.6'
     skills:
     - color: red
@@ -102,7 +102,7 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    winrate: '66.7'
+    winrate: '61.5'
   - damage: '6.7'
     disable: '1.0'
     energy: '2.8'
@@ -174,7 +174,7 @@ builds:
   - damage: '7.4'
     disable: '1.0'
     energy: '2.3'
-    num: 33
+    num: 34
     protection: '1.7'
     skills:
     - color: red
@@ -203,12 +203,45 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    winrate: '75.8'
-  - damage: '8.3'
-    disable: '1.3'
-    energy: '2.6'
-    num: 20
-    protection: '2.2'
+    winrate: '76.5'
+  - damage: '6.6'
+    disable: '0.8'
+    energy: '2.5'
+    num: 25
+    protection: '1.5'
+    skills:
+    - color: red
+      description: Shadow Bolts deal 6 bonus damage.
+      icon: 2a54393ededda834a8070123fbc265cc
+      name: Agony
+      type: offense
+    - color: yellow
+      description: Sinister Strike gains 1 ability charge, but increases its cooldown
+        by 2.
+      icon: fe85f5b940cf1ff44825f090b2bb34ce
+      name: Demonic Hunt
+      type: mobility
+    - color: red
+      description: Negating an attack with Consume grants 2 ability charges for Shadowbolt.
+      icon: c84fd648ae9f196428ba4e9b3bc42d1e
+      name: Shadow Fury
+      type: offense
+    - color: red
+      description: Claw of the Wicked deals 3 bonus damage. Increases range by 12.
+      icon: 13fbbdb9e7cbde8429053e33e1022fa8
+      name: Tenacious Demon
+      type: offense
+    - color: pink
+      description: Increases Silence duration from 0.3 to 0.8.
+      icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Wicked Strike
+      type: control
+    winrate: '60.0'
+  - damage: '7.7'
+    disable: '1.2'
+    energy: '2.5'
+    num: 25
+    protection: '2.0'
     skills:
     - color: pink
       description: Claw of the Wicked inflicts both Root for 1.2 and Curse.
@@ -236,7 +269,41 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    winrate: '80.0'
+    winrate: '76.0'
+  - damage: '6.4'
+    disable: '1.0'
+    energy: '2.8'
+    num: 18
+    protection: '2.2'
+    skills:
+    - color: pink
+      description: Claw of the Wicked inflicts both Root for 1.2 and Curse.
+      icon: 13fbbdb9e7cbde8429053e33e1022fa8
+      name: Cold Embrace
+      type: control
+    - color: yellow
+      description: Sinister Strike gains 1 ability charge, but increases its cooldown
+        by 2.
+      icon: fe85f5b940cf1ff44825f090b2bb34ce
+      name: Demonic Hunt
+      type: mobility
+    - color: green
+      description: Hitting Cursed enemies with Defiled Blade heals for 2 bonus health.
+        Charged Defiled Blade hits also heal for 6 bonus health.
+      icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Leech Blade
+      type: survival
+    - color: red
+      description: Claw of the Wicked deals 3 bonus damage. Increases range by 12.
+      icon: 13fbbdb9e7cbde8429053e33e1022fa8
+      name: Tenacious Demon
+      type: offense
+    - color: pink
+      description: Increases Silence duration from 0.3 to 0.8.
+      icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Wicked Strike
+      type: control
+    winrate: '61.1'
   - damage: '6.5'
     disable: '0.9'
     energy: '2.1'
@@ -270,73 +337,6 @@ builds:
       name: Wicked Strike
       type: control
     winrate: '64.7'
-  - damage: '6.6'
-    disable: '0.8'
-    energy: '2.6'
-    num: 17
-    protection: '1.6'
-    skills:
-    - color: red
-      description: Shadow Bolts deal 6 bonus damage.
-      icon: 2a54393ededda834a8070123fbc265cc
-      name: Agony
-      type: offense
-    - color: yellow
-      description: Sinister Strike gains 1 ability charge, but increases its cooldown
-        by 2.
-      icon: fe85f5b940cf1ff44825f090b2bb34ce
-      name: Demonic Hunt
-      type: mobility
-    - color: red
-      description: Negating an attack with Consume grants 2 ability charges for Shadowbolt.
-      icon: c84fd648ae9f196428ba4e9b3bc42d1e
-      name: Shadow Fury
-      type: offense
-    - color: red
-      description: Claw of the Wicked deals 3 bonus damage. Increases range by 12.
-      icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Tenacious Demon
-      type: offense
-    - color: pink
-      description: Increases Silence duration from 0.3 to 0.8.
-      icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Wicked Strike
-      type: control
-    winrate: '58.8'
-  - damage: '6.4'
-    disable: '1.0'
-    energy: '2.8'
-    num: 16
-    protection: '2.2'
-    skills:
-    - color: pink
-      description: Claw of the Wicked inflicts both Root for 1.2 and Curse.
-      icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Cold Embrace
-      type: control
-    - color: yellow
-      description: Sinister Strike gains 1 ability charge, but increases its cooldown
-        by 2.
-      icon: fe85f5b940cf1ff44825f090b2bb34ce
-      name: Demonic Hunt
-      type: mobility
-    - color: green
-      description: Hitting Cursed enemies with Defiled Blade heals for 2 bonus health.
-        Charged Defiled Blade hits also heal for 6 bonus health.
-      icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Leech Blade
-      type: survival
-    - color: red
-      description: Claw of the Wicked deals 3 bonus damage. Increases range by 12.
-      icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Tenacious Demon
-      type: offense
-    - color: pink
-      description: Increases Silence duration from 0.3 to 0.8.
-      icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Wicked Strike
-      type: control
-    winrate: '56.2'
 description: "Ruh Kaan was awoken when a grave robber desecrated the sacred crypts\
   \ Ark\u2019dun. Pursuing the trespasser led him to the Arenas where he is still\
   \ tracking his quarry. He wields his dark powers to remove those who would stand\
@@ -345,11 +345,11 @@ icon: bb37e5d448c511e47b808987d0d4f9e8
 layout: character
 name: ruh-kaan
 num:
-  threes: 281
-  twos: 466
+  threes: 295
+  twos: 520
 title: Ruh Kaan
 url: characters/ruh-kaan.html
 winrate:
-  threes: '44.84'
-  twos: '56.01'
+  threes: '45.08'
+  twos: '55.19'
 ...
