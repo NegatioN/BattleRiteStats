@@ -4,7 +4,7 @@ builds:
   - damage: '6.4'
     disable: '1.5'
     energy: '2.9'
-    num: 40
+    num: 41
     protection: '0.4'
     skills:
     - color: green
@@ -36,11 +36,11 @@ builds:
       icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
       type: offense
-    winrate: '40.0'
-  - damage: '6.2'
+    winrate: '39.0'
+  - damage: '6.3'
     disable: '1.1'
     energy: '2.8'
-    num: 13
+    num: 17
     protection: '0.5'
     skills:
     - color: red
@@ -70,7 +70,7 @@ builds:
       icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
       type: offense
-    winrate: '53.8'
+    winrate: '52.9'
   - damage: '6.6'
     disable: '1.0'
     energy: '3.5'
@@ -107,6 +107,40 @@ builds:
       name: Plasma Infusion
       type: survival
     winrate: '45.5'
+  - damage: '7.1'
+    disable: '1.2'
+    energy: '2.9'
+    num: 10
+    protection: '0.1'
+    skills:
+    - color: red
+      description: Sky Strike deals 6 bonus damage. Also increases its radius by 10.
+      icon: 1d95f324f635c9447a68299999e8597e
+      name: Blast Processing
+      type: offense
+    - color: pink
+      description: Increases Fading Snare duration of Mega Sphere by 1 and reduces
+        its cooldown by 3.
+      icon: 751839d4f58db9445aa7fc86411521a1
+      name: Expansion Pack
+      type: control
+    - color: red
+      description: Charged Bolt deals 1 - 5 bonus damage, based on charge-up duration.
+      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: Power Attachment
+      type: offense
+    - color: red
+      description: Plasma Wall deals 6 damage to enemies that pass through. Increases
+        Snare factor from 25 to 40 and duration from 1.5 to 2.
+      icon: 14568f096fcd91f488876796605f5063
+      name: Sizzle
+      type: offense
+    - color: pink
+      description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
+      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: System Shock
+      type: control
+    winrate: '30.0'
   - damage: '7.3'
     disable: '1.1'
     energy: '3.2'
@@ -143,40 +177,6 @@ builds:
       name: Violent Revolution
       type: offense
     winrate: '30.0'
-  - damage: '7.1'
-    disable: '1.2'
-    energy: '2.9'
-    num: 9
-    protection: '0.1'
-    skills:
-    - color: red
-      description: Sky Strike deals 6 bonus damage. Also increases its radius by 10.
-      icon: 1d95f324f635c9447a68299999e8597e
-      name: Blast Processing
-      type: offense
-    - color: pink
-      description: Increases Fading Snare duration of Mega Sphere by 1 and reduces
-        its cooldown by 3.
-      icon: 751839d4f58db9445aa7fc86411521a1
-      name: Expansion Pack
-      type: control
-    - color: red
-      description: Charged Bolt deals 1 - 5 bonus damage, based on charge-up duration.
-      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: Power Attachment
-      type: offense
-    - color: red
-      description: Plasma Wall deals 6 damage to enemies that pass through. Increases
-        Snare factor from 25 to 40 and duration from 1.5 to 2.
-      icon: 14568f096fcd91f488876796605f5063
-      name: Sizzle
-      type: offense
-    - color: pink
-      description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
-      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: System Shock
-      type: control
-    winrate: '22.2'
   twos:
   - damage: '6.2'
     disable: '1.0'
@@ -212,11 +212,11 @@ builds:
       name: Violent Revolution
       type: offense
     winrate: '28.6'
-  - damage: '9.3'
+  - damage: '9.1'
     disable: '1.1'
-    energy: '4.1'
-    num: 10
-    protection: '1.4'
+    energy: '4.0'
+    num: 11
+    protection: '1.3'
     skills:
     - color: red
       description: Sky Strike deals 6 bonus damage. Also increases its radius by 10.
@@ -246,7 +246,7 @@ builds:
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: Power Attachment
       type: offense
-    winrate: '80.0'
+    winrate: '72.7'
   - damage: '7.2'
     disable: '1.2'
     energy: '3.4'
@@ -316,10 +316,10 @@ builds:
       name: Violent Revolution
       type: offense
     winrate: '100.0'
-  - damage: '5.8'
-    disable: '0.9'
-    energy: '2.9'
-    num: 5
+  - damage: '6.0'
+    disable: '1.0'
+    energy: '3.0'
+    num: 7
     protection: '1.1'
     skills:
     - color: yellow
@@ -350,7 +350,7 @@ builds:
       icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
       type: offense
-    winrate: '60.0'
+    winrate: '57.1'
 description: An elite sky ranger from the secluded, invisible city of Enza. Many years
   of rigorous combat training using Magi-tech weaponry makes Destiny an agile and
   deadly force to be reckoned with. Fed up with the strict regulations of living in
@@ -360,11 +360,11 @@ icon: 65e28ab3b75c7cb478a1b24b46fca7d2
 layout: character
 name: destiny
 num:
-  threes: 172
-  twos: 142
+  threes: 190
+  twos: 160
 title: Destiny
 url: characters/destiny.html
 winrate:
-  threes: '44.19'
-  twos: '45.77'
+  threes: '43.68'
+  twos: '43.12'
 ...

@@ -1,11 +1,11 @@
 ---
 builds:
   threes:
-  - damage: '3.2'
+  - damage: '3.3'
     disable: '1.1'
-    energy: '2.7'
-    num: 24
-    protection: '5.4'
+    energy: '2.8'
+    num: 28
+    protection: '5.5'
     skills:
     - color: yellow
       description: ^2Barrier^- increases movement speed by 33.
@@ -33,7 +33,7 @@ builds:
       icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
       type: offense
-    winrate: '29.2'
+    winrate: '25.0'
   - damage: '3.0'
     disable: '0.8'
     energy: '2.9'
@@ -67,10 +67,10 @@ builds:
       name: Stimulant
       type: offense
     winrate: '55.6'
-  - damage: '3.5'
-    disable: '1.1'
+  - damage: '3.6'
+    disable: '1.0'
     energy: '2.7'
-    num: 5
+    num: 6
     protection: '6.7'
     skills:
     - color: yellow
@@ -100,7 +100,7 @@ builds:
       icon: 470a917c1ac62c04ea45acc6a35c5f73
       name: Swift Roll
       type: mobility
-    winrate: '40.0'
+    winrate: '33.3'
   - damage: '3.7'
     disable: '1.1'
     energy: '2.7'
@@ -136,10 +136,10 @@ builds:
       name: Swift Roll
       type: mobility
     winrate: '60.0'
-  - damage: '3.8'
-    disable: '1.0'
+  - damage: '3.9'
+    disable: '1.1'
     energy: '3.0'
-    num: 4
+    num: 5
     protection: '5.9'
     skills:
     - color: yellow
@@ -347,11 +347,11 @@ icon: e5554b8a15ffc1a499a3807bb3a37b56
 layout: character
 name: lucie
 num:
-  threes: 129
-  twos: 236
+  threes: 154
+  twos: 259
 title: Lucie
 url: characters/lucie.html
 winrate:
-  threes: '37.21'
-  twos: '54.24'
+  threes: '36.36'
+  twos: '55.60'
 ...

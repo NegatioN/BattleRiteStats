@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '6.6'
-    disable: '1.5'
+  - damage: '6.5'
+    disable: '1.4'
     energy: '3.0'
-    num: 62
+    num: 65
     protection: '1.9'
     skills:
     - color: red
@@ -33,8 +33,8 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
       type: support
-    winrate: '59.7'
-  - damage: '7.0'
+    winrate: '60.0'
+  - damage: '6.9'
     disable: '1.6'
     energy: '3.5'
     num: 50
@@ -67,10 +67,10 @@ builds:
       name: Squash
       type: control
     winrate: '54.0'
-  - damage: '6.6'
+  - damage: '6.5'
     disable: '1.3'
-    energy: '3.2'
-    num: 37
+    energy: '3.1'
+    num: 39
     protection: '1.6'
     skills:
     - color: red
@@ -98,11 +98,11 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    winrate: '51.4'
-  - damage: '5.9'
+    winrate: '51.3'
+  - damage: '5.8'
     disable: '1.4'
-    energy: '2.9'
-    num: 31
+    energy: '3.0'
+    num: 36
     protection: '1.5'
     skills:
     - color: red
@@ -130,12 +130,12 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    winrate: '54.8'
-  - damage: '6.3'
+    winrate: '55.6'
+  - damage: '6.2'
     disable: '1.5'
-    energy: '3.7'
-    num: 30
-    protection: '1.7'
+    energy: '3.6'
+    num: 33
+    protection: '1.6'
     skills:
     - color: yellow
       description: Rush cooldown reduces by 1. Using Rush without hitting an enemy
@@ -163,13 +163,13 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    winrate: '70.0'
+    winrate: '66.7'
   twos:
   - damage: '6.5'
     disable: '1.4'
     energy: '2.9'
-    num: 94
-    protection: '1.9'
+    num: 104
+    protection: '2.0'
     skills:
     - color: red
       description: Boulder Toss deals 2 bonus damage and inflicts Armor Break.
@@ -197,11 +197,11 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
       type: support
-    winrate: '64.9'
-  - damage: '6.2'
+    winrate: '60.6'
+  - damage: '6.1'
     disable: '1.3'
     energy: '3.1'
-    num: 92
+    num: 98
     protection: '1.9'
     skills:
     - color: yellow
@@ -230,11 +230,11 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    winrate: '56.5'
+    winrate: '56.1'
   - damage: '6.4'
     disable: '1.3'
-    energy: '2.8'
-    num: 78
+    energy: '2.9'
+    num: 90
     protection: '1.4'
     skills:
     - color: red
@@ -262,12 +262,12 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    winrate: '50.0'
+    winrate: '51.1'
   - damage: '6.1'
     disable: '1.3'
     energy: '2.8'
-    num: 52
-    protection: '1.3'
+    num: 56
+    protection: '1.2'
     skills:
     - color: red
       description: Boulder Toss deals 2 bonus damage and inflicts Armor Break.
@@ -295,12 +295,12 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    winrate: '59.6'
-  - damage: '6.7'
-    disable: '1.6'
+    winrate: '57.1'
+  - damage: '6.6'
+    disable: '1.5'
     energy: '3.3'
-    num: 49
-    protection: '1.8'
+    num: 52
+    protection: '1.9'
     skills:
     - color: yellow
       description: Rush cooldown reduces by 1. Using Rush without hitting an enemy
@@ -329,7 +329,7 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
       type: support
-    winrate: '61.2'
+    winrate: '59.6'
 description: A mighty chieftain rushing into battle with a giant hammer in one hand
   and his dinner in the other. Rook likes to smash his enemies, with boulders, with
   hammers and even with his body. Once he goes berserk he turns into an unstoppable
@@ -338,11 +338,11 @@ icon: e5d5913527b842b41aed666d27d14231
 layout: character
 name: rook
 num:
-  threes: 422
-  twos: 708
+  threes: 480
+  twos: 781
 title: Rook
 url: characters/rook.html
 winrate:
-  threes: '53.79'
-  twos: '52.97'
+  threes: '53.96'
+  twos: '52.50'
 ...
