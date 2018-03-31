@@ -6,13 +6,10 @@ from helpers import path_leaf
 from PIL import Image
 import yaml
 
+resize_sizes = [64] # Current max-size for battlerites are 64
+
 def base(p):
     return os.path.splitext(p)[0]
-
-'''Takes in image-names with extension, and converts to png'''
-def convert_to_png(img_name, in_path, out_path):
-    img = Image.open(os.path.join(in_path, img_name))
-    img.save(os.path.join(out_path, base(img_name) + ".png"))
 
 def get_unique_brite_icon(characters):
     unique_assets = set()
@@ -53,4 +50,11 @@ existing_image_resources = [base(x) for x in os.listdir(webpage_to_path)]
 for x in os.listdir(pic_assets_path):
     resource_name = base(x)
     if resource_name in unique_assets and resource_name not in existing_image_resources:
-        convert_to_png(path_leaf(x), pic_assets_path, webpage_to_path)
+        img_name = path_leaf(x)
+        image_path = os.path.join(pic_assets_path, img_name)
+        out_image_path = os.path.join(webpage_to_path, base(img_name))
+        img = Image.open(image_path)
+        img.save(out_image_path + ".png")
+        for size in resize_sizes:
+            resized_copy = img.resize((size, size), Image.ANTIALIAS)
+            resized_copy.save(out_image_path + "_{}.png".format(size))
