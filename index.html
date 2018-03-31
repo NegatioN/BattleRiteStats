@@ -8,7 +8,7 @@ explainer: True
     {% for char in site.data.cdata.frontpage %}
     <div class="col-xs-4 col-md-3 padding-0">
       <a href="{{site.url}}/characters/{{char.title}}">
-        <img src="{{site.url}}/assets/img/{{char.icon}}.png" />
+        <img alt="{{char.name}} loadouts and builds" src="{{site.url}}/assets/img/{{char.icon}}.png" />
         <div class="text-bottomz">{{char.name}}</div>
       </a>
     </div>
