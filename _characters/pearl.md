@@ -4,8 +4,8 @@ builds:
   - damage: '4.3'
     disable: '0.9'
     energy: '3.0'
-    num: 30
-    protection: '5.3'
+    num: 31
+    protection: '5.2'
     skills:
     - color: teal
       description: Healing Wave bounces to a nearby ally after healing, healing them
@@ -36,7 +36,7 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '46.7'
+    winrate: '45.2'
   - damage: '4.9'
     disable: '0.9'
     energy: '2.5'
@@ -107,11 +107,11 @@ builds:
       name: Tasty Fish
       type: support
     winrate: '61.5'
-  - damage: '4.1'
+  - damage: '4.0'
     disable: '1.2'
     energy: '2.9'
-    num: 11
-    protection: '4.7'
+    num: 12
+    protection: '4.8'
     skills:
     - color: teal
       description: Healing Wave bounces to a nearby ally after healing, healing them
@@ -141,7 +141,7 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '72.7'
+    winrate: '75.0'
   - damage: '3.7'
     disable: '0.9'
     energy: '3.1'
@@ -182,7 +182,7 @@ builds:
   - damage: '4.7'
     disable: '0.8'
     energy: '2.7'
-    num: 117
+    num: 120
     protection: '3.9'
     skills:
     - color: pink
@@ -214,12 +214,12 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    winrate: '58.1'
+    winrate: '57.5'
   - damage: '4.7'
     disable: '0.7'
     energy: '2.9'
-    num: 58
-    protection: '4.0'
+    num: 71
+    protection: '3.9'
     skills:
     - color: pink
       description: Countering an attack with Tidal Wave recharges your staff.
@@ -250,12 +250,12 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    winrate: '58.6'
-  - damage: '4.4'
+    winrate: '56.3'
+  - damage: '4.3'
     disable: '1.1'
     energy: '2.7'
-    num: 54
-    protection: '3.7'
+    num: 58
+    protection: '3.8'
     skills:
     - color: pink
       description: Countering an attack with Tidal Wave recharges your staff.
@@ -285,11 +285,11 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '55.6'
-  - damage: '4.9'
-    disable: '1.0'
+    winrate: '48.3'
+  - damage: '4.7'
+    disable: '0.9'
     energy: '2.7'
-    num: 37
+    num: 39
     protection: '3.6'
     skills:
     - color: pink
@@ -320,12 +320,12 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '56.8'
-  - damage: '4.9'
+    winrate: '56.4'
+  - damage: '5.0'
     disable: '1.1'
-    energy: '2.9'
-    num: 29
-    protection: '3.6'
+    energy: '3.0'
+    num: 33
+    protection: '3.9'
     skills:
     - color: pink
       description: Countering an attack with Tidal Wave recharges your staff.
@@ -348,13 +348,13 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    - color: teal
-      description: Bubble Barrier spawns a tasty fish that heals 8 health and increases
-        damage output by 20 for 4 when picked up.
-      icon: dba76bbb88cac764f9a8aeff389abb99
-      name: Tasty Fish
-      type: support
-    winrate: '58.6'
+    - color: red
+      description: Countering an attack with Tidal Wave fires a volley of Lesser Volatile
+        Water at nearby enemies. Each Lesser Volatile Water deals 8 damage.
+      icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Tsunami
+      type: offense
+    winrate: '51.5'
 description: A sage able to control the oceans and whatever creatures that lurk below.
   Pearl transforms water into volatile attacks, rejuvenating streams and protecting
   bubbles.
@@ -362,11 +362,11 @@ icon: 427116cdee46bad4cbaa99d7063e0832
 layout: character
 name: pearl
 num:
-  threes: 216
-  twos: 740
+  threes: 228
+  twos: 824
 title: Pearl
 url: characters/pearl.html
 winrate:
-  threes: '43.98'
-  twos: '50.95'
+  threes: '43.42'
+  twos: '50.36'
 ...

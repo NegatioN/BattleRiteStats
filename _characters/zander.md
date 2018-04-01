@@ -4,7 +4,7 @@ builds:
   - damage: '3.7'
     disable: '0.6'
     energy: '3.1'
-    num: 140
+    num: 148
     protection: '4.7'
     skills:
     - color: red
@@ -35,11 +35,11 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '57.9'
+    winrate: '59.5'
   - damage: '3.4'
     disable: '0.6'
     energy: '3.1'
-    num: 53
+    num: 57
     protection: '5.1'
     skills:
     - color: red
@@ -69,7 +69,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '56.6'
+    winrate: '54.4'
   - damage: '3.9'
     disable: '0.6'
     energy: '3.8'
@@ -107,7 +107,7 @@ builds:
   - damage: '3.2'
     disable: '0.5'
     energy: '2.7'
-    num: 10
+    num: 12
     protection: '5.7'
     skills:
     - color: red
@@ -138,7 +138,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '70.0'
+    winrate: '75.0'
   - damage: '4.0'
     disable: '0.6'
     energy: '3.2'
@@ -176,10 +176,10 @@ builds:
       type: mixed
     winrate: '30.0'
   twos:
-  - damage: '4.1'
-    disable: '0.6'
+  - damage: '4.0'
+    disable: '0.5'
     energy: '2.9'
-    num: 79
+    num: 87
     protection: '3.8'
     skills:
     - color: red
@@ -210,12 +210,12 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '63.3'
-  - damage: '4.3'
+    winrate: '59.8'
+  - damage: '4.2'
     disable: '0.6'
     energy: '2.9'
-    num: 34
-    protection: '4.0'
+    num: 36
+    protection: '3.9'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 1 and damage taken
@@ -244,7 +244,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '47.1'
+    winrate: '44.4'
   - damage: '5.5'
     disable: '0.6'
     energy: '3.6'
@@ -316,10 +316,10 @@ builds:
       name: Stacked Deck
       type: mixed
     winrate: '95.5'
-  - damage: '3.6'
+  - damage: '3.7'
     disable: '0.5'
     energy: '2.8'
-    num: 18
+    num: 22
     protection: '2.7'
     skills:
     - color: red
@@ -351,7 +351,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '38.9'
+    winrate: '36.4'
 description: When the famous theatre troupe "The Phantomime Masquerade" disbanded
   after a series of tragic events, their magnificent magician Zander vanished without
   a trace. Known for his unparalleled perfection in card trickery, teleportation,
@@ -362,11 +362,11 @@ icon: 9c4186a6214f12448a7091710b0cde6c
 layout: character
 name: zander
 num:
-  threes: 379
-  twos: 374
+  threes: 414
+  twos: 419
 title: Zander
 url: characters/zander.html
 winrate:
-  threes: '53.30'
-  twos: '55.08'
+  threes: '53.38'
+  twos: '53.22'
 ...

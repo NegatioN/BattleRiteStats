@@ -1,38 +1,6 @@
 ---
 builds:
   threes:
-  - damage: '8.0'
-    disable: '1.3'
-    energy: '3.7'
-    num: 35
-    protection: '0.4'
-    skills:
-    - color: pink
-      description: Tazer hits bounce once towards a nearby enemy.
-      icon: c9cd772b84da5454e9888a19fa249483
-      name: Conductor
-      type: control
-    - color: blue
-      description: Tazer hits remove positive effects from nearby enemies.
-      icon: c9cd772b84da5454e9888a19fa249483
-      name: EMP
-      type: utility
-    - color: yellow
-      description: ^2Jet Pack^- increases movement speed by 40 for 2.5.
-      icon: 7442381b626556c4e8193c48031d01ef
-      name: Rocket Boosters
-      type: mobility
-    - color: red
-      description: Rocket X-67 gains 1 ability charge but cooldown increases by 1.5.
-      icon: d80cae4dd7699264fb3c37675b59f263
-      name: Stockpile
-      type: offense
-    - color: blue
-      description: Recast Jet Pack to fly back to your starting location.
-      icon: 7442381b626556c4e8193c48031d01ef
-      name: U-Turn
-      type: utility
-    winrate: '48.6'
   - damage: '7.6'
     disable: '1.1'
     energy: '3.9'
@@ -67,6 +35,38 @@ builds:
       name: U-Turn
       type: utility
     winrate: '45.7'
+  - damage: '8.0'
+    disable: '1.3'
+    energy: '3.7'
+    num: 35
+    protection: '0.4'
+    skills:
+    - color: pink
+      description: Tazer hits bounce once towards a nearby enemy.
+      icon: c9cd772b84da5454e9888a19fa249483
+      name: Conductor
+      type: control
+    - color: blue
+      description: Tazer hits remove positive effects from nearby enemies.
+      icon: c9cd772b84da5454e9888a19fa249483
+      name: EMP
+      type: utility
+    - color: yellow
+      description: ^2Jet Pack^- increases movement speed by 40 for 2.5.
+      icon: 7442381b626556c4e8193c48031d01ef
+      name: Rocket Boosters
+      type: mobility
+    - color: red
+      description: Rocket X-67 gains 1 ability charge but cooldown increases by 1.5.
+      icon: d80cae4dd7699264fb3c37675b59f263
+      name: Stockpile
+      type: offense
+    - color: blue
+      description: Recast Jet Pack to fly back to your starting location.
+      icon: 7442381b626556c4e8193c48031d01ef
+      name: U-Turn
+      type: utility
+    winrate: '48.6'
   - damage: '7.2'
     disable: '1.0'
     energy: '3.0'
@@ -170,7 +170,7 @@ builds:
   - damage: '7.1'
     disable: '0.9'
     energy: '3.0'
-    num: 45
+    num: 46
     protection: '0.7'
     skills:
     - color: red
@@ -199,11 +199,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '48.9'
-  - damage: '7.4'
-    disable: '1.0'
+    winrate: '47.8'
+  - damage: '7.5'
+    disable: '1.1'
     energy: '3.5'
-    num: 38
+    num: 42
     protection: '0.7'
     skills:
     - color: yellow
@@ -232,7 +232,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '42.1'
+    winrate: '42.9'
   - damage: '7.5'
     disable: '1.0'
     energy: '3.2'
@@ -269,7 +269,7 @@ builds:
   - damage: '7.1'
     disable: '1.1'
     energy: '2.8'
-    num: 32
+    num: 33
     protection: '0.5'
     skills:
     - color: yellow
@@ -297,11 +297,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '59.4'
+    winrate: '57.6'
   - damage: '7.6'
     disable: '1.0'
     energy: '3.7'
-    num: 21
+    num: 26
     protection: '0.9'
     skills:
     - color: pink
@@ -331,7 +331,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '38.1'
+    winrate: '50.0'
 description: A scavenger from the outer realms. Iva has engineered her own arsenal
   of weapons. Firing crazy rockets or unleashing a storm of bullets is her way of
   greeting her opponents in the Arena.
@@ -339,11 +339,11 @@ icon: decba44679fbdae4bb7d0d1cb6a97682
 layout: character
 name: iva
 num:
-  threes: 324
-  twos: 506
+  threes: 337
+  twos: 565
 title: Iva
 url: characters/iva.html
 winrate:
-  threes: '48.15'
-  twos: '45.85'
+  threes: '48.07'
+  twos: '47.43'
 ...

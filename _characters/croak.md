@@ -4,7 +4,7 @@ builds:
   - damage: '8.0'
     disable: '1.6'
     energy: '3.1'
-    num: 65
+    num: 67
     protection: '1.3'
     skills:
     - color: blue
@@ -35,7 +35,7 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '53.8'
+    winrate: '53.7'
   - damage: '7.4'
     disable: '1.0'
     energy: '3.3'
@@ -73,7 +73,7 @@ builds:
   - damage: '7.8'
     disable: '0.7'
     energy: '2.9'
-    num: 28
+    num: 31
     protection: '2.0'
     skills:
     - color: red
@@ -104,11 +104,11 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '53.6'
+    winrate: '54.8'
   - damage: '7.2'
     disable: '0.6'
-    energy: '3.6'
-    num: 20
+    energy: '3.5'
+    num: 21
     protection: '2.0'
     skills:
     - color: red
@@ -139,7 +139,7 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '30.0'
+    winrate: '28.6'
   - damage: '7.0'
     disable: '1.1'
     energy: '3.4'
@@ -215,7 +215,7 @@ builds:
   - damage: '7.0'
     disable: '0.5'
     energy: '3.0'
-    num: 59
+    num: 60
     protection: '2.0'
     skills:
     - color: red
@@ -246,7 +246,7 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '40.7'
+    winrate: '40.0'
   - damage: '5.9'
     disable: '0.9'
     energy: '3.1'
@@ -285,7 +285,7 @@ builds:
   - damage: '6.8'
     disable: '1.1'
     energy: '2.8'
-    num: 17
+    num: 20
     protection: '1.5'
     skills:
     - color: red
@@ -316,12 +316,12 @@ builds:
       icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
       type: utility
-    winrate: '70.6'
-  - damage: '6.6'
+    winrate: '70.0'
+  - damage: '6.8'
     disable: '0.8'
-    energy: '3.5'
-    num: 15
-    protection: '1.5'
+    energy: '3.0'
+    num: 17
+    protection: '1.8'
     skills:
     - color: blue
       description: Increases invisibility duration of Camouflage by 1.
@@ -334,24 +334,22 @@ builds:
       icon: 2c885df2336558e489fbe57b32a9fb94
       name: Frog Frenzy
       type: offense
+    - color: yellow
+      description: Increases Noxious Lunge range by 30. It deals 4 bonus damage.
+      icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
+      name: Frog Slice
+      type: mobility
     - color: green
       description: Frog Leap hits heal you for 12 health.
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Jungle Toad
       type: survival
-    - color: blue
-      description: Toxin Muck gains 1 ability charge but increases its cooldown by
-        1.
+    - color: green
+      description: Increases healing effect of Toxin from 8 to 16.
       icon: 84e29daadee87714294bbdabd3fdd4ab
-      name: Spit Spit Spit
-      type: utility
-    - color: red
-      description: Frog Leap causes your next 3 Blade Flurry attacks to deal 2 bonus
-        damage.
-      icon: f4d1c9994ff77524bacb0bfe5347e118
-      name: Triple Strike
-      type: offense
-    winrate: '53.3'
+      name: Mending Toxin
+      type: survival
+    winrate: '70.6'
 description: His background is shrouded in mystery, his movements are supernatural
   and his reputation is whispered about. Croak loves to surprise his enemies, using
   his mobility to move in and out. His chameleonic stealth and flexible fighting style
@@ -360,11 +358,11 @@ icon: d3038956f9767d74bbbce0659b07474d
 layout: character
 name: croak
 num:
-  threes: 608
-  twos: 643
+  threes: 644
+  twos: 685
 title: Croak
 url: characters/croak.html
 winrate:
-  threes: '48.03'
-  twos: '46.66'
+  threes: '47.52'
+  twos: '44.38'
 ...
