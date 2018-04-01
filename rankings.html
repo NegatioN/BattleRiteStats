@@ -1,0 +1,56 @@
+---
+layout: default
+explainer: True
+---
+
+<div class="characters">
+    <div class="table">
+        <div class="row">
+            <div class="col-xs-4 col-md-2 padding-0 ranking-text"><b>Mode: 2 vs 2</b></div>
+            <div class="col-xs-4 col-md-5 padding-0 ranking-text"><b>Num. matches</b></div>
+            <div class="col-xs-4 col-md-5 padding-0 ranking-text"><b>Winrate</b></div>
+        </div>
+        {% for char in site.data.cdata.twos %}
+        <div class="row build-wrapper">
+                <div class="col-xs-4 col-md-2 padding-0">
+                    <a href="{{site.url}}/characters/{{char.title}}">
+                        <img alt="{{char.name}}" src="{{site.url}}/assets/img/{{char.icon}}.png" />
+                        <div class="text-bottomz">{{char.name}}</div>
+                    </a>
+                </div>
+            <div class="col-xs-4 col-md-5 padding-0 ranking-text">{{ char.num }}</div>
+            <div class="col-xs-4 col-md-5 padding-0 ranking-text">{{ char.winrate | times: 100 | slice: 0, 5 }}%</div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <ins class="adsbygoogle"
+         style="display:block; text-align:center;"
+         data-ad-layout="in-article"
+         data-ad-format="fluid"
+         data-ad-client="ca-pub-8245219882449231"
+         data-ad-slot="4378963759"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+    <div class="table">
+        <div class="row">
+            <div class="col-xs-4 col-md-2 padding-0 ranking-text"><b>Mode: 3 vs 3</b></div>
+            <div class="col-xs-4 col-md-5 padding-0 ranking-text"><b>Num. matches</b></div>
+            <div class="col-xs-4 col-md-5 padding-0 ranking-text"><b>Winrate</b></div>
+        </div>
+        {% for char in site.data.cdata.threes %}
+        <div class="row build-wrapper">
+            <div class="col-xs-4 col-md-2 padding-0">
+                <a href="{{site.url}}/characters/{{char.title}}">
+                    <img alt="{{char.name}}" src="{{site.url}}/assets/img/{{char.icon}}.png" />
+                    <div class="text-bottomz">{{char.name}}</div>
+                </a>
+            </div>
+            <div class="col-xs-4 col-md-5 padding-0 ranking-text">{{ char.num }}</div>
+            <div class="col-xs-4 col-md-5 padding-0 ranking-text">{{ char.winrate | times: 100 | slice: 0, 5 }}%</div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
