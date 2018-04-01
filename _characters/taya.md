@@ -4,7 +4,7 @@ builds:
   - damage: '7.8'
     disable: '0.8'
     energy: '3.4'
-    num: 128
+    num: 141
     protection: '0.1'
     skills:
     - color: red
@@ -35,11 +35,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '47.7'
+    winrate: '46.8'
   - damage: '8.1'
     disable: '0.7'
     energy: '3.3'
-    num: 69
+    num: 84
     protection: '0.7'
     skills:
     - color: green
@@ -71,11 +71,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '60.9'
+    winrate: '65.5'
   - damage: '9.2'
     disable: '0.8'
     energy: '3.5'
-    num: 12
+    num: 11
     protection: '0.9'
     skills:
     - color: green
@@ -106,11 +106,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '41.7'
+    winrate: '45.5'
   - damage: '8.1'
-    disable: '0.7'
-    energy: '3.1'
-    num: 6
+    disable: '0.8'
+    energy: '3.0'
+    num: 9
     protection: '0.2'
     skills:
     - color: red
@@ -141,11 +141,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '50.0'
-  - damage: '8.5'
+    winrate: '44.4'
+  - damage: '8.3'
     disable: '0.8'
     energy: '3.8'
-    num: 6
+    num: 7
     protection: '0.2'
     skills:
     - color: red
@@ -177,12 +177,12 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '33.3'
+    winrate: '28.6'
   twos:
   - damage: '8.1'
     disable: '0.7'
     energy: '3.4'
-    num: 143
+    num: 170
     protection: '0.1'
     skills:
     - color: red
@@ -213,11 +213,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '49.0'
-  - damage: '7.9'
+    winrate: '51.2'
+  - damage: '8.0'
     disable: '0.7'
     energy: '3.4'
-    num: 59
+    num: 73
     protection: '0.8'
     skills:
     - color: green
@@ -249,11 +249,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '61.0'
-  - damage: '9.1'
+    winrate: '58.9'
+  - damage: '9.0'
     disable: '1.0'
-    energy: '4.2'
-    num: 19
+    energy: '4.1'
+    num: 20
     protection: '0.2'
     skills:
     - color: pink
@@ -284,7 +284,42 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '57.9'
+    winrate: '60.0'
+  - damage: '7.2'
+    disable: '0.8'
+    energy: '3.6'
+    num: 18
+    protection: '0.7'
+    skills:
+    - color: green
+      description: During Haste, the first hit of each Razor Boomerang heals you for
+        6 health.
+      icon: e6c2b076242187d44941ae0cefa96f62
+      name: Breath of Air
+      type: survival
+    - color: pink
+      description: During Haste, Razor Boomerang inflicts Fading Snare for 0.4.
+      icon: e6c2b076242187d44941ae0cefa96f62
+      name: Cold Wind
+      type: control
+    - color: red
+      description: X-Strike boomerangs each deal 4 bonus damage, and an additional
+        4 bonus damage if both boomerangs hit at the intersection.
+      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
+      name: Cross Cut
+      type: offense
+    - color: yellow
+      description: During Haste, Wind Strike hits reapply Haste.
+      icon: 9a292cf4ed808d54c922ab48f5881c5a
+      name: Wind Fury
+      type: mobility
+    - color: yellow
+      description: Increases Wind Stream duration by 1 and the Haste duration it grants
+        by 0.8.
+      icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
+      name: Wind Stream
+      type: mobility
+    winrate: '33.3'
   - damage: '7.5'
     disable: '1.0'
     energy: '3.3'
@@ -319,41 +354,6 @@ builds:
       name: Wind Stream
       type: mobility
     winrate: '56.2'
-  - damage: '7.5'
-    disable: '0.8'
-    energy: '3.6'
-    num: 13
-    protection: '0.8'
-    skills:
-    - color: green
-      description: During Haste, the first hit of each Razor Boomerang heals you for
-        6 health.
-      icon: e6c2b076242187d44941ae0cefa96f62
-      name: Breath of Air
-      type: survival
-    - color: pink
-      description: During Haste, Razor Boomerang inflicts Fading Snare for 0.4.
-      icon: e6c2b076242187d44941ae0cefa96f62
-      name: Cold Wind
-      type: control
-    - color: red
-      description: X-Strike boomerangs each deal 4 bonus damage, and an additional
-        4 bonus damage if both boomerangs hit at the intersection.
-      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
-      name: Cross Cut
-      type: offense
-    - color: yellow
-      description: During Haste, Wind Strike hits reapply Haste.
-      icon: 9a292cf4ed808d54c922ab48f5881c5a
-      name: Wind Fury
-      type: mobility
-    - color: yellow
-      description: Increases Wind Stream duration by 1 and the Haste duration it grants
-        by 0.8.
-      icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
-      name: Wind Stream
-      type: mobility
-    winrate: '38.5'
 description: An exceptionally swift hunter wielding a razor sharp boomerang. By shaping
   the wind around her Taya is able to increase her speed and control her boomerang
   with deadly precision.
@@ -361,11 +361,11 @@ icon: 2905515bc00a1d64e83466ec8e50f8b6
 layout: character
 name: taya
 num:
-  threes: 283
-  twos: 342
+  threes: 328
+  twos: 411
 title: Taya
 url: characters/taya.html
 winrate:
-  threes: '48.06'
-  twos: '50.00'
+  threes: '48.78'
+  twos: '50.36'
 ...

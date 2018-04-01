@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '7.8'
-    disable: '1.5'
+  - damage: '8.0'
+    disable: '1.6'
     energy: '3.1'
-    num: 42
+    num: 65
     protection: '1.3'
     skills:
     - color: blue
@@ -35,7 +35,7 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '47.6'
+    winrate: '53.8'
   - damage: '7.4'
     disable: '1.0'
     energy: '3.3'
@@ -107,9 +107,9 @@ builds:
     winrate: '53.6'
   - damage: '7.2'
     disable: '0.6'
-    energy: '3.5'
-    num: 21
-    protection: '2.1'
+    energy: '3.6'
+    num: 20
+    protection: '2.0'
     skills:
     - color: red
       description: Activating Toxin Blades increases attack speed of your next 6 Blade
@@ -139,7 +139,7 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '33.3'
+    winrate: '30.0'
   - damage: '7.0'
     disable: '1.1'
     energy: '3.4'
@@ -212,10 +212,10 @@ builds:
       name: Triple Strike
       type: offense
     winrate: '49.5'
-  - damage: '6.9'
+  - damage: '7.0'
     disable: '0.5'
-    energy: '2.9'
-    num: 50
+    energy: '3.0'
+    num: 59
     protection: '2.0'
     skills:
     - color: red
@@ -246,7 +246,7 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '40.0'
+    winrate: '40.7'
   - damage: '5.9'
     disable: '0.9'
     energy: '3.1'
@@ -282,10 +282,10 @@ builds:
       name: Triple Strike
       type: offense
     winrate: '45.7'
-  - damage: '7.0'
-    disable: '1.0'
+  - damage: '6.8'
+    disable: '1.1'
     energy: '2.8'
-    num: 15
+    num: 17
     protection: '1.5'
     skills:
     - color: red
@@ -316,11 +316,11 @@ builds:
       icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
       type: utility
-    winrate: '73.3'
-  - damage: '6.8'
+    winrate: '70.6'
+  - damage: '6.6'
     disable: '0.8'
     energy: '3.5'
-    num: 13
+    num: 15
     protection: '1.5'
     skills:
     - color: blue
@@ -351,7 +351,7 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '53.8'
+    winrate: '53.3'
 description: His background is shrouded in mystery, his movements are supernatural
   and his reputation is whispered about. Croak loves to surprise his enemies, using
   his mobility to move in and out. His chameleonic stealth and flexible fighting style
@@ -360,11 +360,11 @@ icon: d3038956f9767d74bbbce0659b07474d
 layout: character
 name: croak
 num:
-  threes: 519
-  twos: 578
+  threes: 608
+  twos: 643
 title: Croak
 url: characters/croak.html
 winrate:
-  threes: '47.78'
-  twos: '46.54'
+  threes: '48.03'
+  twos: '46.66'
 ...

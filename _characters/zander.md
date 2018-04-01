@@ -3,9 +3,9 @@ builds:
   threes:
   - damage: '3.7'
     disable: '0.6'
-    energy: '3.0'
-    num: 117
-    protection: '4.5'
+    energy: '3.1'
+    num: 140
+    protection: '4.7'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 1 and damage taken
@@ -35,11 +35,11 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '56.4'
+    winrate: '57.9'
   - damage: '3.4'
     disable: '0.6'
     energy: '3.1'
-    num: 54
+    num: 53
     protection: '5.1'
     skills:
     - color: red
@@ -69,11 +69,11 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '59.3'
-  - damage: '3.6'
+    winrate: '56.6'
+  - damage: '3.9'
     disable: '0.6'
-    energy: '3.5'
-    num: 15
+    energy: '3.8'
+    num: 24
     protection: '5.4'
     skills:
     - color: red
@@ -103,12 +103,12 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '60.0'
-  - damage: '3.3'
-    disable: '0.6'
-    energy: '2.6'
-    num: 7
-    protection: '5.5'
+    winrate: '62.5'
+  - damage: '3.2'
+    disable: '0.5'
+    energy: '2.7'
+    num: 10
+    protection: '5.7'
     skills:
     - color: red
       description: Traveling through a portal resets the cooldown of Grand Conjuration.
@@ -138,12 +138,12 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '71.4'
+    winrate: '70.0'
   - damage: '4.0'
     disable: '0.6'
-    energy: '3.3'
-    num: 7
-    protection: '4.0'
+    energy: '3.2'
+    num: 10
+    protection: '3.7'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 1 and damage taken
@@ -174,12 +174,12 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '42.9'
+    winrate: '30.0'
   twos:
   - damage: '4.1'
-    disable: '0.5'
+    disable: '0.6'
     energy: '2.9'
-    num: 67
+    num: 79
     protection: '3.8'
     skills:
     - color: red
@@ -210,11 +210,11 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '64.2'
+    winrate: '63.3'
   - damage: '4.3'
     disable: '0.6'
-    energy: '3.0'
-    num: 30
+    energy: '2.9'
+    num: 34
     protection: '4.0'
     skills:
     - color: red
@@ -244,7 +244,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '50.0'
+    winrate: '47.1'
   - damage: '5.5'
     disable: '0.6'
     energy: '3.6'
@@ -281,11 +281,46 @@ builds:
       name: Stacked Deck
       type: mixed
     winrate: '87.5'
-  - damage: '3.8'
+  - damage: '4.2'
     disable: '0.5'
-    energy: '2.9'
+    energy: '2.7'
+    num: 22
+    protection: '3.4'
+    skills:
+    - color: blue
+      description: Allows Grand Conjuration to bounce once upon wall hit and increases
+        its max range by 10. Can still only hit once per enemy.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Arcane Shenanigans
+      type: utility
+    - color: teal
+      description: Hearts restores 6 health over the duration.
+      icon: 144efc709ac628542aee319b14932b2c
+      name: Heart Restoration
+      type: support
+    - color: red
+      description: Sheep Trick inflicts Arcane Catalyst on targets hit.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: Lead Astray
+      type: offense
+    - color: teal
+      description: Grants self or allies traveling through your Portal a shield that
+        absorbs up to 14 damage for 3.
+      icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Showdown
+      type: support
+    - color: grey
+      description: Your first Trick Shot after using Mirror Image includes an additional
+        card for both you and your illusion.
+      icon: 2632a24f2167af14f9869abb401dd67f
+      name: Stacked Deck
+      type: mixed
+    winrate: '95.5'
+  - damage: '3.6'
+    disable: '0.5'
+    energy: '2.8'
     num: 18
-    protection: '2.6'
+    protection: '2.7'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 1 and damage taken
@@ -316,42 +351,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '44.4'
-  - damage: '4.8'
-    disable: '0.6'
-    energy: '3.2'
-    num: 16
-    protection: '4.6'
-    skills:
-    - color: red
-      description: Traveling through a portal resets the cooldown of Grand Conjuration.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Ace up the Sleeve
-      type: offense
-    - color: red
-      description: Increases the duration of Arcane Catalyst by 1 and damage taken
-        by 5.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Arcane Conductor
-      type: offense
-    - color: teal
-      description: Hearts restores 6 health over the duration.
-      icon: 144efc709ac628542aee319b14932b2c
-      name: Heart Restoration
-      type: support
-    - color: teal
-      description: Grants self or allies traveling through your Portal a shield that
-        absorbs up to 14 damage for 3.
-      icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Showdown
-      type: support
-    - color: grey
-      description: Your first Trick Shot after using Mirror Image includes an additional
-        card for both you and your illusion.
-      icon: 2632a24f2167af14f9869abb401dd67f
-      name: Stacked Deck
-      type: mixed
-    winrate: '62.5'
+    winrate: '38.9'
 description: When the famous theatre troupe "The Phantomime Masquerade" disbanded
   after a series of tragic events, their magnificent magician Zander vanished without
   a trace. Known for his unparalleled perfection in card trickery, teleportation,
@@ -362,11 +362,11 @@ icon: 9c4186a6214f12448a7091710b0cde6c
 layout: character
 name: zander
 num:
-  threes: 307
-  twos: 307
+  threes: 379
+  twos: 374
 title: Zander
 url: characters/zander.html
 winrate:
-  threes: '53.42'
-  twos: '53.75'
+  threes: '53.30'
+  twos: '55.08'
 ...
