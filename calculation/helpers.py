@@ -100,5 +100,8 @@ def get_user_ids():
                                            for x in divisions])
             offset += 50
             ids.extend(cur_ids)
+            if offset >= 500:
+                # Battlerite-stats seems to only display this many on their leaderboard.
+                break
 
     return ids
