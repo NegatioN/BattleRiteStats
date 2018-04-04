@@ -4,7 +4,7 @@ builds:
   - damage: '7.6'
     disable: '0.9'
     energy: '3.5'
-    num: 370
+    num: 378
     protection: '1.6'
     skills:
     - color: green
@@ -36,11 +36,11 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '50.5'
+    winrate: '49.5'
   - damage: '7.9'
     disable: '0.6'
     energy: '3.9'
-    num: 151
+    num: 158
     protection: '1.6'
     skills:
     - color: green
@@ -73,7 +73,7 @@ builds:
       icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
       type: offense
-    winrate: '50.3'
+    winrate: '48.7'
   - damage: '7.9'
     disable: '0.7'
     energy: '3.7'
@@ -113,7 +113,7 @@ builds:
   - damage: '7.7'
     disable: '0.6'
     energy: '3.4'
-    num: 36
+    num: 39
     protection: '1.6'
     skills:
     - color: green
@@ -146,11 +146,11 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '50.0'
-  - damage: '8.0'
-    disable: '0.9'
+    winrate: '51.3'
+  - damage: '8.1'
+    disable: '0.8'
     energy: '3.9'
-    num: 27
+    num: 35
     protection: '1.1'
     skills:
     - color: pink
@@ -182,12 +182,12 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '44.4'
+    winrate: '51.4'
   twos:
   - damage: '7.6'
     disable: '0.9'
     energy: '3.4'
-    num: 766
+    num: 740
     protection: '1.6'
     skills:
     - color: green
@@ -219,11 +219,11 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '53.3'
-  - damage: '8.0'
+    winrate: '53.1'
+  - damage: '7.9'
     disable: '0.6'
     energy: '4.4'
-    num: 315
+    num: 318
     protection: '1.7'
     skills:
     - color: green
@@ -256,11 +256,11 @@ builds:
       icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
       type: offense
-    winrate: '50.5'
+    winrate: '48.4'
   - damage: '8.2'
     disable: '0.6'
-    energy: '3.7'
-    num: 131
+    energy: '3.8'
+    num: 134
     protection: '1.6'
     skills:
     - color: green
@@ -292,12 +292,12 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '51.9'
+    winrate: '50.7'
   - damage: '8.1'
     disable: '0.6'
     energy: '4.0'
-    num: 107
-    protection: '1.6'
+    num: 108
+    protection: '1.5'
     skills:
     - color: green
       description: Impale heals you for 2 health and 2 additional health per weapon
@@ -328,19 +328,18 @@ builds:
       icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
       type: offense
-    winrate: '47.7'
-  - damage: '8.1'
-    disable: '0.6'
-    energy: '3.3'
-    num: 55
-    protection: '1.5'
+    winrate: '47.2'
+  - damage: '8.4'
+    disable: '0.9'
+    energy: '3.8'
+    num: 62
+    protection: '1.2'
     skills:
-    - color: green
-      description: Impale heals you for 2 health and 2 additional health per weapon
-        charge.
-      icon: 18eee826117df534d91bd518653fc360
-      name: Ceremonial Spear
-      type: survival
+    - color: pink
+      description: Javelin inflicts Root for 1.2.
+      icon: 2b30312258b7fec4a90040d475f5b31f
+      name: Dirty Tricks
+      type: control
     - color: red
       description: Increases your maximum weapon charges by 1 and countering an attack
         with Kunju grants 1 weapon charge.
@@ -365,7 +364,7 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '58.2'
+    winrate: '51.6'
 description: Expert in the martial art of Ni'Shu and master of the spear. A highly
   mobile and dangerous duelist. His extraordinary combat prowess culminates in a range
   of deadly melee attacks. Facing Shifu is like walking into a tornado of spearheads.
@@ -373,11 +372,11 @@ icon: 6f69edc7410650c43bee267eef585b06
 layout: character
 name: shifu
 num:
-  threes: 992
-  twos: 2273
+  threes: 1022
+  twos: 2257
 title: Shifu
 url: characters/shifu.html
 winrate:
-  threes: '46.88'
-  twos: '48.13'
+  threes: '46.77'
+  twos: '47.67'
 ...

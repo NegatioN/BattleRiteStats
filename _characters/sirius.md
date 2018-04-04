@@ -4,7 +4,7 @@ builds:
   - damage: '4.5'
     disable: '1.0'
     energy: '3.3'
-    num: 71
+    num: 69
     protection: '5.1'
     skills:
     - color: red
@@ -36,11 +36,11 @@ builds:
       icon: f13a6cad4bcaa974f8147e8a29a49dfe
       name: Sunbath
       type: support
-    winrate: '46.5'
-  - damage: '3.7'
+    winrate: '47.8'
+  - damage: '3.6'
     disable: '1.2'
     energy: '3.4'
-    num: 60
+    num: 66
     protection: '6.4'
     skills:
     - color: pink
@@ -74,11 +74,11 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '51.7'
+    winrate: '50.0'
   - damage: '3.6'
     disable: '0.8'
     energy: '3.0'
-    num: 40
+    num: 41
     protection: '5.4'
     skills:
     - color: grey
@@ -111,11 +111,11 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '52.5'
+    winrate: '51.2'
   - damage: '3.7'
     disable: '1.0'
     energy: '3.4'
-    num: 39
+    num: 40
     protection: '5.9'
     skills:
     - color: teal
@@ -147,7 +147,7 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '51.3'
+    winrate: '50.0'
   - damage: '4.1'
     disable: '0.7'
     energy: '3.4'
@@ -184,10 +184,10 @@ builds:
       type: mobility
     winrate: '54.1'
   twos:
-  - damage: '4.4'
+  - damage: '4.6'
     disable: '1.0'
     energy: '3.2'
-    num: 120
+    num: 117
     protection: '4.5'
     skills:
     - color: red
@@ -219,11 +219,11 @@ builds:
       icon: f13a6cad4bcaa974f8147e8a29a49dfe
       name: Sunbath
       type: support
-    winrate: '50.8'
-  - damage: '4.1'
+    winrate: '53.0'
+  - damage: '4.0'
     disable: '0.9'
     energy: '3.1'
-    num: 102
+    num: 90
     protection: '4.0'
     skills:
     - color: red
@@ -255,12 +255,12 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '51.0'
-  - damage: '4.1'
+    winrate: '46.7'
+  - damage: '4.0'
     disable: '0.7'
     energy: '3.2'
-    num: 71
-    protection: '4.6'
+    num: 82
+    protection: '4.5'
     skills:
     - color: red
       description: Prismatic Strike hits charge your weapon by 50.
@@ -290,11 +290,11 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '57.7'
-  - damage: '4.4'
+    winrate: '58.5'
+  - damage: '4.5'
     disable: '0.8'
-    energy: '2.8'
-    num: 67
+    energy: '2.9'
+    num: 56
     protection: '4.4'
     skills:
     - color: teal
@@ -325,12 +325,12 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '53.7'
-  - damage: '4.9'
+    winrate: '55.4'
+  - damage: '5.0'
     disable: '0.8'
-    energy: '3.5'
-    num: 36
-    protection: '4.3'
+    energy: '3.6'
+    num: 29
+    protection: '4.4'
     skills:
     - color: red
       description: Prismatic Strike hits charge your weapon by 50.
@@ -359,7 +359,7 @@ builds:
       icon: f13a6cad4bcaa974f8147e8a29a49dfe
       name: Sunbath
       type: support
-    winrate: '50.0'
+    winrate: '37.9'
 description: Sirius, a calm prodigy who uses the energies of stars and planets as
   destructive spells and healing powers. The prophecy was true and foretold the birth
   of the Zenith.
@@ -367,11 +367,11 @@ icon: aa93dc83288cb954aa3a97aabe8320dd
 layout: character
 name: sirius
 num:
-  threes: 803
-  twos: 1144
+  threes: 796
+  twos: 1118
 title: Sirius
 url: characters/sirius.html
 winrate:
-  threes: '47.20'
-  twos: '45.19'
+  threes: '46.98'
+  twos: '45.26'
 ...

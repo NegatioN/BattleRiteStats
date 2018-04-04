@@ -4,7 +4,7 @@ builds:
   - damage: '3.6'
     disable: '0.6'
     energy: '3.2'
-    num: 324
+    num: 323
     protection: '4.9'
     skills:
     - color: red
@@ -35,11 +35,11 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '56.2'
+    winrate: '56.0'
   - damage: '3.3'
     disable: '0.5'
     energy: '3.1'
-    num: 132
+    num: 131
     protection: '5.2'
     skills:
     - color: red
@@ -69,11 +69,11 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '53.0'
+    winrate: '52.7'
   - damage: '3.7'
     disable: '0.6'
     energy: '3.8'
-    num: 59
+    num: 58
     protection: '6.0'
     skills:
     - color: red
@@ -103,7 +103,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '71.2'
+    winrate: '72.4'
   - damage: '3.8'
     disable: '0.5'
     energy: '3.0'
@@ -139,11 +139,11 @@ builds:
       name: Stacked Deck
       type: mixed
     winrate: '61.5'
-  - damage: '4.1'
+  - damage: '4.2'
     disable: '0.6'
     energy: '3.2'
-    num: 15
-    protection: '3.7'
+    num: 14
+    protection: '3.6'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 1 and damage taken
@@ -174,12 +174,12 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '33.3'
+    winrate: '35.7'
   twos:
-  - damage: '4.0'
+  - damage: '4.1'
     disable: '0.5'
     energy: '2.9'
-    num: 152
+    num: 157
     protection: '3.9'
     skills:
     - color: red
@@ -210,11 +210,11 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '53.9'
+    winrate: '53.5'
   - damage: '4.2'
     disable: '0.6'
-    energy: '3.0'
-    num: 59
+    energy: '3.1'
+    num: 56
     protection: '3.8'
     skills:
     - color: red
@@ -244,12 +244,12 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '49.2'
-  - damage: '3.8'
+    winrate: '53.6'
+  - damage: '3.9'
     disable: '0.6'
     energy: '3.1'
-    num: 44
-    protection: '4.1'
+    num: 46
+    protection: '4.0'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 1 and damage taken
@@ -279,11 +279,11 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '61.4'
-  - damage: '5.1'
+    winrate: '58.7'
+  - damage: '5.0'
     disable: '0.7'
     energy: '3.6'
-    num: 34
+    num: 36
     protection: '3.7'
     skills:
     - color: red
@@ -362,11 +362,11 @@ icon: 9c4186a6214f12448a7091710b0cde6c
 layout: character
 name: zander
 num:
-  threes: 847
-  twos: 765
+  threes: 840
+  twos: 763
 title: Zander
 url: characters/zander.html
 winrate:
-  threes: '51.59'
-  twos: '51.11'
+  threes: '51.55'
+  twos: '50.85'
 ...

@@ -35,38 +35,6 @@ builds:
       name: U-Turn
       type: utility
     winrate: '38.9'
-  - damage: '8.0'
-    disable: '1.3'
-    energy: '3.7'
-    num: 35
-    protection: '0.4'
-    skills:
-    - color: pink
-      description: Tazer hits bounce once towards a nearby enemy.
-      icon: c9cd772b84da5454e9888a19fa249483
-      name: Conductor
-      type: control
-    - color: blue
-      description: Tazer hits remove positive effects from nearby enemies.
-      icon: c9cd772b84da5454e9888a19fa249483
-      name: EMP
-      type: utility
-    - color: yellow
-      description: ^2Jet Pack^- increases movement speed by 40 for 2.5.
-      icon: 7442381b626556c4e8193c48031d01ef
-      name: Rocket Boosters
-      type: mobility
-    - color: red
-      description: Rocket X-67 gains 1 ability charge but cooldown increases by 1.5.
-      icon: d80cae4dd7699264fb3c37675b59f263
-      name: Stockpile
-      type: offense
-    - color: blue
-      description: Recast Jet Pack to fly back to your starting location.
-      icon: 7442381b626556c4e8193c48031d01ef
-      name: U-Turn
-      type: utility
-    winrate: '48.6'
   - damage: '7.1'
     disable: '1.0'
     energy: '3.1'
@@ -84,6 +52,38 @@ builds:
       icon: 9274b3f40ab2b4048b5cde1e9164901e
       name: Hyperspeed
       type: offense
+    - color: yellow
+      description: ^2Jet Pack^- increases movement speed by 40 for 2.5.
+      icon: 7442381b626556c4e8193c48031d01ef
+      name: Rocket Boosters
+      type: mobility
+    - color: red
+      description: Rocket X-67 gains 1 ability charge but cooldown increases by 1.5.
+      icon: d80cae4dd7699264fb3c37675b59f263
+      name: Stockpile
+      type: offense
+    - color: blue
+      description: Recast Jet Pack to fly back to your starting location.
+      icon: 7442381b626556c4e8193c48031d01ef
+      name: U-Turn
+      type: utility
+    winrate: '43.8'
+  - damage: '8.1'
+    disable: '1.3'
+    energy: '3.7'
+    num: 32
+    protection: '0.4'
+    skills:
+    - color: pink
+      description: Tazer hits bounce once towards a nearby enemy.
+      icon: c9cd772b84da5454e9888a19fa249483
+      name: Conductor
+      type: control
+    - color: blue
+      description: Tazer hits remove positive effects from nearby enemies.
+      icon: c9cd772b84da5454e9888a19fa249483
+      name: EMP
+      type: utility
     - color: yellow
       description: ^2Jet Pack^- increases movement speed by 40 for 2.5.
       icon: 7442381b626556c4e8193c48031d01ef
@@ -133,10 +133,10 @@ builds:
       name: Heavy Rocket
       type: control
     winrate: '48.0'
-  - damage: '7.4'
+  - damage: '7.5'
     disable: '1.0'
     energy: '3.4'
-    num: 19
+    num: 18
     protection: '0.6'
     skills:
     - color: yellow
@@ -165,13 +165,13 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '63.2'
+    winrate: '66.7'
   twos:
   - damage: '7.5'
     disable: '1.0'
     energy: '3.9'
-    num: 95
-    protection: '0.9'
+    num: 92
+    protection: '0.8'
     skills:
     - color: pink
       description: Increases Oil factor by 10 and duration by 1.5.
@@ -200,11 +200,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '55.8'
+    winrate: '56.5'
   - damage: '7.6'
     disable: '1.0'
     energy: '3.6'
-    num: 69
+    num: 74
     protection: '0.7'
     skills:
     - color: yellow
@@ -233,11 +233,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '47.8'
+    winrate: '45.9'
   - damage: '7.1'
     disable: '0.9'
     energy: '3.0'
-    num: 68
+    num: 72
     protection: '0.7'
     skills:
     - color: red
@@ -266,11 +266,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '45.6'
-  - damage: '7.1'
+    winrate: '45.8'
+  - damage: '7.2'
     disable: '1.1'
     energy: '2.8'
-    num: 48
+    num: 50
     protection: '0.5'
     skills:
     - color: yellow
@@ -298,7 +298,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '62.5'
+    winrate: '62.0'
   - damage: '7.5'
     disable: '1.0'
     energy: '3.2'
@@ -339,11 +339,11 @@ icon: decba44679fbdae4bb7d0d1cb6a97682
 layout: character
 name: iva
 num:
-  threes: 579
-  twos: 953
+  threes: 564
+  twos: 956
 title: Iva
 url: characters/iva.html
 winrate:
-  threes: '45.08'
-  twos: '47.53'
+  threes: '45.21'
+  twos: '48.01'
 ...

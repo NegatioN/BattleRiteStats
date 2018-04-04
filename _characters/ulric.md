@@ -4,7 +4,7 @@ builds:
   - damage: '4.4'
     disable: '0.7'
     energy: '3.5'
-    num: 708
+    num: 669
     protection: '5.9'
     skills:
     - color: grey
@@ -36,12 +36,12 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '56.2'
+    winrate: '55.3'
   - damage: '4.6'
     disable: '0.7'
     energy: '3.7'
-    num: 255
-    protection: '6.3'
+    num: 253
+    protection: '6.4'
     skills:
     - color: grey
       description: Charged Hammer of Justice deals 2 bonus damage. Deals full damage
@@ -71,8 +71,8 @@ builds:
       icon: 43ddc4074c2b605478c43c9727704ce8
       name: Penitence
       type: mixed
-    winrate: '61.2'
-  - damage: '4.3'
+    winrate: '61.7'
+  - damage: '4.4'
     disable: '0.7'
     energy: '3.4'
     num: 127
@@ -111,7 +111,7 @@ builds:
   - damage: '4.2'
     disable: '0.8'
     energy: '3.4'
-    num: 100
+    num: 99
     protection: '5.6'
     skills:
     - color: grey
@@ -142,11 +142,11 @@ builds:
       icon: 43ddc4074c2b605478c43c9727704ce8
       name: Penitence
       type: mixed
-    winrate: '51.0'
+    winrate: '51.5'
   - damage: '4.3'
     disable: '0.7'
     energy: '3.5'
-    num: 92
+    num: 97
     protection: '6.1'
     skills:
     - color: grey
@@ -177,12 +177,12 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '56.5'
+    winrate: '54.6'
   twos:
   - damage: '4.7'
     disable: '0.7'
     energy: '3.5'
-    num: 620
+    num: 602
     protection: '4.7'
     skills:
     - color: grey
@@ -214,11 +214,11 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '53.7'
-  - damage: '4.8'
+    winrate: '53.3'
+  - damage: '4.7'
     disable: '0.7'
     energy: '3.4'
-    num: 215
+    num: 227
     protection: '4.7'
     skills:
     - color: grey
@@ -249,11 +249,11 @@ builds:
       icon: 43ddc4074c2b605478c43c9727704ce8
       name: Penitence
       type: mixed
-    winrate: '54.4'
+    winrate: '52.4'
   - damage: '4.7'
     disable: '0.7'
-    energy: '3.4'
-    num: 141
+    energy: '3.3'
+    num: 156
     protection: '5.2'
     skills:
     - color: grey
@@ -284,11 +284,11 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '61.0'
+    winrate: '61.5'
   - damage: '4.6'
     disable: '0.7'
     energy: '3.3'
-    num: 140
+    num: 139
     protection: '4.9'
     skills:
     - color: grey
@@ -320,11 +320,11 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '52.1'
+    winrate: '48.9'
   - damage: '4.3'
     disable: '0.7'
     energy: '3.3'
-    num: 135
+    num: 129
     protection: '3.7'
     skills:
     - color: grey
@@ -356,7 +356,7 @@ builds:
       icon: c7f49424687c9a744a6347a5e2eede0b
       name: Light's Embrace
       type: mixed
-    winrate: '31.9'
+    winrate: '33.3'
 description: Sworn protector of the weak, devout follower of the Way of Symphony,
   and unwavering light against the dark. Ulric, trained in the holy Monastery of Resonance,
   has spent many years traveling the lands to spread the word of the Light. He joins
@@ -366,11 +366,11 @@ icon: a90600a0f93cf3644b279b61ab3dc5c8
 layout: character
 name: ulric
 num:
-  threes: 4205
-  twos: 6694
+  threes: 4202
+  twos: 6832
 title: Ulric
 url: characters/ulric.html
 winrate:
-  threes: '49.11'
-  twos: '47.70'
+  threes: '49.07'
+  twos: '47.97'
 ...

@@ -2,9 +2,9 @@
 builds:
   threes:
   - damage: '6.0'
-    disable: '1.2'
+    disable: '1.1'
     energy: '3.2'
-    num: 193
+    num: 200
     protection: '2.0'
     skills:
     - color: green
@@ -34,11 +34,11 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '51.3'
+    winrate: '50.5'
   - damage: '6.6'
     disable: '1.7'
     energy: '3.5'
-    num: 135
+    num: 136
     protection: '1.9'
     skills:
     - color: green
@@ -68,7 +68,7 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '57.0'
+    winrate: '56.6'
   - damage: '7.4'
     disable: '1.6'
     energy: '3.3'
@@ -173,9 +173,9 @@ builds:
     winrate: '73.7'
   twos:
   - damage: '7.1'
-    disable: '1.1'
-    energy: '3.3'
-    num: 132
+    disable: '1.2'
+    energy: '3.4'
+    num: 92
     protection: '1.6'
     skills:
     - color: red
@@ -207,11 +207,45 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '53.8'
+    winrate: '47.8'
   - damage: '6.7'
+    disable: '1.3'
+    energy: '3.5'
+    num: 53
+    protection: '2.0'
+    skills:
+    - color: green
+      description: War Axe hits reduce the cooldown of Bulwark by 1.
+      icon: e0a2c1fab3bd3d5468cbc7f4942b5448
+      name: Axe and Shield
+      type: survival
+    - color: teal
+      description: Valiant Leap grants 33 damage reduction for 2.5 to nearby allies.
+      icon: 16e7e84d6c786cf4abc695c9b1c29b31
+      name: Bravery
+      type: support
+    - color: grey
+      description: ^2Bulwark^- increases movement speed by 60.
+      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
+      name: Mobile Defence
+      type: mixed
+    - color: teal
+      description: Bulwark can be recast to use Shield Bash. It deals 6 damage and
+        inflicts 50 Weaken for 2.
+      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
+      name: Shield Bash
+      type: support
+    - color: green
+      description: Blood Axe hits heal you for 4 health plus 2 additional health per
+        weapon charge.
+      icon: 741da913acab25641862d0312d75a7a1
+      name: The Red Axe
+      type: survival
+    winrate: '47.2'
+  - damage: '6.5'
     disable: '1.0'
-    energy: '3.4'
-    num: 55
+    energy: '3.3'
+    num: 50
     protection: '1.5'
     skills:
     - color: red
@@ -244,13 +278,19 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
       type: offense
-    winrate: '36.4'
-  - damage: '6.7'
-    disable: '1.3'
-    energy: '3.5'
-    num: 51
+    winrate: '36.0'
+  - damage: '7.6'
+    disable: '1.6'
+    energy: '3.6'
+    num: 42
     protection: '2.1'
     skills:
+    - color: red
+      description: Hitting an enemy with Shield Dash causes your next War Axe hit
+        to deal 9 bonus damage.
+      icon: 84ba51168b08df3489362e3a9be59704
+      name: Adrenaline Slam
+      type: offense
     - color: green
       description: War Axe hits reduce the cooldown of Bulwark by 1.
       icon: e0a2c1fab3bd3d5468cbc7f4942b5448
@@ -261,11 +301,6 @@ builds:
       icon: 16e7e84d6c786cf4abc695c9b1c29b31
       name: Bravery
       type: support
-    - color: grey
-      description: ^2Bulwark^- increases movement speed by 60.
-      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
-      name: Mobile Defence
-      type: mixed
     - color: teal
       description: Bulwark can be recast to use Shield Bash. It deals 6 damage and
         inflicts 50 Weaken for 2.
@@ -278,7 +313,7 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '43.1'
+    winrate: '81.0'
   - damage: '8.0'
     disable: '1.6'
     energy: '3.5'
@@ -314,41 +349,6 @@ builds:
       name: Warlord's Axe
       type: offense
     winrate: '52.6'
-  - damage: '7.7'
-    disable: '1.5'
-    energy: '3.6'
-    num: 38
-    protection: '2.1'
-    skills:
-    - color: red
-      description: Hitting an enemy with Shield Dash causes your next War Axe hit
-        to deal 9 bonus damage.
-      icon: 84ba51168b08df3489362e3a9be59704
-      name: Adrenaline Slam
-      type: offense
-    - color: green
-      description: War Axe hits reduce the cooldown of Bulwark by 1.
-      icon: e0a2c1fab3bd3d5468cbc7f4942b5448
-      name: Axe and Shield
-      type: survival
-    - color: teal
-      description: Valiant Leap grants 33 damage reduction for 2.5 to nearby allies.
-      icon: 16e7e84d6c786cf4abc695c9b1c29b31
-      name: Bravery
-      type: support
-    - color: teal
-      description: Bulwark can be recast to use Shield Bash. It deals 6 damage and
-        inflicts 50 Weaken for 2.
-      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
-      name: Shield Bash
-      type: support
-    - color: green
-      description: Blood Axe hits heal you for 4 health plus 2 additional health per
-        weapon charge.
-      icon: 741da913acab25641862d0312d75a7a1
-      name: The Red Axe
-      type: survival
-    winrate: '81.6'
 description: Bakko has a proud history as a heroic brawler, armed with both axe and
   shield. He uses his shield to protect teammates and outmaneuver enemies. Watch out
   for his earth-shattering dash attacks, as even calm warriors sometimes go berserk.
@@ -356,11 +356,11 @@ icon: 6154d6c0556261343844bf7caebb67a7
 layout: character
 name: bakko
 num:
-  threes: 1397
-  twos: 1600
+  threes: 1399
+  twos: 1569
 title: Bakko
 url: characters/bakko.html
 winrate:
-  threes: '49.96'
-  twos: '50.56'
+  threes: '50.18'
+  twos: '50.03'
 ...

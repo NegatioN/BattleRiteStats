@@ -35,11 +35,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '45.5'
+    winrate: '45.1'
   - damage: '8.0'
     disable: '0.7'
     energy: '3.3'
-    num: 175
+    num: 198
     protection: '0.7'
     skills:
     - color: green
@@ -71,11 +71,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '51.4'
+    winrate: '51.0'
   - damage: '8.8'
     disable: '0.8'
     energy: '3.5'
-    num: 17
+    num: 18
     protection: '1.0'
     skills:
     - color: green
@@ -106,11 +106,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '52.9'
-  - damage: '8.0'
+    winrate: '55.6'
+  - damage: '8.1'
     disable: '1.1'
     energy: '3.9'
-    num: 15
+    num: 16
     protection: '0.2'
     skills:
     - color: pink
@@ -140,11 +140,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '40.0'
-  - damage: '8.1'
+    winrate: '37.5'
+  - damage: '8.0'
     disable: '0.7'
-    energy: '3.1'
-    num: 13
+    energy: '3.0'
+    num: 15
     protection: '0.2'
     skills:
     - color: red
@@ -175,12 +175,12 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '53.8'
+    winrate: '53.3'
   twos:
-  - damage: '8.1'
+  - damage: '8.0'
     disable: '0.7'
     energy: '3.4'
-    num: 334
+    num: 338
     protection: '0.1'
     skills:
     - color: red
@@ -211,11 +211,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '50.6'
-  - damage: '8.2'
+    winrate: '48.8'
+  - damage: '8.1'
     disable: '0.7'
     energy: '3.3'
-    num: 133
+    num: 135
     protection: '0.8'
     skills:
     - color: green
@@ -247,11 +247,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '62.4'
-  - damage: '8.7'
+    winrate: '62.2'
+  - damage: '8.8'
     disable: '1.0'
     energy: '3.9'
-    num: 29
+    num: 31
     protection: '0.1'
     skills:
     - color: pink
@@ -282,8 +282,8 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '55.2'
-  - damage: '7.3'
+    winrate: '54.8'
+  - damage: '7.4'
     disable: '1.0'
     energy: '3.3'
     num: 26
@@ -316,12 +316,12 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '50.0'
-  - damage: '7.7'
+    winrate: '46.2'
+  - damage: '8.3'
     disable: '0.9'
-    energy: '3.5'
-    num: 22
-    protection: '0.8'
+    energy: '3.6'
+    num: 20
+    protection: '0.7'
     skills:
     - color: green
       description: During Haste, the first hit of each Razor Boomerang heals you for
@@ -341,9 +341,10 @@ builds:
       name: Cross Cut
       type: offense
     - color: yellow
-      description: During Haste, Wind Strike hits reapply Haste.
-      icon: 9a292cf4ed808d54c922ab48f5881c5a
-      name: Wind Fury
+      description: During Haste, X-Strike can be used while moving at 55 movement
+        speed.
+      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
+      name: Surprise Attack
       type: mobility
     - color: yellow
       description: Increases Wind Stream duration by 1 and the Haste duration it grants
@@ -351,7 +352,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '40.9'
+    winrate: '65.0'
 description: An exceptionally swift hunter wielding a razor sharp boomerang. By shaping
   the wind around her Taya is able to increase her speed and control her boomerang
   with deadly precision.
@@ -359,11 +360,11 @@ icon: 2905515bc00a1d64e83466ec8e50f8b6
 layout: character
 name: taya
 num:
-  threes: 618
-  twos: 768
+  threes: 646
+  twos: 774
 title: Taya
 url: characters/taya.html
 winrate:
-  threes: '45.63'
-  twos: '51.43'
+  threes: '45.67'
+  twos: '50.39'
 ...

@@ -4,7 +4,7 @@ builds:
   - damage: '7.4'
     disable: '1.1'
     energy: '3.1'
-    num: 141
+    num: 142
     protection: '2.1'
     skills:
     - color: green
@@ -35,11 +35,11 @@ builds:
       icon: 883e2720ad11f2d49b51d9f649c67203
       name: Thundering Spring
       type: mobility
-    winrate: '62.4'
+    winrate: '62.0'
   - damage: '7.5'
     disable: '1.1'
     energy: '3.8'
-    num: 93
+    num: 97
     protection: '2.3'
     skills:
     - color: green
@@ -104,11 +104,11 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    winrate: '50.8'
+    winrate: '49.2'
   - damage: '7.1'
-    disable: '1.1'
+    disable: '1.0'
     energy: '3.5'
-    num: 45
+    num: 46
     protection: '2.3'
     skills:
     - color: green
@@ -141,7 +141,7 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    winrate: '55.6'
+    winrate: '52.2'
   - damage: '7.3'
     disable: '1.2'
     energy: '3.9'
@@ -180,7 +180,7 @@ builds:
   - damage: '7.9'
     disable: '1.5'
     energy: '4.0'
-    num: 162
+    num: 171
     protection: '2.1'
     skills:
     - color: green
@@ -212,11 +212,11 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
       type: mixed
-    winrate: '55.6'
+    winrate: '56.1'
   - damage: '7.5'
     disable: '1.1'
     energy: '3.7'
-    num: 147
+    num: 152
     protection: '2.2'
     skills:
     - color: green
@@ -247,11 +247,11 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    winrate: '51.7'
-  - damage: '7.4'
-    disable: '1.2'
+    winrate: '54.6'
+  - damage: '7.5'
+    disable: '1.1'
     energy: '3.8'
-    num: 104
+    num: 103
     protection: '2.1'
     skills:
     - color: green
@@ -281,11 +281,11 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Tempest
       type: mobility
-    winrate: '58.7'
+    winrate: '60.2'
   - damage: '7.7'
     disable: '1.3'
     energy: '3.9'
-    num: 89
+    num: 92
     protection: '2.1'
     skills:
     - color: green
@@ -316,10 +316,10 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
       type: mixed
-    winrate: '56.2'
-  - damage: '7.3'
+    winrate: '54.3'
+  - damage: '7.4'
     disable: '1.2'
-    energy: '3.8'
+    energy: '3.9'
     num: 73
     protection: '2.2'
     skills:
@@ -359,11 +359,11 @@ icon: be081702a8e70fe44ac0a4e3a9c46368
 layout: character
 name: freya
 num:
-  threes: 970
-  twos: 1812
+  threes: 979
+  twos: 1837
 title: Freya
 url: characters/freya.html
 winrate:
-  threes: '50.31'
-  twos: '48.84'
+  threes: '50.66'
+  twos: '49.05'
 ...
