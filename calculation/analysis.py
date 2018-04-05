@@ -96,6 +96,11 @@ def hero_title(hero_id):
 def hero_icon(hero_id):
     return char_id_lookup[hero_id]['wideIcon']
 
+def hero_info(hero_id):
+    return {'name': hero_name(hero_id),
+            'title': hero_name(hero_id).replace(' ', '-').lower(),
+            'icon': hero_icon(hero_id)}
+
 def brite_icon(battlerite_id):
     return flattned_battlerites[battlerite_id]['icon']
 
@@ -182,6 +187,25 @@ for (h_id, mode), value in appearance_calculations:
 
 named_appearance_summary = {hero_name(c): mode for c, mode in appearance_summary.items()}
 
+compos = defaultdict(lambda: defaultdict(lambda: 0))
+for (matchid, wonFlag), group in main_df.groupby(['matchid', 'wonFlag']):
+    compset = frozenset([x for x in group['character']])
+    compos[compset]['num'] += 1
+    compos[compset]['wins'] += wonFlag
+
+tmp = [{'heros': [hero_info(z) for z in k], 'hero_names': [hero_name(z) for z in k],
+        'wins': int(v['wins']), 'num': int(v['num']), 'winrate': float(v['wins'] / v['num'])}
+       for k,v in compos.items()]
+twos_compos = [x for x in tmp if len(x['heros']) == 2]
+threes_compos = [x for x in tmp if len(x['heros']) == 3]
+
+def hero_compos(hero_name, compo_list):
+    return list(filter(lambda x: hero_name in x['hero_names'], compo_list))
+
+def render_compos(hero_name, compo_list, num):
+    h_comps = hero_compos(hero_name, compo_list)
+    n = num if len(h_comps) > num else len(h_comps)
+    return sort_dict_array_by_key(h_comps, 'num', rev=True)[:n]
 
 def create_character_page_data(twos, threes):
     chars = []
@@ -200,6 +224,8 @@ def create_character_page_data(twos, threes):
                 {'twos': x[0]['builds'],
                  'threes': x[1]['builds']
                  },
+            'compos': {'twos': render_compos(name, twos_compos, 5),
+                       'threes': render_compos(name, threes_compos, 5)},
             'num': {'twos': named_appearance_summary[name]['QUICK2V2']['num'],
                     'threes': named_appearance_summary[name]['QUICK3V3']['num']},
             'winrate': {'twos': prep_output(named_appearance_summary[name]['QUICK2V2']['winrate'] * 100, prec=2),
@@ -208,11 +234,6 @@ def create_character_page_data(twos, threes):
     return chars
 
 character_page_data = create_character_page_data(twos, threes)
-
-def hero_info(hero_id):
-    return {'name': hero_name(hero_id),
-            'title': hero_name(hero_id).replace(' ', '-').lower(),
-            'icon': hero_icon(hero_id)}
 
 def mode_winrate_sorted(mode_string):
     arr = [{**hero_info(h_id),
@@ -226,7 +247,6 @@ master_d = {'frontpage': frontpage_data,
             'threes': mode_winrate_sorted('QUICK3V3'),
             'extra': {'time_generated': datetime.now().strftime('%d %B %Y'),
                       'num_matches': main_df['matchid'].nunique()}}
-
 
 if len(twos) > 15 and len(threes) > 15:
     with open('assets/result.yml', 'w') as yaml_file:
