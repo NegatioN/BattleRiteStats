@@ -4,7 +4,7 @@ builds:
   - damage: '7.4'
     disable: '1.1'
     energy: '3.1'
-    num: 140
+    num: 142
     protection: '2.1'
     skills:
     - color: green
@@ -35,11 +35,11 @@ builds:
       icon: 883e2720ad11f2d49b51d9f649c67203
       name: Thundering Spring
       type: mobility
-    winrate: '62.1'
-  - damage: '7.5'
+    winrate: '62.0'
+  - damage: '7.4'
     disable: '1.1'
     energy: '3.8'
-    num: 100
+    num: 101
     protection: '2.3'
     skills:
     - color: green
@@ -69,46 +69,11 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Tempest
       type: mobility
-    winrate: '49.0'
-  - damage: '7.6'
-    disable: '1.1'
-    energy: '4.0'
-    num: 49
-    protection: '2.1'
-    skills:
-    - color: green
-      description: Spring causes your next Bash to grant you a Shield. It absorbs
-        up to 14 damage for 3.
-      icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Electric Conduction
-      type: survival
-    - color: green
-      description: Each enemy hit by Thunderclap grants you Shield that absorbs up
-        to 10 damage for 3.
-      icon: f5f7b137c0c9d444899035c91cedda42
-      name: Lightning Rod
-      type: survival
-    - color: red
-      description: Spring increases your Bash attack speed by 20 for the next 3 attacks.
-      icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Lightning Speed
-      type: offense
-    - color: pink
-      description: Increases your damage output by 15 while you have an active Electric
-        Shield.
-      icon: a4b023549fa7dbb46bb159a9b8557df2
-      name: Positive Charge
-      type: control
-    - color: red
-      description: Thunderclap deals 5 bonus damage and pulls enemies towards you.
-      icon: f5f7b137c0c9d444899035c91cedda42
-      name: Torrent
-      type: offense
-    winrate: '40.8'
-  - damage: '7.3'
+    winrate: '48.5'
+  - damage: '7.4'
     disable: '1.2'
-    energy: '3.9'
-    num: 46
+    energy: '4.0'
+    num: 50
     protection: '2.3'
     skills:
     - color: green
@@ -138,12 +103,12 @@ builds:
       icon: 296bc93338f9bc94a8afca3763e4a778
       name: Thunderstruck
       type: control
-    winrate: '56.5'
-  - damage: '6.9'
-    disable: '1.0'
+    winrate: '56.0'
+  - damage: '7.0'
+    disable: '1.1'
     energy: '3.3'
-    num: 39
-    protection: '2.2'
+    num: 38
+    protection: '2.3'
     skills:
     - color: green
       description: Spring causes your next Bash to grant you a Shield. It absorbs
@@ -175,13 +140,48 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    winrate: '51.3'
+    winrate: '52.6'
+  - damage: '6.6'
+    disable: '1.0'
+    energy: '3.5'
+    num: 34
+    protection: '2.0'
+    skills:
+    - color: green
+      description: Spring causes your next Bash to grant you a Shield. It absorbs
+        up to 14 damage for 3.
+      icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+      type: survival
+    - color: green
+      description: Each enemy hit by Thunderclap grants you Shield that absorbs up
+        to 10 damage for 3.
+      icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+      type: survival
+    - color: red
+      description: Spring increases your Bash attack speed by 20 for the next 3 attacks.
+      icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Lightning Speed
+      type: offense
+    - color: pink
+      description: Increases your damage output by 15 while you have an active Electric
+        Shield.
+      icon: a4b023549fa7dbb46bb159a9b8557df2
+      name: Positive Charge
+      type: control
+    - color: red
+      description: Thunderclap deals 5 bonus damage and pulls enemies towards you.
+      icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+      type: offense
+    winrate: '38.2'
   twos:
-  - damage: '7.8'
+  - damage: '8.0'
     disable: '1.5'
-    energy: '4.0'
-    num: 177
-    protection: '2.1'
+    energy: '4.1'
+    num: 179
+    protection: '2.2'
     skills:
     - color: green
       description: Spring causes your next Bash to grant you a Shield. It absorbs
@@ -212,11 +212,11 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
       type: mixed
-    winrate: '54.2'
+    winrate: '53.1'
   - damage: '7.5'
     disable: '1.1'
     energy: '3.7'
-    num: 151
+    num: 113
     protection: '2.2'
     skills:
     - color: green
@@ -247,45 +247,11 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    winrate: '51.0'
-  - damage: '7.6'
-    disable: '1.1'
-    energy: '3.9'
-    num: 98
-    protection: '2.1'
-    skills:
-    - color: green
-      description: Spring causes your next Bash to grant you a Shield. It absorbs
-        up to 14 damage for 3.
-      icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Electric Conduction
-      type: survival
-    - color: green
-      description: Each enemy hit by Thunderclap grants you Shield that absorbs up
-        to 10 damage for 3.
-      icon: f5f7b137c0c9d444899035c91cedda42
-      name: Lightning Rod
-      type: survival
-    - color: red
-      description: Spring increases your Bash attack speed by 20 for the next 3 attacks.
-      icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Lightning Speed
-      type: offense
-    - color: yellow
-      description: Move forward during Thunderclap.
-      icon: f5f7b137c0c9d444899035c91cedda42
-      name: Rolling Thunder
-      type: mobility
-    - color: yellow
-      description: Storm Mace hits increase your movement speed by 35 for 2.
-      icon: 92dd476aa2340694c9f1167dfc761287
-      name: Tempest
-      type: mobility
-    winrate: '58.2'
+    winrate: '44.2'
   - damage: '7.7'
     disable: '1.2'
-    energy: '3.9'
-    num: 91
+    energy: '4.0'
+    num: 94
     protection: '2.1'
     skills:
     - color: green
@@ -316,11 +282,45 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
       type: mixed
-    winrate: '57.1'
-  - damage: '7.4'
+    winrate: '56.4'
+  - damage: '7.6'
     disable: '1.2'
     energy: '3.9'
-    num: 77
+    num: 91
+    protection: '2.1'
+    skills:
+    - color: green
+      description: Spring causes your next Bash to grant you a Shield. It absorbs
+        up to 14 damage for 3.
+      icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+      type: survival
+    - color: green
+      description: Each enemy hit by Thunderclap grants you Shield that absorbs up
+        to 10 damage for 3.
+      icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+      type: survival
+    - color: red
+      description: Spring increases your Bash attack speed by 20 for the next 3 attacks.
+      icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Lightning Speed
+      type: offense
+    - color: yellow
+      description: Move forward during Thunderclap.
+      icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
+      type: mobility
+    - color: yellow
+      description: Storm Mace hits increase your movement speed by 35 for 2.
+      icon: 92dd476aa2340694c9f1167dfc761287
+      name: Tempest
+      type: mobility
+    winrate: '58.2'
+  - damage: '7.5'
+    disable: '1.2'
+    energy: '3.8'
+    num: 78
     protection: '2.2'
     skills:
     - color: green
@@ -352,18 +352,18 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    winrate: '59.7'
+    winrate: '59.0'
 description: Once a tribe queen, now a fearless contender. Her titanic hammers and
   overwhelming power of lightning is the perfect recipe for destruction.
 icon: be081702a8e70fe44ac0a4e3a9c46368
 layout: character
 name: freya
 num:
-  threes: 926
-  twos: 1792
+  threes: 909
+  twos: 1734
 title: Freya
 url: characters/freya.html
 winrate:
-  threes: '49.78'
-  twos: '48.44'
+  threes: '50.50'
+  twos: '46.94'
 ...

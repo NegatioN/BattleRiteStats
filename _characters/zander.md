@@ -4,7 +4,7 @@ builds:
   - damage: '3.6'
     disable: '0.6'
     energy: '3.2'
-    num: 337
+    num: 336
     protection: '4.9'
     skills:
     - color: red
@@ -35,11 +35,11 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '54.6'
+    winrate: '54.5'
   - damage: '3.2'
     disable: '0.5'
     energy: '3.1'
-    num: 135
+    num: 137
     protection: '5.3'
     skills:
     - color: red
@@ -69,11 +69,11 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '53.3'
+    winrate: '54.7'
   - damage: '3.7'
     disable: '0.6'
     energy: '3.8'
-    num: 52
+    num: 53
     protection: '6.0'
     skills:
     - color: red
@@ -103,7 +103,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '67.3'
+    winrate: '66.0'
   - damage: '3.8'
     disable: '0.5'
     energy: '3.0'
@@ -140,27 +140,27 @@ builds:
       type: mixed
     winrate: '61.5'
   - damage: '3.2'
-    disable: '0.4'
-    energy: '3.3'
+    disable: '0.5'
+    energy: '3.2'
     num: 14
-    protection: '6.0'
+    protection: '5.2'
     skills:
-    - color: red
-      description: Traveling through a portal resets the cooldown of Grand Conjuration.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Ace up the Sleeve
-      type: offense
-    - color: red
-      description: Increases the duration of Arcane Catalyst by 1 and damage taken
-        by 5.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Arcane Conductor
-      type: offense
     - color: teal
       description: Hearts restores 6 health over the duration.
       icon: 144efc709ac628542aee319b14932b2c
       name: Heart Restoration
       type: support
+    - color: yellow
+      description: Teleporting yourself or an ally with Portal grants target a 50
+        Fading Haste for 2.
+      icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Late to the Show
+      type: mobility
+    - color: red
+      description: Sheep Trick inflicts Arcane Catalyst on targets hit.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: Lead Astray
+      type: offense
     - color: teal
       description: Grants self or allies traveling through your Portal a shield that
         absorbs up to 14 damage for 3.
@@ -178,7 +178,7 @@ builds:
   - damage: '4.0'
     disable: '0.5'
     energy: '3.0'
-    num: 146
+    num: 142
     protection: '4.0'
     skills:
     - color: red
@@ -209,11 +209,11 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '48.6'
-  - damage: '4.2'
+    winrate: '49.3'
+  - damage: '4.1'
     disable: '0.6'
-    energy: '3.0'
-    num: 59
+    energy: '3.1'
+    num: 56
     protection: '3.8'
     skills:
     - color: red
@@ -243,11 +243,11 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '47.5'
-  - damage: '3.9'
+    winrate: '46.4'
+  - damage: '3.8'
     disable: '0.6'
     energy: '3.1'
-    num: 53
+    num: 52
     protection: '4.1'
     skills:
     - color: red
@@ -278,7 +278,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '58.5'
+    winrate: '55.8'
   - damage: '5.0'
     disable: '0.7'
     energy: '3.6'
@@ -319,8 +319,8 @@ builds:
   - damage: '4.0'
     disable: '0.5'
     energy: '2.7'
-    num: 28
-    protection: '3.5'
+    num: 25
+    protection: '3.4'
     skills:
     - color: blue
       description: Allows Grand Conjuration to bounce once upon wall hit and increases
@@ -350,7 +350,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '85.7'
+    winrate: '88.0'
 description: When the famous theatre troupe "The Phantomime Masquerade" disbanded
   after a series of tragic events, their magnificent magician Zander vanished without
   a trace. Known for his unparalleled perfection in card trickery, teleportation,
@@ -361,11 +361,11 @@ icon: 9c4186a6214f12448a7091710b0cde6c
 layout: character
 name: zander
 num:
-  threes: 855
-  twos: 700
+  threes: 850
+  twos: 682
 title: Zander
 url: characters/zander.html
 winrate:
-  threes: '50.76'
-  twos: '50.57'
+  threes: '50.71'
+  twos: '50.15'
 ...

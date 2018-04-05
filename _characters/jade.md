@@ -3,8 +3,8 @@ builds:
   threes:
   - damage: '6.8'
     disable: '1.1'
-    energy: '3.7'
-    num: 188
+    energy: '3.8'
+    num: 178
     protection: '1.0'
     skills:
     - color: red
@@ -36,11 +36,11 @@ builds:
       icon: 20e8f262eca757942bc23d94aa73ab2a
       name: Surprise Shot
       type: control
-    winrate: '53.2'
+    winrate: '53.9'
   - damage: '7.5'
     disable: '1.0'
-    energy: '4.5'
-    num: 150
+    energy: '4.4'
+    num: 153
     protection: '1.1'
     skills:
     - color: red
@@ -71,7 +71,7 @@ builds:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    winrate: '50.0'
+    winrate: '50.3'
   - damage: '7.6'
     disable: '1.1'
     energy: '4.2'
@@ -108,10 +108,10 @@ builds:
       type: utility
     winrate: '48.6'
   - damage: '7.2'
-    disable: '1.1'
+    disable: '1.2'
     energy: '3.9'
-    num: 101
-    protection: '0.9'
+    num: 99
+    protection: '1.0'
     skills:
     - color: red
       description: Stealth resets the cooldown of Snipe. Also increases duration of
@@ -141,11 +141,11 @@ builds:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    winrate: '57.4'
+    winrate: '57.6'
   - damage: '7.9'
     disable: '1.2'
     energy: '3.6'
-    num: 99
+    num: 97
     protection: '0.7'
     skills:
     - color: red
@@ -175,12 +175,12 @@ builds:
       icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
       name: Desperado
       type: offense
-    winrate: '77.8'
+    winrate: '79.4'
   twos:
   - damage: '7.3'
     disable: '1.0'
     energy: '4.2'
-    num: 163
+    num: 152
     protection: '1.0'
     skills:
     - color: red
@@ -211,11 +211,11 @@ builds:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    winrate: '48.5'
+    winrate: '50.0'
   - damage: '7.1'
     disable: '1.1'
     energy: '4.4'
-    num: 92
+    num: 99
     protection: '1.3'
     skills:
     - color: red
@@ -246,7 +246,7 @@ builds:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    winrate: '48.9'
+    winrate: '49.5'
   - damage: '7.4'
     disable: '1.4'
     energy: '3.9'
@@ -316,12 +316,12 @@ builds:
       icon: 20e8f262eca757942bc23d94aa73ab2a
       name: Surprise Shot
       type: control
-    winrate: '65.6'
-  - damage: '6.5'
-    disable: '1.1'
+    winrate: '64.1'
+  - damage: '6.6'
+    disable: '1.0'
     energy: '3.5'
-    num: 48
-    protection: '0.9'
+    num: 50
+    protection: '1.0'
     skills:
     - color: red
       description: Stealth resets the cooldown of Snipe. Also increases duration of
@@ -351,7 +351,7 @@ builds:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    winrate: '43.8'
+    winrate: '38.0'
 description: A mysterious gunslinger. Born with eagle-eyes and armed with a lethal
   sniper rifle, Jade's pinpoint accuracy is a serious threat for anyone who enters
   the arena. For close encounters, she prefers a combination of stealth and trusty
@@ -360,11 +360,11 @@ icon: 38b75268719e2b640a6d62250e102ffa
 layout: character
 name: jade
 num:
-  threes: 1891
-  twos: 1489
+  threes: 1868
+  twos: 1479
 title: Jade
 url: characters/jade.html
 winrate:
-  threes: '50.87'
-  twos: '48.02'
+  threes: '51.28'
+  twos: '48.68'
 ...

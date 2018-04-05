@@ -4,8 +4,8 @@ builds:
   - damage: '4.0'
     disable: '1.2'
     energy: '2.6'
-    num: 213
-    protection: '5.2'
+    num: 214
+    protection: '5.3'
     skills:
     - color: pink
       description: Arachnophobia bounces forward, causing another impact. The radius
@@ -36,8 +36,8 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '46.9'
-  - damage: '3.5'
+    winrate: '48.6'
+  - damage: '3.6'
     disable: '1.3'
     energy: '2.6'
     num: 48
@@ -72,11 +72,11 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '37.5'
+    winrate: '39.6'
   - damage: '3.7'
     disable: '1.2'
     energy: '2.9'
-    num: 40
+    num: 39
     protection: '5.8'
     skills:
     - color: green
@@ -108,7 +108,7 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '45.0'
+    winrate: '48.7'
   - damage: '3.9'
     disable: '1.0'
     energy: '2.4'
@@ -145,10 +145,10 @@ builds:
       name: Swarm Queen
       type: support
     winrate: '39.3'
-  - damage: '4.0'
+  - damage: '3.9'
     disable: '1.2'
     energy: '2.6'
-    num: 24
+    num: 23
     protection: '5.2'
     skills:
     - color: pink
@@ -179,12 +179,12 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '33.3'
+    winrate: '34.8'
   twos:
   - damage: '4.6'
     disable: '1.2'
     energy: '2.5'
-    num: 294
+    num: 303
     protection: '4.5'
     skills:
     - color: pink
@@ -216,11 +216,11 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '57.1'
-  - damage: '4.2'
-    disable: '1.0'
+    winrate: '58.4'
+  - damage: '4.3'
+    disable: '1.1'
     energy: '2.4'
-    num: 48
+    num: 45
     protection: '4.4'
     skills:
     - color: pink
@@ -252,11 +252,11 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '47.9'
+    winrate: '51.1'
   - damage: '4.2'
-    disable: '1.1'
+    disable: '1.2'
     energy: '2.4'
-    num: 38
+    num: 39
     protection: '4.2'
     skills:
     - color: pink
@@ -287,48 +287,12 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '60.5'
-  - damage: '4.4'
-    disable: '1.3'
-    energy: '2.5'
-    num: 34
-    protection: '4.7'
-    skills:
-    - color: pink
-      description: Releasing an Infested enemy inflicts a 20 Snare for 2.5 and pushes
-        it back in the opposite direction.
-      icon: c9f7e2e324bbed3469cbe356da833c9b
-      name: Disperse
-      type: control
-    - color: pink
-      description: Arachnophobia bounces forward, causing another impact. The radius
-        of the second impact is 15 larger.
-      icon: afd7ecd77cdb3064690b9f0277a774dd
-      name: Egg Carrier
-      type: control
-    - color: grey
-      description: Recasting the Queen commands it to fly towards target location.
-        Reduces cooldown of Queen by 1.
-      icon: 7a1d6423f91ba824d8855aa3e9a42247
-      name: Hive Mind
-      type: mixed
-    - color: red
-      description: Arachnophobia deals 8 damage. Increases Panic duration by 0.5.
-      icon: afd7ecd77cdb3064690b9f0277a774dd
-      name: Spiderling Venom
-      type: offense
-    - color: teal
-      description: Queen spawns with a Swarm Shield that absorbs up to 28 damage and
-        lasts 1.2.
-      icon: 7a1d6423f91ba824d8855aa3e9a42247
-      name: Swarm Queen
-      type: support
-    winrate: '50.0'
-  - damage: '3.8'
+    winrate: '59.0'
+  - damage: '3.7'
     disable: '1.1'
     energy: '2.3'
-    num: 34
-    protection: '4.7'
+    num: 35
+    protection: '4.6'
     skills:
     - color: green
       description: Hitting an ally with Bloodsucker causes you to deal no damage to
@@ -359,7 +323,43 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '44.1'
+    winrate: '40.0'
+  - damage: '4.3'
+    disable: '1.3'
+    energy: '2.5'
+    num: 33
+    protection: '4.8'
+    skills:
+    - color: pink
+      description: Releasing an Infested enemy inflicts a 20 Snare for 2.5 and pushes
+        it back in the opposite direction.
+      icon: c9f7e2e324bbed3469cbe356da833c9b
+      name: Disperse
+      type: control
+    - color: pink
+      description: Arachnophobia bounces forward, causing another impact. The radius
+        of the second impact is 15 larger.
+      icon: afd7ecd77cdb3064690b9f0277a774dd
+      name: Egg Carrier
+      type: control
+    - color: grey
+      description: Recasting the Queen commands it to fly towards target location.
+        Reduces cooldown of Queen by 1.
+      icon: 7a1d6423f91ba824d8855aa3e9a42247
+      name: Hive Mind
+      type: mixed
+    - color: red
+      description: Arachnophobia deals 8 damage. Increases Panic duration by 0.5.
+      icon: afd7ecd77cdb3064690b9f0277a774dd
+      name: Spiderling Venom
+      type: offense
+    - color: teal
+      description: Queen spawns with a Swarm Shield that absorbs up to 28 damage and
+        lasts 1.2.
+      icon: 7a1d6423f91ba824d8855aa3e9a42247
+      name: Swarm Queen
+      type: support
+    winrate: '45.5'
 description: Pestilus, secret devotee of the evil Rasal, unleashes swarms of insects
   to infest and cripple his enemies. Advisor to the King of Quna, Pestilus is able
   to release his innermost darkest desires inside the arena.
@@ -367,11 +367,11 @@ icon: a7e0c7a6f0fa2ef49bf684950de34567
 layout: character
 name: pestilus
 num:
-  threes: 603
-  twos: 804
+  threes: 614
+  twos: 824
 title: Pestilus
 url: characters/pestilus.html
 winrate:
-  threes: '43.95'
-  twos: '49.63'
+  threes: '44.30'
+  twos: '49.88'
 ...

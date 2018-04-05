@@ -4,7 +4,7 @@ builds:
   - damage: '8.0'
     disable: '0.7'
     energy: '3.3'
-    num: 232
+    num: 241
     protection: '0.7'
     skills:
     - color: green
@@ -36,11 +36,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '53.9'
+    winrate: '53.5'
   - damage: '7.8'
     disable: '0.8'
     energy: '3.4'
-    num: 219
+    num: 224
     protection: '0.1'
     skills:
     - color: red
@@ -71,11 +71,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '42.5'
-  - damage: '8.6'
+    winrate: '42.9'
+  - damage: '8.8'
     disable: '0.8'
-    energy: '3.4'
-    num: 16
+    energy: '3.5'
+    num: 15
     protection: '1.0'
     skills:
     - color: green
@@ -106,8 +106,8 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '62.5'
-  - damage: '8.8'
+    winrate: '66.7'
+  - damage: '9.1'
     disable: '1.1'
     energy: '3.7'
     num: 15
@@ -142,10 +142,10 @@ builds:
       name: Wind Stream
       type: mobility
     winrate: '53.3'
-  - damage: '8.1'
+  - damage: '8.2'
     disable: '1.1'
-    energy: '3.9'
-    num: 15
+    energy: '4.0'
+    num: 14
     protection: '0.2'
     skills:
     - color: pink
@@ -175,12 +175,12 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '46.7'
+    winrate: '42.9'
   twos:
   - damage: '8.0'
     disable: '0.7'
     energy: '3.3'
-    num: 331
+    num: 341
     protection: '0.1'
     skills:
     - color: red
@@ -211,11 +211,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '49.8'
+    winrate: '50.1'
   - damage: '8.1'
     disable: '0.7'
     energy: '3.3'
-    num: 134
+    num: 139
     protection: '0.8'
     skills:
     - color: green
@@ -247,11 +247,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '59.7'
+    winrate: '58.3'
   - damage: '7.6'
     disable: '1.0'
     energy: '3.4'
-    num: 34
+    num: 35
     protection: '0.2'
     skills:
     - color: pink
@@ -281,12 +281,12 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '58.8'
-  - damage: '8.8'
+    winrate: '60.0'
+  - damage: '8.5'
     disable: '1.0'
-    energy: '3.9'
-    num: 32
-    protection: '0.2'
+    energy: '3.7'
+    num: 24
+    protection: '0.1'
     skills:
     - color: pink
       description: During Haste, Razor Boomerang inflicts Fading Snare for 0.4.
@@ -316,11 +316,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '56.2'
+    winrate: '45.8'
   - damage: '8.1'
     disable: '0.9'
-    energy: '3.6'
-    num: 19
+    energy: '3.5'
+    num: 18
     protection: '0.7'
     skills:
     - color: green
@@ -352,7 +352,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '57.9'
+    winrate: '55.6'
 description: An exceptionally swift hunter wielding a razor sharp boomerang. By shaping
   the wind around her Taya is able to increase her speed and control her boomerang
   with deadly precision.
@@ -360,11 +360,11 @@ icon: 2905515bc00a1d64e83466ec8e50f8b6
 layout: character
 name: taya
 num:
-  threes: 660
-  twos: 772
+  threes: 675
+  twos: 771
 title: Taya
 url: characters/taya.html
 winrate:
-  threes: '47.12'
-  twos: '51.30'
+  threes: '46.81'
+  twos: '50.71'
 ...

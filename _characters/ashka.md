@@ -4,7 +4,7 @@ builds:
   - damage: '8.3'
     disable: '1.0'
     energy: '3.0'
-    num: 100
+    num: 103
     protection: '0.0'
     skills:
     - color: red
@@ -35,7 +35,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '44.0'
+    winrate: '44.7'
   - damage: '8.0'
     disable: '0.6'
     energy: '3.4'
@@ -71,10 +71,10 @@ builds:
       name: Inspiration
       type: utility
     winrate: '47.3'
-  - damage: '8.3'
+  - damage: '8.4'
     disable: '1.0'
     energy: '3.6'
-    num: 91
+    num: 90
     protection: '0.0'
     skills:
     - color: yellow
@@ -105,11 +105,11 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '53.8'
+    winrate: '53.3'
   - damage: '9.3'
     disable: '1.1'
     energy: '3.4'
-    num: 46
+    num: 47
     protection: '0.0'
     skills:
     - color: red
@@ -140,7 +140,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '47.8'
+    winrate: '46.8'
   - damage: '9.3'
     disable: '1.1'
     energy: '3.1'
@@ -180,7 +180,7 @@ builds:
   - damage: '8.2'
     disable: '1.0'
     energy: '3.7'
-    num: 101
+    num: 100
     protection: '0.1'
     skills:
     - color: yellow
@@ -211,11 +211,11 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '60.4'
-  - damage: '7.7'
+    winrate: '61.0'
+  - damage: '7.6'
     disable: '0.9'
     energy: '2.9'
-    num: 57
+    num: 53
     protection: '0.0'
     skills:
     - color: red
@@ -246,7 +246,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '38.6'
+    winrate: '37.7'
   - damage: '8.3'
     disable: '1.0'
     energy: '3.1'
@@ -282,10 +282,10 @@ builds:
       name: Magma
       type: offense
     winrate: '59.4'
-  - damage: '7.6'
+  - damage: '7.5'
     disable: '0.8'
-    energy: '2.6'
-    num: 29
+    energy: '2.5'
+    num: 23
     protection: '0.6'
     skills:
     - color: red
@@ -316,7 +316,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '48.3'
+    winrate: '47.8'
   - damage: '8.1'
     disable: '0.9'
     energy: '3.3'
@@ -359,11 +359,11 @@ icon: 02fbe1fea9e22054a9ab1b0c5007dbae
 layout: character
 name: ashka
 num:
-  threes: 1082
-  twos: 816
+  threes: 1088
+  twos: 819
 title: Ashka
 url: characters/ashka.html
 winrate:
-  threes: '45.19'
-  twos: '45.71'
+  threes: '44.76'
+  twos: '46.28'
 ...

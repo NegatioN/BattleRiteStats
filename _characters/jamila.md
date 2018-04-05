@@ -3,8 +3,8 @@ builds:
   threes:
   - damage: '6.5'
     disable: '1.7'
-    energy: '3.0'
-    num: 74
+    energy: '2.9'
+    num: 70
     protection: '0.9'
     skills:
     - color: pink
@@ -35,11 +35,11 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '47.3'
-  - damage: '6.7'
+    winrate: '47.1'
+  - damage: '6.6'
     disable: '1.4'
-    energy: '3.5'
-    num: 33
+    energy: '3.4'
+    num: 28
     protection: '1.0'
     skills:
     - color: pink
@@ -71,7 +71,7 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '60.6'
+    winrate: '60.7'
   - damage: '5.7'
     disable: '1.1'
     energy: '3.1'
@@ -109,7 +109,7 @@ builds:
   - damage: '6.8'
     disable: '1.4'
     energy: '3.2'
-    num: 26
+    num: 27
     protection: '1.0'
     skills:
     - color: pink
@@ -140,11 +140,11 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '50.0'
-  - damage: '6.0'
+    winrate: '48.1'
+  - damage: '6.2'
     disable: '1.3'
     energy: '2.4'
-    num: 17
+    num: 24
     protection: '1.0'
     skills:
     - color: yellow
@@ -175,9 +175,9 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '29.4'
+    winrate: '41.7'
   twos:
-  - damage: '6.7'
+  - damage: '6.8'
     disable: '1.4'
     energy: '3.3'
     num: 39
@@ -211,7 +211,7 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '46.2'
+    winrate: '48.7'
   - damage: '6.3'
     disable: '1.6'
     energy: '3.1'
@@ -248,41 +248,7 @@ builds:
       name: Taste of Blood
       type: survival
     winrate: '55.0'
-  - damage: '7.3'
-    disable: '1.3'
-    energy: '2.9'
-    num: 18
-    protection: '1.1'
-    skills:
-    - color: green
-      description: Shadow Slice heals you for 10 health.
-      icon: ef4060497167dcd43ab43e87def18d7b
-      name: Drawing Blood
-      type: survival
-    - color: pink
-      description: Increases Stun duration of Deadly Blow by 0.5 and reduces its cooldown
-        by 2.
-      icon: c75e9702831a67e4b98aa0c24af2d865
-      name: Go for the Throat
-      type: control
-    - color: pink
-      description: Hook Shot deals 3 bonus damage and inflicts Root for 0.8.
-      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
-      name: Momentum Strike
-      type: control
-    - color: red
-      description: Phantom Cut deals 8 bonus damage.
-      icon: ef4060497167dcd43ab43e87def18d7b
-      name: Phantom Blades
-      type: offense
-    - color: green
-      description: Shuriken returns to you afterward, healing you for {Can't represent
-        GameValueList} health based on enemies hit.
-      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
-      name: Taste of Blood
-      type: survival
-    winrate: '50.0'
-  - damage: '6.8'
+  - damage: '6.7'
     disable: '1.1'
     energy: '3.2'
     num: 15
@@ -316,12 +282,12 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '46.7'
+    winrate: '40.0'
   - damage: '6.2'
     disable: '1.4'
     energy: '2.9'
-    num: 14
-    protection: '1.0'
+    num: 15
+    protection: '0.9'
     skills:
     - color: pink
       description: Elusive Strike inflicts Fading Snare for 1 and Incapacitate duration
@@ -352,6 +318,40 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
+    winrate: '53.3'
+  - damage: '7.6'
+    disable: '1.3'
+    energy: '2.9'
+    num: 14
+    protection: '1.1'
+    skills:
+    - color: green
+      description: Shadow Slice heals you for 10 health.
+      icon: ef4060497167dcd43ab43e87def18d7b
+      name: Drawing Blood
+      type: survival
+    - color: pink
+      description: Increases Stun duration of Deadly Blow by 0.5 and reduces its cooldown
+        by 2.
+      icon: c75e9702831a67e4b98aa0c24af2d865
+      name: Go for the Throat
+      type: control
+    - color: pink
+      description: Hook Shot deals 3 bonus damage and inflicts Root for 0.8.
+      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
+      name: Momentum Strike
+      type: control
+    - color: red
+      description: Phantom Cut deals 8 bonus damage.
+      icon: ef4060497167dcd43ab43e87def18d7b
+      name: Phantom Blades
+      type: offense
+    - color: green
+      description: Shuriken returns to you afterward, healing you for {Can't represent
+        GameValueList} health based on enemies hit.
+      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
+      name: Taste of Blood
+      type: survival
     winrate: '50.0'
 description: "A young assassin from the Shadowblade clan, Jamila suddenly found herself\
   \ the new leader after the death of her mother, the previous matriarch. As the youngest\
@@ -362,11 +362,11 @@ icon: f283d6dda29cbc845b4f770a1482d75b
 layout: character
 name: jamila
 num:
-  threes: 585
-  twos: 612
+  threes: 578
+  twos: 597
 title: Jamila
 url: characters/jamila.html
 winrate:
-  threes: '43.42'
-  twos: '37.58'
+  threes: '43.08'
+  twos: '37.52'
 ...

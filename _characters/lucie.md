@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '3.4'
+  - damage: '3.5'
     disable: '1.0'
     energy: '2.8'
-    num: 80
+    num: 74
     protection: '5.4'
     skills:
     - color: yellow
@@ -33,11 +33,11 @@ builds:
       icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
       type: offense
-    winrate: '45.0'
+    winrate: '45.9'
   - damage: '4.4'
     disable: '1.1'
     energy: '3.0'
-    num: 57
+    num: 61
     protection: '5.6'
     skills:
     - color: yellow
@@ -67,44 +67,11 @@ builds:
       icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
       type: offense
-    winrate: '40.4'
-  - damage: '3.8'
-    disable: '1.0'
-    energy: '3.0'
-    num: 29
-    protection: '5.6'
-    skills:
-    - color: yellow
-      description: ^2Barrier^- increases movement speed by 33.
-      icon: 46e144a65c818c04eb3d00a21cf513b3
-      name: Alacrity
-      type: mobility
-    - color: teal
-      description: Healing Potion heals other allies for 4 bonus health.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Companion Potion
-      type: support
-    - color: grey
-      description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
-        10 damage when removing a buff.
-      icon: d0c4449b33eef2e4ca2cfa8900910041
-      name: Potency
-      type: mixed
-    - color: pink
-      description: Increases Snare factor of Crippling Goo from 35 to 60.
-      icon: d2c956821eb75a44e98ec7c47710a0cf
-      name: Sticky Goo
-      type: control
-    - color: red
-      description: ^2Revitalize^- increases damage output by 12.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Stimulant
-      type: offense
-    winrate: '62.1'
+    winrate: '41.0'
   - damage: '4.0'
     disable: '1.0'
     energy: '2.9'
-    num: 25
+    num: 30
     protection: '5.5'
     skills:
     - color: yellow
@@ -133,7 +100,40 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '40.0'
+    winrate: '43.3'
+  - damage: '4.0'
+    disable: '1.1'
+    energy: '3.0'
+    num: 25
+    protection: '5.6'
+    skills:
+    - color: yellow
+      description: ^2Barrier^- increases movement speed by 33.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
+      name: Alacrity
+      type: mobility
+    - color: teal
+      description: Healing Potion heals other allies for 4 bonus health.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Companion Potion
+      type: support
+    - color: grey
+      description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
+        10 damage when removing a buff.
+      icon: d0c4449b33eef2e4ca2cfa8900910041
+      name: Potency
+      type: mixed
+    - color: pink
+      description: Increases Snare factor of Crippling Goo from 35 to 60.
+      icon: d2c956821eb75a44e98ec7c47710a0cf
+      name: Sticky Goo
+      type: control
+    - color: red
+      description: ^2Revitalize^- increases damage output by 12.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Stimulant
+      type: offense
+    winrate: '60.0'
   - damage: '3.1'
     disable: '0.9'
     energy: '3.0'
@@ -172,7 +172,7 @@ builds:
   - damage: '4.9'
     disable: '1.5'
     energy: '2.9'
-    num: 72
+    num: 71
     protection: '4.9'
     skills:
     - color: pink
@@ -203,7 +203,7 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '54.2'
+    winrate: '53.5'
   - damage: '4.8'
     disable: '1.3'
     energy: '2.9'
@@ -238,11 +238,11 @@ builds:
       name: Vampiric Toxin
       type: survival
     winrate: '52.8'
-  - damage: '4.6'
+  - damage: '4.5'
     disable: '1.1'
     energy: '3.1'
-    num: 34
-    protection: '4.6'
+    num: 35
+    protection: '4.7'
     skills:
     - color: yellow
       description: ^2Barrier^- increases movement speed by 33.
@@ -270,7 +270,7 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '67.6'
+    winrate: '62.9'
   - damage: '4.4'
     disable: '1.4'
     energy: '3.2'
@@ -344,11 +344,11 @@ icon: e5554b8a15ffc1a499a3807bb3a37b56
 layout: character
 name: lucie
 num:
-  threes: 551
-  twos: 946
+  threes: 557
+  twos: 959
 title: Lucie
 url: characters/lucie.html
 winrate:
-  threes: '44.65'
-  twos: '52.54'
+  threes: '44.88'
+  twos: '52.66'
 ...
