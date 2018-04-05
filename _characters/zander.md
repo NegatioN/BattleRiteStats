@@ -4,7 +4,7 @@ builds:
   - damage: '3.6'
     disable: '0.6'
     energy: '3.2'
-    num: 323
+    num: 337
     protection: '4.9'
     skills:
     - color: red
@@ -35,12 +35,12 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '56.0'
-  - damage: '3.3'
+    winrate: '54.6'
+  - damage: '3.2'
     disable: '0.5'
     energy: '3.1'
-    num: 131
-    protection: '5.2'
+    num: 135
+    protection: '5.3'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 1 and damage taken
@@ -69,11 +69,11 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '52.7'
+    winrate: '53.3'
   - damage: '3.7'
     disable: '0.6'
     energy: '3.8'
-    num: 58
+    num: 52
     protection: '6.0'
     skills:
     - color: red
@@ -103,7 +103,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '72.4'
+    winrate: '67.3'
   - damage: '3.8'
     disable: '0.5'
     energy: '3.0'
@@ -139,29 +139,28 @@ builds:
       name: Stacked Deck
       type: mixed
     winrate: '61.5'
-  - damage: '4.2'
-    disable: '0.6'
-    energy: '3.2'
+  - damage: '3.2'
+    disable: '0.4'
+    energy: '3.3'
     num: 14
-    protection: '3.6'
+    protection: '6.0'
     skills:
+    - color: red
+      description: Traveling through a portal resets the cooldown of Grand Conjuration.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Ace up the Sleeve
+      type: offense
     - color: red
       description: Increases the duration of Arcane Catalyst by 1 and damage taken
         by 5.
       icon: a970261549d4e2b4c923db1944ac2e4b
       name: Arcane Conductor
       type: offense
-    - color: blue
-      description: Allows Grand Conjuration to bounce once upon wall hit and increases
-        its max range by 10. Can still only hit once per enemy.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Arcane Shenanigans
-      type: utility
-    - color: red
-      description: Sheep Trick inflicts Arcane Catalyst on targets hit.
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: Lead Astray
-      type: offense
+    - color: teal
+      description: Hearts restores 6 health over the duration.
+      icon: 144efc709ac628542aee319b14932b2c
+      name: Heart Restoration
+      type: support
     - color: teal
       description: Grants self or allies traveling through your Portal a shield that
         absorbs up to 14 damage for 3.
@@ -174,13 +173,13 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '35.7'
+    winrate: '42.9'
   twos:
-  - damage: '4.1'
+  - damage: '4.0'
     disable: '0.5'
-    energy: '2.9'
-    num: 157
-    protection: '3.9'
+    energy: '3.0'
+    num: 146
+    protection: '4.0'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 1 and damage taken
@@ -210,11 +209,11 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '53.5'
+    winrate: '48.6'
   - damage: '4.2'
     disable: '0.6'
-    energy: '3.1'
-    num: 56
+    energy: '3.0'
+    num: 59
     protection: '3.8'
     skills:
     - color: red
@@ -244,12 +243,12 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '53.6'
+    winrate: '47.5'
   - damage: '3.9'
     disable: '0.6'
     energy: '3.1'
-    num: 46
-    protection: '4.0'
+    num: 53
+    protection: '4.1'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 1 and damage taken
@@ -279,7 +278,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '58.7'
+    winrate: '58.5'
   - damage: '5.0'
     disable: '0.7'
     energy: '3.6'
@@ -316,12 +315,12 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '50.0'
-  - damage: '3.9'
+    winrate: '52.8'
+  - damage: '4.0'
     disable: '0.5'
     energy: '2.7'
-    num: 31
-    protection: '3.4'
+    num: 28
+    protection: '3.5'
     skills:
     - color: blue
       description: Allows Grand Conjuration to bounce once upon wall hit and increases
@@ -351,7 +350,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '77.4'
+    winrate: '85.7'
 description: When the famous theatre troupe "The Phantomime Masquerade" disbanded
   after a series of tragic events, their magnificent magician Zander vanished without
   a trace. Known for his unparalleled perfection in card trickery, teleportation,
@@ -362,11 +361,11 @@ icon: 9c4186a6214f12448a7091710b0cde6c
 layout: character
 name: zander
 num:
-  threes: 840
-  twos: 763
+  threes: 855
+  twos: 700
 title: Zander
 url: characters/zander.html
 winrate:
-  threes: '51.55'
-  twos: '50.85'
+  threes: '50.76'
+  twos: '50.57'
 ...
