@@ -4,7 +4,7 @@ builds:
   - damage: '4.4'
     disable: '0.7'
     energy: '3.5'
-    num: 522
+    num: 514
     protection: '6.1'
     skills:
     - color: grey
@@ -36,7 +36,7 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '54.0'
+    winrate: '53.7'
   - damage: '4.6'
     disable: '0.7'
     energy: '3.6'
@@ -71,11 +71,11 @@ builds:
       icon: 43ddc4074c2b605478c43c9727704ce8
       name: Penitence
       type: mixed
-    winrate: '56.4'
+    winrate: '55.9'
   - damage: '4.3'
     disable: '0.7'
     energy: '3.4'
-    num: 131
+    num: 130
     protection: '6.0'
     skills:
     - color: grey
@@ -107,12 +107,12 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '51.9'
+    winrate: '51.5'
   - damage: '4.5'
     disable: '0.7'
     energy: '3.6'
-    num: 122
-    protection: '6.5'
+    num: 121
+    protection: '6.6'
     skills:
     - color: grey
       description: Charged Hammer of Justice deals 2 bonus damage. Deals full damage
@@ -142,7 +142,7 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '57.4'
+    winrate: '57.9'
   - damage: '4.2'
     disable: '0.7'
     energy: '3.4'
@@ -182,8 +182,8 @@ builds:
   - damage: '4.6'
     disable: '0.7'
     energy: '3.5'
-    num: 559
-    protection: '4.7'
+    num: 575
+    protection: '4.8'
     skills:
     - color: grey
       description: Charged Hammer of Justice deals 2 bonus damage. Deals full damage
@@ -214,11 +214,11 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '52.2'
+    winrate: '52.7'
   - damage: '4.6'
     disable: '0.7'
     energy: '3.3'
-    num: 202
+    num: 205
     protection: '5.5'
     skills:
     - color: grey
@@ -249,11 +249,11 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '60.9'
-  - damage: '4.7'
+    winrate: '59.5'
+  - damage: '4.6'
     disable: '0.7'
     energy: '3.3'
-    num: 150
+    num: 154
     protection: '4.7'
     skills:
     - color: grey
@@ -284,11 +284,11 @@ builds:
       icon: 43ddc4074c2b605478c43c9727704ce8
       name: Penitence
       type: mixed
-    winrate: '46.0'
+    winrate: '45.5'
   - damage: '4.5'
     disable: '0.7'
     energy: '3.3'
-    num: 124
+    num: 123
     protection: '5.1'
     skills:
     - color: grey
@@ -320,11 +320,11 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '51.6'
-  - damage: '4.9'
+    winrate: '52.8'
+  - damage: '5.0'
     disable: '0.7'
     energy: '3.3'
-    num: 96
+    num: 93
     protection: '4.2'
     skills:
     - color: grey
@@ -356,7 +356,7 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '55.2'
+    winrate: '55.9'
 compos:
   threes:
   - hero_names:
@@ -373,9 +373,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 95
-    winrate: 0.6631578947368421
-    wins: 63
+    num: 92
+    winrate: 0.6739130434782609
+    wins: 62
   - hero_names:
     - Ulric
     - Bakko
@@ -390,9 +390,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 82
-    winrate: 0.5975609756097561
-    wins: 49
+    num: 81
+    winrate: 0.5925925925925926
+    wins: 48
   - hero_names:
     - Ulric
     - Thorn
@@ -407,9 +407,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 71
-    winrate: 0.647887323943662
-    wins: 46
+    num: 73
+    winrate: 0.6575342465753424
+    wins: 48
   - hero_names:
     - Ulric
     - Shifu
@@ -425,8 +425,8 @@ compos:
       name: Jade
       title: jade
     num: 58
-    winrate: 0.5517241379310345
-    wins: 32
+    winrate: 0.5344827586206896
+    wins: 31
   - hero_names:
     - Ulric
     - Bakko
@@ -441,9 +441,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 53
-    winrate: 0.6415094339622641
-    wins: 34
+    num: 55
+    winrate: 0.6363636363636364
+    wins: 35
   twos:
   - hero_names:
     - Ulric
@@ -455,9 +455,9 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 486
-    winrate: 0.5452674897119342
-    wins: 265
+    num: 478
+    winrate: 0.5460251046025104
+    wins: 261
   - hero_names:
     - Ulric
     - Rook
@@ -468,9 +468,9 @@ compos:
     - icon: e5d5913527b842b41aed666d27d14231
       name: Rook
       title: rook
-    num: 478
-    winrate: 0.5209205020920502
-    wins: 249
+    num: 470
+    winrate: 0.5255319148936171
+    wins: 247
   - hero_names:
     - Ulric
     - Shifu
@@ -481,9 +481,9 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 453
-    winrate: 0.434878587196468
-    wins: 197
+    num: 463
+    winrate: 0.43844492440604754
+    wins: 203
   - hero_names:
     - Ulric
     - Bakko
@@ -494,9 +494,9 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 411
-    winrate: 0.5036496350364964
-    wins: 207
+    num: 409
+    winrate: 0.5134474327628362
+    wins: 210
   - hero_names:
     - Ulric
     - Jade
@@ -507,9 +507,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 306
-    winrate: 0.5392156862745098
-    wins: 165
+    num: 322
+    winrate: 0.5496894409937888
+    wins: 177
 description: Sworn protector of the weak, devout follower of the Way of Symphony,
   and unwavering light against the dark. Ulric, trained in the holy Monastery of Resonance,
   has spent many years traveling the lands to spread the word of the Light. He joins
@@ -519,11 +519,11 @@ icon: a90600a0f93cf3644b279b61ab3dc5c8
 layout: character
 name: ulric
 num:
-  threes: 3101
-  twos: 4923
+  threes: 3066
+  twos: 4924
 title: Ulric
 url: characters/ulric.html
 winrate:
-  threes: '49.98'
-  twos: '48.43'
+  threes: '50.29'
+  twos: '48.74'
 ...

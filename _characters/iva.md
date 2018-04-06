@@ -34,10 +34,10 @@ builds:
       name: Heavy Rocket
       type: control
     winrate: '51.5'
-  - damage: '7.2'
+  - damage: '7.3'
     disable: '1.0'
     energy: '3.3'
-    num: 28
+    num: 29
     protection: '0.7'
     skills:
     - color: red
@@ -66,11 +66,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '35.7'
-  - damage: '7.0'
-    disable: '1.0'
-    energy: '3.2'
-    num: 17
+    winrate: '34.5'
+  - damage: '7.2'
+    disable: '1.1'
+    energy: '3.4'
+    num: 16
     protection: '0.7'
     skills:
     - color: yellow
@@ -99,7 +99,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '58.8'
+    winrate: '50.0'
   - damage: '7.3'
     disable: '1.3'
     energy: '3.7'
@@ -170,7 +170,7 @@ builds:
   - damage: '7.6'
     disable: '1.0'
     energy: '3.7'
-    num: 93
+    num: 98
     protection: '0.7'
     skills:
     - color: yellow
@@ -199,11 +199,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '48.4'
+    winrate: '49.0'
   - damage: '7.2'
     disable: '0.9'
     energy: '3.1'
-    num: 86
+    num: 85
     protection: '0.7'
     skills:
     - color: red
@@ -232,11 +232,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '40.7'
-  - damage: '7.4'
+    winrate: '40.0'
+  - damage: '7.3'
     disable: '1.0'
     energy: '3.8'
-    num: 38
+    num: 39
     protection: '0.9'
     skills:
     - color: pink
@@ -266,11 +266,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '57.9'
-  - damage: '7.2'
+    winrate: '56.4'
+  - damage: '7.0'
     disable: '1.1'
     energy: '2.7'
-    num: 34
+    num: 31
     protection: '0.5'
     skills:
     - color: yellow
@@ -298,7 +298,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '61.8'
+    winrate: '64.5'
   - damage: '7.3'
     disable: '1.1'
     energy: '4.4'
@@ -399,8 +399,8 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 17
-    winrate: 0.4117647058823529
+    num: 18
+    winrate: 0.3888888888888889
     wins: 7
   - hero_names:
     - Ulric
@@ -416,9 +416,9 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 13
-    winrate: 0.6923076923076923
-    wins: 9
+    num: 14
+    winrate: 0.7142857142857143
+    wins: 10
   twos:
   - hero_names:
     - Ulric
@@ -430,9 +430,9 @@ compos:
     - icon: decba44679fbdae4bb7d0d1cb6a97682
       name: Iva
       title: iva
-    num: 154
-    winrate: 0.4675324675324675
-    wins: 72
+    num: 149
+    winrate: 0.4899328859060403
+    wins: 73
   - hero_names:
     - Iva
     - Blossom
@@ -443,9 +443,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 84
-    winrate: 0.5357142857142857
-    wins: 45
+    num: 83
+    winrate: 0.5180722891566265
+    wins: 43
   - hero_names:
     - Iva
     - Oldur
@@ -470,21 +470,21 @@ compos:
       name: Iva
       title: iva
     num: 54
-    winrate: 0.5185185185185185
-    wins: 28
+    winrate: 0.5
+    wins: 27
   - hero_names:
     - Iva
-    - Lucie
+    - Pearl
     heros:
     - icon: decba44679fbdae4bb7d0d1cb6a97682
       name: Iva
       title: iva
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
     num: 51
-    winrate: 0.5490196078431373
-    wins: 28
+    winrate: 0.5294117647058824
+    wins: 27
 description: A scavenger from the outer realms. Iva has engineered her own arsenal
   of weapons. Firing crazy rockets or unleashing a storm of bullets is her way of
   greeting her opponents in the Arena.
@@ -492,11 +492,11 @@ icon: decba44679fbdae4bb7d0d1cb6a97682
 layout: character
 name: iva
 num:
-  threes: 447
-  twos: 854
+  threes: 449
+  twos: 845
 title: Iva
 url: characters/iva.html
 winrate:
-  threes: '46.98'
-  twos: '44.61'
+  threes: '46.33'
+  twos: '44.62'
 ...

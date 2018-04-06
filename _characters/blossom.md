@@ -38,7 +38,7 @@ builds:
   - damage: '3.5'
     disable: '0.7'
     energy: '3.3'
-    num: 46
+    num: 47
     protection: '6.7'
     skills:
     - color: teal
@@ -69,11 +69,11 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '52.2'
+    winrate: '53.2'
   - damage: '4.8'
     disable: '1.0'
     energy: '3.3'
-    num: 44
+    num: 43
     protection: '5.0'
     skills:
     - color: yellow
@@ -103,11 +103,11 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '52.3'
+    winrate: '51.2'
   - damage: '4.0'
     disable: '0.9'
-    energy: '3.2'
-    num: 35
+    energy: '3.3'
+    num: 36
     protection: '5.7'
     skills:
     - color: green
@@ -136,7 +136,7 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '45.7'
+    winrate: '41.7'
   - damage: '4.3'
     disable: '0.8'
     energy: '3.4'
@@ -175,7 +175,7 @@ builds:
   - damage: '4.9'
     disable: '0.9'
     energy: '3.4'
-    num: 309
+    num: 310
     protection: '5.1'
     skills:
     - color: green
@@ -204,11 +204,11 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '60.2'
+    winrate: '59.7'
   - damage: '4.8'
     disable: '1.0'
-    energy: '3.4'
-    num: 289
+    energy: '3.3'
+    num: 296
     protection: '4.9'
     skills:
     - color: yellow
@@ -238,11 +238,11 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '55.7'
+    winrate: '55.1'
   - damage: '5.2'
     disable: '1.0'
     energy: '3.4'
-    num: 182
+    num: 186
     protection: '4.7'
     skills:
     - color: green
@@ -272,11 +272,11 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '55.5'
+    winrate: '55.4'
   - damage: '5.3'
     disable: '0.9'
     energy: '3.4'
-    num: 76
+    num: 77
     protection: '5.2'
     skills:
     - color: red
@@ -306,12 +306,12 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '60.5'
+    winrate: '61.0'
   - damage: '4.5'
     disable: '1.1'
     energy: '3.2'
-    num: 71
-    protection: '4.7'
+    num: 74
+    protection: '4.6'
     skills:
     - color: pink
       description: Hop causes you to leave behind a Lesser Boom Bloom seed. After
@@ -340,7 +340,7 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '43.7'
+    winrate: '43.2'
 compos:
   threes:
   - hero_names:
@@ -391,9 +391,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 10
-    winrate: 0.7
-    wins: 7
+    num: 9
+    winrate: 0.6666666666666666
+    wins: 6
   - hero_names:
     - Alysia
     - Blossom
@@ -439,9 +439,9 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 206
-    winrate: 0.5728155339805825
-    wins: 118
+    num: 208
+    winrate: 0.5817307692307693
+    wins: 121
   - hero_names:
     - Blossom
     - Freya
@@ -452,9 +452,9 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 184
-    winrate: 0.5217391304347826
-    wins: 96
+    num: 186
+    winrate: 0.521505376344086
+    wins: 97
   - hero_names:
     - Rook
     - Blossom
@@ -465,9 +465,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 177
-    winrate: 0.615819209039548
-    wins: 109
+    num: 173
+    winrate: 0.6127167630057804
+    wins: 106
   - hero_names:
     - Blossom
     - Ezmo
@@ -479,8 +479,8 @@ compos:
       name: Ezmo
       title: ezmo
     num: 130
-    winrate: 0.6076923076923076
-    wins: 79
+    winrate: 0.6230769230769231
+    wins: 81
   - hero_names:
     - Blossom
     - Jade
@@ -491,9 +491,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 123
-    winrate: 0.5121951219512195
-    wins: 63
+    num: 126
+    winrate: 0.5158730158730159
+    wins: 65
 description: Blossom is a happy, bubbly young faun from the Silverdeep Forest. She
   has left her home to investigate a disturbance in the natural order. She is never
   far from her bird companion, Maxwell.
@@ -501,11 +501,11 @@ icon: 6f50396e26efe6c4bbad274e2c90b8a4
 layout: character
 name: blossom
 num:
-  threes: 449
-  twos: 1839
+  threes: 448
+  twos: 1853
 title: Blossom
 url: characters/blossom.html
 winrate:
-  threes: '48.78'
-  twos: '54.54'
+  threes: '48.44'
+  twos: '54.34'
 ...

@@ -4,7 +4,7 @@ builds:
   - damage: '3.5'
     disable: '1.0'
     energy: '2.8'
-    num: 69
+    num: 66
     protection: '5.4'
     skills:
     - color: yellow
@@ -33,7 +33,7 @@ builds:
       icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
       type: offense
-    winrate: '46.4'
+    winrate: '47.0'
   - damage: '4.4'
     disable: '1.1'
     energy: '3.0'
@@ -241,7 +241,7 @@ builds:
   - damage: '4.6'
     disable: '1.0'
     energy: '3.1'
-    num: 36
+    num: 35
     protection: '4.7'
     skills:
     - color: yellow
@@ -270,12 +270,12 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '61.1'
+    winrate: '62.9'
   - damage: '4.4'
     disable: '1.4'
     energy: '3.2'
-    num: 32
-    protection: '4.4'
+    num: 31
+    protection: '4.5'
     skills:
     - color: pink
       description: Clarity Potion inflicts 30 Snare for 3.
@@ -304,7 +304,7 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '53.1'
+    winrate: '54.8'
   - damage: '4.2'
     disable: '1.1'
     energy: '2.9'
@@ -372,9 +372,26 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 17
-    winrate: 0.17647058823529413
+    num: 15
+    winrate: 0.2
     wins: 3
+  - hero_names:
+    - Taya
+    - Shifu
+    - Lucie
+    heros:
+    - icon: 2905515bc00a1d64e83466ec8e50f8b6
+      name: Taya
+      title: taya
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 13
+    winrate: 0.6153846153846154
+    wins: 8
   - hero_names:
     - Ulric
     - Jade
@@ -386,23 +403,6 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 12
-    winrate: 0.5833333333333334
-    wins: 7
-  - hero_names:
-    - Ulric
-    - Shifu
-    - Lucie
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
@@ -437,8 +437,8 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 125
-    winrate: 0.496
+    num: 123
+    winrate: 0.5040650406504065
     wins: 62
   - hero_names:
     - Freya
@@ -490,19 +490,19 @@ compos:
       name: Lucie
       title: lucie
     num: 68
-    winrate: 0.6029411764705882
-    wins: 41
+    winrate: 0.5882352941176471
+    wins: 40
 description: Lucie is a diverse contender who knows which brew makes you choke, heal
   or flee in fear. The arena has become her new playground for wild experiments.
 icon: e5554b8a15ffc1a499a3807bb3a37b56
 layout: character
 name: lucie
 num:
-  threes: 586
-  twos: 977
+  threes: 587
+  twos: 969
 title: Lucie
 url: characters/lucie.html
 winrate:
-  threes: '44.88'
-  twos: '51.89'
+  threes: '43.78'
+  twos: '51.91'
 ...

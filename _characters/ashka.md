@@ -1,10 +1,45 @@
 ---
 builds:
   threes:
+  - damage: '8.3'
+    disable: '1.0'
+    energy: '3.0'
+    num: 104
+    protection: '0.0'
+    skills:
+    - color: red
+      description: Fire Storm hits deal 2 bonus damage and spread fire to other nearby
+        enemies, dealing 8 damage and inflicting Ignite.
+      icon: 117c35c7f757858428a733d8da4982be
+      name: Combustion
+      type: offense
+    - color: grey
+      description: Increases Flamestrike radius by 15 and reduces cooldown by 1.
+      icon: 48122c1a1a8cae7408409c90126f11cb
+      name: Eruption
+      type: mixed
+    - color: yellow
+      description: Fire Storm can be cast while moving at 50 movement speed and 30
+        while channeling.
+      icon: 117c35c7f757858428a733d8da4982be
+      name: Heat
+      type: mobility
+    - color: red
+      description: Flamestrike deals 10 bonus damage and inflicts Ignite.
+      icon: 48122c1a1a8cae7408409c90126f11cb
+      name: Inferno
+      type: offense
+    - color: red
+      description: Ignite deals 2 bonus damage when first applied and reduces target's
+        movement speed by 10.
+      icon: 7612ba34ea3cdf9429a033d92e85c117
+      name: Magma
+      type: offense
+    winrate: '45.2'
   - damage: '8.4'
     disable: '1.0'
     energy: '3.6'
-    num: 102
+    num: 103
     protection: '0.0'
     skills:
     - color: yellow
@@ -35,46 +70,11 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '53.9'
-  - damage: '8.3'
-    disable: '1.0'
-    energy: '3.0'
-    num: 98
-    protection: '0.0'
-    skills:
-    - color: red
-      description: Fire Storm hits deal 2 bonus damage and spread fire to other nearby
-        enemies, dealing 8 damage and inflicting Ignite.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Combustion
-      type: offense
-    - color: grey
-      description: Increases Flamestrike radius by 15 and reduces cooldown by 1.
-      icon: 48122c1a1a8cae7408409c90126f11cb
-      name: Eruption
-      type: mixed
-    - color: yellow
-      description: Fire Storm can be cast while moving at 50 movement speed and 30
-        while channeling.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Heat
-      type: mobility
-    - color: red
-      description: Flamestrike deals 10 bonus damage and inflicts Ignite.
-      icon: 48122c1a1a8cae7408409c90126f11cb
-      name: Inferno
-      type: offense
-    - color: red
-      description: Ignite deals 2 bonus damage when first applied and reduces target's
-        movement speed by 10.
-      icon: 7612ba34ea3cdf9429a033d92e85c117
-      name: Magma
-      type: offense
-    winrate: '42.9'
-  - damage: '7.9'
+    winrate: '54.4'
+  - damage: '7.8'
     disable: '0.7'
     energy: '3.3'
-    num: 74
+    num: 65
     protection: '0.0'
     skills:
     - color: red
@@ -105,7 +105,7 @@ builds:
       icon: 61e058b8f4b79f4419ec1496f223ee36
       name: Inspiration
       type: utility
-    winrate: '40.5'
+    winrate: '40.0'
   - damage: '9.3'
     disable: '1.1'
     energy: '3.4'
@@ -212,10 +212,10 @@ builds:
       name: Magma
       type: offense
     winrate: '63.3'
-  - damage: '7.5'
+  - damage: '7.6'
     disable: '0.9'
     energy: '2.9'
-    num: 52
+    num: 53
     protection: '0.0'
     skills:
     - color: red
@@ -246,7 +246,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '34.6'
+    winrate: '35.8'
   - damage: '8.3'
     disable: '1.0'
     energy: '3.0'
@@ -282,6 +282,42 @@ builds:
       name: Magma
       type: offense
     winrate: '54.5'
+  - damage: '7.6'
+    disable: '0.9'
+    energy: '3.3'
+    num: 29
+    protection: '0.0'
+    skills:
+    - color: red
+      description: Searing Flight causes your next Fireball to deal 2 bonus damage
+        and inflict Ignite.
+      icon: de69286ec8d6c934c9b04c51d1814b5c
+      name: Blaze
+      type: offense
+    - color: red
+      description: Fireballs traveling through Firewall turn into Fire Storm bolts.
+      icon: c6d71f7b4598ec14cab637f6d9ffce64
+      name: Conflagration
+      type: offense
+    - color: yellow
+      description: Fire Storm can be cast while moving at 50 movement speed and 30
+        while channeling.
+      icon: 117c35c7f757858428a733d8da4982be
+      name: Heat
+      type: mobility
+    - color: blue
+      description: Increases energy gain from abilities by 10 and maximum energy by
+        25.
+      icon: 61e058b8f4b79f4419ec1496f223ee36
+      name: Inspiration
+      type: utility
+    - color: red
+      description: Ignite deals 2 bonus damage when first applied and reduces target's
+        movement speed by 10.
+      icon: 7612ba34ea3cdf9429a033d92e85c117
+      name: Magma
+      type: offense
+    winrate: '69.0'
   - damage: '7.4'
     disable: '0.8'
     energy: '2.5'
@@ -317,42 +353,6 @@ builds:
       name: Magma
       type: offense
     winrate: '43.5'
-  - damage: '7.4'
-    disable: '0.9'
-    energy: '3.3'
-    num: 22
-    protection: '0.0'
-    skills:
-    - color: red
-      description: Searing Flight causes your next Fireball to deal 2 bonus damage
-        and inflict Ignite.
-      icon: de69286ec8d6c934c9b04c51d1814b5c
-      name: Blaze
-      type: offense
-    - color: red
-      description: Fireballs traveling through Firewall turn into Fire Storm bolts.
-      icon: c6d71f7b4598ec14cab637f6d9ffce64
-      name: Conflagration
-      type: offense
-    - color: yellow
-      description: Fire Storm can be cast while moving at 50 movement speed and 30
-        while channeling.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Heat
-      type: mobility
-    - color: blue
-      description: Increases energy gain from abilities by 10 and maximum energy by
-        25.
-      icon: 61e058b8f4b79f4419ec1496f223ee36
-      name: Inspiration
-      type: utility
-    - color: red
-      description: Ignite deals 2 bonus damage when first applied and reduces target's
-        movement speed by 10.
-      icon: 7612ba34ea3cdf9429a033d92e85c117
-      name: Magma
-      type: offense
-    winrate: '68.2'
 compos:
   threes:
   - hero_names:
@@ -370,8 +370,8 @@ compos:
       name: Bakko
       title: bakko
     num: 50
-    winrate: 0.62
-    wins: 31
+    winrate: 0.64
+    wins: 32
   - hero_names:
     - Ulric
     - Ashka
@@ -403,9 +403,9 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 35
-    winrate: 0.5142857142857142
-    wins: 18
+    num: 34
+    winrate: 0.5
+    wins: 17
   - hero_names:
     - Ashka
     - Thorn
@@ -437,8 +437,8 @@ compos:
     - icon: aab126231d9ff344f9f88ab230a5e66f
       name: Thorn
       title: thorn
-    num: 23
-    winrate: 0.5217391304347826
+    num: 24
+    winrate: 0.5
     wins: 12
   twos:
   - hero_names:
@@ -464,8 +464,8 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 91
-    winrate: 0.6483516483516484
+    num: 93
+    winrate: 0.6344086021505376
     wins: 59
   - hero_names:
     - Ashka
@@ -477,9 +477,9 @@ compos:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    num: 76
-    winrate: 0.4868421052631579
-    wins: 37
+    num: 81
+    winrate: 0.5061728395061729
+    wins: 41
   - hero_names:
     - Ashka
     - Pearl
@@ -490,8 +490,8 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 51
-    winrate: 0.5882352941176471
+    num: 53
+    winrate: 0.5660377358490566
     wins: 30
   - hero_names:
     - Ashka
@@ -504,8 +504,8 @@ compos:
       name: Shifu
       title: shifu
     num: 47
-    winrate: 0.425531914893617
-    wins: 20
+    winrate: 0.44680851063829785
+    wins: 21
 description: A masked creature specialized in dark sorcery and pyro-kinetic powers.
   Casts devastating fire spells on his opponents and avoids close combat. Don't be
   fooled by his size, Ashka's inner demon strikes fear into all who face him.
@@ -513,11 +513,11 @@ icon: 02fbe1fea9e22054a9ab1b0c5007dbae
 layout: character
 name: ashka
 num:
-  threes: 1071
-  twos: 846
+  threes: 1063
+  twos: 862
 title: Ashka
 url: characters/ashka.html
 winrate:
-  threes: '43.70'
-  twos: '47.16'
+  threes: '43.56'
+  twos: '47.10'
 ...

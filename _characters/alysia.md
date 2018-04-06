@@ -4,7 +4,7 @@ builds:
   - damage: '8.2'
     disable: '0.9'
     energy: '3.2'
-    num: 78
+    num: 79
     protection: '0.8'
     skills:
     - color: blue
@@ -37,7 +37,7 @@ builds:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    winrate: '51.3'
+    winrate: '51.9'
   - damage: '8.4'
     disable: '0.9'
     energy: '3.5'
@@ -77,8 +77,8 @@ builds:
   - damage: '7.3'
     disable: '0.8'
     energy: '3.2'
-    num: 31
-    protection: '0.6'
+    num: 32
+    protection: '0.5'
     skills:
     - color: blue
       description: Increases Flash Freeze radius by 10 and reduces cooldown by 1.
@@ -109,7 +109,7 @@ builds:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    winrate: '45.2'
+    winrate: '46.9'
   - damage: '7.7'
     disable: '0.9'
     energy: '3.4'
@@ -184,10 +184,10 @@ builds:
       type: offense
     winrate: '56.5'
   twos:
-  - damage: '7.1'
+  - damage: '7.0'
     disable: '0.8'
-    energy: '3.1'
-    num: 34
+    energy: '3.0'
+    num: 33
     protection: '0.9'
     skills:
     - color: blue
@@ -220,10 +220,47 @@ builds:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    winrate: '29.4'
-  - damage: '6.7'
+    winrate: '30.3'
+  - damage: '7.6'
+    disable: '0.7'
+    energy: '2.7'
+    num: 26
+    protection: '0.6'
+    skills:
+    - color: red
+      description: Ice Lance deals 3 bonus damage and breaks Freeze before dealing
+        damage.
+      icon: bffd25b328052f647a5e1705071fe746
+      name: Ice Breaker
+      type: offense
+    - color: red
+      description: Increases Ice Lance range by 10. It pierces enemies and damage
+        reduces 30 per hit.
+      icon: bffd25b328052f647a5e1705071fe746
+      name: Piercing Cold
+      type: offense
+    - color: red
+      description: Flash Freeze impact leaves a lingering snowstorm that deals 12
+        damage and inflicts Chill over 2.5. The damage affects enemies with Freeze
+        directly.
+      icon: 54bc49f3587260f45b1c4e8e2856e6b7
+      name: Snowstorm
+      type: offense
+    - color: yellow
+      description: Arctic Wind can be recast to perform a short leap.
+      icon: 1ac43589909cda746bafbf3da20d1559
+      name: Twirl
+      type: mobility
+    - color: red
+      description: You can break your own ice crown with a single Frost Bolt to launch
+        the cone of icicles.
+      icon: 46faed2871863c34d83a612e2ddccc9e
+      name: Vandalism
+      type: offense
+    winrate: '42.3'
+  - damage: '6.8'
     disable: '0.8'
-    energy: '2.9'
+    energy: '3.1'
     num: 25
     protection: '0.6'
     skills:
@@ -257,47 +294,10 @@ builds:
       name: Twirl
       type: mobility
     winrate: '32.0'
-  - damage: '7.5'
+  - damage: '6.5'
     disable: '0.7'
-    energy: '2.7'
-    num: 25
-    protection: '0.6'
-    skills:
-    - color: red
-      description: Ice Lance deals 3 bonus damage and breaks Freeze before dealing
-        damage.
-      icon: bffd25b328052f647a5e1705071fe746
-      name: Ice Breaker
-      type: offense
-    - color: red
-      description: Increases Ice Lance range by 10. It pierces enemies and damage
-        reduces 30 per hit.
-      icon: bffd25b328052f647a5e1705071fe746
-      name: Piercing Cold
-      type: offense
-    - color: red
-      description: Flash Freeze impact leaves a lingering snowstorm that deals 12
-        damage and inflicts Chill over 2.5. The damage affects enemies with Freeze
-        directly.
-      icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Snowstorm
-      type: offense
-    - color: yellow
-      description: Arctic Wind can be recast to perform a short leap.
-      icon: 1ac43589909cda746bafbf3da20d1559
-      name: Twirl
-      type: mobility
-    - color: red
-      description: You can break your own ice crown with a single Frost Bolt to launch
-        the cone of icicles.
-      icon: 46faed2871863c34d83a612e2ddccc9e
-      name: Vandalism
-      type: offense
-    winrate: '40.0'
-  - damage: '6.4'
-    disable: '0.7'
-    energy: '2.9'
-    num: 23
+    energy: '3.0'
+    num: 24
     protection: '0.7'
     skills:
     - color: yellow
@@ -329,7 +329,7 @@ builds:
       icon: 1ac43589909cda746bafbf3da20d1559
       name: Twirl
       type: mobility
-    winrate: '26.1'
+    winrate: '29.2'
   - damage: '8.0'
     disable: '1.3'
     energy: '3.7'
@@ -397,8 +397,8 @@ compos:
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
-    num: 27
-    winrate: 0.37037037037037035
+    num: 25
+    winrate: 0.4
     wins: 10
   - hero_names:
     - Ulric
@@ -414,26 +414,26 @@ compos:
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
-    num: 25
-    winrate: 0.6
+    num: 24
+    winrate: 0.625
     wins: 15
   - hero_names:
     - Ulric
-    - Thorn
     - Alysia
+    - Shifu
     heros:
     - icon: a90600a0f93cf3644b279b61ab3dc5c8
       name: Ulric
       title: ulric
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
-    num: 23
-    winrate: 0.4782608695652174
-    wins: 11
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    num: 22
+    winrate: 0.4090909090909091
+    wins: 9
   - hero_names:
     - Ulric
     - Alysia
@@ -462,9 +462,9 @@ compos:
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
-    num: 159
-    winrate: 0.48427672955974843
-    wins: 77
+    num: 167
+    winrate: 0.49101796407185627
+    wins: 82
   - hero_names:
     - Blossom
     - Alysia
@@ -475,8 +475,8 @@ compos:
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
-    num: 62
-    winrate: 0.5806451612903226
+    num: 61
+    winrate: 0.5901639344262295
     wins: 36
   - hero_names:
     - Oldur
@@ -488,8 +488,8 @@ compos:
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
-    num: 46
-    winrate: 0.391304347826087
+    num: 44
+    winrate: 0.4090909090909091
     wins: 18
   - hero_names:
     - Alysia
@@ -501,22 +501,22 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 41
-    winrate: 0.34146341463414637
+    num: 40
+    winrate: 0.35
     wins: 14
   - hero_names:
-    - Shifu
     - Alysia
+    - Sirius
     heros:
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
     num: 35
-    winrate: 0.42857142857142855
-    wins: 15
+    winrate: 0.22857142857142856
+    wins: 8
 description: From the frozen north comes the ice sculptor Alysia. Her power allows
   her to wield ice with both grace and deadly precision. She can damage and freeze
   her enemies from a distance, while shielding her allies with ice. Obsessed with
@@ -526,11 +526,11 @@ icon: 50404d271ae2a4f4f8b52de966688dc1
 layout: character
 name: alysia
 num:
-  threes: 761
-  twos: 680
+  threes: 757
+  twos: 690
 title: Alysia
 url: characters/alysia.html
 winrate:
-  threes: '43.76'
-  twos: '38.53'
+  threes: '44.12'
+  twos: '38.55'
 ...

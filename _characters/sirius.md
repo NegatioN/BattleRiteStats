@@ -39,10 +39,10 @@ builds:
       name: Sunwell
       type: mobility
     winrate: '48.1'
-  - damage: '4.6'
+  - damage: '4.5'
     disable: '1.0'
     energy: '3.3'
-    num: 45
+    num: 46
     protection: '5.0'
     skills:
     - color: red
@@ -74,7 +74,7 @@ builds:
       icon: f13a6cad4bcaa974f8147e8a29a49dfe
       name: Sunbath
       type: support
-    winrate: '51.1'
+    winrate: '47.8'
   - damage: '3.7'
     disable: '1.0'
     energy: '3.4'
@@ -186,8 +186,8 @@ builds:
   twos:
   - damage: '4.5'
     disable: '1.0'
-    energy: '3.1'
-    num: 144
+    energy: '3.2'
+    num: 141
     protection: '4.5'
     skills:
     - color: red
@@ -219,11 +219,11 @@ builds:
       icon: f13a6cad4bcaa974f8147e8a29a49dfe
       name: Sunbath
       type: support
-    winrate: '50.7'
-  - damage: '4.1'
+    winrate: '51.8'
+  - damage: '4.0'
     disable: '0.9'
     energy: '3.1'
-    num: 103
+    num: 107
     protection: '4.0'
     skills:
     - color: red
@@ -255,11 +255,11 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '52.4'
-  - damage: '4.0'
+    winrate: '51.4'
+  - damage: '4.1'
     disable: '0.7'
-    energy: '3.1'
-    num: 67
+    energy: '3.2'
+    num: 68
     protection: '4.6'
     skills:
     - color: red
@@ -290,7 +290,7 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '52.2'
+    winrate: '52.9'
   - damage: '4.7'
     disable: '0.8'
     energy: '3.3'
@@ -363,6 +363,23 @@ builds:
 compos:
   threes:
   - hero_names:
+    - Freya
+    - Sirius
+    - Jade
+    heros:
+    - icon: be081702a8e70fe44ac0a4e3a9c46368
+      name: Freya
+      title: freya
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 19
+    winrate: 0.42105263157894735
+    wins: 8
+  - hero_names:
     - Ulric
     - Sirius
     - Jade
@@ -380,23 +397,6 @@ compos:
     winrate: 0.6666666666666666
     wins: 12
   - hero_names:
-    - Freya
-    - Sirius
-    - Jade
-    heros:
-    - icon: be081702a8e70fe44ac0a4e3a9c46368
-      name: Freya
-      title: freya
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 18
-    winrate: 0.4444444444444444
-    wins: 8
-  - hero_names:
     - Shifu
     - Sirius
     - Jade
@@ -410,8 +410,8 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 17
-    winrate: 0.47058823529411764
+    num: 18
+    winrate: 0.4444444444444444
     wins: 8
   - hero_names:
     - Sirius
@@ -462,18 +462,18 @@ compos:
     winrate: 0.5170068027210885
     wins: 76
   - hero_names:
-    - Rook
+    - Bakko
     - Sirius
     heros:
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 86
-    winrate: 0.5348837209302325
-    wins: 46
+    num: 85
+    winrate: 0.611764705882353
+    wins: 52
   - hero_names:
     - Freya
     - Sirius
@@ -484,22 +484,22 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 81
-    winrate: 0.4074074074074074
+    num: 84
+    winrate: 0.39285714285714285
     wins: 33
   - hero_names:
-    - Bakko
+    - Rook
     - Sirius
     heros:
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 81
-    winrate: 0.6049382716049383
-    wins: 49
+    num: 83
+    winrate: 0.5301204819277109
+    wins: 44
   - hero_names:
     - Croak
     - Sirius
@@ -510,9 +510,9 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 60
-    winrate: 0.35
-    wins: 21
+    num: 54
+    winrate: 0.3148148148148148
+    wins: 17
 description: Sirius, a calm prodigy who uses the energies of stars and planets as
   destructive spells and healing powers. The prophecy was true and foretold the birth
   of the Zenith.
@@ -520,11 +520,11 @@ icon: aa93dc83288cb954aa3a97aabe8320dd
 layout: character
 name: sirius
 num:
-  threes: 740
-  twos: 1043
+  threes: 736
+  twos: 1054
 title: Sirius
 url: characters/sirius.html
 winrate:
-  threes: '46.89'
-  twos: '44.58'
+  threes: '46.33'
+  twos: '44.88'
 ...

@@ -4,7 +4,7 @@ builds:
   - damage: '8.0'
     disable: '0.7'
     energy: '3.3'
-    num: 259
+    num: 257
     protection: '0.7'
     skills:
     - color: green
@@ -36,11 +36,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '54.8'
+    winrate: '54.9'
   - damage: '7.8'
     disable: '0.8'
     energy: '3.4'
-    num: 202
+    num: 205
     protection: '0.1'
     skills:
     - color: red
@@ -71,11 +71,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '43.1'
-  - damage: '9.2'
+    winrate: '42.4'
+  - damage: '9.1'
     disable: '1.1'
-    energy: '3.8'
-    num: 20
+    energy: '3.7'
+    num: 21
     protection: '0.1'
     skills:
     - color: pink
@@ -106,11 +106,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '50.0'
-  - damage: '8.0'
+    winrate: '52.4'
+  - damage: '8.4'
     disable: '1.1'
-    energy: '3.9'
-    num: 13
+    energy: '4.0'
+    num: 12
     protection: '0.2'
     skills:
     - color: pink
@@ -140,12 +140,12 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '30.8'
-  - damage: '8.5'
-    disable: '0.7'
-    energy: '3.3'
-    num: 10
-    protection: '1.1'
+    winrate: '33.3'
+  - damage: '8.6'
+    disable: '0.8'
+    energy: '3.5'
+    num: 11
+    protection: '1.0'
     skills:
     - color: green
       description: During Haste, the first hit of each Razor Boomerang heals you for
@@ -175,12 +175,12 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '70.0'
+    winrate: '72.7'
   twos:
-  - damage: '8.1'
+  - damage: '8.0'
     disable: '0.7'
-    energy: '3.3'
-    num: 322
+    energy: '3.4'
+    num: 316
     protection: '0.1'
     skills:
     - color: red
@@ -211,7 +211,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '51.2'
+    winrate: '51.3'
   - damage: '8.1'
     disable: '0.7'
     energy: '3.3'
@@ -248,10 +248,10 @@ builds:
       name: Wind Stream
       type: mobility
     winrate: '55.6'
-  - damage: '7.8'
+  - damage: '7.7'
     disable: '1.0'
     energy: '3.5'
-    num: 33
+    num: 34
     protection: '0.2'
     skills:
     - color: pink
@@ -281,7 +281,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '63.6'
+    winrate: '61.8'
   - damage: '8.3'
     disable: '1.0'
     energy: '3.6'
@@ -317,10 +317,10 @@ builds:
       name: Wind Stream
       type: mobility
     winrate: '47.4'
-  - damage: '7.9'
+  - damage: '8.0'
     disable: '0.9'
     energy: '3.6'
-    num: 15
+    num: 14
     protection: '0.7'
     skills:
     - color: green
@@ -352,7 +352,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '60.0'
+    winrate: '57.1'
 compos:
   threes:
   - hero_names:
@@ -407,23 +407,6 @@ compos:
     winrate: 0.47058823529411764
     wins: 8
   - hero_names:
-    - Ulric
-    - Taya
-    - Thorn
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: 2905515bc00a1d64e83466ec8e50f8b6
-      name: Taya
-      title: taya
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    num: 17
-    winrate: 0.35294117647058826
-    wins: 6
-  - hero_names:
     - Thorn
     - Taya
     - Poloma
@@ -440,6 +423,23 @@ compos:
     num: 16
     winrate: 0.6875
     wins: 11
+  - hero_names:
+    - Ulric
+    - Taya
+    - Thorn
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: 2905515bc00a1d64e83466ec8e50f8b6
+      name: Taya
+      title: taya
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    num: 15
+    winrate: 0.4
+    wins: 6
   twos:
   - hero_names:
     - Ulric
@@ -451,8 +451,8 @@ compos:
     - icon: 2905515bc00a1d64e83466ec8e50f8b6
       name: Taya
       title: taya
-    num: 150
-    winrate: 0.54
+    num: 149
+    winrate: 0.5436241610738255
     wins: 81
   - hero_names:
     - Taya
@@ -464,9 +464,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 69
-    winrate: 0.5797101449275363
-    wins: 40
+    num: 70
+    winrate: 0.5857142857142857
+    wins: 41
   - hero_names:
     - Taya
     - Oldur
@@ -477,8 +477,8 @@ compos:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    num: 60
-    winrate: 0.43333333333333335
+    num: 59
+    winrate: 0.4406779661016949
     wins: 26
   - hero_names:
     - Taya
@@ -513,11 +513,11 @@ icon: 2905515bc00a1d64e83466ec8e50f8b6
 layout: character
 name: taya
 num:
-  threes: 664
-  twos: 726
+  threes: 669
+  twos: 727
 title: Taya
 url: characters/taya.html
 winrate:
-  threes: '48.34'
-  twos: '51.10'
+  threes: '47.98'
+  twos: '51.17'
 ...

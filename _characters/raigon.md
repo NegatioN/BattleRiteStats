@@ -1,41 +1,6 @@
 ---
 builds:
   threes:
-  - damage: '6.8'
-    disable: '1.1'
-    energy: '3.8'
-    num: 26
-    protection: '1.8'
-    skills:
-    - color: yellow
-      description: Increases movement speed by 10.
-      icon: bbe2697d5982f654d8dab2223790bd77
-      name: Agility
-      type: mobility
-    - color: grey
-      description: Retribution inflicts Fading Snare for 0.5. Increases duration by
-        0.3 per weapon charge.
-      icon: d5c38afdefecf224b9a71bdfdb60dee1
-      name: Binding Light
-      type: mixed
-    - color: teal
-      description: Heavenly Strike inflicts 50 Weaken for 2.
-      icon: 47dabb046c0ec4d4c96bde0832713a46
-      name: Hawk Dive
-      type: support
-    - color: teal
-      description: Move at 100% movement speed during Parry. Heal nearby allies for
-        8 health when Parry ends.
-      icon: fbfb00ff4fa4bc542b54639b84406f01
-      name: Invigorate
-      type: support
-    - color: red
-      description: When Parry expires, perform a Spinning Slash. It deals 8 damage
-        and inflict Stun for 0.3.
-      icon: fbfb00ff4fa4bc542b54639b84406f01
-      name: Riposte
-      type: offense
-    winrate: '61.5'
   - damage: '7.5'
     disable: '1.2'
     energy: '3.8'
@@ -70,10 +35,45 @@ builds:
       name: Headlong Rush
       type: mobility
     winrate: '57.7'
+  - damage: '6.8'
+    disable: '1.1'
+    energy: '3.9'
+    num: 25
+    protection: '1.7'
+    skills:
+    - color: yellow
+      description: Increases movement speed by 10.
+      icon: bbe2697d5982f654d8dab2223790bd77
+      name: Agility
+      type: mobility
+    - color: grey
+      description: Retribution inflicts Fading Snare for 0.5. Increases duration by
+        0.3 per weapon charge.
+      icon: d5c38afdefecf224b9a71bdfdb60dee1
+      name: Binding Light
+      type: mixed
+    - color: teal
+      description: Heavenly Strike inflicts 50 Weaken for 2.
+      icon: 47dabb046c0ec4d4c96bde0832713a46
+      name: Hawk Dive
+      type: support
+    - color: teal
+      description: Move at 100% movement speed during Parry. Heal nearby allies for
+        8 health when Parry ends.
+      icon: fbfb00ff4fa4bc542b54639b84406f01
+      name: Invigorate
+      type: support
+    - color: red
+      description: When Parry expires, perform a Spinning Slash. It deals 8 damage
+        and inflict Stun for 0.3.
+      icon: fbfb00ff4fa4bc542b54639b84406f01
+      name: Riposte
+      type: offense
+    winrate: '60.0'
   - damage: '6.7'
     disable: '1.3'
     energy: '3.4'
-    num: 21
+    num: 19
     protection: '1.8'
     skills:
     - color: grey
@@ -104,11 +104,11 @@ builds:
       icon: fbfb00ff4fa4bc542b54639b84406f01
       name: Riposte
       type: offense
-    winrate: '57.1'
+    winrate: '52.6'
   - damage: '6.6'
     disable: '1.2'
     energy: '2.8'
-    num: 19
+    num: 18
     protection: '1.4'
     skills:
     - color: grey
@@ -140,11 +140,11 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    winrate: '52.6'
-  - damage: '6.4'
+    winrate: '55.6'
+  - damage: '6.5'
     disable: '1.2'
-    energy: '3.7'
-    num: 17
+    energy: '3.8'
+    num: 16
     protection: '1.9'
     skills:
     - color: grey
@@ -176,13 +176,13 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    winrate: '41.2'
+    winrate: '37.5'
   twos:
   - damage: '6.4'
     disable: '1.1'
-    energy: '3.4'
-    num: 31
-    protection: '1.4'
+    energy: '3.5'
+    num: 28
+    protection: '1.5'
     skills:
     - color: grey
       description: Seismic Shock can be recast to leap to the airborne enemy and strike
@@ -213,7 +213,7 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    winrate: '29.0'
+    winrate: '25.0'
   - damage: '7.0'
     disable: '1.1'
     energy: '3.4'
@@ -323,8 +323,8 @@ builds:
   - damage: '6.5'
     disable: '1.2'
     energy: '3.9'
-    num: 13
-    protection: '1.1'
+    num: 14
+    protection: '1.2'
     skills:
     - color: blue
       description: Increases maximum range of Heavenly Strike by 30% and decreases
@@ -354,7 +354,7 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    winrate: '38.5'
+    winrate: '35.7'
 compos:
   threes:
   - hero_names:
@@ -371,26 +371,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 23
-    winrate: 0.6086956521739131
-    wins: 14
-  - hero_names:
-    - Ulric
-    - Ashka
-    - Raigon
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    num: 16
-    winrate: 0.5
-    wins: 8
+    num: 24
+    winrate: 0.6666666666666666
+    wins: 16
   - hero_names:
     - Ulric
     - Rook
@@ -405,9 +388,26 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 16
-    winrate: 0.75
-    wins: 12
+    num: 15
+    winrate: 0.6666666666666666
+    wins: 10
+  - hero_names:
+    - Ulric
+    - Ashka
+    - Raigon
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    num: 14
+    winrate: 0.42857142857142855
+    wins: 6
   - hero_names:
     - Ulric
     - Alysia
@@ -427,21 +427,21 @@ compos:
     wins: 3
   - hero_names:
     - Ulric
-    - Ezmo
     - Raigon
+    - Varesh
     heros:
     - icon: a90600a0f93cf3644b279b61ab3dc5c8
       name: Ulric
       title: ulric
-    - icon: 3af1fdc53169d044b939cce7ffb561a1
-      name: Ezmo
-      title: ezmo
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 12
-    winrate: 0.5833333333333334
-    wins: 7
+    - icon: f1cc53a29c58089478f6438589d9b32d
+      name: Varesh
+      title: varesh
+    num: 11
+    winrate: 0.36363636363636365
+    wins: 4
   twos:
   - hero_names:
     - Ulric
@@ -453,9 +453,9 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 178
-    winrate: 0.3595505617977528
-    wins: 64
+    num: 170
+    winrate: 0.34705882352941175
+    wins: 59
   - hero_names:
     - Raigon
     - Pearl
@@ -470,6 +470,19 @@ compos:
     winrate: 0.6140350877192983
     wins: 35
   - hero_names:
+    - Blossom
+    - Raigon
+    heros:
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    num: 49
+    winrate: 0.4897959183673469
+    wins: 24
+  - hero_names:
     - Oldur
     - Raigon
     heros:
@@ -480,8 +493,8 @@ compos:
       name: Raigon
       title: raigon
     num: 49
-    winrate: 0.4897959183673469
-    wins: 24
+    winrate: 0.5102040816326531
+    wins: 25
   - hero_names:
     - Sirius
     - Raigon
@@ -492,22 +505,9 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 48
-    winrate: 0.375
-    wins: 18
-  - hero_names:
-    - Blossom
-    - Raigon
-    heros:
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    num: 48
-    winrate: 0.5
-    wins: 24
+    num: 47
+    winrate: 0.3617021276595745
+    wins: 17
 description: Raigon, formerly the crown prince of Quna, is a skilled melee fighter
   trained in two-handed swordsmanship and martial arts. He hopes to break the evil
   spell cast upon his father and return home. For now, the arena serves as a decent
@@ -516,11 +516,11 @@ icon: 6c2252900d15cb344a5240f30d3ba705
 layout: character
 name: raigon
 num:
-  threes: 568
-  twos: 688
+  threes: 560
+  twos: 674
 title: Raigon
 url: characters/raigon.html
 winrate:
-  threes: '45.60'
-  twos: '40.55'
+  threes: '45.54'
+  twos: '40.21'
 ...

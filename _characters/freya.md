@@ -4,7 +4,7 @@ builds:
   - damage: '7.4'
     disable: '1.1'
     energy: '3.1'
-    num: 153
+    num: 155
     protection: '2.1'
     skills:
     - color: green
@@ -35,11 +35,11 @@ builds:
       icon: 883e2720ad11f2d49b51d9f649c67203
       name: Thundering Spring
       type: mobility
-    winrate: '62.1'
+    winrate: '62.6'
   - damage: '7.5'
     disable: '1.1'
     energy: '3.8'
-    num: 110
+    num: 111
     protection: '2.3'
     skills:
     - color: green
@@ -69,7 +69,7 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Tempest
       type: mobility
-    winrate: '49.1'
+    winrate: '48.6'
   - damage: '7.4'
     disable: '1.2'
     energy: '4.0'
@@ -138,11 +138,11 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    winrate: '40.0'
+    winrate: '42.0'
   - damage: '7.0'
-    disable: '1.1'
-    energy: '3.4'
-    num: 39
+    disable: '1.0'
+    energy: '3.3'
+    num: 38
     protection: '2.3'
     skills:
     - color: green
@@ -175,12 +175,12 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    winrate: '48.7'
+    winrate: '47.4'
   twos:
   - damage: '7.9'
     disable: '1.5'
     energy: '4.1'
-    num: 187
+    num: 188
     protection: '2.2'
     skills:
     - color: green
@@ -212,7 +212,7 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
       type: mixed
-    winrate: '51.9'
+    winrate: '51.6'
   - damage: '7.5'
     disable: '1.1'
     energy: '3.8'
@@ -247,7 +247,7 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    winrate: '51.4'
+    winrate: '48.6'
   - damage: '7.7'
     disable: '1.2'
     energy: '4.0'
@@ -387,9 +387,9 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 33
-    winrate: 0.6060606060606061
-    wins: 20
+    num: 31
+    winrate: 0.6129032258064516
+    wins: 19
   - hero_names:
     - Ulric
     - Freya
@@ -421,8 +421,8 @@ compos:
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
-    num: 27
-    winrate: 0.37037037037037035
+    num: 25
+    winrate: 0.4
     wins: 10
   - hero_names:
     - Ulric
@@ -438,8 +438,8 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 27
-    winrate: 0.5185185185185185
+    num: 25
+    winrate: 0.56
     wins: 14
   twos:
   - hero_names:
@@ -452,9 +452,9 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 486
-    winrate: 0.5452674897119342
-    wins: 265
+    num: 478
+    winrate: 0.5460251046025104
+    wins: 261
   - hero_names:
     - Blossom
     - Freya
@@ -465,9 +465,9 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 184
-    winrate: 0.5217391304347826
-    wins: 96
+    num: 186
+    winrate: 0.521505376344086
+    wins: 97
   - hero_names:
     - Oldur
     - Freya
@@ -478,9 +478,9 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 120
-    winrate: 0.5083333333333333
-    wins: 61
+    num: 122
+    winrate: 0.5163934426229508
+    wins: 63
   - hero_names:
     - Freya
     - Pearl
@@ -491,9 +491,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 118
-    winrate: 0.4915254237288136
-    wins: 58
+    num: 120
+    winrate: 0.4666666666666667
+    wins: 56
   - hero_names:
     - Poloma
     - Freya
@@ -504,20 +504,20 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 87
-    winrate: 0.45977011494252873
-    wins: 40
+    num: 90
+    winrate: 0.4666666666666667
+    wins: 42
 description: Once a tribe queen, now a fearless contender. Her titanic hammers and
   overwhelming power of lightning is the perfect recipe for destruction.
 icon: be081702a8e70fe44ac0a4e3a9c46368
 layout: character
 name: freya
 num:
-  threes: 937
-  twos: 1805
+  threes: 929
+  twos: 1818
 title: Freya
 url: characters/freya.html
 winrate:
-  threes: '49.20'
-  twos: '47.15'
+  threes: '49.41'
+  twos: '46.86'
 ...
