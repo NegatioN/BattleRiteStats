@@ -34,10 +34,10 @@ builds:
       name: Heavy Rocket
       type: control
     winrate: '51.5'
-  - damage: '7.3'
+  - damage: '7.2'
     disable: '1.0'
     energy: '3.3'
-    num: 29
+    num: 30
     protection: '0.7'
     skills:
     - color: red
@@ -66,11 +66,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '34.5'
-  - damage: '7.2'
+    winrate: '36.7'
+  - damage: '7.3'
     disable: '1.1'
     energy: '3.4'
-    num: 16
+    num: 15
     protection: '0.7'
     skills:
     - color: yellow
@@ -99,7 +99,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '50.0'
+    winrate: '53.3'
   - damage: '7.3'
     disable: '1.3'
     energy: '3.7'
@@ -170,7 +170,7 @@ builds:
   - damage: '7.6'
     disable: '1.0'
     energy: '3.7'
-    num: 98
+    num: 89
     protection: '0.7'
     skills:
     - color: yellow
@@ -199,11 +199,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '49.0'
+    winrate: '48.3'
   - damage: '7.2'
-    disable: '0.9'
-    energy: '3.1'
-    num: 85
+    disable: '1.0'
+    energy: '3.2'
+    num: 89
     protection: '0.7'
     skills:
     - color: red
@@ -232,11 +232,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '40.0'
+    winrate: '40.4'
   - damage: '7.3'
     disable: '1.0'
     energy: '3.8'
-    num: 39
+    num: 38
     protection: '0.9'
     skills:
     - color: pink
@@ -266,11 +266,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '56.4'
+    winrate: '55.3'
   - damage: '7.0'
     disable: '1.1'
-    energy: '2.7'
-    num: 31
+    energy: '2.8'
+    num: 35
     protection: '0.5'
     skills:
     - color: yellow
@@ -298,11 +298,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '64.5'
-  - damage: '7.3'
+    winrate: '60.0'
+  - damage: '7.4'
     disable: '1.1'
     energy: '4.4'
-    num: 26
+    num: 22
     protection: '0.8'
     skills:
     - color: yellow
@@ -331,7 +331,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '38.5'
+    winrate: '45.5'
 compos:
   threes:
   - hero_names:
@@ -369,6 +369,23 @@ compos:
     winrate: 0.47619047619047616
     wins: 10
   - hero_names:
+    - Ulric
+    - Rook
+    - Iva
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: decba44679fbdae4bb7d0d1cb6a97682
+      name: Iva
+      title: iva
+    num: 19
+    winrate: 0.21052631578947367
+    wins: 4
+  - hero_names:
     - Rook
     - Iva
     - Pearl
@@ -382,8 +399,8 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 18
-    winrate: 0.5555555555555556
+    num: 17
+    winrate: 0.5882352941176471
     wins: 10
   - hero_names:
     - Ulric
@@ -399,26 +416,9 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 18
-    winrate: 0.3888888888888889
+    num: 17
+    winrate: 0.4117647058823529
     wins: 7
-  - hero_names:
-    - Ulric
-    - Iva
-    - Freya
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: decba44679fbdae4bb7d0d1cb6a97682
-      name: Iva
-      title: iva
-    - icon: be081702a8e70fe44ac0a4e3a9c46368
-      name: Freya
-      title: freya
-    num: 14
-    winrate: 0.7142857142857143
-    wins: 10
   twos:
   - hero_names:
     - Ulric
@@ -430,9 +430,9 @@ compos:
     - icon: decba44679fbdae4bb7d0d1cb6a97682
       name: Iva
       title: iva
-    num: 149
-    winrate: 0.4899328859060403
-    wins: 73
+    num: 143
+    winrate: 0.4825174825174825
+    wins: 69
   - hero_names:
     - Iva
     - Blossom
@@ -443,8 +443,8 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 83
-    winrate: 0.5180722891566265
+    num: 84
+    winrate: 0.5119047619047619
     wins: 43
   - hero_names:
     - Iva
@@ -456,9 +456,9 @@ compos:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    num: 67
-    winrate: 0.40298507462686567
-    wins: 27
+    num: 68
+    winrate: 0.45588235294117646
+    wins: 31
   - hero_names:
     - Rook
     - Iva
@@ -469,9 +469,9 @@ compos:
     - icon: decba44679fbdae4bb7d0d1cb6a97682
       name: Iva
       title: iva
-    num: 54
-    winrate: 0.5
-    wins: 27
+    num: 52
+    winrate: 0.4807692307692308
+    wins: 25
   - hero_names:
     - Iva
     - Pearl
@@ -482,8 +482,8 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 51
-    winrate: 0.5294117647058824
+    num: 50
+    winrate: 0.54
     wins: 27
 description: A scavenger from the outer realms. Iva has engineered her own arsenal
   of weapons. Firing crazy rockets or unleashing a storm of bullets is her way of
@@ -492,11 +492,11 @@ icon: decba44679fbdae4bb7d0d1cb6a97682
 layout: character
 name: iva
 num:
-  threes: 449
-  twos: 845
+  threes: 457
+  twos: 841
 title: Iva
 url: characters/iva.html
 winrate:
-  threes: '46.33'
-  twos: '44.62'
+  threes: '46.61'
+  twos: '45.30'
 ...

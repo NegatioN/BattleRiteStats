@@ -4,7 +4,7 @@ builds:
   - damage: '8.1'
     disable: '0.8'
     energy: '4.1'
-    num: 245
+    num: 238
     protection: '0.2'
     skills:
     - color: pink
@@ -35,11 +35,11 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    winrate: '53.5'
+    winrate: '53.8'
   - damage: '8.7'
     disable: '0.6'
     energy: '4.4'
-    num: 147
+    num: 149
     protection: '0.4'
     skills:
     - color: red
@@ -69,11 +69,11 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    winrate: '44.9'
+    winrate: '44.3'
   - damage: '8.3'
     disable: '0.7'
     energy: '4.0'
-    num: 69
+    num: 71
     protection: '0.2'
     skills:
     - color: pink
@@ -104,7 +104,7 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    winrate: '75.4'
+    winrate: '73.2'
   - damage: '7.5'
     disable: '0.8'
     energy: '3.5'
@@ -174,10 +174,10 @@ builds:
       type: mobility
     winrate: '72.7'
   twos:
-  - damage: '8.4'
+  - damage: '8.3'
     disable: '0.8'
-    energy: '4.0'
-    num: 195
+    energy: '3.9'
+    num: 188
     protection: '0.3'
     skills:
     - color: pink
@@ -208,11 +208,11 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    winrate: '69.7'
+    winrate: '68.1'
   - damage: '8.2'
     disable: '0.7'
     energy: '4.0'
-    num: 68
+    num: 59
     protection: '1.0'
     skills:
     - color: red
@@ -243,11 +243,11 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    winrate: '61.8'
-  - damage: '8.1'
+    winrate: '61.0'
+  - damage: '8.3'
     disable: '0.7'
-    energy: '4.9'
-    num: 30
+    energy: '5.0'
+    num: 28
     protection: '0.9'
     skills:
     - color: pink
@@ -278,11 +278,11 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    winrate: '56.7'
-  - damage: '7.0'
+    winrate: '57.1'
+  - damage: '7.1'
     disable: '0.6'
     energy: '3.3'
-    num: 28
+    num: 27
     protection: '1.0'
     skills:
     - color: pink
@@ -314,7 +314,7 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    winrate: '53.6'
+    winrate: '51.9'
   - damage: '7.2'
     disable: '0.6'
     energy: '3.1'
@@ -368,8 +368,8 @@ compos:
       name: Ezmo
       title: ezmo
     num: 55
-    winrate: 0.6363636363636364
-    wins: 35
+    winrate: 0.6181818181818182
+    wins: 34
   - hero_names:
     - Ulric
     - Shifu
@@ -384,9 +384,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 35
-    winrate: 0.4857142857142857
-    wins: 17
+    num: 32
+    winrate: 0.5625
+    wins: 18
   - hero_names:
     - Ulric
     - Thorn
@@ -401,8 +401,8 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 28
-    winrate: 0.5357142857142857
+    num: 30
+    winrate: 0.5
     wins: 15
   - hero_names:
     - Ulric
@@ -435,8 +435,8 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 25
-    winrate: 0.56
+    num: 26
+    winrate: 0.5384615384615384
     wins: 14
   twos:
   - hero_names:
@@ -449,9 +449,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 230
-    winrate: 0.5739130434782609
-    wins: 132
+    num: 220
+    winrate: 0.5772727272727273
+    wins: 127
   - hero_names:
     - Blossom
     - Ezmo
@@ -462,9 +462,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 130
-    winrate: 0.6230769230769231
-    wins: 81
+    num: 125
+    winrate: 0.592
+    wins: 74
   - hero_names:
     - Oldur
     - Ezmo
@@ -475,9 +475,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 103
-    winrate: 0.5048543689320388
-    wins: 52
+    num: 96
+    winrate: 0.46875
+    wins: 45
   - hero_names:
     - Ezmo
     - Pearl
@@ -488,9 +488,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 95
-    winrate: 0.6
-    wins: 57
+    num: 91
+    winrate: 0.5934065934065934
+    wins: 54
   - hero_names:
     - Ezmo
     - Lucie
@@ -501,9 +501,9 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 68
-    winrate: 0.7205882352941176
-    wins: 49
+    num: 66
+    winrate: 0.696969696969697
+    wins: 46
 description: Ezmo is an aggressive spell caster who can move quickly across the arena.
   Aradu, a powerful warlock summoned and imprisoned Ezmo but Ezmo saw his opportunity
   to escape when the warlock became too engrossed in reading his tome. He sealed Aradu's
@@ -512,11 +512,11 @@ icon: 3af1fdc53169d044b939cce7ffb561a1
 layout: character
 name: ezmo
 num:
-  threes: 906
-  twos: 1201
+  threes: 912
+  twos: 1164
 title: Ezmo
 url: characters/ezmo.html
 winrate:
-  threes: '50.33'
-  twos: '51.12'
+  threes: '50.11'
+  twos: '50.26'
 ...

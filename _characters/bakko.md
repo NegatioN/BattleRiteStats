@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '6.0'
+  - damage: '6.1'
     disable: '1.2'
     energy: '3.1'
-    num: 204
+    num: 192
     protection: '2.0'
     skills:
     - color: green
@@ -34,8 +34,8 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '46.6'
-  - damage: '6.6'
+    winrate: '45.3'
+  - damage: '6.5'
     disable: '1.6'
     energy: '3.5'
     num: 130
@@ -72,7 +72,7 @@ builds:
   - damage: '6.7'
     disable: '1.4'
     energy: '3.5'
-    num: 46
+    num: 44
     protection: '2.1'
     skills:
     - color: green
@@ -102,11 +102,11 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '39.1'
-  - damage: '7.0'
+    winrate: '36.4'
+  - damage: '7.1'
     disable: '1.7'
-    energy: '3.8'
-    num: 35
+    energy: '3.9'
+    num: 34
     protection: '2.1'
     skills:
     - color: teal
@@ -136,10 +136,10 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '77.1'
-  - damage: '6.2'
+    winrate: '76.5'
+  - damage: '6.1'
     disable: '1.0'
-    energy: '3.5'
+    energy: '3.6'
     num: 24
     protection: '1.9'
     skills:
@@ -170,12 +170,12 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '58.3'
+    winrate: '54.2'
   twos:
   - damage: '7.4'
-    disable: '1.1'
+    disable: '1.2'
     energy: '3.5'
-    num: 85
+    num: 116
     protection: '1.6'
     skills:
     - color: red
@@ -208,11 +208,11 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
       type: offense
-    winrate: '49.4'
+    winrate: '49.1'
   - damage: '6.9'
     disable: '1.1'
     energy: '3.2'
-    num: 80
+    num: 71
     protection: '1.6'
     skills:
     - color: red
@@ -244,11 +244,11 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '55.0'
+    winrate: '59.2'
   - damage: '6.6'
     disable: '1.2'
     energy: '3.3'
-    num: 70
+    num: 67
     protection: '2.1'
     skills:
     - color: green
@@ -278,7 +278,7 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '44.3'
+    winrate: '46.3'
   - damage: '7.7'
     disable: '1.4'
     energy: '3.4'
@@ -314,10 +314,10 @@ builds:
       name: Warlord's Axe
       type: offense
     winrate: '46.3'
-  - damage: '7.6'
+  - damage: '7.5'
     disable: '1.1'
     energy: '3.5'
-    num: 36
+    num: 40
     protection: '2.2'
     skills:
     - color: teal
@@ -349,7 +349,7 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
       type: offense
-    winrate: '58.3'
+    winrate: '55.0'
 compos:
   threes:
   - hero_names:
@@ -366,9 +366,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 81
-    winrate: 0.5925925925925926
-    wins: 48
+    num: 82
+    winrate: 0.5975609756097561
+    wins: 49
   - hero_names:
     - Ulric
     - Bakko
@@ -384,8 +384,8 @@ compos:
       name: Ezmo
       title: ezmo
     num: 55
-    winrate: 0.6363636363636364
-    wins: 35
+    winrate: 0.6181818181818182
+    wins: 34
   - hero_names:
     - Ulric
     - Ashka
@@ -400,26 +400,9 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 50
-    winrate: 0.64
+    num: 52
+    winrate: 0.6153846153846154
     wins: 32
-  - hero_names:
-    - Ulric
-    - Jumong
-    - Bakko
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: 42a665b9c285a1243a201c8d533980e5
-      name: Jumong
-      title: jumong
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    num: 38
-    winrate: 0.5526315789473685
-    wins: 21
   - hero_names:
     - Poloma
     - Bakko
@@ -434,9 +417,26 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 33
-    winrate: 0.42424242424242425
-    wins: 14
+    num: 34
+    winrate: 0.4411764705882353
+    wins: 15
+  - hero_names:
+    - Bakko
+    - Jade
+    - Zander
+    heros:
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: 9c4186a6214f12448a7091710b0cde6c
+      name: Zander
+      title: zander
+    num: 34
+    winrate: 0.5588235294117647
+    wins: 19
   twos:
   - hero_names:
     - Ulric
@@ -448,9 +448,9 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 409
-    winrate: 0.5134474327628362
-    wins: 210
+    num: 413
+    winrate: 0.5302663438256658
+    wins: 219
   - hero_names:
     - Bakko
     - Pearl
@@ -461,9 +461,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 137
-    winrate: 0.5474452554744526
-    wins: 75
+    num: 133
+    winrate: 0.5413533834586466
+    wins: 72
   - hero_names:
     - Oldur
     - Bakko
@@ -474,9 +474,9 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 110
-    winrate: 0.5454545454545454
-    wins: 60
+    num: 115
+    winrate: 0.5565217391304348
+    wins: 64
   - hero_names:
     - Blossom
     - Bakko
@@ -487,9 +487,9 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 104
-    winrate: 0.5769230769230769
-    wins: 60
+    num: 101
+    winrate: 0.6138613861386139
+    wins: 62
   - hero_names:
     - Bakko
     - Sirius
@@ -500,9 +500,9 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 85
-    winrate: 0.611764705882353
-    wins: 52
+    num: 88
+    winrate: 0.625
+    wins: 55
 description: Bakko has a proud history as a heroic brawler, armed with both axe and
   shield. He uses his shield to protect teammates and outmaneuver enemies. Watch out
   for his earth-shattering dash attacks, as even calm warriors sometimes go berserk.
@@ -510,11 +510,11 @@ icon: 6154d6c0556261343844bf7caebb67a7
 layout: character
 name: bakko
 num:
-  threes: 1223
-  twos: 1519
+  threes: 1225
+  twos: 1538
 title: Bakko
 url: characters/bakko.html
 winrate:
-  threes: '49.80'
-  twos: '49.77'
+  threes: '48.82'
+  twos: '51.04'
 ...
