@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '4.0'
+  - damage: '4.1'
     disable: '1.2'
     energy: '2.6'
-    num: 214
+    num: 223
     protection: '5.3'
     skills:
     - color: pink
@@ -36,12 +36,12 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '48.6'
-  - damage: '3.6'
-    disable: '1.3'
+    winrate: '49.8'
+  - damage: '3.5'
+    disable: '1.2'
     energy: '2.6'
-    num: 48
-    protection: '5.3'
+    num: 56
+    protection: '5.4'
     skills:
     - color: pink
       description: Arachnophobia bounces forward, causing another impact. The radius
@@ -72,12 +72,12 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '39.6'
-  - damage: '3.7'
+    winrate: '41.1'
+  - damage: '3.6'
     disable: '1.2'
     energy: '2.9'
-    num: 39
-    protection: '5.8'
+    num: 32
+    protection: '5.9'
     skills:
     - color: green
       description: Hitting an ally with Bloodsucker causes you to deal no damage to
@@ -108,12 +108,12 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '48.7'
-  - damage: '3.9'
+    winrate: '40.6'
+  - damage: '3.8'
     disable: '1.0'
-    energy: '2.4'
-    num: 28
-    protection: '5.2'
+    energy: '2.3'
+    num: 24
+    protection: '5.0'
     skills:
     - color: grey
       description: Increases Infest duration by 0.5. Drains 10 health from enemies
@@ -144,11 +144,11 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '39.3'
-  - damage: '3.9'
+    winrate: '37.5'
+  - damage: '3.8'
     disable: '1.2'
     energy: '2.6'
-    num: 23
+    num: 24
     protection: '5.2'
     skills:
     - color: pink
@@ -179,12 +179,12 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '34.8'
+    winrate: '45.8'
   twos:
   - damage: '4.6'
     disable: '1.2'
     energy: '2.5'
-    num: 303
+    num: 304
     protection: '4.5'
     skills:
     - color: pink
@@ -216,12 +216,12 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '58.4'
-  - damage: '4.3'
+    winrate: '57.2'
+  - damage: '4.2'
     disable: '1.1'
-    energy: '2.4'
-    num: 45
-    protection: '4.4'
+    energy: '2.5'
+    num: 41
+    protection: '4.5'
     skills:
     - color: pink
       description: Arachnophobia bounces forward, causing another impact. The radius
@@ -252,11 +252,11 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '51.1'
-  - damage: '4.2'
-    disable: '1.2'
+    winrate: '56.1'
+  - damage: '4.3'
+    disable: '1.1'
     energy: '2.4'
-    num: 39
+    num: 41
     protection: '4.2'
     skills:
     - color: pink
@@ -287,12 +287,12 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '59.0'
-  - damage: '3.7'
+    winrate: '61.0'
+  - damage: '3.9'
     disable: '1.1'
-    energy: '2.3'
+    energy: '2.4'
     num: 35
-    protection: '4.6'
+    protection: '4.7'
     skills:
     - color: green
       description: Hitting an ally with Bloodsucker causes you to deal no damage to
@@ -323,12 +323,12 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '40.0'
+    winrate: '51.4'
   - damage: '4.3'
     disable: '1.3'
     energy: '2.5'
-    num: 33
-    protection: '4.8'
+    num: 32
+    protection: '4.9'
     skills:
     - color: pink
       description: Releasing an Infested enemy inflicts a 20 Snare for 2.5 and pushes
@@ -359,7 +359,160 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '45.5'
+    winrate: '50.0'
+compos:
+  threes:
+  - hero_names:
+    - Pestilus
+    - Bakko
+    - Jade
+    heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 17
+    winrate: 0.47058823529411764
+    wins: 8
+  - hero_names:
+    - Pestilus
+    - Thorn
+    - Jade
+    heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 14
+    winrate: 0.5
+    wins: 7
+  - hero_names:
+    - Pestilus
+    - Jumong
+    - Shifu
+    heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: 42a665b9c285a1243a201c8d533980e5
+      name: Jumong
+      title: jumong
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    num: 13
+    winrate: 0.38461538461538464
+    wins: 5
+  - hero_names:
+    - Pestilus
+    - Rook
+    - Jade
+    heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 11
+    winrate: 0.45454545454545453
+    wins: 5
+  - hero_names:
+    - Ulric
+    - Pestilus
+    - Jade
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 11
+    winrate: 0.5454545454545454
+    wins: 6
+  twos:
+  - hero_names:
+    - Pestilus
+    - Bakko
+    heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    num: 72
+    winrate: 0.5694444444444444
+    wins: 41
+  - hero_names:
+    - Pestilus
+    - Rook
+    heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    num: 65
+    winrate: 0.5384615384615384
+    wins: 35
+  - hero_names:
+    - Pestilus
+    - Shifu
+    heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    num: 63
+    winrate: 0.5238095238095238
+    wins: 33
+  - hero_names:
+    - Pestilus
+    - Jade
+    heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 62
+    winrate: 0.532258064516129
+    wins: 33
+  - hero_names:
+    - Pestilus
+    - Freya
+    heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: be081702a8e70fe44ac0a4e3a9c46368
+      name: Freya
+      title: freya
+    num: 59
+    winrate: 0.559322033898305
+    wins: 33
 description: Pestilus, secret devotee of the evil Rasal, unleashes swarms of insects
   to infest and cripple his enemies. Advisor to the King of Quna, Pestilus is able
   to release his innermost darkest desires inside the arena.
@@ -367,11 +520,11 @@ icon: a7e0c7a6f0fa2ef49bf684950de34567
 layout: character
 name: pestilus
 num:
-  threes: 614
-  twos: 824
+  threes: 617
+  twos: 810
 title: Pestilus
 url: characters/pestilus.html
 winrate:
-  threes: '44.30'
+  threes: '45.71'
   twos: '49.88'
 ...

@@ -4,7 +4,7 @@ builds:
   - damage: '3.5'
     disable: '1.0'
     energy: '2.8'
-    num: 74
+    num: 69
     protection: '5.4'
     skills:
     - color: yellow
@@ -33,11 +33,11 @@ builds:
       icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
       type: offense
-    winrate: '45.9'
+    winrate: '46.4'
   - damage: '4.4'
     disable: '1.1'
     energy: '3.0'
-    num: 61
+    num: 62
     protection: '5.6'
     skills:
     - color: yellow
@@ -67,11 +67,11 @@ builds:
       icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
       type: offense
-    winrate: '41.0'
-  - damage: '4.0'
+    winrate: '41.9'
+  - damage: '4.1'
     disable: '1.0'
     energy: '2.9'
-    num: 30
+    num: 32
     protection: '5.5'
     skills:
     - color: yellow
@@ -100,7 +100,7 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '43.3'
+    winrate: '43.8'
   - damage: '4.0'
     disable: '1.1'
     energy: '3.0'
@@ -134,11 +134,11 @@ builds:
       name: Stimulant
       type: offense
     winrate: '60.0'
-  - damage: '3.1'
+  - damage: '3.0'
     disable: '0.9'
-    energy: '3.0'
-    num: 20
-    protection: '5.9'
+    energy: '3.1'
+    num: 22
+    protection: '5.8'
     skills:
     - color: yellow
       description: ^2Barrier^- increases movement speed by 33.
@@ -167,12 +167,12 @@ builds:
       icon: 470a917c1ac62c04ea45acc6a35c5f73
       name: Swift Roll
       type: mobility
-    winrate: '50.0'
+    winrate: '54.5'
   twos:
-  - damage: '4.9'
+  - damage: '4.8'
     disable: '1.5'
-    energy: '2.9'
-    num: 71
+    energy: '2.8'
+    num: 59
     protection: '4.9'
     skills:
     - color: pink
@@ -203,11 +203,11 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '53.5'
-  - damage: '4.8'
-    disable: '1.3'
+    winrate: '52.5'
+  - damage: '4.9'
+    disable: '1.2'
     energy: '2.9'
-    num: 53
+    num: 52
     protection: '5.0'
     skills:
     - color: grey
@@ -237,11 +237,11 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Vampiric Toxin
       type: survival
-    winrate: '52.8'
-  - damage: '4.5'
-    disable: '1.1'
+    winrate: '55.8'
+  - damage: '4.6'
+    disable: '1.0'
     energy: '3.1'
-    num: 35
+    num: 36
     protection: '4.7'
     skills:
     - color: yellow
@@ -270,7 +270,7 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '62.9'
+    winrate: '61.1'
   - damage: '4.4'
     disable: '1.4'
     energy: '3.2'
@@ -305,50 +305,204 @@ builds:
       name: Weakening Toxin
       type: mixed
     winrate: '53.1'
-  - damage: '4.4'
+  - damage: '4.2'
     disable: '1.1'
-    energy: '3.2'
-    num: 28
-    protection: '5.1'
+    energy: '2.9'
+    num: 30
+    protection: '4.6'
     skills:
-    - color: teal
-      description: Healing Potion heals other allies for 4 bonus health.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Companion Potion
-      type: support
     - color: red
       description: Panic Flask deals 10 bonus damage.
       icon: e45c9dbf4c532ca4c8c8dfca14798771
       name: Deadly Brew
       type: offense
-    - color: pink
-      description: Reduces the cooldown of Panic Flask by 1.5. Direct hits further
-        reduce the cooldown by 1.5.
-      icon: e45c9dbf4c532ca4c8c8dfca14798771
-      name: Hysteria
-      type: control
+    - color: grey
+      description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
+        10 damage when removing a buff.
+      icon: d0c4449b33eef2e4ca2cfa8900910041
+      name: Potency
+      type: mixed
     - color: red
       description: ^2Revitalize^- increases damage output by 12.
       icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
       type: offense
+    - color: yellow
+      description: Roll increases movement speed by 33 for 2.5. Reduces cooldown of
+        Roll by 3.
+      icon: 470a917c1ac62c04ea45acc6a35c5f73
+      name: Swift Roll
+      type: mobility
     - color: grey
       description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '57.1'
+    winrate: '60.0'
+compos:
+  threes:
+  - hero_names:
+    - Shifu
+    - Jade
+    - Lucie
+    heros:
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 22
+    winrate: 0.5909090909090909
+    wins: 13
+  - hero_names:
+    - Croak
+    - Jade
+    - Lucie
+    heros:
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 17
+    winrate: 0.17647058823529413
+    wins: 3
+  - hero_names:
+    - Ulric
+    - Jade
+    - Lucie
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 12
+    winrate: 0.5833333333333334
+    wins: 7
+  - hero_names:
+    - Ulric
+    - Shifu
+    - Lucie
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 12
+    winrate: 0.5833333333333334
+    wins: 7
+  - hero_names:
+    - Bakko
+    - Jade
+    - Lucie
+    heros:
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 12
+    winrate: 0.5833333333333334
+    wins: 7
+  twos:
+  - hero_names:
+    - Shifu
+    - Lucie
+    heros:
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 125
+    winrate: 0.496
+    wins: 62
+  - hero_names:
+    - Freya
+    - Lucie
+    heros:
+    - icon: be081702a8e70fe44ac0a4e3a9c46368
+      name: Freya
+      title: freya
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 79
+    winrate: 0.5443037974683544
+    wins: 43
+  - hero_names:
+    - Bakko
+    - Lucie
+    heros:
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 71
+    winrate: 0.5352112676056338
+    wins: 38
+  - hero_names:
+    - Ezmo
+    - Lucie
+    heros:
+    - icon: 3af1fdc53169d044b939cce7ffb561a1
+      name: Ezmo
+      title: ezmo
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 68
+    winrate: 0.7205882352941176
+    wins: 49
+  - hero_names:
+    - Rook
+    - Lucie
+    heros:
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 68
+    winrate: 0.6029411764705882
+    wins: 41
 description: Lucie is a diverse contender who knows which brew makes you choke, heal
   or flee in fear. The arena has become her new playground for wild experiments.
 icon: e5554b8a15ffc1a499a3807bb3a37b56
 layout: character
 name: lucie
 num:
-  threes: 557
-  twos: 959
+  threes: 586
+  twos: 977
 title: Lucie
 url: characters/lucie.html
 winrate:
   threes: '44.88'
-  twos: '52.66'
+  twos: '51.89'
 ...
