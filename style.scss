@@ -417,6 +417,19 @@ td > div {
   margin: 5px;
 }
 
+.compo-hero-element {
+  text-align: center;
+  font-size:0.7rem;
+}
+
+.compo-hero-element img {
+  max-width: 70%;
+}
+
+.compo-hero-element p {
+  margin: 5px;
+}
+
 
 .statistics-element {
   padding: 3px;
@@ -468,11 +481,27 @@ $icon-border-thickness: 3px;
   margin-bottom: 10px;
 }
 
-
-
 .ranking-text {
   text-align: center;
+}
 
+.character-page-selector a {
+  color: black !important;
+}
+
+.character-page-selector:hover {
+  background-color: rgba(166, 166, 166, .2);
+}
+.character-page-selector a:hover {
+  color: dodgerblue !important;
+}
+
+#current .character-page-selector a {
+  color: dodgerblue !important;
+}
+
+.selected-character-tab {
+  background-color: rgba(166, 166, 166, .2);
 }
 
 @import "svg-icons";

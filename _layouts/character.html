@@ -9,14 +9,21 @@ layout: default
 </div>
 <p class="character-description">{{page.description}}</p>
 </div>
+
+
+<div class="row" style=" text-align: center;">
+    <div class="col-xs-6 col-md-3 character-page-selector" id="2v2_build_button"><a>2v2 Builds </a></div>
+    <div class="col-xs-6 col-md-3 character-page-selector" id="3v3_build_button"> <a>3v3 Builds</a> </div>
+    <div class="col-xs-6 col-md-3 character-page-selector" id="2v2_team_button"> <a>2v2 Teams</a> </div>
+    <div class="col-xs-6 col-md-3 character-page-selector" id="3v3_team_button"> <a>3v3 Teams</a> </div>
+</div>
 <article class="character">
-        <div class="container table">
+        <div class="container table" id="2v2builds">
         <h2 class="mode-header">2 vs 2 builds</h2>
         <h4>Played {{ page.num.twos }} times in 2 vs 2 with a winrate of {{ page.winrate.twos }}%</h4>
         {% for build in page.builds.twos %}
         <div class="row build-wrapper">
             <div class="col-xs-6 col-md-12 skill-parent">
-                <!-- Use manual offset columns to center content...  -->
                 <div class="col-md-1"></div>
             {% for skill in build.skills %}
                 <div class="col-sm-1 col-md-2 skill-element" title="{{skill.name}} - {{skill.description}}">
@@ -38,24 +45,13 @@ layout: default
         {% endfor %}
         </div>
 
-    <ins class="adsbygoogle"
-         style="display:block; text-align:center;"
-         data-ad-layout="in-article"
-         data-ad-format="fluid"
-         data-ad-client="ca-pub-8245219882449231"
-         data-ad-slot="4378963759"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
 
-
-    <div class="container table">
+    <div class="container table" id="3v3builds">
         <h2 class="mode-header">3 vs 3 builds</h2>
         <h4>Played {{ page.num.threes }} times in 3 vs 3 with a winrate of {{ page.winrate.threes }}%</h4>
         {% for build in page.builds.threes %}
         <div class="row build-wrapper">
             <div class="col-xs-6 col-md-12 skill-parent">
-                <!-- Use manual offset columns to center content...  -->
                 <div class="col-md-1"></div>
                 {% for skill in build.skills %}
                 <div class="col-sm-1 col-md-2 skill-element" title="{{skill.name}} - {{skill.description}}">
@@ -76,6 +72,116 @@ layout: default
         </div>
         {% endfor %}
     </div>
+
+    <div class="container table" id="2v2teams">
+        <h2 class="mode-header">2 vs 2 team compositions</h2>
+        <h4>Played {{ page.num.twos }} times in 2 vs 2 with a winrate of {{ page.winrate.twos }}%</h4>
+        {% for compo in page.compos.twos %}
+        <div class="row build-wrapper">
+            <div class="col-xs-6 col-md-12 skill-parent">
+                <div class="col-md-2"></div>
+                {% for hero in compo.heros %}
+                <div class="col-sm-2 col-md-4 compo-hero-element" title="{{hero.name}}">
+                    <img alt="{{hero.name}} icon" src="{{site.url}}/assets/img/{{hero.icon}}.png" />
+                    <p style="text-align: center">{{hero.name}}</p>
+                </div>
+                {% endfor %}
+                <div class="col-md-2"></div>
+            </div>
+            <div class="col-xs-6 col-md-12 statistics-parent">
+                <div class="statistics-element"><p><b>Count:</b> {{compo.num}}</p></div>
+                <div class="statistics-element"><p><b>Winrate:</b> {{ compo.winrate | times: 100 | slice: 0, 5 }}%</p></div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="container table" id="3v3teams">
+        <h2 class="mode-header">3 vs 3 team compositions</h2>
+        <h4>Played {{ page.num.threes }} times in 2 vs 2 with a winrate of {{ page.winrate.threes }}%</h4>
+        {% for compo in page.compos.threes %}
+        <div class="row build-wrapper">
+            <div class="col-xs-6 col-md-12 skill-parent">
+                {% for hero in compo.heros %}
+                <div class="col-sm-2 col-md-4 compo-hero-element" title="{{hero.name}}">
+                    <img alt="{{hero.name}} icon" src="{{site.url}}/assets/img/{{hero.icon}}.png" />
+                    <p style="text-align: center">{{hero.name}}</p>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="col-xs-6 col-md-12 statistics-parent">
+                <div class="statistics-element"><p><b>Count:</b> {{compo.num}}</p></div>
+                <div class="statistics-element"><p><b>Winrate:</b> {{ compo.winrate | times: 100 | slice: 0, 5 }}%</p></div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+
+
+
+
+    <ins class="adsbygoogle"
+         style="display:block; text-align:center;"
+         data-ad-layout="in-article"
+         data-ad-format="fluid"
+         data-ad-client="ca-pub-8245219882449231"
+         data-ad-slot="4378963759"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        $("#3v3builds").hide();
+        $("#2v2teams").hide();
+        $("#3v3teams").hide();
+        $("#2v2_build_button").addClass("selected-character-tab");
+        
+        $("#2v2_build_button").click(function(){
+            $("#3v3_build_button").removeClass("selected-character-tab");
+            $("#2v2_build_button").addClass("selected-character-tab");
+            $("#2v2_team_button").removeClass("selected-character-tab");
+            $("#3v3_team_button").removeClass("selected-character-tab");
+            $("#3v3builds").hide();
+            $("#2v2builds").show();
+            $("#2v2teams").hide();
+            $("#3v3teams").hide();
+        });
+
+        $("#3v3_build_button").click(function(){
+            $("#3v3_build_button").addClass("selected-character-tab");
+            $("#2v2_build_button").removeClass("selected-character-tab");
+            $("#2v2_team_button").removeClass("selected-character-tab");
+            $("#3v3_team_button").removeClass("selected-character-tab");
+            $("#3v3builds").show();
+            $("#2v2builds").hide();
+            $("#2v2teams").hide();
+            $("#3v3teams").hide();
+        });
+
+        $("#2v2_team_button").click(function(){
+            $("#3v3_build_button").removeClass("selected-character-tab");
+            $("#2v2_build_button").removeClass("selected-character-tab");
+            $("#2v2_team_button").addClass("selected-character-tab");
+            $("#3v3_team_button").removeClass("selected-character-tab");
+            $("#3v3builds").hide();
+            $("#2v2builds").hide();
+            $("#2v2teams").show();
+            $("#3v3teams").hide();
+        });
+
+        $("#3v3_team_button").click(function(){
+            $("#3v3_build_button").removeClass("selected-character-tab");
+            $("#2v2_build_button").removeClass("selected-character-tab");
+            $("#2v2_team_button").removeClass("selected-character-tab");
+            $("#3v3_team_button").addClass("selected-character-tab");
+            $("#3v3builds").hide();
+            $("#2v2builds").hide();
+            $("#2v2teams").hide();
+            $("#3v3teams").show();
+        });
+    </script>
 
 
     <ins class="adsbygoogle"

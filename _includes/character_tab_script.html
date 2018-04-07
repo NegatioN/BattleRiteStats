@@ -1,0 +1,8 @@
+$("#{{ include.button }}").click(function(){
+    $("#{{include.selected}}").show();
+    $("#{{include.selected}}").addClass("selected-character-tab");
+    {% for n_id in {{ include.non_selected }} | split: ',' %}
+        $("#{{ n_id }}").hide();
+        $("#{{ n_id }}").removeClass("selected-character-tab");
+    {% endfor %}
+});
