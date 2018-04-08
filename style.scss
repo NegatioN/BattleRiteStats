@@ -24,7 +24,7 @@ body {
   color: $darkGray;
 }
 
-.main-container {
+.container {
   margin: 0 auto;
   max-width: 800px;
   padding: 0 10px;
@@ -502,11 +502,6 @@ $icon-border-thickness: 3px;
 
 .selected-character-tab {
   background-color: rgba(166, 166, 166, .2);
-}
-
-.side-ads {
-  height: 100%;
-  max-height: 800px;
 }
 
 @import "svg-icons";
