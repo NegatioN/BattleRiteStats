@@ -26,7 +26,7 @@ layout: default
             <div class="col-xs-6 col-md-12 skill-parent">
                 <div class="col-md-1"></div>
             {% for skill in build.skills %}
-                <div class="col-sm-1 col-md-2 skill-element" title="{{skill.name}} - {{skill.description}}">
+                <div class="col-sm-2 col-md-2 skill-element" title="{{skill.name}} - {{skill.description}}">
                     <img class="skill-{{skill.color}}" alt="{{skill.name}} icon" src="{{site.url}}/assets/img/{{skill.icon}}_64.png" />
                     <p>{{skill.name}}</p>
                 </div>
@@ -54,7 +54,7 @@ layout: default
             <div class="col-xs-6 col-md-12 skill-parent">
                 <div class="col-md-1"></div>
                 {% for skill in build.skills %}
-                <div class="col-sm-1 col-md-2 skill-element" title="{{skill.name}} - {{skill.description}}">
+                <div class="col-sm-2 col-md-2 skill-element" title="{{skill.name}} - {{skill.description}}">
                     <img class="skill-{{skill.color}}" alt="{{skill.name}} icon" src="{{site.url}}/assets/img/{{skill.icon}}_64.png" />
                     <p>{{skill.name}}</p>
                 </div>
@@ -81,7 +81,7 @@ layout: default
             <div class="col-xs-6 col-md-12 skill-parent">
                 <div class="col-md-2"></div>
                 {% for hero in compo.heros %}
-                <div class="col-sm-2 col-md-4 compo-hero-element" title="{{hero.name}}">
+                <div class="col-sm-4 col-md-4 compo-hero-element" title="{{hero.name}}">
                     <img alt="{{hero.name}} icon" src="{{site.url}}/assets/img/{{hero.icon}}.png" />
                     <p style="text-align: center">{{hero.name}}</p>
                 </div>
@@ -103,7 +103,7 @@ layout: default
         <div class="row build-wrapper">
             <div class="col-xs-6 col-md-12 skill-parent">
                 {% for hero in compo.heros %}
-                <div class="col-sm-2 col-md-4 compo-hero-element" title="{{hero.name}}">
+                <div class="col-sm-4 col-md-4 compo-hero-element" title="{{hero.name}}">
                     <img alt="{{hero.name}} icon" src="{{site.url}}/assets/img/{{hero.icon}}.png" />
                     <p style="text-align: center">{{hero.name}}</p>
                 </div>
