@@ -4,7 +4,7 @@ builds:
   - damage: '7.6'
     disable: '0.9'
     energy: '3.5'
-    num: 400
+    num: 397
     protection: '1.6'
     skills:
     - color: green
@@ -36,11 +36,11 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '49.8'
-  - damage: '7.8'
+    winrate: '50.4'
+  - damage: '7.7'
     disable: '0.6'
     energy: '3.9'
-    num: 152
+    num: 145
     protection: '1.6'
     skills:
     - color: green
@@ -73,11 +73,11 @@ builds:
       icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
       type: offense
-    winrate: '50.7'
+    winrate: '51.0'
   - damage: '7.9'
     disable: '0.6'
     energy: '3.4'
-    num: 51
+    num: 50
     protection: '1.6'
     skills:
     - color: green
@@ -110,11 +110,11 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '58.8'
+    winrate: '58.0'
   - damage: '7.3'
     disable: '0.7'
     energy: '3.5'
-    num: 50
+    num: 41
     protection: '1.4'
     skills:
     - color: green
@@ -146,11 +146,11 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '56.0'
+    winrate: '48.8'
   - damage: '8.0'
-    disable: '0.8'
+    disable: '0.7'
     energy: '3.7'
-    num: 43
+    num: 40
     protection: '1.7'
     skills:
     - color: green
@@ -182,12 +182,12 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '48.8'
+    winrate: '50.0'
   twos:
-  - damage: '7.8'
+  - damage: '7.7'
     disable: '0.9'
     energy: '3.5'
-    num: 759
+    num: 758
     protection: '1.6'
     skills:
     - color: green
@@ -219,11 +219,11 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '53.1'
-  - damage: '8.1'
+    winrate: '53.2'
+  - damage: '8.2'
     disable: '0.6'
     energy: '3.9'
-    num: 319
+    num: 314
     protection: '1.7'
     skills:
     - color: green
@@ -256,11 +256,11 @@ builds:
       icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
       type: offense
-    winrate: '49.5'
+    winrate: '51.0'
   - damage: '8.0'
     disable: '0.6'
     energy: '3.7'
-    num: 131
+    num: 128
     protection: '1.6'
     skills:
     - color: green
@@ -292,11 +292,11 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '48.1'
-  - damage: '8.3'
+    winrate: '47.7'
+  - damage: '8.2'
     disable: '0.6'
     energy: '3.9'
-    num: 99
+    num: 97
     protection: '1.6'
     skills:
     - color: green
@@ -328,11 +328,11 @@ builds:
       icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
       type: offense
-    winrate: '47.5'
-  - damage: '7.0'
+    winrate: '49.5'
+  - damage: '6.9'
     disable: '0.8'
-    energy: '3.3'
-    num: 57
+    energy: '3.2'
+    num: 58
     protection: '1.4'
     skills:
     - color: green
@@ -363,7 +363,7 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '38.6'
+    winrate: '39.7'
 compos:
   threes:
   - hero_names:
@@ -380,9 +380,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 60
-    winrate: 0.5333333333333333
-    wins: 32
+    num: 58
+    winrate: 0.5689655172413793
+    wins: 33
   - hero_names:
     - Ulric
     - Ashka
@@ -414,9 +414,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 31
-    winrate: 0.6129032258064516
-    wins: 19
+    num: 29
+    winrate: 0.6206896551724138
+    wins: 18
   - hero_names:
     - Shifu
     - Jade
@@ -432,8 +432,8 @@ compos:
       name: Lucie
       title: lucie
     num: 25
-    winrate: 0.48
-    wins: 12
+    winrate: 0.52
+    wins: 13
   - hero_names:
     - Ulric
     - Shifu
@@ -448,9 +448,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 24
-    winrate: 0.625
-    wins: 15
+    num: 21
+    winrate: 0.6666666666666666
+    wins: 14
   twos:
   - hero_names:
     - Ulric
@@ -462,9 +462,9 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 383
-    winrate: 0.4516971279373368
-    wins: 173
+    num: 380
+    winrate: 0.4605263157894737
+    wins: 175
   - hero_names:
     - Shifu
     - Pearl
@@ -475,9 +475,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 205
-    winrate: 0.6487804878048781
-    wins: 133
+    num: 206
+    winrate: 0.6553398058252428
+    wins: 135
   - hero_names:
     - Blossom
     - Shifu
@@ -488,9 +488,9 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 196
-    winrate: 0.5867346938775511
-    wins: 115
+    num: 187
+    winrate: 0.5721925133689839
+    wins: 107
   - hero_names:
     - Oldur
     - Shifu
@@ -501,9 +501,9 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 182
-    winrate: 0.46153846153846156
-    wins: 84
+    num: 179
+    winrate: 0.44692737430167595
+    wins: 80
   - hero_names:
     - Shifu
     - Sirius
@@ -514,9 +514,9 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 164
-    winrate: 0.5304878048780488
-    wins: 87
+    num: 148
+    winrate: 0.5337837837837838
+    wins: 79
 description: Expert in the martial art of Ni'Shu and master of the spear. A highly
   mobile and dangerous duelist. His extraordinary combat prowess culminates in a range
   of deadly melee attacks. Facing Shifu is like walking into a tornado of spearheads.
@@ -524,11 +524,11 @@ icon: 6f69edc7410650c43bee267eef585b06
 layout: character
 name: shifu
 num:
-  threes: 1023
-  twos: 2193
+  threes: 984
+  twos: 2149
 title: Shifu
 url: characters/shifu.html
 winrate:
-  threes: '48.19'
-  twos: '48.06'
+  threes: '47.87'
+  twos: '48.26'
 ...

@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '7.5'
+  - damage: '7.4'
     disable: '1.1'
-    energy: '3.2'
-    num: 196
+    energy: '3.3'
+    num: 202
     protection: '2.1'
     skills:
     - color: green
@@ -35,11 +35,11 @@ builds:
       icon: 883e2720ad11f2d49b51d9f649c67203
       name: Thundering Spring
       type: mobility
-    winrate: '60.7'
+    winrate: '61.4'
   - damage: '7.3'
     disable: '1.1'
-    energy: '3.9'
-    num: 74
+    energy: '3.8'
+    num: 73
     protection: '2.3'
     skills:
     - color: green
@@ -69,11 +69,11 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Tempest
       type: mobility
-    winrate: '41.9'
+    winrate: '42.5'
   - damage: '7.7'
     disable: '1.1'
     energy: '4.1'
-    num: 50
+    num: 49
     protection: '2.2'
     skills:
     - color: green
@@ -104,11 +104,11 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    winrate: '42.0'
+    winrate: '40.8'
   - damage: '7.6'
     disable: '1.2'
     energy: '4.0'
-    num: 43
+    num: 44
     protection: '2.2'
     skills:
     - color: green
@@ -138,11 +138,11 @@ builds:
       icon: 296bc93338f9bc94a8afca3763e4a778
       name: Thunderstruck
       type: control
-    winrate: '51.2'
-  - damage: '8.2'
+    winrate: '52.3'
+  - damage: '8.1'
     disable: '1.4'
     energy: '4.5'
-    num: 35
+    num: 37
     protection: '1.9'
     skills:
     - color: green
@@ -172,12 +172,12 @@ builds:
       icon: 296bc93338f9bc94a8afca3763e4a778
       name: Thunderstruck
       type: control
-    winrate: '68.6'
+    winrate: '70.3'
   twos:
-  - damage: '7.9'
+  - damage: '7.8'
     disable: '1.4'
-    energy: '4.0'
-    num: 173
+    energy: '5.1'
+    num: 182
     protection: '2.1'
     skills:
     - color: green
@@ -209,11 +209,11 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
       type: mixed
-    winrate: '50.3'
+    winrate: '46.7'
   - damage: '7.5'
     disable: '1.1'
     energy: '3.7'
-    num: 125
+    num: 128
     protection: '2.2'
     skills:
     - color: green
@@ -244,7 +244,7 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    winrate: '48.0'
+    winrate: '47.7'
   - damage: '7.2'
     disable: '1.2'
     energy: '3.7'
@@ -284,7 +284,7 @@ builds:
   - damage: '6.5'
     disable: '0.9'
     energy: '3.5'
-    num: 76
+    num: 74
     protection: '1.9'
     skills:
     - color: green
@@ -315,11 +315,11 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Rolling Thunder
       type: mobility
-    winrate: '53.9'
+    winrate: '54.1'
   - damage: '7.7'
     disable: '1.2'
     energy: '3.9'
-    num: 72
+    num: 73
     protection: '2.0'
     skills:
     - color: green
@@ -350,7 +350,7 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
       type: mixed
-    winrate: '65.3'
+    winrate: '65.8'
 compos:
   threes:
   - hero_names:
@@ -367,9 +367,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 38
-    winrate: 0.5263157894736842
-    wins: 20
+    num: 44
+    winrate: 0.5909090909090909
+    wins: 26
   - hero_names:
     - Ulric
     - Ashka
@@ -384,26 +384,9 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 28
-    winrate: 0.5357142857142857
-    wins: 15
-  - hero_names:
-    - Ulric
-    - Jumong
-    - Freya
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: 42a665b9c285a1243a201c8d533980e5
-      name: Jumong
-      title: jumong
-    - icon: be081702a8e70fe44ac0a4e3a9c46368
-      name: Freya
-      title: freya
-    num: 21
-    winrate: 0.5714285714285714
-    wins: 12
+    num: 31
+    winrate: 0.5161290322580645
+    wins: 16
   - hero_names:
     - Ulric
     - Freya
@@ -419,25 +402,42 @@ compos:
       name: Alysia
       title: alysia
     num: 21
-    winrate: 0.5238095238095238
-    wins: 11
+    winrate: 0.47619047619047616
+    wins: 10
   - hero_names:
     - Ulric
+    - Jumong
     - Freya
-    - Ezmo
     heros:
     - icon: a90600a0f93cf3644b279b61ab3dc5c8
       name: Ulric
       title: ulric
+    - icon: 42a665b9c285a1243a201c8d533980e5
+      name: Jumong
+      title: jumong
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    - icon: 3af1fdc53169d044b939cce7ffb561a1
-      name: Ezmo
-      title: ezmo
-    num: 20
-    winrate: 0.45
-    wins: 9
+    num: 19
+    winrate: 0.5263157894736842
+    wins: 10
+  - hero_names:
+    - Poloma
+    - Freya
+    - Jade
+    heros:
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: be081702a8e70fe44ac0a4e3a9c46368
+      name: Freya
+      title: freya
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 19
+    winrate: 0.42105263157894735
+    wins: 8
   twos:
   - hero_names:
     - Ulric
@@ -449,9 +449,9 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 403
-    winrate: 0.5409429280397022
-    wins: 218
+    num: 396
+    winrate: 0.5328282828282829
+    wins: 211
   - hero_names:
     - Blossom
     - Freya
@@ -462,22 +462,9 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 164
-    winrate: 0.5182926829268293
-    wins: 85
-  - hero_names:
-    - Oldur
-    - Freya
-    heros:
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: be081702a8e70fe44ac0a4e3a9c46368
-      name: Freya
-      title: freya
-    num: 116
-    winrate: 0.5258620689655172
-    wins: 61
+    num: 156
+    winrate: 0.5128205128205128
+    wins: 80
   - hero_names:
     - Freya
     - Pearl
@@ -488,33 +475,46 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 116
-    winrate: 0.5172413793103449
-    wins: 60
+    num: 120
+    winrate: 0.5416666666666666
+    wins: 65
   - hero_names:
-    - Poloma
+    - Oldur
     - Freya
     heros:
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
+    num: 117
+    winrate: 0.5213675213675214
+    wins: 61
+  - hero_names:
+    - Freya
+    - Sirius
+    heros:
+    - icon: be081702a8e70fe44ac0a4e3a9c46368
+      name: Freya
+      title: freya
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
     num: 85
-    winrate: 0.47058823529411764
-    wins: 40
+    winrate: 0.4117647058823529
+    wins: 35
 description: Once a tribe queen, now a fearless contender. Her titanic hammers and
   overwhelming power of lightning is the perfect recipe for destruction.
 icon: be081702a8e70fe44ac0a4e3a9c46368
 layout: character
 name: freya
 num:
-  threes: 925
-  twos: 1668
+  threes: 948
+  twos: 1650
 title: Freya
 url: characters/freya.html
 winrate:
-  threes: '49.30'
-  twos: '46.52'
+  threes: '49.16'
+  twos: '46.24'
 ...

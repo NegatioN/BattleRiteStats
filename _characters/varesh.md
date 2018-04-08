@@ -35,10 +35,10 @@ builds:
       name: Wonder
       type: support
     winrate: '63.0'
-  - damage: '8.3'
+  - damage: '8.4'
     disable: '0.5'
-    energy: '4.4'
-    num: 47
+    energy: '4.5'
+    num: 48
     protection: '2.1'
     skills:
     - color: red
@@ -67,7 +67,7 @@ builds:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
       type: support
-    winrate: '59.6'
+    winrate: '60.4'
   - damage: '7.6'
     disable: '0.4'
     energy: '4.3'
@@ -104,10 +104,10 @@ builds:
       name: Unlimited Power
       type: survival
     winrate: '39.4'
-  - damage: '6.7'
+  - damage: '6.8'
     disable: '0.5'
     energy: '4.0'
-    num: 30
+    num: 29
     protection: '2.0'
     skills:
     - color: grey
@@ -140,12 +140,12 @@ builds:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Zeal
       type: control
-    winrate: '40.0'
+    winrate: '41.4'
   - damage: '6.0'
     disable: '0.5'
     energy: '3.3'
-    num: 23
-    protection: '1.5'
+    num: 24
+    protection: '1.4'
     skills:
     - color: yellow
       description: Shatter can be cast while moving at 75 speed.
@@ -174,13 +174,13 @@ builds:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
       type: support
-    winrate: '56.5'
+    winrate: '54.2'
   twos:
   - damage: '6.7'
     disable: '0.6'
     energy: '3.5'
     num: 71
-    protection: '2.1'
+    protection: '2.2'
     skills:
     - color: grey
       description: Inhibitor's Guard increases movement speed by 25 and damage output
@@ -212,12 +212,12 @@ builds:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Zeal
       type: control
-    winrate: '57.7'
+    winrate: '56.3'
   - damage: '6.7'
     disable: '0.4'
     energy: '3.6'
-    num: 65
-    protection: '1.9'
+    num: 59
+    protection: '2.0'
     skills:
     - color: grey
       description: Inhibitor's Guard increases movement speed by 25 and damage output
@@ -247,44 +247,11 @@ builds:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
       type: support
-    winrate: '69.2'
-  - damage: '7.2'
-    disable: '0.5'
-    energy: '3.8'
-    num: 50
-    protection: '2.1'
-    skills:
-    - color: red
-      description: Powers Combined repeats itself 1 extra time.
-      icon: af1b0c6a44fc0a34694eafc090cd68ee
-      name: Absolute Power
-      type: offense
-    - color: red
-      description: Ability charges of Shatter increase to 3 from 2, and Shatter deals
-        2 bonus damage.
-      icon: d6c97da35fc19134881cb5a4c44e3912
-      name: Fracture
-      type: offense
-    - color: yellow
-      description: Shatter can be cast while moving at 75 speed.
-      icon: d6c97da35fc19134881cb5a4c44e3912
-      name: Inhibitor
-      type: mobility
-    - color: red
-      description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
-      icon: 2771f14010b802143b0b4d5fc8e4bb9c
-      name: Ruin
-      type: offense
-    - color: teal
-      description: Inhibitor's Guard absorbs 14 more damage.
-      icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Wonder
-      type: support
-    winrate: '72.0'
+    winrate: '66.1'
   - damage: '7.5'
     disable: '0.6'
     energy: '4.1'
-    num: 48
+    num: 47
     protection: '2.3'
     skills:
     - color: red
@@ -314,7 +281,43 @@ builds:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
       type: support
-    winrate: '64.6'
+    winrate: '66.0'
+  - damage: '6.1'
+    disable: '0.5'
+    energy: '3.1'
+    num: 47
+    protection: '1.9'
+    skills:
+    - color: grey
+      description: Inhibitor's Guard increases movement speed by 25 and damage output
+        by 15.
+      icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Celerity
+      type: mixed
+    - color: yellow
+      description: Consuming Corruption increases your movement speed by 10 for 5.
+        Can stack up to 3 times.
+      icon: fe5369baf5a80dc47b0656ae7be82e09
+      name: Fervor
+      type: mobility
+    - color: red
+      description: Ability charges of Shatter increase to 3 from 2, and Shatter deals
+        2 bonus damage.
+      icon: d6c97da35fc19134881cb5a4c44e3912
+      name: Fracture
+      type: offense
+    - color: yellow
+      description: Shatter can be cast while moving at 75 speed.
+      icon: d6c97da35fc19134881cb5a4c44e3912
+      name: Inhibitor
+      type: mobility
+    - color: green
+      description: Consuming Corruption with Shatter increases Fading Snare duration
+        from 1 to 1.5 and reapplies Corruption.
+      icon: fe5369baf5a80dc47b0656ae7be82e09
+      name: Unlimited Power
+      type: survival
+    winrate: '42.6'
   - damage: '7.0'
     disable: '0.6'
     energy: '4.3'
@@ -368,8 +371,8 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 17
-    winrate: 0.8235294117647058
+    num: 16
+    winrate: 0.875
     wins: 14
   - hero_names:
     - Ulric
@@ -385,8 +388,8 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 17
-    winrate: 0.29411764705882354
+    num: 16
+    winrate: 0.3125
     wins: 5
   - hero_names:
     - Ulric
@@ -436,9 +439,9 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 14
-    winrate: 0.6428571428571429
-    wins: 9
+    num: 12
+    winrate: 0.6666666666666666
+    wins: 8
   twos:
   - hero_names:
     - Ulric
@@ -450,9 +453,9 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 191
-    winrate: 0.5863874345549738
-    wins: 112
+    num: 185
+    winrate: 0.5837837837837838
+    wins: 108
   - hero_names:
     - Poloma
     - Varesh
@@ -463,8 +466,8 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 91
-    winrate: 0.5274725274725275
+    num: 97
+    winrate: 0.4948453608247423
     wins: 48
   - hero_names:
     - Pearl
@@ -476,8 +479,8 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 68
-    winrate: 0.5294117647058824
+    num: 72
+    winrate: 0.5
     wins: 36
   - hero_names:
     - Oldur
@@ -489,9 +492,9 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 67
-    winrate: 0.5522388059701493
-    wins: 37
+    num: 70
+    winrate: 0.5571428571428572
+    wins: 39
   - hero_names:
     - Blossom
     - Varesh
@@ -512,11 +515,11 @@ icon: f1cc53a29c58089478f6438589d9b32d
 layout: character
 name: varesh
 num:
-  threes: 597
-  twos: 931
+  threes: 605
+  twos: 933
 title: Varesh
 url: characters/varesh.html
 winrate:
-  threes: '48.07'
-  twos: '51.66'
+  threes: '49.26'
+  twos: '51.45'
 ...

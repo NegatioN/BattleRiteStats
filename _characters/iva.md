@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '7.9'
+  - damage: '7.7'
     disable: '1.5'
     energy: '4.1'
-    num: 40
+    num: 36
     protection: '0.5'
     skills:
     - color: yellow
@@ -33,8 +33,8 @@ builds:
       icon: d80cae4dd7699264fb3c37675b59f263
       name: Heavy Rocket
       type: control
-    winrate: '60.0'
-  - damage: '7.2'
+    winrate: '61.1'
+  - damage: '7.3'
     disable: '1.0'
     energy: '3.3'
     num: 27
@@ -68,9 +68,9 @@ builds:
       type: utility
     winrate: '25.9'
   - damage: '7.3'
-    disable: '1.3'
+    disable: '1.4'
     energy: '3.7'
-    num: 12
+    num: 13
     protection: '0.7'
     skills:
     - color: yellow
@@ -98,7 +98,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: Rocket Boosters
       type: mobility
-    winrate: '50.0'
+    winrate: '53.8'
   - damage: '6.7'
     disable: '1.0'
     energy: '3.2'
@@ -166,11 +166,11 @@ builds:
       type: offense
     winrate: '72.7'
   twos:
-  - damage: '7.5'
+  - damage: '7.6'
     disable: '1.0'
-    energy: '3.9'
-    num: 96
-    protection: '0.8'
+    energy: '3.8'
+    num: 84
+    protection: '0.9'
     skills:
     - color: pink
       description: Increases Oil factor by 10 and duration by 1.5.
@@ -199,11 +199,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '58.3'
+    winrate: '57.1'
   - damage: '7.7'
     disable: '1.0'
     energy: '3.6'
-    num: 73
+    num: 70
     protection: '0.7'
     skills:
     - color: yellow
@@ -232,11 +232,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '49.3'
-  - damage: '7.2'
+    winrate: '50.0'
+  - damage: '7.3'
     disable: '0.9'
     energy: '3.2'
-    num: 61
+    num: 63
     protection: '0.7'
     skills:
     - color: red
@@ -265,12 +265,12 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '32.8'
-  - damage: '7.0'
+    winrate: '31.7'
+  - damage: '6.9'
     disable: '1.0'
     energy: '2.7'
     num: 39
-    protection: '0.5'
+    protection: '0.4'
     skills:
     - color: yellow
       description: Zap knocks nearby enemies back and grants 25 Fading Haste for 2.
@@ -297,11 +297,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '59.0'
+    winrate: '61.5'
   - damage: '6.6'
     disable: '1.2'
-    energy: '4.0'
-    num: 31
+    energy: '3.9'
+    num: 28
     protection: '0.6'
     skills:
     - color: yellow
@@ -330,43 +330,9 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: Rocket Boosters
       type: mobility
-    winrate: '41.9'
+    winrate: '32.1'
 compos:
   threes:
-  - hero_names:
-    - Ulric
-    - Iva
-    - Freya
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: decba44679fbdae4bb7d0d1cb6a97682
-      name: Iva
-      title: iva
-    - icon: be081702a8e70fe44ac0a4e3a9c46368
-      name: Freya
-      title: freya
-    num: 19
-    winrate: 0.7894736842105263
-    wins: 15
-  - hero_names:
-    - Ulric
-    - Iva
-    - Bakko
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: decba44679fbdae4bb7d0d1cb6a97682
-      name: Iva
-      title: iva
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    num: 19
-    winrate: 0.5263157894736842
-    wins: 10
   - hero_names:
     - Ulric
     - Rook
@@ -381,9 +347,43 @@ compos:
     - icon: decba44679fbdae4bb7d0d1cb6a97682
       name: Iva
       title: iva
-    num: 19
-    winrate: 0.21052631578947367
-    wins: 4
+    num: 20
+    winrate: 0.25
+    wins: 5
+  - hero_names:
+    - Ulric
+    - Iva
+    - Freya
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: decba44679fbdae4bb7d0d1cb6a97682
+      name: Iva
+      title: iva
+    - icon: be081702a8e70fe44ac0a4e3a9c46368
+      name: Freya
+      title: freya
+    num: 18
+    winrate: 0.7222222222222222
+    wins: 13
+  - hero_names:
+    - Ulric
+    - Iva
+    - Bakko
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: decba44679fbdae4bb7d0d1cb6a97682
+      name: Iva
+      title: iva
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    num: 18
+    winrate: 0.4444444444444444
+    wins: 8
   - hero_names:
     - Rook
     - Iva
@@ -429,21 +429,21 @@ compos:
     - icon: decba44679fbdae4bb7d0d1cb6a97682
       name: Iva
       title: iva
-    num: 118
-    winrate: 0.4830508474576271
-    wins: 57
+    num: 123
+    winrate: 0.4878048780487805
+    wins: 60
   - hero_names:
-    - Iva
     - Oldur
+    - Iva
     heros:
-    - icon: decba44679fbdae4bb7d0d1cb6a97682
-      name: Iva
-      title: iva
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    num: 72
-    winrate: 0.5694444444444444
+    - icon: decba44679fbdae4bb7d0d1cb6a97682
+      name: Iva
+      title: iva
+    num: 78
+    winrate: 0.5256410256410257
     wins: 41
   - hero_names:
     - Iva
@@ -455,9 +455,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 70
-    winrate: 0.45714285714285713
-    wins: 32
+    num: 66
+    winrate: 0.4393939393939394
+    wins: 29
   - hero_names:
     - Iva
     - Pearl
@@ -468,9 +468,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 56
-    winrate: 0.6785714285714286
-    wins: 38
+    num: 61
+    winrate: 0.6557377049180327
+    wins: 40
   - hero_names:
     - Iva
     - Lucie
@@ -481,9 +481,9 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 47
-    winrate: 0.574468085106383
-    wins: 27
+    num: 49
+    winrate: 0.5306122448979592
+    wins: 26
 description: A scavenger from the outer realms. Iva has engineered her own arsenal
   of weapons. Firing crazy rockets or unleashing a storm of bullets is her way of
   greeting her opponents in the Arena.
@@ -491,11 +491,11 @@ icon: decba44679fbdae4bb7d0d1cb6a97682
 layout: character
 name: iva
 num:
-  threes: 424
-  twos: 824
+  threes: 437
+  twos: 828
 title: Iva
 url: characters/iva.html
 winrate:
-  threes: '48.11'
-  twos: '46.36'
+  threes: '48.05'
+  twos: '45.05'
 ...

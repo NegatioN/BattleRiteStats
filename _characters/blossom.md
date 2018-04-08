@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '3.8'
+  - damage: '3.7'
     disable: '0.8'
-    energy: '3.4'
-    num: 42
+    energy: '3.3'
+    num: 43
     protection: '6.7'
     skills:
     - color: teal
@@ -35,11 +35,11 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '50.0'
-  - damage: '4.0'
+    winrate: '46.5'
+  - damage: '4.1'
     disable: '0.9'
     energy: '3.3'
-    num: 37
+    num: 40
     protection: '5.7'
     skills:
     - color: green
@@ -68,12 +68,12 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '40.5'
+    winrate: '42.5'
   - damage: '4.7'
     disable: '1.0'
     energy: '3.2'
-    num: 28
-    protection: '4.9'
+    num: 27
+    protection: '4.8'
     skills:
     - color: yellow
       description: Hop can be recast for a Lesser Hop that travels a shorter distance.
@@ -102,11 +102,11 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '57.1'
+    winrate: '59.3'
   - damage: '4.4'
     disable: '0.8'
     energy: '3.5'
-    num: 23
+    num: 24
     protection: '6.3'
     skills:
     - color: green
@@ -136,7 +136,7 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '43.5'
+    winrate: '50.0'
   - damage: '4.8'
     disable: '1.0'
     energy: '3.4'
@@ -175,7 +175,7 @@ builds:
   - damage: '4.7'
     disable: '0.9'
     energy: '4.3'
-    num: 298
+    num: 301
     protection: '4.8'
     skills:
     - color: yellow
@@ -205,11 +205,11 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '50.3'
+    winrate: '49.5'
   - damage: '4.7'
     disable: '0.9'
     energy: '3.3'
-    num: 259
+    num: 257
     protection: '5.1'
     skills:
     - color: green
@@ -238,11 +238,11 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '57.5'
+    winrate: '56.8'
   - damage: '5.1'
     disable: '1.0'
     energy: '3.4'
-    num: 192
+    num: 184
     protection: '4.8'
     skills:
     - color: green
@@ -272,11 +272,11 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '51.0'
+    winrate: '51.6'
   - damage: '5.5'
     disable: '1.0'
     energy: '3.4'
-    num: 91
+    num: 82
     protection: '5.3'
     skills:
     - color: red
@@ -306,7 +306,7 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '60.4'
+    winrate: '63.4'
   - damage: '5.3'
     disable: '1.0'
     energy: '3.6'
@@ -358,9 +358,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 14
-    winrate: 0.2857142857142857
-    wins: 4
+    num: 13
+    winrate: 0.23076923076923078
+    wins: 3
   - hero_names:
     - Ulric
     - Thorn
@@ -375,9 +375,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 11
-    winrate: 0.7272727272727273
-    wins: 8
+    num: 12
+    winrate: 0.75
+    wins: 9
   - hero_names:
     - Ashka
     - Thorn
@@ -396,23 +396,6 @@ compos:
     winrate: 0.1
     wins: 1
   - hero_names:
-    - Blossom
-    - Bakko
-    - Jade
-    heros:
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 10
-    winrate: 0.4
-    wins: 4
-  - hero_names:
     - Freya
     - Jade
     - Blossom
@@ -426,9 +409,26 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 8
-    winrate: 0.5
-    wins: 4
+    num: 10
+    winrate: 0.6
+    wins: 6
+  - hero_names:
+    - Ashka
+    - Blossom
+    - Croak
+    heros:
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
+    num: 9
+    winrate: 0.5555555555555556
+    wins: 5
   twos:
   - hero_names:
     - Blossom
@@ -440,9 +440,9 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 196
-    winrate: 0.5867346938775511
-    wins: 115
+    num: 187
+    winrate: 0.5721925133689839
+    wins: 107
   - hero_names:
     - Rook
     - Blossom
@@ -453,9 +453,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 179
-    winrate: 0.547486033519553
-    wins: 98
+    num: 172
+    winrate: 0.5465116279069767
+    wins: 94
   - hero_names:
     - Blossom
     - Freya
@@ -466,9 +466,9 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 164
-    winrate: 0.5182926829268293
-    wins: 85
+    num: 156
+    winrate: 0.5128205128205128
+    wins: 80
   - hero_names:
     - Blossom
     - Jade
@@ -479,9 +479,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 128
-    winrate: 0.4609375
-    wins: 59
+    num: 130
+    winrate: 0.43846153846153846
+    wins: 57
   - hero_names:
     - Blossom
     - Ezmo
@@ -492,9 +492,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 125
-    winrate: 0.56
-    wins: 70
+    num: 122
+    winrate: 0.5409836065573771
+    wins: 66
 description: Blossom is a happy, bubbly young faun from the Silverdeep Forest. She
   has left her home to investigate a disturbance in the natural order. She is never
   far from her bird companion, Maxwell.
@@ -502,11 +502,11 @@ icon: 6f50396e26efe6c4bbad274e2c90b8a4
 layout: character
 name: blossom
 num:
-  threes: 455
-  twos: 1761
+  threes: 456
+  twos: 1732
 title: Blossom
 url: characters/blossom.html
 winrate:
-  threes: '43.96'
-  twos: '52.19'
+  threes: '44.30'
+  twos: '51.67'
 ...
