@@ -4,8 +4,8 @@ builds:
   - damage: '4.3'
     disable: '0.7'
     energy: '3.5'
-    num: 488
-    protection: '6.2'
+    num: 466
+    protection: '6.1'
     skills:
     - color: grey
       description: Charged Hammer of Justice deals 2 bonus damage. Deals full damage
@@ -36,46 +36,11 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '54.1'
-  - damage: '4.6'
-    disable: '0.8'
-    energy: '3.6'
-    num: 133
-    protection: '6.6'
-    skills:
-    - color: grey
-      description: Charged Hammer of Justice deals 2 bonus damage. Deals full damage
-        and inflicts Stun on secondary targets.
-      icon: 398f1e921a73f484e9fc54e1308407f7
-      name: Cleave
-      type: mixed
-    - color: grey
-      description: Holy Light healing increases by 3 when healing self or allies affected
-        by Favor.
-      icon: 85a79d3bf018b184887fb1a71ef51ac1
-      name: Devotion
-      type: mixed
-    - color: grey
-      description: Favor reduces damage taken by 15.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Divine Protection
-      type: mixed
-    - color: grey
-      description: Holy Light recharges 100 faster when Smite is active.
-      icon: 85a79d3bf018b184887fb1a71ef51ac1
-      name: Faith
-      type: mixed
-    - color: grey
-      description: Condemn cooldown is reduced by 3 and hits refresh the cooldown
-        of Intervene.
-      icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
-      name: Vindicator
-      type: mixed
-    winrate: '60.2'
-  - damage: '4.4'
+    winrate: '53.2'
+  - damage: '4.5'
     disable: '0.7'
     energy: '3.6'
-    num: 131
+    num: 173
     protection: '6.6'
     skills:
     - color: grey
@@ -101,17 +66,17 @@ builds:
       name: Faith
       type: mixed
     - color: grey
-      description: Intervene deals 2 bonus damage and reduces incoming healing by
-        33 for 3.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Penitence
+      description: Condemn cooldown is reduced by 3 and hits refresh the cooldown
+        of Intervene.
+      icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
+      name: Vindicator
       type: mixed
-    winrate: '48.9'
+    winrate: '61.8'
   - damage: '4.2'
     disable: '0.7'
     energy: '3.4'
-    num: 130
-    protection: '6.3'
+    num: 141
+    protection: '6.4'
     skills:
     - color: grey
       description: Charged Hammer of Justice deals 2 bonus damage. Deals full damage
@@ -141,11 +106,46 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '56.2'
+    winrate: '56.0'
+  - damage: '4.3'
+    disable: '0.6'
+    energy: '3.4'
+    num: 110
+    protection: '6.7'
+    skills:
+    - color: grey
+      description: Charged Hammer of Justice deals 2 bonus damage. Deals full damage
+        and inflicts Stun on secondary targets.
+      icon: 398f1e921a73f484e9fc54e1308407f7
+      name: Cleave
+      type: mixed
+    - color: grey
+      description: Holy Light healing increases by 3 when healing self or allies affected
+        by Favor.
+      icon: 85a79d3bf018b184887fb1a71ef51ac1
+      name: Devotion
+      type: mixed
+    - color: grey
+      description: Favor reduces damage taken by 15.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Divine Protection
+      type: mixed
+    - color: grey
+      description: Holy Light recharges 100 faster when Smite is active.
+      icon: 85a79d3bf018b184887fb1a71ef51ac1
+      name: Faith
+      type: mixed
+    - color: grey
+      description: Intervene deals 2 bonus damage and reduces incoming healing by
+        33 for 3.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Penitence
+      type: mixed
+    winrate: '50.9'
   - damage: '4.0'
     disable: '0.7'
     energy: '3.2'
-    num: 95
+    num: 100
     protection: '5.8'
     skills:
     - color: grey
@@ -177,12 +177,12 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '54.7'
+    winrate: '57.0'
   twos:
   - damage: '4.6'
     disable: '0.7'
     energy: '3.5'
-    num: 532
+    num: 492
     protection: '4.9'
     skills:
     - color: grey
@@ -214,11 +214,11 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '50.9'
+    winrate: '50.6'
   - damage: '4.6'
     disable: '0.7'
     energy: '3.3'
-    num: 228
+    num: 223
     protection: '5.6'
     skills:
     - color: grey
@@ -249,11 +249,11 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '60.5'
-  - damage: '4.4'
+    winrate: '61.4'
+  - damage: '4.5'
     disable: '0.7'
-    energy: '3.3'
-    num: 139
+    energy: '3.2'
+    num: 134
     protection: '5.1'
     skills:
     - color: grey
@@ -284,11 +284,11 @@ builds:
       icon: 43ddc4074c2b605478c43c9727704ce8
       name: Penitence
       type: mixed
-    winrate: '46.8'
+    winrate: '46.3'
   - damage: '4.4'
     disable: '0.7'
-    energy: '3.3'
-    num: 119
+    energy: '3.2'
+    num: 111
     protection: '5.1'
     skills:
     - color: grey
@@ -320,12 +320,12 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '45.4'
+    winrate: '49.5'
   - damage: '4.3'
     disable: '0.6'
-    energy: '3.1'
-    num: 100
-    protection: '5.5'
+    energy: '3.2'
+    num: 106
+    protection: '5.6'
     skills:
     - color: grey
       description: Holy Light healing increases by 3 when healing self or allies affected
@@ -356,9 +356,26 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '57.0'
+    winrate: '59.4'
 compos:
   threes:
+  - hero_names:
+    - Ulric
+    - Bakko
+    - Jade
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 89
+    winrate: 0.7415730337078652
+    wins: 66
   - hero_names:
     - Ulric
     - Thorn
@@ -373,43 +390,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 85
-    winrate: 0.7529411764705882
-    wins: 64
-  - hero_names:
-    - Ulric
-    - Bakko
-    - Jade
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 80
-    winrate: 0.7125
-    wins: 57
-  - hero_names:
-    - Ulric
-    - Rook
-    - Jade
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 74
-    winrate: 0.6486486486486487
-    wins: 48
+    num: 89
+    winrate: 0.7303370786516854
+    wins: 65
   - hero_names:
     - Ulric
     - Bakko
@@ -424,9 +407,26 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
+    num: 70
+    winrate: 0.6142857142857143
+    wins: 43
+  - hero_names:
+    - Ulric
+    - Rook
+    - Jade
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
     num: 66
-    winrate: 0.5757575757575758
-    wins: 38
+    winrate: 0.6363636363636364
+    wins: 42
   - hero_names:
     - Ulric
     - Shifu
@@ -441,9 +441,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 58
-    winrate: 0.5689655172413793
-    wins: 33
+    num: 52
+    winrate: 0.5384615384615384
+    wins: 28
   twos:
   - hero_names:
     - Ulric
@@ -455,9 +455,9 @@ compos:
     - icon: e5d5913527b842b41aed666d27d14231
       name: Rook
       title: rook
-    num: 423
-    winrate: 0.5531914893617021
-    wins: 234
+    num: 409
+    winrate: 0.5696821515892421
+    wins: 233
   - hero_names:
     - Ulric
     - Freya
@@ -468,9 +468,9 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 396
-    winrate: 0.5328282828282829
-    wins: 211
+    num: 360
+    winrate: 0.5333333333333333
+    wins: 192
   - hero_names:
     - Ulric
     - Shifu
@@ -481,9 +481,9 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 380
-    winrate: 0.4605263157894737
-    wins: 175
+    num: 357
+    winrate: 0.4565826330532213
+    wins: 163
   - hero_names:
     - Ulric
     - Bakko
@@ -494,9 +494,9 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 364
-    winrate: 0.5796703296703297
-    wins: 211
+    num: 346
+    winrate: 0.5520231213872833
+    wins: 191
   - hero_names:
     - Ulric
     - Jade
@@ -507,9 +507,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 289
-    winrate: 0.5501730103806228
-    wins: 159
+    num: 267
+    winrate: 0.5355805243445693
+    wins: 143
 description: Sworn protector of the weak, devout follower of the Way of Symphony,
   and unwavering light against the dark. Ulric, trained in the holy Monastery of Resonance,
   has spent many years traveling the lands to spread the word of the Light. He joins
@@ -519,11 +519,11 @@ icon: a90600a0f93cf3644b279b61ab3dc5c8
 layout: character
 name: ulric
 num:
-  threes: 2709
-  twos: 4054
+  threes: 2715
+  twos: 3792
 title: Ulric
 url: characters/ulric.html
 winrate:
-  threes: '52.16'
-  twos: '50.86'
+  threes: '52.89'
+  twos: '51.29'
 ...

@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '8.1'
+  - damage: '8.0'
     disable: '0.8'
     energy: '4.1'
-    num: 266
+    num: 264
     protection: '0.2'
     skills:
     - color: pink
@@ -35,11 +35,11 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    winrate: '53.0'
-  - damage: '8.7'
+    winrate: '51.5'
+  - damage: '8.5'
     disable: '0.6'
-    energy: '4.4'
-    num: 161
+    energy: '4.3'
+    num: 151
     protection: '0.4'
     skills:
     - color: red
@@ -69,11 +69,11 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    winrate: '44.7'
-  - damage: '8.5'
+    winrate: '42.4'
+  - damage: '8.4'
     disable: '0.7'
     energy: '4.0'
-    num: 56
+    num: 49
     protection: '0.2'
     skills:
     - color: pink
@@ -104,45 +104,11 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    winrate: '73.2'
-  - damage: '9.3'
+    winrate: '69.4'
+  - damage: '7.7'
     disable: '0.7'
-    energy: '4.5'
-    num: 21
-    protection: '0.2'
-    skills:
-    - color: red
-      description: Shackle hits grant 1 weapon charge and increase Arcane Fire range
-        by 50 until the next reload.
-      icon: b51e6f88de6853d46bec81bbb3a655a4
-      name: Bolted
-      type: offense
-    - color: red
-      description: Displace grants 1 extra weapon charge.
-      icon: 99a21ff998aff1248a10df2d317faa20
-      name: Chaos Barrage
-      type: offense
-    - color: pink
-      description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
-        duration.
-      icon: da12579e4ef58ba4c87c1819bf1c699b
-      name: Disruption
-      type: control
-    - color: red
-      description: ^2Arcane Fire^- deals 2 bonus damage to enemies rooted by ^2Shackle^-.
-      icon: b51e6f88de6853d46bec81bbb3a655a4
-      name: Face Melt
-      type: offense
-    - color: red
-      description: Displace increases your Arcane Fire attack speed by 30% for 2.5.
-      icon: 99a21ff998aff1248a10df2d317faa20
-      name: Wreak Havoc
-      type: offense
-    winrate: '57.1'
-  - damage: '7.9'
-    disable: '0.7'
-    energy: '3.7'
-    num: 17
+    energy: '3.6'
+    num: 28
     protection: '0.9'
     skills:
     - color: pink
@@ -173,12 +139,46 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    winrate: '58.8'
+    winrate: '67.9'
+  - damage: '9.2'
+    disable: '0.7'
+    energy: '4.5'
+    num: 22
+    protection: '0.2'
+    skills:
+    - color: red
+      description: Shackle hits grant 1 weapon charge and increase Arcane Fire range
+        by 50 until the next reload.
+      icon: b51e6f88de6853d46bec81bbb3a655a4
+      name: Bolted
+      type: offense
+    - color: red
+      description: Displace grants 1 extra weapon charge.
+      icon: 99a21ff998aff1248a10df2d317faa20
+      name: Chaos Barrage
+      type: offense
+    - color: pink
+      description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
+        duration.
+      icon: da12579e4ef58ba4c87c1819bf1c699b
+      name: Disruption
+      type: control
+    - color: red
+      description: ^2Arcane Fire^- deals 2 bonus damage to enemies rooted by ^2Shackle^-.
+      icon: b51e6f88de6853d46bec81bbb3a655a4
+      name: Face Melt
+      type: offense
+    - color: red
+      description: Displace increases your Arcane Fire attack speed by 30% for 2.5.
+      icon: 99a21ff998aff1248a10df2d317faa20
+      name: Wreak Havoc
+      type: offense
+    winrate: '54.5'
   twos:
-  - damage: '8.1'
+  - damage: '8.0'
     disable: '0.8'
     energy: '3.9'
-    num: 237
+    num: 241
     protection: '0.3'
     skills:
     - color: pink
@@ -209,11 +209,11 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    winrate: '63.3'
-  - damage: '8.7'
+    winrate: '63.5'
+  - damage: '8.6'
     disable: '0.8'
     energy: '4.7'
-    num: 38
+    num: 48
     protection: '0.0'
     skills:
     - color: red
@@ -245,11 +245,11 @@ builds:
       icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Warlock's Grip
       type: utility
-    winrate: '65.8'
-  - damage: '8.0'
-    disable: '0.8'
-    energy: '3.6'
-    num: 26
+    winrate: '66.7'
+  - damage: '8.1'
+    disable: '0.9'
+    energy: '3.7'
+    num: 32
     protection: '0.1'
     skills:
     - color: pink
@@ -280,11 +280,47 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    winrate: '34.6'
-  - damage: '7.1'
+    winrate: '37.5'
+  - damage: '7.4'
+    disable: '0.6'
+    energy: '3.2'
+    num: 22
+    protection: '0.5'
+    skills:
+    - color: pink
+      description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
+        duration.
+      icon: da12579e4ef58ba4c87c1819bf1c699b
+      name: Disruption
+      type: control
+    - color: red
+      description: Recast Arcane Barrier to fire a projectile. It deals 4 damage for
+        each of your charges.
+      icon: 563027e5fd687db4697308c54fe91381
+      name: Feedback
+      type: offense
+    - color: red
+      description: Increases pull force of Grimoire of Chaos by 25. It deals 10 bonus
+        damage.
+      icon: 41cc34493bbdcb44985028d3000656d8
+      name: Grimoire of Death
+      type: offense
+    - color: green
+      description: Negating attacks with Arcane Barrier grants twice as many weapon
+        charges. For each charge gained, heal yourself for 6 health.
+      icon: 563027e5fd687db4697308c54fe91381
+      name: Spell Eater
+      type: survival
+    - color: blue
+      description: Increases Chaos Grip range by 25.
+      icon: da12579e4ef58ba4c87c1819bf1c699b
+      name: Warlock's Grip
+      type: utility
+    winrate: '40.9'
+  - damage: '7.0'
     disable: '0.6'
     energy: '3.4'
-    num: 25
+    num: 21
     protection: '1.0'
     skills:
     - color: pink
@@ -316,42 +352,7 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    winrate: '56.0'
-  - damage: '8.0'
-    disable: '0.7'
-    energy: '3.9'
-    num: 25
-    protection: '1.0'
-    skills:
-    - color: red
-      description: Displace grants 1 extra weapon charge.
-      icon: 99a21ff998aff1248a10df2d317faa20
-      name: Chaos Barrage
-      type: offense
-    - color: pink
-      description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
-        duration.
-      icon: da12579e4ef58ba4c87c1819bf1c699b
-      name: Disruption
-      type: control
-    - color: teal
-      description: Tome of Destruction leashes onto nearby allies, healing for 16
-        health over the duration.
-      icon: 09c45aed2b0414a42a18c1b81c9e589a
-      name: Tome Of Restoration
-      type: support
-    - color: teal
-      description: Shackle inflicts Weaken, reducing target's damage and healing output
-        by 50 for 3.
-      icon: b51e6f88de6853d46bec81bbb3a655a4
-      name: Undermine
-      type: support
-    - color: red
-      description: Displace increases your Arcane Fire attack speed by 30% for 2.5.
-      icon: 99a21ff998aff1248a10df2d317faa20
-      name: Wreak Havoc
-      type: offense
-    winrate: '48.0'
+    winrate: '52.4'
 compos:
   threes:
   - hero_names:
@@ -368,9 +369,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 66
-    winrate: 0.5757575757575758
-    wins: 38
+    num: 70
+    winrate: 0.6142857142857143
+    wins: 43
   - hero_names:
     - Ulric
     - Thorn
@@ -386,8 +387,8 @@ compos:
       name: Ezmo
       title: ezmo
     num: 34
-    winrate: 0.6764705882352942
-    wins: 23
+    winrate: 0.6176470588235294
+    wins: 21
   - hero_names:
     - Bakko
     - Ezmo
@@ -402,9 +403,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 28
-    winrate: 0.75
-    wins: 21
+    num: 26
+    winrate: 0.7307692307692307
+    wins: 19
   - hero_names:
     - Ulric
     - Rook
@@ -420,8 +421,8 @@ compos:
       name: Ezmo
       title: ezmo
     num: 25
-    winrate: 0.56
-    wins: 14
+    winrate: 0.48
+    wins: 12
   - hero_names:
     - Ulric
     - Croak
@@ -436,9 +437,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 23
-    winrate: 0.6521739130434783
-    wins: 15
+    num: 24
+    winrate: 0.5833333333333334
+    wins: 14
   twos:
   - hero_names:
     - Ulric
@@ -450,9 +451,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 185
-    winrate: 0.572972972972973
-    wins: 106
+    num: 179
+    winrate: 0.5754189944134078
+    wins: 103
   - hero_names:
     - Blossom
     - Ezmo
@@ -463,22 +464,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 122
-    winrate: 0.5409836065573771
-    wins: 66
-  - hero_names:
-    - Ezmo
-    - Pearl
-    heros:
-    - icon: 3af1fdc53169d044b939cce7ffb561a1
-      name: Ezmo
-      title: ezmo
-    - icon: 427116cdee46bad4cbaa99d7063e0832
-      name: Pearl
-      title: pearl
-    num: 93
-    winrate: 0.5913978494623656
-    wins: 55
+    num: 118
+    winrate: 0.5338983050847458
+    wins: 63
   - hero_names:
     - Oldur
     - Ezmo
@@ -489,9 +477,22 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 84
-    winrate: 0.4523809523809524
-    wins: 38
+    num: 97
+    winrate: 0.5154639175257731
+    wins: 50
+  - hero_names:
+    - Ezmo
+    - Pearl
+    heros:
+    - icon: 3af1fdc53169d044b939cce7ffb561a1
+      name: Ezmo
+      title: ezmo
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
+    num: 95
+    winrate: 0.5894736842105263
+    wins: 56
   - hero_names:
     - Ezmo
     - Lucie
@@ -502,9 +503,9 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 68
-    winrate: 0.6764705882352942
-    wins: 46
+    num: 69
+    winrate: 0.6231884057971014
+    wins: 43
 description: Ezmo is an aggressive spell caster who can move quickly across the arena.
   Aradu, a powerful warlock summoned and imprisoned Ezmo but Ezmo saw his opportunity
   to escape when the warlock became too engrossed in reading his tome. He sealed Aradu's
@@ -513,11 +514,11 @@ icon: 3af1fdc53169d044b939cce7ffb561a1
 layout: character
 name: ezmo
 num:
-  threes: 955
-  twos: 1079
+  threes: 964
+  twos: 1089
 title: Ezmo
 url: characters/ezmo.html
 winrate:
-  threes: '49.84'
-  twos: '49.21'
+  threes: '49.69'
+  twos: '49.31'
 ...
