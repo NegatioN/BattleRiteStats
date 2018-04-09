@@ -34,10 +34,10 @@ builds:
       name: Heavy Rocket
       type: control
     winrate: '66.7'
-  - damage: '7.5'
+  - damage: '7.7'
     disable: '1.1'
     energy: '3.6'
-    num: 20
+    num: 21
     protection: '0.7'
     skills:
     - color: red
@@ -66,7 +66,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '30.0'
+    winrate: '33.3'
   - damage: '6.6'
     disable: '1.0'
     energy: '3.2'
@@ -203,7 +203,7 @@ builds:
   - damage: '7.4'
     disable: '1.0'
     energy: '3.5'
-    num: 74
+    num: 73
     protection: '0.7'
     skills:
     - color: yellow
@@ -232,7 +232,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '45.9'
+    winrate: '45.2'
   - damage: '7.3'
     disable: '1.0'
     energy: '3.2'
@@ -266,10 +266,10 @@ builds:
       name: U-Turn
       type: utility
     winrate: '31.6'
-  - damage: '6.9'
+  - damage: '7.0'
     disable: '1.0'
     energy: '2.7'
-    num: 39
+    num: 38
     protection: '0.4'
     skills:
     - color: yellow
@@ -297,11 +297,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '59.0'
+    winrate: '60.5'
   - damage: '6.6'
     disable: '1.2'
     energy: '3.9'
-    num: 25
+    num: 27
     protection: '0.6'
     skills:
     - color: yellow
@@ -330,26 +330,9 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: Rocket Boosters
       type: mobility
-    winrate: '36.0'
+    winrate: '37.0'
 compos:
   threes:
-  - hero_names:
-    - Ulric
-    - Rook
-    - Iva
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
-    - icon: decba44679fbdae4bb7d0d1cb6a97682
-      name: Iva
-      title: iva
-    num: 22
-    winrate: 0.3181818181818182
-    wins: 7
   - hero_names:
     - Ulric
     - Iva
@@ -364,9 +347,26 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 19
-    winrate: 0.6842105263157895
-    wins: 13
+    num: 23
+    winrate: 0.6086956521739131
+    wins: 14
+  - hero_names:
+    - Ulric
+    - Rook
+    - Iva
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: decba44679fbdae4bb7d0d1cb6a97682
+      name: Iva
+      title: iva
+    num: 21
+    winrate: 0.2857142857142857
+    wins: 6
   - hero_names:
     - Iva
     - Poloma
@@ -429,8 +429,8 @@ compos:
     - icon: decba44679fbdae4bb7d0d1cb6a97682
       name: Iva
       title: iva
-    num: 114
-    winrate: 0.4824561403508772
+    num: 115
+    winrate: 0.4782608695652174
     wins: 55
   - hero_names:
     - Oldur
@@ -442,9 +442,9 @@ compos:
     - icon: decba44679fbdae4bb7d0d1cb6a97682
       name: Iva
       title: iva
-    num: 79
-    winrate: 0.5189873417721519
-    wins: 41
+    num: 83
+    winrate: 0.5421686746987951
+    wins: 45
   - hero_names:
     - Iva
     - Blossom
@@ -455,9 +455,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 68
-    winrate: 0.4264705882352941
-    wins: 29
+    num: 75
+    winrate: 0.4266666666666667
+    wins: 32
   - hero_names:
     - Iva
     - Pearl
@@ -468,9 +468,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 59
-    winrate: 0.6440677966101694
-    wins: 38
+    num: 60
+    winrate: 0.65
+    wins: 39
   - hero_names:
     - Iva
     - Lucie
@@ -481,9 +481,9 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 45
-    winrate: 0.5777777777777777
-    wins: 26
+    num: 48
+    winrate: 0.6041666666666666
+    wins: 29
 description: A scavenger from the outer realms. Iva has engineered her own arsenal
   of weapons. Firing crazy rockets or unleashing a storm of bullets is her way of
   greeting her opponents in the Arena.
@@ -491,11 +491,11 @@ icon: decba44679fbdae4bb7d0d1cb6a97682
 layout: character
 name: iva
 num:
-  threes: 428
-  twos: 827
+  threes: 442
+  twos: 859
 title: Iva
 url: characters/iva.html
 winrate:
-  threes: '49.07'
-  twos: '46.31'
+  threes: '48.87'
+  twos: '46.57'
 ...

@@ -2,9 +2,9 @@
 builds:
   threes:
   - damage: '7.3'
-    disable: '1.6'
+    disable: '1.5'
     energy: '3.1'
-    num: 176
+    num: 196
     protection: '1.2'
     skills:
     - color: blue
@@ -35,11 +35,11 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '55.1'
+    winrate: '54.1'
   - damage: '6.8'
     disable: '1.0'
-    energy: '3.4'
-    num: 32
+    energy: '3.3'
+    num: 31
     protection: '1.6'
     skills:
     - color: blue
@@ -69,7 +69,7 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '40.6'
+    winrate: '38.7'
   - damage: '6.2'
     disable: '1.0'
     energy: '3.3'
@@ -106,7 +106,7 @@ builds:
   - damage: '5.9'
     disable: '0.7'
     energy: '3.0'
-    num: 24
+    num: 23
     protection: '1.5'
     skills:
     - color: green
@@ -137,11 +137,11 @@ builds:
       icon: 97d6d4df3883adc4d99a900f62576ff7
       name: Venom Strike
       type: offense
-    winrate: '50.0'
-  - damage: '6.7'
+    winrate: '52.2'
+  - damage: '6.8'
     disable: '0.9'
     energy: '2.8'
-    num: 23
+    num: 20
     protection: '1.5'
     skills:
     - color: green
@@ -171,12 +171,12 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '47.8'
+    winrate: '50.0'
   twos:
   - damage: '7.3'
     disable: '1.2'
-    energy: '3.1'
-    num: 91
+    energy: '3.0'
+    num: 94
     protection: '1.9'
     skills:
     - color: red
@@ -207,11 +207,11 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '54.9'
+    winrate: '55.3'
   - damage: '6.7'
     disable: '0.6'
     energy: '3.1'
-    num: 43
+    num: 46
     protection: '2.0'
     skills:
     - color: red
@@ -242,11 +242,11 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '55.8'
-  - damage: '7.0'
+    winrate: '56.5'
+  - damage: '6.9'
     disable: '0.9'
     energy: '3.1'
-    num: 36
+    num: 35
     protection: '1.2'
     skills:
     - color: blue
@@ -278,7 +278,43 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '55.6'
+    winrate: '57.1'
+  - damage: '7.0'
+    disable: '1.0'
+    energy: '3.4'
+    num: 28
+    protection: '1.2'
+    skills:
+    - color: red
+      description: Activating Toxin Blades increases attack speed of your next 6 Blade
+        Flurry attacks. Also increases Toxin Blades bonus damage by 1.
+      icon: 2c885df2336558e489fbe57b32a9fb94
+      name: Frog Frenzy
+      type: offense
+    - color: pink
+      description: Noxious Lunge inflicts Root for 1 and reapplies Toxin.
+      icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
+      name: Noxious Reaction
+      type: control
+    - color: blue
+      description: Toxin Muck gains 1 ability charge but increases its cooldown by
+        1.
+      icon: 84e29daadee87714294bbdabd3fdd4ab
+      name: Spit Spit Spit
+      type: utility
+    - color: yellow
+      description: Increases  Fading Haste factor of Camouflage from 30 to 45 and
+        haste duration from 1.5 to 2.
+      icon: 97d6d4df3883adc4d99a900f62576ff7
+      name: Time to Strike
+      type: mobility
+    - color: red
+      description: Frog Leap causes your next 3 Blade Flurry attacks to deal 2 bonus
+        damage.
+      icon: f4d1c9994ff77524bacb0bfe5347e118
+      name: Triple Strike
+      type: offense
+    winrate: '50.0'
   - damage: '5.4'
     disable: '0.5'
     energy: '3.4'
@@ -314,39 +350,6 @@ builds:
       name: Venom Strike
       type: offense
     winrate: '46.2'
-  - damage: '6.6'
-    disable: '0.7'
-    energy: '3.0'
-    num: 24
-    protection: '1.7'
-    skills:
-    - color: blue
-      description: Increases invisibility duration of Camouflage by 1.
-      icon: 97d6d4df3883adc4d99a900f62576ff7
-      name: Cut to the Chase
-      type: utility
-    - color: red
-      description: Activating Toxin Blades increases attack speed of your next 6 Blade
-        Flurry attacks. Also increases Toxin Blades bonus damage by 1.
-      icon: 2c885df2336558e489fbe57b32a9fb94
-      name: Frog Frenzy
-      type: offense
-    - color: yellow
-      description: Increases Noxious Lunge range by 30. It deals 4 bonus damage.
-      icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
-      name: Frog Slice
-      type: mobility
-    - color: green
-      description: Frog Leap hits heal you for 12 health.
-      icon: f4d1c9994ff77524bacb0bfe5347e118
-      name: Jungle Toad
-      type: survival
-    - color: green
-      description: Increases healing effect of Toxin from 8 to 16.
-      icon: 84e29daadee87714294bbdabd3fdd4ab
-      name: Mending Toxin
-      type: survival
-    winrate: '58.3'
 compos:
   threes:
   - hero_names:
@@ -363,26 +366,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 42
-    winrate: 0.5238095238095238
-    wins: 22
-  - hero_names:
-    - Oldur
-    - Croak
-    - Jade
-    heros:
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 27
-    winrate: 0.6296296296296297
-    wins: 17
+    num: 44
+    winrate: 0.5227272727272727
+    wins: 23
   - hero_names:
     - Ulric
     - Croak
@@ -397,8 +383,25 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 24
-    winrate: 0.5833333333333334
+    num: 23
+    winrate: 0.5652173913043478
+    wins: 13
+  - hero_names:
+    - Oldur
+    - Croak
+    - Jade
+    heros:
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 23
+    winrate: 0.6086956521739131
     wins: 14
   - hero_names:
     - Croak
@@ -431,9 +434,9 @@ compos:
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    num: 20
-    winrate: 0.5
-    wins: 10
+    num: 22
+    winrate: 0.5454545454545454
+    wins: 12
   twos:
   - hero_names:
     - Ulric
@@ -445,9 +448,9 @@ compos:
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    num: 154
-    winrate: 0.474025974025974
-    wins: 73
+    num: 150
+    winrate: 0.47333333333333333
+    wins: 71
   - hero_names:
     - Oldur
     - Croak
@@ -458,9 +461,9 @@ compos:
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    num: 79
-    winrate: 0.5316455696202531
-    wins: 42
+    num: 85
+    winrate: 0.5411764705882353
+    wins: 46
   - hero_names:
     - Croak
     - Pearl
@@ -471,9 +474,22 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 73
-    winrate: 0.5753424657534246
-    wins: 42
+    num: 75
+    winrate: 0.5733333333333334
+    wins: 43
+  - hero_names:
+    - Croak
+    - Jade
+    heros:
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 67
+    winrate: 0.5223880597014925
+    wins: 35
   - hero_names:
     - Blossom
     - Croak
@@ -485,21 +501,8 @@ compos:
       name: Croak
       title: croak
     num: 67
-    winrate: 0.4925373134328358
-    wins: 33
-  - hero_names:
-    - Croak
-    - Jade
-    heros:
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 66
-    winrate: 0.5151515151515151
-    wins: 34
+    winrate: 0.4626865671641791
+    wins: 31
 description: His background is shrouded in mystery, his movements are supernatural
   and his reputation is whispered about. Croak loves to surprise his enemies, using
   his mobility to move in and out. His chameleonic stealth and flexible fighting style
@@ -508,11 +511,11 @@ icon: d3038956f9767d74bbbce0659b07474d
 layout: character
 name: croak
 num:
-  threes: 892
-  twos: 1024
+  threes: 908
+  twos: 1046
 title: Croak
 url: characters/croak.html
 winrate:
-  threes: '47.42'
-  twos: '44.82'
+  threes: '47.58'
+  twos: '44.74'
 ...

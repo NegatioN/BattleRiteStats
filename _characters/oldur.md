@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '5.3'
+  - damage: '5.4'
     disable: '0.7'
-    energy: '3.6'
-    num: 91
+    energy: '3.5'
+    num: 87
     protection: '4.5'
     skills:
     - color: grey
@@ -35,11 +35,11 @@ builds:
       icon: 35a1515e35b5104449dfa8802c5aa0e2
       name: Time Burst
       type: offense
-    winrate: '36.3'
-  - damage: '6.5'
+    winrate: '39.1'
+  - damage: '6.6'
     disable: '0.8'
-    energy: '3.6'
-    num: 71
+    energy: '3.7'
+    num: 65
     protection: '3.4'
     skills:
     - color: blue
@@ -72,8 +72,8 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    winrate: '49.3'
-  - damage: '5.8'
+    winrate: '50.8'
+  - damage: '5.9'
     disable: '0.6'
     energy: '3.9'
     num: 60
@@ -109,11 +109,11 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    winrate: '41.7'
-  - damage: '5.0'
+    winrate: '40.0'
+  - damage: '4.9'
     disable: '0.7'
     energy: '3.2'
-    num: 54
+    num: 50
     protection: '4.0'
     skills:
     - color: grey
@@ -145,12 +145,12 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    winrate: '42.6'
+    winrate: '42.0'
   - damage: '6.2'
     disable: '0.8'
     energy: '4.0'
-    num: 43
-    protection: '4.7'
+    num: 41
+    protection: '4.6'
     skills:
     - color: grey
       description: Time Bomb reduces incoming healing by 20 and outgoing damage by
@@ -187,8 +187,8 @@ builds:
   twos:
   - damage: '6.0'
     disable: '0.8'
-    energy: '3.8'
-    num: 129
+    energy: '3.7'
+    num: 120
     protection: '3.5'
     skills:
     - color: grey
@@ -221,11 +221,11 @@ builds:
       icon: a22c6c4bc967d4e48a44f0e87a93023e
       name: Time Walker
       type: mobility
-    winrate: '58.9'
+    winrate: '55.0'
   - damage: '5.5'
     disable: '0.9'
     energy: '3.5'
-    num: 80
+    num: 93
     protection: '3.3'
     skills:
     - color: grey
@@ -257,11 +257,11 @@ builds:
       icon: 89c37320af892ae43b410f4d610d7ea8
       name: Sandstorm
       type: offense
-    winrate: '51.2'
+    winrate: '53.8'
   - damage: '5.6'
-    disable: '0.8'
-    energy: '3.8'
-    num: 64
+    disable: '0.7'
+    energy: '3.7'
+    num: 63
     protection: '3.4'
     skills:
     - color: grey
@@ -293,11 +293,11 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    winrate: '53.1'
+    winrate: '54.0'
   - damage: '5.8'
     disable: '0.6'
-    energy: '3.5'
-    num: 55
+    energy: '3.4'
+    num: 61
     protection: '3.6'
     skills:
     - color: blue
@@ -330,11 +330,11 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    winrate: '50.9'
-  - damage: '6.3'
+    winrate: '45.9'
+  - damage: '6.4'
     disable: '0.6'
     energy: '3.9'
-    num: 48
+    num: 49
     protection: '3.8'
     skills:
     - color: blue
@@ -367,7 +367,7 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    winrate: '37.5'
+    winrate: '42.9'
 compos:
   threes:
   - hero_names:
@@ -384,9 +384,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 27
-    winrate: 0.6296296296296297
-    wins: 17
+    num: 23
+    winrate: 0.6086956521739131
+    wins: 14
   - hero_names:
     - Oldur
     - Bakko
@@ -401,8 +401,8 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 21
-    winrate: 0.38095238095238093
+    num: 20
+    winrate: 0.4
     wins: 8
   - hero_names:
     - Oldur
@@ -436,12 +436,12 @@ compos:
       name: Ruh Kaan
       title: ruh-kaan
     num: 15
-    winrate: 0.6
-    wins: 9
+    winrate: 0.6666666666666666
+    wins: 10
   - hero_names:
     - Oldur
     - Freya
-    - Jade
+    - Jumong
     heros:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
@@ -449,12 +449,12 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 15
-    winrate: 0.5333333333333333
-    wins: 8
+    - icon: 42a665b9c285a1243a201c8d533980e5
+      name: Jumong
+      title: jumong
+    num: 13
+    winrate: 0.38461538461538464
+    wins: 5
   twos:
   - hero_names:
     - Rook
@@ -466,9 +466,9 @@ compos:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    num: 204
-    winrate: 0.6029411764705882
-    wins: 123
+    num: 200
+    winrate: 0.59
+    wins: 118
   - hero_names:
     - Oldur
     - Shifu
@@ -479,9 +479,9 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 175
-    winrate: 0.45714285714285713
-    wins: 80
+    num: 177
+    winrate: 0.4745762711864407
+    wins: 84
   - hero_names:
     - Oldur
     - Jade
@@ -492,9 +492,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 133
-    winrate: 0.5488721804511278
-    wins: 73
+    num: 130
+    winrate: 0.5538461538461539
+    wins: 72
   - hero_names:
     - Oldur
     - Freya
@@ -505,9 +505,9 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 130
-    winrate: 0.5153846153846153
-    wins: 67
+    num: 127
+    winrate: 0.5196850393700787
+    wins: 66
   - hero_names:
     - Oldur
     - Bakko
@@ -518,20 +518,20 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 112
-    winrate: 0.5535714285714286
-    wins: 62
+    num: 117
+    winrate: 0.5470085470085471
+    wins: 64
 description: Oldur, a mysterious creature able to bend time and space. He can mend
   wounds with powerful heals and reverse enemy attacks by freezing them in time.
 icon: b0d66b8b9f228724093b8a3e66c3fef6
 layout: character
 name: oldur
 num:
-  threes: 952
-  twos: 1650
+  threes: 917
+  twos: 1648
 title: Oldur
 url: characters/oldur.html
 winrate:
-  threes: '42.02'
-  twos: '50.42'
+  threes: '41.77'
+  twos: '50.36'
 ...
