@@ -33,11 +33,11 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
       type: support
-    winrate: '57.5'
+    winrate: '55.7'
   - damage: '6.6'
     disable: '1.4'
     energy: '3.5'
-    num: 139
+    num: 137
     protection: '1.9'
     skills:
     - color: yellow
@@ -66,11 +66,11 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    winrate: '54.7'
-  - damage: '5.9'
+    winrate: '55.5'
+  - damage: '5.8'
     disable: '1.3'
     energy: '2.9'
-    num: 127
+    num: 128
     protection: '1.5'
     skills:
     - color: red
@@ -98,11 +98,11 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    winrate: '57.5'
-  - damage: '6.1'
+    winrate: '56.2'
+  - damage: '6.0'
     disable: '1.3'
     energy: '3.2'
-    num: 75
+    num: 73
     protection: '1.6'
     skills:
     - color: red
@@ -130,7 +130,7 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    winrate: '46.7'
+    winrate: '46.6'
   - damage: '5.8'
     disable: '1.3'
     energy: '3.2'
@@ -166,9 +166,9 @@ builds:
   twos:
   - damage: '6.2'
     disable: '1.4'
-    energy: '3.2'
-    num: 266
-    protection: '1.6'
+    energy: '3.1'
+    num: 261
+    protection: '1.7'
     skills:
     - color: yellow
       description: Rush cooldown reduces by 1. Using Rush without hitting an enemy
@@ -196,11 +196,11 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    winrate: '53.4'
+    winrate: '53.3'
   - damage: '6.0'
     disable: '1.3'
     energy: '2.9'
-    num: 244
+    num: 236
     protection: '1.8'
     skills:
     - color: red
@@ -229,11 +229,11 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
       type: support
-    winrate: '58.6'
+    winrate: '59.7'
   - damage: '6.4'
     disable: '1.4'
     energy: '3.0'
-    num: 208
+    num: 213
     protection: '1.3'
     skills:
     - color: red
@@ -262,12 +262,12 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    winrate: '46.2'
-  - damage: '6.0'
+    winrate: '48.8'
+  - damage: '6.1'
     disable: '1.3'
     energy: '2.9'
-    num: 161
-    protection: '1.5'
+    num: 155
+    protection: '1.4'
     skills:
     - color: red
       description: Boulder Toss deals 2 bonus damage and inflicts Armor Break.
@@ -294,11 +294,11 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    winrate: '49.7'
+    winrate: '52.3'
   - damage: '5.7'
     disable: '1.3'
     energy: '2.8'
-    num: 145
+    num: 146
     protection: '1.5'
     skills:
     - color: yellow
@@ -327,7 +327,7 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Squash
       type: control
-    winrate: '48.3'
+    winrate: '48.6'
 compos:
   threes:
   - hero_names:
@@ -344,9 +344,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 56
-    winrate: 0.625
-    wins: 35
+    num: 58
+    winrate: 0.6379310344827587
+    wins: 37
   - hero_names:
     - Ulric
     - Ashka
@@ -361,9 +361,9 @@ compos:
     - icon: e5d5913527b842b41aed666d27d14231
       name: Rook
       title: rook
-    num: 29
-    winrate: 0.5517241379310345
-    wins: 16
+    num: 26
+    winrate: 0.5384615384615384
+    wins: 14
   - hero_names:
     - Rook
     - Thorn
@@ -426,9 +426,9 @@ compos:
     - icon: e5d5913527b842b41aed666d27d14231
       name: Rook
       title: rook
-    num: 409
-    winrate: 0.5916870415647921
-    wins: 242
+    num: 406
+    winrate: 0.603448275862069
+    wins: 245
   - hero_names:
     - Rook
     - Oldur
@@ -439,9 +439,9 @@ compos:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    num: 196
-    winrate: 0.5969387755102041
-    wins: 117
+    num: 187
+    winrate: 0.6042780748663101
+    wins: 113
   - hero_names:
     - Rook
     - Blossom
@@ -452,9 +452,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 162
-    winrate: 0.5246913580246914
-    wins: 85
+    num: 161
+    winrate: 0.5341614906832298
+    wins: 86
   - hero_names:
     - Rook
     - Pearl
@@ -465,9 +465,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 142
-    winrate: 0.5633802816901409
-    wins: 80
+    num: 137
+    winrate: 0.5474452554744526
+    wins: 75
   - hero_names:
     - Pestilus
     - Rook
@@ -478,9 +478,9 @@ compos:
     - icon: e5d5913527b842b41aed666d27d14231
       name: Rook
       title: rook
-    num: 106
-    winrate: 0.5283018867924528
-    wins: 56
+    num: 103
+    winrate: 0.5339805825242718
+    wins: 55
 description: A mighty chieftain rushing into battle with a giant hammer in one hand
   and his dinner in the other. Rook likes to smash his enemies, with boulders, with
   hammers and even with his body. Once he goes berserk he turns into an unstoppable
@@ -489,11 +489,11 @@ icon: e5d5913527b842b41aed666d27d14231
 layout: character
 name: rook
 num:
-  threes: 1088
-  twos: 2067
+  threes: 1080
+  twos: 2044
 title: Rook
 url: characters/rook.html
 winrate:
-  threes: '51.38'
-  twos: '50.94'
+  threes: '51.48'
+  twos: '51.42'
 ...

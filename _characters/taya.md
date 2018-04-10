@@ -4,7 +4,7 @@ builds:
   - damage: '7.8'
     disable: '0.8'
     energy: '3.3'
-    num: 301
+    num: 304
     protection: '0.1'
     skills:
     - color: red
@@ -35,11 +35,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '43.5'
+    winrate: '44.1'
   - damage: '8.1'
     disable: '0.7'
     energy: '3.3'
-    num: 204
+    num: 203
     protection: '0.8'
     skills:
     - color: green
@@ -71,7 +71,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '54.9'
+    winrate: '54.2'
   - damage: '8.6'
     disable: '0.7'
     energy: '3.4'
@@ -181,7 +181,7 @@ builds:
   - damage: '7.9'
     disable: '0.7'
     energy: '3.3'
-    num: 332
+    num: 322
     protection: '0.1'
     skills:
     - color: red
@@ -212,11 +212,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '47.9'
+    winrate: '47.5'
   - damage: '8.0'
     disable: '0.7'
     energy: '3.2'
-    num: 96
+    num: 89
     protection: '0.8'
     skills:
     - color: green
@@ -248,11 +248,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '51.0'
-  - damage: '7.8'
+    winrate: '49.4'
+  - damage: '7.7'
     disable: '0.9'
     energy: '3.3'
-    num: 23
+    num: 24
     protection: '0.1'
     skills:
     - color: pink
@@ -283,11 +283,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '47.8'
+    winrate: '45.8'
   - damage: '8.1'
     disable: '1.0'
-    energy: '3.6'
-    num: 20
+    energy: '3.7'
+    num: 15
     protection: '0.2'
     skills:
     - color: pink
@@ -317,7 +317,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '65.0'
+    winrate: '73.3'
   - damage: '6.6'
     disable: '0.6'
     energy: '3.1'
@@ -370,8 +370,8 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 20
-    winrate: 0.55
+    num: 23
+    winrate: 0.4782608695652174
     wins: 11
   - hero_names:
     - Ulric
@@ -387,8 +387,8 @@ compos:
     - icon: 2905515bc00a1d64e83466ec8e50f8b6
       name: Taya
       title: taya
-    num: 20
-    winrate: 0.55
+    num: 21
+    winrate: 0.5238095238095238
     wins: 11
   - hero_names:
     - Taya
@@ -452,9 +452,9 @@ compos:
     - icon: 2905515bc00a1d64e83466ec8e50f8b6
       name: Taya
       title: taya
-    num: 107
-    winrate: 0.6074766355140186
-    wins: 65
+    num: 105
+    winrate: 0.6285714285714286
+    wins: 66
   - hero_names:
     - Taya
     - Blossom
@@ -465,9 +465,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 71
-    winrate: 0.5070422535211268
-    wins: 36
+    num: 66
+    winrate: 0.5151515151515151
+    wins: 34
   - hero_names:
     - Taya
     - Oldur
@@ -478,22 +478,9 @@ compos:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    num: 46
-    winrate: 0.43478260869565216
-    wins: 20
-  - hero_names:
-    - Taya
-    - Zander
-    heros:
-    - icon: 2905515bc00a1d64e83466ec8e50f8b6
-      name: Taya
-      title: taya
-    - icon: 9c4186a6214f12448a7091710b0cde6c
-      name: Zander
-      title: zander
-    num: 45
-    winrate: 0.4888888888888889
-    wins: 22
+    num: 43
+    winrate: 0.4418604651162791
+    wins: 19
   - hero_names:
     - Taya
     - Shifu
@@ -504,9 +491,22 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 43
-    winrate: 0.37209302325581395
-    wins: 16
+    num: 42
+    winrate: 0.3333333333333333
+    wins: 14
+  - hero_names:
+    - Taya
+    - Zander
+    heros:
+    - icon: 2905515bc00a1d64e83466ec8e50f8b6
+      name: Taya
+      title: taya
+    - icon: 9c4186a6214f12448a7091710b0cde6c
+      name: Zander
+      title: zander
+    num: 42
+    winrate: 0.47619047619047616
+    wins: 20
 description: An exceptionally swift hunter wielding a razor sharp boomerang. By shaping
   the wind around her Taya is able to increase her speed and control her boomerang
   with deadly precision.
@@ -514,11 +514,11 @@ icon: 2905515bc00a1d64e83466ec8e50f8b6
 layout: character
 name: taya
 num:
-  threes: 727
-  twos: 692
+  threes: 728
+  twos: 665
 title: Taya
 url: characters/taya.html
 winrate:
-  threes: '48.14'
-  twos: '47.11'
+  threes: '48.08'
+  twos: '46.92'
 ...

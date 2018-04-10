@@ -4,7 +4,7 @@ builds:
   - damage: '7.7'
     disable: '0.9'
     energy: '3.5'
-    num: 350
+    num: 349
     protection: '1.6'
     skills:
     - color: green
@@ -36,11 +36,11 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '49.1'
+    winrate: '49.9'
   - damage: '7.6'
     disable: '0.6'
     energy: '3.9'
-    num: 151
+    num: 154
     protection: '1.6'
     skills:
     - color: green
@@ -73,11 +73,11 @@ builds:
       icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
       type: offense
-    winrate: '49.7'
+    winrate: '49.4'
   - damage: '7.8'
     disable: '0.6'
     energy: '3.4'
-    num: 46
+    num: 45
     protection: '1.6'
     skills:
     - color: green
@@ -110,7 +110,7 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '63.0'
+    winrate: '64.4'
   - damage: '7.3'
     disable: '0.7'
     energy: '3.5'
@@ -184,10 +184,10 @@ builds:
       type: control
     winrate: '47.1'
   twos:
-  - damage: '7.7'
-    disable: '0.8'
+  - damage: '7.8'
+    disable: '0.9'
     energy: '3.5'
-    num: 730
+    num: 690
     protection: '1.6'
     skills:
     - color: green
@@ -219,11 +219,11 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '52.2'
+    winrate: '52.6'
   - damage: '8.1'
     disable: '0.6'
     energy: '3.9'
-    num: 315
+    num: 320
     protection: '1.7'
     skills:
     - color: green
@@ -256,11 +256,11 @@ builds:
       icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
       type: offense
-    winrate: '47.0'
+    winrate: '48.1'
   - damage: '7.7'
     disable: '0.6'
     energy: '3.6'
-    num: 100
+    num: 104
     protection: '1.6'
     skills:
     - color: green
@@ -292,11 +292,11 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '44.0'
-  - damage: '8.3'
+    winrate: '43.3'
+  - damage: '8.2'
     disable: '0.6'
-    energy: '3.9'
-    num: 82
+    energy: '3.8'
+    num: 85
     protection: '1.6'
     skills:
     - color: green
@@ -328,11 +328,11 @@ builds:
       icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
       type: offense
-    winrate: '48.8'
-  - damage: '7.0'
+    winrate: '47.1'
+  - damage: '7.1'
     disable: '0.8'
     energy: '3.3'
-    num: 74
+    num: 78
     protection: '1.5'
     skills:
     - color: green
@@ -363,7 +363,7 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '35.1'
+    winrate: '35.9'
 compos:
   threes:
   - hero_names:
@@ -380,9 +380,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 48
-    winrate: 0.5625
-    wins: 27
+    num: 49
+    winrate: 0.5714285714285714
+    wins: 28
   - hero_names:
     - Ulric
     - Ashka
@@ -397,9 +397,9 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 32
-    winrate: 0.4375
-    wins: 14
+    num: 31
+    winrate: 0.41935483870967744
+    wins: 13
   - hero_names:
     - Shifu
     - Jade
@@ -414,9 +414,26 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 23
-    winrate: 0.43478260869565216
+    num: 22
+    winrate: 0.45454545454545453
     wins: 10
+  - hero_names:
+    - Oldur
+    - Shifu
+    - Jade
+    heros:
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 19
+    winrate: 0.5789473684210527
+    wins: 11
   - hero_names:
     - Shifu
     - Sirius
@@ -434,23 +451,6 @@ compos:
     num: 19
     winrate: 0.47368421052631576
     wins: 9
-  - hero_names:
-    - Taya
-    - Shifu
-    - Lucie
-    heros:
-    - icon: 2905515bc00a1d64e83466ec8e50f8b6
-      name: Taya
-      title: taya
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 19
-    winrate: 0.5789473684210527
-    wins: 11
   twos:
   - hero_names:
     - Ulric
@@ -462,22 +462,9 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 335
-    winrate: 0.4716417910447761
-    wins: 158
-  - hero_names:
-    - Shifu
-    - Pearl
-    heros:
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
-    - icon: 427116cdee46bad4cbaa99d7063e0832
-      name: Pearl
-      title: pearl
-    num: 183
-    winrate: 0.6830601092896175
-    wins: 125
+    num: 327
+    winrate: 0.46788990825688076
+    wins: 153
   - hero_names:
     - Blossom
     - Shifu
@@ -488,9 +475,22 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 182
-    winrate: 0.510989010989011
-    wins: 93
+    num: 183
+    winrate: 0.5027322404371585
+    wins: 92
+  - hero_names:
+    - Shifu
+    - Pearl
+    heros:
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
+    num: 181
+    winrate: 0.6850828729281768
+    wins: 124
   - hero_names:
     - Oldur
     - Shifu
@@ -501,9 +501,9 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 174
-    winrate: 0.4540229885057471
-    wins: 79
+    num: 177
+    winrate: 0.480225988700565
+    wins: 85
   - hero_names:
     - Shifu
     - Sirius
@@ -514,9 +514,9 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 140
-    winrate: 0.4714285714285714
-    wins: 66
+    num: 141
+    winrate: 0.48936170212765956
+    wins: 69
 description: Expert in the martial art of Ni'Shu and master of the spear. A highly
   mobile and dangerous duelist. His extraordinary combat prowess culminates in a range
   of deadly melee attacks. Facing Shifu is like walking into a tornado of spearheads.
@@ -524,11 +524,11 @@ icon: 6f69edc7410650c43bee267eef585b06
 layout: character
 name: shifu
 num:
-  threes: 930
-  twos: 2051
+  threes: 925
+  twos: 2034
 title: Shifu
 url: characters/shifu.html
 winrate:
-  threes: '47.85'
-  twos: '46.86'
+  threes: '48.11'
+  twos: '46.95'
 ...
