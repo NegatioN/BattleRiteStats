@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '7.2'
+  - damage: '7.1'
     disable: '1.3'
     energy: '3.1'
-    num: 132
+    num: 118
     protection: '1.4'
     skills:
     - color: red
@@ -36,11 +36,11 @@ builds:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    winrate: '55.3'
-  - damage: '7.6'
+    winrate: '58.5'
+  - damage: '7.7'
     disable: '1.6'
     energy: '3.5'
-    num: 92
+    num: 89
     protection: '2.1'
     skills:
     - color: grey
@@ -71,11 +71,11 @@ builds:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    winrate: '53.3'
-  - damage: '7.8'
+    winrate: '55.1'
+  - damage: '7.7'
     disable: '1.7'
-    energy: '3.1'
-    num: 48
+    energy: '3.0'
+    num: 44
     protection: '2.3'
     skills:
     - color: red
@@ -108,10 +108,10 @@ builds:
       name: Neurotoxin
       type: support
     winrate: '50.0'
-  - damage: '7.6'
+  - damage: '7.8'
     disable: '1.7'
-    energy: '3.4'
-    num: 41
+    energy: '3.5'
+    num: 35
     protection: '2.8'
     skills:
     - color: grey
@@ -143,11 +143,11 @@ builds:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    winrate: '48.8'
+    winrate: '42.9'
   - damage: '7.8'
     disable: '1.7'
     energy: '3.3'
-    num: 37
+    num: 32
     protection: '2.4'
     skills:
     - color: green
@@ -179,7 +179,7 @@ builds:
       icon: 024cb70192c82c9468e69a41161f490a
       name: Whiplash
       type: offense
-    winrate: '70.3'
+    winrate: '75.0'
   twos:
   - damage: '7.6'
     disable: '1.4'
@@ -216,11 +216,11 @@ builds:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    winrate: '47.9'
-  - damage: '7.9'
-    disable: '1.5'
+    winrate: '49.3'
+  - damage: '8.0'
+    disable: '1.6'
     energy: '3.3'
-    num: 42
+    num: 40
     protection: '2.2'
     skills:
     - color: grey
@@ -251,11 +251,11 @@ builds:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    winrate: '52.4'
-  - damage: '7.7'
+    winrate: '57.5'
+  - damage: '7.6'
     disable: '1.6'
     energy: '3.4'
-    num: 28
+    num: 25
     protection: '2.6'
     skills:
     - color: grey
@@ -287,7 +287,7 @@ builds:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    winrate: '50.0'
+    winrate: '48.0'
   - damage: '7.4'
     disable: '1.3'
     energy: '2.9'
@@ -374,9 +374,26 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 78
-    winrate: 0.6794871794871795
-    wins: 53
+    num: 69
+    winrate: 0.6376811594202898
+    wins: 44
+  - hero_names:
+    - Thorn
+    - Poloma
+    - Jade
+    heros:
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 29
+    winrate: 0.3793103448275862
+    wins: 11
   - hero_names:
     - Ulric
     - Thorn
@@ -391,26 +408,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 33
-    winrate: 0.6060606060606061
-    wins: 20
-  - hero_names:
-    - Ulric
-    - Ashka
-    - Thorn
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    num: 28
-    winrate: 0.4642857142857143
-    wins: 13
+    num: 29
+    winrate: 0.6206896551724138
+    wins: 18
   - hero_names:
     - Thorn
     - Jade
@@ -425,26 +425,26 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 28
-    winrate: 0.75
-    wins: 21
+    num: 27
+    winrate: 0.8148148148148148
+    wins: 22
   - hero_names:
+    - Ulric
+    - Ashka
     - Thorn
-    - Poloma
-    - Jade
     heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
     - icon: aab126231d9ff344f9f88ab230a5e66f
       name: Thorn
       title: thorn
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 27
-    winrate: 0.37037037037037035
-    wins: 10
+    num: 25
+    winrate: 0.52
+    wins: 13
   twos:
   - hero_names:
     - Ulric
@@ -456,9 +456,9 @@ compos:
     - icon: aab126231d9ff344f9f88ab230a5e66f
       name: Thorn
       title: thorn
-    num: 138
-    winrate: 0.5434782608695652
-    wins: 75
+    num: 123
+    winrate: 0.5365853658536586
+    wins: 66
   - hero_names:
     - Thorn
     - Blossom
@@ -469,8 +469,8 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 59
-    winrate: 0.5423728813559322
+    num: 58
+    winrate: 0.5517241379310345
     wins: 32
   - hero_names:
     - Thorn
@@ -482,9 +482,9 @@ compos:
     - icon: 9872f8cd16d7327418b09294cfa319e6
       name: Poloma
       title: poloma
-    num: 56
-    winrate: 0.30357142857142855
-    wins: 17
+    num: 51
+    winrate: 0.3137254901960784
+    wins: 16
   - hero_names:
     - Thorn
     - Oldur
@@ -496,21 +496,21 @@ compos:
       name: Oldur
       title: oldur
     num: 50
-    winrate: 0.46
-    wins: 23
+    winrate: 0.44
+    wins: 22
   - hero_names:
     - Thorn
-    - Pearl
+    - Zander
     heros:
     - icon: aab126231d9ff344f9f88ab230a5e66f
       name: Thorn
       title: thorn
-    - icon: 427116cdee46bad4cbaa99d7063e0832
-      name: Pearl
-      title: pearl
+    - icon: 9c4186a6214f12448a7091710b0cde6c
+      name: Zander
+      title: zander
     num: 49
-    winrate: 0.5510204081632653
-    wins: 27
+    winrate: 0.5102040816326531
+    wins: 25
 description: "Ancient folklore speaks of Thorn, the destructive apparition. Using\
   \ its network of thorn-covered roots, it would whip, rupture and drain the life\
   \ out of any living thing indiscriminately. Some say Thorn is just a story to keep\
@@ -521,11 +521,11 @@ icon: aab126231d9ff344f9f88ab230a5e66f
 layout: character
 name: thorn
 num:
-  threes: 1057
-  twos: 705
+  threes: 1013
+  twos: 665
 title: Thorn
 url: characters/thorn.html
 winrate:
-  threes: '47.30'
-  twos: '44.11'
+  threes: '47.68'
+  twos: '43.76'
 ...

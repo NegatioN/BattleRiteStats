@@ -4,7 +4,7 @@ builds:
   - damage: '8.2'
     disable: '1.0'
     energy: '3.6'
-    num: 139
+    num: 146
     protection: '0.0'
     skills:
     - color: yellow
@@ -35,11 +35,11 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '49.6'
-  - damage: '8.2'
+    winrate: '48.6'
+  - damage: '8.1'
     disable: '1.0'
-    energy: '3.0'
-    num: 97
+    energy: '2.9'
+    num: 96
     protection: '0.0'
     skills:
     - color: red
@@ -70,11 +70,11 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '51.5'
+    winrate: '50.0'
   - damage: '8.1'
     disable: '0.7'
     energy: '3.3'
-    num: 78
+    num: 86
     protection: '0.0'
     skills:
     - color: red
@@ -105,11 +105,11 @@ builds:
       icon: 61e058b8f4b79f4419ec1496f223ee36
       name: Inspiration
       type: utility
-    winrate: '52.6'
+    winrate: '51.2'
   - damage: '9.2'
     disable: '1.1'
     energy: '3.4'
-    num: 61
+    num: 60
     protection: '0.0'
     skills:
     - color: yellow
@@ -140,11 +140,11 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '55.7'
-  - damage: '8.5'
+    winrate: '56.7'
+  - damage: '8.7'
     disable: '0.9'
     energy: '3.1'
-    num: 40
+    num: 47
     protection: '0.0'
     skills:
     - color: red
@@ -175,13 +175,13 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '60.0'
+    winrate: '59.6'
   twos:
-  - damage: '7.9'
+  - damage: '8.0'
     disable: '1.0'
     energy: '3.6'
-    num: 130
-    protection: '0.0'
+    num: 120
+    protection: '0.1'
     skills:
     - color: yellow
       description: Searing Flight increases movement speed by 30 for 2.
@@ -211,11 +211,11 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '61.5'
+    winrate: '58.3'
   - damage: '8.4'
     disable: '0.9'
     energy: '2.7'
-    num: 70
+    num: 73
     protection: '0.6'
     skills:
     - color: red
@@ -246,11 +246,11 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '55.7'
-  - damage: '8.5'
+    winrate: '56.2'
+  - damage: '8.7'
     disable: '1.1'
-    energy: '2.9'
-    num: 35
+    energy: '3.0'
+    num: 41
     protection: '0.0'
     skills:
     - color: red
@@ -281,11 +281,11 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '51.4'
-  - damage: '7.7'
+    winrate: '61.0'
+  - damage: '7.8'
     disable: '0.9'
     energy: '3.3'
-    num: 33
+    num: 38
     protection: '0.1'
     skills:
     - color: red
@@ -317,11 +317,11 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '51.5'
-  - damage: '8.2'
-    disable: '1.0'
-    energy: '2.7'
-    num: 24
+    winrate: '50.0'
+  - damage: '7.9'
+    disable: '0.9'
+    energy: '2.6'
+    num: 28
     protection: '0.0'
     skills:
     - color: red
@@ -352,7 +352,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '29.2'
+    winrate: '25.0'
 compos:
   threes:
   - hero_names:
@@ -369,9 +369,9 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 42
-    winrate: 0.5714285714285714
-    wins: 24
+    num: 43
+    winrate: 0.5348837209302325
+    wins: 23
   - hero_names:
     - Ulric
     - Ashka
@@ -386,43 +386,9 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 31
-    winrate: 0.41935483870967744
-    wins: 13
-  - hero_names:
-    - Ulric
-    - Ashka
-    - Thorn
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    num: 28
-    winrate: 0.4642857142857143
-    wins: 13
-  - hero_names:
-    - Ulric
-    - Ashka
-    - Freya
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: be081702a8e70fe44ac0a4e3a9c46368
-      name: Freya
-      title: freya
-    num: 28
-    winrate: 0.5357142857142857
-    wins: 15
+    num: 32
+    winrate: 0.4375
+    wins: 14
   - hero_names:
     - Ulric
     - Ashka
@@ -437,9 +403,43 @@ compos:
     - icon: e5d5913527b842b41aed666d27d14231
       name: Rook
       title: rook
+    num: 29
+    winrate: 0.5517241379310345
+    wins: 16
+  - hero_names:
+    - Ulric
+    - Ashka
+    - Croak
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
     num: 27
-    winrate: 0.5555555555555556
-    wins: 15
+    winrate: 0.6296296296296297
+    wins: 17
+  - hero_names:
+    - Ulric
+    - Ashka
+    - Thorn
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    num: 25
+    winrate: 0.52
+    wins: 13
   twos:
   - hero_names:
     - Ulric
@@ -451,22 +451,9 @@ compos:
     - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
       name: Ashka
       title: ashka
-    num: 144
-    winrate: 0.5555555555555556
-    wins: 80
-  - hero_names:
-    - Ashka
-    - Blossom
-    heros:
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    num: 94
-    winrate: 0.6595744680851063
-    wins: 62
+    num: 145
+    winrate: 0.5310344827586206
+    wins: 77
   - hero_names:
     - Ashka
     - Oldur
@@ -477,9 +464,22 @@ compos:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    num: 83
-    winrate: 0.5060240963855421
-    wins: 42
+    num: 92
+    winrate: 0.5434782608695652
+    wins: 50
+  - hero_names:
+    - Ashka
+    - Blossom
+    heros:
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    num: 90
+    winrate: 0.6444444444444445
+    wins: 58
   - hero_names:
     - Ashka
     - Pearl
@@ -503,9 +503,9 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 50
-    winrate: 0.46
-    wins: 23
+    num: 44
+    winrate: 0.45454545454545453
+    wins: 20
 description: A masked creature specialized in dark sorcery and pyro-kinetic powers.
   Casts devastating fire spells on his opponents and avoids close combat. Don't be
   fooled by his size, Ashka's inner demon strikes fear into all who face him.
@@ -513,11 +513,11 @@ icon: 02fbe1fea9e22054a9ab1b0c5007dbae
 layout: character
 name: ashka
 num:
-  threes: 1158
-  twos: 871
+  threes: 1207
+  twos: 870
 title: Ashka
 url: characters/ashka.html
 winrate:
-  threes: '44.30'
-  twos: '47.65'
+  threes: '44.57'
+  twos: '47.24'
 ...

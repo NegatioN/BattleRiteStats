@@ -4,7 +4,7 @@ builds:
   - damage: '7.9'
     disable: '0.9'
     energy: '3.2'
-    num: 73
+    num: 66
     protection: '0.7'
     skills:
     - color: blue
@@ -37,11 +37,11 @@ builds:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    winrate: '45.2'
+    winrate: '47.0'
   - damage: '7.9'
     disable: '0.9'
-    energy: '3.4'
-    num: 33
+    energy: '3.6'
+    num: 31
     protection: '0.6'
     skills:
     - color: blue
@@ -73,11 +73,11 @@ builds:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    winrate: '54.5'
+    winrate: '51.6'
   - damage: '8.8'
     disable: '0.9'
     energy: '3.5'
-    num: 26
+    num: 24
     protection: '0.7'
     skills:
     - color: blue
@@ -109,29 +109,25 @@ builds:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    winrate: '42.3'
-  - damage: '7.5'
-    disable: '1.1'
-    energy: '3.1'
-    num: 23
-    protection: '0.5'
+    winrate: '41.7'
+  - damage: '6.6'
+    disable: '0.7'
+    energy: '3.0'
+    num: 21
+    protection: '0.7'
     skills:
-    - color: blue
-      description: Increases Flash Freeze radius by 10 and reduces cooldown by 1.
-      icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Blizzard
-      type: utility
-    - color: pink
-      description: Increases Chill duration of Ice Lance by 1. Ice Lance explodes
-        upon hit or reaching max range to inflict Chill for 2 on nearby enemies.
-      icon: bffd25b328052f647a5e1705071fe746
-      name: Cryogenic Lance
-      type: control
-    - color: yellow
-      description: Glacial Prism grants 60 Fading Haste for 1.4.
+    - color: teal
+      description: Glacial Prism absorbs up to 12 more damage and its explosion range
+        is increased by 20.
       icon: 257737da8189b1242be43990b8caf5a6
-      name: Figure Skating
-      type: mobility
+      name: Crystalline Lattice
+      type: support
+    - color: red
+      description: Ice Lance deals 3 bonus damage and breaks Freeze before dealing
+        damage.
+      icon: bffd25b328052f647a5e1705071fe746
+      name: Ice Breaker
+      type: offense
     - color: red
       description: Increases Ice Lance range by 10. It pierces enemies and damage
         reduces 30 per hit.
@@ -145,11 +141,16 @@ builds:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    winrate: '60.9'
-  - damage: '6.3'
-    disable: '1.1'
-    energy: '2.8'
-    num: 21
+    - color: yellow
+      description: Arctic Wind can be recast to perform a short leap.
+      icon: 1ac43589909cda746bafbf3da20d1559
+      name: Twirl
+      type: mobility
+    winrate: '42.9'
+  - damage: '7.4'
+    disable: '1.0'
+    energy: '3.0'
+    num: 20
     protection: '0.5'
     skills:
     - color: blue
@@ -157,22 +158,17 @@ builds:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Blizzard
       type: utility
-    - color: pink
-      description: Increases Chill duration of Ice Lance by 1. Ice Lance explodes
-        upon hit or reaching max range to inflict Chill for 2 on nearby enemies.
-      icon: bffd25b328052f647a5e1705071fe746
-      name: Cryogenic Lance
-      type: control
-    - color: yellow
-      description: Glacial Prism grants 60 Fading Haste for 1.4.
-      icon: 257737da8189b1242be43990b8caf5a6
-      name: Figure Skating
-      type: mobility
     - color: red
       description: Ice Lance deals 3 bonus damage and breaks Freeze before dealing
         damage.
       icon: bffd25b328052f647a5e1705071fe746
       name: Ice Breaker
+      type: offense
+    - color: red
+      description: Increases Ice Lance range by 10. It pierces enemies and damage
+        reduces 30 per hit.
+      icon: bffd25b328052f647a5e1705071fe746
+      name: Piercing Cold
       type: offense
     - color: red
       description: Flash Freeze impact leaves a lingering snowstorm that deals 12
@@ -181,12 +177,17 @@ builds:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    winrate: '23.8'
+    - color: yellow
+      description: Arctic Wind can be recast to perform a short leap.
+      icon: 1ac43589909cda746bafbf3da20d1559
+      name: Twirl
+      type: mobility
+    winrate: '60.0'
   twos:
-  - damage: '7.5'
+  - damage: '7.3'
     disable: '0.8'
-    energy: '3.3'
-    num: 29
+    energy: '3.2'
+    num: 32
     protection: '0.8'
     skills:
     - color: blue
@@ -219,11 +220,11 @@ builds:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    winrate: '31.0'
-  - damage: '7.4'
-    disable: '0.7'
+    winrate: '28.1'
+  - damage: '7.6'
+    disable: '0.8'
     energy: '3.3'
-    num: 25
+    num: 30
     protection: '0.6'
     skills:
     - color: blue
@@ -255,7 +256,7 @@ builds:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    winrate: '40.0'
+    winrate: '43.3'
   - damage: '7.9'
     disable: '1.0'
     energy: '2.9'
@@ -290,17 +291,17 @@ builds:
       name: Vandalism
       type: offense
     winrate: '66.7'
-  - damage: '6.8'
-    disable: '0.8'
-    energy: '3.2'
-    num: 20
-    protection: '0.8'
+  - damage: '6.2'
+    disable: '0.7'
+    energy: '2.7'
+    num: 22
+    protection: '0.6'
     skills:
-    - color: blue
-      description: Increases Flash Freeze radius by 10 and reduces cooldown by 1.
-      icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Blizzard
-      type: utility
+    - color: yellow
+      description: Glacial Prism grants 60 Fading Haste for 1.4.
+      icon: 257737da8189b1242be43990b8caf5a6
+      name: Figure Skating
+      type: mobility
     - color: red
       description: Ice Lance deals 3 bonus damage and breaks Freeze before dealing
         damage.
@@ -325,12 +326,12 @@ builds:
       icon: 1ac43589909cda746bafbf3da20d1559
       name: Twirl
       type: mobility
-    winrate: '25.0'
-  - damage: '6.8'
+    winrate: '27.3'
+  - damage: '7.0'
     disable: '0.8'
     energy: '3.2'
-    num: 19
-    protection: '1.3'
+    num: 18
+    protection: '1.2'
     skills:
     - color: teal
       description: Hitting an ally with Flash Freeze applies Lesser Glacial Prism,
@@ -362,7 +363,7 @@ builds:
       icon: 54bc49f3587260f45b1c4e8e2856e6b7
       name: Snowstorm
       type: offense
-    winrate: '26.3'
+    winrate: '27.8'
 compos:
   threes:
   - hero_names:
@@ -379,26 +380,9 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 39
-    winrate: 0.5897435897435898
+    num: 36
+    winrate: 0.6388888888888888
     wins: 23
-  - hero_names:
-    - Ulric
-    - Freya
-    - Alysia
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: be081702a8e70fe44ac0a4e3a9c46368
-      name: Freya
-      title: freya
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
-    num: 22
-    winrate: 0.6363636363636364
-    wins: 14
   - hero_names:
     - Ulric
     - Alysia
@@ -413,9 +397,26 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 22
-    winrate: 0.5
-    wins: 11
+    num: 25
+    winrate: 0.56
+    wins: 14
+  - hero_names:
+    - Ulric
+    - Freya
+    - Alysia
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: be081702a8e70fe44ac0a4e3a9c46368
+      name: Freya
+      title: freya
+    - icon: 50404d271ae2a4f4f8b52de966688dc1
+      name: Alysia
+      title: alysia
+    num: 21
+    winrate: 0.7142857142857143
+    wins: 15
   - hero_names:
     - Ulric
     - Rook
@@ -430,8 +431,8 @@ compos:
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
-    num: 21
-    winrate: 0.47619047619047616
+    num: 19
+    winrate: 0.5263157894736842
     wins: 10
   - hero_names:
     - Bakko
@@ -447,9 +448,9 @@ compos:
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
-    num: 20
-    winrate: 0.7
-    wins: 14
+    num: 18
+    winrate: 0.7222222222222222
+    wins: 13
   twos:
   - hero_names:
     - Ulric
@@ -461,9 +462,22 @@ compos:
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
-    num: 126
-    winrate: 0.4603174603174603
-    wins: 58
+    num: 123
+    winrate: 0.45528455284552843
+    wins: 56
+  - hero_names:
+    - Oldur
+    - Alysia
+    heros:
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    - icon: 50404d271ae2a4f4f8b52de966688dc1
+      name: Alysia
+      title: alysia
+    num: 48
+    winrate: 0.4791666666666667
+    wins: 23
   - hero_names:
     - Alysia
     - Pearl
@@ -487,21 +501,8 @@ compos:
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
-    num: 43
-    winrate: 0.5581395348837209
-    wins: 24
-  - hero_names:
-    - Oldur
-    - Alysia
-    heros:
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
-    num: 43
-    winrate: 0.4883720930232558
+    num: 42
+    winrate: 0.5
     wins: 21
   - hero_names:
     - Alysia
@@ -513,9 +514,9 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 38
-    winrate: 0.47368421052631576
-    wins: 18
+    num: 35
+    winrate: 0.4857142857142857
+    wins: 17
 description: From the frozen north comes the ice sculptor Alysia. Her power allows
   her to wield ice with both grace and deadly precision. She can damage and freeze
   her enemies from a distance, while shielding her allies with ice. Obsessed with
@@ -525,11 +526,11 @@ icon: 50404d271ae2a4f4f8b52de966688dc1
 layout: character
 name: alysia
 num:
-  threes: 754
-  twos: 600
+  threes: 713
+  twos: 613
 title: Alysia
 url: characters/alysia.html
 winrate:
-  threes: '44.83'
-  twos: '37.33'
+  threes: '45.16'
+  twos: '38.99'
 ...

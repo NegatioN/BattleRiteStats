@@ -3,9 +3,9 @@ builds:
   threes:
   - damage: '3.7'
     disable: '0.6'
-    energy: '3.2'
-    num: 337
-    protection: '4.9'
+    energy: '3.3'
+    num: 358
+    protection: '5.0'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 1 and damage taken
@@ -35,11 +35,11 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '52.5'
+    winrate: '52.2'
   - damage: '3.2'
     disable: '0.5'
     energy: '3.1'
-    num: 186
+    num: 179
     protection: '5.1'
     skills:
     - color: red
@@ -69,12 +69,12 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '52.2'
-  - damage: '3.5'
-    disable: '0.6'
-    energy: '3.7'
-    num: 30
-    protection: '5.7'
+    winrate: '52.0'
+  - damage: '3.4'
+    disable: '0.5'
+    energy: '3.5'
+    num: 20
+    protection: '5.3'
     skills:
     - color: red
       description: Traveling through a portal resets the cooldown of Grand Conjuration.
@@ -103,11 +103,46 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '53.3'
-  - damage: '3.8'
+    winrate: '45.0'
+  - damage: '3.4'
+    disable: '0.5'
+    energy: '2.9'
+    num: 14
+    protection: '4.7'
+    skills:
+    - color: red
+      description: Increases the duration of Arcane Catalyst by 1 and damage taken
+        by 5.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Arcane Conductor
+      type: offense
+    - color: teal
+      description: Hearts restores 6 health over the duration.
+      icon: 144efc709ac628542aee319b14932b2c
+      name: Heart Restoration
+      type: support
+    - color: yellow
+      description: Teleporting yourself or an ally with Portal grants target a 50
+        Fading Haste for 2.
+      icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Late to the Show
+      type: mobility
+    - color: red
+      description: Sheep Trick inflicts Arcane Catalyst on targets hit.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: Lead Astray
+      type: offense
+    - color: grey
+      description: Your first Trick Shot after using Mirror Image includes an additional
+        card for both you and your illusion.
+      icon: 2632a24f2167af14f9869abb401dd67f
+      name: Stacked Deck
+      type: mixed
+    winrate: '28.6'
+  - damage: '3.9'
     disable: '0.7'
-    energy: '3.1'
-    num: 17
+    energy: '3.0'
+    num: 14
     protection: '5.3'
     skills:
     - color: blue
@@ -138,48 +173,12 @@ builds:
       icon: 1180e87d69492d442afaa79cbba36746
       name: Transformation Sickness
       type: control
-    winrate: '88.2'
-  - damage: '3.9'
-    disable: '0.5'
-    energy: '3.0'
-    num: 16
-    protection: '4.3'
-    skills:
-    - color: red
-      description: Increases the duration of Arcane Catalyst by 1 and damage taken
-        by 5.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Arcane Conductor
-      type: offense
-    - color: blue
-      description: Allows Grand Conjuration to bounce once upon wall hit and increases
-        its max range by 10. Can still only hit once per enemy.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Arcane Shenanigans
-      type: utility
-    - color: teal
-      description: Hearts restores 6 health over the duration.
-      icon: 144efc709ac628542aee319b14932b2c
-      name: Heart Restoration
-      type: support
-    - color: teal
-      description: Grants self or allies traveling through your Portal a shield that
-        absorbs up to 14 damage for 3.
-      icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Showdown
-      type: support
-    - color: grey
-      description: Your first Trick Shot after using Mirror Image includes an additional
-        card for both you and your illusion.
-      icon: 2632a24f2167af14f9869abb401dd67f
-      name: Stacked Deck
-      type: mixed
-    winrate: '56.2'
+    winrate: '85.7'
   twos:
   - damage: '4.0'
     disable: '0.5'
     energy: '3.0'
-    num: 287
+    num: 324
     protection: '4.0'
     skills:
     - color: red
@@ -210,12 +209,12 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '50.5'
-  - damage: '4.1'
-    disable: '0.5'
+    winrate: '52.2'
+  - damage: '4.2'
+    disable: '0.6'
     energy: '3.6'
-    num: 88
-    protection: '3.6'
+    num: 102
+    protection: '3.7'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 1 and damage taken
@@ -244,11 +243,11 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '60.2'
-  - damage: '4.9'
+    winrate: '57.8'
+  - damage: '4.8'
     disable: '0.7'
     energy: '3.4'
-    num: 86
+    num: 74
     protection: '3.5'
     skills:
     - color: red
@@ -281,12 +280,12 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '51.2'
+    winrate: '45.9'
   - damage: '3.6'
     disable: '0.5'
     energy: '2.9'
-    num: 78
-    protection: '4.2'
+    num: 66
+    protection: '4.3'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 1 and damage taken
@@ -316,11 +315,11 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '52.6'
+    winrate: '50.0'
   - damage: '4.7'
     disable: '0.6'
     energy: '3.3'
-    num: 40
+    num: 42
     protection: '3.6'
     skills:
     - color: red
@@ -353,7 +352,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '55.0'
+    winrate: '54.8'
 compos:
   threes:
   - hero_names:
@@ -370,9 +369,26 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 32
-    winrate: 0.53125
+    num: 33
+    winrate: 0.5151515151515151
     wins: 17
+  - hero_names:
+    - Freya
+    - Jade
+    - Zander
+    heros:
+    - icon: be081702a8e70fe44ac0a4e3a9c46368
+      name: Freya
+      title: freya
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: 9c4186a6214f12448a7091710b0cde6c
+      name: Zander
+      title: zander
+    num: 29
+    winrate: 0.4827586206896552
+    wins: 14
   - hero_names:
     - Thorn
     - Jade
@@ -387,9 +403,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 28
-    winrate: 0.75
-    wins: 21
+    num: 27
+    winrate: 0.8148148148148148
+    wins: 22
   - hero_names:
     - Bakko
     - Ezmo
@@ -404,9 +420,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 27
-    winrate: 0.7407407407407407
-    wins: 20
+    num: 26
+    winrate: 0.7307692307692307
+    wins: 19
   - hero_names:
     - Shifu
     - Jade
@@ -421,26 +437,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 24
-    winrate: 0.5416666666666666
-    wins: 13
-  - hero_names:
-    - Ashka
-    - Freya
-    - Zander
-    heros:
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: be081702a8e70fe44ac0a4e3a9c46368
-      name: Freya
-      title: freya
-    - icon: 9c4186a6214f12448a7091710b0cde6c
-      name: Zander
-      title: zander
-    num: 21
-    winrate: 0.6190476190476191
-    wins: 13
+    num: 23
+    winrate: 0.43478260869565216
+    wins: 10
   twos:
   - hero_names:
     - Shifu
@@ -452,9 +451,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 99
-    winrate: 0.5454545454545454
-    wins: 54
+    num: 107
+    winrate: 0.5514018691588785
+    wins: 59
   - hero_names:
     - Rook
     - Zander
@@ -466,8 +465,8 @@ compos:
       name: Zander
       title: zander
     num: 84
-    winrate: 0.4880952380952381
-    wins: 41
+    winrate: 0.4642857142857143
+    wins: 39
   - hero_names:
     - Jade
     - Zander
@@ -478,22 +477,22 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 69
-    winrate: 0.5652173913043478
-    wins: 39
+    num: 76
+    winrate: 0.5263157894736842
+    wins: 40
   - hero_names:
-    - Ezmo
+    - Bakko
     - Zander
     heros:
-    - icon: 3af1fdc53169d044b939cce7ffb561a1
-      name: Ezmo
-      title: ezmo
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 66
-    winrate: 0.5303030303030303
-    wins: 35
+    num: 65
+    winrate: 0.5230769230769231
+    wins: 34
   - hero_names:
     - Freya
     - Zander
@@ -504,8 +503,8 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 61
-    winrate: 0.5901639344262295
+    num: 64
+    winrate: 0.5625
     wins: 36
 description: When the famous theatre troupe "The Phantomime Masquerade" disbanded
   after a series of tragic events, their magnificent magician Zander vanished without
@@ -517,11 +516,11 @@ icon: 9c4186a6214f12448a7091710b0cde6c
 layout: character
 name: zander
 num:
-  threes: 841
-  twos: 910
+  threes: 823
+  twos: 941
 title: Zander
 url: characters/zander.html
 winrate:
-  threes: '49.70'
-  twos: '50.22'
+  threes: '50.30'
+  twos: '49.42'
 ...
