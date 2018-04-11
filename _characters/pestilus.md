@@ -4,7 +4,7 @@ builds:
   - damage: '4.1'
     disable: '1.1'
     energy: '2.6'
-    num: 349
+    num: 348
     protection: '5.2'
     skills:
     - color: pink
@@ -36,11 +36,11 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '49.0'
-  - damage: '3.9'
+    winrate: '48.0'
+  - damage: '4.0'
     disable: '1.1'
     energy: '2.4'
-    num: 58
+    num: 57
     protection: '5.2'
     skills:
     - color: pink
@@ -72,11 +72,11 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '55.2'
+    winrate: '56.1'
   - damage: '3.8'
     disable: '1.2'
     energy: '2.5'
-    num: 43
+    num: 48
     protection: '5.4'
     skills:
     - color: pink
@@ -107,11 +107,11 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '32.6'
+    winrate: '35.4'
   - damage: '4.1'
     disable: '1.0'
     energy: '2.6'
-    num: 39
+    num: 40
     protection: '5.2'
     skills:
     - color: pink
@@ -142,9 +142,9 @@ builds:
       icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Spiderling Venom
       type: offense
-    winrate: '43.6'
-  - damage: '3.5'
-    disable: '1.0'
+    winrate: '45.0'
+  - damage: '3.6'
+    disable: '1.1'
     energy: '2.7'
     num: 35
     protection: '5.8'
@@ -178,12 +178,12 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '54.3'
+    winrate: '57.1'
   twos:
   - damage: '4.6'
     disable: '1.1'
     energy: '2.5'
-    num: 368
+    num: 378
     protection: '4.4'
     skills:
     - color: pink
@@ -215,11 +215,11 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '50.5'
+    winrate: '51.9'
   - damage: '4.2'
     disable: '1.0'
     energy: '2.3'
-    num: 81
+    num: 82
     protection: '4.1'
     skills:
     - color: pink
@@ -251,11 +251,11 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '61.7'
+    winrate: '62.2'
   - damage: '3.9'
     disable: '1.0'
     energy: '2.4'
-    num: 48
+    num: 50
     protection: '4.9'
     skills:
     - color: green
@@ -287,11 +287,11 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '45.8'
+    winrate: '46.0'
   - damage: '4.6'
     disable: '1.4'
     energy: '2.6'
-    num: 48
+    num: 47
     protection: '4.6'
     skills:
     - color: pink
@@ -323,11 +323,11 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '66.7'
+    winrate: '68.1'
   - damage: '3.8'
     disable: '1.1'
     energy: '2.3'
-    num: 31
+    num: 30
     protection: '4.4'
     skills:
     - color: pink
@@ -358,7 +358,7 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '58.1'
+    winrate: '56.7'
 compos:
   threes:
   - hero_names:
@@ -375,26 +375,26 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 25
-    winrate: 0.68
-    wins: 17
+    num: 24
+    winrate: 0.6666666666666666
+    wins: 16
   - hero_names:
     - Pestilus
-    - Bakko
+    - Rook
     - Jade
     heros:
     - icon: a7e0c7a6f0fa2ef49bf684950de34567
       name: Pestilus
       title: pestilus
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 23
-    winrate: 0.34782608695652173
-    wins: 8
+    num: 22
+    winrate: 0.6363636363636364
+    wins: 14
   - hero_names:
     - Pestilus
     - Jumong
@@ -414,21 +414,21 @@ compos:
     wins: 6
   - hero_names:
     - Pestilus
-    - Rook
+    - Bakko
     - Jade
     heros:
     - icon: a7e0c7a6f0fa2ef49bf684950de34567
       name: Pestilus
       title: pestilus
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 20
-    winrate: 0.65
-    wins: 13
+    num: 19
+    winrate: 0.3157894736842105
+    wins: 6
   - hero_names:
     - Pestilus
     - Ashka
@@ -458,8 +458,8 @@ compos:
       name: Rook
       title: rook
     num: 116
-    winrate: 0.5862068965517241
-    wins: 68
+    winrate: 0.5948275862068966
+    wins: 69
   - hero_names:
     - Pestilus
     - Jade
@@ -471,8 +471,8 @@ compos:
       name: Jade
       title: jade
     num: 102
-    winrate: 0.5
-    wins: 51
+    winrate: 0.5196078431372549
+    wins: 53
   - hero_names:
     - Pestilus
     - Shifu
@@ -483,9 +483,9 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 87
-    winrate: 0.3793103448275862
-    wins: 33
+    num: 90
+    winrate: 0.4222222222222222
+    wins: 38
   - hero_names:
     - Pestilus
     - Jumong
@@ -496,8 +496,8 @@ compos:
     - icon: 42a665b9c285a1243a201c8d533980e5
       name: Jumong
       title: jumong
-    num: 86
-    winrate: 0.4883720930232558
+    num: 85
+    winrate: 0.49411764705882355
     wins: 42
   - hero_names:
     - Pestilus
@@ -509,9 +509,9 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 76
-    winrate: 0.5789473684210527
-    wins: 44
+    num: 78
+    winrate: 0.5897435897435898
+    wins: 46
 description: Pestilus, secret devotee of the evil Rasal, unleashes swarms of insects
   to infest and cripple his enemies. Advisor to the King of Quna, Pestilus is able
   to release his innermost darkest desires inside the arena.
@@ -519,11 +519,11 @@ icon: a7e0c7a6f0fa2ef49bf684950de34567
 layout: character
 name: pestilus
 num:
-  threes: 864
-  twos: 1044
+  threes: 861
+  twos: 1036
 title: Pestilus
 url: characters/pestilus.html
 winrate:
-  threes: '46.88'
-  twos: '48.18'
+  threes: '47.04'
+  twos: '49.32'
 ...

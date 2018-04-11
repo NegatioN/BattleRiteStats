@@ -4,7 +4,7 @@ builds:
   - damage: '6.2'
     disable: '1.1'
     energy: '3.2'
-    num: 187
+    num: 179
     protection: '2.0'
     skills:
     - color: green
@@ -34,11 +34,11 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '47.1'
+    winrate: '48.6'
   - damage: '6.4'
     disable: '1.6'
     energy: '3.4'
-    num: 104
+    num: 105
     protection: '2.0'
     skills:
     - color: green
@@ -68,11 +68,11 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '53.8'
+    winrate: '53.3'
   - damage: '6.8'
     disable: '1.2'
     energy: '3.7'
-    num: 34
+    num: 33
     protection: '1.5'
     skills:
     - color: red
@@ -105,11 +105,11 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
       type: offense
-    winrate: '58.8'
+    winrate: '57.6'
   - damage: '6.1'
     disable: '1.4'
-    energy: '3.4'
-    num: 30
+    energy: '3.3'
+    num: 31
     protection: '1.7'
     skills:
     - color: green
@@ -138,7 +138,7 @@ builds:
       icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
       name: Shield Bash
       type: support
-    winrate: '43.3'
+    winrate: '45.2'
   - damage: '6.6'
     disable: '1.5'
     energy: '3.6'
@@ -175,9 +175,9 @@ builds:
     winrate: '57.1'
   twos:
   - damage: '7.4'
-    disable: '1.2'
+    disable: '1.1'
     energy: '3.4'
-    num: 212
+    num: 239
     protection: '1.6'
     skills:
     - color: red
@@ -210,11 +210,11 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
       type: offense
-    winrate: '51.9'
+    winrate: '52.3'
   - damage: '7.1'
-    disable: '1.6'
+    disable: '1.5'
     energy: '3.3'
-    num: 119
+    num: 110
     protection: '1.4'
     skills:
     - color: red
@@ -246,11 +246,11 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '63.0'
+    winrate: '60.9'
   - damage: '6.7'
     disable: '1.2'
     energy: '3.4'
-    num: 102
+    num: 105
     protection: '2.1'
     skills:
     - color: green
@@ -280,11 +280,11 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '43.1'
+    winrate: '43.8'
   - damage: '6.8'
     disable: '1.2'
     energy: '3.2'
-    num: 44
+    num: 43
     protection: '2.0'
     skills:
     - color: red
@@ -316,11 +316,11 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
       type: offense
-    winrate: '50.0'
-  - damage: '7.7'
-    disable: '1.1'
+    winrate: '51.2'
+  - damage: '7.6'
+    disable: '1.0'
     energy: '3.5'
-    num: 42
+    num: 35
     protection: '2.3'
     skills:
     - color: teal
@@ -352,7 +352,7 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
       type: offense
-    winrate: '64.3'
+    winrate: '60.0'
 compos:
   threes:
   - hero_names:
@@ -369,9 +369,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 71
-    winrate: 0.7323943661971831
-    wins: 52
+    num: 69
+    winrate: 0.7246376811594203
+    wins: 50
   - hero_names:
     - Ulric
     - Bakko
@@ -403,9 +403,9 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 41
-    winrate: 0.5365853658536586
-    wins: 22
+    num: 37
+    winrate: 0.5135135135135135
+    wins: 19
   - hero_names:
     - Ulric
     - Alysia
@@ -451,9 +451,9 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 328
-    winrate: 0.5548780487804879
-    wins: 182
+    num: 335
+    winrate: 0.564179104477612
+    wins: 189
   - hero_names:
     - Oldur
     - Bakko
@@ -464,22 +464,9 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 141
-    winrate: 0.5815602836879432
-    wins: 82
-  - hero_names:
-    - Blossom
-    - Bakko
-    heros:
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    num: 121
-    winrate: 0.5289256198347108
-    wins: 64
+    num: 142
+    winrate: 0.5845070422535211
+    wins: 83
   - hero_names:
     - Bakko
     - Pearl
@@ -490,9 +477,22 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 119
-    winrate: 0.5126050420168067
-    wins: 61
+    num: 115
+    winrate: 0.4956521739130435
+    wins: 57
+  - hero_names:
+    - Blossom
+    - Bakko
+    heros:
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    num: 115
+    winrate: 0.5130434782608696
+    wins: 59
   - hero_names:
     - Bakko
     - Lucie
@@ -503,9 +503,9 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 100
-    winrate: 0.59
-    wins: 59
+    num: 104
+    winrate: 0.5769230769230769
+    wins: 60
 description: Bakko has a proud history as a heroic brawler, armed with both axe and
   shield. He uses his shield to protect teammates and outmaneuver enemies. Watch out
   for his earth-shattering dash attacks, as even calm warriors sometimes go berserk.
@@ -513,11 +513,11 @@ icon: 6154d6c0556261343844bf7caebb67a7
 layout: character
 name: bakko
 num:
-  threes: 1187
-  twos: 1651
+  threes: 1170
+  twos: 1649
 title: Bakko
 url: characters/bakko.html
 winrate:
-  threes: '48.69'
-  twos: '49.12'
+  threes: '48.89'
+  twos: '49.18'
 ...

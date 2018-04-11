@@ -4,7 +4,7 @@ builds:
   - damage: '7.8'
     disable: '0.8'
     energy: '4.0'
-    num: 231
+    num: 230
     protection: '0.3'
     skills:
     - color: pink
@@ -26,7 +26,7 @@ builds:
       name: Undermine
       type: support
     - color: blue
-      description: Increases Chaos Grip range by 25.
+      description: Increases Chaos Grip range by 20.
       icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Warlock's Grip
       type: utility
@@ -35,11 +35,11 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    winrate: '48.9'
+    winrate: '49.1'
   - damage: '8.5'
     disable: '0.6'
     energy: '4.4'
-    num: 168
+    num: 171
     protection: '0.4'
     skills:
     - color: red
@@ -69,11 +69,11 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    winrate: '43.5'
-  - damage: '8.0'
+    winrate: '43.3'
+  - damage: '7.9'
     disable: '0.7'
-    energy: '3.8'
-    num: 50
+    energy: '3.9'
+    num: 45
     protection: '0.2'
     skills:
     - color: pink
@@ -95,7 +95,7 @@ builds:
       name: Imp Rush
       type: mobility
     - color: blue
-      description: Increases Chaos Grip range by 25.
+      description: Increases Chaos Grip range by 20.
       icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Warlock's Grip
       type: utility
@@ -104,7 +104,7 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    winrate: '52.0'
+    winrate: '48.9'
   - damage: '9.4'
     disable: '0.7'
     energy: '4.3'
@@ -139,46 +139,46 @@ builds:
       name: Wreak Havoc
       type: offense
     winrate: '42.3'
-  - damage: '6.9'
-    disable: '0.5'
-    energy: '4.1'
-    num: 16
-    protection: '1.4'
+  - damage: '7.4'
+    disable: '0.7'
+    energy: '3.5'
+    num: 15
+    protection: '0.8'
     skills:
-    - color: red
-      description: Chaos Grip deals 4 - 8 bonus damage, based on charge-up duration.
-      icon: da12579e4ef58ba4c87c1819bf1c699b
-      name: Collapse
-      type: offense
     - color: pink
       description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
         duration.
       icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Disruption
       type: control
+    - color: red
+      description: ^2Arcane Fire^- deals 2 bonus damage to enemies rooted by ^2Shackle^-.
+      icon: b51e6f88de6853d46bec81bbb3a655a4
+      name: Face Melt
+      type: offense
+    - color: yellow
+      description: Arcane Barrier increases your movement speed by 40. Also reduces
+        its cooldown by 1.
+      icon: 563027e5fd687db4697308c54fe91381
+      name: Imp Rush
+      type: mobility
     - color: green
       description: Negating attacks with Arcane Barrier grants twice as many weapon
         charges. For each charge gained, heal yourself for 6 health.
       icon: 563027e5fd687db4697308c54fe91381
       name: Spell Eater
       type: survival
-    - color: teal
-      description: Tome of Destruction leashes onto nearby allies, healing for 16
-        health over the duration.
-      icon: 09c45aed2b0414a42a18c1b81c9e589a
-      name: Tome Of Restoration
-      type: support
-    - color: red
-      description: Displace increases your Arcane Fire attack speed by 30% for 2.5.
+    - color: yellow
+      description: Using Displace grants 60 Fading Haste for 2.
       icon: 99a21ff998aff1248a10df2d317faa20
-      name: Wreak Havoc
-      type: offense
-    winrate: '68.8'
+      name: Whizz
+      type: mobility
+    winrate: '66.7'
   twos:
   - damage: '8.0'
     disable: '0.8'
     energy: '3.9'
-    num: 236
+    num: 237
     protection: '0.3'
     skills:
     - color: pink
@@ -200,7 +200,7 @@ builds:
       name: Undermine
       type: support
     - color: blue
-      description: Increases Chaos Grip range by 25.
+      description: Increases Chaos Grip range by 20.
       icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Warlock's Grip
       type: utility
@@ -209,11 +209,11 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    winrate: '62.3'
+    winrate: '62.0'
   - damage: '8.2'
     disable: '0.9'
     energy: '3.7'
-    num: 179
+    num: 166
     protection: '0.1'
     skills:
     - color: pink
@@ -244,11 +244,11 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    winrate: '49.2'
+    winrate: '49.4'
   - damage: '8.5'
     disable: '0.8'
     energy: '4.7'
-    num: 52
+    num: 53
     protection: '0.1'
     skills:
     - color: red
@@ -276,15 +276,15 @@ builds:
       name: Imp Rush
       type: mobility
     - color: blue
-      description: Increases Chaos Grip range by 25.
+      description: Increases Chaos Grip range by 20.
       icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Warlock's Grip
       type: utility
-    winrate: '65.4'
+    winrate: '64.2'
   - damage: '8.7'
     disable: '0.7'
     energy: '4.5'
-    num: 27
+    num: 28
     protection: '0.2'
     skills:
     - color: red
@@ -314,11 +314,11 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    winrate: '48.1'
+    winrate: '50.0'
   - damage: '7.1'
     disable: '0.6'
     energy: '3.7'
-    num: 23
+    num: 24
     protection: '0.3'
     skills:
     - color: red
@@ -349,7 +349,7 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    winrate: '39.1'
+    winrate: '37.5'
 compos:
   threes:
   - hero_names:
@@ -383,8 +383,8 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 30
-    winrate: 0.5666666666666667
+    num: 31
+    winrate: 0.5483870967741935
     wins: 17
   - hero_names:
     - Ulric
@@ -401,8 +401,8 @@ compos:
       name: Ezmo
       title: ezmo
     num: 25
-    winrate: 0.56
-    wins: 14
+    winrate: 0.52
+    wins: 13
   - hero_names:
     - Ulric
     - Freya
@@ -417,9 +417,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 25
-    winrate: 0.48
-    wins: 12
+    num: 23
+    winrate: 0.43478260869565216
+    wins: 10
   - hero_names:
     - Croak
     - Ezmo
@@ -448,9 +448,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 220
-    winrate: 0.5818181818181818
-    wins: 128
+    num: 219
+    winrate: 0.5707762557077626
+    wins: 125
   - hero_names:
     - Blossom
     - Ezmo
@@ -461,9 +461,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 109
-    winrate: 0.46788990825688076
-    wins: 51
+    num: 108
+    winrate: 0.49074074074074076
+    wins: 53
   - hero_names:
     - Ezmo
     - Pearl
@@ -474,9 +474,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 95
-    winrate: 0.5578947368421052
-    wins: 53
+    num: 94
+    winrate: 0.5851063829787234
+    wins: 55
   - hero_names:
     - Ezmo
     - Lucie
@@ -487,8 +487,8 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 73
-    winrate: 0.5068493150684932
+    num: 74
+    winrate: 0.5
     wins: 37
   - hero_names:
     - Oldur
@@ -500,9 +500,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 71
-    winrate: 0.5774647887323944
-    wins: 41
+    num: 72
+    winrate: 0.5555555555555556
+    wins: 40
 description: Ezmo is an aggressive spell caster who can move quickly across the arena.
   Aradu, a powerful warlock summoned and imprisoned Ezmo but Ezmo saw his opportunity
   to escape when the warlock became too engrossed in reading his tome. He sealed Aradu's
@@ -511,11 +511,11 @@ icon: 3af1fdc53169d044b939cce7ffb561a1
 layout: character
 name: ezmo
 num:
-  threes: 971
-  twos: 1157
+  threes: 961
+  twos: 1134
 title: Ezmo
 url: characters/ezmo.html
 winrate:
-  threes: '47.37'
-  twos: '50.13'
+  threes: '47.45'
+  twos: '50.09'
 ...

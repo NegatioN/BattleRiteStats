@@ -37,9 +37,9 @@ builds:
     winrate: '45.9'
   - damage: '3.4'
     disable: '0.7'
-    energy: '3.2'
-    num: 36
-    protection: '7.1'
+    energy: '3.3'
+    num: 33
+    protection: '7.2'
     skills:
     - color: teal
       description: Whenever Tree of Life is healed by Nourish, nearby allies are healed
@@ -69,11 +69,11 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '38.9'
+    winrate: '39.4'
   - damage: '4.5'
     disable: '1.0'
     energy: '3.3'
-    num: 35
+    num: 33
     protection: '5.4'
     skills:
     - color: green
@@ -102,7 +102,7 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '37.1'
+    winrate: '33.3'
   - damage: '4.6'
     disable: '1.0'
     energy: '3.6'
@@ -137,11 +137,11 @@ builds:
       name: Weakening Pitch
       type: support
     winrate: '70.8'
-  - damage: '4.5'
+  - damage: '4.6'
     disable: '0.8'
     energy: '3.5'
-    num: 18
-    protection: '6.2'
+    num: 20
+    protection: '6.1'
     skills:
     - color: green
       description: Increases Tree of Life health by 10.
@@ -170,12 +170,12 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '55.6'
+    winrate: '55.0'
   twos:
   - damage: '4.7'
     disable: '0.9'
     energy: '4.5'
-    num: 244
+    num: 248
     protection: '4.7'
     skills:
     - color: yellow
@@ -205,12 +205,12 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '48.4'
+    winrate: '50.0'
   - damage: '4.7'
     disable: '0.9'
     energy: '3.4'
-    num: 234
-    protection: '5.1'
+    num: 236
+    protection: '5.0'
     skills:
     - color: green
       description: Increases Tree of Life health by 10.
@@ -242,7 +242,7 @@ builds:
   - damage: '5.1'
     disable: '1.0'
     energy: '3.4'
-    num: 173
+    num: 166
     protection: '4.7'
     skills:
     - color: green
@@ -272,11 +272,11 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '52.0'
+    winrate: '50.0'
   - damage: '5.5'
     disable: '1.0'
     energy: '3.4'
-    num: 85
+    num: 84
     protection: '5.2'
     skills:
     - color: red
@@ -306,7 +306,7 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '56.5'
+    winrate: '56.0'
   - damage: '5.0'
     disable: '1.0'
     energy: '3.5'
@@ -362,23 +362,6 @@ compos:
     winrate: 0.5789473684210527
     wins: 11
   - hero_names:
-    - Blossom
-    - Jade
-    - Freya
-    heros:
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    - icon: be081702a8e70fe44ac0a4e3a9c46368
-      name: Freya
-      title: freya
-    num: 13
-    winrate: 0.5384615384615384
-    wins: 7
-  - hero_names:
     - Rook
     - Blossom
     - Jade
@@ -392,9 +375,43 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 12
-    winrate: 0.25
+    num: 14
+    winrate: 0.21428571428571427
     wins: 3
+  - hero_names:
+    - Blossom
+    - Jade
+    - Freya
+    heros:
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: be081702a8e70fe44ac0a4e3a9c46368
+      name: Freya
+      title: freya
+    num: 11
+    winrate: 0.5454545454545454
+    wins: 6
+  - hero_names:
+    - Ashka
+    - Blossom
+    - Jade
+    heros:
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 11
+    winrate: 0.5454545454545454
+    wins: 6
   - hero_names:
     - Ashka
     - Blossom
@@ -412,23 +429,6 @@ compos:
     num: 10
     winrate: 0.6
     wins: 6
-  - hero_names:
-    - Ashka
-    - Blossom
-    - Jade
-    heros:
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 10
-    winrate: 0.5
-    wins: 5
   twos:
   - hero_names:
     - Blossom
@@ -440,9 +440,9 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 168
-    winrate: 0.4583333333333333
-    wins: 77
+    num: 185
+    winrate: 0.4594594594594595
+    wins: 85
   - hero_names:
     - Rook
     - Blossom
@@ -453,35 +453,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 158
-    winrate: 0.5
-    wins: 79
-  - hero_names:
-    - Blossom
-    - Bakko
-    heros:
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    num: 121
-    winrate: 0.5289256198347108
-    wins: 64
-  - hero_names:
-    - Blossom
-    - Jade
-    heros:
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 120
-    winrate: 0.4166666666666667
-    wins: 50
+    num: 155
+    winrate: 0.5032258064516129
+    wins: 78
   - hero_names:
     - Blossom
     - Freya
@@ -492,9 +466,35 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 112
-    winrate: 0.5
-    wins: 56
+    num: 117
+    winrate: 0.48717948717948717
+    wins: 57
+  - hero_names:
+    - Blossom
+    - Bakko
+    heros:
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    num: 115
+    winrate: 0.5130434782608696
+    wins: 59
+  - hero_names:
+    - Blossom
+    - Jade
+    heros:
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 110
+    winrate: 0.42727272727272725
+    wins: 47
 description: Blossom is a happy, bubbly young faun from the Silverdeep Forest. She
   has left her home to investigate a disturbance in the natural order. She is never
   far from her bird companion, Maxwell.
@@ -502,11 +502,11 @@ icon: 6f50396e26efe6c4bbad274e2c90b8a4
 layout: character
 name: blossom
 num:
-  threes: 453
-  twos: 1559
+  threes: 452
+  twos: 1546
 title: Blossom
 url: characters/blossom.html
 winrate:
-  threes: '44.81'
-  twos: '48.17'
+  threes: '44.47'
+  twos: '48.19'
 ...

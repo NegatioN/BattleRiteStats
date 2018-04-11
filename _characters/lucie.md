@@ -2,9 +2,9 @@
 builds:
   threes:
   - damage: '3.7'
-    disable: '0.9'
+    disable: '1.0'
     energy: '3.0'
-    num: 71
+    num: 66
     protection: '5.9'
     skills:
     - color: yellow
@@ -33,11 +33,11 @@ builds:
       icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
       type: offense
-    winrate: '62.0'
+    winrate: '62.1'
   - damage: '2.9'
     disable: '0.9'
     energy: '3.0'
-    num: 47
+    num: 48
     protection: '5.6'
     skills:
     - color: yellow
@@ -67,12 +67,12 @@ builds:
       icon: 470a917c1ac62c04ea45acc6a35c5f73
       name: Swift Roll
       type: mobility
-    winrate: '48.9'
-  - damage: '4.3'
+    winrate: '47.9'
+  - damage: '4.4'
     disable: '1.1'
     energy: '3.1'
-    num: 45
-    protection: '5.8'
+    num: 33
+    protection: '5.7'
     skills:
     - color: yellow
       description: ^2Barrier^- increases movement speed by 33.
@@ -101,11 +101,11 @@ builds:
       icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
       type: offense
-    winrate: '42.2'
+    winrate: '39.4'
   - damage: '4.1'
     disable: '0.9'
     energy: '3.0'
-    num: 31
+    num: 30
     protection: '5.8'
     skills:
     - color: yellow
@@ -134,11 +134,11 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '41.9'
-  - damage: '3.2'
+    winrate: '40.0'
+  - damage: '3.3'
     disable: '1.0'
     energy: '3.5'
-    num: 25
+    num: 24
     protection: '6.1'
     skills:
     - color: teal
@@ -168,7 +168,7 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '52.0'
+    winrate: '50.0'
   twos:
   - damage: '4.5'
     disable: '1.3'
@@ -207,7 +207,7 @@ builds:
   - damage: '3.5'
     disable: '0.9'
     energy: '2.8'
-    num: 40
+    num: 39
     protection: '4.1'
     skills:
     - color: yellow
@@ -236,7 +236,7 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '62.5'
+    winrate: '64.1'
   - damage: '4.6'
     disable: '1.4'
     energy: '2.8'
@@ -272,11 +272,11 @@ builds:
       name: Weakening Toxin
       type: mixed
     winrate: '41.7'
-  - damage: '4.5'
+  - damage: '4.2'
     disable: '0.9'
-    energy: '2.9'
-    num: 31
-    protection: '4.7'
+    energy: '2.8'
+    num: 33
+    protection: '4.6'
     skills:
     - color: yellow
       description: ^2Barrier^- increases movement speed by 33.
@@ -304,7 +304,7 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '61.3'
+    winrate: '60.6'
   - damage: '5.0'
     disable: '1.1'
     energy: '3.4'
@@ -358,40 +358,6 @@ compos:
     winrate: 0.5789473684210527
     wins: 11
   - hero_names:
-    - Shifu
-    - Jade
-    - Lucie
-    heros:
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 17
-    winrate: 0.4117647058823529
-    wins: 7
-  - hero_names:
-    - Thorn
-    - Ezmo
-    - Lucie
-    heros:
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    - icon: 3af1fdc53169d044b939cce7ffb561a1
-      name: Ezmo
-      title: ezmo
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 15
-    winrate: 0.5333333333333333
-    wins: 8
-  - hero_names:
     - Freya
     - Jade
     - Lucie
@@ -405,9 +371,26 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 14
-    winrate: 0.8571428571428571
+    num: 15
+    winrate: 0.8
     wins: 12
+  - hero_names:
+    - Shifu
+    - Jade
+    - Lucie
+    heros:
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 15
+    winrate: 0.4666666666666667
+    wins: 7
   - hero_names:
     - Ashka
     - Bakko
@@ -422,9 +405,26 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
+    num: 14
+    winrate: 0.35714285714285715
+    wins: 5
+  - hero_names:
+    - Croak
+    - Jade
+    - Lucie
+    heros:
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
     num: 13
-    winrate: 0.3076923076923077
-    wins: 4
+    winrate: 0.23076923076923078
+    wins: 3
   twos:
   - hero_names:
     - Shifu
@@ -449,9 +449,9 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 104
-    winrate: 0.5576923076923077
-    wins: 58
+    num: 109
+    winrate: 0.5871559633027523
+    wins: 64
   - hero_names:
     - Bakko
     - Lucie
@@ -462,9 +462,9 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 100
-    winrate: 0.59
-    wins: 59
+    num: 104
+    winrate: 0.5769230769230769
+    wins: 60
   - hero_names:
     - Jade
     - Lucie
@@ -475,9 +475,9 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 81
-    winrate: 0.5185185185185185
-    wins: 42
+    num: 84
+    winrate: 0.5357142857142857
+    wins: 45
   - hero_names:
     - Freya
     - Lucie
@@ -488,20 +488,20 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 75
-    winrate: 0.4266666666666667
-    wins: 32
+    num: 76
+    winrate: 0.4868421052631579
+    wins: 37
 description: Lucie is a diverse contender who knows which brew makes you choke, heal
   or flee in fear. The arena has become her new playground for wild experiments.
 icon: e5554b8a15ffc1a499a3807bb3a37b56
 layout: character
 name: lucie
 num:
-  threes: 678
-  twos: 1046
+  threes: 660
+  twos: 1066
 title: Lucie
 url: characters/lucie.html
 winrate:
-  threes: '46.17'
-  twos: '50.48'
+  threes: '46.21'
+  twos: '51.41'
 ...

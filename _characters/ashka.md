@@ -4,7 +4,7 @@ builds:
   - damage: '8.2'
     disable: '1.0'
     energy: '3.6'
-    num: 167
+    num: 162
     protection: '0.0'
     skills:
     - color: yellow
@@ -35,11 +35,11 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '47.3'
-  - damage: '8.4'
+    winrate: '45.7'
+  - damage: '8.3'
     disable: '1.0'
     energy: '3.0'
-    num: 137
+    num: 141
     protection: '0.0'
     skills:
     - color: red
@@ -70,7 +70,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '56.2'
+    winrate: '55.3'
   - damage: '8.2'
     disable: '0.7'
     energy: '3.3'
@@ -109,7 +109,7 @@ builds:
   - damage: '9.2'
     disable: '1.1'
     energy: '3.4'
-    num: 59
+    num: 61
     protection: '0.0'
     skills:
     - color: yellow
@@ -140,7 +140,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '55.9'
+    winrate: '57.4'
   - damage: '8.9'
     disable: '1.1'
     energy: '3.4'
@@ -177,10 +177,10 @@ builds:
       type: offense
     winrate: '52.4'
   twos:
-  - damage: '7.9'
+  - damage: '8.0'
     disable: '1.0'
     energy: '3.6'
-    num: 112
+    num: 111
     protection: '0.1'
     skills:
     - color: yellow
@@ -211,10 +211,10 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '56.2'
-  - damage: '8.0'
+    winrate: '57.7'
+  - damage: '8.1'
     disable: '0.8'
-    energy: '2.6'
+    energy: '2.7'
     num: 60
     protection: '0.6'
     skills:
@@ -249,8 +249,8 @@ builds:
     winrate: '45.0'
   - damage: '7.6'
     disable: '0.9'
-    energy: '3.3'
-    num: 43
+    energy: '3.2'
+    num: 47
     protection: '0.1'
     skills:
     - color: red
@@ -282,11 +282,11 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '51.2'
+    winrate: '48.9'
   - damage: '7.9'
     disable: '0.9'
-    energy: '2.7'
-    num: 42
+    energy: '2.8'
+    num: 43
     protection: '0.0'
     skills:
     - color: red
@@ -317,8 +317,8 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '33.3'
-  - damage: '8.8'
+    winrate: '34.9'
+  - damage: '8.9'
     disable: '1.1'
     energy: '3.0'
     num: 37
@@ -358,23 +358,6 @@ compos:
   - hero_names:
     - Ulric
     - Ashka
-    - Bakko
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    num: 41
-    winrate: 0.5365853658536586
-    wins: 22
-  - hero_names:
-    - Ulric
-    - Ashka
     - Croak
     heros:
     - icon: a90600a0f93cf3644b279b61ab3dc5c8
@@ -386,9 +369,26 @@ compos:
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    num: 38
-    winrate: 0.631578947368421
-    wins: 24
+    num: 39
+    winrate: 0.6410256410256411
+    wins: 25
+  - hero_names:
+    - Ulric
+    - Ashka
+    - Bakko
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    num: 37
+    winrate: 0.5135135135135135
+    wins: 19
   - hero_names:
     - Ulric
     - Ashka
@@ -403,13 +403,13 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 33
-    winrate: 0.3939393939393939
+    num: 32
+    winrate: 0.40625
     wins: 13
   - hero_names:
     - Ulric
     - Ashka
-    - Thorn
+    - Freya
     heros:
     - icon: a90600a0f93cf3644b279b61ab3dc5c8
       name: Ulric
@@ -417,12 +417,12 @@ compos:
     - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
       name: Ashka
       title: ashka
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    num: 24
-    winrate: 0.4583333333333333
-    wins: 11
+    - icon: be081702a8e70fe44ac0a4e3a9c46368
+      name: Freya
+      title: freya
+    num: 26
+    winrate: 0.5769230769230769
+    wins: 15
   - hero_names:
     - Ulric
     - Ashka
@@ -438,8 +438,8 @@ compos:
       name: Rook
       title: rook
     num: 24
-    winrate: 0.5
-    wins: 12
+    winrate: 0.4583333333333333
+    wins: 11
   twos:
   - hero_names:
     - Ulric
@@ -451,9 +451,9 @@ compos:
     - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
       name: Ashka
       title: ashka
-    num: 147
-    winrate: 0.5306122448979592
-    wins: 78
+    num: 146
+    winrate: 0.547945205479452
+    wins: 80
   - hero_names:
     - Ashka
     - Oldur
@@ -477,9 +477,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 69
-    winrate: 0.6086956521739131
-    wins: 42
+    num: 72
+    winrate: 0.625
+    wins: 45
   - hero_names:
     - Ashka
     - Pearl
@@ -490,9 +490,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 61
-    winrate: 0.5737704918032787
-    wins: 35
+    num: 55
+    winrate: 0.5272727272727272
+    wins: 29
   - hero_names:
     - Rook
     - Ashka
@@ -503,9 +503,9 @@ compos:
     - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
       name: Ashka
       title: ashka
-    num: 44
-    winrate: 0.4090909090909091
-    wins: 18
+    num: 48
+    winrate: 0.3958333333333333
+    wins: 19
 description: A masked creature specialized in dark sorcery and pyro-kinetic powers.
   Casts devastating fire spells on his opponents and avoids close combat. Don't be
   fooled by his size, Ashka's inner demon strikes fear into all who face him.
@@ -513,11 +513,11 @@ icon: 02fbe1fea9e22054a9ab1b0c5007dbae
 layout: character
 name: ashka
 num:
-  threes: 1222
-  twos: 816
+  threes: 1228
+  twos: 813
 title: Ashka
 url: characters/ashka.html
 winrate:
-  threes: '45.25'
-  twos: '46.20'
+  threes: '45.93'
+  twos: '45.76'
 ...
