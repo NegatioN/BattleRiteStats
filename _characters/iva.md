@@ -4,7 +4,7 @@ builds:
   - damage: '7.3'
     disable: '1.3'
     energy: '3.2'
-    num: 25
+    num: 24
     protection: '0.5'
     skills:
     - color: yellow
@@ -33,7 +33,7 @@ builds:
       icon: d80cae4dd7699264fb3c37675b59f263
       name: Stockpile
       type: offense
-    winrate: '72.0'
+    winrate: '70.8'
   - damage: '7.8'
     disable: '1.0'
     energy: '3.2'
@@ -67,42 +67,10 @@ builds:
       name: U-Turn
       type: utility
     winrate: '33.3'
-  - damage: '8.3'
-    disable: '1.2'
-    energy: '3.5'
-    num: 21
-    protection: '0.4'
-    skills:
-    - color: yellow
-      description: Zap knocks nearby enemies back and grants 25 Fading Haste for 2.
-      icon: 9274b3f40ab2b4048b5cde1e9164901e
-      name: Blast Shield
-      type: mobility
-    - color: red
-      description: Rocket X-67 deals 4 bonus damage.
-      icon: d80cae4dd7699264fb3c37675b59f263
-      name: Boom!
-      type: offense
-    - color: pink
-      description: Tazer hits bounce once towards a nearby enemy.
-      icon: c9cd772b84da5454e9888a19fa249483
-      name: Conductor
-      type: control
-    - color: blue
-      description: Tazer hits remove positive effects from nearby enemies.
-      icon: c9cd772b84da5454e9888a19fa249483
-      name: EMP
-      type: utility
-    - color: yellow
-      description: ^2Jet Pack^- increases movement speed by 40 for 2.5.
-      icon: 7442381b626556c4e8193c48031d01ef
-      name: Rocket Boosters
-      type: mobility
-    winrate: '52.4'
-  - damage: '7.4'
+  - damage: '7.3'
     disable: '1.0'
-    energy: '3.1'
-    num: 20
+    energy: '3.0'
+    num: 21
     protection: '0.5'
     skills:
     - color: yellow
@@ -130,7 +98,39 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '55.0'
+    winrate: '52.4'
+  - damage: '8.2'
+    disable: '1.3'
+    energy: '3.4'
+    num: 20
+    protection: '0.4'
+    skills:
+    - color: yellow
+      description: Zap knocks nearby enemies back and grants 25 Fading Haste for 2.
+      icon: 9274b3f40ab2b4048b5cde1e9164901e
+      name: Blast Shield
+      type: mobility
+    - color: red
+      description: Rocket X-67 deals 4 bonus damage.
+      icon: d80cae4dd7699264fb3c37675b59f263
+      name: Boom!
+      type: offense
+    - color: pink
+      description: Tazer hits bounce once towards a nearby enemy.
+      icon: c9cd772b84da5454e9888a19fa249483
+      name: Conductor
+      type: control
+    - color: blue
+      description: Tazer hits remove positive effects from nearby enemies.
+      icon: c9cd772b84da5454e9888a19fa249483
+      name: EMP
+      type: utility
+    - color: yellow
+      description: ^2Jet Pack^- increases movement speed by 40 for 2.5.
+      icon: 7442381b626556c4e8193c48031d01ef
+      name: Rocket Boosters
+      type: mobility
+    winrate: '50.0'
   - damage: '7.2'
     disable: '1.0'
     energy: '3.5'
@@ -167,8 +167,8 @@ builds:
   twos:
   - damage: '7.2'
     disable: '1.0'
-    energy: '3.7'
-    num: 59
+    energy: '3.8'
+    num: 54
     protection: '0.8'
     skills:
     - color: pink
@@ -198,11 +198,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '44.1'
+    winrate: '46.3'
   - damage: '7.1'
     disable: '1.1'
     energy: '3.5'
-    num: 51
+    num: 52
     protection: '0.7'
     skills:
     - color: yellow
@@ -231,11 +231,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '43.1'
+    winrate: '44.2'
   - damage: '7.3'
     disable: '0.9'
     energy: '3.3'
-    num: 49
+    num: 46
     protection: '0.8'
     skills:
     - color: red
@@ -264,11 +264,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '30.6'
+    winrate: '32.6'
   - damage: '7.7'
     disable: '1.3'
     energy: '3.1'
-    num: 38
+    num: 39
     protection: '0.5'
     skills:
     - color: yellow
@@ -296,11 +296,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '50.0'
-  - damage: '8.1'
+    winrate: '46.2'
+  - damage: '8.0'
     disable: '1.6'
-    energy: '3.1'
-    num: 31
+    energy: '3.0'
+    num: 35
     protection: '0.4'
     skills:
     - color: yellow
@@ -329,7 +329,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '71.0'
+    winrate: '65.7'
 compos:
   threes:
   - hero_names:
@@ -346,8 +346,8 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 33
-    winrate: 0.5454545454545454
+    num: 34
+    winrate: 0.5294117647058824
     wins: 18
   - hero_names:
     - Ulric
@@ -363,9 +363,9 @@ compos:
     - icon: decba44679fbdae4bb7d0d1cb6a97682
       name: Iva
       title: iva
-    num: 23
-    winrate: 0.34782608695652173
-    wins: 8
+    num: 26
+    winrate: 0.34615384615384615
+    wins: 9
   - hero_names:
     - Iva
     - Shifu
@@ -380,8 +380,8 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 20
-    winrate: 0.6
+    num: 19
+    winrate: 0.631578947368421
     wins: 12
   - hero_names:
     - Ulric
@@ -397,26 +397,26 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 14
-    winrate: 0.7857142857142857
-    wins: 11
+    num: 16
+    winrate: 0.75
+    wins: 12
   - hero_names:
+    - Ulric
+    - Thorn
     - Iva
-    - Shifu
-    - Lucie
     heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
     - icon: decba44679fbdae4bb7d0d1cb6a97682
       name: Iva
       title: iva
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 13
-    winrate: 0.6153846153846154
-    wins: 8
+    num: 14
+    winrate: 0.7142857142857143
+    wins: 10
   twos:
   - hero_names:
     - Ulric
@@ -428,9 +428,9 @@ compos:
     - icon: decba44679fbdae4bb7d0d1cb6a97682
       name: Iva
       title: iva
-    num: 106
-    winrate: 0.5377358490566038
-    wins: 57
+    num: 110
+    winrate: 0.5636363636363636
+    wins: 62
   - hero_names:
     - Iva
     - Pearl
@@ -441,9 +441,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 73
-    winrate: 0.6575342465753424
-    wins: 48
+    num: 74
+    winrate: 0.6756756756756757
+    wins: 50
   - hero_names:
     - Iva
     - Blossom
@@ -454,9 +454,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 71
-    winrate: 0.4788732394366197
-    wins: 34
+    num: 68
+    winrate: 0.45588235294117646
+    wins: 31
   - hero_names:
     - Oldur
     - Iva
@@ -467,8 +467,8 @@ compos:
     - icon: decba44679fbdae4bb7d0d1cb6a97682
       name: Iva
       title: iva
-    num: 67
-    winrate: 0.43283582089552236
+    num: 66
+    winrate: 0.4393939393939394
     wins: 29
   - hero_names:
     - Pestilus
@@ -480,8 +480,8 @@ compos:
     - icon: decba44679fbdae4bb7d0d1cb6a97682
       name: Iva
       title: iva
-    num: 58
-    winrate: 0.603448275862069
+    num: 56
+    winrate: 0.625
     wins: 35
 description: A scavenger from the outer realms. Iva has engineered her own arsenal
   of weapons. Firing crazy rockets or unleashing a storm of bullets is her way of
@@ -490,11 +490,11 @@ icon: decba44679fbdae4bb7d0d1cb6a97682
 layout: character
 name: iva
 num:
-  threes: 535
-  twos: 831
+  threes: 558
+  twos: 829
 title: Iva
 url: characters/iva.html
 winrate:
-  threes: '48.60'
-  twos: '48.26'
+  threes: '48.21'
+  twos: '49.46'
 ...

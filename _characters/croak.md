@@ -4,7 +4,7 @@ builds:
   - damage: '7.1'
     disable: '1.5'
     energy: '3.0'
-    num: 235
+    num: 250
     protection: '1.2'
     skills:
     - color: blue
@@ -35,11 +35,11 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '54.5'
-  - damage: '5.9'
+    winrate: '53.6'
+  - damage: '5.8'
     disable: '0.9'
     energy: '3.2'
-    num: 36
+    num: 35
     protection: '1.8'
     skills:
     - color: blue
@@ -68,7 +68,7 @@ builds:
       icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
       type: utility
-    winrate: '50.0'
+    winrate: '45.7'
   - damage: '7.0'
     disable: '1.1'
     energy: '3.2'
@@ -103,10 +103,10 @@ builds:
       name: Triple Strike
       type: offense
     winrate: '41.4'
-  - damage: '6.0'
+  - damage: '5.9'
     disable: '0.7'
-    energy: '3.0'
-    num: 26
+    energy: '2.9'
+    num: 23
     protection: '1.7'
     skills:
     - color: green
@@ -137,7 +137,7 @@ builds:
       icon: 97d6d4df3883adc4d99a900f62576ff7
       name: Venom Strike
       type: offense
-    winrate: '46.2'
+    winrate: '47.8'
   - damage: '7.2'
     disable: '0.8'
     energy: '3.3'
@@ -173,10 +173,10 @@ builds:
       type: offense
     winrate: '33.3'
   twos:
-  - damage: '7.4'
+  - damage: '7.2'
     disable: '1.2'
     energy: '3.1'
-    num: 72
+    num: 83
     protection: '1.9'
     skills:
     - color: red
@@ -207,7 +207,7 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '52.8'
+    winrate: '51.8'
   - damage: '6.6'
     disable: '0.6'
     energy: '3.1'
@@ -243,6 +243,41 @@ builds:
       name: Triple Strike
       type: offense
     winrate: '59.6'
+  - damage: '7.4'
+    disable: '1.3'
+    energy: '3.0'
+    num: 38
+    protection: '1.2'
+    skills:
+    - color: blue
+      description: Increases invisibility duration of Camouflage by 1.
+      icon: 97d6d4df3883adc4d99a900f62576ff7
+      name: Cut to the Chase
+      type: utility
+    - color: red
+      description: Toxin deals 4 bonus damage and reduces target's movement speed
+        by 12.
+      icon: 84e29daadee87714294bbdabd3fdd4ab
+      name: Lethal Toxins
+      type: offense
+    - color: pink
+      description: Noxious Lunge inflicts Root for 1 and reapplies Toxin.
+      icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
+      name: Noxious Reaction
+      type: control
+    - color: blue
+      description: Toxin Muck gains 1 ability charge but increases its cooldown by
+        1.
+      icon: 84e29daadee87714294bbdabd3fdd4ab
+      name: Spit Spit Spit
+      type: utility
+    - color: red
+      description: Frog Leap causes your next 3 Blade Flurry attacks to deal 2 bonus
+        damage.
+      icon: f4d1c9994ff77524bacb0bfe5347e118
+      name: Triple Strike
+      type: offense
+    winrate: '44.7'
   - damage: '6.2'
     disable: '0.8'
     energy: '3.1'
@@ -278,42 +313,7 @@ builds:
       name: Venom Strike
       type: offense
     winrate: '50.0'
-  - damage: '7.5'
-    disable: '1.3'
-    energy: '3.0'
-    num: 29
-    protection: '1.1'
-    skills:
-    - color: blue
-      description: Increases invisibility duration of Camouflage by 1.
-      icon: 97d6d4df3883adc4d99a900f62576ff7
-      name: Cut to the Chase
-      type: utility
-    - color: red
-      description: Toxin deals 4 bonus damage and reduces target's movement speed
-        by 12.
-      icon: 84e29daadee87714294bbdabd3fdd4ab
-      name: Lethal Toxins
-      type: offense
-    - color: pink
-      description: Noxious Lunge inflicts Root for 1 and reapplies Toxin.
-      icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
-      name: Noxious Reaction
-      type: control
-    - color: blue
-      description: Toxin Muck gains 1 ability charge but increases its cooldown by
-        1.
-      icon: 84e29daadee87714294bbdabd3fdd4ab
-      name: Spit Spit Spit
-      type: utility
-    - color: red
-      description: Frog Leap causes your next 3 Blade Flurry attacks to deal 2 bonus
-        damage.
-      icon: f4d1c9994ff77524bacb0bfe5347e118
-      name: Triple Strike
-      type: offense
-    winrate: '44.8'
-  - damage: '7.0'
+  - damage: '6.9'
     disable: '1.0'
     energy: '3.4'
     num: 29
@@ -348,7 +348,7 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '48.3'
+    winrate: '51.7'
 compos:
   threes:
   - hero_names:
@@ -365,8 +365,8 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 53
-    winrate: 0.5660377358490566
+    num: 54
+    winrate: 0.5555555555555556
     wins: 30
   - hero_names:
     - Ulric
@@ -382,9 +382,9 @@ compos:
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    num: 39
-    winrate: 0.5897435897435898
-    wins: 23
+    num: 40
+    winrate: 0.6
+    wins: 24
   - hero_names:
     - Ulric
     - Croak
@@ -399,9 +399,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 22
-    winrate: 0.5454545454545454
-    wins: 12
+    num: 21
+    winrate: 0.5238095238095238
+    wins: 11
   - hero_names:
     - Ulric
     - Alysia
@@ -420,22 +420,22 @@ compos:
     winrate: 0.7894736842105263
     wins: 15
   - hero_names:
-    - Jade
+    - Oldur
     - Croak
-    - Sirius
+    - Jade
     heros:
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    num: 16
-    winrate: 0.5625
-    wins: 9
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 18
+    winrate: 0.5555555555555556
+    wins: 10
   twos:
   - hero_names:
     - Ulric
@@ -447,22 +447,9 @@ compos:
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    num: 153
-    winrate: 0.45751633986928103
-    wins: 70
-  - hero_names:
-    - Oldur
-    - Croak
-    heros:
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
-    num: 77
-    winrate: 0.45454545454545453
-    wins: 35
+    num: 157
+    winrate: 0.4585987261146497
+    wins: 72
   - hero_names:
     - Croak
     - Jade
@@ -473,9 +460,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 73
-    winrate: 0.5753424657534246
-    wins: 42
+    num: 74
+    winrate: 0.5405405405405406
+    wins: 40
   - hero_names:
     - Croak
     - Pearl
@@ -486,9 +473,22 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
+    num: 74
+    winrate: 0.581081081081081
+    wins: 43
+  - hero_names:
+    - Oldur
+    - Croak
+    heros:
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
     num: 73
-    winrate: 0.5753424657534246
-    wins: 42
+    winrate: 0.4657534246575342
+    wins: 34
   - hero_names:
     - Blossom
     - Croak
@@ -499,9 +499,9 @@ compos:
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    num: 66
-    winrate: 0.4393939393939394
-    wins: 29
+    num: 63
+    winrate: 0.4126984126984127
+    wins: 26
 description: His background is shrouded in mystery, his movements are supernatural
   and his reputation is whispered about. Croak loves to surprise his enemies, using
   his mobility to move in and out. His chameleonic stealth and flexible fighting style
@@ -510,11 +510,11 @@ icon: d3038956f9767d74bbbce0659b07474d
 layout: character
 name: croak
 num:
-  threes: 911
-  twos: 1020
+  threes: 939
+  twos: 1032
 title: Croak
 url: characters/croak.html
 winrate:
-  threes: '48.41'
-  twos: '45.10'
+  threes: '48.03'
+  twos: '45.83'
 ...

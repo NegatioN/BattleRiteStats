@@ -4,7 +4,7 @@ builds:
   - damage: '7.9'
     disable: '0.8'
     energy: '4.0'
-    num: 222
+    num: 223
     protection: '0.2'
     skills:
     - color: pink
@@ -35,11 +35,11 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    winrate: '47.7'
+    winrate: '47.5'
   - damage: '8.5'
     disable: '0.6'
     energy: '4.5'
-    num: 157
+    num: 162
     protection: '0.4'
     skills:
     - color: red
@@ -69,7 +69,7 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    winrate: '43.3'
+    winrate: '43.8'
   - damage: '7.6'
     disable: '0.7'
     energy: '3.7'
@@ -175,10 +175,10 @@ builds:
       type: mobility
     winrate: '60.0'
   twos:
-  - damage: '8.1'
+  - damage: '8.0'
     disable: '0.8'
     energy: '3.9'
-    num: 258
+    num: 261
     protection: '0.3'
     skills:
     - color: pink
@@ -209,11 +209,11 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    winrate: '62.4'
-  - damage: '8.2'
+    winrate: '61.3'
+  - damage: '8.3'
     disable: '0.9'
     energy: '3.7'
-    num: 132
+    num: 120
     protection: '0.1'
     skills:
     - color: pink
@@ -244,11 +244,11 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    winrate: '51.5'
+    winrate: '50.8'
   - damage: '8.6'
     disable: '0.9'
     energy: '4.7'
-    num: 52
+    num: 51
     protection: '0.1'
     skills:
     - color: red
@@ -280,7 +280,7 @@ builds:
       icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Warlock's Grip
       type: utility
-    winrate: '63.5'
+    winrate: '62.7'
   - damage: '7.1'
     disable: '0.6'
     energy: '3.7'
@@ -319,8 +319,8 @@ builds:
   - damage: '8.4'
     disable: '0.7'
     energy: '4.4'
-    num: 24
-    protection: '0.2'
+    num: 23
+    protection: '0.3'
     skills:
     - color: red
       description: Shackle hits grant 1 weapon charge and increase Arcane Fire range
@@ -349,7 +349,7 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    winrate: '45.8'
+    winrate: '47.8'
 compos:
   threes:
   - hero_names:
@@ -366,8 +366,8 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 76
-    winrate: 0.5263157894736842
+    num: 75
+    winrate: 0.5333333333333333
     wins: 40
   - hero_names:
     - Ulric
@@ -383,8 +383,8 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 33
-    winrate: 0.48484848484848486
+    num: 34
+    winrate: 0.47058823529411764
     wins: 16
   - hero_names:
     - Ulric
@@ -400,26 +400,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 24
-    winrate: 0.4583333333333333
-    wins: 11
-  - hero_names:
-    - Ulric
-    - Croak
-    - Ezmo
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
-    - icon: 3af1fdc53169d044b939cce7ffb561a1
-      name: Ezmo
-      title: ezmo
-    num: 22
-    winrate: 0.5454545454545454
-    wins: 12
+    num: 23
+    winrate: 0.43478260869565216
+    wins: 10
   - hero_names:
     - Ulric
     - Rook
@@ -437,6 +420,23 @@ compos:
     num: 22
     winrate: 0.4090909090909091
     wins: 9
+  - hero_names:
+    - Ulric
+    - Croak
+    - Ezmo
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
+    - icon: 3af1fdc53169d044b939cce7ffb561a1
+      name: Ezmo
+      title: ezmo
+    num: 21
+    winrate: 0.5238095238095238
+    wins: 11
   twos:
   - hero_names:
     - Ulric
@@ -448,9 +448,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 202
-    winrate: 0.5891089108910891
-    wins: 119
+    num: 193
+    winrate: 0.5906735751295337
+    wins: 114
   - hero_names:
     - Blossom
     - Ezmo
@@ -461,9 +461,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 97
-    winrate: 0.4639175257731959
-    wins: 45
+    num: 96
+    winrate: 0.4791666666666667
+    wins: 46
   - hero_names:
     - Ezmo
     - Pearl
@@ -474,9 +474,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 92
-    winrate: 0.6413043478260869
-    wins: 59
+    num: 88
+    winrate: 0.6022727272727273
+    wins: 53
   - hero_names:
     - Oldur
     - Ezmo
@@ -487,9 +487,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 79
-    winrate: 0.569620253164557
-    wins: 45
+    num: 76
+    winrate: 0.5657894736842105
+    wins: 43
   - hero_names:
     - Ezmo
     - Lucie
@@ -511,11 +511,11 @@ icon: 3af1fdc53169d044b939cce7ffb561a1
 layout: character
 name: ezmo
 num:
-  threes: 943
-  twos: 1096
+  threes: 945
+  twos: 1085
 title: Ezmo
 url: characters/ezmo.html
 winrate:
-  threes: '47.61'
-  twos: '51.73'
+  threes: '47.83'
+  twos: '50.51'
 ...
