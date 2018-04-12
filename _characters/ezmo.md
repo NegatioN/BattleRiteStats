@@ -1,11 +1,11 @@
 ---
 builds:
   threes:
-  - damage: '7.8'
+  - damage: '7.9'
     disable: '0.8'
     energy: '4.0'
-    num: 230
-    protection: '0.3'
+    num: 222
+    protection: '0.2'
     skills:
     - color: pink
       description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
@@ -35,11 +35,11 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    winrate: '49.1'
+    winrate: '47.7'
   - damage: '8.5'
     disable: '0.6'
-    energy: '4.4'
-    num: 171
+    energy: '4.5'
+    num: 157
     protection: '0.4'
     skills:
     - color: red
@@ -70,10 +70,10 @@ builds:
       name: Wreak Havoc
       type: offense
     winrate: '43.3'
-  - damage: '7.9'
+  - damage: '7.6'
     disable: '0.7'
-    energy: '3.9'
-    num: 45
+    energy: '3.7'
+    num: 40
     protection: '0.2'
     skills:
     - color: pink
@@ -104,8 +104,8 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    winrate: '48.9'
-  - damage: '9.4'
+    winrate: '40.0'
+  - damage: '9.3'
     disable: '0.7'
     energy: '4.3'
     num: 26
@@ -138,12 +138,12 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    winrate: '42.3'
-  - damage: '7.4'
+    winrate: '46.2'
+  - damage: '7.3'
     disable: '0.7'
-    energy: '3.5'
+    energy: '3.6'
     num: 15
-    protection: '0.8'
+    protection: '0.9'
     skills:
     - color: pink
       description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
@@ -173,12 +173,12 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    winrate: '66.7'
+    winrate: '60.0'
   twos:
-  - damage: '8.0'
+  - damage: '8.1'
     disable: '0.8'
     energy: '3.9'
-    num: 237
+    num: 258
     protection: '0.3'
     skills:
     - color: pink
@@ -209,11 +209,11 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    winrate: '62.0'
+    winrate: '62.4'
   - damage: '8.2'
     disable: '0.9'
     energy: '3.7'
-    num: 166
+    num: 132
     protection: '0.1'
     skills:
     - color: pink
@@ -244,11 +244,11 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    winrate: '49.4'
-  - damage: '8.5'
-    disable: '0.8'
+    winrate: '51.5'
+  - damage: '8.6'
+    disable: '0.9'
     energy: '4.7'
-    num: 53
+    num: 52
     protection: '0.1'
     skills:
     - color: red
@@ -280,41 +280,7 @@ builds:
       icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Warlock's Grip
       type: utility
-    winrate: '64.2'
-  - damage: '8.7'
-    disable: '0.7'
-    energy: '4.5'
-    num: 28
-    protection: '0.2'
-    skills:
-    - color: red
-      description: Shackle hits grant 1 weapon charge and increase Arcane Fire range
-        by 50 until the next reload.
-      icon: b51e6f88de6853d46bec81bbb3a655a4
-      name: Bolted
-      type: offense
-    - color: red
-      description: Displace grants 1 extra weapon charge.
-      icon: 99a21ff998aff1248a10df2d317faa20
-      name: Chaos Barrage
-      type: offense
-    - color: pink
-      description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
-        duration.
-      icon: da12579e4ef58ba4c87c1819bf1c699b
-      name: Disruption
-      type: control
-    - color: red
-      description: ^2Arcane Fire^- deals 2 bonus damage to enemies rooted by ^2Shackle^-.
-      icon: b51e6f88de6853d46bec81bbb3a655a4
-      name: Face Melt
-      type: offense
-    - color: red
-      description: Displace increases your Arcane Fire attack speed by 30% for 2.5.
-      icon: 99a21ff998aff1248a10df2d317faa20
-      name: Wreak Havoc
-      type: offense
-    winrate: '50.0'
+    winrate: '63.5'
   - damage: '7.1'
     disable: '0.6'
     energy: '3.7'
@@ -350,6 +316,40 @@ builds:
       name: Wreak Havoc
       type: offense
     winrate: '37.5'
+  - damage: '8.4'
+    disable: '0.7'
+    energy: '4.4'
+    num: 24
+    protection: '0.2'
+    skills:
+    - color: red
+      description: Shackle hits grant 1 weapon charge and increase Arcane Fire range
+        by 50 until the next reload.
+      icon: b51e6f88de6853d46bec81bbb3a655a4
+      name: Bolted
+      type: offense
+    - color: red
+      description: Displace grants 1 extra weapon charge.
+      icon: 99a21ff998aff1248a10df2d317faa20
+      name: Chaos Barrage
+      type: offense
+    - color: pink
+      description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
+        duration.
+      icon: da12579e4ef58ba4c87c1819bf1c699b
+      name: Disruption
+      type: control
+    - color: red
+      description: ^2Arcane Fire^- deals 2 bonus damage to enemies rooted by ^2Shackle^-.
+      icon: b51e6f88de6853d46bec81bbb3a655a4
+      name: Face Melt
+      type: offense
+    - color: red
+      description: Displace increases your Arcane Fire attack speed by 30% for 2.5.
+      icon: 99a21ff998aff1248a10df2d317faa20
+      name: Wreak Havoc
+      type: offense
+    winrate: '45.8'
 compos:
   threes:
   - hero_names:
@@ -366,9 +366,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 67
-    winrate: 0.5522388059701493
-    wins: 37
+    num: 76
+    winrate: 0.5263157894736842
+    wins: 40
   - hero_names:
     - Ulric
     - Thorn
@@ -383,26 +383,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 31
-    winrate: 0.5483870967741935
-    wins: 17
-  - hero_names:
-    - Ulric
-    - Croak
-    - Ezmo
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
-    - icon: 3af1fdc53169d044b939cce7ffb561a1
-      name: Ezmo
-      title: ezmo
-    num: 25
-    winrate: 0.52
-    wins: 13
+    num: 33
+    winrate: 0.48484848484848486
+    wins: 16
   - hero_names:
     - Ulric
     - Freya
@@ -417,26 +400,43 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 23
-    winrate: 0.43478260869565216
-    wins: 10
+    num: 24
+    winrate: 0.4583333333333333
+    wins: 11
   - hero_names:
+    - Ulric
     - Croak
     - Ezmo
-    - Pearl
     heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    - icon: 427116cdee46bad4cbaa99d7063e0832
-      name: Pearl
-      title: pearl
     num: 22
-    winrate: 0.7272727272727273
-    wins: 16
+    winrate: 0.5454545454545454
+    wins: 12
+  - hero_names:
+    - Ulric
+    - Rook
+    - Ezmo
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: 3af1fdc53169d044b939cce7ffb561a1
+      name: Ezmo
+      title: ezmo
+    num: 22
+    winrate: 0.4090909090909091
+    wins: 9
   twos:
   - hero_names:
     - Ulric
@@ -448,9 +448,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 219
-    winrate: 0.5707762557077626
-    wins: 125
+    num: 202
+    winrate: 0.5891089108910891
+    wins: 119
   - hero_names:
     - Blossom
     - Ezmo
@@ -461,9 +461,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 108
-    winrate: 0.49074074074074076
-    wins: 53
+    num: 97
+    winrate: 0.4639175257731959
+    wins: 45
   - hero_names:
     - Ezmo
     - Pearl
@@ -474,22 +474,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 94
-    winrate: 0.5851063829787234
-    wins: 55
-  - hero_names:
-    - Ezmo
-    - Lucie
-    heros:
-    - icon: 3af1fdc53169d044b939cce7ffb561a1
-      name: Ezmo
-      title: ezmo
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 74
-    winrate: 0.5
-    wins: 37
+    num: 92
+    winrate: 0.6413043478260869
+    wins: 59
   - hero_names:
     - Oldur
     - Ezmo
@@ -500,9 +487,22 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 72
-    winrate: 0.5555555555555556
-    wins: 40
+    num: 79
+    winrate: 0.569620253164557
+    wins: 45
+  - hero_names:
+    - Ezmo
+    - Lucie
+    heros:
+    - icon: 3af1fdc53169d044b939cce7ffb561a1
+      name: Ezmo
+      title: ezmo
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 76
+    winrate: 0.47368421052631576
+    wins: 36
 description: Ezmo is an aggressive spell caster who can move quickly across the arena.
   Aradu, a powerful warlock summoned and imprisoned Ezmo but Ezmo saw his opportunity
   to escape when the warlock became too engrossed in reading his tome. He sealed Aradu's
@@ -511,11 +511,11 @@ icon: 3af1fdc53169d044b939cce7ffb561a1
 layout: character
 name: ezmo
 num:
-  threes: 961
-  twos: 1134
+  threes: 943
+  twos: 1096
 title: Ezmo
 url: characters/ezmo.html
 winrate:
-  threes: '47.45'
-  twos: '50.09'
+  threes: '47.61'
+  twos: '51.73'
 ...
