@@ -4,7 +4,7 @@ builds:
   - damage: '6.5'
     disable: '1.8'
     energy: '2.6'
-    num: 64
+    num: 63
     protection: '1.1'
     skills:
     - color: pink
@@ -35,7 +35,7 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '64.1'
+    winrate: '63.5'
   - damage: '6.9'
     disable: '1.4'
     energy: '3.2'
@@ -74,8 +74,8 @@ builds:
     winrate: '41.0'
   - damage: '6.1'
     disable: '1.4'
-    energy: '3.2'
-    num: 21
+    energy: '3.3'
+    num: 19
     protection: '1.0'
     skills:
     - color: pink
@@ -106,7 +106,7 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '42.9'
+    winrate: '36.8'
   - damage: '6.2'
     disable: '1.3'
     energy: '3.0'
@@ -145,7 +145,7 @@ builds:
   - damage: '6.4'
     disable: '1.4'
     energy: '2.7'
-    num: 14
+    num: 15
     protection: '0.9'
     skills:
     - color: pink
@@ -176,8 +176,44 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '57.1'
+    winrate: '60.0'
   twos:
+  - damage: '7.4'
+    disable: '1.3'
+    energy: '3.4'
+    num: 31
+    protection: '1.3'
+    skills:
+    - color: yellow
+      description: Increases the range of Hook Shot by 15% and reduces its cooldown
+        by 1.
+      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
+      name: Firing Mechanism
+      type: mobility
+    - color: pink
+      description: Increases Stun duration of Deadly Blow by 0.5 and reduces its cooldown
+        by 2.
+      icon: c75e9702831a67e4b98aa0c24af2d865
+      name: Go for the Throat
+      type: control
+    - color: pink
+      description: Hook Shot deals 3 bonus damage and inflicts Root for 0.8.
+      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
+      name: Momentum Strike
+      type: control
+    - color: pink
+      description: Elusive Strike can be recast to kick an enemy, dealing 12 damage
+        and knocking them away.
+      icon: fa9b6a58fa6398b4ea4c4756152bd079
+      name: Roundhouse Kick
+      type: control
+    - color: green
+      description: Shuriken returns to you afterward, healing you for {Can't represent
+        GameValueList} health based on enemies hit.
+      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
+      name: Taste of Blood
+      type: survival
+    winrate: '54.8'
   - damage: '6.3'
     disable: '1.7'
     energy: '2.7'
@@ -213,46 +249,10 @@ builds:
       name: Taste of Blood
       type: survival
     winrate: '41.9'
-  - damage: '7.5'
-    disable: '1.3'
-    energy: '3.4'
-    num: 30
-    protection: '1.3'
-    skills:
-    - color: yellow
-      description: Increases the range of Hook Shot by 15% and reduces its cooldown
-        by 1.
-      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
-      name: Firing Mechanism
-      type: mobility
-    - color: pink
-      description: Increases Stun duration of Deadly Blow by 0.5 and reduces its cooldown
-        by 2.
-      icon: c75e9702831a67e4b98aa0c24af2d865
-      name: Go for the Throat
-      type: control
-    - color: pink
-      description: Hook Shot deals 3 bonus damage and inflicts Root for 0.8.
-      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
-      name: Momentum Strike
-      type: control
-    - color: pink
-      description: Elusive Strike can be recast to kick an enemy, dealing 12 damage
-        and knocking them away.
-      icon: fa9b6a58fa6398b4ea4c4756152bd079
-      name: Roundhouse Kick
-      type: control
-    - color: green
-      description: Shuriken returns to you afterward, healing you for {Can't represent
-        GameValueList} health based on enemies hit.
-      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
-      name: Taste of Blood
-      type: survival
-    winrate: '53.3'
   - damage: '6.9'
     disable: '1.3'
     energy: '2.9'
-    num: 29
+    num: 30
     protection: '1.1'
     skills:
     - color: pink
@@ -284,11 +284,11 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '51.7'
+    winrate: '53.3'
   - damage: '6.6'
-    disable: '1.3'
+    disable: '1.2'
     energy: '3.0'
-    num: 24
+    num: 23
     protection: '1.1'
     skills:
     - color: pink
@@ -319,11 +319,11 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '45.8'
-  - damage: '5.8'
+    winrate: '39.1'
+  - damage: '5.9'
     disable: '1.3'
-    energy: '2.8'
-    num: 18
+    energy: '2.9'
+    num: 17
     protection: '0.9'
     skills:
     - color: pink
@@ -355,7 +355,7 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '27.8'
+    winrate: '29.4'
 compos:
   threes:
   - hero_names:
@@ -372,9 +372,9 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 30
-    winrate: 0.7666666666666667
-    wins: 23
+    num: 31
+    winrate: 0.7741935483870968
+    wins: 24
   - hero_names:
     - Ulric
     - Ashka
@@ -389,9 +389,9 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 19
-    winrate: 0.6842105263157895
-    wins: 13
+    num: 17
+    winrate: 0.6470588235294118
+    wins: 11
   - hero_names:
     - Zander
     - Ashka
@@ -454,9 +454,9 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 103
-    winrate: 0.4077669902912621
-    wins: 42
+    num: 102
+    winrate: 0.4215686274509804
+    wins: 43
   - hero_names:
     - Zander
     - Jamila
@@ -467,9 +467,9 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 53
-    winrate: 0.4528301886792453
-    wins: 24
+    num: 54
+    winrate: 0.48148148148148145
+    wins: 26
   - hero_names:
     - Pearl
     - Jamila
@@ -481,8 +481,8 @@ compos:
       name: Jamila
       title: jamila
     num: 46
-    winrate: 0.41304347826086957
-    wins: 19
+    winrate: 0.45652173913043476
+    wins: 21
   - hero_names:
     - Oldur
     - Jamila
@@ -494,8 +494,8 @@ compos:
       name: Jamila
       title: jamila
     num: 40
-    winrate: 0.45
-    wins: 18
+    winrate: 0.425
+    wins: 17
   - hero_names:
     - Pestilus
     - Jamila
@@ -506,9 +506,9 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 39
-    winrate: 0.3333333333333333
-    wins: 13
+    num: 40
+    winrate: 0.375
+    wins: 15
 description: "A young assassin from the Shadowblade clan, Jamila suddenly found herself\
   \ the new leader after the death of her mother, the previous matriarch. As the youngest\
   \ leader in the clan\u2019s history, some call her too inexperienced and undeserving\
@@ -518,11 +518,11 @@ icon: f283d6dda29cbc845b4f770a1482d75b
 layout: character
 name: jamila
 num:
-  threes: 545
-  twos: 573
+  threes: 555
+  twos: 593
 title: Jamila
 url: characters/jamila.html
 winrate:
-  threes: '46.97'
-  twos: '38.74'
+  threes: '47.21'
+  twos: '39.63'
 ...

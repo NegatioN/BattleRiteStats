@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '7.2'
+  - damage: '7.1'
     disable: '1.5'
     energy: '3.0'
-    num: 244
+    num: 235
     protection: '1.2'
     skills:
     - color: blue
@@ -36,10 +36,10 @@ builds:
       name: Triple Strike
       type: offense
     winrate: '55.3'
-  - damage: '5.6'
+  - damage: '5.7'
     disable: '1.0'
-    energy: '3.1'
-    num: 44
+    energy: '3.2'
+    num: 42
     protection: '1.8'
     skills:
     - color: blue
@@ -174,11 +174,11 @@ builds:
       type: offense
     winrate: '47.4'
   twos:
-  - damage: '7.2'
+  - damage: '7.1'
     disable: '1.2'
-    energy: '3.1'
-    num: 69
-    protection: '1.9'
+    energy: '3.0'
+    num: 58
+    protection: '2.0'
     skills:
     - color: red
       description: Activating Toxin Blades increases attack speed of your next 6 Blade
@@ -208,11 +208,11 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '52.2'
+    winrate: '56.9'
   - damage: '6.6'
     disable: '0.6'
     energy: '3.1'
-    num: 46
+    num: 48
     protection: '1.3'
     skills:
     - color: blue
@@ -244,42 +244,7 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '52.2'
-  - damage: '6.5'
-    disable: '0.6'
-    energy: '3.0'
-    num: 41
-    protection: '1.9'
-    skills:
-    - color: red
-      description: Activating Toxin Blades increases attack speed of your next 6 Blade
-        Flurry attacks. Also increases Toxin Blades bonus damage by 1.
-      icon: 2c885df2336558e489fbe57b32a9fb94
-      name: Frog Frenzy
-      type: offense
-    - color: green
-      description: Frog Leap hits heal you for 12 health.
-      icon: f4d1c9994ff77524bacb0bfe5347e118
-      name: Jungle Toad
-      type: survival
-    - color: green
-      description: Increases healing effect of Toxin from 8 to 16.
-      icon: 84e29daadee87714294bbdabd3fdd4ab
-      name: Mending Toxin
-      type: survival
-    - color: blue
-      description: Toxin Muck gains 1 ability charge but increases its cooldown by
-        1.
-      icon: 84e29daadee87714294bbdabd3fdd4ab
-      name: Spit Spit Spit
-      type: utility
-    - color: red
-      description: Frog Leap causes your next 3 Blade Flurry attacks to deal 2 bonus
-        damage.
-      icon: f4d1c9994ff77524bacb0bfe5347e118
-      name: Triple Strike
-      type: offense
-    winrate: '63.4'
+    winrate: '52.1'
   - damage: '6.1'
     disable: '0.8'
     energy: '3.1'
@@ -315,10 +280,45 @@ builds:
       name: Venom Strike
       type: offense
     winrate: '46.3'
+  - damage: '6.4'
+    disable: '0.6'
+    energy: '3.0'
+    num: 39
+    protection: '1.9'
+    skills:
+    - color: red
+      description: Activating Toxin Blades increases attack speed of your next 6 Blade
+        Flurry attacks. Also increases Toxin Blades bonus damage by 1.
+      icon: 2c885df2336558e489fbe57b32a9fb94
+      name: Frog Frenzy
+      type: offense
+    - color: green
+      description: Frog Leap hits heal you for 12 health.
+      icon: f4d1c9994ff77524bacb0bfe5347e118
+      name: Jungle Toad
+      type: survival
+    - color: green
+      description: Increases healing effect of Toxin from 8 to 16.
+      icon: 84e29daadee87714294bbdabd3fdd4ab
+      name: Mending Toxin
+      type: survival
+    - color: blue
+      description: Toxin Muck gains 1 ability charge but increases its cooldown by
+        1.
+      icon: 84e29daadee87714294bbdabd3fdd4ab
+      name: Spit Spit Spit
+      type: utility
+    - color: red
+      description: Frog Leap causes your next 3 Blade Flurry attacks to deal 2 bonus
+        damage.
+      icon: f4d1c9994ff77524bacb0bfe5347e118
+      name: Triple Strike
+      type: offense
+    winrate: '64.1'
   - damage: '7.4'
     disable: '1.4'
     energy: '3.0'
-    num: 36
+    num: 35
     protection: '1.2'
     skills:
     - color: blue
@@ -349,7 +349,7 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '47.2'
+    winrate: '45.7'
 compos:
   threes:
   - hero_names:
@@ -367,8 +367,8 @@ compos:
       name: Jade
       title: jade
     num: 50
-    winrate: 0.56
-    wins: 28
+    winrate: 0.58
+    wins: 29
   - hero_names:
     - Ulric
     - Ashka
@@ -383,9 +383,9 @@ compos:
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    num: 39
-    winrate: 0.5641025641025641
-    wins: 22
+    num: 38
+    winrate: 0.5526315789473685
+    wins: 21
   - hero_names:
     - Ulric
     - Alysia
@@ -400,8 +400,8 @@ compos:
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    num: 20
-    winrate: 0.8
+    num: 21
+    winrate: 0.7619047619047619
     wins: 16
   - hero_names:
     - Ulric
@@ -417,9 +417,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 16
-    winrate: 0.5625
-    wins: 9
+    num: 19
+    winrate: 0.5789473684210527
+    wins: 11
   - hero_names:
     - Oldur
     - Croak
@@ -434,9 +434,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 16
-    winrate: 0.5
-    wins: 8
+    num: 17
+    winrate: 0.5294117647058824
+    wins: 9
   twos:
   - hero_names:
     - Ulric
@@ -448,22 +448,9 @@ compos:
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    num: 150
-    winrate: 0.4666666666666667
-    wins: 70
-  - hero_names:
-    - Oldur
-    - Croak
-    heros:
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
-    num: 78
-    winrate: 0.5
-    wins: 39
+    num: 151
+    winrate: 0.4900662251655629
+    wins: 74
   - hero_names:
     - Croak
     - Jade
@@ -474,9 +461,22 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 75
-    winrate: 0.5466666666666666
-    wins: 41
+    num: 78
+    winrate: 0.5384615384615384
+    wins: 42
+  - hero_names:
+    - Oldur
+    - Croak
+    heros:
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
+    num: 77
+    winrate: 0.5064935064935064
+    wins: 39
   - hero_names:
     - Croak
     - Pearl
@@ -487,9 +487,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 70
-    winrate: 0.6142857142857143
-    wins: 43
+    num: 68
+    winrate: 0.6029411764705882
+    wins: 41
   - hero_names:
     - Blossom
     - Croak
@@ -500,9 +500,9 @@ compos:
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    num: 69
-    winrate: 0.4057971014492754
-    wins: 28
+    num: 67
+    winrate: 0.3880597014925373
+    wins: 26
 description: His background is shrouded in mystery, his movements are supernatural
   and his reputation is whispered about. Croak loves to surprise his enemies, using
   his mobility to move in and out. His chameleonic stealth and flexible fighting style
@@ -511,11 +511,11 @@ icon: d3038956f9767d74bbbce0659b07474d
 layout: character
 name: croak
 num:
-  threes: 932
-  twos: 1042
+  threes: 929
+  twos: 1025
 title: Croak
 url: characters/croak.html
 winrate:
-  threes: '48.28'
-  twos: '46.07'
+  threes: '47.90'
+  twos: '46.34'
 ...
