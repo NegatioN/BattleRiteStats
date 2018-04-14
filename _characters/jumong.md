@@ -2,9 +2,9 @@
 builds:
   threes:
   - damage: '7.4'
-    disable: '0.9'
+    disable: '1.0'
     energy: '4.2'
-    num: 79
+    num: 77
     protection: '0.8'
     skills:
     - color: red
@@ -35,11 +35,11 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '46.8'
+    winrate: '45.5'
   - damage: '8.0'
     disable: '0.9'
     energy: '4.9'
-    num: 57
+    num: 64
     protection: '0.8'
     skills:
     - color: red
@@ -70,11 +70,11 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '43.9'
-  - damage: '7.7'
-    disable: '1.1'
-    energy: '4.6'
-    num: 53
+    winrate: '46.9'
+  - damage: '7.6'
+    disable: '1.0'
+    energy: '4.7'
+    num: 58
     protection: '0.7'
     skills:
     - color: red
@@ -105,11 +105,11 @@ builds:
       icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Viper
       type: mobility
-    winrate: '30.2'
-  - damage: '8.6'
+    winrate: '32.8'
+  - damage: '8.7'
     disable: '1.1'
-    energy: '4.4'
-    num: 37
+    energy: '4.5'
+    num: 35
     protection: '1.0'
     skills:
     - color: red
@@ -140,7 +140,7 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '51.4'
+    winrate: '48.6'
   - damage: '8.0'
     disable: '0.7'
     energy: '4.5'
@@ -179,7 +179,7 @@ builds:
   - damage: '7.8'
     disable: '0.8'
     energy: '4.4'
-    num: 72
+    num: 73
     protection: '0.9'
     skills:
     - color: red
@@ -210,11 +210,11 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '50.0'
-  - damage: '7.4'
+    winrate: '50.7'
+  - damage: '7.3'
     disable: '0.8'
     energy: '4.6'
-    num: 61
+    num: 59
     protection: '0.8'
     skills:
     - color: red
@@ -244,45 +244,11 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '36.1'
-  - damage: '8.2'
-    disable: '0.9'
-    energy: '4.6'
-    num: 58
-    protection: '0.9'
-    skills:
-    - color: red
-      description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
-        over the duration.
-      icon: ce1e01246a2a09145a192bb0deeeb400
-      name: Arrow Storm
-      type: offense
-    - color: red
-      description: Consuming ^2Seekers Mark^- deals 4 bonus damage.
-      icon: 60a73a3140321ec448f7f97f00a07897
-      name: Death Mark
-      type: offense
-    - color: pink
-      description: Steady Shot inflicts Stun for 0.5.
-      icon: 594fdf8c70a83404da422aa6463e0e03
-      name: Perfect Shot
-      type: control
-    - color: red
-      description: Black Arrow deals 4 bonus damage and grants 4 bonus energy.
-      icon: 4b81fcaeb29b2cd4e81e67d224552899
-      name: Precision
-      type: offense
-    - color: pink
-      description: Bear Trap lays down an additional trap in front of the first one
-        that lasts for 3.
-      icon: 6e30eed38d549fa4794a4543bf2b8de2
-      name: Trapper
-      type: control
-    winrate: '36.2'
+    winrate: '40.7'
   - damage: '7.7'
     disable: '0.8'
     energy: '4.5'
-    num: 53
+    num: 57
     protection: '0.9'
     skills:
     - color: red
@@ -313,12 +279,46 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '26.4'
+    winrate: '24.6'
+  - damage: '8.2'
+    disable: '0.9'
+    energy: '4.6'
+    num: 54
+    protection: '0.9'
+    skills:
+    - color: red
+      description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
+        over the duration.
+      icon: ce1e01246a2a09145a192bb0deeeb400
+      name: Arrow Storm
+      type: offense
+    - color: red
+      description: Consuming ^2Seekers Mark^- deals 4 bonus damage.
+      icon: 60a73a3140321ec448f7f97f00a07897
+      name: Death Mark
+      type: offense
+    - color: pink
+      description: Steady Shot inflicts Stun for 0.5.
+      icon: 594fdf8c70a83404da422aa6463e0e03
+      name: Perfect Shot
+      type: control
+    - color: red
+      description: Black Arrow deals 4 bonus damage and grants 4 bonus energy.
+      icon: 4b81fcaeb29b2cd4e81e67d224552899
+      name: Precision
+      type: offense
+    - color: pink
+      description: Bear Trap lays down an additional trap in front of the first one
+        that lasts for 3.
+      icon: 6e30eed38d549fa4794a4543bf2b8de2
+      name: Trapper
+      type: control
+    winrate: '35.2'
   - damage: '8.3'
     disable: '0.6'
-    energy: '4.8'
-    num: 41
-    protection: '0.9'
+    energy: '4.7'
+    num: 42
+    protection: '0.8'
     skills:
     - color: red
       description: Consuming ^2Seekers Mark^- deals 4 bonus damage.
@@ -346,7 +346,7 @@ builds:
       icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Viper
       type: mobility
-    winrate: '48.8'
+    winrate: '57.1'
 compos:
   threes:
   - hero_names:
@@ -363,8 +363,8 @@ compos:
     - icon: 42a665b9c285a1243a201c8d533980e5
       name: Jumong
       title: jumong
-    num: 26
-    winrate: 0.34615384615384615
+    num: 27
+    winrate: 0.3333333333333333
     wins: 9
   - hero_names:
     - Ulric
@@ -397,8 +397,8 @@ compos:
     - icon: a90600a0f93cf3644b279b61ab3dc5c8
       name: Ulric
       title: ulric
-    num: 21
-    winrate: 0.5714285714285714
+    num: 20
+    winrate: 0.6
     wins: 12
   - hero_names:
     - Pestilus
@@ -414,13 +414,13 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 17
-    winrate: 0.47058823529411764
-    wins: 8
+    num: 16
+    winrate: 0.4375
+    wins: 7
   - hero_names:
     - Ulric
     - Jumong
-    - Bakko
+    - Ruh Kaan
     heros:
     - icon: a90600a0f93cf3644b279b61ab3dc5c8
       name: Ulric
@@ -428,12 +428,12 @@ compos:
     - icon: 42a665b9c285a1243a201c8d533980e5
       name: Jumong
       title: jumong
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    num: 15
-    winrate: 0.26666666666666666
-    wins: 4
+    - icon: bb37e5d448c511e47b808987d0d4f9e8
+      name: Ruh Kaan
+      title: ruh-kaan
+    num: 16
+    winrate: 0.375
+    wins: 6
   twos:
   - hero_names:
     - Ulric
@@ -445,9 +445,9 @@ compos:
     - icon: 42a665b9c285a1243a201c8d533980e5
       name: Jumong
       title: jumong
-    num: 159
-    winrate: 0.5283018867924528
-    wins: 84
+    num: 154
+    winrate: 0.5064935064935064
+    wins: 78
   - hero_names:
     - Jumong
     - Blossom
@@ -458,9 +458,22 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 97
-    winrate: 0.5257731958762887
-    wins: 51
+    num: 102
+    winrate: 0.5294117647058824
+    wins: 54
+  - hero_names:
+    - Oldur
+    - Jumong
+    heros:
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    - icon: 42a665b9c285a1243a201c8d533980e5
+      name: Jumong
+      title: jumong
+    num: 72
+    winrate: 0.5277777777777778
+    wins: 38
   - hero_names:
     - Jumong
     - Poloma
@@ -471,8 +484,8 @@ compos:
     - icon: 9872f8cd16d7327418b09294cfa319e6
       name: Poloma
       title: poloma
-    num: 71
-    winrate: 0.4225352112676056
+    num: 72
+    winrate: 0.4166666666666667
     wins: 30
   - hero_names:
     - Pestilus
@@ -484,22 +497,9 @@ compos:
     - icon: 42a665b9c285a1243a201c8d533980e5
       name: Jumong
       title: jumong
-    num: 71
-    winrate: 0.4788732394366197
-    wins: 34
-  - hero_names:
-    - Oldur
-    - Jumong
-    heros:
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: 42a665b9c285a1243a201c8d533980e5
-      name: Jumong
-      title: jumong
-    num: 60
-    winrate: 0.5166666666666667
-    wins: 31
+    num: 68
+    winrate: 0.47058823529411764
+    wins: 32
 description: Jumong is a trophy collector who has wandered the wildlands in the pursuit
   of a worthy challenge. No longer being content with hunting the great beasts of
   the world has led him to enter the arena, looking for a new type of prey. He traps
@@ -508,11 +508,11 @@ icon: 42a665b9c285a1243a201c8d533980e5
 layout: character
 name: jumong
 num:
-  threes: 811
-  twos: 922
+  threes: 817
+  twos: 931
 title: Jumong
 url: characters/jumong.html
 winrate:
-  threes: '43.03'
-  twos: '44.47'
+  threes: '43.08'
+  twos: '44.68'
 ...

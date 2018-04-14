@@ -33,7 +33,7 @@ builds:
       name: U-Turn
       type: utility
     winrate: '48.3'
-  - damage: '8.0'
+  - damage: '7.9'
     disable: '1.0'
     energy: '3.2'
     num: 26
@@ -65,11 +65,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '46.2'
-  - damage: '8.0'
-    disable: '1.2'
+    winrate: '42.3'
+  - damage: '8.1'
+    disable: '1.3'
     energy: '3.4'
-    num: 22
+    num: 23
     protection: '0.4'
     skills:
     - color: yellow
@@ -97,7 +97,42 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: Rocket Boosters
       type: mobility
-    winrate: '50.0'
+    winrate: '47.8'
+  - damage: '8.7'
+    disable: '1.3'
+    energy: '3.9'
+    num: 22
+    protection: '0.9'
+    skills:
+    - color: red
+      description: Rocket X-67 deals 4 bonus damage.
+      icon: d80cae4dd7699264fb3c37675b59f263
+      name: Boom!
+      type: offense
+    - color: teal
+      description: Zap absorbs 12 more damage on yourself and 16 more damage on other
+        allies.
+      icon: 9274b3f40ab2b4048b5cde1e9164901e
+      name: Durable Shield
+      type: support
+    - color: pink
+      description: Rocket X-67 hits inflict Fading Snare for 1.5 and the explosion
+        inflicts Fading Snare for 0.7.
+      icon: d80cae4dd7699264fb3c37675b59f263
+      name: Heavy Rocket
+      type: control
+    - color: red
+      description: Zap increases your Boomstick attack and reload speed by 120 while
+        you're affected by the Shield.
+      icon: 9274b3f40ab2b4048b5cde1e9164901e
+      name: Hyperspeed
+      type: offense
+    - color: yellow
+      description: ^2Jet Pack^- increases movement speed by 40 for 2.5.
+      icon: 7442381b626556c4e8193c48031d01ef
+      name: Rocket Boosters
+      type: mobility
+    winrate: '68.2'
   - damage: '7.1'
     disable: '1.4'
     energy: '3.5'
@@ -130,47 +165,12 @@ builds:
       name: U-Turn
       type: utility
     winrate: '42.9'
-  - damage: '8.7'
-    disable: '1.3'
-    energy: '3.9'
-    num: 21
-    protection: '0.9'
-    skills:
-    - color: red
-      description: Rocket X-67 deals 4 bonus damage.
-      icon: d80cae4dd7699264fb3c37675b59f263
-      name: Boom!
-      type: offense
-    - color: teal
-      description: Zap absorbs 12 more damage on yourself and 16 more damage on other
-        allies.
-      icon: 9274b3f40ab2b4048b5cde1e9164901e
-      name: Durable Shield
-      type: support
-    - color: pink
-      description: Rocket X-67 hits inflict Fading Snare for 1.5 and the explosion
-        inflicts Fading Snare for 0.7.
-      icon: d80cae4dd7699264fb3c37675b59f263
-      name: Heavy Rocket
-      type: control
-    - color: red
-      description: Zap increases your Boomstick attack and reload speed by 120 while
-        you're affected by the Shield.
-      icon: 9274b3f40ab2b4048b5cde1e9164901e
-      name: Hyperspeed
-      type: offense
-    - color: yellow
-      description: ^2Jet Pack^- increases movement speed by 40 for 2.5.
-      icon: 7442381b626556c4e8193c48031d01ef
-      name: Rocket Boosters
-      type: mobility
-    winrate: '66.7'
   twos:
   - damage: '7.4'
     disable: '1.0'
-    energy: '3.9'
-    num: 52
-    protection: '0.9'
+    energy: '3.8'
+    num: 49
+    protection: '0.8'
     skills:
     - color: pink
       description: Increases Oil factor by 10 and duration by 1.5.
@@ -199,11 +199,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '40.4'
-  - damage: '7.0'
+    winrate: '40.8'
+  - damage: '7.1'
     disable: '1.0'
     energy: '3.3'
-    num: 40
+    num: 46
     protection: '0.7'
     skills:
     - color: yellow
@@ -232,11 +232,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '37.5'
+    winrate: '43.5'
   - damage: '7.8'
-    disable: '1.3'
+    disable: '1.4'
     energy: '3.0'
-    num: 39
+    num: 36
     protection: '0.5'
     skills:
     - color: yellow
@@ -264,12 +264,12 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '35.9'
-  - damage: '7.2'
-    disable: '0.9'
-    energy: '3.3'
-    num: 34
-    protection: '0.7'
+    winrate: '36.1'
+  - damage: '7.3'
+    disable: '0.8'
+    energy: '3.2'
+    num: 32
+    protection: '0.8'
     skills:
     - color: red
       description: Rocket X-67 deals 4 bonus damage.
@@ -297,11 +297,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '38.2'
+    winrate: '37.5'
   - damage: '7.9'
     disable: '1.2'
-    energy: '3.9'
-    num: 29
+    energy: '3.8'
+    num: 31
     protection: '0.6'
     skills:
     - color: yellow
@@ -330,7 +330,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: Rocket Boosters
       type: mobility
-    winrate: '69.0'
+    winrate: '67.7'
 compos:
   threes:
   - hero_names:
@@ -347,9 +347,9 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 32
-    winrate: 0.4375
-    wins: 14
+    num: 33
+    winrate: 0.48484848484848486
+    wins: 16
   - hero_names:
     - Ulric
     - Thorn
@@ -382,8 +382,8 @@ compos:
       name: Pearl
       title: pearl
     num: 17
-    winrate: 0.7058823529411765
-    wins: 12
+    winrate: 0.6470588235294118
+    wins: 11
   - hero_names:
     - Ulric
     - Rook
@@ -399,8 +399,8 @@ compos:
       name: Iva
       title: iva
     num: 17
-    winrate: 0.5294117647058824
-    wins: 9
+    winrate: 0.5882352941176471
+    wins: 10
   - hero_names:
     - Poloma
     - Iva
@@ -429,22 +429,9 @@ compos:
     - icon: decba44679fbdae4bb7d0d1cb6a97682
       name: Iva
       title: iva
-    num: 112
-    winrate: 0.5178571428571429
-    wins: 58
-  - hero_names:
-    - Iva
-    - Blossom
-    heros:
-    - icon: decba44679fbdae4bb7d0d1cb6a97682
-      name: Iva
-      title: iva
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    num: 73
-    winrate: 0.4931506849315068
-    wins: 36
+    num: 101
+    winrate: 0.5445544554455446
+    wins: 55
   - hero_names:
     - Iva
     - Pearl
@@ -455,22 +442,22 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 69
-    winrate: 0.6376811594202898
-    wins: 44
+    num: 71
+    winrate: 0.6056338028169014
+    wins: 43
   - hero_names:
-    - Oldur
     - Iva
+    - Blossom
     heros:
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
     - icon: decba44679fbdae4bb7d0d1cb6a97682
       name: Iva
       title: iva
-    num: 56
-    winrate: 0.39285714285714285
-    wins: 22
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    num: 71
+    winrate: 0.49295774647887325
+    wins: 35
   - hero_names:
     - Pestilus
     - Iva
@@ -481,9 +468,22 @@ compos:
     - icon: decba44679fbdae4bb7d0d1cb6a97682
       name: Iva
       title: iva
-    num: 54
-    winrate: 0.6111111111111112
-    wins: 33
+    num: 53
+    winrate: 0.6037735849056604
+    wins: 32
+  - hero_names:
+    - Oldur
+    - Iva
+    heros:
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    - icon: decba44679fbdae4bb7d0d1cb6a97682
+      name: Iva
+      title: iva
+    num: 53
+    winrate: 0.4339622641509434
+    wins: 23
 description: A scavenger from the outer realms. Iva has engineered her own arsenal
   of weapons. Firing crazy rockets or unleashing a storm of bullets is her way of
   greeting her opponents in the Arena.
@@ -491,11 +491,11 @@ icon: decba44679fbdae4bb7d0d1cb6a97682
 layout: character
 name: iva
 num:
-  threes: 643
-  twos: 825
+  threes: 644
+  twos: 809
 title: Iva
 url: characters/iva.html
 winrate:
-  threes: '48.21'
-  twos: '48.24'
+  threes: '47.83'
+  twos: '48.83'
 ...

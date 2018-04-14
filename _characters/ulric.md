@@ -4,8 +4,8 @@ builds:
   - damage: '4.2'
     disable: '0.7'
     energy: '3.5'
-    num: 339
-    protection: '6.1'
+    num: 313
+    protection: '6.2'
     skills:
     - color: grey
       description: Charged Hammer of Justice deals 2 bonus damage. Deals 16 damage
@@ -36,11 +36,11 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '51.0'
+    winrate: '49.2'
   - damage: '4.3'
     disable: '0.7'
     energy: '3.5'
-    num: 237
+    num: 238
     protection: '6.4'
     skills:
     - color: grey
@@ -71,11 +71,11 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '58.2'
+    winrate: '58.4'
   - damage: '4.4'
     disable: '0.7'
     energy: '3.6'
-    num: 232
+    num: 231
     protection: '6.7'
     skills:
     - color: grey
@@ -106,11 +106,11 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '56.9'
+    winrate: '57.1'
   - damage: '4.7'
     disable: '0.7'
     energy: '3.4'
-    num: 143
+    num: 137
     protection: '6.2'
     skills:
     - color: grey
@@ -142,11 +142,11 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '62.2'
+    winrate: '61.3'
   - damage: '4.1'
     disable: '0.7'
     energy: '3.5'
-    num: 116
+    num: 119
     protection: '6.2'
     skills:
     - color: grey
@@ -178,12 +178,12 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '50.9'
+    winrate: '52.1'
   twos:
   - damage: '4.6'
     disable: '0.7'
-    energy: '3.7'
-    num: 395
+    energy: '3.3'
+    num: 353
     protection: '4.9'
     skills:
     - color: grey
@@ -215,12 +215,12 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '54.2'
+    winrate: '55.0'
   - damage: '4.5'
     disable: '0.8'
     energy: '3.2'
-    num: 130
-    protection: '5.1'
+    num: 132
+    protection: '5.0'
     skills:
     - color: grey
       description: Charged Hammer of Justice deals 2 bonus damage. Deals 16 damage
@@ -250,11 +250,11 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '56.2'
+    winrate: '55.3'
   - damage: '4.6'
     disable: '0.7'
     energy: '3.3'
-    num: 125
+    num: 117
     protection: '5.3'
     skills:
     - color: grey
@@ -285,12 +285,12 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '65.6'
-  - damage: '4.1'
+    winrate: '67.5'
+  - damage: '4.0'
     disable: '0.6'
     energy: '3.1'
-    num: 119
-    protection: '4.9'
+    num: 113
+    protection: '5.0'
     skills:
     - color: grey
       description: Charged Hammer of Justice deals 2 bonus damage. Deals 16 damage
@@ -321,12 +321,12 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '49.6'
-  - damage: '4.8'
-    disable: '0.8'
+    winrate: '50.4'
+  - damage: '4.4'
+    disable: '0.6'
     energy: '3.3'
-    num: 81
-    protection: '4.4'
+    num: 71
+    protection: '5.0'
     skills:
     - color: grey
       description: Charged Hammer of Justice deals 2 bonus damage. Deals 16 damage
@@ -335,19 +335,20 @@ builds:
       name: Cleave
       type: mixed
     - color: grey
+      description: Holy Light healing increases by 3 when healing self or allies affected
+        by Favor.
+      icon: 85a79d3bf018b184887fb1a71ef51ac1
+      name: Devotion
+      type: mixed
+    - color: grey
       description: Favor reduces damage taken by 10.
       icon: 43ddc4074c2b605478c43c9727704ce8
       name: Divine Protection
       type: mixed
     - color: grey
-      description: All effects of Divinity are doubled.
-      icon: 96d5e8acf68061e478f9f6a8d315a4c4
-      name: Godlike
-      type: mixed
-    - color: grey
-      description: Smite projectiles inflict a 35 Snare for 1.
-      icon: 6892bf3a45c0ad042b495a385cb5604f
-      name: Holy Shackles
+      description: Intervene travel distance increases by 40 when affected by Favor.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Initiation
       type: mixed
     - color: grey
       description: Condemn cooldown is reduced by 3 and hits refresh the cooldown
@@ -355,7 +356,7 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mixed
-    winrate: '55.6'
+    winrate: '54.9'
 compos:
   threes:
   - hero_names:
@@ -372,9 +373,9 @@ compos:
     - icon: 3af1fdc53169d044b939cce7ffb561a1
       name: Ezmo
       title: ezmo
-    num: 73
-    winrate: 0.5068493150684932
-    wins: 37
+    num: 75
+    winrate: 0.5066666666666667
+    wins: 38
   - hero_names:
     - Ulric
     - Bakko
@@ -389,9 +390,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 70
-    winrate: 0.6
-    wins: 42
+    num: 66
+    winrate: 0.6060606060606061
+    wins: 40
   - hero_names:
     - Ulric
     - Thorn
@@ -406,9 +407,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 67
-    winrate: 0.6567164179104478
-    wins: 44
+    num: 63
+    winrate: 0.6666666666666666
+    wins: 42
   - hero_names:
     - Ulric
     - Freya
@@ -423,9 +424,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 61
-    winrate: 0.6065573770491803
-    wins: 37
+    num: 56
+    winrate: 0.5714285714285714
+    wins: 32
   - hero_names:
     - Ulric
     - Croak
@@ -440,9 +441,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 43
-    winrate: 0.627906976744186
-    wins: 27
+    num: 42
+    winrate: 0.6190476190476191
+    wins: 26
   twos:
   - hero_names:
     - Ulric
@@ -454,9 +455,9 @@ compos:
     - icon: e5d5913527b842b41aed666d27d14231
       name: Rook
       title: rook
-    num: 351
-    winrate: 0.5811965811965812
-    wins: 204
+    num: 326
+    winrate: 0.5644171779141104
+    wins: 184
   - hero_names:
     - Ulric
     - Freya
@@ -467,9 +468,9 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 280
-    winrate: 0.5357142857142857
-    wins: 150
+    num: 275
+    winrate: 0.5563636363636364
+    wins: 153
   - hero_names:
     - Ulric
     - Bakko
@@ -480,9 +481,9 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 272
-    winrate: 0.5625
-    wins: 153
+    num: 244
+    winrate: 0.5491803278688525
+    wins: 134
   - hero_names:
     - Ulric
     - Shifu
@@ -493,9 +494,9 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 258
-    winrate: 0.4883720930232558
-    wins: 126
+    num: 233
+    winrate: 0.4978540772532189
+    wins: 116
   - hero_names:
     - Ulric
     - Jade
@@ -506,9 +507,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 214
-    winrate: 0.5046728971962616
-    wins: 108
+    num: 202
+    winrate: 0.5
+    wins: 101
 description: Sworn protector of the weak, devout follower of the Way of Symphony,
   and unwavering light against the dark. Ulric, trained in the holy Monastery of Resonance,
   has spent many years traveling the lands to spread the word of the Light. He joins
@@ -518,11 +519,11 @@ icon: a90600a0f93cf3644b279b61ab3dc5c8
 layout: character
 name: ulric
 num:
-  threes: 2538
-  twos: 3208
+  threes: 2429
+  twos: 3005
 title: Ulric
 url: characters/ulric.html
 winrate:
-  threes: '51.50'
-  twos: '52.56'
+  threes: '50.89'
+  twos: '52.61'
 ...
