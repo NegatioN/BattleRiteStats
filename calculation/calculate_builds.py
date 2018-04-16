@@ -19,7 +19,7 @@ origin = mk_origin('https', 'api.dc01.gamelockerapp.com', '/shards/global')
 headers = {'Accept': 'application/vnd.api+json',
            'Accept-Encoding': 'gzip',
            'Authorization': 'Bearer {0}'.format(api_key)}
-rate_limiter = RateLimiter(max_calls=50, period=61)
+rate_limiter = RateLimiter(max_calls=100, period=61)
 
 telem_cache = TelemetryCache()
 
