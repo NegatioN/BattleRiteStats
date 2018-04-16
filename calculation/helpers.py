@@ -13,7 +13,7 @@ from ratelimiter import RateLimiter
 def get_content(url, headers):
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
-        return json.loads(response.content.decode('utf-8'))['data']
+        return response.json()['data']
     else:
         return []
 
@@ -91,7 +91,7 @@ def get_user_ids():
     while only_grand_champions:
         with rate_limiter:
             response = requests.post(query_url, headers=headers, data={'id': offset})
-            bs = BeautifulSoup(json.loads(response.content)['blocks'], "html.parser")
+            bs = BeautifulSoup(response.json()['blocks'], "html.parser")
             cur_ids = [x['href'].replace('https://battlerite-stats.com/profile/', '')
                        for x in bs.find_all('a', {'class': 'table-row-link'})]
             divisions = bs.find_all('div', {'class': 'league-name'})

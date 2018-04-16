@@ -2,7 +2,6 @@
 # -*- coding: utf-8
 import requests
 from urllib.parse import quote
-import json
 import os
 from ratelimiter import RateLimiter
 from datetime import timedelta, datetime
@@ -144,7 +143,7 @@ def get_player_telemetry(player_id):
         with rate_limiter:
             response = requests.get(url, headers=headers)
             if response.status_code == 200:
-                content = json.loads(response.content.decode('utf-8'))
+                content = response.json()
                 all_data_nodes = content['data']
                 match_ids = parse_list_node(all_data_nodes, 'assets')
 
@@ -166,7 +165,7 @@ def get_telemetry_data(url):
         try:
             resp = requests.get(url)
             if resp.status_code == 200:
-                telemetry_entry = json.loads(resp.content.decode('utf-8'))
+                telemetry_entry = resp.json()
                 telem_cache.cache_telemetry(url, telemetry_entry)
         except:
             print('something bad happened')
