@@ -73,12 +73,29 @@ def get_battlerite_type_mapping():
         return type_mappings
 
 
+def get_proxies():
+    try:
+        rate_limiter = RateLimiter(max_calls=30, period=60)
+        proxy = {'supportsHttps': False, 'speed': 0, 'protocol': 'yolo', 'post': False}
+        while not (proxy['speed'] > 30
+                   and proxy['supportsHttps']
+                   and proxy['post']
+                   and proxy['protocol'] == 'http'):
+            with rate_limiter:
+                proxy = requests.get('https://gimmeproxy.com/api/getProxy').json()
+        proxies = {'http': 'http://{}'.format(proxy['ipPort']), 'https': 'https://{}'.format(proxy['ipPort'])}
+    except:
+        proxies = None
+    return proxies
+
 def get_user_ids():
+    proxies = get_proxies()
+    print('Using proxy: {}'.format(proxies))
     query_url = 'https://battlerite-stats.com/leaderboards'
     ids = []
     offset = 0
     session = requests.Session()
-    resp = session.get(query_url)
+    resp = session.get(query_url, proxies=proxies)
     session_cookies = session.cookies.get_dict()
     bs = BeautifulSoup(resp.content, "html.parser")
     csrf_token = bs.find('meta', {'name': 'csrf-token'})['content']
@@ -87,10 +104,10 @@ def get_user_ids():
                'Cookie': cookies}
 
     only_grand_champions = True
-    rate_limiter = RateLimiter(max_calls=5, period=60)
+    rate_limiter = RateLimiter(max_calls=10, period=60)
     while only_grand_champions:
         with rate_limiter:
-            response = requests.post(query_url, headers=headers, data={'id': offset})
+            response = requests.post(query_url, headers=headers, data={'id': offset}, proxies=proxies)
             bs = BeautifulSoup(response.json()['blocks'], "html.parser")
             cur_ids = [x['href'].replace('https://battlerite-stats.com/profile/', '')
                        for x in bs.find_all('a', {'class': 'table-row-link'})]
