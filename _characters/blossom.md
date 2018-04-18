@@ -1,10 +1,43 @@
 ---
 builds:
   threes:
+  - damage: '4.2'
+    disable: '0.9'
+    energy: '3.6'
+    num: 32
+    protection: '5.7'
+    skills:
+    - color: green
+      description: Increases Tree of Life health by 10.
+      icon: 493cac6f13fb41849aaf95ed03fbb488
+      name: Healthful Bark
+      type: survival
+    - color: yellow
+      description: Hop can be recast for a Lesser Hop that travels a shorter distance.
+      icon: 36048e053d179474491aa317959b3eb7
+      name: Hop and Skip!
+      type: mobility
+    - color: red
+      description: Reduces your weapon charge cooldown by 30.
+      icon: e0ead374bbde24c44a10cc34294a6e44
+      name: Nature's Cycle
+      type: offense
+    - color: red
+      description: Boom Bloom hits charge your weapon by 50.
+      icon: 4832a1022ed764241a63b8dacc299ee9
+      name: Spring Growth
+      type: offense
+    - color: teal
+      description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
+        output by 40 for 1.5.
+      icon: e0ead374bbde24c44a10cc34294a6e44
+      name: Weakening Pitch
+      type: support
+    winrate: '40.6'
   - damage: '4.9'
     disable: '1.0'
-    energy: '3.6'
-    num: 30
+    energy: '3.5'
+    num: 32
     protection: '5.5'
     skills:
     - color: green
@@ -34,7 +67,7 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '60.0'
+    winrate: '56.2'
   - damage: '4.1'
     disable: '0.8'
     energy: '3.2'
@@ -70,11 +103,11 @@ builds:
       name: Weakening Pitch
       type: support
     winrate: '50.0'
-  - damage: '3.6'
+  - damage: '3.5'
     disable: '0.7'
-    energy: '3.1'
-    num: 28
-    protection: '7.1'
+    energy: '3.0'
+    num: 25
+    protection: '7.0'
     skills:
     - color: teal
       description: Whenever Tree of Life is healed by Nourish, nearby allies are healed
@@ -104,45 +137,12 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '50.0'
-  - damage: '4.2'
-    disable: '0.9'
-    energy: '3.6'
-    num: 26
-    protection: '5.3'
-    skills:
-    - color: green
-      description: Increases Tree of Life health by 10.
-      icon: 493cac6f13fb41849aaf95ed03fbb488
-      name: Healthful Bark
-      type: survival
-    - color: yellow
-      description: Hop can be recast for a Lesser Hop that travels a shorter distance.
-      icon: 36048e053d179474491aa317959b3eb7
-      name: Hop and Skip!
-      type: mobility
-    - color: red
-      description: Reduces your weapon charge cooldown by 30.
-      icon: e0ead374bbde24c44a10cc34294a6e44
-      name: Nature's Cycle
-      type: offense
-    - color: red
-      description: Boom Bloom hits charge your weapon by 50.
-      icon: 4832a1022ed764241a63b8dacc299ee9
-      name: Spring Growth
-      type: offense
-    - color: teal
-      description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
-        output by 40 for 1.5.
-      icon: e0ead374bbde24c44a10cc34294a6e44
-      name: Weakening Pitch
-      type: support
-    winrate: '42.3'
-  - damage: '4.5'
+    winrate: '52.0'
+  - damage: '4.6'
     disable: '0.9'
     energy: '3.7'
-    num: 22
-    protection: '5.1'
+    num: 23
+    protection: '5.2'
     skills:
     - color: yellow
       description: Hop can be recast for a Lesser Hop that travels a shorter distance.
@@ -171,12 +171,12 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '27.3'
+    winrate: '34.8'
   twos:
   - damage: '4.7'
     disable: '0.9'
     energy: '3.3'
-    num: 294
+    num: 325
     protection: '4.9'
     skills:
     - color: green
@@ -205,11 +205,11 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '59.9'
+    winrate: '61.8'
   - damage: '4.7'
     disable: '0.9'
     energy: '3.2'
-    num: 293
+    num: 310
     protection: '4.8'
     skills:
     - color: yellow
@@ -239,12 +239,12 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '59.0'
+    winrate: '58.7'
   - damage: '4.7'
     disable: '0.9'
     energy: '3.1'
-    num: 135
-    protection: '4.5'
+    num: 132
+    protection: '4.4'
     skills:
     - color: green
       description: Increases Hop invisibility duration by 1.
@@ -273,7 +273,7 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '53.3'
+    winrate: '52.3'
   - damage: '3.6'
     disable: '1.0'
     energy: '2.9'
@@ -308,33 +308,33 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '35.0'
-  - damage: '4.2'
-    disable: '0.8'
-    energy: '3.0'
-    num: 61
-    protection: '5.1'
+    winrate: '39.0'
+  - damage: '5.3'
+    disable: '0.9'
+    energy: '3.4'
+    num: 58
+    protection: '5.0'
     skills:
-    - color: green
-      description: Increases Tree of Life health by 10.
-      icon: 493cac6f13fb41849aaf95ed03fbb488
-      name: Healthful Bark
-      type: survival
+    - color: red
+      description: Each consecutive wave of energy from Dance of the Dryads deals
+        8 more damage than the previous.
+      icon: 34ae41690a783384fa15b97097694b71
+      name: Growing Power
+      type: offense
     - color: yellow
       description: Hop can be recast for a Lesser Hop that travels a shorter distance.
       icon: 36048e053d179474491aa317959b3eb7
       name: Hop and Skip!
       type: mobility
-    - color: teal
-      description: Nourish heals 2 bonus health when healing another ally. Butterflies
-        heals for 2 bonus health.
-      icon: 2b94035c77e083845a78221a5130146e
-      name: Kindhearted
-      type: support
     - color: red
       description: Reduces your weapon charge cooldown by 30.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
+      type: offense
+    - color: red
+      description: Boom Bloom hits charge your weapon by 50.
+      icon: 4832a1022ed764241a63b8dacc299ee9
+      name: Spring Growth
       type: offense
     - color: teal
       description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
@@ -342,7 +342,7 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '41.0'
+    winrate: '62.1'
 compos:
   threes:
   - hero_names:
@@ -380,43 +380,43 @@ compos:
     winrate: 0.7777777777777778
     wins: 7
   - hero_names:
-    - Ashka
     - Blossom
-    - Jade
+    - Bakko
+    - Ezmo
     heros:
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 9
-    winrate: 0.4444444444444444
-    wins: 4
-  - hero_names:
-    - Ashka
-    - Blossom
-    - Freya
-    heros:
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: be081702a8e70fe44ac0a4e3a9c46368
-      name: Freya
-      title: freya
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    - icon: 3af1fdc53169d044b939cce7ffb561a1
+      name: Ezmo
+      title: ezmo
     num: 8
     winrate: 0.375
     wins: 3
   - hero_names:
+    - Jumong
+    - Blossom
+    - Croak
+    heros:
+    - icon: 42a665b9c285a1243a201c8d533980e5
+      name: Jumong
+      title: jumong
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
+    num: 8
+    winrate: 0.5
+    wins: 4
+  - hero_names:
     - Rook
     - Blossom
-    - Jade
+    - Alysia
     heros:
     - icon: e5d5913527b842b41aed666d27d14231
       name: Rook
@@ -424,12 +424,12 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
+    - icon: 50404d271ae2a4f4f8b52de966688dc1
+      name: Alysia
+      title: alysia
     num: 8
-    winrate: 0.375
-    wins: 3
+    winrate: 0.5
+    wins: 4
   twos:
   - hero_names:
     - Blossom
@@ -441,22 +441,9 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 168
-    winrate: 0.4166666666666667
-    wins: 70
-  - hero_names:
-    - Rook
-    - Blossom
-    heros:
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    num: 152
-    winrate: 0.6052631578947368
-    wins: 92
+    num: 188
+    winrate: 0.44148936170212766
+    wins: 83
   - hero_names:
     - Blossom
     - Freya
@@ -467,9 +454,22 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 143
-    winrate: 0.5664335664335665
-    wins: 81
+    num: 158
+    winrate: 0.5506329113924051
+    wins: 87
+  - hero_names:
+    - Rook
+    - Blossom
+    heros:
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    num: 147
+    winrate: 0.6054421768707483
+    wins: 89
   - hero_names:
     - Blossom
     - Jade
@@ -480,22 +480,22 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 118
-    winrate: 0.4491525423728814
-    wins: 53
+    num: 120
+    winrate: 0.4583333333333333
+    wins: 55
   - hero_names:
     - Blossom
-    - Varesh
+    - Bakko
     heros:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    - icon: f1cc53a29c58089478f6438589d9b32d
-      name: Varesh
-      title: varesh
-    num: 102
-    winrate: 0.6862745098039216
-    wins: 70
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    num: 112
+    winrate: 0.5803571428571429
+    wins: 65
 description: Blossom is a happy, bubbly young faun from the Silverdeep Forest. She
   has left her home to investigate a disturbance in the natural order. She is never
   far from her bird companion, Maxwell.
@@ -503,11 +503,11 @@ icon: 6f50396e26efe6c4bbad274e2c90b8a4
 layout: character
 name: blossom
 num:
-  threes: 448
-  twos: 1656
+  threes: 459
+  twos: 1743
 title: Blossom
 url: characters/blossom.html
 winrate:
-  threes: '41.07'
-  twos: '51.15'
+  threes: '39.87'
+  twos: '52.27'
 ...

@@ -4,7 +4,7 @@ builds:
   - damage: '7.5'
     disable: '0.9'
     energy: '3.5'
-    num: 346
+    num: 339
     protection: '1.6'
     skills:
     - color: green
@@ -36,11 +36,11 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '55.2'
-  - damage: '7.5'
+    winrate: '56.3'
+  - damage: '7.6'
     disable: '0.6'
-    energy: '3.8'
-    num: 69
+    energy: '3.9'
+    num: 67
     protection: '1.6'
     skills:
     - color: green
@@ -74,11 +74,11 @@ builds:
       name: Whirling Blade
       type: offense
     winrate: '50.7'
-  - damage: '7.3'
-    disable: '0.6'
-    energy: '3.3'
-    num: 39
-    protection: '1.5'
+  - damage: '7.2'
+    disable: '0.5'
+    energy: '3.4'
+    num: 32
+    protection: '1.6'
     skills:
     - color: green
       description: Impale heals you for 2 health and 2 additional health per weapon
@@ -110,11 +110,11 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '38.5'
-  - damage: '7.9'
-    disable: '0.6'
-    energy: '3.9'
-    num: 35
+    winrate: '31.2'
+  - damage: '7.7'
+    disable: '0.7'
+    energy: '3.8'
+    num: 31
     protection: '1.7'
     skills:
     - color: green
@@ -146,11 +146,11 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '54.3'
-  - damage: '7.0'
+    winrate: '45.2'
+  - damage: '7.2'
     disable: '0.6'
     energy: '3.7'
-    num: 30
+    num: 29
     protection: '1.4'
     skills:
     - color: green
@@ -182,13 +182,13 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '53.3'
+    winrate: '51.7'
   twos:
-  - damage: '7.6'
+  - damage: '7.7'
     disable: '0.8'
-    energy: '3.5'
-    num: 587
-    protection: '1.6'
+    energy: '3.4'
+    num: 615
+    protection: '1.7'
     skills:
     - color: green
       description: Impale heals you for 2 health and 2 additional health per weapon
@@ -219,11 +219,11 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '51.6'
-  - damage: '7.5'
+    winrate: '52.2'
+  - damage: '7.6'
     disable: '0.6'
     energy: '3.8'
-    num: 238
+    num: 247
     protection: '1.6'
     skills:
     - color: green
@@ -256,11 +256,11 @@ builds:
       icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
       type: offense
-    winrate: '42.0'
-  - damage: '7.6'
+    winrate: '42.5'
+  - damage: '7.9'
     disable: '0.9'
-    energy: '3.6'
-    num: 99
+    energy: '3.5'
+    num: 174
     protection: '1.6'
     skills:
     - color: green
@@ -291,11 +291,11 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '44.4'
+    winrate: '57.5'
   - damage: '7.7'
     disable: '0.6'
     energy: '3.8'
-    num: 67
+    num: 70
     protection: '1.7'
     skills:
     - color: green
@@ -327,12 +327,12 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '43.3'
-  - damage: '7.5'
+    winrate: '38.6'
+  - damage: '7.4'
     disable: '0.6'
     energy: '3.2'
-    num: 51
-    protection: '1.5'
+    num: 49
+    protection: '1.6'
     skills:
     - color: green
       description: Impale heals you for 2 health and 2 additional health per weapon
@@ -364,7 +364,7 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '35.3'
+    winrate: '34.7'
 compos:
   threes:
   - hero_names:
@@ -382,8 +382,42 @@ compos:
       name: Shifu
       title: shifu
     num: 31
-    winrate: 0.5161290322580645
+    winrate: 0.5483870967741935
+    wins: 17
+  - hero_names:
+    - Shifu
+    - Ezmo
+    - Pearl
+    heros:
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    - icon: 3af1fdc53169d044b939cce7ffb561a1
+      name: Ezmo
+      title: ezmo
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
+    num: 21
+    winrate: 0.7619047619047619
     wins: 16
+  - hero_names:
+    - Poloma
+    - Shifu
+    - Jade
+    heros:
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 20
+    winrate: 0.75
+    wins: 15
   - hero_names:
     - Ulric
     - Shifu
@@ -398,26 +432,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 20
-    winrate: 0.25
+    num: 19
+    winrate: 0.2631578947368421
     wins: 5
-  - hero_names:
-    - Ulric
-    - Iva
-    - Shifu
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: decba44679fbdae4bb7d0d1cb6a97682
-      name: Iva
-      title: iva
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
-    num: 18
-    winrate: 0.5555555555555556
-    wins: 10
   - hero_names:
     - Pestilus
     - Jumong
@@ -435,37 +452,7 @@ compos:
     num: 18
     winrate: 0.5
     wins: 9
-  - hero_names:
-    - Jumong
-    - Shifu
-    - Poloma
-    heros:
-    - icon: 42a665b9c285a1243a201c8d533980e5
-      name: Jumong
-      title: jumong
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    num: 17
-    winrate: 0.5294117647058824
-    wins: 9
   twos:
-  - hero_names:
-    - Ulric
-    - Shifu
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
-    num: 179
-    winrate: 0.4860335195530726
-    wins: 87
   - hero_names:
     - Blossom
     - Shifu
@@ -476,9 +463,22 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 168
-    winrate: 0.4166666666666667
-    wins: 70
+    num: 188
+    winrate: 0.44148936170212766
+    wins: 83
+  - hero_names:
+    - Ulric
+    - Shifu
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    num: 183
+    winrate: 0.4972677595628415
+    wins: 91
   - hero_names:
     - Oldur
     - Shifu
@@ -489,9 +489,9 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 149
-    winrate: 0.5033557046979866
-    wins: 75
+    num: 162
+    winrate: 0.5370370370370371
+    wins: 87
   - hero_names:
     - Shifu
     - Pearl
@@ -502,9 +502,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 145
-    winrate: 0.46206896551724136
-    wins: 67
+    num: 151
+    winrate: 0.5231788079470199
+    wins: 79
   - hero_names:
     - Shifu
     - Sirius
@@ -515,9 +515,9 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 130
-    winrate: 0.5769230769230769
-    wins: 75
+    num: 139
+    winrate: 0.5755395683453237
+    wins: 80
 description: Expert in the martial art of Ni'Shu and master of the spear. A highly
   mobile and dangerous duelist. His extraordinary combat prowess culminates in a range
   of deadly melee attacks. Facing Shifu is like walking into a tornado of spearheads.
@@ -525,11 +525,11 @@ icon: 6f69edc7410650c43bee267eef585b06
 layout: character
 name: shifu
 num:
-  threes: 811
-  twos: 1615
+  threes: 790
+  twos: 1765
 title: Shifu
 url: characters/shifu.html
 winrate:
-  threes: '48.71'
-  twos: '44.33'
+  threes: '48.48'
+  twos: '46.18'
 ...
