@@ -34,38 +34,6 @@ builds:
       name: Weapon Break
       type: support
     winrate: '56.6'
-  - damage: '6.1'
-    disable: '1.4'
-    energy: '3.0'
-    num: 154
-    protection: '1.6'
-    skills:
-    - color: red
-      description: Rush hits cause you to gain Berserk for 1.5.
-      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
-      name: Frenzy
-      type: offense
-    - color: green
-      description: Decreases damage taken during Berserk by 30.
-      icon: df78f943fca96314181fdf1827f825db
-      name: Giant
-      type: survival
-    - color: yellow
-      description: Increases movement speed bonus during Berserk by 30.
-      icon: df78f943fca96314181fdf1827f825db
-      name: Madness
-      type: mobility
-    - color: red
-      description: Crushing Blow deals 6 bonus damage.
-      icon: bc4e2e34829b8af4c92bb6a8f570fc96
-      name: Rook Smash
-      type: offense
-    - color: pink
-      description: Crushing Blow inflicts Stun for 0.5.
-      icon: bc4e2e34829b8af4c92bb6a8f570fc96
-      name: Squash
-      type: control
-    winrate: '48.7'
   - damage: '6.6'
     disable: '1.5'
     energy: '3.5'
@@ -99,6 +67,38 @@ builds:
       name: Squash
       type: control
     winrate: '51.9'
+  - damage: '6.1'
+    disable: '1.4'
+    energy: '3.0'
+    num: 154
+    protection: '1.6'
+    skills:
+    - color: red
+      description: Rush hits cause you to gain Berserk for 1.5.
+      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
+      name: Frenzy
+      type: offense
+    - color: green
+      description: Decreases damage taken during Berserk by 30.
+      icon: df78f943fca96314181fdf1827f825db
+      name: Giant
+      type: survival
+    - color: yellow
+      description: Increases movement speed bonus during Berserk by 30.
+      icon: df78f943fca96314181fdf1827f825db
+      name: Madness
+      type: mobility
+    - color: red
+      description: Crushing Blow deals 6 bonus damage.
+      icon: bc4e2e34829b8af4c92bb6a8f570fc96
+      name: Rook Smash
+      type: offense
+    - color: pink
+      description: Crushing Blow inflicts Stun for 0.5.
+      icon: bc4e2e34829b8af4c92bb6a8f570fc96
+      name: Squash
+      type: control
+    winrate: '48.7'
   - damage: '6.2'
     disable: '1.4'
     energy: '3.1'

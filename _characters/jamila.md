@@ -320,18 +320,12 @@ builds:
       name: Taste of Blood
       type: survival
     winrate: '43.8'
-  - damage: '6.3'
-    disable: '1.3'
-    energy: '3.2'
+  - damage: '6.0'
+    disable: '1.1'
+    energy: '2.5'
     num: 13
-    protection: '1.0'
+    protection: '0.9'
     skills:
-    - color: pink
-      description: Elusive Strike inflicts Fading Snare for 1 and Incapacitate duration
-        increases by 0.5.
-      icon: fa9b6a58fa6398b4ea4c4756152bd079
-      name: Cripple
-      type: control
     - color: pink
       description: Increases Stun duration of Deadly Blow by 0.5 and reduces its cooldown
         by 2.
@@ -349,13 +343,18 @@ builds:
       icon: 17c2d1fcdba1a1540a6649ae0b3c0104
       name: Momentum Strike
       type: control
+    - color: red
+      description: Phantom Cut deals 8 bonus damage.
+      icon: ef4060497167dcd43ab43e87def18d7b
+      name: Phantom Blades
+      type: offense
     - color: green
       description: Shuriken returns to you afterward, healing you for {Can't represent
         GameValueList} health based on enemies hit.
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '30.8'
+    winrate: '15.4'
 compos:
   threes:
   - hero_names:

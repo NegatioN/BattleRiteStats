@@ -35,6 +35,39 @@ builds:
       name: The Red Axe
       type: survival
     winrate: '45.0'
+  - damage: '7.1'
+    disable: '1.3'
+    energy: '4.2'
+    num: 48
+    protection: '1.5'
+    skills:
+    - color: red
+      description: Valiant Leap causes your next War Axe hit to deal 9 bonus damage.
+      icon: 16e7e84d6c786cf4abc695c9b1c29b31
+      name: Adrenaline Rush
+      type: offense
+    - color: green
+      description: War Axe hits reduce the cooldown of Bulwark by 1.
+      icon: e0a2c1fab3bd3d5468cbc7f4942b5448
+      name: Axe and Shield
+      type: survival
+    - color: teal
+      description: Valiant Leap grants 33 damage reduction for 2.5 to nearby allies.
+      icon: 16e7e84d6c786cf4abc695c9b1c29b31
+      name: Bravery
+      type: support
+    - color: grey
+      description: ^2Bulwark^- increases movement speed by 60.
+      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
+      name: Mobile Defence
+      type: mixed
+    - color: teal
+      description: Bulwark can be recast to use Shield Bash. It deals 6 damage and
+        inflicts 50 Weaken for 2.
+      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
+      name: Shield Bash
+      type: support
+    winrate: '60.4'
   - damage: '6.6'
     disable: '1.5'
     energy: '3.5'
@@ -69,39 +102,6 @@ builds:
       name: The Red Axe
       type: survival
     winrate: '52.1'
-  - damage: '7.1'
-    disable: '1.3'
-    energy: '4.2'
-    num: 48
-    protection: '1.5'
-    skills:
-    - color: red
-      description: Valiant Leap causes your next War Axe hit to deal 9 bonus damage.
-      icon: 16e7e84d6c786cf4abc695c9b1c29b31
-      name: Adrenaline Rush
-      type: offense
-    - color: green
-      description: War Axe hits reduce the cooldown of Bulwark by 1.
-      icon: e0a2c1fab3bd3d5468cbc7f4942b5448
-      name: Axe and Shield
-      type: survival
-    - color: teal
-      description: Valiant Leap grants 33 damage reduction for 2.5 to nearby allies.
-      icon: 16e7e84d6c786cf4abc695c9b1c29b31
-      name: Bravery
-      type: support
-    - color: grey
-      description: ^2Bulwark^- increases movement speed by 60.
-      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
-      name: Mobile Defence
-      type: mixed
-    - color: teal
-      description: Bulwark can be recast to use Shield Bash. It deals 6 damage and
-        inflicts 50 Weaken for 2.
-      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
-      name: Shield Bash
-      type: support
-    winrate: '60.4'
   - damage: '6.8'
     disable: '1.4'
     energy: '3.4'
