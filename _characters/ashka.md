@@ -321,23 +321,17 @@ builds:
       name: Knockout
       type: control
     winrate: '57.6'
-  - damage: '8.4'
-    disable: '0.6'
-    energy: '3.2'
+  - damage: '6.6'
+    disable: '0.7'
+    energy: '3.5'
     num: 31
-    protection: '0.0'
+    protection: '0.1'
     skills:
     - color: yellow
       description: Searing Flight increases movement speed by 30 for 2.
       icon: de69286ec8d6c934c9b04c51d1814b5c
       name: Burning Feet
       type: mobility
-    - color: red
-      description: Fire Storm hits deal 2 bonus damage and spread fire to other nearby
-        enemies, dealing 8 damage and inflicting Ignite.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Combustion
-      type: offense
     - color: yellow
       description: Fire Storm can be cast while moving at 50 movement speed and 30
         while channeling.
@@ -355,7 +349,13 @@ builds:
       icon: 61e058b8f4b79f4419ec1496f223ee36
       name: Inspiration
       type: utility
-    winrate: '45.2'
+    - color: pink
+      description: Reduces cooldown of Molten Fist by 1.5. Hitting an enemy further
+        reduces cooldown by 1.5.
+      icon: 64ae838604146444aac3474b78250f52
+      name: Lava Punch
+      type: control
+    winrate: '38.7'
 compos:
   threes:
   - hero_names:

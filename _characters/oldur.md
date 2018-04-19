@@ -146,11 +146,11 @@ builds:
       name: Sand Tomb
       type: control
     winrate: '52.7'
-  - damage: '5.3'
-    disable: '0.7'
+  - damage: '5.9'
+    disable: '0.6'
     energy: '3.9'
     num: 35
-    protection: '4.7'
+    protection: '4.5'
     skills:
     - color: blue
       description: ^2Shifting Sands^- creates a ^2Lesser Chronoflux^- that reflects
@@ -164,13 +164,6 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Dehydration
       type: mixed
-    - color: green
-      description: Negating attacks with Time Bender grants you a Shield that absorbs
-        up to {Can't represent GameValueList} damage for 3.5. Shield value is reduced
-        for each negated attack.
-      icon: a22c6c4bc967d4e48a44f0e87a93023e
-      name: Drain
-      type: survival
     - color: teal
       description: Rejuvenate heals for an additional 15 of damage taken over its
         duration. Restores up to a maximum of 6 bonus health.
@@ -178,12 +171,17 @@ builds:
       name: Renew
       type: support
     - color: red
-      description: Shifting Sands causes your next Sands of Time to deal 6 bonus damage
-        and inflict Fading Snare for 1.
-      icon: 89c37320af892ae43b410f4d610d7ea8
-      name: Sandstorm
+      description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
+        enemies when it detonates.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Shared Fate
       type: offense
-    winrate: '54.3'
+    - color: red
+      description: Consuming Time Bomb with Quicksand deals 6 bonus damage.
+      icon: 35a1515e35b5104449dfa8802c5aa0e2
+      name: Time Burst
+      type: offense
+    winrate: '68.6'
   twos:
   - damage: '5.8'
     disable: '0.7'

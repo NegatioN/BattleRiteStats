@@ -139,11 +139,11 @@ builds:
       name: Wonder
       type: support
     winrate: '53.8'
-  - damage: '7.0'
-    disable: '0.4'
-    energy: '4.4'
+  - damage: '6.6'
+    disable: '0.5'
+    energy: '4.0'
     num: 20
-    protection: '2.1'
+    protection: '1.7'
     skills:
     - color: red
       description: Powers Combined repeats itself 1 extra time.
@@ -155,24 +155,22 @@ builds:
       icon: d6c97da35fc19134881cb5a4c44e3912
       name: Inhibitor
       type: mobility
-    - color: blue
-      description: Increases energy gain from abilities by 10 and maximum energy by
-        25.
-      icon: 61e058b8f4b79f4419ec1496f223ee36
-      name: Inspiration
-      type: utility
     - color: green
-      description: Consuming Corruption with Shatter increases Fading Snare duration
-        from 1 to 1.5 and reapplies Corruption.
-      icon: fe5369baf5a80dc47b0656ae7be82e09
-      name: Unlimited Power
+      description: Countering an attack with Wuju allows you to recast it for 2.
+      icon: 2771f14010b802143b0b4d5fc8e4bb9c
+      name: Return
       type: survival
+    - color: red
+      description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
+      icon: 2771f14010b802143b0b4d5fc8e4bb9c
+      name: Ruin
+      type: offense
     - color: teal
       description: Inhibitor's Guard absorbs 14 more damage.
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
       type: support
-    winrate: '45.0'
+    winrate: '65.0'
   twos:
   - damage: '6.4'
     disable: '0.6'

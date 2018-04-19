@@ -144,42 +144,42 @@ builds:
       name: Swarm Queen
       type: support
     winrate: '27.6'
-  - damage: '4.2'
-    disable: '0.9'
-    energy: '3.2'
+  - damage: '3.4'
+    disable: '1.2'
+    energy: '2.4'
     num: 26
-    protection: '5.6'
+    protection: '4.7'
     skills:
-    - color: green
-      description: Hitting a champion affected by Moth or a Queen with Bloodsucker
-        causes Moth to spread to nearby enemies.
-      icon: 991db4d450443e9498711ab935bedf13
-      name: Colony
-      type: survival
-    - color: grey
-      description: Increases Infest duration by 0.5. Drains 10 health from enemies
-        and heals allies for 10 health over the duration.
+    - color: pink
+      description: Releasing an Infested enemy inflicts a 20 Snare for 2.5 and pushes
+        it back in the opposite direction.
       icon: c9f7e2e324bbed3469cbe356da833c9b
-      name: Defiler
-      type: mixed
+      name: Disperse
+      type: control
     - color: pink
       description: Arachnophobia bounces forward, causing another impact. The radius
         of the second impact is 15 larger.
       icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Egg Carrier
       type: control
-    - color: red
-      description: Hitting an enemy or ally affected by Moth with Bloodsucker deals
-        6 bonus damage to enemies and heals 6 bonus health to allies.
-      icon: 991db4d450443e9498711ab935bedf13
-      name: Insectivore
-      type: offense
+    - color: grey
+      description: Recasting the Queen commands it to fly towards target location.
+        Reduces cooldown of Queen by 1.
+      icon: 7a1d6423f91ba824d8855aa3e9a42247
+      name: Hive Mind
+      type: mixed
     - color: red
       description: Arachnophobia deals 8 damage. Increases Panic duration by 0.5.
       icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Spiderling Venom
       type: offense
-    winrate: '34.6'
+    - color: teal
+      description: Queen spawns with a Swarm Shield that absorbs up to 28 damage and
+        lasts 1.2.
+      icon: 7a1d6423f91ba824d8855aa3e9a42247
+      name: Swarm Queen
+      type: support
+    winrate: '73.1'
   twos:
   - damage: '4.4'
     disable: '1.1'

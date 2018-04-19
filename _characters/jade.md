@@ -317,11 +317,11 @@ builds:
       name: Gunslinger
       type: utility
     winrate: '47.4'
-  - damage: '7.8'
-    disable: '1.1'
-    energy: '4.6'
+  - damage: '6.8'
+    disable: '1.0'
+    energy: '4.0'
     num: 28
-    protection: '1.5'
+    protection: '1.2'
     skills:
     - color: red
       description: Blast Vault causes your next 4 Revolver Shots to deal 2 bonus damage
@@ -329,6 +329,11 @@ builds:
       icon: ead2d318c0e3f8f4793207ab3e12da21
       name: Blasting Pistols
       type: offense
+    - color: pink
+      description: Increases Stun duration of Blast Vault by 0.6.
+      icon: ead2d318c0e3f8f4793207ab3e12da21
+      name: Concussion Bomb
+      type: control
     - color: red
       description: ^2Snipe^- deals 6 bonus damage.
       icon: 20e8f262eca757942bc23d94aa73ab2a
@@ -340,19 +345,13 @@ builds:
       icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
       name: Delight
       type: survival
-    - color: pink
-      description: Stealth causes you to drop a bomb that explodes after 1, dealing
-        12 damage and inflicting Fading Snare for 1.5 to nearby enemies.
-      icon: c5da66a86ca45a1449a49d55cc92d1fc
-      name: Farewell Present
-      type: control
     - color: blue
       description: Revolver Shot hits reduce cooldown of Stealth by 0.3. Cooldown
         can't be reduced during Stealth.
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    winrate: '57.1'
+    winrate: '46.4'
 compos:
   threes:
   - hero_names:
