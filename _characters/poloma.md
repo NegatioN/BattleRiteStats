@@ -139,18 +139,12 @@ builds:
       name: Vengeful Spirit
       type: control
     winrate: '56.5'
-  - damage: '4.3'
-    disable: '0.6'
+  - damage: '4.8'
+    disable: '0.9'
     energy: '3.1'
     num: 45
-    protection: '5.4'
+    protection: '5.1'
     skills:
-    - color: green
-      description: Ghost Wolf returns to you afterward, granting you 5 energy and
-        healing you for 12 health.
-      icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Affection
-      type: survival
     - color: green
       description: Other Side heals 6 bonus healing. Also reduces cooldown of Other
         Side by 1.
@@ -173,7 +167,12 @@ builds:
       icon: dfc86226d7b2a6d438dad7dfca7a0d52
       name: Specter
       type: support
-    winrate: '68.9'
+    - color: pink
+      description: Teleporting to Spirit Guide resets the cooldown of Spirit Rift.
+      icon: 7bd09f2f761edd0438938579a6942e82
+      name: Vengeful Spirit
+      type: control
+    winrate: '42.2'
   twos:
   - damage: '4.4'
     disable: '1.1'

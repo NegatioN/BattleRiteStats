@@ -140,28 +140,28 @@ builds:
       name: Showdown
       type: support
     winrate: '38.9'
-  - damage: '3.3'
-    disable: '0.6'
-    energy: '3.3'
+  - damage: '3.4'
+    disable: '0.4'
+    energy: '2.7'
     num: 15
-    protection: '5.1'
+    protection: '4.4'
     skills:
-    - color: red
-      description: Traveling through a portal resets the cooldown of Grand Conjuration.
+    - color: blue
+      description: Allows Grand Conjuration to bounce once upon wall hit and increases
+        its max range by 10. Can still only hit once per enemy.
       icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Ace up the Sleeve
-      type: offense
-    - color: red
-      description: Increases the duration of Arcane Catalyst by 0.5 and damage taken
-        by 5.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Arcane Conductor
-      type: offense
+      name: Arcane Shenanigans
+      type: utility
     - color: teal
       description: Hearts restores 6 health over the duration.
       icon: 144efc709ac628542aee319b14932b2c
       name: Heart Restoration
       type: support
+    - color: red
+      description: Sheep Trick inflicts Arcane Catalyst on targets hit.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: Lead Astray
+      type: offense
     - color: teal
       description: Grants self or allies traveling through your Portal a shield that
         absorbs up to 14 damage for 3.
@@ -174,7 +174,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '33.3'
+    winrate: '46.7'
   twos:
   - damage: '3.5'
     disable: '0.5'

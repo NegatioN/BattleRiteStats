@@ -216,41 +216,6 @@ builds:
       name: Vindicator
       type: mixed
     winrate: '45.8'
-  - damage: '4.2'
-    disable: '0.7'
-    energy: '3.2'
-    num: 102
-    protection: '5.0'
-    skills:
-    - color: grey
-      description: Charged Hammer of Justice deals 2 bonus damage. Deals 16 damage
-        and inflicts Stun on secondary targets.
-      icon: 398f1e921a73f484e9fc54e1308407f7
-      name: Cleave
-      type: mixed
-    - color: grey
-      description: Holy Light healing increases by 3 when healing self or allies affected
-        by Favor.
-      icon: 85a79d3bf018b184887fb1a71ef51ac1
-      name: Devotion
-      type: mixed
-    - color: grey
-      description: Favor reduces damage taken by 10.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Divine Protection
-      type: mixed
-    - color: grey
-      description: Smite projectiles inflict a 35 Snare for 1.
-      icon: 6892bf3a45c0ad042b495a385cb5604f
-      name: Holy Shackles
-      type: mixed
-    - color: grey
-      description: Condemn cooldown is reduced by 3 and hits refresh the cooldown
-        of Intervene.
-      icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
-      name: Vindicator
-      type: mixed
-    winrate: '60.8'
   - damage: '4.6'
     disable: '0.6'
     energy: '3.3'
@@ -286,6 +251,41 @@ builds:
       name: Vindicator
       type: mixed
     winrate: '65.7'
+  - damage: '4.2'
+    disable: '0.7'
+    energy: '3.2'
+    num: 102
+    protection: '5.0'
+    skills:
+    - color: grey
+      description: Charged Hammer of Justice deals 2 bonus damage. Deals 16 damage
+        and inflicts Stun on secondary targets.
+      icon: 398f1e921a73f484e9fc54e1308407f7
+      name: Cleave
+      type: mixed
+    - color: grey
+      description: Holy Light healing increases by 3 when healing self or allies affected
+        by Favor.
+      icon: 85a79d3bf018b184887fb1a71ef51ac1
+      name: Devotion
+      type: mixed
+    - color: grey
+      description: Favor reduces damage taken by 10.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Divine Protection
+      type: mixed
+    - color: grey
+      description: Smite projectiles inflict a 35 Snare for 1.
+      icon: 6892bf3a45c0ad042b495a385cb5604f
+      name: Holy Shackles
+      type: mixed
+    - color: grey
+      description: Condemn cooldown is reduced by 3 and hits refresh the cooldown
+        of Intervene.
+      icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
+      name: Vindicator
+      type: mixed
+    winrate: '60.8'
   - damage: '4.2'
     disable: '0.7'
     energy: '3.2'

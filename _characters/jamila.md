@@ -320,40 +320,42 @@ builds:
       name: Taste of Blood
       type: survival
     winrate: '43.8'
-  - damage: '7.3'
+  - damage: '6.3'
     disable: '1.3'
     energy: '3.2'
     num: 13
-    protection: '1.1'
+    protection: '1.0'
     skills:
     - color: pink
-      description: Increases Snare duration of Shuriken by 1.5.
-      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
-      name: Deep Wounds
+      description: Elusive Strike inflicts Fading Snare for 1 and Incapacitate duration
+        increases by 0.5.
+      icon: fa9b6a58fa6398b4ea4c4756152bd079
+      name: Cripple
       type: control
-    - color: yellow
-      description: Increases the range of Hook Shot by 15% and reduces its cooldown
-        by 1.
-      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
-      name: Firing Mechanism
-      type: mobility
+    - color: pink
+      description: Increases Stun duration of Deadly Blow by 0.5 and reduces its cooldown
+        by 2.
+      icon: c75e9702831a67e4b98aa0c24af2d865
+      name: Go for the Throat
+      type: control
+    - color: blue
+      description: Increases energy gain from abilities by 10 and maximum energy by
+        25.
+      icon: 61e058b8f4b79f4419ec1496f223ee36
+      name: Inspiration
+      type: utility
     - color: pink
       description: Hook Shot deals 3 bonus damage and inflicts Root for 0.8.
       icon: 17c2d1fcdba1a1540a6649ae0b3c0104
       name: Momentum Strike
       type: control
-    - color: yellow
-      description: Increases the max range of Elusive Strike by 15.
-      icon: fa9b6a58fa6398b4ea4c4756152bd079
-      name: Push Off
-      type: mobility
     - color: green
       description: Shuriken returns to you afterward, healing you for {Can't represent
         GameValueList} health based on enemies hit.
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '46.2'
+    winrate: '30.8'
 compos:
   threes:
   - hero_names:
