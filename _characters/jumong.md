@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '8.0'
-    disable: '0.9'
+  - damage: '8.1'
+    disable: '1.0'
     energy: '4.7'
-    num: 86
+    num: 76
     protection: '0.8'
     skills:
     - color: red
@@ -35,12 +35,12 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '46.5'
-  - damage: '7.8'
+    winrate: '44.7'
+  - damage: '7.6'
     disable: '1.0'
-    energy: '4.6'
+    energy: '4.5'
     num: 63
-    protection: '0.8'
+    protection: '0.7'
     skills:
     - color: red
       description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
@@ -70,11 +70,11 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '39.7'
-  - damage: '7.5'
-    disable: '1.0'
-    energy: '4.7'
-    num: 46
+    winrate: '42.9'
+  - damage: '7.4'
+    disable: '0.9'
+    energy: '4.5'
+    num: 38
     protection: '0.6'
     skills:
     - color: red
@@ -105,11 +105,11 @@ builds:
       icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Viper
       type: mobility
-    winrate: '37.0'
+    winrate: '42.1'
   - damage: '7.8'
     disable: '1.1'
     energy: '4.4'
-    num: 28
+    num: 31
     protection: '0.8'
     skills:
     - color: red
@@ -140,12 +140,12 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '35.7'
-  - damage: '7.4'
+    winrate: '38.7'
+  - damage: '7.5'
     disable: '1.0'
-    energy: '4.4'
-    num: 25
-    protection: '0.5'
+    energy: '4.3'
+    num: 27
+    protection: '0.6'
     skills:
     - color: red
       description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
@@ -175,12 +175,12 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '40.0'
+    winrate: '44.4'
   twos:
-  - damage: '6.5'
+  - damage: '6.4'
     disable: '0.6'
     energy: '4.1'
-    num: 76
+    num: 68
     protection: '0.7'
     skills:
     - color: yellow
@@ -209,11 +209,11 @@ builds:
       icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Viper
       type: mobility
-    winrate: '40.8'
+    winrate: '39.7'
   - damage: '8.1'
     disable: '0.6'
-    energy: '4.7'
-    num: 68
+    energy: '4.6'
+    num: 65
     protection: '0.8'
     skills:
     - color: red
@@ -242,12 +242,12 @@ builds:
       icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Viper
       type: mobility
-    winrate: '63.2'
-  - damage: '8.0'
-    disable: '0.9'
-    energy: '4.6'
-    num: 54
-    protection: '1.0'
+    winrate: '60.0'
+  - damage: '8.1'
+    disable: '0.8'
+    energy: '4.7'
+    num: 59
+    protection: '0.9'
     skills:
     - color: red
       description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
@@ -277,12 +277,12 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '40.7'
-  - damage: '7.7'
-    disable: '0.9'
+    winrate: '45.8'
+  - damage: '7.6'
+    disable: '0.8'
     energy: '4.4'
     num: 47
-    protection: '0.7'
+    protection: '0.6'
     skills:
     - color: red
       description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
@@ -312,11 +312,11 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '38.3'
+    winrate: '36.2'
   - damage: '7.1'
     disable: '0.8'
     energy: '4.8'
-    num: 45
+    num: 42
     protection: '0.8'
     skills:
     - color: red
@@ -346,7 +346,7 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '44.4'
+    winrate: '45.2'
 compos:
   threes:
   - hero_names:
@@ -363,8 +363,8 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 29
-    winrate: 0.5862068965517241
+    num: 30
+    winrate: 0.5666666666666667
     wins: 17
   - hero_names:
     - Poloma
@@ -380,26 +380,26 @@ compos:
     - icon: 42a665b9c285a1243a201c8d533980e5
       name: Jumong
       title: jumong
-    num: 23
-    winrate: 0.43478260869565216
-    wins: 10
+    num: 22
+    winrate: 0.4090909090909091
+    wins: 9
   - hero_names:
-    - Pestilus
+    - Oldur
+    - Freya
     - Jumong
-    - Shifu
     heros:
-    - icon: a7e0c7a6f0fa2ef49bf684950de34567
-      name: Pestilus
-      title: pestilus
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    - icon: be081702a8e70fe44ac0a4e3a9c46368
+      name: Freya
+      title: freya
     - icon: 42a665b9c285a1243a201c8d533980e5
       name: Jumong
       title: jumong
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
-    num: 17
-    winrate: 0.47058823529411764
-    wins: 8
+    num: 18
+    winrate: 0.5
+    wins: 9
   - hero_names:
     - Rook
     - Jumong
@@ -414,26 +414,26 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 16
-    winrate: 0.625
-    wins: 10
+    num: 17
+    winrate: 0.6470588235294118
+    wins: 11
   - hero_names:
+    - Pestilus
     - Jumong
     - Shifu
-    - Oldur
     heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
     - icon: 42a665b9c285a1243a201c8d533980e5
       name: Jumong
       title: jumong
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    num: 15
-    winrate: 0.6
-    wins: 9
+    num: 16
+    winrate: 0.5
+    wins: 8
   twos:
   - hero_names:
     - Jumong
@@ -445,9 +445,9 @@ compos:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    num: 112
-    winrate: 0.4732142857142857
-    wins: 53
+    num: 108
+    winrate: 0.4537037037037037
+    wins: 49
   - hero_names:
     - Jumong
     - Blossom
@@ -458,9 +458,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 91
-    winrate: 0.4945054945054945
-    wins: 45
+    num: 90
+    winrate: 0.45555555555555555
+    wins: 41
   - hero_names:
     - Ulric
     - Jumong
@@ -471,9 +471,9 @@ compos:
     - icon: 42a665b9c285a1243a201c8d533980e5
       name: Jumong
       title: jumong
-    num: 66
-    winrate: 0.3333333333333333
-    wins: 22
+    num: 65
+    winrate: 0.3230769230769231
+    wins: 21
   - hero_names:
     - Jumong
     - Poloma
@@ -498,8 +498,8 @@ compos:
       name: Pearl
       title: pearl
     num: 56
-    winrate: 0.5178571428571429
-    wins: 29
+    winrate: 0.48214285714285715
+    wins: 27
 description: Jumong is a trophy collector who has wandered the wildlands in the pursuit
   of a worthy challenge. No longer being content with hunting the great beasts of
   the world has led him to enter the arena, looking for a new type of prey. He traps
@@ -508,11 +508,11 @@ icon: 42a665b9c285a1243a201c8d533980e5
 layout: character
 name: jumong
 num:
-  threes: 814
+  threes: 825
   twos: 868
 title: Jumong
 url: characters/jumong.html
 winrate:
-  threes: '45.70'
-  twos: '41.24'
+  threes: '46.06'
+  twos: '40.67'
 ...
