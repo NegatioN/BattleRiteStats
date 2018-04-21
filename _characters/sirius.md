@@ -1,11 +1,11 @@
 ---
 builds:
   threes:
-  - damage: '3.1'
+  - damage: '3.2'
     disable: '1.1'
-    energy: '3.0'
-    num: 111
-    protection: '7.0'
+    energy: '3.1'
+    num: 104
+    protection: '6.9'
     skills:
     - color: pink
       description: Lunar Strike can be recast within 1.8 to spawn Lesser Lunar Strike
@@ -38,7 +38,7 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '45.0'
+    winrate: '46.2'
   - damage: '3.5'
     disable: '0.9'
     energy: '3.0'
@@ -79,8 +79,8 @@ builds:
   - damage: '3.9'
     disable: '0.9'
     energy: '3.5'
-    num: 30
-    protection: '5.1'
+    num: 29
+    protection: '5.0'
     skills:
     - color: red
       description: Prismatic Strike hits charge your weapon by 50.
@@ -111,12 +111,12 @@ builds:
       icon: f13a6cad4bcaa974f8147e8a29a49dfe
       name: Sunbath
       type: support
-    winrate: '40.0'
-  - damage: '4.4'
-    disable: '0.8'
+    winrate: '37.9'
+  - damage: '4.3'
+    disable: '0.7'
     energy: '3.4'
-    num: 28
-    protection: '5.7'
+    num: 25
+    protection: '5.8'
     skills:
     - color: red
       description: Prismatic Strike hits charge your weapon by 50.
@@ -146,11 +146,11 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '57.1'
+    winrate: '64.0'
   - damage: '3.5'
     disable: '1.1'
     energy: '3.3'
-    num: 25
+    num: 24
     protection: '4.4'
     skills:
     - color: red
@@ -182,13 +182,13 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '40.0'
+    winrate: '37.5'
   twos:
-  - damage: '4.2'
-    disable: '1.0'
+  - damage: '4.1'
+    disable: '0.9'
     energy: '3.2'
-    num: 101
-    protection: '4.4'
+    num: 90
+    protection: '4.3'
     skills:
     - color: red
       description: Prismatic Strike hits charge your weapon by 50.
@@ -219,11 +219,11 @@ builds:
       icon: f13a6cad4bcaa974f8147e8a29a49dfe
       name: Sunbath
       type: support
-    winrate: '54.5'
+    winrate: '55.6'
   - damage: '3.7'
     disable: '0.9'
     energy: '3.1'
-    num: 78
+    num: 70
     protection: '3.9'
     skills:
     - color: red
@@ -255,11 +255,11 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '30.8'
+    winrate: '30.0'
   - damage: '4.3'
     disable: '0.8'
     energy: '3.3'
-    num: 67
+    num: 65
     protection: '4.9'
     skills:
     - color: red
@@ -290,11 +290,11 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '46.3'
-  - damage: '3.9'
-    disable: '0.9'
+    winrate: '50.8'
+  - damage: '3.8'
+    disable: '0.8'
     energy: '3.1'
-    num: 33
+    num: 31
     protection: '4.4'
     skills:
     - color: red
@@ -327,12 +327,12 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '48.5'
-  - damage: '3.9'
+    winrate: '48.4'
+  - damage: '3.8'
     disable: '0.7'
     energy: '3.2'
-    num: 29
-    protection: '4.8'
+    num: 27
+    protection: '4.9'
     skills:
     - color: red
       description: Prismatic Strike hits charge your weapon by 50.
@@ -361,7 +361,7 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '65.5'
+    winrate: '66.7'
 compos:
   threes:
   - hero_names:
@@ -399,23 +399,6 @@ compos:
     winrate: 0.4
     wins: 6
   - hero_names:
-    - Rook
-    - Sirius
-    - Jade
-    heros:
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 15
-    winrate: 0.6666666666666666
-    wins: 10
-  - hero_names:
     - Ashka
     - Sirius
     - Rook
@@ -433,22 +416,39 @@ compos:
     winrate: 0.7142857142857143
     wins: 10
   - hero_names:
-    - Shifu
+    - Rook
     - Sirius
     - Jade
     heros:
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 12
-    winrate: 0.6666666666666666
+    num: 13
+    winrate: 0.6153846153846154
     wins: 8
+  - hero_names:
+    - Freya
+    - Sirius
+    - Jade
+    heros:
+    - icon: be081702a8e70fe44ac0a4e3a9c46368
+      name: Freya
+      title: freya
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 13
+    winrate: 0.3076923076923077
+    wins: 4
   twos:
   - hero_names:
     - Shifu
@@ -460,9 +460,9 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 140
-    winrate: 0.5428571428571428
-    wins: 76
+    num: 126
+    winrate: 0.5555555555555556
+    wins: 70
   - hero_names:
     - Freya
     - Sirius
@@ -473,9 +473,9 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 101
-    winrate: 0.49504950495049505
-    wins: 50
+    num: 99
+    winrate: 0.494949494949495
+    wins: 49
   - hero_names:
     - Rook
     - Sirius
@@ -486,8 +486,8 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 88
-    winrate: 0.4318181818181818
+    num: 86
+    winrate: 0.4418604651162791
     wins: 38
   - hero_names:
     - Sirius
@@ -499,22 +499,22 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 79
-    winrate: 0.379746835443038
-    wins: 30
+    num: 72
+    winrate: 0.375
+    wins: 27
   - hero_names:
-    - Bakko
     - Sirius
+    - Jade
     heros:
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 64
-    winrate: 0.53125
-    wins: 34
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 63
+    winrate: 0.3968253968253968
+    wins: 25
 description: Sirius, a calm prodigy who uses the energies of stars and planets as
   destructive spells and healing powers. The prophecy was true and foretold the birth
   of the Zenith.
@@ -522,11 +522,11 @@ icon: aa93dc83288cb954aa3a97aabe8320dd
 layout: character
 name: sirius
 num:
-  threes: 817
-  twos: 982
+  threes: 782
+  twos: 941
 title: Sirius
 url: characters/sirius.html
 winrate:
-  threes: '44.80'
-  twos: '45.52'
+  threes: '45.40'
+  twos: '46.65'
 ...

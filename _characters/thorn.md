@@ -4,7 +4,7 @@ builds:
   - damage: '7.5'
     disable: '1.5'
     energy: '3.3'
-    num: 154
+    num: 158
     protection: '2.0'
     skills:
     - color: grey
@@ -35,10 +35,10 @@ builds:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    winrate: '58.4'
+    winrate: '57.6'
   - damage: '7.0'
     disable: '1.5'
-    energy: '3.0'
+    energy: '3.1'
     num: 61
     protection: '1.5'
     skills:
@@ -144,11 +144,11 @@ builds:
       name: Regrowth
       type: survival
     winrate: '55.6'
-  - damage: '7.6'
-    disable: '1.5'
-    energy: '6.7'
-    num: 28
-    protection: '2.7'
+  - damage: '7.2'
+    disable: '1.4'
+    energy: '3.3'
+    num: 27
+    protection: '2.4'
     skills:
     - color: grey
       description: Each stinging volley inflicts Thorns on nearby enemies. Reduces
@@ -168,23 +168,24 @@ builds:
       icon: 297830658f259844cb3ce7d0711f15d8
       name: Impaling Roots
       type: offense
-    - color: teal
-      description: Thorns reduces target's damage and healing output by 20 for 1.5.
+    - color: red
+      description: Thorns deals 4 bonus damage and heals you for 2 bonus health over
+        its duration.
       icon: 3bf2758e82cebed44856097532c5dd9b
-      name: Neurotoxin
-      type: support
+      name: Parasitic Stems
+      type: offense
     - color: green
       description: Root Claw and Root Grip hits reduce incoming damage by 6 for 2.2.
         Stacks up to 3 times.
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    winrate: '53.6'
+    winrate: '59.3'
   twos:
-  - damage: '7.7'
+  - damage: '7.6'
     disable: '1.5'
     energy: '3.0'
-    num: 56
+    num: 54
     protection: '1.9'
     skills:
     - color: grey
@@ -253,8 +254,8 @@ builds:
     winrate: '71.8'
   - damage: '8.1'
     disable: '1.6'
-    energy: '3.6'
-    num: 35
+    energy: '3.5'
+    num: 37
     protection: '2.1'
     skills:
     - color: grey
@@ -285,11 +286,11 @@ builds:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    winrate: '65.7'
-  - damage: '7.1'
+    winrate: '67.6'
+  - damage: '7.0'
     disable: '1.4'
     energy: '3.3'
-    num: 24
+    num: 26
     protection: '1.5'
     skills:
     - color: red
@@ -321,12 +322,12 @@ builds:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    winrate: '41.7'
+    winrate: '38.5'
   - damage: '7.6'
     disable: '1.7'
     energy: '3.0'
-    num: 15
-    protection: '2.5'
+    num: 16
+    protection: '2.6'
     skills:
     - color: green
       description: Each enemy hit by Burrow grants you a Shield that absorbs up to
@@ -357,7 +358,7 @@ builds:
       icon: 024cb70192c82c9468e69a41161f490a
       name: Whiplash
       type: offense
-    winrate: '33.3'
+    winrate: '31.2'
 compos:
   threes:
   - hero_names:
@@ -374,9 +375,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 35
-    winrate: 0.6571428571428571
-    wins: 23
+    num: 36
+    winrate: 0.6666666666666666
+    wins: 24
   - hero_names:
     - Ulric
     - Ashka
@@ -391,8 +392,8 @@ compos:
     - icon: aab126231d9ff344f9f88ab230a5e66f
       name: Thorn
       title: thorn
-    num: 34
-    winrate: 0.5882352941176471
+    num: 33
+    winrate: 0.6060606060606061
     wins: 20
   - hero_names:
     - Thorn
@@ -408,9 +409,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 31
-    winrate: 0.4838709677419355
-    wins: 15
+    num: 32
+    winrate: 0.5
+    wins: 16
   - hero_names:
     - Ulric
     - Thorn
@@ -456,9 +457,9 @@ compos:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    num: 81
-    winrate: 0.5802469135802469
-    wins: 47
+    num: 80
+    winrate: 0.6
+    wins: 48
   - hero_names:
     - Ulric
     - Thorn
@@ -470,8 +471,8 @@ compos:
       name: Thorn
       title: thorn
     num: 70
-    winrate: 0.4
-    wins: 28
+    winrate: 0.4142857142857143
+    wins: 29
   - hero_names:
     - Thorn
     - Blossom
@@ -482,9 +483,22 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 52
-    winrate: 0.46153846153846156
-    wins: 24
+    num: 49
+    winrate: 0.4489795918367347
+    wins: 22
+  - hero_names:
+    - Pestilus
+    - Thorn
+    heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    num: 37
+    winrate: 0.5945945945945946
+    wins: 22
   - hero_names:
     - Thorn
     - Poloma
@@ -495,22 +509,9 @@ compos:
     - icon: 9872f8cd16d7327418b09294cfa319e6
       name: Poloma
       title: poloma
-    num: 40
-    winrate: 0.425
-    wins: 17
-  - hero_names:
-    - Thorn
-    - Sirius
-    heros:
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    num: 39
-    winrate: 0.46153846153846156
-    wins: 18
+    num: 37
+    winrate: 0.43243243243243246
+    wins: 16
 description: "Ancient folklore speaks of Thorn, the destructive apparition. Using\
   \ its network of thorn-covered roots, it would whip, rupture and drain the life\
   \ out of any living thing indiscriminately. Some say Thorn is just a story to keep\
@@ -521,11 +522,11 @@ icon: aab126231d9ff344f9f88ab230a5e66f
 layout: character
 name: thorn
 num:
-  threes: 1031
-  twos: 608
+  threes: 1022
+  twos: 586
 title: Thorn
 url: characters/thorn.html
 winrate:
-  threes: '47.82'
-  twos: '44.57'
+  threes: '47.95'
+  twos: '45.39'
 ...

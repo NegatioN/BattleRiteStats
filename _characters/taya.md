@@ -4,7 +4,7 @@ builds:
   - damage: '7.8'
     disable: '0.8'
     energy: '3.3'
-    num: 469
+    num: 462
     protection: '0.1'
     skills:
     - color: red
@@ -35,11 +35,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '48.0'
+    winrate: '48.1'
   - damage: '8.2'
     disable: '0.8'
     energy: '3.5'
-    num: 84
+    num: 85
     protection: '0.8'
     skills:
     - color: green
@@ -71,7 +71,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '46.4'
+    winrate: '47.1'
   - damage: '8.1'
     disable: '0.7'
     energy: '3.3'
@@ -108,8 +108,8 @@ builds:
       name: Wind Stream
       type: mobility
     winrate: '45.5'
-  - damage: '7.0'
-    disable: '0.7'
+  - damage: '7.1'
+    disable: '0.8'
     energy: '3.3'
     num: 18
     protection: '0.1'
@@ -146,8 +146,8 @@ builds:
     winrate: '33.3'
   - damage: '7.9'
     disable: '0.9'
-    energy: '3.6'
-    num: 15
+    energy: '3.5'
+    num: 14
     protection: '0.1'
     skills:
     - color: pink
@@ -178,12 +178,12 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '80.0'
+    winrate: '71.4'
   twos:
-  - damage: '7.9'
+  - damage: '7.8'
     disable: '0.7'
     energy: '3.3'
-    num: 377
+    num: 363
     protection: '0.1'
     skills:
     - color: red
@@ -214,12 +214,12 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '52.0'
-  - damage: '7.2'
+    winrate: '50.7'
+  - damage: '7.1'
     disable: '0.6'
     energy: '3.0'
-    num: 87
-    protection: '0.8'
+    num: 77
+    protection: '0.7'
     skills:
     - color: green
       description: During Haste, the first hit of each Razor Boomerang heals you for
@@ -250,11 +250,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '47.1'
-  - damage: '8.4'
-    disable: '0.9'
+    winrate: '46.8'
+  - damage: '8.5'
+    disable: '1.0'
     energy: '3.5'
-    num: 24
+    num: 23
     protection: '0.1'
     skills:
     - color: pink
@@ -285,11 +285,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '58.3'
+    winrate: '56.5'
   - damage: '7.5'
     disable: '0.9'
     energy: '3.7'
-    num: 19
+    num: 17
     protection: '0.1'
     skills:
     - color: pink
@@ -320,7 +320,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '63.2'
+    winrate: '64.7'
   - damage: '8.0'
     disable: '0.6'
     energy: '4.0'
@@ -390,9 +390,9 @@ compos:
     - icon: 9872f8cd16d7327418b09294cfa319e6
       name: Poloma
       title: poloma
-    num: 24
-    winrate: 0.5
-    wins: 12
+    num: 25
+    winrate: 0.52
+    wins: 13
   - hero_names:
     - Ulric
     - Taya
@@ -407,9 +407,9 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 22
-    winrate: 0.5909090909090909
-    wins: 13
+    num: 19
+    winrate: 0.5263157894736842
+    wins: 10
   - hero_names:
     - Rook
     - Taya
@@ -455,22 +455,9 @@ compos:
     - icon: 2905515bc00a1d64e83466ec8e50f8b6
       name: Taya
       title: taya
-    num: 82
-    winrate: 0.5975609756097561
-    wins: 49
-  - hero_names:
-    - Taya
-    - Blossom
-    heros:
-    - icon: 2905515bc00a1d64e83466ec8e50f8b6
-      name: Taya
-      title: taya
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    num: 74
-    winrate: 0.6216216216216216
-    wins: 46
+    num: 81
+    winrate: 0.5925925925925926
+    wins: 48
   - hero_names:
     - Taya
     - Oldur
@@ -481,22 +468,22 @@ compos:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    num: 73
-    winrate: 0.4383561643835616
+    num: 75
+    winrate: 0.4266666666666667
     wins: 32
   - hero_names:
     - Taya
-    - Freya
+    - Blossom
     heros:
     - icon: 2905515bc00a1d64e83466ec8e50f8b6
       name: Taya
       title: taya
-    - icon: be081702a8e70fe44ac0a4e3a9c46368
-      name: Freya
-      title: freya
-    num: 45
-    winrate: 0.4222222222222222
-    wins: 19
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    num: 68
+    winrate: 0.6176470588235294
+    wins: 42
   - hero_names:
     - Taya
     - Poloma
@@ -508,8 +495,21 @@ compos:
       name: Poloma
       title: poloma
     num: 43
-    winrate: 0.5116279069767442
-    wins: 22
+    winrate: 0.5348837209302325
+    wins: 23
+  - hero_names:
+    - Taya
+    - Freya
+    heros:
+    - icon: 2905515bc00a1d64e83466ec8e50f8b6
+      name: Taya
+      title: taya
+    - icon: be081702a8e70fe44ac0a4e3a9c46368
+      name: Freya
+      title: freya
+    num: 42
+    winrate: 0.40476190476190477
+    wins: 17
 description: An exceptionally swift hunter wielding a razor sharp boomerang. By shaping
   the wind around her Taya is able to increase her speed and control her boomerang
   with deadly precision.
@@ -517,11 +517,11 @@ icon: 2905515bc00a1d64e83466ec8e50f8b6
 layout: character
 name: taya
 num:
-  threes: 819
-  twos: 720
+  threes: 809
+  twos: 693
 title: Taya
 url: characters/taya.html
 winrate:
-  threes: '46.89'
-  twos: '50.56'
+  threes: '46.97'
+  twos: '49.78'
 ...

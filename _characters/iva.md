@@ -1,9 +1,9 @@
 ---
 builds:
   threes:
-  - damage: '7.6'
+  - damage: '7.8'
     disable: '1.1'
-    energy: '3.7'
+    energy: '3.8'
     num: 44
     protection: '0.9'
     skills:
@@ -38,8 +38,8 @@ builds:
   - damage: '7.5'
     disable: '1.0'
     energy: '3.2'
-    num: 33
-    protection: '0.7'
+    num: 32
+    protection: '0.6'
     skills:
     - color: red
       description: Rocket X-67 deals 4 bonus damage.
@@ -67,7 +67,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '48.5'
+    winrate: '50.0'
   - damage: '7.1'
     disable: '1.1'
     energy: '2.8'
@@ -100,10 +100,10 @@ builds:
       name: U-Turn
       type: utility
     winrate: '48.0'
-  - damage: '7.2'
-    disable: '1.4'
+  - damage: '7.1'
+    disable: '1.3'
     energy: '3.8'
-    num: 15
+    num: 16
     protection: '0.4'
     skills:
     - color: yellow
@@ -132,11 +132,11 @@ builds:
       icon: fadd8bcda43b2f54aa66dd5d12795a53
       name: Tractor Pulse
       type: control
-    winrate: '66.7'
+    winrate: '62.5'
   - damage: '7.2'
     disable: '1.4'
     energy: '3.8'
-    num: 13
+    num: 12
     protection: '0.5'
     skills:
     - color: yellow
@@ -164,12 +164,12 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '23.1'
+    winrate: '25.0'
   twos:
   - damage: '7.8'
     disable: '1.0'
-    energy: '4.0'
-    num: 80
+    energy: '4.1'
+    num: 77
     protection: '0.9'
     skills:
     - color: pink
@@ -199,11 +199,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '47.5'
+    winrate: '46.8'
   - damage: '7.5'
     disable: '1.1'
-    energy: '3.5'
-    num: 75
+    energy: '3.6'
+    num: 72
     protection: '0.7'
     skills:
     - color: yellow
@@ -232,11 +232,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '53.3'
+    winrate: '52.8'
   - damage: '6.4'
     disable: '1.0'
     energy: '3.9'
-    num: 43
+    num: 46
     protection: '0.4'
     skills:
     - color: yellow
@@ -266,11 +266,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '81.4'
-  - damage: '7.2'
+    winrate: '82.6'
+  - damage: '7.3'
     disable: '1.0'
     energy: '3.2'
-    num: 36
+    num: 38
     protection: '0.7'
     skills:
     - color: red
@@ -299,7 +299,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '41.7'
+    winrate: '44.7'
   - damage: '6.4'
     disable: '1.0'
     energy: '2.8'
@@ -382,26 +382,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 16
-    winrate: 0.625
+    num: 15
+    winrate: 0.6666666666666666
     wins: 10
-  - hero_names:
-    - Ulric
-    - Iva
-    - Shifu
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: decba44679fbdae4bb7d0d1cb6a97682
-      name: Iva
-      title: iva
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
-    num: 13
-    winrate: 0.5384615384615384
-    wins: 7
   - hero_names:
     - Ulric
     - Rook
@@ -416,9 +399,26 @@ compos:
     - icon: decba44679fbdae4bb7d0d1cb6a97682
       name: Iva
       title: iva
+    num: 14
+    winrate: 0.6428571428571429
+    wins: 9
+  - hero_names:
+    - Ulric
+    - Iva
+    - Bakko
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: decba44679fbdae4bb7d0d1cb6a97682
+      name: Iva
+      title: iva
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
     num: 13
-    winrate: 0.6153846153846154
-    wins: 8
+    winrate: 0.38461538461538464
+    wins: 5
   twos:
   - hero_names:
     - Oldur
@@ -430,9 +430,9 @@ compos:
     - icon: decba44679fbdae4bb7d0d1cb6a97682
       name: Iva
       title: iva
-    num: 84
-    winrate: 0.5119047619047619
-    wins: 43
+    num: 83
+    winrate: 0.4939759036144578
+    wins: 41
   - hero_names:
     - Iva
     - Blossom
@@ -443,35 +443,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 63
-    winrate: 0.6031746031746031
-    wins: 38
-  - hero_names:
-    - Ulric
-    - Iva
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: decba44679fbdae4bb7d0d1cb6a97682
-      name: Iva
-      title: iva
-    num: 56
-    winrate: 0.5
-    wins: 28
-  - hero_names:
-    - Iva
-    - Pearl
-    heros:
-    - icon: decba44679fbdae4bb7d0d1cb6a97682
-      name: Iva
-      title: iva
-    - icon: 427116cdee46bad4cbaa99d7063e0832
-      name: Pearl
-      title: pearl
-    num: 52
-    winrate: 0.5769230769230769
-    wins: 30
+    num: 58
+    winrate: 0.603448275862069
+    wins: 35
   - hero_names:
     - Rook
     - Iva
@@ -483,8 +457,34 @@ compos:
       name: Iva
       title: iva
     num: 52
+    winrate: 0.5
+    wins: 26
+  - hero_names:
+    - Ulric
+    - Iva
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: decba44679fbdae4bb7d0d1cb6a97682
+      name: Iva
+      title: iva
+    num: 52
     winrate: 0.5192307692307693
     wins: 27
+  - hero_names:
+    - Iva
+    - Pearl
+    heros:
+    - icon: decba44679fbdae4bb7d0d1cb6a97682
+      name: Iva
+      title: iva
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
+    num: 46
+    winrate: 0.5652173913043478
+    wins: 26
 description: A scavenger from the outer realms. Iva has engineered her own arsenal
   of weapons. Firing crazy rockets or unleashing a storm of bullets is her way of
   greeting her opponents in the Arena.
@@ -492,11 +492,11 @@ icon: decba44679fbdae4bb7d0d1cb6a97682
 layout: character
 name: iva
 num:
-  threes: 573
-  twos: 738
+  threes: 559
+  twos: 720
 title: Iva
 url: characters/iva.html
 winrate:
-  threes: '47.64'
-  twos: '49.73'
+  threes: '47.41'
+  twos: '49.72'
 ...
