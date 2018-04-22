@@ -4,8 +4,8 @@ builds:
   - damage: '3.2'
     disable: '0.5'
     energy: '3.1'
-    num: 256
-    protection: '5.0'
+    num: 273
+    protection: '5.2'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 0.5 and damage taken
@@ -35,12 +35,12 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '47.3'
+    winrate: '46.5'
   - damage: '3.1'
     disable: '0.5'
     energy: '3.1'
-    num: 138
-    protection: '5.3'
+    num: 143
+    protection: '5.4'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 0.5 and damage taken
@@ -69,11 +69,11 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '53.6'
+    winrate: '51.7'
   - damage: '2.6'
     disable: '0.5'
     energy: '2.8'
-    num: 32
+    num: 30
     protection: '4.3'
     skills:
     - color: red
@@ -103,12 +103,12 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '50.0'
-  - damage: '3.0'
+    winrate: '53.3'
+  - damage: '3.2'
     disable: '0.5'
     energy: '2.9'
-    num: 22
-    protection: '4.0'
+    num: 24
+    protection: '4.1'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 0.5 and damage taken
@@ -138,11 +138,11 @@ builds:
       icon: af5ff3eb2bad4b04a9c6dd30739068e6
       name: Showdown
       type: support
-    winrate: '50.0'
-  - damage: '3.5'
+    winrate: '58.3'
+  - damage: '3.4'
     disable: '0.5'
-    energy: '3.2'
-    num: 22
+    energy: '3.1'
+    num: 17
     protection: '4.9'
     skills:
     - color: red
@@ -173,13 +173,13 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '63.6'
+    winrate: '64.7'
   twos:
   - damage: '3.6'
     disable: '0.5'
     energy: '3.0'
-    num: 246
-    protection: '4.4'
+    num: 238
+    protection: '4.3'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 0.5 and damage taken
@@ -209,11 +209,11 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '42.7'
-  - damage: '4.1'
+    winrate: '43.7'
+  - damage: '4.2'
     disable: '0.5'
     energy: '3.0'
-    num: 73
+    num: 69
     protection: '4.1'
     skills:
     - color: red
@@ -243,7 +243,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '54.8'
+    winrate: '53.6'
   - damage: '4.0'
     disable: '0.5'
     energy: '2.9'
@@ -278,11 +278,11 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '68.3'
+    winrate: '63.4'
   - damage: '3.9'
     disable: '0.5'
     energy: '2.8'
-    num: 38
+    num: 37
     protection: '4.5'
     skills:
     - color: red
@@ -312,7 +312,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '44.7'
+    winrate: '45.9'
   - damage: '3.3'
     disable: '0.5'
     energy: '2.9'
@@ -364,9 +364,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 36
+    num: 48
     winrate: 0.6666666666666666
-    wins: 24
+    wins: 32
   - hero_names:
     - Ashka
     - Croak
@@ -381,9 +381,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 17
-    winrate: 0.5294117647058824
-    wins: 9
+    num: 20
+    winrate: 0.55
+    wins: 11
   - hero_names:
     - Rook
     - Jumong
@@ -399,19 +399,19 @@ compos:
       name: Zander
       title: zander
     num: 17
-    winrate: 0.6470588235294118
-    wins: 11
+    winrate: 0.7647058823529411
+    wins: 13
   - hero_names:
-    - Jumong
-    - Freya
+    - Shifu
+    - Jade
     - Zander
     heros:
-    - icon: 42a665b9c285a1243a201c8d533980e5
-      name: Jumong
-      title: jumong
-    - icon: be081702a8e70fe44ac0a4e3a9c46368
-      name: Freya
-      title: freya
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
@@ -419,22 +419,22 @@ compos:
     winrate: 0.4375
     wins: 7
   - hero_names:
-    - Taya
     - Freya
+    - Jade
     - Zander
     heros:
-    - icon: 2905515bc00a1d64e83466ec8e50f8b6
-      name: Taya
-      title: taya
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 15
-    winrate: 0.4
-    wins: 6
+    num: 14
+    winrate: 0.14285714285714285
+    wins: 2
   twos:
   - hero_names:
     - Freya
@@ -446,9 +446,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 74
-    winrate: 0.4594594594594595
-    wins: 34
+    num: 75
+    winrate: 0.52
+    wins: 39
   - hero_names:
     - Shifu
     - Zander
@@ -459,9 +459,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 64
-    winrate: 0.609375
-    wins: 39
+    num: 63
+    winrate: 0.5555555555555556
+    wins: 35
   - hero_names:
     - Jade
     - Zander
@@ -472,9 +472,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 63
-    winrate: 0.6190476190476191
-    wins: 39
+    num: 61
+    winrate: 0.5901639344262295
+    wins: 36
   - hero_names:
     - Rook
     - Zander
@@ -485,22 +485,22 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 53
-    winrate: 0.4339622641509434
-    wins: 23
+    num: 50
+    winrate: 0.42
+    wins: 21
   - hero_names:
-    - Varesh
+    - Jumong
     - Zander
     heros:
-    - icon: f1cc53a29c58089478f6438589d9b32d
-      name: Varesh
-      title: varesh
+    - icon: 42a665b9c285a1243a201c8d533980e5
+      name: Jumong
+      title: jumong
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 45
-    winrate: 0.5333333333333333
-    wins: 24
+    num: 43
+    winrate: 0.46511627906976744
+    wins: 20
 description: When the famous theatre troupe "The Phantomime Masquerade" disbanded
   after a series of tragic events, their magnificent magician Zander vanished without
   a trace. Known for his unparalleled perfection in card trickery, teleportation,
@@ -511,11 +511,11 @@ icon: 9c4186a6214f12448a7091710b0cde6c
 layout: character
 name: zander
 num:
-  threes: 752
-  twos: 712
+  threes: 743
+  twos: 694
 title: Zander
 url: characters/zander.html
 winrate:
-  threes: '47.34'
-  twos: '44.66'
+  threes: '47.78'
+  twos: '44.52'
 ...

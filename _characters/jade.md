@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '7.2'
+  - damage: '7.3'
     disable: '1.1'
-    energy: '4.2'
-    num: 131
+    energy: '4.3'
+    num: 125
     protection: '1.2'
     skills:
     - color: red
@@ -35,11 +35,11 @@ builds:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    winrate: '50.4'
-  - damage: '7.2'
+    winrate: '53.6'
+  - damage: '7.4'
     disable: '1.2'
-    energy: '4.2'
-    num: 94
+    energy: '4.4'
+    num: 97
     protection: '1.3'
     skills:
     - color: red
@@ -70,11 +70,11 @@ builds:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    winrate: '53.2'
+    winrate: '49.5'
   - damage: '6.6'
     disable: '1.1'
-    energy: '3.6'
-    num: 72
+    energy: '3.5'
+    num: 69
     protection: '1.0'
     skills:
     - color: red
@@ -106,11 +106,11 @@ builds:
       icon: 20e8f262eca757942bc23d94aa73ab2a
       name: Surprise Shot
       type: control
-    winrate: '51.4'
+    winrate: '53.6'
   - damage: '7.7'
     disable: '1.1'
     energy: '3.7'
-    num: 71
+    num: 68
     protection: '0.9'
     skills:
     - color: red
@@ -140,11 +140,11 @@ builds:
       icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
       name: Desperado
       type: offense
-    winrate: '47.9'
-  - damage: '7.6'
+    winrate: '50.0'
+  - damage: '7.5'
     disable: '1.1'
-    energy: '4.2'
-    num: 67
+    energy: '4.1'
+    num: 55
     protection: '0.7'
     skills:
     - color: red
@@ -174,12 +174,12 @@ builds:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    winrate: '59.7'
+    winrate: '52.7'
   twos:
-  - damage: '7.7'
+  - damage: '7.8'
     disable: '1.0'
     energy: '4.4'
-    num: 135
+    num: 128
     protection: '1.2'
     skills:
     - color: red
@@ -210,11 +210,11 @@ builds:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    winrate: '47.4'
-  - damage: '7.0'
+    winrate: '48.4'
+  - damage: '6.9'
     disable: '1.1'
     energy: '4.2'
-    num: 104
+    num: 97
     protection: '1.2'
     skills:
     - color: red
@@ -245,11 +245,11 @@ builds:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    winrate: '44.2'
+    winrate: '42.3'
   - damage: '6.9'
     disable: '0.8'
     energy: '4.1'
-    num: 45
+    num: 46
     protection: '1.4'
     skills:
     - color: red
@@ -280,11 +280,11 @@ builds:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    winrate: '51.1'
+    winrate: '50.0'
   - damage: '7.7'
     disable: '1.1'
     energy: '4.5'
-    num: 42
+    num: 39
     protection: '1.4'
     skills:
     - color: pink
@@ -314,11 +314,11 @@ builds:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    winrate: '42.9'
-  - damage: '7.5'
+    winrate: '43.6'
+  - damage: '7.6'
     disable: '1.0'
-    energy: '4.0'
-    num: 34
+    energy: '3.9'
+    num: 36
     protection: '1.4'
     skills:
     - color: red
@@ -349,43 +349,9 @@ builds:
       icon: 20e8f262eca757942bc23d94aa73ab2a
       name: Shadow Shot
       type: survival
-    winrate: '47.1'
+    winrate: '55.6'
 compos:
   threes:
-  - hero_names:
-    - Poloma
-    - Bakko
-    - Jade
-    heros:
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 44
-    winrate: 0.7045454545454546
-    wins: 31
-  - hero_names:
-    - Poloma
-    - Freya
-    - Jade
-    heros:
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    - icon: be081702a8e70fe44ac0a4e3a9c46368
-      name: Freya
-      title: freya
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 37
-    winrate: 0.5945945945945946
-    wins: 22
   - hero_names:
     - Thorn
     - Jade
@@ -400,8 +366,25 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 36
+    num: 48
     winrate: 0.6666666666666666
+    wins: 32
+  - hero_names:
+    - Poloma
+    - Bakko
+    - Jade
+    heros:
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 40
+    winrate: 0.6
     wins: 24
   - hero_names:
     - Thorn
@@ -417,9 +400,26 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
+    num: 33
+    winrate: 0.45454545454545453
+    wins: 15
+  - hero_names:
+    - Poloma
+    - Freya
+    - Jade
+    heros:
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: be081702a8e70fe44ac0a4e3a9c46368
+      name: Freya
+      title: freya
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
     num: 32
-    winrate: 0.5
-    wins: 16
+    winrate: 0.5625
+    wins: 18
   - hero_names:
     - Ulric
     - Freya
@@ -434,8 +434,8 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 30
-    winrate: 0.36666666666666664
+    num: 28
+    winrate: 0.39285714285714285
     wins: 11
   twos:
   - hero_names:
@@ -448,9 +448,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 129
-    winrate: 0.49612403100775193
-    wins: 64
+    num: 126
+    winrate: 0.49206349206349204
+    wins: 62
   - hero_names:
     - Oldur
     - Jade
@@ -461,9 +461,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 123
-    winrate: 0.5121951219512195
-    wins: 63
+    num: 121
+    winrate: 0.5454545454545454
+    wins: 66
   - hero_names:
     - Ulric
     - Jade
@@ -474,9 +474,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 100
-    winrate: 0.51
-    wins: 51
+    num: 91
+    winrate: 0.5274725274725275
+    wins: 48
   - hero_names:
     - Shifu
     - Jade
@@ -487,9 +487,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 82
-    winrate: 0.5121951219512195
-    wins: 42
+    num: 75
+    winrate: 0.49333333333333335
+    wins: 37
   - hero_names:
     - Poloma
     - Jade
@@ -500,9 +500,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 79
-    winrate: 0.5822784810126582
-    wins: 46
+    num: 71
+    winrate: 0.5633802816901409
+    wins: 40
 description: A mysterious gunslinger. Born with eagle-eyes and armed with a lethal
   sniper rifle, Jade's pinpoint accuracy is a serious threat for anyone who enters
   the arena. For close encounters, she prefers a combination of stealth and trusty
@@ -511,11 +511,11 @@ icon: 38b75268719e2b640a6d62250e102ffa
 layout: character
 name: jade
 num:
-  threes: 1517
-  twos: 1295
+  threes: 1443
+  twos: 1241
 title: Jade
 url: characters/jade.html
 winrate:
-  threes: '49.84'
-  twos: '47.72'
+  threes: '49.48'
+  twos: '47.38'
 ...
