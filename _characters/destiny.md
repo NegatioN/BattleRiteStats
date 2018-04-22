@@ -4,7 +4,7 @@ builds:
   - damage: '7.1'
     disable: '1.1'
     energy: '3.3'
-    num: 27
+    num: 26
     protection: '1.4'
     skills:
     - color: red
@@ -35,7 +35,7 @@ builds:
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
-    winrate: '51.9'
+    winrate: '53.8'
   - damage: '7.5'
     disable: '1.1'
     energy: '3.7'
@@ -213,11 +213,11 @@ builds:
       name: System Shock
       type: control
     winrate: '70.4'
-  - damage: '7.4'
+  - damage: '7.3'
     disable: '1.3'
-    energy: '3.7'
+    energy: '3.6'
     num: 21
-    protection: '0.2'
+    protection: '0.3'
     skills:
     - color: red
       description: Sky Strike deals 6 bonus damage. Also increases its radius by 10.
@@ -246,7 +246,7 @@ builds:
       icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
       type: offense
-    winrate: '52.4'
+    winrate: '47.6'
   - damage: '7.8'
     disable: '1.2'
     energy: '3.9'
@@ -385,26 +385,9 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 14
-    winrate: 0.5714285714285714
+    num: 13
+    winrate: 0.6153846153846154
     wins: 8
-  - hero_names:
-    - Pestilus
-    - Destiny
-    - Shifu
-    heros:
-    - icon: a7e0c7a6f0fa2ef49bf684950de34567
-      name: Pestilus
-      title: pestilus
-    - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
-      name: Destiny
-      title: destiny
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
-    num: 11
-    winrate: 0.6363636363636364
-    wins: 7
   - hero_names:
     - Ulric
     - Destiny
@@ -419,9 +402,26 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
+    num: 11
+    winrate: 0.8181818181818182
+    wins: 9
+  - hero_names:
+    - Pestilus
+    - Destiny
+    - Shifu
+    heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
+      name: Destiny
+      title: destiny
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
     num: 10
-    winrate: 0.8
-    wins: 8
+    winrate: 0.7
+    wins: 7
   - hero_names:
     - Destiny
     - Freya
@@ -451,8 +451,8 @@ compos:
       name: Destiny
       title: destiny
     num: 102
-    winrate: 0.6764705882352942
-    wins: 69
+    winrate: 0.6666666666666666
+    wins: 68
   - hero_names:
     - Oldur
     - Destiny
@@ -463,9 +463,9 @@ compos:
     - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
       name: Destiny
       title: destiny
-    num: 30
+    num: 32
     winrate: 0.5
-    wins: 15
+    wins: 16
   - hero_names:
     - Destiny
     - Bakko
@@ -476,8 +476,8 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 26
-    winrate: 0.38461538461538464
+    num: 28
+    winrate: 0.35714285714285715
     wins: 10
   - hero_names:
     - Destiny
@@ -489,9 +489,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 26
-    winrate: 0.38461538461538464
-    wins: 10
+    num: 22
+    winrate: 0.4090909090909091
+    wins: 9
   - hero_names:
     - Pestilus
     - Destiny
@@ -514,11 +514,11 @@ icon: 65e28ab3b75c7cb478a1b24b46fca7d2
 layout: character
 name: destiny
 num:
-  threes: 376
-  twos: 368
+  threes: 391
+  twos: 363
 title: Destiny
 url: characters/destiny.html
 winrate:
-  threes: '47.61'
-  twos: '50.82'
+  threes: '48.34'
+  twos: '50.14'
 ...

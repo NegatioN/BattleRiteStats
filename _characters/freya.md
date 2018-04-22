@@ -4,7 +4,7 @@ builds:
   - damage: '7.1'
     disable: '1.1'
     energy: '3.8'
-    num: 586
+    num: 583
     protection: '2.3'
     skills:
     - color: green
@@ -35,11 +35,11 @@ builds:
       icon: 883e2720ad11f2d49b51d9f649c67203
       name: Thundering Spring
       type: mobility
-    winrate: '48.0'
+    winrate: '47.9'
   - damage: '7.3'
     disable: '1.1'
-    energy: '3.9'
-    num: 89
+    energy: '4.0'
+    num: 81
     protection: '2.2'
     skills:
     - color: green
@@ -69,11 +69,11 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Tempest
       type: mobility
-    winrate: '59.6'
-  - damage: '6.7'
+    winrate: '55.6'
+  - damage: '6.8'
     disable: '1.0'
     energy: '3.8'
-    num: 51
+    num: 47
     protection: '2.1'
     skills:
     - color: green
@@ -105,11 +105,11 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    winrate: '62.7'
-  - damage: '6.6'
+    winrate: '63.8'
+  - damage: '6.8'
     disable: '0.9'
     energy: '4.6'
-    num: 31
+    num: 32
     protection: '2.0'
     skills:
     - color: green
@@ -140,11 +140,11 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Tempest
       type: mobility
-    winrate: '48.4'
+    winrate: '50.0'
   - damage: '6.1'
     disable: '1.0'
     energy: '3.4'
-    num: 27
+    num: 29
     protection: '1.8'
     skills:
     - color: green
@@ -175,12 +175,12 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Rolling Thunder
       type: mobility
-    winrate: '74.1'
+    winrate: '72.4'
   twos:
-  - damage: '7.2'
+  - damage: '7.1'
     disable: '1.0'
     energy: '3.7'
-    num: 677
+    num: 659
     protection: '2.0'
     skills:
     - color: green
@@ -211,11 +211,11 @@ builds:
       icon: 883e2720ad11f2d49b51d9f649c67203
       name: Thundering Spring
       type: mobility
-    winrate: '57.5'
+    winrate: '55.8'
   - damage: '7.0'
     disable: '1.0'
     energy: '3.6'
-    num: 109
+    num: 111
     protection: '1.9'
     skills:
     - color: green
@@ -245,7 +245,7 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Tempest
       type: mobility
-    winrate: '42.2'
+    winrate: '42.3'
   - damage: '6.8'
     disable: '0.9'
     energy: '3.5'
@@ -280,11 +280,11 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Rolling Thunder
       type: mobility
-    winrate: '56.4'
+    winrate: '57.4'
   - damage: '7.6'
     disable: '1.3'
-    energy: '3.6'
-    num: 69
+    energy: '3.7'
+    num: 74
     protection: '1.9'
     skills:
     - color: green
@@ -316,12 +316,12 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
       type: mixed
-    winrate: '53.6'
+    winrate: '51.4'
   - damage: '7.0'
     disable: '1.1'
-    energy: '3.8'
-    num: 55
-    protection: '2.1'
+    energy: '3.7'
+    num: 54
+    protection: '2.0'
     skills:
     - color: green
       description: Spring causes your next Bash to grant you a Shield. It absorbs
@@ -351,7 +351,7 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Tempest
       type: mobility
-    winrate: '63.6'
+    winrate: '63.0'
 compos:
   threes:
   - hero_names:
@@ -368,8 +368,8 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 39
-    winrate: 0.5897435897435898
+    num: 40
+    winrate: 0.575
     wins: 23
   - hero_names:
     - Poloma
@@ -385,9 +385,26 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 32
-    winrate: 0.5625
-    wins: 18
+    num: 29
+    winrate: 0.5862068965517241
+    wins: 17
+  - hero_names:
+    - Ulric
+    - Ashka
+    - Freya
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: be081702a8e70fe44ac0a4e3a9c46368
+      name: Freya
+      title: freya
+    num: 27
+    winrate: 0.7777777777777778
+    wins: 21
   - hero_names:
     - Ulric
     - Freya
@@ -402,8 +419,8 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 28
-    winrate: 0.39285714285714285
+    num: 27
+    winrate: 0.4074074074074074
     wins: 11
   - hero_names:
     - Poloma
@@ -419,26 +436,9 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 27
-    winrate: 0.4074074074074074
-    wins: 11
-  - hero_names:
-    - Ulric
-    - Ashka
-    - Freya
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: be081702a8e70fe44ac0a4e3a9c46368
-      name: Freya
-      title: freya
-    num: 26
-    winrate: 0.8076923076923077
-    wins: 21
+    num: 25
+    winrate: 0.48
+    wins: 12
   twos:
   - hero_names:
     - Ulric
@@ -450,9 +450,9 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 246
-    winrate: 0.556910569105691
-    wins: 137
+    num: 245
+    winrate: 0.5551020408163265
+    wins: 136
   - hero_names:
     - Blossom
     - Freya
@@ -463,9 +463,9 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 212
-    winrate: 0.5707547169811321
-    wins: 121
+    num: 213
+    winrate: 0.5868544600938967
+    wins: 125
   - hero_names:
     - Oldur
     - Freya
@@ -477,8 +477,8 @@ compos:
       name: Freya
       title: freya
     num: 172
-    winrate: 0.5872093023255814
-    wins: 101
+    winrate: 0.5697674418604651
+    wins: 98
   - hero_names:
     - Freya
     - Pearl
@@ -489,9 +489,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 163
-    winrate: 0.6319018404907976
-    wins: 103
+    num: 169
+    winrate: 0.621301775147929
+    wins: 105
   - hero_names:
     - Freya
     - Sirius
@@ -502,20 +502,20 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 104
-    winrate: 0.5
-    wins: 52
+    num: 107
+    winrate: 0.4672897196261682
+    wins: 50
 description: Once a tribe queen, now a fearless contender. Her titanic hammers and
   overwhelming power of lightning is the perfect recipe for destruction.
 icon: be081702a8e70fe44ac0a4e3a9c46368
 layout: character
 name: freya
 num:
-  threes: 1330
-  twos: 1850
+  threes: 1312
+  twos: 1847
 title: Freya
 url: characters/freya.html
 winrate:
-  threes: '47.82'
-  twos: '50.92'
+  threes: '46.88'
+  twos: '50.51'
 ...

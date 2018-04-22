@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '3.6'
+  - damage: '3.5'
     disable: '0.8'
     energy: '3.0'
-    num: 64
+    num: 66
     protection: '4.9'
     skills:
     - color: pink
@@ -36,11 +36,11 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '43.8'
-  - damage: '4.2'
-    disable: '1.1'
+    winrate: '42.4'
+  - damage: '4.0'
+    disable: '1.0'
     energy: '3.2'
-    num: 47
+    num: 58
     protection: '4.6'
     skills:
     - color: pink
@@ -71,7 +71,7 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '59.6'
+    winrate: '60.3'
   - damage: '4.2'
     disable: '1.1'
     energy: '3.2'
@@ -109,8 +109,8 @@ builds:
   - damage: '3.6'
     disable: '1.0'
     energy: '3.1'
-    num: 27
-    protection: '5.9'
+    num: 24
+    protection: '5.8'
     skills:
     - color: teal
       description: Healing Wave bounces to a nearby ally after healing, healing them
@@ -140,11 +140,11 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    winrate: '59.3'
-  - damage: '4.0'
+    winrate: '50.0'
+  - damage: '4.1'
     disable: '0.8'
-    energy: '3.1'
-    num: 20
+    energy: '3.2'
+    num: 22
     protection: '5.4'
     skills:
     - color: teal
@@ -176,12 +176,12 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '60.0'
+    winrate: '59.1'
   twos:
   - damage: '5.1'
     disable: '1.1'
     energy: '2.9'
-    num: 77
+    num: 76
     protection: '3.9'
     skills:
     - color: pink
@@ -211,12 +211,12 @@ builds:
       icon: baa9baf5b01c5ee42902398a8f946a5a
       name: Tsunami
       type: offense
-    winrate: '55.8'
+    winrate: '56.6'
   - damage: '4.6'
     disable: '0.7'
     energy: '2.9'
-    num: 73
-    protection: '3.9'
+    num: 72
+    protection: '3.8'
     skills:
     - color: pink
       description: Countering an attack with Tidal Wave recharges your staff.
@@ -247,11 +247,11 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    winrate: '57.5'
+    winrate: '56.9'
   - damage: '4.6'
     disable: '0.8'
     energy: '2.8'
-    num: 65
+    num: 72
     protection: '3.9'
     skills:
     - color: pink
@@ -283,11 +283,11 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    winrate: '44.6'
-  - damage: '4.5'
+    winrate: '43.1'
+  - damage: '4.7'
     disable: '0.8'
     energy: '2.9'
-    num: 65
+    num: 70
     protection: '3.6'
     skills:
     - color: pink
@@ -319,11 +319,11 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '36.9'
+    winrate: '42.9'
   - damage: '4.9'
     disable: '1.1'
     energy: '2.9'
-    num: 64
+    num: 63
     protection: '4.1'
     skills:
     - color: pink
@@ -353,7 +353,7 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '67.2'
+    winrate: '65.1'
 compos:
   threes:
   - hero_names:
@@ -370,9 +370,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 19
-    winrate: 0.7894736842105263
-    wins: 15
+    num: 20
+    winrate: 0.8
+    wins: 16
   - hero_names:
     - Freya
     - Ezmo
@@ -438,9 +438,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 12
-    winrate: 0.75
-    wins: 9
+    num: 11
+    winrate: 0.7272727272727273
+    wins: 8
   twos:
   - hero_names:
     - Freya
@@ -452,9 +452,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 163
-    winrate: 0.6319018404907976
-    wins: 103
+    num: 169
+    winrate: 0.621301775147929
+    wins: 105
   - hero_names:
     - Shifu
     - Pearl
@@ -465,22 +465,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 120
-    winrate: 0.475
-    wins: 57
-  - hero_names:
-    - Bakko
-    - Pearl
-    heros:
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    - icon: 427116cdee46bad4cbaa99d7063e0832
-      name: Pearl
-      title: pearl
-    num: 99
-    winrate: 0.5959595959595959
-    wins: 59
+    num: 128
+    winrate: 0.484375
+    wins: 62
   - hero_names:
     - Rook
     - Pearl
@@ -491,9 +478,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 95
-    winrate: 0.4105263157894737
-    wins: 39
+    num: 90
+    winrate: 0.4222222222222222
+    wins: 38
   - hero_names:
     - Pearl
     - Ruh Kaan
@@ -504,9 +491,22 @@ compos:
     - icon: bb37e5d448c511e47b808987d0d4f9e8
       name: Ruh Kaan
       title: ruh-kaan
-    num: 84
-    winrate: 0.5
-    wins: 42
+    num: 87
+    winrate: 0.4942528735632184
+    wins: 43
+  - hero_names:
+    - Bakko
+    - Pearl
+    heros:
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
+    num: 87
+    winrate: 0.5402298850574713
+    wins: 47
 description: A sage able to control the oceans and whatever creatures that lurk below.
   Pearl transforms water into volatile attacks, rejuvenating streams and protecting
   bubbles.
@@ -514,11 +514,11 @@ icon: 427116cdee46bad4cbaa99d7063e0832
 layout: character
 name: pearl
 num:
-  threes: 541
-  twos: 1210
+  threes: 568
+  twos: 1205
 title: Pearl
 url: characters/pearl.html
 winrate:
-  threes: '48.24'
-  twos: '49.67'
+  threes: '48.77'
+  twos: '49.29'
 ...

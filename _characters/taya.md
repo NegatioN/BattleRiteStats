@@ -4,7 +4,7 @@ builds:
   - damage: '7.8'
     disable: '0.8'
     energy: '3.3'
-    num: 399
+    num: 397
     protection: '0.1'
     skills:
     - color: red
@@ -35,11 +35,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '46.9'
-  - damage: '8.2'
+    winrate: '46.6'
+  - damage: '8.1'
     disable: '0.8'
     energy: '3.5'
-    num: 88
+    num: 94
     protection: '0.8'
     skills:
     - color: green
@@ -71,11 +71,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '47.7'
+    winrate: '48.9'
   - damage: '7.2'
     disable: '0.8'
-    energy: '3.3'
-    num: 19
+    energy: '3.2'
+    num: 20
     protection: '0.1'
     skills:
     - color: red
@@ -107,12 +107,12 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '42.1'
+    winrate: '45.0'
   - damage: '7.5'
     disable: '0.8'
     energy: '3.3'
-    num: 15
-    protection: '0.8'
+    num: 17
+    protection: '0.7'
     skills:
     - color: green
       description: During Haste, the first hit of each Razor Boomerang heals you for
@@ -142,7 +142,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '33.3'
+    winrate: '41.2'
   - damage: '7.6'
     disable: '0.6'
     energy: '3.1'
@@ -183,7 +183,7 @@ builds:
   - damage: '7.7'
     disable: '0.7'
     energy: '3.3'
-    num: 340
+    num: 321
     protection: '0.1'
     skills:
     - color: red
@@ -214,11 +214,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '49.7'
-  - damage: '7.1'
+    winrate: '51.7'
+  - damage: '7.0'
     disable: '0.6'
-    energy: '3.1'
-    num: 82
+    energy: '3.0'
+    num: 78
     protection: '0.7'
     skills:
     - color: green
@@ -250,8 +250,8 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '45.1'
-  - damage: '8.2'
+    winrate: '44.9'
+  - damage: '8.3'
     disable: '0.9'
     energy: '3.5'
     num: 26
@@ -374,8 +374,8 @@ compos:
       name: Freya
       title: freya
     num: 23
-    winrate: 0.5652173913043478
-    wins: 13
+    winrate: 0.5217391304347826
+    wins: 12
   - hero_names:
     - Ulric
     - Taya
@@ -394,6 +394,23 @@ compos:
     winrate: 0.6086956521739131
     wins: 14
   - hero_names:
+    - Taya
+    - Freya
+    - Sirius
+    heros:
+    - icon: 2905515bc00a1d64e83466ec8e50f8b6
+      name: Taya
+      title: taya
+    - icon: be081702a8e70fe44ac0a4e3a9c46368
+      name: Freya
+      title: freya
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
+    num: 18
+    winrate: 0.7222222222222222
+    wins: 13
+  - hero_names:
     - Rook
     - Taya
     - Oldur
@@ -410,23 +427,6 @@ compos:
     num: 17
     winrate: 0.5882352941176471
     wins: 10
-  - hero_names:
-    - Taya
-    - Freya
-    - Sirius
-    heros:
-    - icon: 2905515bc00a1d64e83466ec8e50f8b6
-      name: Taya
-      title: taya
-    - icon: be081702a8e70fe44ac0a4e3a9c46368
-      name: Freya
-      title: freya
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    num: 17
-    winrate: 0.7058823529411765
-    wins: 12
   - hero_names:
     - Ulric
     - Taya
@@ -455,9 +455,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 72
-    winrate: 0.5833333333333334
-    wins: 42
+    num: 69
+    winrate: 0.5797101449275363
+    wins: 40
   - hero_names:
     - Taya
     - Oldur
@@ -468,9 +468,9 @@ compos:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    num: 70
-    winrate: 0.4
-    wins: 28
+    num: 69
+    winrate: 0.391304347826087
+    wins: 27
   - hero_names:
     - Ulric
     - Taya
@@ -481,9 +481,9 @@ compos:
     - icon: 2905515bc00a1d64e83466ec8e50f8b6
       name: Taya
       title: taya
-    num: 68
-    winrate: 0.5588235294117647
-    wins: 38
+    num: 63
+    winrate: 0.5714285714285714
+    wins: 36
   - hero_names:
     - Pestilus
     - Taya
@@ -494,9 +494,9 @@ compos:
     - icon: 2905515bc00a1d64e83466ec8e50f8b6
       name: Taya
       title: taya
-    num: 39
-    winrate: 0.6410256410256411
-    wins: 25
+    num: 40
+    winrate: 0.65
+    wins: 26
   - hero_names:
     - Taya
     - Freya
@@ -507,8 +507,8 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 39
-    winrate: 0.41025641025641024
+    num: 35
+    winrate: 0.45714285714285713
     wins: 16
 description: An exceptionally swift hunter wielding a razor sharp boomerang. By shaping
   the wind around her Taya is able to increase her speed and control her boomerang
@@ -517,11 +517,11 @@ icon: 2905515bc00a1d64e83466ec8e50f8b6
 layout: character
 name: taya
 num:
-  threes: 711
-  twos: 658
+  threes: 717
+  twos: 629
 title: Taya
 url: characters/taya.html
 winrate:
-  threes: '46.27'
-  twos: '48.78'
+  threes: '46.30'
+  twos: '50.08'
 ...
