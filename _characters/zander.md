@@ -4,7 +4,7 @@ builds:
   - damage: '3.2'
     disable: '0.5'
     energy: '3.2'
-    num: 246
+    num: 257
     protection: '5.3'
     skills:
     - color: red
@@ -35,12 +35,12 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '48.8'
-  - damage: '3.2'
+    winrate: '49.4'
+  - damage: '3.3'
     disable: '0.5'
     energy: '3.2'
-    num: 119
-    protection: '5.4'
+    num: 124
+    protection: '5.3'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 0.5 and damage taken
@@ -69,41 +69,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '58.0'
-  - damage: '2.8'
-    disable: '0.5'
-    energy: '2.9'
-    num: 25
-    protection: '4.3'
-    skills:
-    - color: red
-      description: Traveling through a portal resets the cooldown of Grand Conjuration.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Ace up the Sleeve
-      type: offense
-    - color: teal
-      description: Hearts restores 6 health over the duration.
-      icon: 144efc709ac628542aee319b14932b2c
-      name: Heart Restoration
-      type: support
-    - color: red
-      description: Sheep Trick inflicts Arcane Catalyst on targets hit.
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: Lead Astray
-      type: offense
-    - color: teal
-      description: Grants self or allies traveling through your Portal a shield that
-        absorbs up to 14 damage for 3.
-      icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Showdown
-      type: support
-    - color: grey
-      description: Your first Trick Shot after using Mirror Image includes an additional
-        card for both you and your illusion.
-      icon: 2632a24f2167af14f9869abb401dd67f
-      name: Stacked Deck
-      type: mixed
-    winrate: '48.0'
+    winrate: '57.3'
   - damage: '3.2'
     disable: '0.5'
     energy: '3.0'
@@ -139,10 +105,44 @@ builds:
       name: Showdown
       type: support
     winrate: '64.0'
+  - damage: '2.9'
+    disable: '0.5'
+    energy: '2.9'
+    num: 24
+    protection: '4.5'
+    skills:
+    - color: red
+      description: Traveling through a portal resets the cooldown of Grand Conjuration.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Ace up the Sleeve
+      type: offense
+    - color: teal
+      description: Hearts restores 6 health over the duration.
+      icon: 144efc709ac628542aee319b14932b2c
+      name: Heart Restoration
+      type: support
+    - color: red
+      description: Sheep Trick inflicts Arcane Catalyst on targets hit.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: Lead Astray
+      type: offense
+    - color: teal
+      description: Grants self or allies traveling through your Portal a shield that
+        absorbs up to 14 damage for 3.
+      icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Showdown
+      type: support
+    - color: grey
+      description: Your first Trick Shot after using Mirror Image includes an additional
+        card for both you and your illusion.
+      icon: 2632a24f2167af14f9869abb401dd67f
+      name: Stacked Deck
+      type: mixed
+    winrate: '50.0'
   - damage: '3.6'
     disable: '0.5'
     energy: '3.1'
-    num: 16
+    num: 15
     protection: '4.7'
     skills:
     - color: red
@@ -173,12 +173,12 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '68.8'
+    winrate: '66.7'
   twos:
   - damage: '3.6'
     disable: '0.5'
     energy: '3.0'
-    num: 221
+    num: 212
     protection: '4.4'
     skills:
     - color: red
@@ -209,7 +209,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '46.6'
+    winrate: '46.7'
   - damage: '4.1'
     disable: '0.5'
     energy: '3.0'
@@ -243,12 +243,12 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '57.4'
+    winrate: '58.8'
   - damage: '4.0'
     disable: '0.5'
     energy: '2.9'
     num: 43
-    protection: '3.8'
+    protection: '3.9'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 0.5 and damage taken
@@ -282,7 +282,7 @@ builds:
   - damage: '3.9'
     disable: '0.5'
     energy: '2.8'
-    num: 35
+    num: 40
     protection: '4.5'
     skills:
     - color: red
@@ -312,12 +312,12 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '48.6'
+    winrate: '47.5'
   - damage: '3.5'
     disable: '0.5'
-    energy: '2.7'
-    num: 28
-    protection: '4.5'
+    energy: '2.8'
+    num: 32
+    protection: '4.6'
     skills:
     - color: red
       description: Traveling through a portal resets the cooldown of Grand Conjuration.
@@ -347,7 +347,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '42.9'
+    winrate: '43.8'
 compos:
   threes:
   - hero_names:
@@ -364,9 +364,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 39
-    winrate: 0.717948717948718
-    wins: 28
+    num: 43
+    winrate: 0.6976744186046512
+    wins: 30
   - hero_names:
     - Rook
     - Jumong
@@ -381,9 +381,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 21
-    winrate: 0.6666666666666666
-    wins: 14
+    num: 22
+    winrate: 0.6818181818181818
+    wins: 15
   - hero_names:
     - Shifu
     - Jade
@@ -398,8 +398,8 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 16
-    winrate: 0.375
+    num: 17
+    winrate: 0.35294117647058826
     wins: 6
   - hero_names:
     - Freya
@@ -415,26 +415,26 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 13
-    winrate: 0.3076923076923077
+    num: 14
+    winrate: 0.2857142857142857
     wins: 4
   - hero_names:
     - Zander
-    - Thorn
+    - Freya
     - Varesh
     heros:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
+    - icon: be081702a8e70fe44ac0a4e3a9c46368
+      name: Freya
+      title: freya
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
     num: 13
-    winrate: 0.46153846153846156
-    wins: 6
+    winrate: 0.6153846153846154
+    wins: 8
   twos:
   - hero_names:
     - Freya
@@ -446,9 +446,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 70
-    winrate: 0.5285714285714286
-    wins: 37
+    num: 73
+    winrate: 0.5753424657534246
+    wins: 42
   - hero_names:
     - Shifu
     - Zander
@@ -459,9 +459,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 55
-    winrate: 0.4909090909090909
-    wins: 27
+    num: 50
+    winrate: 0.48
+    wins: 24
   - hero_names:
     - Jade
     - Zander
@@ -472,9 +472,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 51
-    winrate: 0.5882352941176471
-    wins: 30
+    num: 49
+    winrate: 0.5714285714285714
+    wins: 28
   - hero_names:
     - Rook
     - Zander
@@ -486,8 +486,8 @@ compos:
       name: Zander
       title: zander
     num: 42
-    winrate: 0.30952380952380953
-    wins: 13
+    winrate: 0.35714285714285715
+    wins: 15
   - hero_names:
     - Varesh
     - Zander
@@ -498,8 +498,8 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 38
-    winrate: 0.5526315789473685
+    num: 40
+    winrate: 0.525
     wins: 21
 description: When the famous theatre troupe "The Phantomime Masquerade" disbanded
   after a series of tragic events, their magnificent magician Zander vanished without
@@ -511,11 +511,11 @@ icon: 9c4186a6214f12448a7091710b0cde6c
 layout: character
 name: zander
 num:
-  threes: 648
-  twos: 614
+  threes: 671
+  twos: 615
 title: Zander
 url: characters/zander.html
 winrate:
-  threes: '50.31'
-  twos: '45.11'
+  threes: '50.67'
+  twos: '45.69'
 ...

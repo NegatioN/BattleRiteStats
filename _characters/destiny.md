@@ -37,10 +37,10 @@ builds:
       type: control
     winrate: '71.9'
   - damage: '7.2'
-    disable: '1.1'
+    disable: '1.2'
     energy: '3.3'
-    num: 25
-    protection: '1.5'
+    num: 27
+    protection: '1.4'
     skills:
     - color: red
       description: Sky Strike deals 6 bonus damage. Also increases its radius by 10.
@@ -70,7 +70,7 @@ builds:
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
-    winrate: '52.0'
+    winrate: '51.9'
   - damage: '7.0'
     disable: '1.1'
     energy: '3.5'
@@ -107,10 +107,10 @@ builds:
       name: System Shock
       type: control
     winrate: '60.0'
-  - damage: '6.6'
+  - damage: '6.7'
     disable: '1.0'
     energy: '3.2'
-    num: 15
+    num: 16
     protection: '0.7'
     skills:
     - color: grey
@@ -141,7 +141,7 @@ builds:
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
-    winrate: '40.0'
+    winrate: '43.8'
   - damage: '7.0'
     disable: '1.3'
     energy: '3.5'
@@ -178,10 +178,10 @@ builds:
       type: offense
     winrate: '53.8'
   twos:
-  - damage: '7.2'
-    disable: '1.0'
-    energy: '3.3'
-    num: 61
+  - damage: '7.5'
+    disable: '1.1'
+    energy: '3.4'
+    num: 74
     protection: '1.4'
     skills:
     - color: green
@@ -213,11 +213,11 @@ builds:
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
-    winrate: '68.9'
+    winrate: '70.3'
   - damage: '7.8'
     disable: '1.2'
-    energy: '3.9'
-    num: 19
+    energy: '3.8'
+    num: 16
     protection: '0.3'
     skills:
     - color: pink
@@ -248,7 +248,7 @@ builds:
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
-    winrate: '42.1'
+    winrate: '43.8'
   - damage: '7.6'
     disable: '1.3'
     energy: '3.6'
@@ -318,11 +318,11 @@ builds:
       name: Transformer
       type: mobility
     winrate: '85.7'
-  - damage: '6.3'
-    disable: '1.0'
-    energy: '3.2'
+  - damage: '7.2'
+    disable: '1.3'
+    energy: '3.3'
     num: 13
-    protection: '1.7'
+    protection: '0.9'
     skills:
     - color: green
       description: Sky Strike grants you a shield that absorbs up to 12 damage and
@@ -330,29 +330,29 @@ builds:
       icon: 1d95f324f635c9447a68299999e8597e
       name: Energy Conversion
       type: survival
-    - color: yellow
-      description: Increases Magnetic Orb duration by 0.5 and its movement speed bonus
-        by 20.
-      icon: 32189e52d279bcc498ede10b3d3ff6d1
-      name: Globetrotter
-      type: mobility
+    - color: pink
+      description: Increases Fading Snare duration of Mega Sphere by 1 and reduces
+        its cooldown by 3.
+      icon: 751839d4f58db9445aa7fc86411521a1
+      name: Expansion Pack
+      type: control
     - color: yellow
       description: Allies that move through Plasma Wall have movement speed increased
         by 30 and are granted a Shield for 3.5. The Shield absorbs up to 16 damage.
       icon: 14568f096fcd91f488876796605f5063
       name: Plasma Booster
       type: mobility
-    - color: green
-      description: Firing Power Blaster through a Plasma Wall increases the range
-        by 30 and grants you a shield absorbing 10 damage on hit.
-      icon: 87c684273ffea0845863a8f80b904890
-      name: Plasma Infusion
-      type: survival
     - color: pink
       description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
+    - color: red
+      description: Increases knockback force of Magnetic Orb by 20 and it deals 4
+        bonus damage.
+      icon: 32189e52d279bcc498ede10b3d3ff6d1
+      name: Violent Revolution
+      type: offense
     winrate: '46.2'
 compos:
   threes:
@@ -453,21 +453,8 @@ compos:
       name: Destiny
       title: destiny
     num: 108
-    winrate: 0.6666666666666666
-    wins: 72
-  - hero_names:
-    - Oldur
-    - Destiny
-    heros:
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
-      name: Destiny
-      title: destiny
-    num: 33
-    winrate: 0.5454545454545454
-    wins: 18
+    winrate: 0.6759259259259259
+    wins: 73
   - hero_names:
     - Destiny
     - Bakko
@@ -478,9 +465,22 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 30
-    winrate: 0.3333333333333333
-    wins: 10
+    num: 36
+    winrate: 0.4722222222222222
+    wins: 17
+  - hero_names:
+    - Oldur
+    - Destiny
+    heros:
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
+      name: Destiny
+      title: destiny
+    num: 34
+    winrate: 0.5294117647058824
+    wins: 18
   - hero_names:
     - Destiny
     - Blossom
@@ -491,22 +491,22 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 23
-    winrate: 0.391304347826087
+    num: 24
+    winrate: 0.375
     wins: 9
   - hero_names:
-    - Pestilus
     - Destiny
+    - Zander
     heros:
-    - icon: a7e0c7a6f0fa2ef49bf684950de34567
-      name: Pestilus
-      title: pestilus
     - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
       name: Destiny
       title: destiny
-    num: 19
-    winrate: 0.3684210526315789
-    wins: 7
+    - icon: 9c4186a6214f12448a7091710b0cde6c
+      name: Zander
+      title: zander
+    num: 23
+    winrate: 0.5217391304347826
+    wins: 12
 description: An elite sky ranger from the secluded, invisible city of Enza. Many years
   of rigorous combat training using Magi-tech weaponry makes Destiny an agile and
   deadly force to be reckoned with. Fed up with the strict regulations of living in
@@ -517,10 +517,10 @@ layout: character
 name: destiny
 num:
   threes: 363
-  twos: 370
+  twos: 386
 title: Destiny
 url: characters/destiny.html
 winrate:
-  threes: '48.48'
-  twos: '51.08'
+  threes: '49.04'
+  twos: '52.33'
 ...

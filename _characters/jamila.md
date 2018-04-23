@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '6.8'
+  - damage: '6.9'
     disable: '1.7'
-    energy: '2.9'
-    num: 52
+    energy: '3.0'
+    num: 51
     protection: '1.2'
     skills:
     - color: pink
@@ -35,7 +35,7 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '53.8'
+    winrate: '54.9'
   - damage: '7.0'
     disable: '1.2'
     energy: '2.9'
@@ -71,10 +71,44 @@ builds:
       name: Taste of Blood
       type: survival
     winrate: '51.6'
-  - damage: '7.5'
+  - damage: '6.7'
+    disable: '1.0'
+    energy: '2.9'
+    num: 20
+    protection: '1.1'
+    skills:
+    - color: red
+      description: Shuriken deals 3 bonus damage on each hit.
+      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
+      name: Deadly Star
+      type: offense
+    - color: pink
+      description: Increases Stun duration of Deadly Blow by 0.5 and reduces its cooldown
+        by 2.
+      icon: c75e9702831a67e4b98aa0c24af2d865
+      name: Go for the Throat
+      type: control
+    - color: red
+      description: Phantom Cut deals 8 bonus damage.
+      icon: ef4060497167dcd43ab43e87def18d7b
+      name: Phantom Blades
+      type: offense
+    - color: yellow
+      description: Increases the max range of Elusive Strike by 15.
+      icon: fa9b6a58fa6398b4ea4c4756152bd079
+      name: Push Off
+      type: mobility
+    - color: green
+      description: Shuriken returns to you afterward, healing you for {Can't represent
+        GameValueList} health based on enemies hit.
+      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
+      name: Taste of Blood
+      type: survival
+    winrate: '70.0'
+  - damage: '7.4'
     disable: '1.4'
     energy: '3.2'
-    num: 19
+    num: 20
     protection: '0.9'
     skills:
     - color: red
@@ -105,45 +139,11 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '57.9'
-  - damage: '6.7'
-    disable: '1.0'
-    energy: '2.8'
-    num: 17
-    protection: '1.1'
-    skills:
-    - color: red
-      description: Shuriken deals 3 bonus damage on each hit.
-      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
-      name: Deadly Star
-      type: offense
-    - color: pink
-      description: Increases Stun duration of Deadly Blow by 0.5 and reduces its cooldown
-        by 2.
-      icon: c75e9702831a67e4b98aa0c24af2d865
-      name: Go for the Throat
-      type: control
-    - color: red
-      description: Phantom Cut deals 8 bonus damage.
-      icon: ef4060497167dcd43ab43e87def18d7b
-      name: Phantom Blades
-      type: offense
-    - color: yellow
-      description: Increases the max range of Elusive Strike by 15.
-      icon: fa9b6a58fa6398b4ea4c4756152bd079
-      name: Push Off
-      type: mobility
-    - color: green
-      description: Shuriken returns to you afterward, healing you for {Can't represent
-        GameValueList} health based on enemies hit.
-      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
-      name: Taste of Blood
-      type: survival
-    winrate: '58.8'
+    winrate: '60.0'
   - damage: '6.4'
     disable: '1.3'
-    energy: '2.9'
-    num: 17
+    energy: '3.0'
+    num: 18
     protection: '1.1'
     skills:
     - color: pink
@@ -175,7 +175,7 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '52.9'
+    winrate: '55.6'
   twos:
   - damage: '7.2'
     disable: '1.0'
@@ -318,8 +318,8 @@ builds:
     winrate: '31.6'
   - damage: '6.5'
     disable: '1.3'
-    energy: '3.2'
-    num: 16
+    energy: '3.1'
+    num: 17
     protection: '1.2'
     skills:
     - color: pink
@@ -350,7 +350,7 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '68.8'
+    winrate: '64.7'
 compos:
   threes:
   - hero_names:
@@ -367,9 +367,9 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 12
-    winrate: 0.4166666666666667
-    wins: 5
+    num: 13
+    winrate: 0.46153846153846156
+    wins: 6
   - hero_names:
     - Ulric
     - Jumong
@@ -384,8 +384,8 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 9
-    winrate: 0.3333333333333333
+    num: 10
+    winrate: 0.3
     wins: 3
   - hero_names:
     - Jumong
@@ -449,9 +449,9 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 89
-    winrate: 0.42696629213483145
-    wins: 38
+    num: 91
+    winrate: 0.45054945054945056
+    wins: 41
   - hero_names:
     - Oldur
     - Jamila
@@ -462,8 +462,8 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 57
-    winrate: 0.45614035087719296
+    num: 58
+    winrate: 0.4482758620689655
     wins: 26
   - hero_names:
     - Blossom
@@ -475,22 +475,9 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 44
-    winrate: 0.45454545454545453
-    wins: 20
-  - hero_names:
-    - Pearl
-    - Jamila
-    heros:
-    - icon: 427116cdee46bad4cbaa99d7063e0832
-      name: Pearl
-      title: pearl
-    - icon: f283d6dda29cbc845b4f770a1482d75b
-      name: Jamila
-      title: jamila
-    num: 39
-    winrate: 0.38461538461538464
-    wins: 15
+    num: 41
+    winrate: 0.4634146341463415
+    wins: 19
   - hero_names:
     - Jade
     - Jamila
@@ -501,9 +488,22 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 37
-    winrate: 0.40540540540540543
-    wins: 15
+    num: 39
+    winrate: 0.41025641025641024
+    wins: 16
+  - hero_names:
+    - Pearl
+    - Jamila
+    heros:
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
+    - icon: f283d6dda29cbc845b4f770a1482d75b
+      name: Jamila
+      title: jamila
+    num: 38
+    winrate: 0.42105263157894735
+    wins: 16
 description: "A young assassin from the Shadowblade clan, Jamila suddenly found herself\
   \ the new leader after the death of her mother, the previous matriarch. As the youngest\
   \ leader in the clan\u2019s history, some call her too inexperienced and undeserving\
@@ -514,10 +514,10 @@ layout: character
 name: jamila
 num:
   threes: 513
-  twos: 607
+  twos: 609
 title: Jamila
 url: characters/jamila.html
 winrate:
-  threes: '41.33'
-  twos: '41.02'
+  threes: '42.50'
+  twos: '42.53'
 ...

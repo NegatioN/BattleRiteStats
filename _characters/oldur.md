@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '6.3'
+  - damage: '6.4'
     disable: '0.8'
     energy: '4.0'
-    num: 82
+    num: 79
     protection: '4.7'
     skills:
     - color: grey
@@ -38,11 +38,11 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    winrate: '61.0'
+    winrate: '60.8'
   - damage: '4.9'
     disable: '0.7'
     energy: '3.7'
-    num: 77
+    num: 78
     protection: '4.5'
     skills:
     - color: blue
@@ -74,7 +74,7 @@ builds:
       icon: 35a1515e35b5104449dfa8802c5aa0e2
       name: Sand Tomb
       type: control
-    winrate: '54.5'
+    winrate: '55.1'
   - damage: '5.1'
     disable: '0.9'
     energy: '3.6'
@@ -110,12 +110,12 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    winrate: '51.3'
+    winrate: '50.0'
   - damage: '5.1'
     disable: '0.6'
     energy: '3.6'
-    num: 68
-    protection: '4.4'
+    num: 67
+    protection: '4.5'
     skills:
     - color: blue
       description: ^2Shifting Sands^- creates a ^2Lesser Chronoflux^- that reflects
@@ -147,11 +147,11 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    winrate: '63.2'
+    winrate: '64.2'
   - damage: '5.4'
     disable: '0.7'
     energy: '3.6'
-    num: 50
+    num: 49
     protection: '4.0'
     skills:
     - color: grey
@@ -182,12 +182,12 @@ builds:
       icon: 35a1515e35b5104449dfa8802c5aa0e2
       name: Time Burst
       type: offense
-    winrate: '48.0'
+    winrate: '49.0'
   twos:
   - damage: '5.6'
     disable: '0.8'
     energy: '3.6'
-    num: 120
+    num: 112
     protection: '3.5'
     skills:
     - color: grey
@@ -218,11 +218,11 @@ builds:
       icon: 35a1515e35b5104449dfa8802c5aa0e2
       name: Time Burst
       type: offense
-    winrate: '55.8'
+    winrate: '57.1'
   - damage: '5.9'
     disable: '0.8'
     energy: '3.7'
-    num: 89
+    num: 90
     protection: '3.9'
     skills:
     - color: grey
@@ -256,11 +256,11 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    winrate: '56.2'
+    winrate: '55.6'
   - damage: '5.4'
     disable: '0.8'
     energy: '3.7'
-    num: 66
+    num: 67
     protection: '3.5'
     skills:
     - color: grey
@@ -292,11 +292,11 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    winrate: '45.5'
+    winrate: '46.3'
   - damage: '5.6'
     disable: '0.8'
     energy: '3.6'
-    num: 59
+    num: 62
     protection: '4.2'
     skills:
     - color: grey
@@ -330,11 +330,11 @@ builds:
       icon: 89c37320af892ae43b410f4d610d7ea8
       name: Sandstorm
       type: offense
-    winrate: '42.4'
-  - damage: '5.5'
+    winrate: '40.3'
+  - damage: '5.6'
     disable: '0.8'
-    energy: '3.3'
-    num: 51
+    energy: '3.2'
+    num: 52
     protection: '3.2'
     skills:
     - color: grey
@@ -367,7 +367,7 @@ builds:
       icon: a22c6c4bc967d4e48a44f0e87a93023e
       name: Time Walker
       type: mobility
-    winrate: '58.8'
+    winrate: '61.5'
 compos:
   threes:
   - hero_names:
@@ -390,7 +390,7 @@ compos:
   - hero_names:
     - Oldur
     - Freya
-    - Jumong
+    - Jade
     heros:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
@@ -398,12 +398,12 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    - icon: 42a665b9c285a1243a201c8d533980e5
-      name: Jumong
-      title: jumong
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
     num: 21
-    winrate: 0.6190476190476191
-    wins: 13
+    winrate: 0.7619047619047619
+    wins: 16
   - hero_names:
     - Oldur
     - Shifu
@@ -419,12 +419,12 @@ compos:
       name: Jade
       title: jade
     num: 20
-    winrate: 0.65
-    wins: 13
+    winrate: 0.6
+    wins: 12
   - hero_names:
     - Oldur
     - Freya
-    - Jade
+    - Jumong
     heros:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
@@ -432,12 +432,12 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
+    - icon: 42a665b9c285a1243a201c8d533980e5
+      name: Jumong
+      title: jumong
     num: 20
-    winrate: 0.75
-    wins: 15
+    winrate: 0.6
+    wins: 12
   - hero_names:
     - Rook
     - Oldur
@@ -466,22 +466,9 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 161
-    winrate: 0.546583850931677
-    wins: 88
-  - hero_names:
-    - Oldur
-    - Shifu
-    heros:
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
-    num: 152
-    winrate: 0.6052631578947368
-    wins: 92
+    num: 154
+    winrate: 0.525974025974026
+    wins: 81
   - hero_names:
     - Rook
     - Oldur
@@ -492,9 +479,22 @@ compos:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    num: 152
-    winrate: 0.5789473684210527
-    wins: 88
+    num: 149
+    winrate: 0.5771812080536913
+    wins: 86
+  - hero_names:
+    - Oldur
+    - Shifu
+    heros:
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    num: 148
+    winrate: 0.6216216216216216
+    wins: 92
   - hero_names:
     - Oldur
     - Jade
@@ -505,9 +505,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 116
-    winrate: 0.5517241379310345
-    wins: 64
+    num: 124
+    winrate: 0.5967741935483871
+    wins: 74
   - hero_names:
     - Oldur
     - Raigon
@@ -518,20 +518,20 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 110
-    winrate: 0.5272727272727272
-    wins: 58
+    num: 115
+    winrate: 0.5130434782608696
+    wins: 59
 description: Oldur, a mysterious creature able to bend time and space. He can mend
   wounds with powerful heals and reverse enemy attacks by freezing them in time.
 icon: b0d66b8b9f228724093b8a3e66c3fef6
 layout: character
 name: oldur
 num:
-  threes: 1130
-  twos: 1667
+  threes: 1118
+  twos: 1650
 title: Oldur
 url: characters/oldur.html
 winrate:
-  threes: '52.48'
-  twos: '52.79'
+  threes: '52.68'
+  twos: '52.61'
 ...
