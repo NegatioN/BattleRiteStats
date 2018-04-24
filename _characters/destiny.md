@@ -142,40 +142,40 @@ builds:
       name: System Shock
       type: control
     winrate: '43.8'
-  - damage: '7.5'
-    disable: '1.2'
-    energy: '3.4'
+  - damage: '7.0'
+    disable: '1.3'
+    energy: '3.5'
     num: 13
-    protection: '0.4'
+    protection: '0.1'
     skills:
-    - color: green
-      description: Sky Strike grants you a shield that absorbs up to 12 damage and
-        absorbs an additional 8 damage for each enemy hit. Lasts for 4.
+    - color: red
+      description: Sky Strike deals 6 bonus damage. Also increases its radius by 10.
       icon: 1d95f324f635c9447a68299999e8597e
-      name: Energy Conversion
-      type: survival
+      name: Blast Processing
+      type: offense
+    - color: pink
+      description: Increases Fading Snare duration of Mega Sphere by 1 and reduces
+        its cooldown by 3.
+      icon: 751839d4f58db9445aa7fc86411521a1
+      name: Expansion Pack
+      type: control
     - color: yellow
       description: Increases Magnetic Orb duration by 0.5 and its movement speed bonus
         by 20.
       icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Globetrotter
       type: mobility
-    - color: red
-      description: Charged Bolt deals 1 - 5 bonus damage, based on charge-up duration.
-      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: Power Attachment
-      type: offense
     - color: pink
       description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
-    - color: yellow
-      description: Maximum amount of Pinball bounces increases by 2 and transforms
-        you into Magnetic Orb at the end of duration.
-      icon: 00f3209be1d16c7408fddb035ff74d17
-      name: Transformer
-      type: mobility
+    - color: red
+      description: Increases knockback force of Magnetic Orb by 20 and it deals 4
+        bonus damage.
+      icon: 32189e52d279bcc498ede10b3d3ff6d1
+      name: Violent Revolution
+      type: offense
     winrate: '53.8'
   twos:
   - damage: '7.5'
@@ -318,11 +318,11 @@ builds:
       name: Transformer
       type: mobility
     winrate: '85.7'
-  - damage: '6.3'
-    disable: '1.0'
-    energy: '3.2'
+  - damage: '7.2'
+    disable: '1.3'
+    energy: '3.3'
     num: 13
-    protection: '1.7'
+    protection: '0.9'
     skills:
     - color: green
       description: Sky Strike grants you a shield that absorbs up to 12 damage and
@@ -330,29 +330,29 @@ builds:
       icon: 1d95f324f635c9447a68299999e8597e
       name: Energy Conversion
       type: survival
-    - color: yellow
-      description: Increases Magnetic Orb duration by 0.5 and its movement speed bonus
-        by 20.
-      icon: 32189e52d279bcc498ede10b3d3ff6d1
-      name: Globetrotter
-      type: mobility
+    - color: pink
+      description: Increases Fading Snare duration of Mega Sphere by 1 and reduces
+        its cooldown by 3.
+      icon: 751839d4f58db9445aa7fc86411521a1
+      name: Expansion Pack
+      type: control
     - color: yellow
       description: Allies that move through Plasma Wall have movement speed increased
         by 30 and are granted a Shield for 3.5. The Shield absorbs up to 16 damage.
       icon: 14568f096fcd91f488876796605f5063
       name: Plasma Booster
       type: mobility
-    - color: green
-      description: Firing Power Blaster through a Plasma Wall increases the range
-        by 30 and grants you a shield absorbing 10 damage on hit.
-      icon: 87c684273ffea0845863a8f80b904890
-      name: Plasma Infusion
-      type: survival
     - color: pink
       description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
+    - color: red
+      description: Increases knockback force of Magnetic Orb by 20 and it deals 4
+        bonus damage.
+      icon: 32189e52d279bcc498ede10b3d3ff6d1
+      name: Violent Revolution
+      type: offense
     winrate: '46.2'
 compos:
   threes:
