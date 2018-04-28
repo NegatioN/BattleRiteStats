@@ -27,7 +27,7 @@ def jsonify_datetime(d):
     return d.strftime('%Y-%m-%dT%H:00:00Z')
 
 #Last seven days of replays
-last_patch = datetime(year=2018, month=4, day=25, hour=0)
+last_patch = datetime(year=2018, month=4, day=25, hour=9)
 seven_days_ago = datetime.now() - timedelta(days=7)
 if last_patch < datetime.now() and last_patch > seven_days_ago:
     created_after_date = jsonify_datetime(last_patch)
