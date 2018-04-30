@@ -5,6 +5,7 @@ from helpers import path_leaf
 
 
 to_dir = 'assets'
+num_asset_editions = 2
 
 repo_dir = 'assets/brite_assets'
 if not os.path.isdir(repo_dir):
@@ -20,13 +21,11 @@ for x in  os.listdir(mappings_dir):
         int_dirs.append(int(x))
     except:
         pass
-
-newest_dir = os.path.join(mappings_dir, str([x for x in reversed(sorted(int_dirs))][0]))
-
-print('Getting assets from {}'.format(newest_dir))
+newest_dirs = [os.path.join(mappings_dir, str(x)) for x in list(reversed(sorted(int_dirs)))[:num_asset_editions]]
+print('Getting assets from {}'.format(newest_dirs))
 
 filenames = ['gameplay.json', 'Localization/English.ini']
 
-for x in filenames:
-    shutil.copy(os.path.join(newest_dir, x), os.path.join(to_dir, path_leaf(x)))
-
+for i, y in enumerate(newest_dirs):
+    for x in filenames:
+        shutil.copy(os.path.join(y, x), os.path.join(to_dir, '{}_{}'.format(i, path_leaf(x))))

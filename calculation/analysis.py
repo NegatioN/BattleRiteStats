@@ -9,20 +9,31 @@ import numpy as np
 import re
 from helpers import get_battlerite_type_mapping, get_battlerite_color_mapping
 
-with open('assets/gameplay.json', 'rb') as gplay:
-    gplay = gplay.read()
 
 def load_locale(path):
     with open(path, 'r', encoding='utf-8') as f:
-
         data = [x.strip().split('=') for x in f]
         return {x[0]: x[1] for x in data}
 
+def load_characters(num):
+    with open('assets/{}_gameplay.json'.format(num), 'rb') as gplay:
+        gplay = gplay.read()
+    return json.loads(gplay.decode('utf-8'))['characters']
 
-locale_lookup = load_locale('assets/English.ini')
-characters = json.loads(gplay.decode('utf-8'))['characters']
+def to_brites(characters):
+    return {y['typeID']: y for x in characters for y in x['battlerites']}
+
+
+c1, c2 = load_characters(0), load_characters(1)
+b1, b2 = to_brites(c1), to_brites(c2)
+l1, l2 = load_locale('assets/0_English.ini'), load_locale('assets/1_English.ini')
+
+flattned_battlerites = b2
+flattned_battlerites.update(b1)
+locale_lookup = l2
+locale_lookup.update(l1)  # This overwrites all existing keys with newer values
+characters = c1
 char_id_lookup = {x['typeID']: x for x in characters}
-flattned_battlerites = {y['typeID']: y for x in characters for y in x['battlerites']}
 
 #Temporary hack
 if 2018979014 in flattned_battlerites:
