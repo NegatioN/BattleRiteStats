@@ -24,6 +24,10 @@ characters = json.loads(gplay.decode('utf-8'))['characters']
 char_id_lookup = {x['typeID']: x for x in characters}
 flattned_battlerites = {y['typeID']: y for x in characters for y in x['battlerites']}
 
+#Temporary hack
+if 2018979014 in flattned_battlerites:
+    flattned_battlerites[891919250] = flattned_battlerites[2018979014]
+
 
 main_df = pd.read_csv('assets/character_df.csv')
 match_df = pd.read_csv('assets/match_df.csv')
