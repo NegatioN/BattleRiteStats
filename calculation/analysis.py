@@ -222,9 +222,9 @@ def render_compos(hero_name, compo_list, num):
     n = num if len(h_comps) > num else len(h_comps)
     return sort_dict_array_by_key(h_comps, 'num', rev=True)[:n]
 
-def create_character_page_data(twos, threes):
+def create_character_page_data(twos, threes, num_entries=10):
     chars = []
-    all_entries = [x for x in zip(render_sort(twos, 5), render_sort(threes, 5))]
+    all_entries = [x for x in zip(render_sort(twos, num_entries), render_sort(threes, num_entries))]
     for x in all_entries:
         name = x[0]['name']
         escaped_name = name.replace(' ', '-').lower()
@@ -239,8 +239,8 @@ def create_character_page_data(twos, threes):
                 {'twos': x[0]['builds'],
                  'threes': x[1]['builds']
                  },
-            'compos': {'twos': render_compos(name, twos_compos, 5),
-                       'threes': render_compos(name, threes_compos, 5)},
+            'compos': {'twos': render_compos(name, twos_compos, num_entries),
+                       'threes': render_compos(name, threes_compos, num_entries)},
             'num': {'twos': named_appearance_summary[name]['QUICK2V2']['num'],
                     'threes': named_appearance_summary[name]['QUICK3V3']['num']},
             'winrate': {'twos': prep_output(named_appearance_summary[name]['QUICK2V2']['winrate'] * 100, prec=2),
