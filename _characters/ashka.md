@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '7.9'
+  - damage: '8.0'
     disable: '0.6'
     energy: '3.1'
-    num: 80
+    num: 92
     protection: '0.0'
     skills:
     - color: red
@@ -35,11 +35,11 @@ builds:
       icon: 61e058b8f4b79f4419ec1496f223ee36
       name: Inspiration
       type: utility
-    winrate: '43.8'
-  - damage: '9.0'
+    winrate: '44.6'
+  - damage: '8.9'
     disable: '1.0'
     energy: '3.2'
-    num: 70
+    num: 80
     protection: '0.0'
     skills:
     - color: red
@@ -70,11 +70,11 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '51.4'
-  - damage: '8.0'
+    winrate: '47.5'
+  - damage: '8.2'
     disable: '0.9'
-    energy: '3.5'
-    num: 48
+    energy: '3.6'
+    num: 64
     protection: '0.0'
     skills:
     - color: yellow
@@ -105,7 +105,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '62.5'
+    winrate: '59.4'
   - damage: '7.8'
     disable: '0.8'
     energy: '3.6'
@@ -145,8 +145,8 @@ builds:
     winrate: '43.2'
   - damage: '8.6'
     disable: '1.0'
-    energy: '3.1'
-    num: 26
+    energy: '3.2'
+    num: 29
     protection: '0.0'
     skills:
     - color: red
@@ -177,12 +177,12 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '53.8'
+    winrate: '55.2'
   twos:
-  - damage: '7.6'
-    disable: '0.8'
-    energy: '3.4'
-    num: 42
+  - damage: '7.8'
+    disable: '0.9'
+    energy: '3.5'
+    num: 51
     protection: '0.0'
     skills:
     - color: yellow
@@ -213,11 +213,11 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '40.5'
-  - damage: '7.6'
+    winrate: '45.1'
+  - damage: '7.8'
     disable: '0.9'
     energy: '3.0'
-    num: 21
+    num: 25
     protection: '0.0'
     skills:
     - color: red
@@ -248,7 +248,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '33.3'
+    winrate: '40.0'
   - damage: '9.1'
     disable: '1.0'
     energy: '3.1'
@@ -319,28 +319,29 @@ builds:
       name: Magma
       type: offense
     winrate: '50.0'
-  - damage: '8.4'
+  - damage: '7.5'
     disable: '0.9'
-    energy: '3.4'
+    energy: '3.1'
     num: 13
     protection: '0.0'
     skills:
-    - color: yellow
-      description: Searing Flight increases movement speed by 30 for 2.
+    - color: red
+      description: Searing Flight causes your next Fireball to deal 2 bonus damage
+        and inflict Ignite.
       icon: de69286ec8d6c934c9b04c51d1814b5c
-      name: Burning Feet
-      type: mobility
+      name: Blaze
+      type: offense
+    - color: red
+      description: Fireballs traveling through Firewall turn into Fire Storm bolts.
+      icon: c6d71f7b4598ec14cab637f6d9ffce64
+      name: Conflagration
+      type: offense
     - color: yellow
       description: Fire Storm can be cast while moving at 50 movement speed and 30
         while channeling.
       icon: 117c35c7f757858428a733d8da4982be
       name: Heat
       type: mobility
-    - color: red
-      description: Flamestrike deals 10 bonus damage and inflicts Ignite.
-      icon: 48122c1a1a8cae7408409c90126f11cb
-      name: Inferno
-      type: offense
     - color: blue
       description: Increases energy gain from abilities by 10 and maximum energy by
         25.
@@ -353,30 +354,30 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '61.5'
+    winrate: '53.8'
 compos:
   threes:
   - hero_names:
-    - Rook
-    - Oldur
     - Ashka
+    - Oldur
+    - Rook
     heros:
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
     - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
       name: Ashka
       title: ashka
-    num: 25
-    winrate: 0.64
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    num: 27
+    winrate: 0.5925925925925926
     wins: 16
   - hero_names:
     - Ashka
     - Thorn
-    - Poloma
+    - Blossom
     heros:
     - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
       name: Ashka
@@ -384,16 +385,16 @@ compos:
     - icon: aab126231d9ff344f9f88ab230a5e66f
       name: Thorn
       title: thorn
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    num: 18
-    winrate: 0.2777777777777778
-    wins: 5
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    num: 21
+    winrate: 0.6666666666666666
+    wins: 14
   - hero_names:
     - Ashka
     - Thorn
-    - Blossom
+    - Poloma
     heros:
     - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
       name: Ashka
@@ -401,12 +402,12 @@ compos:
     - icon: aab126231d9ff344f9f88ab230a5e66f
       name: Thorn
       title: thorn
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    num: 16
-    winrate: 0.5625
-    wins: 9
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    num: 21
+    winrate: 0.38095238095238093
+    wins: 8
   - hero_names:
     - Rook
     - Blossom
@@ -421,26 +422,26 @@ compos:
     - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
       name: Ashka
       title: ashka
-    num: 16
-    winrate: 0.5625
+    num: 17
+    winrate: 0.5294117647058824
     wins: 9
   - hero_names:
     - Ashka
-    - Poloma
-    - Rook
+    - Thorn
+    - Oldur
     heros:
     - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
       name: Ashka
       title: ashka
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
     num: 15
-    winrate: 0.4666666666666667
-    wins: 7
+    winrate: 0.5333333333333333
+    wins: 8
   twos:
   - hero_names:
     - Ashka
@@ -452,22 +453,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 62
-    winrate: 0.5806451612903226
-    wins: 36
-  - hero_names:
-    - Ashka
-    - Rook
-    heros:
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
-    num: 44
-    winrate: 0.36363636363636365
-    wins: 16
+    num: 72
+    winrate: 0.5972222222222222
+    wins: 43
   - hero_names:
     - Ashka
     - Oldur
@@ -478,9 +466,22 @@ compos:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    num: 42
-    winrate: 0.6428571428571429
-    wins: 27
+    num: 49
+    winrate: 0.6122448979591837
+    wins: 30
+  - hero_names:
+    - Ashka
+    - Rook
+    heros:
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    num: 47
+    winrate: 0.3829787234042553
+    wins: 18
   - hero_names:
     - Ashka
     - Poloma
@@ -491,9 +492,9 @@ compos:
     - icon: 9872f8cd16d7327418b09294cfa319e6
       name: Poloma
       title: poloma
-    num: 26
-    winrate: 0.38461538461538464
-    wins: 10
+    num: 29
+    winrate: 0.41379310344827586
+    wins: 12
   - hero_names:
     - Ashka
     - Croak
@@ -504,9 +505,9 @@ compos:
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    num: 22
-    winrate: 0.6818181818181818
-    wins: 15
+    num: 27
+    winrate: 0.6296296296296297
+    wins: 17
 description: A masked creature specialized in dark sorcery and pyro-kinetic powers.
   Casts devastating fire spells on his opponents and avoids close combat. Don't be
   fooled by his size, Ashka's inner demon strikes fear into all who face him.
@@ -514,11 +515,11 @@ icon: 02fbe1fea9e22054a9ab1b0c5007dbae
 layout: character
 name: ashka
 num:
-  threes: 588
-  twos: 364
+  threes: 691
+  twos: 412
 title: Ashka
 url: characters/ashka.html
 winrate:
-  threes: '48.98'
-  twos: '42.58'
+  threes: '48.77'
+  twos: '43.20'
 ...
