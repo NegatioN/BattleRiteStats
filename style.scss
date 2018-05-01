@@ -364,6 +364,7 @@ td > div {
 }
 
 .build-wrapper {
+  padding: 5px 0;
   margin: 3px 0px 0px 0px;
   border-radius: 5px;
   background: linear-gradient(to bottom, rgba(166, 166, 166, .2), rgba(166, 166, 166, .1));
@@ -378,7 +379,6 @@ td > div {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  margin-top: 5px;
 }
 
 .character-layout {
