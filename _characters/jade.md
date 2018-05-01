@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '6.4'
+  - damage: '6.3'
     disable: '1.0'
-    energy: '3.8'
-    num: 46
+    energy: '3.7'
+    num: 50
     protection: '0.9'
     skills:
     - color: red
@@ -36,7 +36,7 @@ builds:
       icon: 20e8f262eca757942bc23d94aa73ab2a
       name: Surprise Shot
       type: control
-    winrate: '56.5'
+    winrate: '58.0'
   - damage: '6.8'
     disable: '1.1'
     energy: '3.8'
@@ -143,10 +143,10 @@ builds:
       name: Gunslinger
       type: utility
     winrate: '54.1'
-  - damage: '6.8'
+  - damage: '6.7'
     disable: '1.0'
     energy: '4.0'
-    num: 34
+    num: 35
     protection: '1.2'
     skills:
     - color: red
@@ -177,7 +177,7 @@ builds:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    winrate: '50.0'
+    winrate: '48.6'
   twos:
   - damage: '6.4'
     disable: '0.8'
@@ -249,6 +249,40 @@ builds:
       name: Gunslinger
       type: utility
     winrate: '45.7'
+  - damage: '6.9'
+    disable: '0.9'
+    energy: '3.4'
+    num: 20
+    protection: '0.8'
+    skills:
+    - color: yellow
+      description: Increases movement speed by 10.
+      icon: bbe2697d5982f654d8dab2223790bd77
+      name: Agility
+      type: mobility
+    - color: red
+      description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
+        of invisibility by 0.3.\n
+      icon: c5da66a86ca45a1449a49d55cc92d1fc
+      name: Ambush
+      type: offense
+    - color: red
+      description: ^2Snipe^- deals 6 bonus damage.
+      icon: 20e8f262eca757942bc23d94aa73ab2a
+      name: Deadly Focus
+      type: offense
+    - color: green
+      description: Disabling Shot hits heal you for 6 health and Spell Block interrupts
+        heal you for 10 bonus health.
+      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
+      name: Delight
+      type: survival
+    - color: red
+      description: Disabling Shot hits instantly reload Revolver Shot with 6 ammo.
+      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
+      name: Desperado
+      type: offense
+    winrate: '45.0'
   - damage: '8.0'
     disable: '1.0'
     energy: '4.2'
@@ -284,40 +318,6 @@ builds:
       name: Explosive Jump
       type: mobility
     winrate: '60.0'
-  - damage: '6.9'
-    disable: '0.9'
-    energy: '3.4'
-    num: 20
-    protection: '0.8'
-    skills:
-    - color: yellow
-      description: Increases movement speed by 10.
-      icon: bbe2697d5982f654d8dab2223790bd77
-      name: Agility
-      type: mobility
-    - color: red
-      description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
-        of invisibility by 0.3.\n
-      icon: c5da66a86ca45a1449a49d55cc92d1fc
-      name: Ambush
-      type: offense
-    - color: red
-      description: ^2Snipe^- deals 6 bonus damage.
-      icon: 20e8f262eca757942bc23d94aa73ab2a
-      name: Deadly Focus
-      type: offense
-    - color: green
-      description: Disabling Shot hits heal you for 6 health and Spell Block interrupts
-        heal you for 10 bonus health.
-      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
-      name: Delight
-      type: survival
-    - color: red
-      description: Disabling Shot hits instantly reload Revolver Shot with 6 ammo.
-      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
-      name: Desperado
-      type: offense
-    winrate: '45.0'
   - damage: '7.2'
     disable: '1.0'
     energy: '4.1'
@@ -369,9 +369,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 30
-    winrate: 0.6
-    wins: 18
+    num: 31
+    winrate: 0.6129032258064516
+    wins: 19
   - hero_names:
     - Thorn
     - Poloma
@@ -386,9 +386,26 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 24
-    winrate: 0.4583333333333333
-    wins: 11
+    num: 25
+    winrate: 0.48
+    wins: 12
+  - hero_names:
+    - Poloma
+    - Bakko
+    - Jade
+    heros:
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 21
+    winrate: 0.6190476190476191
+    wins: 13
   - hero_names:
     - Poloma
     - Raigon
@@ -423,23 +440,6 @@ compos:
     num: 18
     winrate: 0.6111111111111112
     wins: 11
-  - hero_names:
-    - Ulric
-    - Rook
-    - Jade
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 16
-    winrate: 0.5
-    wins: 8
   twos:
   - hero_names:
     - Blossom
@@ -451,8 +451,8 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 63
-    winrate: 0.5079365079365079
+    num: 66
+    winrate: 0.48484848484848486
     wins: 32
   - hero_names:
     - Rook
@@ -464,9 +464,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 58
-    winrate: 0.4482758620689655
-    wins: 26
+    num: 60
+    winrate: 0.45
+    wins: 27
   - hero_names:
     - Oldur
     - Jade
@@ -477,9 +477,22 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 44
-    winrate: 0.4090909090909091
-    wins: 18
+    num: 45
+    winrate: 0.4222222222222222
+    wins: 19
+  - hero_names:
+    - Croak
+    - Jade
+    heros:
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 28
+    winrate: 0.5
+    wins: 14
   - hero_names:
     - Pestilus
     - Jade
@@ -493,19 +506,6 @@ compos:
     num: 27
     winrate: 0.2962962962962963
     wins: 8
-  - hero_names:
-    - Croak
-    - Jade
-    heros:
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 27
-    winrate: 0.5185185185185185
-    wins: 14
 description: A mysterious gunslinger. Born with eagle-eyes and armed with a lethal
   sniper rifle, Jade's pinpoint accuracy is a serious threat for anyone who enters
   the arena. For close encounters, she prefers a combination of stealth and trusty
@@ -514,11 +514,11 @@ icon: 38b75268719e2b640a6d62250e102ffa
 layout: character
 name: jade
 num:
-  threes: 826
-  twos: 463
+  threes: 858
+  twos: 480
 title: Jade
 url: characters/jade.html
 winrate:
-  threes: '50.73'
-  twos: '42.33'
+  threes: '51.05'
+  twos: '42.08'
 ...

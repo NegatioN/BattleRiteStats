@@ -35,10 +35,10 @@ builds:
       name: U-Turn
       type: utility
     winrate: '51.0'
-  - damage: '7.4'
+  - damage: '7.5'
     disable: '1.1'
     energy: '4.2'
-    num: 51
+    num: 54
     protection: '0.6'
     skills:
     - color: yellow
@@ -68,12 +68,12 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '52.9'
-  - damage: '8.2'
+    winrate: '53.7'
+  - damage: '8.1'
     disable: '0.9'
     energy: '4.0'
-    num: 15
-    protection: '0.8'
+    num: 16
+    protection: '0.7'
     skills:
     - color: red
       description: Rocket X-67 deals 4 bonus damage.
@@ -101,7 +101,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '26.7'
+    winrate: '25.0'
   - damage: '7.5'
     disable: '1.0'
     energy: '3.9'
@@ -138,7 +138,7 @@ builds:
   - damage: '6.8'
     disable: '1.0'
     energy: '3.8'
-    num: 11
+    num: 12
     protection: '0.8'
     skills:
     - color: yellow
@@ -167,13 +167,13 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: Rocket Boosters
       type: mobility
-    winrate: '27.3'
+    winrate: '33.3'
   twos:
   - damage: '7.0'
     disable: '1.1'
     energy: '4.0'
-    num: 100
-    protection: '0.5'
+    num: 111
+    protection: '0.6'
     skills:
     - color: yellow
       description: Zap knocks nearby enemies back and grants 25 Fading Haste for 2.
@@ -201,11 +201,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: Rocket Boosters
       type: mobility
-    winrate: '61.0'
-  - damage: '7.7'
+    winrate: '59.5'
+  - damage: '7.5'
     disable: '1.0'
-    energy: '4.1'
-    num: 35
+    energy: '3.9'
+    num: 42
     protection: '0.6'
     skills:
     - color: yellow
@@ -234,11 +234,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '54.3'
+    winrate: '54.8'
   - damage: '8.0'
     disable: '0.9'
     energy: '3.7'
-    num: 22
+    num: 23
     protection: '0.8'
     skills:
     - color: red
@@ -267,7 +267,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '45.5'
+    winrate: '47.8'
   - damage: '7.5'
     disable: '1.2'
     energy: '2.8'
@@ -336,23 +336,6 @@ builds:
 compos:
   threes:
   - hero_names:
-    - Rook
-    - Iva
-    - Blossom
-    heros:
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
-    - icon: decba44679fbdae4bb7d0d1cb6a97682
-      name: Iva
-      title: iva
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    num: 12
-    winrate: 0.6666666666666666
-    wins: 8
-  - hero_names:
     - Thorn
     - Iva
     - Blossom
@@ -369,6 +352,23 @@ compos:
     num: 12
     winrate: 0.5
     wins: 6
+  - hero_names:
+    - Rook
+    - Iva
+    - Blossom
+    heros:
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: decba44679fbdae4bb7d0d1cb6a97682
+      name: Iva
+      title: iva
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    num: 12
+    winrate: 0.6666666666666666
+    wins: 8
   - hero_names:
     - Iva
     - Blossom
@@ -431,9 +431,9 @@ compos:
     - icon: decba44679fbdae4bb7d0d1cb6a97682
       name: Iva
       title: iva
-    num: 78
-    winrate: 0.5769230769230769
-    wins: 45
+    num: 79
+    winrate: 0.5822784810126582
+    wins: 46
   - hero_names:
     - Iva
     - Blossom
@@ -444,22 +444,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 58
-    winrate: 0.603448275862069
-    wins: 35
-  - hero_names:
-    - Iva
-    - Croak
-    heros:
-    - icon: decba44679fbdae4bb7d0d1cb6a97682
-      name: Iva
-      title: iva
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
-    num: 29
-    winrate: 0.6206896551724138
-    wins: 18
+    num: 61
+    winrate: 0.5901639344262295
+    wins: 36
   - hero_names:
     - Iva
     - Oldur
@@ -470,9 +457,22 @@ compos:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    num: 28
-    winrate: 0.5
-    wins: 14
+    num: 36
+    winrate: 0.5555555555555556
+    wins: 20
+  - hero_names:
+    - Iva
+    - Croak
+    heros:
+    - icon: decba44679fbdae4bb7d0d1cb6a97682
+      name: Iva
+      title: iva
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
+    num: 30
+    winrate: 0.6
+    wins: 18
   - hero_names:
     - Iva
     - Pearl
@@ -483,9 +483,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 23
-    winrate: 0.43478260869565216
-    wins: 10
+    num: 24
+    winrate: 0.4583333333333333
+    wins: 11
 description: A scavenger from the outer realms. Iva has engineered her own arsenal
   of weapons. Firing crazy rockets or unleashing a storm of bullets is her way of
   greeting her opponents in the Arena.
@@ -493,11 +493,11 @@ icon: decba44679fbdae4bb7d0d1cb6a97682
 layout: character
 name: iva
 num:
-  threes: 386
-  twos: 449
+  threes: 399
+  twos: 478
 title: Iva
 url: characters/iva.html
 winrate:
-  threes: '49.48'
-  twos: '50.33'
+  threes: '49.37'
+  twos: '50.42'
 ...

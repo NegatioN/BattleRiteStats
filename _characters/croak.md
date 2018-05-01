@@ -4,7 +4,7 @@ builds:
   - damage: '7.8'
     disable: '1.5'
     energy: '3.3'
-    num: 73
+    num: 76
     protection: '1.3'
     skills:
     - color: blue
@@ -35,7 +35,7 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '56.2'
+    winrate: '55.3'
   - damage: '7.8'
     disable: '1.5'
     energy: '3.6'
@@ -103,6 +103,39 @@ builds:
       name: Triple Strike
       type: offense
     winrate: '51.6'
+  - damage: '6.0'
+    disable: '0.9'
+    energy: '3.6'
+    num: 28
+    protection: '1.5'
+    skills:
+    - color: blue
+      description: Increases invisibility duration of Camouflage by 1.
+      icon: 97d6d4df3883adc4d99a900f62576ff7
+      name: Cut to the Chase
+      type: utility
+    - color: red
+      description: Activating Toxin Blades increases attack speed of your next 6 Blade
+        Flurry attacks. Also increases Toxin Blades bonus damage by 1.
+      icon: 2c885df2336558e489fbe57b32a9fb94
+      name: Frog Frenzy
+      type: offense
+    - color: yellow
+      description: Increases Noxious Lunge range by 30. It deals 4 bonus damage.
+      icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
+      name: Frog Slice
+      type: mobility
+    - color: green
+      description: Frog Leap hits heal you for 12 health.
+      icon: f4d1c9994ff77524bacb0bfe5347e118
+      name: Jungle Toad
+      type: survival
+    - color: green
+      description: Increases healing effect of Toxin from 8 to 16.
+      icon: 84e29daadee87714294bbdabd3fdd4ab
+      name: Mending Toxin
+      type: survival
+    winrate: '60.7'
   - damage: '6.8'
     disable: '1.3'
     energy: '3.1'
@@ -138,41 +171,6 @@ builds:
       name: Spit Spit Spit
       type: utility
     winrate: '56.5'
-  - damage: '6.3'
-    disable: '0.8'
-    energy: '3.4'
-    num: 21
-    protection: '2.0'
-    skills:
-    - color: red
-      description: Activating Toxin Blades increases attack speed of your next 6 Blade
-        Flurry attacks. Also increases Toxin Blades bonus damage by 1.
-      icon: 2c885df2336558e489fbe57b32a9fb94
-      name: Frog Frenzy
-      type: offense
-    - color: green
-      description: Frog Leap hits heal you for 12 health.
-      icon: f4d1c9994ff77524bacb0bfe5347e118
-      name: Jungle Toad
-      type: survival
-    - color: green
-      description: Increases healing effect of Toxin from 8 to 16.
-      icon: 84e29daadee87714294bbdabd3fdd4ab
-      name: Mending Toxin
-      type: survival
-    - color: blue
-      description: Toxin Muck gains 1 ability charge but increases its cooldown by
-        1.
-      icon: 84e29daadee87714294bbdabd3fdd4ab
-      name: Spit Spit Spit
-      type: utility
-    - color: red
-      description: Frog Leap causes your next 3 Blade Flurry attacks to deal 2 bonus
-        damage.
-      icon: f4d1c9994ff77524bacb0bfe5347e118
-      name: Triple Strike
-      type: offense
-    winrate: '42.9'
   twos:
   - damage: '7.7'
     disable: '0.6'
@@ -211,7 +209,7 @@ builds:
   - damage: '6.9'
     disable: '0.6'
     energy: '3.1'
-    num: 35
+    num: 36
     protection: '1.9'
     skills:
     - color: blue
@@ -240,7 +238,7 @@ builds:
       icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Mending Toxin
       type: survival
-    winrate: '40.0'
+    winrate: '41.7'
   - damage: '6.6'
     disable: '0.9'
     energy: '3.2'
@@ -417,22 +415,22 @@ compos:
     winrate: 0.5
     wins: 8
   - hero_names:
-    - Poloma
+    - Pestilus
     - Croak
-    - Alysia
+    - Jade
     heros:
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
     num: 15
-    winrate: 0.3333333333333333
-    wins: 5
+    winrate: 0.6666666666666666
+    wins: 10
   twos:
   - hero_names:
     - Blossom
@@ -444,9 +442,9 @@ compos:
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    num: 75
-    winrate: 0.6
-    wins: 45
+    num: 81
+    winrate: 0.5802469135802469
+    wins: 47
   - hero_names:
     - Rook
     - Croak
@@ -457,9 +455,9 @@ compos:
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    num: 64
-    winrate: 0.484375
-    wins: 31
+    num: 67
+    winrate: 0.4925373134328358
+    wins: 33
   - hero_names:
     - Oldur
     - Croak
@@ -470,9 +468,9 @@ compos:
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    num: 64
-    winrate: 0.625
-    wins: 40
+    num: 66
+    winrate: 0.6212121212121212
+    wins: 41
   - hero_names:
     - Croak
     - Sirius
@@ -487,18 +485,18 @@ compos:
     winrate: 0.4897959183673469
     wins: 24
   - hero_names:
-    - Pestilus
     - Croak
+    - Pearl
     heros:
-    - icon: a7e0c7a6f0fa2ef49bf684950de34567
-      name: Pestilus
-      title: pestilus
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
     num: 44
-    winrate: 0.5454545454545454
-    wins: 24
+    winrate: 0.5909090909090909
+    wins: 26
 description: His background is shrouded in mystery, his movements are supernatural
   and his reputation is whispered about. Croak loves to surprise his enemies, using
   his mobility to move in and out. His chameleonic stealth and flexible fighting style
@@ -507,11 +505,11 @@ icon: d3038956f9767d74bbbce0659b07474d
 layout: character
 name: croak
 num:
-  threes: 710
-  twos: 661
+  threes: 733
+  twos: 688
 title: Croak
 url: characters/croak.html
 winrate:
-  threes: '46.34'
-  twos: '52.04'
+  threes: '46.66'
+  twos: '51.60'
 ...

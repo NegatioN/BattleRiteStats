@@ -71,8 +71,8 @@ builds:
   - damage: '6.4'
     disable: '0.8'
     energy: '2.4'
-    num: 35
-    protection: '1.6'
+    num: 38
+    protection: '1.7'
     skills:
     - color: pink
       description: Claw of the Wicked inflicts both Root for 1.2 and Curse.
@@ -100,11 +100,11 @@ builds:
       icon: 13fbbdb9e7cbde8429053e33e1022fa8
       name: Tenacious Demon
       type: offense
-    winrate: '51.4'
-  - damage: '6.7'
+    winrate: '52.6'
+  - damage: '6.8'
     disable: '0.9'
     energy: '3.0'
-    num: 26
+    num: 31
     protection: '1.9'
     skills:
     - color: red
@@ -133,11 +133,11 @@ builds:
       icon: 13fbbdb9e7cbde8429053e33e1022fa8
       name: Tenacious Demon
       type: offense
-    winrate: '38.5'
+    winrate: '48.4'
   - damage: '6.9'
     disable: '0.9'
     energy: '2.5'
-    num: 24
+    num: 26
     protection: '1.6'
     skills:
     - color: red
@@ -167,12 +167,12 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    winrate: '45.8'
+    winrate: '42.3'
   twos:
   - damage: '6.7'
     disable: '1.1'
     energy: '2.9'
-    num: 43
+    num: 45
     protection: '2.1'
     skills:
     - color: pink
@@ -201,7 +201,7 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    winrate: '58.1'
+    winrate: '57.8'
   - damage: '6.5'
     disable: '1.1'
     energy: '2.7'
@@ -271,7 +271,7 @@ builds:
   - damage: '6.8'
     disable: '1.0'
     energy: '3.2'
-    num: 23
+    num: 24
     protection: '2.2'
     skills:
     - color: pink
@@ -300,7 +300,7 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    winrate: '65.2'
+    winrate: '66.7'
   - damage: '6.0'
     disable: '0.9'
     energy: '3.1'
@@ -389,6 +389,23 @@ compos:
     winrate: 0.6153846153846154
     wins: 8
   - hero_names:
+    - Poloma
+    - Jade
+    - Ruh Kaan
+    heros:
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: bb37e5d448c511e47b808987d0d4f9e8
+      name: Ruh Kaan
+      title: ruh-kaan
+    num: 12
+    winrate: 0.5833333333333334
+    wins: 7
+  - hero_names:
     - Oldur
     - Jumong
     - Ruh Kaan
@@ -405,23 +422,6 @@ compos:
     num: 12
     winrate: 0.4166666666666667
     wins: 5
-  - hero_names:
-    - Poloma
-    - Jade
-    - Ruh Kaan
-    heros:
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    - icon: bb37e5d448c511e47b808987d0d4f9e8
-      name: Ruh Kaan
-      title: ruh-kaan
-    num: 11
-    winrate: 0.6363636363636364
-    wins: 7
   twos:
   - hero_names:
     - Blossom
@@ -433,9 +433,9 @@ compos:
     - icon: bb37e5d448c511e47b808987d0d4f9e8
       name: Ruh Kaan
       title: ruh-kaan
-    num: 74
-    winrate: 0.5135135135135135
-    wins: 38
+    num: 78
+    winrate: 0.5
+    wins: 39
   - hero_names:
     - Oldur
     - Ruh Kaan
@@ -446,9 +446,9 @@ compos:
     - icon: bb37e5d448c511e47b808987d0d4f9e8
       name: Ruh Kaan
       title: ruh-kaan
-    num: 55
-    winrate: 0.5454545454545454
-    wins: 30
+    num: 58
+    winrate: 0.5689655172413793
+    wins: 33
   - hero_names:
     - Rook
     - Ruh Kaan
@@ -459,9 +459,9 @@ compos:
     - icon: bb37e5d448c511e47b808987d0d4f9e8
       name: Ruh Kaan
       title: ruh-kaan
-    num: 53
-    winrate: 0.7358490566037735
-    wins: 39
+    num: 54
+    winrate: 0.7407407407407407
+    wins: 40
   - hero_names:
     - Pearl
     - Ruh Kaan
@@ -472,9 +472,9 @@ compos:
     - icon: bb37e5d448c511e47b808987d0d4f9e8
       name: Ruh Kaan
       title: ruh-kaan
-    num: 44
-    winrate: 0.6363636363636364
-    wins: 28
+    num: 50
+    winrate: 0.64
+    wins: 32
   - hero_names:
     - Sirius
     - Ruh Kaan
@@ -485,9 +485,9 @@ compos:
     - icon: bb37e5d448c511e47b808987d0d4f9e8
       name: Ruh Kaan
       title: ruh-kaan
-    num: 35
-    winrate: 0.5142857142857142
-    wins: 18
+    num: 37
+    winrate: 0.5405405405405406
+    wins: 20
 description: "Ruh Kaan was awoken when a grave robber desecrated the sacred crypts\
   \ Ark\u2019dun. Pursuing the trespasser led him to the Arenas where he is still\
   \ tracking his quarry. He wields his dark powers to remove those who would stand\
@@ -496,11 +496,11 @@ icon: bb37e5d448c511e47b808987d0d4f9e8
 layout: character
 name: ruh-kaan
 num:
-  threes: 565
-  twos: 578
+  threes: 598
+  twos: 614
 title: Ruh Kaan
 url: characters/ruh-kaan.html
 winrate:
-  threes: '49.20'
-  twos: '52.42'
+  threes: '49.67'
+  twos: '52.44'
 ...

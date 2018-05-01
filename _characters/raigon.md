@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '7.1'
+  - damage: '7.0'
     disable: '1.2'
     energy: '3.5'
-    num: 56
+    num: 57
     protection: '1.4'
     skills:
     - color: grey
@@ -36,11 +36,11 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    winrate: '53.6'
-  - damage: '7.0'
+    winrate: '52.6'
+  - damage: '7.1'
     disable: '1.4'
     energy: '3.7'
-    num: 50
+    num: 51
     protection: '1.9'
     skills:
     - color: grey
@@ -71,7 +71,7 @@ builds:
       icon: fbfb00ff4fa4bc542b54639b84406f01
       name: Riposte
       type: offense
-    winrate: '44.0'
+    winrate: '43.1'
   - damage: '6.7'
     disable: '1.1'
     energy: '3.8'
@@ -179,8 +179,8 @@ builds:
   twos:
   - damage: '6.6'
     disable: '1.1'
-    energy: '3.0'
-    num: 69
+    energy: '2.9'
+    num: 84
     protection: '1.5'
     skills:
     - color: grey
@@ -212,11 +212,11 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    winrate: '53.6'
+    winrate: '56.0'
   - damage: '7.4'
     disable: '1.3'
-    energy: '3.9'
-    num: 50
+    energy: '3.8'
+    num: 67
     protection: '1.8'
     skills:
     - color: blue
@@ -247,11 +247,11 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    winrate: '44.0'
+    winrate: '46.3'
   - damage: '7.0'
     disable: '1.3'
     energy: '3.7'
-    num: 46
+    num: 48
     protection: '1.9'
     skills:
     - color: grey
@@ -282,46 +282,11 @@ builds:
       icon: fbfb00ff4fa4bc542b54639b84406f01
       name: Riposte
       type: offense
-    winrate: '58.7'
-  - damage: '6.8'
-    disable: '1.2'
-    energy: '3.3'
-    num: 36
-    protection: '1.1'
-    skills:
-    - color: grey
-      description: Seismic Shock can be recast to leap to the airborne enemy and strike
-        them, dealing 6 damage and increasing air duration by 0.7.
-      icon: 3c1f1a5c65f54594a9d3ba17b8f1b2a2
-      name: Aerial Strike
-      type: mixed
-    - color: blue
-      description: Dragon Palm hits allow you to recast it for 1.5.
-      icon: d25b4fc0d427d424891492d2b61469a9
-      name: Dragon Mastery
-      type: utility
-    - color: teal
-      description: Heavenly Strike inflicts 50 Weaken for 2.
-      icon: 47dabb046c0ec4d4c96bde0832713a46
-      name: Hawk Dive
-      type: support
-    - color: red
-      description: When Parry expires, perform a Spinning Slash. It deals 10 damage
-        and inflict Stun for 0.3.
-      icon: fbfb00ff4fa4bc542b54639b84406f01
-      name: Riposte
-      type: offense
-    - color: red
-      description: Heavenly Strike deals 8 bonus damage and inflicts Fading Snare
-        for 1.2.
-      icon: 47dabb046c0ec4d4c96bde0832713a46
-      name: Royal Descent
-      type: offense
-    winrate: '47.2'
-  - damage: '7.1'
+    winrate: '58.3'
+  - damage: '7.2'
     disable: '1.5'
-    energy: '3.1'
-    num: 28
+    energy: '3.2'
+    num: 37
     protection: '1.5'
     skills:
     - color: blue
@@ -353,7 +318,42 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    winrate: '64.3'
+    winrate: '70.3'
+  - damage: '6.8'
+    disable: '1.2'
+    energy: '3.3'
+    num: 37
+    protection: '1.1'
+    skills:
+    - color: grey
+      description: Seismic Shock can be recast to leap to the airborne enemy and strike
+        them, dealing 6 damage and increasing air duration by 0.7.
+      icon: 3c1f1a5c65f54594a9d3ba17b8f1b2a2
+      name: Aerial Strike
+      type: mixed
+    - color: blue
+      description: Dragon Palm hits allow you to recast it for 1.5.
+      icon: d25b4fc0d427d424891492d2b61469a9
+      name: Dragon Mastery
+      type: utility
+    - color: teal
+      description: Heavenly Strike inflicts 50 Weaken for 2.
+      icon: 47dabb046c0ec4d4c96bde0832713a46
+      name: Hawk Dive
+      type: support
+    - color: red
+      description: When Parry expires, perform a Spinning Slash. It deals 10 damage
+        and inflict Stun for 0.3.
+      icon: fbfb00ff4fa4bc542b54639b84406f01
+      name: Riposte
+      type: offense
+    - color: red
+      description: Heavenly Strike deals 8 bonus damage and inflicts Fading Snare
+        for 1.2.
+      icon: 47dabb046c0ec4d4c96bde0832713a46
+      name: Royal Descent
+      type: offense
+    winrate: '45.9'
 compos:
   threes:
   - hero_names:
@@ -452,9 +452,9 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 111
-    winrate: 0.5765765765765766
-    wins: 64
+    num: 120
+    winrate: 0.5666666666666667
+    wins: 68
   - hero_names:
     - Oldur
     - Raigon
@@ -465,9 +465,9 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 75
-    winrate: 0.6
-    wins: 45
+    num: 85
+    winrate: 0.5882352941176471
+    wins: 50
   - hero_names:
     - Raigon
     - Pearl
@@ -478,22 +478,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 68
-    winrate: 0.5294117647058824
-    wins: 36
-  - hero_names:
-    - Sirius
-    - Raigon
-    heros:
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    num: 60
-    winrate: 0.5333333333333333
-    wins: 32
+    num: 74
+    winrate: 0.5405405405405406
+    wins: 40
   - hero_names:
     - Rook
     - Raigon
@@ -504,9 +491,22 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 59
-    winrate: 0.423728813559322
-    wins: 25
+    num: 73
+    winrate: 0.410958904109589
+    wins: 30
+  - hero_names:
+    - Sirius
+    - Raigon
+    heros:
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    num: 65
+    winrate: 0.5384615384615384
+    wins: 35
 description: Raigon, formerly the crown prince of Quna, is a skilled melee fighter
   trained in two-handed swordsmanship and martial arts. He hopes to break the evil
   spell cast upon his father and return home. For now, the arena serves as a decent
@@ -515,11 +515,11 @@ icon: 6c2252900d15cb344a5240f30d3ba705
 layout: character
 name: raigon
 num:
-  threes: 879
-  twos: 826
+  threes: 901
+  twos: 923
 title: Raigon
 url: characters/raigon.html
 winrate:
-  threes: '49.49'
-  twos: '46.00'
+  threes: '49.06'
+  twos: '46.59'
 ...

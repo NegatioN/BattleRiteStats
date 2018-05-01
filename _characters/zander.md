@@ -1,11 +1,11 @@
 ---
 builds:
   threes:
-  - damage: '3.2'
+  - damage: '3.3'
     disable: '0.4'
-    energy: '3.0'
-    num: 24
-    protection: '4.2'
+    energy: '3.1'
+    num: 26
+    protection: '4.3'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 0.5 and damage taken
@@ -35,7 +35,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '58.3'
+    winrate: '61.5'
   - damage: '2.7'
     disable: '0.4'
     energy: '3.4'
@@ -105,41 +105,6 @@ builds:
       name: Stacked Deck
       type: mixed
     winrate: '38.5'
-  - damage: '3.9'
-    disable: '0.5'
-    energy: '3.1'
-    num: 8
-    protection: '4.6'
-    skills:
-    - color: red
-      description: Increases the duration of Arcane Catalyst by 0.5 and damage taken
-        by 5.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Arcane Conductor
-      type: offense
-    - color: teal
-      description: Hearts restores 6 health over the duration.
-      icon: 144efc709ac628542aee319b14932b2c
-      name: Heart Restoration
-      type: support
-    - color: yellow
-      description: Teleporting yourself or an ally with Portal grants target a 50
-        Fading Haste for 2.
-      icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Late to the Show
-      type: mobility
-    - color: red
-      description: Sheep Trick inflicts Arcane Catalyst on targets hit.
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: Lead Astray
-      type: offense
-    - color: blue
-      description: Increase the health of Mirror Image illusions by 10 and duration
-        by 2.
-      icon: 2632a24f2167af14f9869abb401dd67f
-      name: Phantasmagoria
-      type: utility
-    winrate: '37.5'
   - damage: '3.5'
     disable: '0.4'
     energy: '2.9'
@@ -175,6 +140,41 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
+    winrate: '37.5'
+  - damage: '3.9'
+    disable: '0.5'
+    energy: '3.1'
+    num: 8
+    protection: '4.6'
+    skills:
+    - color: red
+      description: Increases the duration of Arcane Catalyst by 0.5 and damage taken
+        by 5.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Arcane Conductor
+      type: offense
+    - color: teal
+      description: Hearts restores 6 health over the duration.
+      icon: 144efc709ac628542aee319b14932b2c
+      name: Heart Restoration
+      type: support
+    - color: yellow
+      description: Teleporting yourself or an ally with Portal grants target a 50
+        Fading Haste for 2.
+      icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Late to the Show
+      type: mobility
+    - color: red
+      description: Sheep Trick inflicts Arcane Catalyst on targets hit.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: Lead Astray
+      type: offense
+    - color: blue
+      description: Increase the health of Mirror Image illusions by 10 and duration
+        by 2.
+      icon: 2632a24f2167af14f9869abb401dd67f
+      name: Phantasmagoria
+      type: utility
     winrate: '37.5'
   twos:
   - damage: '3.4'
@@ -249,41 +249,6 @@ builds:
       name: Stacked Deck
       type: mixed
     winrate: '50.0'
-  - damage: '3.0'
-    disable: '0.4'
-    energy: '3.2'
-    num: 5
-    protection: '3.4'
-    skills:
-    - color: red
-      description: Increases the duration of Arcane Catalyst by 0.5 and damage taken
-        by 5.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Arcane Conductor
-      type: offense
-    - color: teal
-      description: Hearts restores 6 health over the duration.
-      icon: 144efc709ac628542aee319b14932b2c
-      name: Heart Restoration
-      type: support
-    - color: red
-      description: Sheep Trick inflicts Arcane Catalyst on targets hit.
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: Lead Astray
-      type: offense
-    - color: blue
-      description: Increase the health of Mirror Image illusions by 10 and duration
-        by 2.
-      icon: 2632a24f2167af14f9869abb401dd67f
-      name: Phantasmagoria
-      type: utility
-    - color: teal
-      description: Grants self or allies traveling through your Portal a shield that
-        absorbs up to 14 damage for 3.
-      icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Showdown
-      type: support
-    winrate: '40.0'
   - damage: '2.4'
     disable: '0.4'
     energy: '2.1'
@@ -353,6 +318,41 @@ builds:
       name: Showdown
       type: support
     winrate: '60.0'
+  - damage: '3.0'
+    disable: '0.4'
+    energy: '3.2'
+    num: 5
+    protection: '3.4'
+    skills:
+    - color: red
+      description: Increases the duration of Arcane Catalyst by 0.5 and damage taken
+        by 5.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Arcane Conductor
+      type: offense
+    - color: teal
+      description: Hearts restores 6 health over the duration.
+      icon: 144efc709ac628542aee319b14932b2c
+      name: Heart Restoration
+      type: support
+    - color: red
+      description: Sheep Trick inflicts Arcane Catalyst on targets hit.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: Lead Astray
+      type: offense
+    - color: blue
+      description: Increase the health of Mirror Image illusions by 10 and duration
+        by 2.
+      icon: 2632a24f2167af14f9869abb401dd67f
+      name: Phantasmagoria
+      type: utility
+    - color: teal
+      description: Grants self or allies traveling through your Portal a shield that
+        absorbs up to 14 damage for 3.
+      icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Showdown
+      type: support
+    winrate: '40.0'
 compos:
   threes:
   - hero_names:
@@ -390,6 +390,23 @@ compos:
     winrate: 0.42857142857142855
     wins: 3
   - hero_names:
+    - Thorn
+    - Alysia
+    - Zander
+    heros:
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: 50404d271ae2a4f4f8b52de966688dc1
+      name: Alysia
+      title: alysia
+    - icon: 9c4186a6214f12448a7091710b0cde6c
+      name: Zander
+      title: zander
+    num: 5
+    winrate: 0.2
+    wins: 1
+  - hero_names:
     - Ashka
     - Bakko
     - Zander
@@ -423,23 +440,6 @@ compos:
     num: 5
     winrate: 0.2
     wins: 1
-  - hero_names:
-    - Thorn
-    - Iva
-    - Zander
-    heros:
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    - icon: decba44679fbdae4bb7d0d1cb6a97682
-      name: Iva
-      title: iva
-    - icon: 9c4186a6214f12448a7091710b0cde6c
-      name: Zander
-      title: zander
-    num: 5
-    winrate: 0.4
-    wins: 2
   twos:
   - hero_names:
     - Rook
@@ -481,6 +481,19 @@ compos:
     winrate: 0.25
     wins: 2
   - hero_names:
+    - Jade
+    - Zander
+    heros:
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: 9c4186a6214f12448a7091710b0cde6c
+      name: Zander
+      title: zander
+    num: 8
+    winrate: 0.25
+    wins: 2
+  - hero_names:
     - Croak
     - Zander
     heros:
@@ -493,19 +506,6 @@ compos:
     num: 7
     winrate: 0.42857142857142855
     wins: 3
-  - hero_names:
-    - Jamila
-    - Zander
-    heros:
-    - icon: f283d6dda29cbc845b4f770a1482d75b
-      name: Jamila
-      title: jamila
-    - icon: 9c4186a6214f12448a7091710b0cde6c
-      name: Zander
-      title: zander
-    num: 6
-    winrate: 0.16666666666666666
-    wins: 1
 description: When the famous theatre troupe "The Phantomime Masquerade" disbanded
   after a series of tragic events, their magnificent magician Zander vanished without
   a trace. Known for his unparalleled perfection in card trickery, teleportation,
@@ -516,11 +516,11 @@ icon: 9c4186a6214f12448a7091710b0cde6c
 layout: character
 name: zander
 num:
-  threes: 172
-  twos: 134
+  threes: 176
+  twos: 137
 title: Zander
 url: characters/zander.html
 winrate:
-  threes: '42.44'
-  twos: '35.82'
+  threes: '42.61'
+  twos: '36.50'
 ...
