@@ -47,6 +47,16 @@ def bootstrap_character_colors(hero_name):
         char_colors.append({'title': title, 'color': color})
     return char_colors
 
+def colors_to_id_mapping(flattened_battlerites, cols, brite_name_method):
+        name_lookup = {brite_name_method(x).lower(): x for x in list(flattened_battlerites.keys())}
+        for c in cols:
+                n = c['title'].lower()
+                if n in name_lookup:
+                        c['id'] = name_lookup[n]
+        rev_col_lookup = {v['color']: k for k, v in battlerite_type_mapping.items()}
+        out = {str(x['id']): rev_col_lookup[x['color']] for x in cols}
+        return json.dumps(out)
+
 battlerite_type_mapping = {1: {'color': 'red', 'type': 'offense'},
                            2: {'color': 'yellow', 'type': 'mobility'},
                            3: {'color': 'blue', 'type': 'utility'},
