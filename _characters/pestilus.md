@@ -4,7 +4,7 @@ builds:
   - damage: '3.9'
     disable: '1.1'
     energy: '2.6'
-    num: 354
+    num: 359
     protection: '5.4'
     skills:
     - color: pink
@@ -36,11 +36,11 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '46.3'
-  - damage: '3.9'
+    winrate: '46.2'
+  - damage: '4.0'
     disable: '1.1'
     energy: '2.9'
-    num: 70
+    num: 79
     protection: '5.8'
     skills:
     - color: green
@@ -72,11 +72,11 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '70.0'
+    winrate: '69.6'
   - damage: '3.6'
     disable: '1.0'
     energy: '2.5'
-    num: 29
+    num: 30
     protection: '5.4'
     skills:
     - color: pink
@@ -107,12 +107,12 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '37.9'
-  - damage: '3.5'
+    winrate: '36.7'
+  - damage: '3.4'
     disable: '0.9'
     energy: '2.6'
-    num: 28
-    protection: '5.2'
+    num: 29
+    protection: '5.1'
     skills:
     - color: pink
       description: Arachnophobia bounces forward, causing another impact. The radius
@@ -143,7 +143,7 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '50.0'
+    winrate: '48.3'
   - damage: '5.0'
     disable: '0.9'
     energy: '3.2'
@@ -183,7 +183,7 @@ builds:
   - damage: '3.7'
     disable: '1.2'
     energy: '2.4'
-    num: 24
+    num: 25
     protection: '5.1'
     skills:
     - color: pink
@@ -215,7 +215,7 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '37.5'
+    winrate: '36.0'
   - damage: '4.0'
     disable: '0.8'
     energy: '2.8'
@@ -364,7 +364,7 @@ builds:
   - damage: '4.4'
     disable: '1.1'
     energy: '2.5'
-    num: 258
+    num: 266
     protection: '4.5'
     skills:
     - color: pink
@@ -396,7 +396,7 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '43.0'
+    winrate: '43.2'
   - damage: '4.4'
     disable: '1.0'
     energy: '2.6'
@@ -436,7 +436,7 @@ builds:
   - damage: '4.0'
     disable: '1.0'
     energy: '2.4'
-    num: 28
+    num: 29
     protection: '4.7'
     skills:
     - color: pink
@@ -467,7 +467,7 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '35.7'
+    winrate: '34.5'
   - damage: '4.4'
     disable: '1.3'
     energy: '2.5'
@@ -507,7 +507,7 @@ builds:
   - damage: '3.6'
     disable: '0.9'
     energy: '2.3'
-    num: 23
+    num: 24
     protection: '4.8'
     skills:
     - color: green
@@ -539,7 +539,7 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '56.5'
+    winrate: '58.3'
   - damage: '4.2'
     disable: '1.5'
     energy: '2.3'
@@ -615,8 +615,8 @@ builds:
   - damage: '3.9'
     disable: '1.1'
     energy: '2.5'
-    num: 18
-    protection: '4.8'
+    num: 19
+    protection: '4.9'
     skills:
     - color: pink
       description: Releasing an Infested enemy inflicts a 20 Snare for 2.5 and pushes
@@ -648,7 +648,7 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '44.4'
+    winrate: '47.4'
   - damage: '4.6'
     disable: '1.2'
     energy: '2.5'
@@ -754,9 +754,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 16
-    winrate: 0.6875
-    wins: 11
+    num: 17
+    winrate: 0.7058823529411765
+    wins: 12
   - hero_names:
     - Pestilus
     - Rook
@@ -822,9 +822,26 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 13
-    winrate: 0.7692307692307693
-    wins: 10
+    num: 14
+    winrate: 0.7857142857142857
+    wins: 11
+  - hero_names:
+    - Pestilus
+    - Raigon
+    - Jade
+    heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 14
+    winrate: 0.5
+    wins: 7
   - hero_names:
     - Pestilus
     - Rook
@@ -861,23 +878,6 @@ compos:
     wins: 6
   - hero_names:
     - Pestilus
-    - Raigon
-    - Jade
-    heros:
-    - icon: a7e0c7a6f0fa2ef49bf684950de34567
-      name: Pestilus
-      title: pestilus
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 13
-    winrate: 0.5384615384615384
-    wins: 7
-  - hero_names:
-    - Pestilus
     - Ashka
     - Raigon
     heros:
@@ -904,9 +904,9 @@ compos:
     - icon: e5d5913527b842b41aed666d27d14231
       name: Rook
       title: rook
-    num: 104
-    winrate: 0.49038461538461536
-    wins: 51
+    num: 112
+    winrate: 0.5
+    wins: 56
   - hero_names:
     - Pestilus
     - Raigon
@@ -917,9 +917,9 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 60
-    winrate: 0.38333333333333336
-    wins: 23
+    num: 63
+    winrate: 0.3968253968253968
+    wins: 25
   - hero_names:
     - Pestilus
     - Freya
@@ -930,8 +930,8 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 57
-    winrate: 0.5087719298245614
+    num: 58
+    winrate: 0.5
     wins: 29
   - hero_names:
     - Pestilus
@@ -943,9 +943,9 @@ compos:
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
-    num: 53
-    winrate: 0.4528301886792453
-    wins: 24
+    num: 55
+    winrate: 0.45454545454545453
+    wins: 25
   - hero_names:
     - Pestilus
     - Croak
@@ -995,8 +995,8 @@ compos:
     - icon: bb37e5d448c511e47b808987d0d4f9e8
       name: Ruh Kaan
       title: ruh-kaan
-    num: 30
-    winrate: 0.43333333333333335
+    num: 31
+    winrate: 0.41935483870967744
     wins: 13
   - hero_names:
     - Pestilus
@@ -1021,8 +1021,8 @@ compos:
     - icon: aab126231d9ff344f9f88ab230a5e66f
       name: Thorn
       title: thorn
-    num: 25
-    winrate: 0.72
+    num: 26
+    winrate: 0.6923076923076923
     wins: 18
 description: Pestilus, secret devotee of the evil Rasal, unleashes swarms of insects
   to infest and cripple his enemies. Advisor to the King of Quna, Pestilus is able
@@ -1031,11 +1031,11 @@ icon: a7e0c7a6f0fa2ef49bf684950de34567
 layout: character
 name: pestilus
 num:
-  threes: 745
-  twos: 650
+  threes: 766
+  twos: 672
 title: Pestilus
 url: characters/pestilus.html
 winrate:
-  threes: '47.38'
-  twos: '47.08'
+  threes: '47.13'
+  twos: '47.32'
 ...
