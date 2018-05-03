@@ -1,6 +1,40 @@
 ---
 builds:
   threes:
+  - damage: '2.6'
+    disable: '0.4'
+    energy: '3.2'
+    num: 31
+    protection: '5.4'
+    skills:
+    - color: red
+      description: Increases the duration of Arcane Catalyst by 0.5 and damage taken
+        by 5.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Arcane Conductor
+      type: offense
+    - color: yellow
+      description: Increases cast range and teleport range of Portal by 20.
+      icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Around the World
+      type: mobility
+    - color: teal
+      description: Hearts restores 6 health over the duration.
+      icon: 144efc709ac628542aee319b14932b2c
+      name: Heart Restoration
+      type: support
+    - color: red
+      description: Sheep Trick inflicts Arcane Catalyst on targets hit.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: Lead Astray
+      type: offense
+    - color: teal
+      description: Grants self or allies traveling through your Portal a shield that
+        absorbs up to 14 damage for 3.
+      icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Showdown
+      type: support
+    winrate: '67.7'
   - damage: '3.3'
     disable: '0.4'
     energy: '3.2'
@@ -38,42 +72,8 @@ builds:
     winrate: '57.1'
   - damage: '2.7'
     disable: '0.4'
-    energy: '3.4'
-    num: 23
-    protection: '5.6'
-    skills:
-    - color: red
-      description: Increases the duration of Arcane Catalyst by 0.5 and damage taken
-        by 5.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Arcane Conductor
-      type: offense
-    - color: yellow
-      description: Increases cast range and teleport range of Portal by 20.
-      icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Around the World
-      type: mobility
-    - color: teal
-      description: Hearts restores 6 health over the duration.
-      icon: 144efc709ac628542aee319b14932b2c
-      name: Heart Restoration
-      type: support
-    - color: red
-      description: Sheep Trick inflicts Arcane Catalyst on targets hit.
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: Lead Astray
-      type: offense
-    - color: teal
-      description: Grants self or allies traveling through your Portal a shield that
-        absorbs up to 14 damage for 3.
-      icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Showdown
-      type: support
-    winrate: '65.2'
-  - damage: '2.7'
-    disable: '0.4'
     energy: '2.8'
-    num: 13
+    num: 14
     protection: '5.1'
     skills:
     - color: red
@@ -104,7 +104,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '38.5'
+    winrate: '42.9'
   - damage: '3.5'
     disable: '0.5'
     energy: '3.5'
@@ -211,6 +211,41 @@ builds:
       name: Stacked Deck
       type: mixed
     winrate: '37.5'
+  - damage: '3.1'
+    disable: '0.4'
+    energy: '3.7'
+    num: 7
+    protection: '6.1'
+    skills:
+    - color: red
+      description: Increases the duration of Arcane Catalyst by 0.5 and damage taken
+        by 5.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Arcane Conductor
+      type: offense
+    - color: blue
+      description: Allows Grand Conjuration to bounce once upon wall hit and increases
+        its max range by 10. Can still only hit once per enemy.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Arcane Shenanigans
+      type: utility
+    - color: teal
+      description: Hearts restores 6 health over the duration.
+      icon: 144efc709ac628542aee319b14932b2c
+      name: Heart Restoration
+      type: support
+    - color: red
+      description: Sheep Trick inflicts Arcane Catalyst on targets hit.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: Lead Astray
+      type: offense
+    - color: teal
+      description: Grants self or allies traveling through your Portal a shield that
+        absorbs up to 14 damage for 3.
+      icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Showdown
+      type: support
+    winrate: '85.7'
   - damage: '3.5'
     disable: '0.6'
     energy: '3.0'
@@ -247,41 +282,6 @@ builds:
       name: Showdown
       type: support
     winrate: '71.4'
-  - damage: '3.1'
-    disable: '0.4'
-    energy: '3.7'
-    num: 7
-    protection: '6.1'
-    skills:
-    - color: red
-      description: Increases the duration of Arcane Catalyst by 0.5 and damage taken
-        by 5.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Arcane Conductor
-      type: offense
-    - color: blue
-      description: Allows Grand Conjuration to bounce once upon wall hit and increases
-        its max range by 10. Can still only hit once per enemy.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Arcane Shenanigans
-      type: utility
-    - color: teal
-      description: Hearts restores 6 health over the duration.
-      icon: 144efc709ac628542aee319b14932b2c
-      name: Heart Restoration
-      type: support
-    - color: red
-      description: Sheep Trick inflicts Arcane Catalyst on targets hit.
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: Lead Astray
-      type: offense
-    - color: teal
-      description: Grants self or allies traveling through your Portal a shield that
-        absorbs up to 14 damage for 3.
-      icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Showdown
-      type: support
-    winrate: '85.7'
   - damage: '4.0'
     disable: '0.6'
     energy: '3.9'
@@ -318,11 +318,11 @@ builds:
       name: Showdown
       type: support
     winrate: '83.3'
-  - damage: '3.0'
+  - damage: '2.6'
     disable: '0.4'
-    energy: '2.8'
+    energy: '2.6'
     num: 6
-    protection: '4.6'
+    protection: '3.6'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 0.5 and damage taken
@@ -330,11 +330,6 @@ builds:
       icon: a970261549d4e2b4c923db1944ac2e4b
       name: Arcane Conductor
       type: offense
-    - color: yellow
-      description: Increases cast range and teleport range of Portal by 20.
-      icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Around the World
-      type: mobility
     - color: teal
       description: Hearts restores 6 health over the duration.
       icon: 144efc709ac628542aee319b14932b2c
@@ -345,18 +340,24 @@ builds:
       icon: 1180e87d69492d442afaa79cbba36746
       name: Lead Astray
       type: offense
-    - color: grey
-      description: Your first Trick Shot after using Mirror Image includes an additional
-        card for both you and your illusion.
+    - color: blue
+      description: Increase the health of Mirror Image illusions by 10 and duration
+        by 2.
       icon: 2632a24f2167af14f9869abb401dd67f
-      name: Stacked Deck
-      type: mixed
-    winrate: '16.7'
+      name: Phantasmagoria
+      type: utility
+    - color: teal
+      description: Grants self or allies traveling through your Portal a shield that
+        absorbs up to 14 damage for 3.
+      icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Showdown
+      type: support
+    winrate: '33.3'
   twos:
   - damage: '3.4'
     disable: '0.4'
     energy: '2.9'
-    num: 26
+    num: 27
     protection: '3.7'
     skills:
     - color: red
@@ -387,7 +388,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '23.1'
+    winrate: '22.2'
   - damage: '3.7'
     disable: '0.4'
     energy: '3.3'
@@ -425,8 +426,8 @@ builds:
     winrate: '50.0'
   - damage: '4.4'
     disable: '0.5'
-    energy: '2.9'
-    num: 9
+    energy: '2.8'
+    num: 10
     protection: '3.7'
     skills:
     - color: red
@@ -456,7 +457,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '77.8'
+    winrate: '70.0'
   - damage: '3.8'
     disable: '0.4'
     energy: '2.7'
@@ -528,11 +529,11 @@ builds:
       name: Stacked Deck
       type: mixed
     winrate: '50.0'
-  - damage: '4.3'
+  - damage: '2.4'
     disable: '0.4'
-    energy: '3.2'
+    energy: '2.1'
     num: 5
-    protection: '3.6'
+    protection: '2.6'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 0.5 and damage taken
@@ -556,13 +557,12 @@ builds:
       icon: 1180e87d69492d442afaa79cbba36746
       name: Lead Astray
       type: offense
-    - color: blue
-      description: Increase the health of Mirror Image illusions by 10 and duration
-        by 2.
-      icon: 2632a24f2167af14f9869abb401dd67f
-      name: Phantasmagoria
-      type: utility
-    winrate: '80.0'
+    - color: pink
+      description: Decreases enemy movement speed by 20 during Sheep Trick.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: Transformation Sickness
+      type: control
+    winrate: '60.0'
   - damage: '3.2'
     disable: '0.4'
     energy: '2.6'
@@ -598,11 +598,11 @@ builds:
       name: Showdown
       type: support
     winrate: '60.0'
-  - damage: '2.4'
+  - damage: '4.3'
     disable: '0.4'
-    energy: '2.1'
+    energy: '3.2'
     num: 5
-    protection: '2.6'
+    protection: '3.6'
     skills:
     - color: red
       description: Increases the duration of Arcane Catalyst by 0.5 and damage taken
@@ -626,12 +626,13 @@ builds:
       icon: 1180e87d69492d442afaa79cbba36746
       name: Lead Astray
       type: offense
-    - color: pink
-      description: Decreases enemy movement speed by 20 during Sheep Trick.
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: Transformation Sickness
-      type: control
-    winrate: '60.0'
+    - color: blue
+      description: Increase the health of Mirror Image illusions by 10 and duration
+        by 2.
+      icon: 2632a24f2167af14f9869abb401dd67f
+      name: Phantasmagoria
+      type: utility
+    winrate: '80.0'
   - damage: '3.1'
     disable: '0.5'
     energy: '2.5'
@@ -734,9 +735,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 7
-    winrate: 0.14285714285714285
-    wins: 1
+    num: 9
+    winrate: 0.2222222222222222
+    wins: 2
   - hero_names:
     - Bakko
     - Jade
@@ -770,6 +771,23 @@ compos:
       title: zander
     num: 7
     winrate: 0.42857142857142855
+    wins: 3
+  - hero_names:
+    - Zander
+    - Thorn
+    - Jumong
+    heros:
+    - icon: 9c4186a6214f12448a7091710b0cde6c
+      name: Zander
+      title: zander
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: 42a665b9c285a1243a201c8d533980e5
+      name: Jumong
+      title: jumong
+    num: 6
+    winrate: 0.5
     wins: 3
   - hero_names:
     - Ashka
@@ -806,39 +824,22 @@ compos:
     winrate: 0.16666666666666666
     wins: 1
   - hero_names:
-    - Thorn
-    - Iva
+    - Jamila
+    - Raigon
     - Zander
     heros:
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    - icon: decba44679fbdae4bb7d0d1cb6a97682
-      name: Iva
-      title: iva
+    - icon: f283d6dda29cbc845b4f770a1482d75b
+      name: Jamila
+      title: jamila
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
     num: 5
     winrate: 0.4
     wins: 2
-  - hero_names:
-    - Zander
-    - Thorn
-    - Jumong
-    heros:
-    - icon: 9c4186a6214f12448a7091710b0cde6c
-      name: Zander
-      title: zander
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    - icon: 42a665b9c285a1243a201c8d533980e5
-      name: Jumong
-      title: jumong
-    num: 4
-    winrate: 0.25
-    wins: 1
   - hero_names:
     - Rook
     - Jade
@@ -853,9 +854,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 4
-    winrate: 0.75
-    wins: 3
+    num: 5
+    winrate: 0.8
+    wins: 4
   - hero_names:
     - Rook
     - Alysia
@@ -870,8 +871,8 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 4
-    winrate: 0.25
+    num: 5
+    winrate: 0.2
     wins: 1
   twos:
   - hero_names:
@@ -884,8 +885,8 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 34
-    winrate: 0.5294117647058824
+    num: 35
+    winrate: 0.5142857142857142
     wins: 18
   - hero_names:
     - Alysia
@@ -897,9 +898,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 16
-    winrate: 0.3125
-    wins: 5
+    num: 19
+    winrate: 0.3157894736842105
+    wins: 6
   - hero_names:
     - Jade
     - Zander
@@ -923,9 +924,22 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 9
-    winrate: 0.4444444444444444
+    num: 10
+    winrate: 0.4
     wins: 4
+  - hero_names:
+    - Raigon
+    - Zander
+    heros:
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    - icon: 9c4186a6214f12448a7091710b0cde6c
+      name: Zander
+      title: zander
+    num: 8
+    winrate: 0.25
+    wins: 2
   - hero_names:
     - Freya
     - Zander
@@ -966,19 +980,6 @@ compos:
     winrate: 0.625
     wins: 5
   - hero_names:
-    - Raigon
-    - Zander
-    heros:
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    - icon: 9c4186a6214f12448a7091710b0cde6c
-      name: Zander
-      title: zander
-    num: 7
-    winrate: 0.2857142857142857
-    wins: 2
-  - hero_names:
     - Croak
     - Zander
     heros:
@@ -1014,11 +1015,11 @@ icon: 9c4186a6214f12448a7091710b0cde6c
 layout: character
 name: zander
 num:
-  threes: 199
-  twos: 165
+  threes: 223
+  twos: 173
 title: Zander
 url: characters/zander.html
 winrate:
-  threes: '41.71'
-  twos: '38.79'
+  threes: '43.05'
+  twos: '38.15'
 ...
