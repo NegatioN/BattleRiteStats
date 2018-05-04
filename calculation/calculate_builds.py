@@ -188,12 +188,14 @@ if __name__ == "__main__":
     print('{} match-telemetries'.format(len(all_telemetries)))
 
     for telem_url in all_telemetries:
-        print('processing {}'.format(telem_url))
-        telemetry_entry = get_telemetry_data(telem_url)
-        m_df = parse_round_statistics(telemetry_entry)
-        c_df = parse_telemetry(telemetry_entry)
-        main_df = pd.concat([main_df, c_df]).reset_index().drop('index', 1)
-        match_df = pd.concat([match_df, m_df]).reset_index().drop('index', 1)
+        try:
+            telemetry_entry = get_telemetry_data(telem_url)
+            m_df = parse_round_statistics(telemetry_entry)
+            c_df = parse_telemetry(telemetry_entry)
+            main_df = pd.concat([main_df, c_df]).reset_index().drop('index', 1)
+            match_df = pd.concat([match_df, m_df]).reset_index().drop('index', 1)
+        except:
+            print('Something went wrong processing {}'.format(telem_url))
 
 
     def aggregate_wins(main_df, match_df):
