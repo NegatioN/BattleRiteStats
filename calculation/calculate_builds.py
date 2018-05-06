@@ -23,8 +23,10 @@ rate_limiter = RateLimiter(max_calls=100, period=61)
 
 telem_cache = TelemetryCache()
 
-def jsonify_datetime(d):
-    return d.strftime('%Y-%m-%dT%H:00:00Z')
+date_format = '%Y-%m-%dT%H:%M:%SZ'
+def jsonify_datetime(d): return d.strftime(date_format)
+
+def timestampify_jsontime(j): return datetime.strptime(j, date_format).timestamp()
 
 #Last seven days of replays
 last_patch = datetime(year=2018, month=4, day=26, hour=0)
@@ -38,7 +40,8 @@ else:
 
 print('Getting matches from {} to now'.format(created_after_date))
 
-main_df = pd.DataFrame(columns=['matchid', 'userid', 'character', 'build', 'matchMode'])
+main_df = pd.DataFrame(columns=['matchid', 'userid', 'character', 'build', 'matchMode',
+                                'patchVersion', 'mapID', 'time', 'rankingType', 'external_matchid'])
 match_df = pd.DataFrame(columns=['matchid', 'round_num', 'round_duration', 'userid', 'team',
                                  'kills', 'score', 'deaths', 'damage', 'healing', 'disable',
                                  'energy_used', 'energy_gained', 'damage_taken','healing_taken',
@@ -64,6 +67,11 @@ def parse_telemetry(telem_d):
         for userid, build in d.items():
             add('matchMode', telem_d['serverType'])
             add('matchid', telem_d['matchID'])
+            add('external_matchid', telem_d['external_matchid'])
+            add('patchVersion', telem_d['patchVersion'])
+            add('mapID', telem_d['map'])
+            add('time', telem_d['time'])
+            add('rankingType', telem_d['rankingType'])
             add('userid', userid)
             add('character', character)
             add('build', ",".join([str(x) for x in build]))
@@ -76,7 +84,6 @@ def parse_round_statistics(telem_d):
         matchid = data['matchID']
         round_num = data['round']
         round_duration = data['roundLength']
-        #round_start = data['time']
         winning_team = data['winningTeam']
         player_per_team = len(data['playerStats']) / 2
         for i, player in enumerate(data['playerStats']):
@@ -110,23 +117,30 @@ def construct_url(player_id, ranked=True):
         query_params['filter[serverType]'] = 'QUICK2V2,QUICK3v3'
     return to_url(origin, mk_path('/matches'), mk_query(query_params))
 
-def parse_list_node(all_data_nodes, typ):
-    return set([y['id'] for x in all_data_nodes for y in x['relationships'][typ]['data']])
 
 def get_player_telemetry(player_id):
-    telemetry_links = set()
+    telemetry_links = {}
     url = construct_url(player_id)
     while url:
         with rate_limiter:
             response = requests.get(url, headers=headers)
             if response.status_code == 200:
                 content = response.json()
-                all_data_nodes = content['data']
-                match_ids = parse_list_node(all_data_nodes, 'assets')
+                match_data = {}
+                for node in content['data']:
+                    match_id = node['relationships']['assets']['data'][0]['id']
+                    match_data[match_id] = {'external_matchid': match_id,
+                                            'patchVersion': (node['attributes']['patchVersion']),
+                                            'map': (node['attributes']['stats']['mapID']),
+                                            'serverType': (node['attributes']['tags']['serverType']),
+                                            'time': (timestampify_jsontime(node['attributes']['createdAt'])),
+                                            'rankingType': (node['attributes']['tags']['rankingType'])}
 
+                match_ids = list(match_data.keys())
                 for node in content['included']:
                     if 'id' in node and node['id'] in match_ids:
-                        telemetry_links.add(node['attributes']['URL'])
+                        mid = node['id']
+                        telemetry_links[node['attributes']['URL']] = {**match_data[mid]}
 
                 url = content['links']['next'] if 'next' in content['links'] else None
             else:
@@ -153,31 +167,46 @@ def get_telemetry_data(url):
         telem_d[c['type']].append(data)
         if 'matchID' in data:
             telem_d['matchID'] = data['matchID']
-        if 'serverType' in data:
-            telem_d['serverType'] = data['serverType']
 
     return telem_d
+
+def get_team_info(telem_d):
+    t_p_dict = defaultdict(lambda: defaultdict(lambda: 0))
+    for event in telem_d['com.stunlock.battlerite.team.TeamUpdateEvent']:
+        player_ids = [x for x in event['userIDs'] if x != 0]
+
+        team_id = event['teamID']
+        t_p_dict[team_id]['league'] = event['league']
+        t_p_dict[team_id]['division'] = event['division']
+        t_p_dict[team_id]['divrating'] = event['divisionRating']
+        t_p_dict[team_id]['time'] = event['time']
+        t_p_dict[team_id]['wins'] = event['wins']
+        t_p_dict[team_id]['losses'] = event['losses']
+        t_p_dict[team_id]['users'] = player_ids
+    return t_p_dict
 
 
 
 if __name__ == "__main__":
     player_ids = get_user_ids()
     print('Number of users to process: {}'.format(len(player_ids)))
-    all_telemetries = set()
+    all_telemetries = {}
     telem_cache.clean_cache(created_ad)
+    master_team_dict = defaultdict(lambda: defaultdict(lambda: 0))
 
-    # For some reason this function returns duplicates ¯\_(ツ)_/¯
     for player_id in player_ids:
         telems = get_player_telemetry(player_id)
-        all_telemetries = all_telemetries.union(telems)
+        all_telemetries.update(telems)
 
     print('{} match-telemetries'.format(len(all_telemetries)))
 
-    for telem_url in all_telemetries:
+    for telem_url, data in all_telemetries.items():
         try:
             telem_dd = get_telemetry_data(telem_url)
+            telem_dd.update(data)
             m_df = parse_round_statistics(telem_dd)
             c_df = parse_telemetry(telem_dd)
+            #master_team_dict.update(get_team_info(telem_dd))
             main_df = pd.concat([main_df, c_df]).reset_index().drop('index', 1)
             match_df = pd.concat([match_df, m_df]).reset_index().drop('index', 1)
         except:
