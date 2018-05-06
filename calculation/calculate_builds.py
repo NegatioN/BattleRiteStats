@@ -46,82 +46,59 @@ match_df = pd.DataFrame(columns=['matchid', 'round_num', 'round_duration', 'user
 base_collector_dict = {x: [] for x in main_df.columns}
 base_match_collector_dict = {x: [] for x in match_df.columns}
 
-def find_match_type(telemetry_entry):
-    for cursor in telemetry_entry:
-        try:
-            return cursor['dataObject']['serverType']
-        except:
-            pass
-    return ""
-
-def parse_sporadic_character_data(telemetry_entry):
+def compile_match_battlerites(telem_d):
     match_characters = defaultdict(lambda: defaultdict(lambda: set()))
-    for cursor in telemetry_entry:
-        try:
-            brite = cursor['dataObject']['battleriteType']
-            userid = cursor['dataObject']['userID']
-            character = cursor['dataObject']['character']
-            match_characters[character][userid].add(brite)
-        except:
-            pass
+    for event in telem_d['Structures.BattleritePickEvent']:
+        brite = event['battleriteType']
+        userid = event['userID']
+        character = event['character']
+        match_characters[character][userid].add(brite)
+
     return match_characters
 
-def find_match_id(telemetry_entry):
-    for cursor in telemetry_entry:
-        try:
-            return cursor['dataObject']['matchID']
-        except:
-            pass
-    return "NoMatchId"
-
-def parse_telemetry(telemetry_entry):
-    match_mode = find_match_type(telemetry_entry)
-    match_id = find_match_id(telemetry_entry)
-    match_characters = parse_sporadic_character_data(telemetry_entry)
+def parse_telemetry(telem_d):
+    match_characters = compile_match_battlerites(telem_d)
     collector_dict = deepcopy(base_collector_dict)
     add = lambda s, e: collector_dict[s].append(e)
     for character, d in match_characters.items():
         for userid, build in d.items():
-            add('matchid', match_id)
+            add('matchMode', telem_d['serverType'])
+            add('matchid', telem_d['matchID'])
             add('userid', userid)
             add('character', character)
             add('build', ",".join([str(x) for x in build]))
-            add('matchMode', match_mode)
     return pd.DataFrame.from_dict(data=collector_dict)[main_df.columns]
 
-
-def parse_round_statistics(telem_entry):
+def parse_round_statistics(telem_d):
     collector_dict = deepcopy(base_match_collector_dict)
     add = lambda s, e: collector_dict[s].append(e)
-    for cursor in telem_entry:
-        if cursor['type'] == 'Structures.RoundFinishedEvent':
-            data = cursor['dataObject']
-            matchid = data['matchID']
-            round_num = data['round']
-            round_duration = data['roundLength']
-            #round_start = data['time']
-            winning_team = data['winningTeam']
-            player_per_team = len(data['playerStats']) / 2
-            for i, player in enumerate(data['playerStats']):
-                team_num = 1 if i < player_per_team else 2
-                add('matchid', matchid)
-                add('round_num', round_num)
-                add('round_duration', round_duration)
-                add('userid', player['userID'])
-                add('team', team_num)
-                add('kills', player['kills'])
-                add('deaths', player['deaths'])
-                add('score', player['score'])
-                add('damage', player['damageDone'])
-                add('healing', player['healingDone'])
-                add('disable', player['disablesDone'])
-                add('wonFlag', 1 if team_num == winning_team else 0)
-                add('time_alive', player['timeAlive'])
-                add('damage_taken', player['damageReceived'])
-                add('healing_taken', player['healingReceived'])
-                add('disable_taken', player['disablesReceived'])
-                add('energy_used', player['energyUsed'])
-                add('energy_gained', player['energyGained'])
+    for data in telem_d['Structures.RoundFinishedEvent']:
+        matchid = data['matchID']
+        round_num = data['round']
+        round_duration = data['roundLength']
+        #round_start = data['time']
+        winning_team = data['winningTeam']
+        player_per_team = len(data['playerStats']) / 2
+        for i, player in enumerate(data['playerStats']):
+            team_num = 1 if i < player_per_team else 2
+            add('matchid', matchid)
+            add('round_num', round_num)
+            add('round_duration', round_duration)
+            add('userid', player['userID'])
+            add('team', team_num)
+            add('kills', player['kills'])
+            add('deaths', player['deaths'])
+            add('score', player['score'])
+            add('damage', player['damageDone'])
+            add('healing', player['healingDone'])
+            add('disable', player['disablesDone'])
+            add('wonFlag', 1 if team_num == winning_team else 0)
+            add('time_alive', player['timeAlive'])
+            add('damage_taken', player['damageReceived'])
+            add('healing_taken', player['healingReceived'])
+            add('disable_taken', player['disablesReceived'])
+            add('energy_used', player['energyUsed'])
+            add('energy_gained', player['energyGained'])
 
     return pd.DataFrame.from_dict(data=collector_dict)[match_df.columns]
 
@@ -168,10 +145,19 @@ def get_telemetry_data(url):
                 telemetry_entry = resp.json()
                 telem_cache.cache_telemetry(url, telemetry_entry)
         except:
-            print('something bad happened')
+            print('something bad happened with entry: {}'.format(url))
             telemetry_entry = []
+    telem_d = defaultdict(lambda: [])
+    for c in telemetry_entry:
+        data = c['dataObject']
+        telem_d[c['type']].append(data)
+        if 'matchID' in data:
+            telem_d['matchID'] = data['matchID']
+        if 'serverType' in data:
+            telem_d['serverType'] = data['serverType']
 
-    return telemetry_entry
+    return telem_d
+
 
 
 if __name__ == "__main__":
@@ -189,9 +175,9 @@ if __name__ == "__main__":
 
     for telem_url in all_telemetries:
         try:
-            telemetry_entry = get_telemetry_data(telem_url)
-            m_df = parse_round_statistics(telemetry_entry)
-            c_df = parse_telemetry(telemetry_entry)
+            telem_dd = get_telemetry_data(telem_url)
+            m_df = parse_round_statistics(telem_dd)
+            c_df = parse_telemetry(telem_dd)
             main_df = pd.concat([main_df, c_df]).reset_index().drop('index', 1)
             match_df = pd.concat([match_df, m_df]).reset_index().drop('index', 1)
         except:
