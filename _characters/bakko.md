@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '6.2'
+  - damage: '6.3'
     disable: '1.4'
     energy: '3.6'
-    num: 84
+    num: 83
     protection: '1.6'
     skills:
     - color: teal
@@ -33,7 +33,7 @@ builds:
       icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
       name: Shield Bash
       type: support
-    winrate: '47.6'
+    winrate: '48.2'
   - damage: '6.4'
     disable: '1.2'
     energy: '3.7'
@@ -71,7 +71,7 @@ builds:
   - damage: '6.7'
     disable: '1.4'
     energy: '3.5'
-    num: 48
+    num: 47
     protection: '2.1'
     skills:
     - color: teal
@@ -101,7 +101,7 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '66.7'
+    winrate: '66.0'
   - damage: '6.0'
     disable: '1.1'
     energy: '3.7'
@@ -170,11 +170,11 @@ builds:
       name: Shield Bash
       type: support
     winrate: '70.0'
-  - damage: '6.4'
+  - damage: '6.3'
     disable: '1.1'
     energy: '3.6'
-    num: 30
-    protection: '2.0'
+    num: 29
+    protection: '2.1'
     skills:
     - color: green
       description: War Axe hits reduce the cooldown of Bulwark by 1.
@@ -203,11 +203,11 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '43.3'
+    winrate: '41.4'
   - damage: '7.0'
     disable: '1.2'
-    energy: '3.8'
-    num: 27
+    energy: '3.7'
+    num: 25
     protection: '1.7'
     skills:
     - color: red
@@ -240,7 +240,7 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
       type: offense
-    winrate: '48.1'
+    winrate: '52.0'
   - damage: '6.9'
     disable: '1.3'
     energy: '3.7'
@@ -351,7 +351,7 @@ builds:
   - damage: '6.9'
     disable: '1.1'
     energy: '3.5'
-    num: 90
+    num: 85
     protection: '1.6'
     skills:
     - color: red
@@ -384,7 +384,7 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
       type: offense
-    winrate: '48.9'
+    winrate: '50.6'
   - damage: '7.8'
     disable: '1.4'
     energy: '3.7'
@@ -421,11 +421,11 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
       type: offense
-    winrate: '61.6'
+    winrate: '63.0'
   - damage: '7.5'
     disable: '1.1'
     energy: '3.5'
-    num: 43
+    num: 41
     protection: '2.1'
     skills:
     - color: teal
@@ -457,11 +457,11 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
       type: offense
-    winrate: '60.5'
+    winrate: '63.4'
   - damage: '6.8'
     disable: '1.4'
     energy: '3.2'
-    num: 34
+    num: 33
     protection: '2.0'
     skills:
     - color: teal
@@ -491,7 +491,7 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '55.9'
+    winrate: '54.5'
   - damage: '6.5'
     disable: '1.3'
     energy: '3.1'
@@ -527,10 +527,10 @@ builds:
       name: The Red Axe
       type: survival
     winrate: '57.1'
-  - damage: '6.8'
-    disable: '1.0'
+  - damage: '6.9'
+    disable: '1.1'
     energy: '3.5'
-    num: 21
+    num: 20
     protection: '1.4'
     skills:
     - color: red
@@ -562,7 +562,7 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
       type: offense
-    winrate: '61.9'
+    winrate: '60.0'
   - damage: '7.4'
     disable: '1.3'
     energy: '3.7'
@@ -631,10 +631,10 @@ builds:
       name: Shield Bash
       type: support
     winrate: '52.6'
-  - damage: '6.6'
+  - damage: '6.4'
     disable: '1.2'
     energy: '4.1'
-    num: 17
+    num: 15
     protection: '1.7'
     skills:
     - color: red
@@ -665,7 +665,7 @@ builds:
       icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
       name: Shield Bash
       type: support
-    winrate: '47.1'
+    winrate: '40.0'
   - damage: '6.9'
     disable: '1.4'
     energy: '3.3'
@@ -754,23 +754,6 @@ compos:
     winrate: 0.5416666666666666
     wins: 13
   - hero_names:
-    - Poloma
-    - Bakko
-    - Jade
-    heros:
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 22
-    winrate: 0.5
-    wins: 11
-  - hero_names:
     - Jumong
     - Bakko
     - Poloma
@@ -787,6 +770,23 @@ compos:
     num: 21
     winrate: 0.7619047619047619
     wins: 16
+  - hero_names:
+    - Poloma
+    - Bakko
+    - Jade
+    heros:
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 21
+    winrate: 0.5238095238095238
+    wins: 11
   - hero_names:
     - Bakko
     - Blossom
@@ -856,22 +856,22 @@ compos:
     winrate: 0.4375
     wins: 7
   - hero_names:
-    - Ashka
-    - Oldur
+    - Pestilus
+    - Alysia
     - Bakko
     heros:
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: 50404d271ae2a4f4f8b52de966688dc1
+      name: Alysia
+      title: alysia
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
     num: 15
-    winrate: 0.6666666666666666
-    wins: 10
+    winrate: 0.3333333333333333
+    wins: 5
   twos:
   - hero_names:
     - Blossom
@@ -883,9 +883,9 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 142
-    winrate: 0.6126760563380281
-    wins: 87
+    num: 138
+    winrate: 0.6159420289855072
+    wins: 85
   - hero_names:
     - Oldur
     - Bakko
@@ -896,9 +896,9 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 85
-    winrate: 0.5647058823529412
-    wins: 48
+    num: 86
+    winrate: 0.5697674418604651
+    wins: 49
   - hero_names:
     - Bakko
     - Pearl
@@ -909,9 +909,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 80
-    winrate: 0.5875
-    wins: 47
+    num: 76
+    winrate: 0.5789473684210527
+    wins: 44
   - hero_names:
     - Rook
     - Bakko
@@ -922,9 +922,9 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 64
-    winrate: 0.484375
-    wins: 31
+    num: 62
+    winrate: 0.46774193548387094
+    wins: 29
   - hero_names:
     - Bakko
     - Lucie
@@ -935,9 +935,9 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 56
-    winrate: 0.5892857142857143
-    wins: 33
+    num: 55
+    winrate: 0.6181818181818182
+    wins: 34
   - hero_names:
     - Bakko
     - Sirius
@@ -961,22 +961,9 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 41
-    winrate: 0.6341463414634146
-    wins: 26
-  - hero_names:
-    - Ulric
-    - Bakko
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    num: 39
-    winrate: 0.6410256410256411
-    wins: 25
+    num: 43
+    winrate: 0.6511627906976745
+    wins: 28
   - hero_names:
     - Poloma
     - Bakko
@@ -987,9 +974,22 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 38
-    winrate: 0.42105263157894735
-    wins: 16
+    num: 36
+    winrate: 0.4166666666666667
+    wins: 15
+  - hero_names:
+    - Ulric
+    - Bakko
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    num: 33
+    winrate: 0.6363636363636364
+    wins: 21
   - hero_names:
     - Jumong
     - Bakko
@@ -1010,11 +1010,11 @@ icon: 6154d6c0556261343844bf7caebb67a7
 layout: character
 name: bakko
 num:
-  threes: 829
-  twos: 847
+  threes: 810
+  twos: 836
 title: Bakko
 url: characters/bakko.html
 winrate:
-  threes: '48.85'
-  twos: '51.12'
+  threes: '49.14'
+  twos: '50.84'
 ...
