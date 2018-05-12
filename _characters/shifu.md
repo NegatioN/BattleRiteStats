@@ -1,11 +1,11 @@
 ---
 builds:
   threes:
-  - damage: '7.4'
+  - damage: '7.3'
     disable: '0.9'
     energy: '3.6'
-    num: 112
-    protection: '1.6'
+    num: 118
+    protection: '1.5'
     skills:
     - color: green
       description: Impale heals you for 2 health and 2 additional health per weapon
@@ -36,48 +36,11 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '49.1'
-  - damage: '7.5'
-    disable: '0.6'
-    energy: '3.5'
-    num: 19
-    protection: '1.7'
-    skills:
-    - color: green
-      description: Impale heals you for 2 health and 2 additional health per weapon
-        charge.
-      icon: 18eee826117df534d91bd518653fc360
-      name: Ceremonial Spear
-      type: survival
-    - color: red
-      description: Increases your maximum weapon charges by 1 and countering an attack
-        with Kunju grants 1 weapon charge.
-      icon: 19e037c83991916449cd9475c20ca0d1
-      name: Ferocious Stance
-      type: offense
-    - color: red
-      description: Countering an attack with Kunju causes your next Spear Slash to
-        deal 10 bonus damage.
-      icon: 19e037c83991916449cd9475c20ca0d1
-      name: Poised to Strike
-      type: offense
-    - color: yellow
-      description: Increases Fleetfoot movement speed bonus from 35 to 50 and haste
-        duration by 1.
-      icon: 0b6f5070063c16f4eb62990034cffd29
-      name: Swift Feet
-      type: mobility
-    - color: pink
-      description: Impale deals 2 bonus damage and an additional 1 bonus damage per
-        weapon charge.
-      icon: 18eee826117df534d91bd518653fc360
-      name: Thrust
-      type: control
-    winrate: '52.6'
-  - damage: '6.8'
+    winrate: '48.3'
+  - damage: '6.7'
     disable: '0.5'
-    energy: '3.3'
-    num: 18
+    energy: '3.2'
+    num: 17
     protection: '1.6'
     skills:
     - color: green
@@ -110,12 +73,12 @@ builds:
       icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
       type: offense
-    winrate: '22.2'
-  - damage: '6.5'
+    winrate: '23.5'
+  - damage: '7.4'
     disable: '0.6'
-    energy: '3.6'
-    num: 13
-    protection: '1.4'
+    energy: '3.5'
+    num: 16
+    protection: '1.7'
     skills:
     - color: green
       description: Impale heals you for 2 health and 2 additional health per weapon
@@ -129,24 +92,61 @@ builds:
       icon: 19e037c83991916449cd9475c20ca0d1
       name: Ferocious Stance
       type: offense
+    - color: red
+      description: Countering an attack with Kunju causes your next Spear Slash to
+        deal 10 bonus damage.
+      icon: 19e037c83991916449cd9475c20ca0d1
+      name: Poised to Strike
+      type: offense
     - color: yellow
       description: Increases Fleetfoot movement speed bonus from 35 to 50 and haste
         duration by 1.
       icon: 0b6f5070063c16f4eb62990034cffd29
       name: Swift Feet
       type: mobility
-    - color: blue
-      description: During Fleetfoot, Spear Slash hits grant 8 bonus energy.
-      icon: 0b6f5070063c16f4eb62990034cffd29
-      name: The Spear is the Way
-      type: utility
     - color: pink
       description: Impale deals 2 bonus damage and an additional 1 bonus damage per
         weapon charge.
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '38.5'
+    winrate: '50.0'
+  - damage: '6.6'
+    disable: '0.8'
+    energy: '2.7'
+    num: 13
+    protection: '1.7'
+    skills:
+    - color: green
+      description: Impale heals you for 2 health and 2 additional health per weapon
+        charge.
+      icon: 18eee826117df534d91bd518653fc360
+      name: Ceremonial Spear
+      type: survival
+    - color: pink
+      description: Javelin inflicts Root for 1.2.
+      icon: 2b30312258b7fec4a90040d475f5b31f
+      name: Dirty Tricks
+      type: control
+    - color: red
+      description: Increases your maximum weapon charges by 1 and countering an attack
+        with Kunju grants 1 weapon charge.
+      icon: 19e037c83991916449cd9475c20ca0d1
+      name: Ferocious Stance
+      type: offense
+    - color: red
+      description: Countering an attack with Kunju causes your next Spear Slash to
+        deal 10 bonus damage.
+      icon: 19e037c83991916449cd9475c20ca0d1
+      name: Poised to Strike
+      type: offense
+    - color: pink
+      description: Impale deals 2 bonus damage and an additional 1 bonus damage per
+        weapon charge.
+      icon: 18eee826117df534d91bd518653fc360
+      name: Thrust
+      type: control
+    winrate: '46.2'
   - damage: '8.0'
     disable: '1.0'
     energy: '3.9'
@@ -183,11 +183,11 @@ builds:
       name: Thrust
       type: control
     winrate: '58.3'
-  - damage: '6.3'
-    disable: '0.8'
-    energy: '2.6'
+  - damage: '6.4'
+    disable: '0.6'
+    energy: '3.4'
     num: 11
-    protection: '1.7'
+    protection: '1.4'
     skills:
     - color: green
       description: Impale heals you for 2 health and 2 additional health per weapon
@@ -195,23 +195,23 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Ceremonial Spear
       type: survival
-    - color: pink
-      description: Javelin inflicts Root for 1.2.
-      icon: 2b30312258b7fec4a90040d475f5b31f
-      name: Dirty Tricks
-      type: control
     - color: red
       description: Increases your maximum weapon charges by 1 and countering an attack
         with Kunju grants 1 weapon charge.
       icon: 19e037c83991916449cd9475c20ca0d1
       name: Ferocious Stance
       type: offense
-    - color: red
-      description: Countering an attack with Kunju causes your next Spear Slash to
-        deal 10 bonus damage.
-      icon: 19e037c83991916449cd9475c20ca0d1
-      name: Poised to Strike
-      type: offense
+    - color: yellow
+      description: Increases Fleetfoot movement speed bonus from 35 to 50 and haste
+        duration by 1.
+      icon: 0b6f5070063c16f4eb62990034cffd29
+      name: Swift Feet
+      type: mobility
+    - color: blue
+      description: During Fleetfoot, Spear Slash hits grant 8 bonus energy.
+      icon: 0b6f5070063c16f4eb62990034cffd29
+      name: The Spear is the Way
+      type: utility
     - color: pink
       description: Impale deals 2 bonus damage and an additional 1 bonus damage per
         weapon charge.
@@ -254,6 +254,41 @@ builds:
       name: Swift Feet
       type: mobility
     winrate: '40.0'
+  - damage: '6.4'
+    disable: '0.8'
+    energy: '3.3'
+    num: 10
+    protection: '1.6'
+    skills:
+    - color: green
+      description: Impale heals you for 2 health and 2 additional health per weapon
+        charge.
+      icon: 18eee826117df534d91bd518653fc360
+      name: Ceremonial Spear
+      type: survival
+    - color: pink
+      description: Javelin inflicts Root for 1.2.
+      icon: 2b30312258b7fec4a90040d475f5b31f
+      name: Dirty Tricks
+      type: control
+    - color: red
+      description: Increases your maximum weapon charges by 1 and countering an attack
+        with Kunju grants 1 weapon charge.
+      icon: 19e037c83991916449cd9475c20ca0d1
+      name: Ferocious Stance
+      type: offense
+    - color: blue
+      description: During Fleetfoot, Spear Slash hits grant 8 bonus energy.
+      icon: 0b6f5070063c16f4eb62990034cffd29
+      name: The Spear is the Way
+      type: utility
+    - color: pink
+      description: Impale deals 2 bonus damage and an additional 1 bonus damage per
+        weapon charge.
+      icon: 18eee826117df534d91bd518653fc360
+      name: Thrust
+      type: control
+    winrate: '40.0'
   - damage: '7.6'
     disable: '1.1'
     energy: '4.0'
@@ -290,11 +325,11 @@ builds:
       name: Swift Feet
       type: mobility
     winrate: '60.0'
-  - damage: '6.4'
-    disable: '0.8'
-    energy: '3.4'
-    num: 9
-    protection: '1.6'
+  - damage: '7.4'
+    disable: '1.0'
+    energy: '3.8'
+    num: 7
+    protection: '1.7'
     skills:
     - color: green
       description: Impale heals you for 2 health and 2 additional health per weapon
@@ -307,12 +342,12 @@ builds:
       icon: 2b30312258b7fec4a90040d475f5b31f
       name: Dirty Tricks
       type: control
-    - color: red
-      description: Increases your maximum weapon charges by 1 and countering an attack
-        with Kunju grants 1 weapon charge.
-      icon: 19e037c83991916449cd9475c20ca0d1
-      name: Ferocious Stance
-      type: offense
+    - color: yellow
+      description: Increases Fleetfoot movement speed bonus from 35 to 50 and haste
+        duration by 1.
+      icon: 0b6f5070063c16f4eb62990034cffd29
+      name: Swift Feet
+      type: mobility
     - color: blue
       description: During Fleetfoot, Spear Slash hits grant 8 bonus energy.
       icon: 0b6f5070063c16f4eb62990034cffd29
@@ -324,47 +359,12 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '44.4'
-  - damage: '6.7'
-    disable: '0.9'
-    energy: '3.8'
-    num: 7
-    protection: '1.4'
-    skills:
-    - color: green
-      description: Impale heals you for 2 health and 2 additional health per weapon
-        charge.
-      icon: 18eee826117df534d91bd518653fc360
-      name: Ceremonial Spear
-      type: survival
-    - color: pink
-      description: Javelin inflicts Root for 1.2.
-      icon: 2b30312258b7fec4a90040d475f5b31f
-      name: Dirty Tricks
-      type: control
-    - color: red
-      description: Increases your maximum weapon charges by 1 and countering an attack
-        with Kunju grants 1 weapon charge.
-      icon: 19e037c83991916449cd9475c20ca0d1
-      name: Ferocious Stance
-      type: offense
-    - color: blue
-      description: During Fleetfoot, Spear Slash hits grant 8 bonus energy.
-      icon: 0b6f5070063c16f4eb62990034cffd29
-      name: The Spear is the Way
-      type: utility
-    - color: red
-      description: Tendon Swing deals 4 bonus damage and grants 15 energy when hitting
-        at least one enemy.
-      icon: 51550c5d60b411544a130bfc026b306d
-      name: Whirling Blade
-      type: offense
     winrate: '42.9'
   twos:
   - damage: '7.7'
     disable: '0.8'
-    energy: '3.8'
-    num: 205
+    energy: '3.6'
+    num: 203
     protection: '1.7'
     skills:
     - color: green
@@ -396,11 +396,11 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '45.9'
-  - damage: '8.5'
+    winrate: '46.8'
+  - damage: '8.3'
     disable: '0.9'
-    energy: '3.8'
-    num: 47
+    energy: '3.7'
+    num: 58
     protection: '1.9'
     skills:
     - color: green
@@ -432,12 +432,49 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '51.1'
+    winrate: '53.4'
+  - damage: '7.2'
+    disable: '0.6'
+    energy: '3.8'
+    num: 33
+    protection: '1.6'
+    skills:
+    - color: green
+      description: Impale heals you for 2 health and 2 additional health per weapon
+        charge.
+      icon: 18eee826117df534d91bd518653fc360
+      name: Ceremonial Spear
+      type: survival
+    - color: red
+      description: Increases your maximum weapon charges by 1 and countering an attack
+        with Kunju grants 1 weapon charge.
+      icon: 19e037c83991916449cd9475c20ca0d1
+      name: Ferocious Stance
+      type: offense
+    - color: yellow
+      description: Increases Fleetfoot movement speed bonus from 35 to 50 and haste
+        duration by 1.
+      icon: 0b6f5070063c16f4eb62990034cffd29
+      name: Swift Feet
+      type: mobility
+    - color: pink
+      description: Impale deals 2 bonus damage and an additional 1 bonus damage per
+        weapon charge.
+      icon: 18eee826117df534d91bd518653fc360
+      name: Thrust
+      type: control
+    - color: red
+      description: Tendon Swing deals 4 bonus damage and grants 15 energy when hitting
+        at least one enemy.
+      icon: 51550c5d60b411544a130bfc026b306d
+      name: Whirling Blade
+      type: offense
+    winrate: '36.4'
   - damage: '7.3'
     disable: '0.8'
     energy: '3.3'
-    num: 33
-    protection: '1.7'
+    num: 28
+    protection: '1.6'
     skills:
     - color: green
       description: Impale heals you for 2 health and 2 additional health per weapon
@@ -468,49 +505,12 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '69.7'
-  - damage: '7.2'
-    disable: '0.6'
-    energy: '3.8'
-    num: 29
-    protection: '1.6'
-    skills:
-    - color: green
-      description: Impale heals you for 2 health and 2 additional health per weapon
-        charge.
-      icon: 18eee826117df534d91bd518653fc360
-      name: Ceremonial Spear
-      type: survival
-    - color: red
-      description: Increases your maximum weapon charges by 1 and countering an attack
-        with Kunju grants 1 weapon charge.
-      icon: 19e037c83991916449cd9475c20ca0d1
-      name: Ferocious Stance
-      type: offense
-    - color: yellow
-      description: Increases Fleetfoot movement speed bonus from 35 to 50 and haste
-        duration by 1.
-      icon: 0b6f5070063c16f4eb62990034cffd29
-      name: Swift Feet
-      type: mobility
-    - color: pink
-      description: Impale deals 2 bonus damage and an additional 1 bonus damage per
-        weapon charge.
-      icon: 18eee826117df534d91bd518653fc360
-      name: Thrust
-      type: control
-    - color: red
-      description: Tendon Swing deals 4 bonus damage and grants 15 energy when hitting
-        at least one enemy.
-      icon: 51550c5d60b411544a130bfc026b306d
-      name: Whirling Blade
-      type: offense
-    winrate: '34.5'
+    winrate: '75.0'
   - damage: '8.0'
-    disable: '0.8'
-    energy: '3.9'
-    num: 16
-    protection: '2.0'
+    disable: '0.7'
+    energy: '3.8'
+    num: 21
+    protection: '2.1'
     skills:
     - color: green
       description: Impale heals you for 2 health and 2 additional health per weapon
@@ -541,11 +541,11 @@ builds:
       icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
       type: offense
-    winrate: '50.0'
-  - damage: '7.9'
-    disable: '0.8'
-    energy: '3.8'
-    num: 16
+    winrate: '47.6'
+  - damage: '8.0'
+    disable: '0.9'
+    energy: '3.7'
+    num: 15
     protection: '1.9'
     skills:
     - color: green
@@ -577,42 +577,7 @@ builds:
       icon: 0b6f5070063c16f4eb62990034cffd29
       name: Swift Feet
       type: mobility
-    winrate: '43.8'
-  - damage: '7.5'
-    disable: '0.9'
-    energy: '3.4'
-    num: 12
-    protection: '1.4'
-    skills:
-    - color: green
-      description: Impale heals you for 2 health and 2 additional health per weapon
-        charge.
-      icon: 18eee826117df534d91bd518653fc360
-      name: Ceremonial Spear
-      type: survival
-    - color: pink
-      description: Javelin inflicts Root for 1.2.
-      icon: 2b30312258b7fec4a90040d475f5b31f
-      name: Dirty Tricks
-      type: control
-    - color: red
-      description: Increases your maximum weapon charges by 1 and countering an attack
-        with Kunju grants 1 weapon charge.
-      icon: 19e037c83991916449cd9475c20ca0d1
-      name: Ferocious Stance
-      type: offense
-    - color: yellow
-      description: Increases lunge distance of Impale by 100.
-      icon: 18eee826117df534d91bd518653fc360
-      name: Spear Lunge
-      type: mobility
-    - color: yellow
-      description: Increases Fleetfoot movement speed bonus from 35 to 50 and haste
-        duration by 1.
-      icon: 0b6f5070063c16f4eb62990034cffd29
-      name: Swift Feet
-      type: mobility
-    winrate: '58.3'
+    winrate: '46.7'
   - damage: '7.6'
     disable: '0.9'
     energy: '3.2'
@@ -648,6 +613,41 @@ builds:
       name: The Spear is the Way
       type: utility
     winrate: '16.7'
+  - damage: '7.5'
+    disable: '0.9'
+    energy: '3.4'
+    num: 12
+    protection: '1.4'
+    skills:
+    - color: green
+      description: Impale heals you for 2 health and 2 additional health per weapon
+        charge.
+      icon: 18eee826117df534d91bd518653fc360
+      name: Ceremonial Spear
+      type: survival
+    - color: pink
+      description: Javelin inflicts Root for 1.2.
+      icon: 2b30312258b7fec4a90040d475f5b31f
+      name: Dirty Tricks
+      type: control
+    - color: red
+      description: Increases your maximum weapon charges by 1 and countering an attack
+        with Kunju grants 1 weapon charge.
+      icon: 19e037c83991916449cd9475c20ca0d1
+      name: Ferocious Stance
+      type: offense
+    - color: yellow
+      description: Increases lunge distance of Impale by 100.
+      icon: 18eee826117df534d91bd518653fc360
+      name: Spear Lunge
+      type: mobility
+    - color: yellow
+      description: Increases Fleetfoot movement speed bonus from 35 to 50 and haste
+        duration by 1.
+      icon: 0b6f5070063c16f4eb62990034cffd29
+      name: Swift Feet
+      type: mobility
+    winrate: '58.3'
   - damage: '7.6'
     disable: '0.6'
     energy: '3.3'
@@ -685,10 +685,10 @@ builds:
       name: Thrust
       type: control
     winrate: '27.3'
-  - damage: '6.4'
+  - damage: '6.7'
     disable: '0.4'
-    energy: '3.5'
-    num: 10
+    energy: '3.7'
+    num: 11
     protection: '1.2'
     skills:
     - color: green
@@ -720,7 +720,7 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '50.0'
+    winrate: '54.5'
 compos:
   threes:
   - hero_names:
@@ -737,8 +737,8 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 15
-    winrate: 0.4
+    num: 16
+    winrate: 0.375
     wins: 6
   - hero_names:
     - Oldur
@@ -758,6 +758,23 @@ compos:
     winrate: 0.5
     wins: 5
   - hero_names:
+    - Ashka
+    - Shifu
+    - Pearl
+    heros:
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
+    num: 9
+    winrate: 0.2222222222222222
+    wins: 2
+  - hero_names:
     - Poloma
     - Shifu
     - Jumong
@@ -774,6 +791,23 @@ compos:
     num: 9
     winrate: 0.4444444444444444
     wins: 4
+  - hero_names:
+    - Poloma
+    - Shifu
+    - Varesh
+    heros:
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    - icon: f1cc53a29c58089478f6438589d9b32d
+      name: Varesh
+      title: varesh
+    num: 8
+    winrate: 0.625
+    wins: 5
   - hero_names:
     - Shifu
     - Jade
@@ -826,40 +860,6 @@ compos:
     winrate: 0.0
     wins: 0
   - hero_names:
-    - Blossom
-    - Shifu
-    - Jade
-    heros:
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 7
-    winrate: 0.5714285714285714
-    wins: 4
-  - hero_names:
-    - Poloma
-    - Shifu
-    - Varesh
-    heros:
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
-    - icon: f1cc53a29c58089478f6438589d9b32d
-      name: Varesh
-      title: varesh
-    num: 7
-    winrate: 0.5714285714285714
-    wins: 4
-  - hero_names:
     - Jumong
     - Blossom
     - Shifu
@@ -904,8 +904,8 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 69
-    winrate: 0.4927536231884058
+    num: 70
+    winrate: 0.4857142857142857
     wins: 34
   - hero_names:
     - Oldur
@@ -917,9 +917,9 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 57
-    winrate: 0.3684210526315789
-    wins: 21
+    num: 56
+    winrate: 0.35714285714285715
+    wins: 20
   - hero_names:
     - Shifu
     - Sirius
@@ -930,9 +930,9 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 48
-    winrate: 0.375
-    wins: 18
+    num: 49
+    winrate: 0.3877551020408163
+    wins: 19
   - hero_names:
     - Rook
     - Shifu
@@ -943,22 +943,9 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 43
-    winrate: 0.4883720930232558
-    wins: 21
-  - hero_names:
-    - Pestilus
-    - Shifu
-    heros:
-    - icon: a7e0c7a6f0fa2ef49bf684950de34567
-      name: Pestilus
-      title: pestilus
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
-    num: 42
-    winrate: 0.40476190476190477
-    wins: 17
+    num: 46
+    winrate: 0.5217391304347826
+    wins: 24
   - hero_names:
     - Shifu
     - Pearl
@@ -969,9 +956,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 41
-    winrate: 0.5609756097560976
-    wins: 23
+    num: 43
+    winrate: 0.5581395348837209
+    wins: 24
   - hero_names:
     - Shifu
     - Lucie
@@ -982,22 +969,22 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 40
-    winrate: 0.575
-    wins: 23
+    num: 42
+    winrate: 0.5714285714285714
+    wins: 24
   - hero_names:
-    - Ashka
+    - Pestilus
     - Shifu
     heros:
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 21
-    winrate: 0.7142857142857143
-    wins: 15
+    num: 41
+    winrate: 0.4146341463414634
+    wins: 17
   - hero_names:
     - Iva
     - Shifu
@@ -1008,9 +995,22 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 20
-    winrate: 0.4
+    num: 22
+    winrate: 0.36363636363636365
     wins: 8
+  - hero_names:
+    - Ashka
+    - Shifu
+    heros:
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    num: 20
+    winrate: 0.75
+    wins: 15
   - hero_names:
     - Freya
     - Shifu
@@ -1031,11 +1031,11 @@ icon: 6f69edc7410650c43bee267eef585b06
 layout: character
 name: shifu
 num:
-  threes: 369
-  twos: 578
+  threes: 371
+  twos: 598
 title: Shifu
 url: characters/shifu.html
 winrate:
-  threes: '43.90'
-  twos: '45.50'
+  threes: '44.20'
+  twos: '46.32'
 ...
