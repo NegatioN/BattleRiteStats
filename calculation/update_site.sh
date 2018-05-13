@@ -1,21 +1,22 @@
 #!/usr/bin/env bash
 
-if [[ $(uname -a) = *"armv7l"* ]]; then
-  echo "Running raspberry pi, installng PIL"
-  sudo apt-get update && sudo apt-get install -y libjpeg-dev python-imaging python3-pil.imagetk
-  echo "Setting default python to berryconda"
-  export PATH=/home/pi/berryconda3/bin:${PATH}
-  echo "Installing numpy and pandas with conda"
-  conda install -y numpy pandas
-fi
-
 export PYTHONPATH="$(pwd)"
 echo $PYTHONPATH
+# database init
+sudo apt-get update && sudo apt-get install -y postgresql postgresql-contrib
+export DB_NAME="battleritebuilds"
+sudo -u postgres createuser psycopg
+sudo -u postgres createdb ${DB_NAME}
+sudo -u postgres psql -d ${DB_NAME} -a -f calculation/db/databases.sql
+mkdir calculation/db/tmp
+
 mkdir assets
 mkdir assets/characters
 sudo pip3 install -r requirements.txt
 python3 prepare_analysis_assets.py
 BATTLERITE_API_KEY=${BATTLERITE_API_KEY} python3 calculate_builds.py
+sudo -u postgres psql -d ${DB_NAME} -a -f calculation/db/update_base.sql
+
 python3 analysis.py
 python3 picture_assets.py
 

@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 from collections import defaultdict
 import numpy as np
 from ratelimiter import RateLimiter
+import pandas as pd
 
 def get_content(url, headers):
     response = requests.get(url, headers=headers)
@@ -81,6 +82,30 @@ def get_battlerite_type_mapping():
         for k, v in defined_mappings.items():
             type_mappings[k] = battlerite_type_mapping[v]['type']
         return type_mappings
+
+
+def update_databases(master_team_dict):
+    p_t = defaultdict(lambda: [])
+    team_info = defaultdict(lambda: [])
+    blaclisted_keys = ['users']
+    for teamid,v in master_team_dict.items():
+            teamid = int(teamid)
+            for p in v['users']:
+                    p_t['userid'].append(int(p))
+                    p_t['teamid'].append(teamid)
+
+            team_info['teamid'].append(teamid)
+            for vs in v:
+                    if vs not in blaclisted_keys:
+                            team_info[vs].append(int(v[vs]))
+    p_t_df = pd.DataFrame.from_dict(p_t)[['userid', 'teamid']]
+    del p_t
+    team_info_df = pd.DataFrame.from_dict(team_info)
+    team_info_df['timee'] = team_info_df['time']
+    team_info_df = team_info_df[['teamid', 'league', 'division', 'divrating', 'timee', 'wins', 'losses']]
+    del team_info
+    team_info_df.to_csv('db/tmp/t.csv', index=False)
+    p_t_df.to_csv('db/tmp/pt.csv', index=False)
 
 
 def get_proxies():

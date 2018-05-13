@@ -11,6 +11,7 @@ package.json
 
 calculation/assets/
 calculation/cache/
+calculation/db/
 .idea/
 # Byte-compiled / optimized / DLL files
 __pycache__/

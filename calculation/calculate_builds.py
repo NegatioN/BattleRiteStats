@@ -7,7 +7,7 @@ from ratelimiter import RateLimiter
 from datetime import timedelta, datetime
 from copy import deepcopy
 
-from helpers import get_user_ids
+from helpers import get_user_ids, update_databases
 from telem_cache import TelemetryCache
 from collections import defaultdict
 from furrycorn.location import mk_origin, mk_path, mk_query, to_url
@@ -206,7 +206,7 @@ if __name__ == "__main__":
             telem_dd.update(data)
             m_df = parse_round_statistics(telem_dd)
             c_df = parse_telemetry(telem_dd)
-            #master_team_dict.update(get_team_info(telem_dd))
+            master_team_dict.update(get_team_info(telem_dd))
             main_df = pd.concat([main_df, c_df]).reset_index().drop('index', 1)
             match_df = pd.concat([match_df, m_df]).reset_index().drop('index', 1)
         except:
@@ -229,6 +229,8 @@ if __name__ == "__main__":
 
     main_df.to_csv('assets/character_df.csv', index=False)
     match_df.to_csv('assets/match_df.csv', index=False)
+
+    update_databases(master_team_dict=master_team_dict)
 
 print('Cache hits: {}'.format(telem_cache.cache_hits))
 print('Added to cache: {}'.format(telem_cache.added_to_cache))
