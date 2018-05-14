@@ -40,8 +40,8 @@ builds:
   - damage: '3.9'
     disable: '1.0'
     energy: '2.9'
-    num: 42
-    protection: '5.9'
+    num: 43
+    protection: '5.8'
     skills:
     - color: teal
       description: Healing Wave bounces to a nearby ally after healing, healing them
@@ -71,11 +71,46 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    winrate: '69.0'
-  - damage: '4.2'
-    disable: '0.7'
+    winrate: '69.8'
+  - damage: '3.5'
+    disable: '1.0'
+    energy: '2.8'
+    num: 42
+    protection: '4.5'
+    skills:
+    - color: pink
+      description: Countering an attack with Tidal Wave recharges your staff.
+      icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Gush
+      type: control
+    - color: yellow
+      description: Diving into a Bubble Barrier destroys the bubble and resets the
+        cooldown of Dive.
+      icon: 6c30b1e6992030e4dae06a355b7a4fb4
+      name: Ocean Tide
+      type: mobility
+    - color: green
+      description: Countering an attack with Tidal Wave spawns a Lesser Bubble Barrier
+        around you.
+      icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Sea Bubble
+      type: survival
+    - color: pink
+      description: Increases Silence duration from 1 to 1.4.
+      icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Soaking Wet
+      type: control
+    - color: pink
+      description: Charged Volatile Water explodes upon hitting an enemy, dealing
+        full damage and inflicting Silence to other nearby enemies.
+      icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Splash Damage
+      type: control
+    winrate: '47.6'
+  - damage: '4.3'
+    disable: '0.8'
     energy: '3.3'
-    num: 40
+    num: 39
     protection: '4.9'
     skills:
     - color: pink
@@ -107,42 +142,7 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    winrate: '50.0'
-  - damage: '3.6'
-    disable: '1.0'
-    energy: '2.8'
-    num: 40
-    protection: '4.5'
-    skills:
-    - color: pink
-      description: Countering an attack with Tidal Wave recharges your staff.
-      icon: baa9baf5b01c5ee42902398a8f946a5a
-      name: Gush
-      type: control
-    - color: yellow
-      description: Diving into a Bubble Barrier destroys the bubble and resets the
-        cooldown of Dive.
-      icon: 6c30b1e6992030e4dae06a355b7a4fb4
-      name: Ocean Tide
-      type: mobility
-    - color: green
-      description: Countering an attack with Tidal Wave spawns a Lesser Bubble Barrier
-        around you.
-      icon: baa9baf5b01c5ee42902398a8f946a5a
-      name: Sea Bubble
-      type: survival
-    - color: pink
-      description: Increases Silence duration from 1 to 1.4.
-      icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Soaking Wet
-      type: control
-    - color: pink
-      description: Charged Volatile Water explodes upon hitting an enemy, dealing
-        full damage and inflicting Silence to other nearby enemies.
-      icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Splash Damage
-      type: control
-    winrate: '50.0'
+    winrate: '51.3'
   - damage: '3.8'
     disable: '0.8'
     energy: '3.0'
@@ -359,44 +359,8 @@ builds:
   twos:
   - damage: '4.5'
     disable: '0.7'
-    energy: '2.8'
-    num: 118
-    protection: '4.0'
-    skills:
-    - color: pink
-      description: Countering an attack with Tidal Wave recharges your staff.
-      icon: baa9baf5b01c5ee42902398a8f946a5a
-      name: Gush
-      type: control
-    - color: red
-      description: Firing Volatile Water through a Bubble Barrier increases damage
-        by 3 and range by 25.
-      icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Rippling Waters
-      type: offense
-    - color: green
-      description: Countering an attack with Tidal Wave spawns a Lesser Bubble Barrier
-        around you.
-      icon: baa9baf5b01c5ee42902398a8f946a5a
-      name: Sea Bubble
-      type: survival
-    - color: pink
-      description: Charged Volatile Water explodes upon hitting an enemy, dealing
-        full damage and inflicting Silence to other nearby enemies.
-      icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Splash Damage
-      type: control
-    - color: teal
-      description: Bubble Barrier spawns a tasty fish that heals 8 health and increases
-        damage output by 20 for 4 when picked up.
-      icon: dba76bbb88cac764f9a8aeff389abb99
-      name: Tasty Fish
-      type: support
-    winrate: '62.7'
-  - damage: '4.5'
-    disable: '0.7'
     energy: '2.7'
-    num: 117
+    num: 125
     protection: '3.9'
     skills:
     - color: pink
@@ -428,11 +392,11 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    winrate: '45.3'
-  - damage: '4.3'
-    disable: '1.1'
-    energy: '2.8'
-    num: 96
+    winrate: '47.2'
+  - damage: '4.2'
+    disable: '1.0'
+    energy: '2.9'
+    num: 101
     protection: '3.7'
     skills:
     - color: pink
@@ -463,7 +427,43 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '38.5'
+    winrate: '38.6'
+  - damage: '4.5'
+    disable: '0.7'
+    energy: '2.8'
+    num: 100
+    protection: '4.1'
+    skills:
+    - color: pink
+      description: Countering an attack with Tidal Wave recharges your staff.
+      icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Gush
+      type: control
+    - color: red
+      description: Firing Volatile Water through a Bubble Barrier increases damage
+        by 3 and range by 25.
+      icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Rippling Waters
+      type: offense
+    - color: green
+      description: Countering an attack with Tidal Wave spawns a Lesser Bubble Barrier
+        around you.
+      icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Sea Bubble
+      type: survival
+    - color: pink
+      description: Charged Volatile Water explodes upon hitting an enemy, dealing
+        full damage and inflicting Silence to other nearby enemies.
+      icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Splash Damage
+      type: control
+    - color: teal
+      description: Bubble Barrier spawns a tasty fish that heals 8 health and increases
+        damage output by 20 for 4 when picked up.
+      icon: dba76bbb88cac764f9a8aeff389abb99
+      name: Tasty Fish
+      type: support
+    winrate: '62.0'
   - damage: '4.6'
     disable: '0.9'
     energy: '3.2'
@@ -498,11 +498,11 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Soaking Wet
       type: control
-    winrate: '57.1'
+    winrate: '55.7'
   - damage: '4.8'
     disable: '0.8'
     energy: '3.1'
-    num: 54
+    num: 55
     protection: '3.7'
     skills:
     - color: pink
@@ -534,41 +534,7 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '46.3'
-  - damage: '5.0'
-    disable: '1.1'
-    energy: '3.2'
-    num: 21
-    protection: '4.4'
-    skills:
-    - color: pink
-      description: Countering an attack with Tidal Wave recharges your staff.
-      icon: baa9baf5b01c5ee42902398a8f946a5a
-      name: Gush
-      type: control
-    - color: red
-      description: Dive deals 8 damage and inflicts Root for 1 at your starting location.
-      icon: 6c30b1e6992030e4dae06a355b7a4fb4
-      name: Riptide
-      type: offense
-    - color: pink
-      description: Increases Silence duration from 1 to 1.4.
-      icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Soaking Wet
-      type: control
-    - color: pink
-      description: Charged Volatile Water explodes upon hitting an enemy, dealing
-        full damage and inflicting Silence to other nearby enemies.
-      icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Splash Damage
-      type: control
-    - color: teal
-      description: Bubble Barrier spawns a tasty fish that heals 8 health and increases
-        damage output by 20 for 4 when picked up.
-      icon: dba76bbb88cac764f9a8aeff389abb99
-      name: Tasty Fish
-      type: support
-    winrate: '66.7'
+    winrate: '45.5'
   - damage: '5.0'
     disable: '1.2'
     energy: '3.2'
@@ -605,8 +571,8 @@ builds:
     winrate: '60.0'
   - damage: '4.4'
     disable: '0.8'
-    energy: '2.6'
-    num: 19
+    energy: '2.7'
+    num: 20
     protection: '3.8'
     skills:
     - color: pink
@@ -637,7 +603,41 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    winrate: '47.4'
+    winrate: '45.0'
+  - damage: '5.2'
+    disable: '1.1'
+    energy: '3.2'
+    num: 19
+    protection: '4.4'
+    skills:
+    - color: pink
+      description: Countering an attack with Tidal Wave recharges your staff.
+      icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Gush
+      type: control
+    - color: red
+      description: Dive deals 8 damage and inflicts Root for 1 at your starting location.
+      icon: 6c30b1e6992030e4dae06a355b7a4fb4
+      name: Riptide
+      type: offense
+    - color: pink
+      description: Increases Silence duration from 1 to 1.4.
+      icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Soaking Wet
+      type: control
+    - color: pink
+      description: Charged Volatile Water explodes upon hitting an enemy, dealing
+        full damage and inflicting Silence to other nearby enemies.
+      icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Splash Damage
+      type: control
+    - color: teal
+      description: Bubble Barrier spawns a tasty fish that heals 8 health and increases
+        damage output by 20 for 4 when picked up.
+      icon: dba76bbb88cac764f9a8aeff389abb99
+      name: Tasty Fish
+      type: support
+    winrate: '68.4'
   - damage: '4.2'
     disable: '0.9'
     energy: '2.9'
@@ -672,40 +672,43 @@ builds:
       name: Splash Damage
       type: control
     winrate: '55.6'
-  - damage: '4.8'
+  - damage: '5.2'
     disable: '1.0'
-    energy: '3.2'
+    energy: '2.9'
     num: 17
-    protection: '4.1'
+    protection: '3.7'
     skills:
-    - color: pink
-      description: Countering an attack with Tidal Wave recharges your staff.
-      icon: baa9baf5b01c5ee42902398a8f946a5a
-      name: Gush
-      type: control
-    - color: red
-      description: Dive deals 8 damage and inflicts Root for 1 at your starting location.
+    - color: yellow
+      description: Diving into a Bubble Barrier destroys the bubble and resets the
+        cooldown of Dive.
       icon: 6c30b1e6992030e4dae06a355b7a4fb4
-      name: Riptide
-      type: offense
-    - color: pink
-      description: Increases Silence duration from 1 to 1.4.
+      name: Ocean Tide
+      type: mobility
+    - color: red
+      description: Firing Volatile Water through a Bubble Barrier increases damage
+        by 3 and range by 25.
       icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Soaking Wet
-      type: control
+      name: Rippling Waters
+      type: offense
+    - color: green
+      description: Countering an attack with Tidal Wave spawns a Lesser Bubble Barrier
+        around you.
+      icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Sea Bubble
+      type: survival
     - color: pink
       description: Charged Volatile Water explodes upon hitting an enemy, dealing
         full damage and inflicting Silence to other nearby enemies.
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    - color: red
-      description: Countering an attack with Tidal Wave fires a volley of Lesser Volatile
-        Water at nearby enemies. Each Lesser Volatile Water deals 8 damage.
-      icon: baa9baf5b01c5ee42902398a8f946a5a
-      name: Tsunami
-      type: offense
-    winrate: '52.9'
+    - color: teal
+      description: Bubble Barrier spawns a tasty fish that heals 8 health and increases
+        damage output by 20 for 4 when picked up.
+      icon: dba76bbb88cac764f9a8aeff389abb99
+      name: Tasty Fish
+      type: support
+    winrate: '64.7'
 compos:
   threes:
   - hero_names:
@@ -760,6 +763,23 @@ compos:
     winrate: 0.21428571428571427
     wins: 3
   - hero_names:
+    - Rook
+    - Ashka
+    - Pearl
+    heros:
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
+    num: 13
+    winrate: 0.23076923076923078
+    wins: 3
+  - hero_names:
     - Ashka
     - Bakko
     - Pearl
@@ -811,6 +831,23 @@ compos:
     winrate: 0.5454545454545454
     wins: 6
   - hero_names:
+    - Rook
+    - Jade
+    - Pearl
+    heros:
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
+    num: 11
+    winrate: 0.45454545454545453
+    wins: 5
+  - hero_names:
     - Thorn
     - Jade
     - Pearl
@@ -824,43 +861,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 11
-    winrate: 0.45454545454545453
+    num: 10
+    winrate: 0.5
     wins: 5
-  - hero_names:
-    - Rook
-    - Jade
-    - Pearl
-    heros:
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    - icon: 427116cdee46bad4cbaa99d7063e0832
-      name: Pearl
-      title: pearl
-    num: 11
-    winrate: 0.45454545454545453
-    wins: 5
-  - hero_names:
-    - Rook
-    - Ashka
-    - Pearl
-    heros:
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: 427116cdee46bad4cbaa99d7063e0832
-      name: Pearl
-      title: pearl
-    num: 11
-    winrate: 0.2727272727272727
-    wins: 3
   - hero_names:
     - Thorn
     - Pearl
@@ -889,22 +892,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 157
-    winrate: 0.5732484076433121
-    wins: 90
-  - hero_names:
-    - Pearl
-    - Ruh Kaan
-    heros:
-    - icon: 427116cdee46bad4cbaa99d7063e0832
-      name: Pearl
-      title: pearl
-    - icon: bb37e5d448c511e47b808987d0d4f9e8
-      name: Ruh Kaan
-      title: ruh-kaan
-    num: 79
-    winrate: 0.620253164556962
-    wins: 49
+    num: 162
+    winrate: 0.5679012345679012
+    wins: 92
   - hero_names:
     - Raigon
     - Pearl
@@ -915,9 +905,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 68
-    winrate: 0.4852941176470588
-    wins: 33
+    num: 74
+    winrate: 0.5
+    wins: 37
   - hero_names:
     - Bakko
     - Pearl
@@ -928,9 +918,22 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 68
-    winrate: 0.6323529411764706
-    wins: 43
+    num: 73
+    winrate: 0.6438356164383562
+    wins: 47
+  - hero_names:
+    - Pearl
+    - Ruh Kaan
+    heros:
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
+    - icon: bb37e5d448c511e47b808987d0d4f9e8
+      name: Ruh Kaan
+      title: ruh-kaan
+    num: 58
+    winrate: 0.5172413793103449
+    wins: 30
   - hero_names:
     - Jumong
     - Pearl
@@ -941,22 +944,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 49
-    winrate: 0.5510204081632653
-    wins: 27
-  - hero_names:
-    - Shifu
-    - Pearl
-    heros:
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
-    - icon: 427116cdee46bad4cbaa99d7063e0832
-      name: Pearl
-      title: pearl
-    num: 46
-    winrate: 0.5434782608695652
-    wins: 25
+    num: 50
+    winrate: 0.56
+    wins: 28
   - hero_names:
     - Alysia
     - Pearl
@@ -967,9 +957,22 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 46
-    winrate: 0.4782608695652174
-    wins: 22
+    num: 48
+    winrate: 0.4791666666666667
+    wins: 23
+  - hero_names:
+    - Shifu
+    - Pearl
+    heros:
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
+    num: 47
+    winrate: 0.5531914893617021
+    wins: 26
   - hero_names:
     - Thorn
     - Pearl
@@ -980,8 +983,8 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 39
-    winrate: 0.41025641025641024
+    num: 42
+    winrate: 0.38095238095238093
     wins: 16
   - hero_names:
     - Freya
@@ -993,9 +996,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 39
-    winrate: 0.38461538461538464
-    wins: 15
+    num: 41
+    winrate: 0.43902439024390244
+    wins: 18
   - hero_names:
     - Ezmo
     - Pearl
@@ -1006,9 +1009,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 39
-    winrate: 0.6410256410256411
-    wins: 25
+    num: 41
+    winrate: 0.6341463414634146
+    wins: 26
 description: A sage able to control the oceans and whatever creatures that lurk below.
   Pearl transforms water into volatile attacks, rejuvenating streams and protecting
   bubbles.
@@ -1017,10 +1020,10 @@ layout: character
 name: pearl
 num:
   threes: 482
-  twos: 871
+  twos: 875
 title: Pearl
 url: characters/pearl.html
 winrate:
-  threes: '47.72'
-  twos: '51.55'
+  threes: '47.51'
+  twos: '51.09'
 ...
