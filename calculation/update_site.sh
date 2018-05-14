@@ -7,15 +7,15 @@ sudo apt-get update && sudo apt-get install -y postgresql postgresql-contrib
 export DB_NAME="battleritebuilds"
 sudo -u postgres createuser psycopg
 sudo -u postgres createdb ${DB_NAME}
-sudo -u postgres psql -d ${DB_NAME} -a -f calculation/db/databases.sql
-mkdir calculation/db/tmp
+sudo -u postgres psql -d ${DB_NAME} -a -f db/databases.sql
+mkdir db/tmp
 
 mkdir assets
 mkdir assets/characters
 sudo pip3 install -r requirements.txt
 python3 prepare_analysis_assets.py
 BATTLERITE_API_KEY=${BATTLERITE_API_KEY} python3 calculate_builds.py
-sudo -u postgres psql -d ${DB_NAME} -a -f calculation/db/update_base.sql
+sudo -u postgres psql -d ${DB_NAME} -a -f db/update_base.sql
 
 python3 analysis.py
 python3 picture_assets.py
