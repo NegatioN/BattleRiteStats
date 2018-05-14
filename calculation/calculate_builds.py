@@ -15,7 +15,7 @@ import pandas as pd
 
 api_key = os.environ.get('BATTLERITE_API_KEY')
 print('Api key is set={}'.format("Yes" if api_key else "No"))
-origin = mk_origin('https', 'api.dc01.gamelockerapp.com', '/shards/global')
+origin = mk_origin('https', 'api.developer.battlerite.com', '/shards/global')
 headers = {'Accept': 'application/vnd.api+json',
            'Accept-Encoding': 'gzip',
            'Authorization': 'Bearer {0}'.format(api_key)}
