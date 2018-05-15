@@ -605,40 +605,6 @@ builds:
       name: Twin Hammers
       type: mixed
     winrate: '20.0'
-  - damage: '9.3'
-    disable: '1.4'
-    energy: '4.8'
-    num: 14
-    protection: '1.8'
-    skills:
-    - color: green
-      description: Spring causes your next Bash to grant you a Shield. It absorbs
-        up to 14 damage for 3.
-      icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Electric Conduction
-      type: survival
-    - color: green
-      description: Each enemy hit by Thunderclap grants you Shield that absorbs up
-        to 10 damage for 3.
-      icon: f5f7b137c0c9d444899035c91cedda42
-      name: Lightning Rod
-      type: survival
-    - color: yellow
-      description: Move forward during Thunderclap.
-      icon: f5f7b137c0c9d444899035c91cedda42
-      name: Rolling Thunder
-      type: mobility
-    - color: yellow
-      description: Storm Mace hits increase your movement speed by 35 for 2.
-      icon: 92dd476aa2340694c9f1167dfc761287
-      name: Tempest
-      type: mobility
-    - color: pink
-      description: Lightning Strike inflicts Stun for 1.
-      icon: 296bc93338f9bc94a8afca3763e4a778
-      name: Thunderstruck
-      type: control
-    winrate: '57.1'
   - damage: '5.2'
     disable: '0.7'
     energy: '2.5'
@@ -674,6 +640,40 @@ builds:
       name: Twin Hammers
       type: mixed
     winrate: '71.4'
+  - damage: '9.3'
+    disable: '1.4'
+    energy: '4.8'
+    num: 14
+    protection: '1.8'
+    skills:
+    - color: green
+      description: Spring causes your next Bash to grant you a Shield. It absorbs
+        up to 14 damage for 3.
+      icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+      type: survival
+    - color: green
+      description: Each enemy hit by Thunderclap grants you Shield that absorbs up
+        to 10 damage for 3.
+      icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+      type: survival
+    - color: yellow
+      description: Move forward during Thunderclap.
+      icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
+      type: mobility
+    - color: yellow
+      description: Storm Mace hits increase your movement speed by 35 for 2.
+      icon: 92dd476aa2340694c9f1167dfc761287
+      name: Tempest
+      type: mobility
+    - color: pink
+      description: Lightning Strike inflicts Stun for 1.
+      icon: 296bc93338f9bc94a8afca3763e4a778
+      name: Thunderstruck
+      type: control
+    winrate: '57.1'
   - damage: '6.7'
     disable: '1.2'
     energy: '3.6'

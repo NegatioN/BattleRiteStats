@@ -666,30 +666,30 @@ builds:
       name: Spell Eater
       type: survival
     winrate: '33.3'
-  - damage: '6.8'
+  - damage: '7.8'
     disable: '0.7'
-    energy: '4.1'
+    energy: '4.3'
     num: 8
-    protection: '0.9'
+    protection: '0.8'
     skills:
-    - color: red
-      description: Shackle hits grant 1 weapon charge and increase Arcane Fire range
-        by 50 until the next reload.
-      icon: b51e6f88de6853d46bec81bbb3a655a4
-      name: Bolted
-      type: offense
     - color: pink
       description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
         duration.
       icon: da12579e4ef58ba4c87c1819bf1c699b
       name: Disruption
       type: control
-    - color: green
-      description: Negating attacks with Arcane Barrier grants twice as many weapon
-        charges. For each charge gained, heal yourself for 6 health.
+    - color: yellow
+      description: Arcane Barrier increases your movement speed by 40. Also reduces
+        its cooldown by 1.
       icon: 563027e5fd687db4697308c54fe91381
-      name: Spell Eater
-      type: survival
+      name: Imp Rush
+      type: mobility
+    - color: teal
+      description: Tome of Destruction leashes onto nearby allies, healing for 16
+        health over the duration.
+      icon: 09c45aed2b0414a42a18c1b81c9e589a
+      name: Tome Of Restoration
+      type: support
     - color: teal
       description: Shackle inflicts Weaken, reducing target's damage and healing output
         by 50 for 3.
@@ -701,7 +701,7 @@ builds:
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Whizz
       type: mobility
-    winrate: '50.0'
+    winrate: '75.0'
 compos:
   threes:
   - hero_names:

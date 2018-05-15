@@ -36,6 +36,41 @@ builds:
       name: Regrowth
       type: survival
     winrate: '54.5'
+  - damage: '7.2'
+    disable: '1.9'
+    energy: '3.1'
+    num: 37
+    protection: '1.8'
+    skills:
+    - color: pink
+      description: Entangle spreads towards nearby enemies when the effect is broken,
+        dealing 6 damage to enemies and inflicting Lesser Entangle.
+      icon: 0939b3a016f47504e99e00148489743b
+      name: Creeping Roots
+      type: control
+    - color: blue
+      description: Burrow causes you to become invisible for the duration.
+      icon: 297830658f259844cb3ce7d0711f15d8
+      name: Deep Burrow
+      type: utility
+    - color: blue
+      description: Increases Burrow duration by 0.5.
+      icon: 297830658f259844cb3ce7d0711f15d8
+      name: Lurker
+      type: utility
+    - color: green
+      description: Root Claw and Root Grip hits reduce incoming damage by 6 for 2.2.
+        Stacks up to 3 times.
+      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
+      name: Regrowth
+      type: survival
+    - color: red
+      description: Entangle deals 8 damage over its duration. Reduces cooldown of
+        Entangling Roots by 1.5.
+      icon: 0939b3a016f47504e99e00148489743b
+      name: Sinister Sap
+      type: offense
+    winrate: '62.2'
   - damage: '7.3'
     disable: '1.4'
     energy: '3.0'
@@ -107,77 +142,6 @@ builds:
       name: Sinister Sap
       type: offense
     winrate: '45.9'
-  - damage: '7.2'
-    disable: '1.9'
-    energy: '3.1'
-    num: 37
-    protection: '1.8'
-    skills:
-    - color: pink
-      description: Entangle spreads towards nearby enemies when the effect is broken,
-        dealing 6 damage to enemies and inflicting Lesser Entangle.
-      icon: 0939b3a016f47504e99e00148489743b
-      name: Creeping Roots
-      type: control
-    - color: blue
-      description: Burrow causes you to become invisible for the duration.
-      icon: 297830658f259844cb3ce7d0711f15d8
-      name: Deep Burrow
-      type: utility
-    - color: blue
-      description: Increases Burrow duration by 0.5.
-      icon: 297830658f259844cb3ce7d0711f15d8
-      name: Lurker
-      type: utility
-    - color: green
-      description: Root Claw and Root Grip hits reduce incoming damage by 6 for 2.2.
-        Stacks up to 3 times.
-      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
-      name: Regrowth
-      type: survival
-    - color: red
-      description: Entangle deals 8 damage over its duration. Reduces cooldown of
-        Entangling Roots by 1.5.
-      icon: 0939b3a016f47504e99e00148489743b
-      name: Sinister Sap
-      type: offense
-    winrate: '62.2'
-  - damage: '8.3'
-    disable: '1.8'
-    energy: '3.2'
-    num: 34
-    protection: '2.7'
-    skills:
-    - color: red
-      description: Increases Root Grip range by 20. Root Grip pulls enemies closer
-        and deals 4 bonus damage.
-      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
-      name: Branch Out
-      type: offense
-    - color: grey
-      description: Each stinging volley inflicts Thorns on nearby enemies. Reduces
-        cooldown of Barbed Husk by 2.
-      icon: e6cee4151f85f62479addb2c5f459016
-      name: Critical Backlash
-      type: mixed
-    - color: green
-      description: Each enemy hit by Burrow grants you a Shield that absorbs up to
-        14 damage for 3.
-      icon: 297830658f259844cb3ce7d0711f15d8
-      name: Fearsome Uprootal
-      type: survival
-    - color: red
-      description: Moving under an enemy during Burrow sends impaling roots upwards,
-        dealing 10 damage to the enemy after a 0.4 delay.
-      icon: 297830658f259844cb3ce7d0711f15d8
-      name: Impaling Roots
-      type: offense
-    - color: teal
-      description: Thorns reduces target's damage and healing output by 20 for 1.5.
-      icon: 3bf2758e82cebed44856097532c5dd9b
-      name: Neurotoxin
-      type: support
-    winrate: '52.9'
   - damage: '7.7'
     disable: '1.6'
     energy: '3.2'
@@ -214,6 +178,42 @@ builds:
       name: Regrowth
       type: survival
     winrate: '50.0'
+  - damage: '8.3'
+    disable: '1.8'
+    energy: '3.2'
+    num: 34
+    protection: '2.7'
+    skills:
+    - color: red
+      description: Increases Root Grip range by 20. Root Grip pulls enemies closer
+        and deals 4 bonus damage.
+      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
+      name: Branch Out
+      type: offense
+    - color: grey
+      description: Each stinging volley inflicts Thorns on nearby enemies. Reduces
+        cooldown of Barbed Husk by 2.
+      icon: e6cee4151f85f62479addb2c5f459016
+      name: Critical Backlash
+      type: mixed
+    - color: green
+      description: Each enemy hit by Burrow grants you a Shield that absorbs up to
+        14 damage for 3.
+      icon: 297830658f259844cb3ce7d0711f15d8
+      name: Fearsome Uprootal
+      type: survival
+    - color: red
+      description: Moving under an enemy during Burrow sends impaling roots upwards,
+        dealing 10 damage to the enemy after a 0.4 delay.
+      icon: 297830658f259844cb3ce7d0711f15d8
+      name: Impaling Roots
+      type: offense
+    - color: teal
+      description: Thorns reduces target's damage and healing output by 20 for 1.5.
+      icon: 3bf2758e82cebed44856097532c5dd9b
+      name: Neurotoxin
+      type: support
+    winrate: '52.9'
   - damage: '7.4'
     disable: '1.4'
     energy: '3.5'
@@ -286,42 +286,6 @@ builds:
       name: Sinister Sap
       type: offense
     winrate: '56.5'
-  - damage: '7.1'
-    disable: '1.4'
-    energy: '3.0'
-    num: 21
-    protection: '1.4'
-    skills:
-    - color: red
-      description: Increases Root Grip range by 20. Root Grip pulls enemies closer
-        and deals 4 bonus damage.
-      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
-      name: Branch Out
-      type: offense
-    - color: red
-      description: Moving under an enemy during Burrow sends impaling roots upwards,
-        dealing 10 damage to the enemy after a 0.4 delay.
-      icon: 297830658f259844cb3ce7d0711f15d8
-      name: Impaling Roots
-      type: offense
-    - color: blue
-      description: Increases Burrow duration by 0.5.
-      icon: 297830658f259844cb3ce7d0711f15d8
-      name: Lurker
-      type: utility
-    - color: red
-      description: Burrow underground at the end of Dead Roots. The Burrow lasts for
-        up to 1.25.
-      icon: 1ab62461fd3d7784f99630bc3350498c
-      name: No Escape
-      type: offense
-    - color: green
-      description: Root Claw and Root Grip hits reduce incoming damage by 6 for 2.2.
-        Stacks up to 3 times.
-      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
-      name: Regrowth
-      type: survival
-    winrate: '47.6'
   - damage: '8.4'
     disable: '1.3'
     energy: '3.4'
@@ -351,6 +315,42 @@ builds:
       icon: 3bf2758e82cebed44856097532c5dd9b
       name: Neurotoxin
       type: support
+    - color: green
+      description: Root Claw and Root Grip hits reduce incoming damage by 6 for 2.2.
+        Stacks up to 3 times.
+      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
+      name: Regrowth
+      type: survival
+    winrate: '47.6'
+  - damage: '7.1'
+    disable: '1.4'
+    energy: '3.0'
+    num: 21
+    protection: '1.4'
+    skills:
+    - color: red
+      description: Increases Root Grip range by 20. Root Grip pulls enemies closer
+        and deals 4 bonus damage.
+      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
+      name: Branch Out
+      type: offense
+    - color: red
+      description: Moving under an enemy during Burrow sends impaling roots upwards,
+        dealing 10 damage to the enemy after a 0.4 delay.
+      icon: 297830658f259844cb3ce7d0711f15d8
+      name: Impaling Roots
+      type: offense
+    - color: blue
+      description: Increases Burrow duration by 0.5.
+      icon: 297830658f259844cb3ce7d0711f15d8
+      name: Lurker
+      type: utility
+    - color: red
+      description: Burrow underground at the end of Dead Roots. The Burrow lasts for
+        up to 1.25.
+      icon: 1ab62461fd3d7784f99630bc3350498c
+      name: No Escape
+      type: offense
     - color: green
       description: Root Claw and Root Grip hits reduce incoming damage by 6 for 2.2.
         Stacks up to 3 times.
@@ -573,10 +573,10 @@ builds:
       type: offense
     winrate: '33.3'
   - damage: '7.6'
-    disable: '1.4'
-    energy: '3.2'
+    disable: '1.5'
+    energy: '3.3'
     num: 9
-    protection: '2.4'
+    protection: '2.5'
     skills:
     - color: grey
       description: Each stinging volley inflicts Thorns on nearby enemies. Reduces
@@ -584,6 +584,12 @@ builds:
       icon: e6cee4151f85f62479addb2c5f459016
       name: Critical Backlash
       type: mixed
+    - color: green
+      description: Each enemy hit by Burrow grants you a Shield that absorbs up to
+        14 damage for 3.
+      icon: 297830658f259844cb3ce7d0711f15d8
+      name: Fearsome Uprootal
+      type: survival
     - color: red
       description: Moving under an enemy during Burrow sends impaling roots upwards,
         dealing 10 damage to the enemy after a 0.4 delay.
@@ -595,19 +601,13 @@ builds:
       icon: 3bf2758e82cebed44856097532c5dd9b
       name: Neurotoxin
       type: support
-    - color: red
-      description: Thorns deals 4 bonus damage and heals you for 2 bonus health over
-        its duration.
-      icon: 3bf2758e82cebed44856097532c5dd9b
-      name: Parasitic Stems
-      type: offense
     - color: green
       description: Root Claw and Root Grip hits reduce incoming damage by 6 for 2.2.
         Stacks up to 3 times.
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    winrate: '33.3'
+    winrate: '66.7'
   - damage: '6.0'
     disable: '1.2'
     energy: '2.3'
@@ -644,10 +644,10 @@ builds:
       type: offense
     winrate: '22.2'
   - damage: '7.6'
-    disable: '1.5'
-    energy: '3.3'
+    disable: '1.4'
+    energy: '3.2'
     num: 9
-    protection: '2.5'
+    protection: '2.4'
     skills:
     - color: grey
       description: Each stinging volley inflicts Thorns on nearby enemies. Reduces
@@ -655,12 +655,6 @@ builds:
       icon: e6cee4151f85f62479addb2c5f459016
       name: Critical Backlash
       type: mixed
-    - color: green
-      description: Each enemy hit by Burrow grants you a Shield that absorbs up to
-        14 damage for 3.
-      icon: 297830658f259844cb3ce7d0711f15d8
-      name: Fearsome Uprootal
-      type: survival
     - color: red
       description: Moving under an enemy during Burrow sends impaling roots upwards,
         dealing 10 damage to the enemy after a 0.4 delay.
@@ -672,25 +666,25 @@ builds:
       icon: 3bf2758e82cebed44856097532c5dd9b
       name: Neurotoxin
       type: support
+    - color: red
+      description: Thorns deals 4 bonus damage and heals you for 2 bonus health over
+        its duration.
+      icon: 3bf2758e82cebed44856097532c5dd9b
+      name: Parasitic Stems
+      type: offense
     - color: green
       description: Root Claw and Root Grip hits reduce incoming damage by 6 for 2.2.
         Stacks up to 3 times.
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    winrate: '66.7'
-  - damage: '7.2'
-    disable: '1.4'
-    energy: '3.2'
+    winrate: '33.3'
+  - damage: '8.3'
+    disable: '1.6'
+    energy: '3.3'
     num: 8
-    protection: '2.0'
+    protection: '2.3'
     skills:
-    - color: red
-      description: Increases Root Grip range by 20. Root Grip pulls enemies closer
-        and deals 4 bonus damage.
-      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
-      name: Branch Out
-      type: offense
     - color: grey
       description: Each stinging volley inflicts Thorns on nearby enemies. Reduces
         cooldown of Barbed Husk by 2.
@@ -708,12 +702,19 @@ builds:
       icon: 297830658f259844cb3ce7d0711f15d8
       name: Lurker
       type: utility
-    - color: teal
-      description: Thorns reduces target's damage and healing output by 20 for 1.5.
+    - color: red
+      description: Thorns deals 4 bonus damage and heals you for 2 bonus health over
+        its duration.
       icon: 3bf2758e82cebed44856097532c5dd9b
-      name: Neurotoxin
-      type: support
-    winrate: '37.5'
+      name: Parasitic Stems
+      type: offense
+    - color: green
+      description: Root Claw and Root Grip hits reduce incoming damage by 6 for 2.2.
+        Stacks up to 3 times.
+      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
+      name: Regrowth
+      type: survival
+    winrate: '75.0'
 compos:
   threes:
   - hero_names:

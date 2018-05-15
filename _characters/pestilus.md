@@ -326,35 +326,34 @@ builds:
       name: Swarm Queen
       type: support
     winrate: '50.0'
-  - damage: '4.7'
-    disable: '0.7'
-    energy: '3.1'
+  - damage: '4.9'
+    disable: '1.5'
+    energy: '3.3'
     num: 8
-    protection: '5.6'
+    protection: '5.0'
     skills:
+    - color: pink
+      description: Increases Queen panic duration by 0.6.
+      icon: 7a1d6423f91ba824d8855aa3e9a42247
+      name: Broodmother
+      type: control
     - color: pink
       description: Arachnophobia bounces forward, causing another impact. The radius
         of the second impact is 15 larger.
       icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Egg Carrier
       type: control
-    - color: red
-      description: Hitting an enemy or ally affected by Moth with Bloodsucker deals
-        6 bonus damage to enemies and heals 6 bonus health to allies.
-      icon: 991db4d450443e9498711ab935bedf13
-      name: Insectivore
-      type: offense
+    - color: yellow
+      description: Your movement speed increases by 7 for each enemy or ally affected
+        by Moth. Stacks up to 3 times.
+      icon: f561a4d171334264d8f0eac3e9eb6d24
+      name: Overlord
+      type: mobility
     - color: red
       description: Arachnophobia deals 8 damage. Increases Panic duration by 0.5.
       icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Spiderling Venom
       type: offense
-    - color: grey
-      description: Infest reduces damage and healing output of enemies by 50 and increases
-        damage and healing output of allies by 25.
-      icon: c9f7e2e324bbed3469cbe356da833c9b
-      name: Spores
-      type: mixed
     - color: teal
       description: Queen spawns with a Swarm Shield that absorbs up to 28 damage and
         lasts 1.2.

@@ -212,42 +212,6 @@ builds:
       name: Vindicator
       type: mobility
     winrate: '35.7'
-  - damage: '4.8'
-    disable: '0.7'
-    energy: '3.6'
-    num: 13
-    protection: '5.5'
-    skills:
-    - color: red
-      description: Charged Hammer of Justice deals 2 bonus damage. Deals 16 damage
-        and inflicts Stun on secondary targets.
-      icon: 398f1e921a73f484e9fc54e1308407f7
-      name: Cleave
-      type: offense
-    - color: teal
-      description: Holy Light healing increases by 3 when healing self or allies affected
-        by Favor.
-      icon: 85a79d3bf018b184887fb1a71ef51ac1
-      name: Devotion
-      type: support
-    - color: teal
-      description: Favor reduces damage taken by 10.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Divine Protection
-      type: support
-    - color: red
-      description: The third Smite attack deals 4 bonus damage and explodes upon impact
-        dealing 16 area damage to nearby enemies.
-      icon: 6892bf3a45c0ad042b495a385cb5604f
-      name: Holy Fire
-      type: offense
-    - color: yellow
-      description: Condemn cooldown is reduced by 3 and hits refresh the cooldown
-        of Intervene.
-      icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
-      name: Vindicator
-      type: mobility
-    winrate: '61.5'
   - damage: '4.1'
     disable: '0.7'
     energy: '3.3'
@@ -284,6 +248,42 @@ builds:
       name: Vindicator
       type: mobility
     winrate: '46.2'
+  - damage: '4.8'
+    disable: '0.7'
+    energy: '3.6'
+    num: 13
+    protection: '5.5'
+    skills:
+    - color: red
+      description: Charged Hammer of Justice deals 2 bonus damage. Deals 16 damage
+        and inflicts Stun on secondary targets.
+      icon: 398f1e921a73f484e9fc54e1308407f7
+      name: Cleave
+      type: offense
+    - color: teal
+      description: Holy Light healing increases by 3 when healing self or allies affected
+        by Favor.
+      icon: 85a79d3bf018b184887fb1a71ef51ac1
+      name: Devotion
+      type: support
+    - color: teal
+      description: Favor reduces damage taken by 10.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Divine Protection
+      type: support
+    - color: red
+      description: The third Smite attack deals 4 bonus damage and explodes upon impact
+        dealing 16 area damage to nearby enemies.
+      icon: 6892bf3a45c0ad042b495a385cb5604f
+      name: Holy Fire
+      type: offense
+    - color: yellow
+      description: Condemn cooldown is reduced by 3 and hits refresh the cooldown
+        of Intervene.
+      icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
+      name: Vindicator
+      type: mobility
+    winrate: '61.5'
   - damage: '3.5'
     disable: '0.6'
     energy: '3.2'
@@ -670,41 +670,41 @@ builds:
       name: Vindicator
       type: mobility
     winrate: '20.0'
-  - damage: '4.0'
-    disable: '0.6'
-    energy: '3.2'
+  - damage: '5.5'
+    disable: '0.7'
+    energy: '3.4'
     num: 5
-    protection: '4.6'
+    protection: '4.1'
     skills:
+    - color: teal
+      description: Holy Light healing increases by 3 when healing self or allies affected
+        by Favor.
+      icon: 85a79d3bf018b184887fb1a71ef51ac1
+      name: Devotion
+      type: support
     - color: red
       description: Hammer of Justice deals 3 bonus damage when affected by Favor.
       icon: 398f1e921a73f484e9fc54e1308407f7
       name: Enchanted Weapon
       type: offense
-    - color: green
-      description: Activating Smite grants a Shield. It absorbs up to 14 damage for
-        3.
-      icon: 6892bf3a45c0ad042b495a385cb5604f
-      name: Halo
-      type: survival
     - color: yellow
       description: Intervene travel distance increases by 40 when affected by Favor.
       icon: 43ddc4074c2b605478c43c9727704ce8
       name: Initiation
       type: mobility
+    - color: red
+      description: Intervene deals 2 bonus damage and reduces incoming healing by
+        33 for 3.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Penitence
+      type: offense
     - color: yellow
-      description: Absorbing an attack with Radiant Shield increases your movement
-        speed by 20 for 3. Stacks up to 3 times.
-      icon: c7f49424687c9a744a6347a5e2eede0b
-      name: Light Speed
+      description: Condemn cooldown is reduced by 3 and hits refresh the cooldown
+        of Intervene.
+      icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
+      name: Vindicator
       type: mobility
-    - color: teal
-      description: Blocking an attack with Radiant Shield sends out a wave of light,
-        healing nearby allies for 10 health.
-      icon: c7f49424687c9a744a6347a5e2eede0b
-      name: Light's Embrace
-      type: support
-    winrate: '40.0'
+    winrate: '80.0'
 compos:
   threes:
   - hero_names:

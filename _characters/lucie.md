@@ -169,6 +169,38 @@ builds:
       name: Swift Roll
       type: mobility
     winrate: '47.6'
+  - damage: '3.3'
+    disable: '1.1'
+    energy: '3.5'
+    num: 13
+    protection: '5.5'
+    skills:
+    - color: pink
+      description: Clarity Potion inflicts 30 Snare for 3.
+      icon: d0c4449b33eef2e4ca2cfa8900910041
+      name: Adhesive Component
+      type: control
+    - color: yellow
+      description: ^2Barrier^- increases movement speed by 33.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
+      name: Alacrity
+      type: mobility
+    - color: teal
+      description: Healing Potion heals other allies for 4 bonus health.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Companion Potion
+      type: support
+    - color: red
+      description: ^2Revitalize^- increases damage output by 12.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Stimulant
+      type: offense
+    - color: grey
+      description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
+      icon: 948d85cf5c36f504f8b964acde19ed3e
+      name: Weakening Toxin
+      type: mixed
+    winrate: '61.5'
   - damage: '3.7'
     disable: '1.1'
     energy: '2.9'
@@ -204,38 +236,6 @@ builds:
       name: Weakening Toxin
       type: mixed
     winrate: '15.4'
-  - damage: '3.3'
-    disable: '1.1'
-    energy: '3.5'
-    num: 13
-    protection: '5.5'
-    skills:
-    - color: pink
-      description: Clarity Potion inflicts 30 Snare for 3.
-      icon: d0c4449b33eef2e4ca2cfa8900910041
-      name: Adhesive Component
-      type: control
-    - color: yellow
-      description: ^2Barrier^- increases movement speed by 33.
-      icon: 46e144a65c818c04eb3d00a21cf513b3
-      name: Alacrity
-      type: mobility
-    - color: teal
-      description: Healing Potion heals other allies for 4 bonus health.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Companion Potion
-      type: support
-    - color: red
-      description: ^2Revitalize^- increases damage output by 12.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Stimulant
-      type: offense
-    - color: grey
-      description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
-      icon: 948d85cf5c36f504f8b964acde19ed3e
-      name: Weakening Toxin
-      type: mixed
-    winrate: '61.5'
   - damage: '3.1'
     disable: '0.9'
     energy: '3.2'

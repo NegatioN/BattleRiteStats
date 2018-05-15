@@ -319,41 +319,41 @@ builds:
       name: System Shock
       type: control
     winrate: '33.3'
-  - damage: '6.6'
-    disable: '1.2'
-    energy: '3.3'
+  - damage: '5.9'
+    disable: '0.9'
+    energy: '3.1'
     num: 7
-    protection: '1.0'
+    protection: '0.1'
     skills:
     - color: red
       description: Sky Strike deals 6 bonus damage. Also increases its radius by 10.
       icon: 1d95f324f635c9447a68299999e8597e
       name: Blast Processing
       type: offense
-    - color: green
-      description: Sky Strike grants you a shield that absorbs up to 12 damage and
-        absorbs an additional 8 damage for each enemy hit. Lasts for 4.
-      icon: 1d95f324f635c9447a68299999e8597e
-      name: Energy Conversion
-      type: survival
     - color: pink
       description: Increases Fading Snare duration of Mega Sphere by 1 and reduces
         its cooldown by 3.
       icon: 751839d4f58db9445aa7fc86411521a1
       name: Expansion Pack
       type: control
-    - color: pink
-      description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
-      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: System Shock
-      type: control
-    - color: red
-      description: Increases knockback force of Magnetic Orb by 20 and it deals 4
-        bonus damage.
+    - color: yellow
+      description: Increases Magnetic Orb duration by 0.5 and its movement speed bonus
+        by 20.
       icon: 32189e52d279bcc498ede10b3d3ff6d1
-      name: Violent Revolution
+      name: Globetrotter
+      type: mobility
+    - color: red
+      description: Charged Bolt deals 1 - 5 bonus damage, based on charge-up duration.
+      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: Power Attachment
       type: offense
-    winrate: '42.9'
+    - color: red
+      description: Plasma Wall deals 6 damage to enemies that pass through. Increases
+        Snare factor from 25 to 40 and duration from 1.5 to 2.
+      icon: 14568f096fcd91f488876796605f5063
+      name: Sizzle
+      type: offense
+    winrate: '71.4'
   twos:
   - damage: '6.2'
     disable: '1.0'
@@ -494,6 +494,41 @@ builds:
       name: System Shock
       type: control
     winrate: '55.6'
+  - damage: '5.2'
+    disable: '0.8'
+    energy: '2.8'
+    num: 8
+    protection: '0.1'
+    skills:
+    - color: red
+      description: Sky Strike deals 6 bonus damage. Also increases its radius by 10.
+      icon: 1d95f324f635c9447a68299999e8597e
+      name: Blast Processing
+      type: offense
+    - color: pink
+      description: Increases Fading Snare duration of Mega Sphere by 1 and reduces
+        its cooldown by 3.
+      icon: 751839d4f58db9445aa7fc86411521a1
+      name: Expansion Pack
+      type: control
+    - color: yellow
+      description: Increases Magnetic Orb duration by 0.5 and its movement speed bonus
+        by 20.
+      icon: 32189e52d279bcc498ede10b3d3ff6d1
+      name: Globetrotter
+      type: mobility
+    - color: red
+      description: Charged Bolt deals 1 - 5 bonus damage, based on charge-up duration.
+      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: Power Attachment
+      type: offense
+    - color: red
+      description: Plasma Wall deals 6 damage to enemies that pass through. Increases
+        Snare factor from 25 to 40 and duration from 1.5 to 2.
+      icon: 14568f096fcd91f488876796605f5063
+      name: Sizzle
+      type: offense
+    winrate: '50.0'
   - damage: '6.5'
     disable: '1.2'
     energy: '3.0'
@@ -565,41 +600,6 @@ builds:
       name: Plasma Infusion
       type: survival
     winrate: '62.5'
-  - damage: '5.2'
-    disable: '0.8'
-    energy: '2.8'
-    num: 8
-    protection: '0.1'
-    skills:
-    - color: red
-      description: Sky Strike deals 6 bonus damage. Also increases its radius by 10.
-      icon: 1d95f324f635c9447a68299999e8597e
-      name: Blast Processing
-      type: offense
-    - color: pink
-      description: Increases Fading Snare duration of Mega Sphere by 1 and reduces
-        its cooldown by 3.
-      icon: 751839d4f58db9445aa7fc86411521a1
-      name: Expansion Pack
-      type: control
-    - color: yellow
-      description: Increases Magnetic Orb duration by 0.5 and its movement speed bonus
-        by 20.
-      icon: 32189e52d279bcc498ede10b3d3ff6d1
-      name: Globetrotter
-      type: mobility
-    - color: red
-      description: Charged Bolt deals 1 - 5 bonus damage, based on charge-up duration.
-      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: Power Attachment
-      type: offense
-    - color: red
-      description: Plasma Wall deals 6 damage to enemies that pass through. Increases
-        Snare factor from 25 to 40 and duration from 1.5 to 2.
-      icon: 14568f096fcd91f488876796605f5063
-      name: Sizzle
-      type: offense
-    winrate: '50.0'
   - damage: '7.8'
     disable: '1.2'
     energy: '3.9'
@@ -670,17 +670,23 @@ builds:
       name: System Shock
       type: control
     winrate: '0.0'
-  - damage: '6.8'
-    disable: '1.2'
-    energy: '3.3'
+  - damage: '5.6'
+    disable: '1.0'
+    energy: '3.1'
     num: 5
-    protection: '0.2'
+    protection: '0.6'
     skills:
     - color: red
       description: Sky Strike deals 6 bonus damage. Also increases its radius by 10.
       icon: 1d95f324f635c9447a68299999e8597e
       name: Blast Processing
       type: offense
+    - color: green
+      description: Sky Strike grants you a shield that absorbs up to 12 damage and
+        absorbs an additional 8 damage for each enemy hit. Lasts for 4.
+      icon: 1d95f324f635c9447a68299999e8597e
+      name: Energy Conversion
+      type: survival
     - color: pink
       description: Increases Fading Snare duration of Mega Sphere by 1 and reduces
         its cooldown by 3.
@@ -693,17 +699,12 @@ builds:
       icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Globetrotter
       type: mobility
-    - color: red
-      description: Charged Bolt deals 1 - 5 bonus damage, based on charge-up duration.
-      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: Power Attachment
-      type: offense
     - color: pink
       description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
-    winrate: '40.0'
+    winrate: '20.0'
 compos:
   threes:
   - hero_names:

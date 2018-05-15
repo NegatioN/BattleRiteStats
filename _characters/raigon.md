@@ -178,6 +178,42 @@ builds:
       name: Royal Descent
       type: offense
     winrate: '57.1'
+  - damage: '6.9'
+    disable: '0.8'
+    energy: '3.6'
+    num: 19
+    protection: '1.6'
+    skills:
+    - color: blue
+      description: Dragon Palm hits allow you to recast it for 1.5.
+      icon: d25b4fc0d427d424891492d2b61469a9
+      name: Dragon Mastery
+      type: utility
+    - color: teal
+      description: Move at 100% movement speed during Parry. Heal nearby allies for
+        8 health when Parry ends.
+      icon: fbfb00ff4fa4bc542b54639b84406f01
+      name: Invigorate
+      type: support
+    - color: green
+      description: Hitting at least one enemy with Heavenly Strike grants you a charge
+        of Slicing Winds.
+      icon: 47dabb046c0ec4d4c96bde0832713a46
+      name: Overflowing Power
+      type: survival
+    - color: red
+      description: When Parry expires, perform a Spinning Slash. It deals 10 damage
+        and inflict Stun for 0.3.
+      icon: fbfb00ff4fa4bc542b54639b84406f01
+      name: Riposte
+      type: offense
+    - color: red
+      description: Heavenly Strike deals 8 bonus damage and inflicts Fading Snare
+        for 1.2.
+      icon: 47dabb046c0ec4d4c96bde0832713a46
+      name: Royal Descent
+      type: offense
+    winrate: '47.4'
   - damage: '6.0'
     disable: '0.8'
     energy: '3.0'
@@ -249,42 +285,6 @@ builds:
       name: Royal Descent
       type: offense
     winrate: '42.1'
-  - damage: '6.9'
-    disable: '0.8'
-    energy: '3.6'
-    num: 19
-    protection: '1.6'
-    skills:
-    - color: blue
-      description: Dragon Palm hits allow you to recast it for 1.5.
-      icon: d25b4fc0d427d424891492d2b61469a9
-      name: Dragon Mastery
-      type: utility
-    - color: teal
-      description: Move at 100% movement speed during Parry. Heal nearby allies for
-        8 health when Parry ends.
-      icon: fbfb00ff4fa4bc542b54639b84406f01
-      name: Invigorate
-      type: support
-    - color: green
-      description: Hitting at least one enemy with Heavenly Strike grants you a charge
-        of Slicing Winds.
-      icon: 47dabb046c0ec4d4c96bde0832713a46
-      name: Overflowing Power
-      type: survival
-    - color: red
-      description: When Parry expires, perform a Spinning Slash. It deals 10 damage
-        and inflict Stun for 0.3.
-      icon: fbfb00ff4fa4bc542b54639b84406f01
-      name: Riposte
-      type: offense
-    - color: red
-      description: Heavenly Strike deals 8 bonus damage and inflicts Fading Snare
-        for 1.2.
-      icon: 47dabb046c0ec4d4c96bde0832713a46
-      name: Royal Descent
-      type: offense
-    winrate: '47.4'
   - damage: '7.4'
     disable: '1.2'
     energy: '3.2'

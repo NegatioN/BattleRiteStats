@@ -145,42 +145,6 @@ builds:
     winrate: '67.7'
   - damage: '3.9'
     disable: '0.8'
-    energy: '3.3'
-    num: 23
-    protection: '4.8'
-    skills:
-    - color: pink
-      description: Countering an attack with Tidal Wave recharges your staff.
-      icon: baa9baf5b01c5ee42902398a8f946a5a
-      name: Gush
-      type: control
-    - color: red
-      description: Firing Volatile Water through a Bubble Barrier increases damage
-        by 3 and range by 25.
-      icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Rippling Waters
-      type: offense
-    - color: green
-      description: Countering an attack with Tidal Wave spawns a Lesser Bubble Barrier
-        around you.
-      icon: baa9baf5b01c5ee42902398a8f946a5a
-      name: Sea Bubble
-      type: survival
-    - color: pink
-      description: Charged Volatile Water explodes upon hitting an enemy, dealing
-        full damage and inflicting Silence to other nearby enemies.
-      icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Splash Damage
-      type: control
-    - color: yellow
-      description: Touching a Bubble Barrier grants allies a 30 Haste that fades over
-        2 after leaving the bubble.
-      icon: dba76bbb88cac764f9a8aeff389abb99
-      name: Water Walk
-      type: mobility
-    winrate: '43.5'
-  - damage: '3.9'
-    disable: '0.8'
     energy: '3.0'
     num: 23
     protection: '4.5'
@@ -215,6 +179,42 @@ builds:
       name: Splash Damage
       type: control
     winrate: '56.5'
+  - damage: '3.9'
+    disable: '0.8'
+    energy: '3.3'
+    num: 23
+    protection: '4.8'
+    skills:
+    - color: pink
+      description: Countering an attack with Tidal Wave recharges your staff.
+      icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Gush
+      type: control
+    - color: red
+      description: Firing Volatile Water through a Bubble Barrier increases damage
+        by 3 and range by 25.
+      icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Rippling Waters
+      type: offense
+    - color: green
+      description: Countering an attack with Tidal Wave spawns a Lesser Bubble Barrier
+        around you.
+      icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Sea Bubble
+      type: survival
+    - color: pink
+      description: Charged Volatile Water explodes upon hitting an enemy, dealing
+        full damage and inflicting Silence to other nearby enemies.
+      icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Splash Damage
+      type: control
+    - color: yellow
+      description: Touching a Bubble Barrier grants allies a 30 Haste that fades over
+        2 after leaving the bubble.
+      icon: dba76bbb88cac764f9a8aeff389abb99
+      name: Water Walk
+      type: mobility
+    winrate: '43.5'
   - damage: '3.6'
     disable: '0.8'
     energy: '2.8'
@@ -251,41 +251,6 @@ builds:
       name: Tasty Fish
       type: support
     winrate: '60.0'
-  - damage: '6.1'
-    disable: '1.4'
-    energy: '3.2'
-    num: 11
-    protection: '3.1'
-    skills:
-    - color: pink
-      description: Countering an attack with Tidal Wave recharges your staff.
-      icon: baa9baf5b01c5ee42902398a8f946a5a
-      name: Gush
-      type: control
-    - color: yellow
-      description: Diving into a Bubble Barrier destroys the bubble and resets the
-        cooldown of Dive.
-      icon: 6c30b1e6992030e4dae06a355b7a4fb4
-      name: Ocean Tide
-      type: mobility
-    - color: red
-      description: Dive deals 8 damage and inflicts Root for 1 at your starting location.
-      icon: 6c30b1e6992030e4dae06a355b7a4fb4
-      name: Riptide
-      type: offense
-    - color: green
-      description: Countering an attack with Tidal Wave spawns a Lesser Bubble Barrier
-        around you.
-      icon: baa9baf5b01c5ee42902398a8f946a5a
-      name: Sea Bubble
-      type: survival
-    - color: pink
-      description: Charged Volatile Water explodes upon hitting an enemy, dealing
-        full damage and inflicting Silence to other nearby enemies.
-      icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Splash Damage
-      type: control
-    winrate: '54.5'
   - damage: '3.4'
     disable: '0.8'
     energy: '3.1'
@@ -321,6 +286,41 @@ builds:
       name: Spring Water
       type: support
     winrate: '45.5'
+  - damage: '6.1'
+    disable: '1.4'
+    energy: '3.2'
+    num: 11
+    protection: '3.1'
+    skills:
+    - color: pink
+      description: Countering an attack with Tidal Wave recharges your staff.
+      icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Gush
+      type: control
+    - color: yellow
+      description: Diving into a Bubble Barrier destroys the bubble and resets the
+        cooldown of Dive.
+      icon: 6c30b1e6992030e4dae06a355b7a4fb4
+      name: Ocean Tide
+      type: mobility
+    - color: red
+      description: Dive deals 8 damage and inflicts Root for 1 at your starting location.
+      icon: 6c30b1e6992030e4dae06a355b7a4fb4
+      name: Riptide
+      type: offense
+    - color: green
+      description: Countering an attack with Tidal Wave spawns a Lesser Bubble Barrier
+        around you.
+      icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Sea Bubble
+      type: survival
+    - color: pink
+      description: Charged Volatile Water explodes upon hitting an enemy, dealing
+        full damage and inflicting Silence to other nearby enemies.
+      icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Splash Damage
+      type: control
+    winrate: '54.5'
   - damage: '3.7'
     disable: '0.9'
     energy: '2.7'
