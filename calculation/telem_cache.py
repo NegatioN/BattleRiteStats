@@ -4,7 +4,7 @@ import os
 import json
 import shutil
 
-telemetry_base_path = 'https://cdn.gamelockerapp.com/stunlock-studios-battlerite/global/'
+telemetry_base_path = 'https://cdn.developer.battlerite.com/stunlock-studios-battlerite/global/'
 cache_dir = 'cache'
 
 def extract_telem_path(telem_url): return telem_url.replace(telemetry_base_path, '')
