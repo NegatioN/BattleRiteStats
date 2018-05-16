@@ -142,41 +142,6 @@ builds:
       name: Vindicator
       type: mobility
     winrate: '73.3'
-  - damage: '3.2'
-    disable: '0.5'
-    energy: '3.2'
-    num: 14
-    protection: '5.6'
-    skills:
-    - color: red
-      description: Charged Hammer of Justice deals 2 bonus damage. Deals 16 damage
-        and inflicts Stun on secondary targets.
-      icon: 398f1e921a73f484e9fc54e1308407f7
-      name: Cleave
-      type: offense
-    - color: teal
-      description: Holy Light healing increases by 3 when healing self or allies affected
-        by Favor.
-      icon: 85a79d3bf018b184887fb1a71ef51ac1
-      name: Devotion
-      type: support
-    - color: teal
-      description: Favor reduces damage taken by 10.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Divine Protection
-      type: support
-    - color: yellow
-      description: Intervene travel distance increases by 40 when affected by Favor.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Initiation
-      type: mobility
-    - color: yellow
-      description: Condemn cooldown is reduced by 3 and hits refresh the cooldown
-        of Intervene.
-      icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
-      name: Vindicator
-      type: mobility
-    winrate: '28.6'
   - damage: '3.6'
     disable: '0.7'
     energy: '3.3'
@@ -212,6 +177,41 @@ builds:
       name: Vindicator
       type: mobility
     winrate: '35.7'
+  - damage: '3.2'
+    disable: '0.5'
+    energy: '3.2'
+    num: 14
+    protection: '5.6'
+    skills:
+    - color: red
+      description: Charged Hammer of Justice deals 2 bonus damage. Deals 16 damage
+        and inflicts Stun on secondary targets.
+      icon: 398f1e921a73f484e9fc54e1308407f7
+      name: Cleave
+      type: offense
+    - color: teal
+      description: Holy Light healing increases by 3 when healing self or allies affected
+        by Favor.
+      icon: 85a79d3bf018b184887fb1a71ef51ac1
+      name: Devotion
+      type: support
+    - color: teal
+      description: Favor reduces damage taken by 10.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Divine Protection
+      type: support
+    - color: yellow
+      description: Intervene travel distance increases by 40 when affected by Favor.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Initiation
+      type: mobility
+    - color: yellow
+      description: Condemn cooldown is reduced by 3 and hits refresh the cooldown
+        of Intervene.
+      icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
+      name: Vindicator
+      type: mobility
+    winrate: '28.6'
   - damage: '4.1'
     disable: '0.7'
     energy: '3.3'
@@ -496,40 +496,6 @@ builds:
       name: Vindicator
       type: mobility
     winrate: '50.0'
-  - damage: '4.0'
-    disable: '0.7'
-    energy: '3.0'
-    num: 6
-    protection: '4.1'
-    skills:
-    - color: red
-      description: Charged Hammer of Justice deals 2 bonus damage. Deals 16 damage
-        and inflicts Stun on secondary targets.
-      icon: 398f1e921a73f484e9fc54e1308407f7
-      name: Cleave
-      type: offense
-    - color: teal
-      description: Holy Light healing increases by 3 when healing self or allies affected
-        by Favor.
-      icon: 85a79d3bf018b184887fb1a71ef51ac1
-      name: Devotion
-      type: support
-    - color: teal
-      description: Holy Light recharges 100 faster when Smite is active.
-      icon: 85a79d3bf018b184887fb1a71ef51ac1
-      name: Faith
-      type: support
-    - color: grey
-      description: All effects of Divinity are doubled.
-      icon: 96d5e8acf68061e478f9f6a8d315a4c4
-      name: Godlike
-      type: mixed
-    - color: yellow
-      description: Intervene travel distance increases by 40 when affected by Favor.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Initiation
-      type: mobility
-    winrate: '16.7'
   - damage: '4.2'
     disable: '0.6'
     energy: '3.0'
@@ -565,11 +531,11 @@ builds:
       name: Vindicator
       type: mobility
     winrate: '66.7'
-  - damage: '3.8'
-    disable: '0.5'
-    energy: '3.2'
-    num: 5
-    protection: '4.7'
+  - damage: '4.0'
+    disable: '0.7'
+    energy: '3.0'
+    num: 6
+    protection: '4.1'
     skills:
     - color: red
       description: Charged Hammer of Justice deals 2 bonus damage. Deals 16 damage
@@ -584,74 +550,32 @@ builds:
       name: Devotion
       type: support
     - color: teal
-      description: Favor reduces damage taken by 10.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Divine Protection
+      description: Holy Light recharges 100 faster when Smite is active.
+      icon: 85a79d3bf018b184887fb1a71ef51ac1
+      name: Faith
       type: support
+    - color: grey
+      description: All effects of Divinity are doubled.
+      icon: 96d5e8acf68061e478f9f6a8d315a4c4
+      name: Godlike
+      type: mixed
     - color: yellow
       description: Intervene travel distance increases by 40 when affected by Favor.
       icon: 43ddc4074c2b605478c43c9727704ce8
       name: Initiation
       type: mobility
-    - color: yellow
-      description: Condemn cooldown is reduced by 3 and hits refresh the cooldown
-        of Intervene.
-      icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
-      name: Vindicator
-      type: mobility
-    winrate: '60.0'
-  - damage: '4.7'
-    disable: '0.7'
-    energy: '3.3'
+    winrate: '16.7'
+  - damage: '4.0'
+    disable: '0.6'
+    energy: '3.2'
     num: 5
-    protection: '3.8'
+    protection: '4.6'
     skills:
-    - color: teal
-      description: Holy Light healing increases by 3 when healing self or allies affected
-        by Favor.
-      icon: 85a79d3bf018b184887fb1a71ef51ac1
-      name: Devotion
-      type: support
-    - color: teal
-      description: Favor reduces damage taken by 10.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Divine Protection
-      type: support
     - color: red
       description: Hammer of Justice deals 3 bonus damage when affected by Favor.
       icon: 398f1e921a73f484e9fc54e1308407f7
       name: Enchanted Weapon
       type: offense
-    - color: yellow
-      description: Intervene travel distance increases by 40 when affected by Favor.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Initiation
-      type: mobility
-    - color: yellow
-      description: Condemn cooldown is reduced by 3 and hits refresh the cooldown
-        of Intervene.
-      icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
-      name: Vindicator
-      type: mobility
-    winrate: '80.0'
-  - damage: '4.9'
-    disable: '0.8'
-    energy: '3.4'
-    num: 5
-    protection: '4.4'
-    skills:
-    - color: red
-      description: Charged Hammer of Justice deals 2 bonus damage. Deals 16 damage
-        and inflicts Stun on secondary targets.
-      icon: 398f1e921a73f484e9fc54e1308407f7
-      name: Cleave
-      type: offense
-    - color: teal
-      description: Holy Light healing increases by 3 when healing self or allies affected
-        by Favor.
-      icon: 85a79d3bf018b184887fb1a71ef51ac1
-      name: Devotion
-      type: support
     - color: green
       description: Activating Smite grants a Shield. It absorbs up to 14 damage for
         3.
@@ -664,12 +588,18 @@ builds:
       name: Initiation
       type: mobility
     - color: yellow
-      description: Condemn cooldown is reduced by 3 and hits refresh the cooldown
-        of Intervene.
-      icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
-      name: Vindicator
+      description: Absorbing an attack with Radiant Shield increases your movement
+        speed by 20 for 3. Stacks up to 3 times.
+      icon: c7f49424687c9a744a6347a5e2eede0b
+      name: Light Speed
       type: mobility
-    winrate: '20.0'
+    - color: teal
+      description: Blocking an attack with Radiant Shield sends out a wave of light,
+        healing nearby allies for 10 health.
+      icon: c7f49424687c9a744a6347a5e2eede0b
+      name: Light's Embrace
+      type: support
+    winrate: '40.0'
   - damage: '5.5'
     disable: '0.7'
     energy: '3.4'
@@ -705,6 +635,75 @@ builds:
       name: Vindicator
       type: mobility
     winrate: '80.0'
+  - damage: '4.7'
+    disable: '0.7'
+    energy: '3.3'
+    num: 5
+    protection: '3.8'
+    skills:
+    - color: teal
+      description: Holy Light healing increases by 3 when healing self or allies affected
+        by Favor.
+      icon: 85a79d3bf018b184887fb1a71ef51ac1
+      name: Devotion
+      type: support
+    - color: teal
+      description: Favor reduces damage taken by 10.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Divine Protection
+      type: support
+    - color: red
+      description: Hammer of Justice deals 3 bonus damage when affected by Favor.
+      icon: 398f1e921a73f484e9fc54e1308407f7
+      name: Enchanted Weapon
+      type: offense
+    - color: yellow
+      description: Intervene travel distance increases by 40 when affected by Favor.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Initiation
+      type: mobility
+    - color: yellow
+      description: Condemn cooldown is reduced by 3 and hits refresh the cooldown
+        of Intervene.
+      icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
+      name: Vindicator
+      type: mobility
+    winrate: '80.0'
+  - damage: '3.8'
+    disable: '0.5'
+    energy: '3.2'
+    num: 5
+    protection: '4.7'
+    skills:
+    - color: red
+      description: Charged Hammer of Justice deals 2 bonus damage. Deals 16 damage
+        and inflicts Stun on secondary targets.
+      icon: 398f1e921a73f484e9fc54e1308407f7
+      name: Cleave
+      type: offense
+    - color: teal
+      description: Holy Light healing increases by 3 when healing self or allies affected
+        by Favor.
+      icon: 85a79d3bf018b184887fb1a71ef51ac1
+      name: Devotion
+      type: support
+    - color: teal
+      description: Favor reduces damage taken by 10.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Divine Protection
+      type: support
+    - color: yellow
+      description: Intervene travel distance increases by 40 when affected by Favor.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Initiation
+      type: mobility
+    - color: yellow
+      description: Condemn cooldown is reduced by 3 and hits refresh the cooldown
+        of Intervene.
+      icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
+      name: Vindicator
+      type: mobility
+    winrate: '60.0'
 compos:
   threes:
   - hero_names:

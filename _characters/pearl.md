@@ -145,42 +145,6 @@ builds:
     winrate: '67.7'
   - damage: '3.9'
     disable: '0.8'
-    energy: '3.0'
-    num: 23
-    protection: '4.5'
-    skills:
-    - color: pink
-      description: Countering an attack with Tidal Wave recharges your staff.
-      icon: baa9baf5b01c5ee42902398a8f946a5a
-      name: Gush
-      type: control
-    - color: blue
-      description: Bubble Barrier can be recast within 1.5 to spawn a Lesser Bubble
-        Barrier.
-      icon: dba76bbb88cac764f9a8aeff389abb99
-      name: Ocean Sage
-      type: utility
-    - color: red
-      description: Firing Volatile Water through a Bubble Barrier increases damage
-        by 3 and range by 25.
-      icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Rippling Waters
-      type: offense
-    - color: green
-      description: Countering an attack with Tidal Wave spawns a Lesser Bubble Barrier
-        around you.
-      icon: baa9baf5b01c5ee42902398a8f946a5a
-      name: Sea Bubble
-      type: survival
-    - color: pink
-      description: Charged Volatile Water explodes upon hitting an enemy, dealing
-        full damage and inflicting Silence to other nearby enemies.
-      icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Splash Damage
-      type: control
-    winrate: '56.5'
-  - damage: '3.9'
-    disable: '0.8'
     energy: '3.3'
     num: 23
     protection: '4.8'
@@ -215,6 +179,42 @@ builds:
       name: Water Walk
       type: mobility
     winrate: '43.5'
+  - damage: '3.9'
+    disable: '0.8'
+    energy: '3.0'
+    num: 23
+    protection: '4.5'
+    skills:
+    - color: pink
+      description: Countering an attack with Tidal Wave recharges your staff.
+      icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Gush
+      type: control
+    - color: blue
+      description: Bubble Barrier can be recast within 1.5 to spawn a Lesser Bubble
+        Barrier.
+      icon: dba76bbb88cac764f9a8aeff389abb99
+      name: Ocean Sage
+      type: utility
+    - color: red
+      description: Firing Volatile Water through a Bubble Barrier increases damage
+        by 3 and range by 25.
+      icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Rippling Waters
+      type: offense
+    - color: green
+      description: Countering an attack with Tidal Wave spawns a Lesser Bubble Barrier
+        around you.
+      icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Sea Bubble
+      type: survival
+    - color: pink
+      description: Charged Volatile Water explodes upon hitting an enemy, dealing
+        full damage and inflicting Silence to other nearby enemies.
+      icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Splash Damage
+      type: control
+    winrate: '56.5'
   - damage: '3.6'
     disable: '0.8'
     energy: '2.8'
@@ -251,41 +251,6 @@ builds:
       name: Tasty Fish
       type: support
     winrate: '60.0'
-  - damage: '3.4'
-    disable: '0.8'
-    energy: '3.1'
-    num: 11
-    protection: '5.1'
-    skills:
-    - color: teal
-      description: Healing Wave bounces to a nearby ally after healing, healing them
-        for 6 health.
-      icon: 81f898538a9eba14b82110f8ebf6654e
-      name: Fountain
-      type: support
-    - color: pink
-      description: Countering an attack with Tidal Wave recharges your staff.
-      icon: baa9baf5b01c5ee42902398a8f946a5a
-      name: Gush
-      type: control
-    - color: pink
-      description: Increases Silence duration from 1 to 1.4.
-      icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Soaking Wet
-      type: control
-    - color: pink
-      description: Charged Volatile Water explodes upon hitting an enemy, dealing
-        full damage and inflicting Silence to other nearby enemies.
-      icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Splash Damage
-      type: control
-    - color: teal
-      description: Dive heals self for 6 health and other nearby allies for 18 health
-        when emerging from the deep.
-      icon: 6c30b1e6992030e4dae06a355b7a4fb4
-      name: Spring Water
-      type: support
-    winrate: '45.5'
   - damage: '6.1'
     disable: '1.4'
     energy: '3.2'
@@ -357,6 +322,41 @@ builds:
       name: Splash Damage
       type: control
     winrate: '27.3'
+  - damage: '3.4'
+    disable: '0.8'
+    energy: '3.1'
+    num: 11
+    protection: '5.1'
+    skills:
+    - color: teal
+      description: Healing Wave bounces to a nearby ally after healing, healing them
+        for 6 health.
+      icon: 81f898538a9eba14b82110f8ebf6654e
+      name: Fountain
+      type: support
+    - color: pink
+      description: Countering an attack with Tidal Wave recharges your staff.
+      icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Gush
+      type: control
+    - color: pink
+      description: Increases Silence duration from 1 to 1.4.
+      icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Soaking Wet
+      type: control
+    - color: pink
+      description: Charged Volatile Water explodes upon hitting an enemy, dealing
+        full damage and inflicting Silence to other nearby enemies.
+      icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Splash Damage
+      type: control
+    - color: teal
+      description: Dive heals self for 6 health and other nearby allies for 18 health
+        when emerging from the deep.
+      icon: 6c30b1e6992030e4dae06a355b7a4fb4
+      name: Spring Water
+      type: support
+    winrate: '45.5'
   twos:
   - damage: '4.5'
     disable: '0.7'
@@ -675,11 +675,11 @@ builds:
       name: Water Walk
       type: mobility
     winrate: '44.4'
-  - damage: '4.1'
+  - damage: '4.7'
     disable: '1.0'
-    energy: '2.7'
+    energy: '3.3'
     num: 14
-    protection: '3.9'
+    protection: '4.2'
     skills:
     - color: pink
       description: Countering an attack with Tidal Wave recharges your staff.
@@ -691,12 +691,6 @@ builds:
       icon: 6c30b1e6992030e4dae06a355b7a4fb4
       name: Riptide
       type: offense
-    - color: green
-      description: Countering an attack with Tidal Wave spawns a Lesser Bubble Barrier
-        around you.
-      icon: baa9baf5b01c5ee42902398a8f946a5a
-      name: Sea Bubble
-      type: survival
     - color: pink
       description: Increases Silence duration from 1 to 1.4.
       icon: 70a26229b7880aa44a46e8cb2af9334f
@@ -708,7 +702,13 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '14.3'
+    - color: red
+      description: Countering an attack with Tidal Wave fires a volley of Lesser Volatile
+        Water at nearby enemies. Each Lesser Volatile Water deals 8 damage.
+      icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Tsunami
+      type: offense
+    winrate: '50.0'
 compos:
   threes:
   - hero_names:

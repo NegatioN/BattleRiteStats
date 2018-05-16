@@ -214,41 +214,6 @@ builds:
       name: Royal Descent
       type: offense
     winrate: '47.4'
-  - damage: '6.0'
-    disable: '0.8'
-    energy: '3.0'
-    num: 19
-    protection: '1.4'
-    skills:
-    - color: grey
-      description: Seismic Shock can be recast to leap to the airborne enemy and strike
-        them, dealing 6 damage and increasing air duration by 0.7.
-      icon: 3c1f1a5c65f54594a9d3ba17b8f1b2a2
-      name: Aerial Strike
-      type: mixed
-    - color: blue
-      description: Dragon Palm hits allow you to recast it for 1.5.
-      icon: d25b4fc0d427d424891492d2b61469a9
-      name: Dragon Mastery
-      type: utility
-    - color: green
-      description: Negating any attack with Parry heals you for 4 health. Negating
-        the first attack grants you a charge of Slicing Winds.
-      icon: fbfb00ff4fa4bc542b54639b84406f01
-      name: Duelist
-      type: survival
-    - color: yellow
-      description: Increases dash length of Retribution by 20.
-      icon: d5c38afdefecf224b9a71bdfdb60dee1
-      name: Headlong Rush
-      type: mobility
-    - color: red
-      description: Heavenly Strike deals 8 bonus damage and inflicts Fading Snare
-        for 1.2.
-      icon: 47dabb046c0ec4d4c96bde0832713a46
-      name: Royal Descent
-      type: offense
-    winrate: '78.9'
   - damage: '6.1'
     disable: '1.0'
     energy: '3.3'
@@ -285,6 +250,41 @@ builds:
       name: Royal Descent
       type: offense
     winrate: '42.1'
+  - damage: '6.0'
+    disable: '0.8'
+    energy: '3.0'
+    num: 19
+    protection: '1.4'
+    skills:
+    - color: grey
+      description: Seismic Shock can be recast to leap to the airborne enemy and strike
+        them, dealing 6 damage and increasing air duration by 0.7.
+      icon: 3c1f1a5c65f54594a9d3ba17b8f1b2a2
+      name: Aerial Strike
+      type: mixed
+    - color: blue
+      description: Dragon Palm hits allow you to recast it for 1.5.
+      icon: d25b4fc0d427d424891492d2b61469a9
+      name: Dragon Mastery
+      type: utility
+    - color: green
+      description: Negating any attack with Parry heals you for 4 health. Negating
+        the first attack grants you a charge of Slicing Winds.
+      icon: fbfb00ff4fa4bc542b54639b84406f01
+      name: Duelist
+      type: survival
+    - color: yellow
+      description: Increases dash length of Retribution by 20.
+      icon: d5c38afdefecf224b9a71bdfdb60dee1
+      name: Headlong Rush
+      type: mobility
+    - color: red
+      description: Heavenly Strike deals 8 bonus damage and inflicts Fading Snare
+        for 1.2.
+      icon: 47dabb046c0ec4d4c96bde0832713a46
+      name: Royal Descent
+      type: offense
+    winrate: '78.9'
   - damage: '7.4'
     disable: '1.2'
     energy: '3.2'

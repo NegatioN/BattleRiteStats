@@ -246,6 +246,41 @@ builds:
       name: Tempest
       type: mobility
     winrate: '42.9'
+  - damage: '6.7'
+    disable: '1.3'
+    energy: '3.8'
+    num: 13
+    protection: '1.9'
+    skills:
+    - color: green
+      description: Spring causes your next Bash to grant you a Shield. It absorbs
+        up to 14 damage for 3.
+      icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+      type: survival
+    - color: green
+      description: Each enemy hit by Thunderclap grants you Shield that absorbs up
+        to 10 damage for 3.
+      icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+      type: survival
+    - color: yellow
+      description: Move forward during Thunderclap.
+      icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
+      type: mobility
+    - color: yellow
+      description: Storm Mace hits increase your movement speed by 35 for 2.
+      icon: 92dd476aa2340694c9f1167dfc761287
+      name: Tempest
+      type: mobility
+    - color: red
+      description: Storm Mace deals 8 bonus damage to enemies already affected by
+        Static and Incapacitate duration increases by 0.5.
+      icon: 92dd476aa2340694c9f1167dfc761287
+      name: Thunderbolt
+      type: offense
+    winrate: '23.1'
   - damage: '5.9'
     disable: '1.1'
     energy: '3.1'
@@ -282,41 +317,6 @@ builds:
       name: Tempest
       type: mobility
     winrate: '61.5'
-  - damage: '6.7'
-    disable: '1.3'
-    energy: '3.8'
-    num: 13
-    protection: '1.9'
-    skills:
-    - color: green
-      description: Spring causes your next Bash to grant you a Shield. It absorbs
-        up to 14 damage for 3.
-      icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Electric Conduction
-      type: survival
-    - color: green
-      description: Each enemy hit by Thunderclap grants you Shield that absorbs up
-        to 10 damage for 3.
-      icon: f5f7b137c0c9d444899035c91cedda42
-      name: Lightning Rod
-      type: survival
-    - color: yellow
-      description: Move forward during Thunderclap.
-      icon: f5f7b137c0c9d444899035c91cedda42
-      name: Rolling Thunder
-      type: mobility
-    - color: yellow
-      description: Storm Mace hits increase your movement speed by 35 for 2.
-      icon: 92dd476aa2340694c9f1167dfc761287
-      name: Tempest
-      type: mobility
-    - color: red
-      description: Storm Mace deals 8 bonus damage to enemies already affected by
-        Static and Incapacitate duration increases by 0.5.
-      icon: 92dd476aa2340694c9f1167dfc761287
-      name: Thunderbolt
-      type: offense
-    winrate: '23.1'
   - damage: '6.7'
     disable: '1.6'
     energy: '4.0'

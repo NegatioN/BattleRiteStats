@@ -169,38 +169,6 @@ builds:
       name: Swift Roll
       type: mobility
     winrate: '47.6'
-  - damage: '3.3'
-    disable: '1.1'
-    energy: '3.5'
-    num: 13
-    protection: '5.5'
-    skills:
-    - color: pink
-      description: Clarity Potion inflicts 30 Snare for 3.
-      icon: d0c4449b33eef2e4ca2cfa8900910041
-      name: Adhesive Component
-      type: control
-    - color: yellow
-      description: ^2Barrier^- increases movement speed by 33.
-      icon: 46e144a65c818c04eb3d00a21cf513b3
-      name: Alacrity
-      type: mobility
-    - color: teal
-      description: Healing Potion heals other allies for 4 bonus health.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Companion Potion
-      type: support
-    - color: red
-      description: ^2Revitalize^- increases damage output by 12.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Stimulant
-      type: offense
-    - color: grey
-      description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
-      icon: 948d85cf5c36f504f8b964acde19ed3e
-      name: Weakening Toxin
-      type: mixed
-    winrate: '61.5'
   - damage: '3.7'
     disable: '1.1'
     energy: '2.9'
@@ -236,6 +204,38 @@ builds:
       name: Weakening Toxin
       type: mixed
     winrate: '15.4'
+  - damage: '3.3'
+    disable: '1.1'
+    energy: '3.5'
+    num: 13
+    protection: '5.5'
+    skills:
+    - color: pink
+      description: Clarity Potion inflicts 30 Snare for 3.
+      icon: d0c4449b33eef2e4ca2cfa8900910041
+      name: Adhesive Component
+      type: control
+    - color: yellow
+      description: ^2Barrier^- increases movement speed by 33.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
+      name: Alacrity
+      type: mobility
+    - color: teal
+      description: Healing Potion heals other allies for 4 bonus health.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Companion Potion
+      type: support
+    - color: red
+      description: ^2Revitalize^- increases damage output by 12.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Stimulant
+      type: offense
+    - color: grey
+      description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
+      icon: 948d85cf5c36f504f8b964acde19ed3e
+      name: Weakening Toxin
+      type: mixed
+    winrate: '61.5'
   - damage: '3.1'
     disable: '0.9'
     energy: '3.2'
@@ -645,26 +645,28 @@ builds:
       type: mixed
     winrate: '90.9'
   - damage: '3.9'
-    disable: '0.9'
-    energy: '3.2'
+    disable: '1.1'
+    energy: '3.0'
     num: 9
-    protection: '4.7'
+    protection: '5.4'
     skills:
-    - color: yellow
-      description: ^2Barrier^- increases movement speed by 33.
+    - color: grey
+      description: Applying Barrier causes a shockwave, dealing 10 damage to nearby
+        enemies and knocking them back.
       icon: 46e144a65c818c04eb3d00a21cf513b3
-      name: Alacrity
-      type: mobility
-    - color: teal
-      description: Healing Potion heals other allies for 4 bonus health.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Companion Potion
-      type: support
+      name: Blast Shield
+      type: mixed
     - color: red
       description: ^2Revitalize^- increases damage output by 12.
       icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
       type: offense
+    - color: yellow
+      description: Roll increases movement speed by 33 for 2.5. Reduces cooldown of
+        Roll by 3.
+      icon: 470a917c1ac62c04ea45acc6a35c5f73
+      name: Swift Roll
+      type: mobility
     - color: green
       description: Toxic heals you for 9 health over 6.
       icon: 948d85cf5c36f504f8b964acde19ed3e
@@ -675,7 +677,7 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '77.8'
+    winrate: '55.6'
 compos:
   threes:
   - hero_names:

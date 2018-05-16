@@ -141,41 +141,6 @@ builds:
       name: Through the Shadows
       type: mobility
     winrate: '81.2'
-  - damage: '6.8'
-    disable: '0.9'
-    energy: '4.0'
-    num: 15
-    protection: '0.8'
-    skills:
-    - color: red
-      description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
-        of invisibility by 0.3.\n
-      icon: c5da66a86ca45a1449a49d55cc92d1fc
-      name: Ambush
-      type: offense
-    - color: red
-      description: ^2Snipe^- deals 6 bonus damage.
-      icon: 20e8f262eca757942bc23d94aa73ab2a
-      name: Deadly Focus
-      type: offense
-    - color: green
-      description: Disabling Shot hits heal you for 6 health and Spell Block interrupts
-        heal you for 10 bonus health.
-      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
-      name: Delight
-      type: survival
-    - color: red
-      description: Disabling Shot hits instantly reload Revolver Shot with 6 ammo.
-      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
-      name: Desperado
-      type: offense
-    - color: blue
-      description: Revolver Shot hits reduce cooldown of Stealth by 0.3. Cooldown
-        can't be reduced during Stealth.
-      icon: 6410a3c5ef2055247ad58f6ed2e36953
-      name: Gunslinger
-      type: utility
-    winrate: '46.7'
   - damage: '6.7'
     disable: '1.0'
     energy: '4.2'
@@ -246,6 +211,41 @@ builds:
       name: Gunslinger
       type: utility
     winrate: '40.0'
+  - damage: '6.8'
+    disable: '0.9'
+    energy: '4.0'
+    num: 15
+    protection: '0.8'
+    skills:
+    - color: red
+      description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
+        of invisibility by 0.3.\n
+      icon: c5da66a86ca45a1449a49d55cc92d1fc
+      name: Ambush
+      type: offense
+    - color: red
+      description: ^2Snipe^- deals 6 bonus damage.
+      icon: 20e8f262eca757942bc23d94aa73ab2a
+      name: Deadly Focus
+      type: offense
+    - color: green
+      description: Disabling Shot hits heal you for 6 health and Spell Block interrupts
+        heal you for 10 bonus health.
+      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
+      name: Delight
+      type: survival
+    - color: red
+      description: Disabling Shot hits instantly reload Revolver Shot with 6 ammo.
+      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
+      name: Desperado
+      type: offense
+    - color: blue
+      description: Revolver Shot hits reduce cooldown of Stealth by 0.3. Cooldown
+        can't be reduced during Stealth.
+      icon: 6410a3c5ef2055247ad58f6ed2e36953
+      name: Gunslinger
+      type: utility
+    winrate: '46.7'
   - damage: '7.0'
     disable: '1.0'
     energy: '3.7'
@@ -280,41 +280,6 @@ builds:
       name: Gunslinger
       type: utility
     winrate: '21.4'
-  - damage: '6.8'
-    disable: '1.0'
-    energy: '3.7'
-    num: 12
-    protection: '0.8'
-    skills:
-    - color: red
-      description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
-        of invisibility by 0.3.\n
-      icon: c5da66a86ca45a1449a49d55cc92d1fc
-      name: Ambush
-      type: offense
-    - color: red
-      description: ^2Snipe^- deals 6 bonus damage.
-      icon: 20e8f262eca757942bc23d94aa73ab2a
-      name: Deadly Focus
-      type: offense
-    - color: green
-      description: Disabling Shot hits heal you for 6 health and Spell Block interrupts
-        heal you for 10 bonus health.
-      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
-      name: Delight
-      type: survival
-    - color: red
-      description: Disabling Shot hits instantly reload Revolver Shot with 6 ammo.
-      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
-      name: Desperado
-      type: offense
-    - color: pink
-      description: Increases Stun duration of Snipe by 0.25, and further increases
-        it by 0.5 when fired from Stealth.
-      icon: 20e8f262eca757942bc23d94aa73ab2a
-      name: Surprise Shot
-      type: control
-    winrate: '41.7'
   - damage: '7.5'
     disable: '0.9'
     energy: '3.7'
@@ -350,6 +315,41 @@ builds:
       name: Magic Bullet
       type: control
     winrate: '58.3'
+  - damage: '6.8'
+    disable: '1.0'
+    energy: '3.7'
+    num: 12
+    protection: '0.8'
+    skills:
+    - color: red
+      description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
+        of invisibility by 0.3.\n
+      icon: c5da66a86ca45a1449a49d55cc92d1fc
+      name: Ambush
+      type: offense
+    - color: red
+      description: ^2Snipe^- deals 6 bonus damage.
+      icon: 20e8f262eca757942bc23d94aa73ab2a
+      name: Deadly Focus
+      type: offense
+    - color: green
+      description: Disabling Shot hits heal you for 6 health and Spell Block interrupts
+        heal you for 10 bonus health.
+      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
+      name: Delight
+      type: survival
+    - color: red
+      description: Disabling Shot hits instantly reload Revolver Shot with 6 ammo.
+      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
+      name: Desperado
+      type: offense
+    - color: pink
+      description: Increases Stun duration of Snipe by 0.25, and further increases
+        it by 0.5 when fired from Stealth.
+      icon: 20e8f262eca757942bc23d94aa73ab2a
+      name: Surprise Shot
+      type: control
+    winrate: '41.7'
   twos:
   - damage: '7.1'
     disable: '0.9'
