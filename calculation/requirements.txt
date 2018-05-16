@@ -5,3 +5,4 @@ PyYAML>=3.12
 pandas>=0.20.3
 numpy>=1.11.0
 SQLAlchemy>=1.2.7
+psycopg2>=2.7.4
