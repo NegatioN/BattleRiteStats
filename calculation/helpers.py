@@ -109,4 +109,4 @@ def update_databases(master_team_dict):
 def get_player_ids():
     engine = create_engine('postgresql://psycopg:pass@localhost:5432/battleritebuilds')
     u = pd.read_sql_query('select distinct userid from playerteams NATURAL JOIN teams AS t WHERE t.league >= 5',con=engine)
-    return u['userid'].values
+    return [str(x) for x in u['userid'].values]
