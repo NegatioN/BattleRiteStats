@@ -7,7 +7,7 @@ from ratelimiter import RateLimiter
 from datetime import timedelta, datetime
 from copy import deepcopy
 
-from helpers import get_user_ids, update_databases
+from helpers import get_player_ids, update_databases
 from telem_cache import TelemetryCache
 from collections import defaultdict
 from furrycorn.location import mk_origin, mk_path, mk_query, to_url
@@ -188,7 +188,7 @@ def get_team_info(telem_d):
 
 
 if __name__ == "__main__":
-    player_ids = get_user_ids()
+    player_ids = get_player_ids()
     print('Number of users to process: {}'.format(len(player_ids)))
     all_telemetries = {}
     telem_cache.clean_cache(created_ad)
