@@ -44,7 +44,7 @@ main_df = pd.read_csv('assets/character_df.csv')
 match_df = pd.read_csv('assets/match_df.csv')
 
 # Make each build hashably unique
-main_df['build'] = main_df['build'].apply(lambda x: frozenset(x.split(',')))
+main_df['build'] = main_df['build'].apply(lambda x: frozenset(x.split('|')))
 
 def aggregate_lookup(main_df, match_df):
     round_dict = defaultdict((lambda: defaultdict(lambda: [])))
@@ -55,7 +55,7 @@ def aggregate_lookup(main_df, match_df):
 
 main_df['round_lookup'] = aggregate_lookup(main_df, match_df)
 
-exclude_columns = set(['matchid', 'userid', 'wonFlag', 'round_num', 'team',
+exclude_columns = set(['matchid', 'userid', 'wonflag', 'round_num', 'team',
                        'healing_taken', 'damage_taken', 'disable_taken', 'energy_used'])
 print(match_df.columns)
 print('---------')
@@ -74,18 +74,18 @@ for col in sum_cols:
     print('Processing match data for column={}'.format(col))
 
 agg_cols = ['{}_{}'.format(y, x) for x in sum_cols for y in ['sum', 'mean']]
-agg_cols.extend(['damage_ps', 'protection_ps', 'disable_ps', 'energy_ps'])
+agg_cols.extend(['damage_ps', 'protection_ps', 'disables_ps', 'energy_ps'])
 
 
 main_df['damage_ps'] = main_df['sum_damage'] / main_df['sum_time_alive']
 main_df['protection_ps'] = main_df['sum_healing'] / main_df['sum_time_alive']
-main_df['disable_ps'] = main_df['sum_disable'] / main_df['sum_time_alive']
+main_df['disables_ps'] = main_df['sum_disables'] / main_df['sum_time_alive']
 main_df['energy_ps'] = main_df['sum_energy_gained'] / main_df['sum_time_alive']
 
-grouped = main_df.groupby(['character', 'matchMode', 'build']).agg({k: np.mean for k in agg_cols})
+grouped = main_df.groupby(['characterid', 'matchmode', 'build']).agg({k: np.mean for k in agg_cols})
 
-build_counts = main_df.groupby(['character', 'matchMode'])['build'].value_counts().to_dict()
-win_counts = main_df.groupby(['character', 'matchMode', 'build'])['wonFlag'].value_counts().to_dict()
+build_counts = main_df.groupby(['characterid', 'matchmode'])['build'].value_counts().to_dict()
+win_counts = main_df.groupby(['characterid', 'matchmode', 'build'])['wonflag'].value_counts().to_dict()
 character_dict = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: 0))))
 for aggregation, entry in grouped.items():
     for (character, mode, build), value in entry.items():
@@ -160,7 +160,7 @@ for character, modes in character_dict.items():
                  'winrate': prep_output(float(aggregations['win_num']) / float(aggregations['num']) * 100),
                  'damage': prep_output(aggregations['damage_ps']),
                  'protection': prep_output(aggregations['protection_ps']),
-                 'disable': prep_output(aggregations['disable_ps']),
+                 'disable': prep_output(aggregations['disables_ps']),
                  'energy': prep_output(aggregations['energy_ps'])
                  }
             cur_dict[character].append(b)
@@ -194,7 +194,7 @@ for character, modes in character_dict.items():
         for build, aggregations in builds.items():
             character_wins[character][mode] += aggregations['win_num']
 
-appearance_calculations = main_df.groupby(['character', 'matchMode']).size().to_dict().items()
+appearance_calculations = main_df.groupby(['characterid', 'matchmode']).size().to_dict().items()
 appearance_summary = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: 0)))
 for (h_id, mode), value in appearance_calculations:
     appearance_summary[h_id][mode]['num'] = int(value)
@@ -203,10 +203,10 @@ for (h_id, mode), value in appearance_calculations:
 named_appearance_summary = {hero_name(c): mode for c, mode in appearance_summary.items()}
 
 compos = defaultdict(lambda: defaultdict(lambda: 0))
-for (matchid, wonFlag), group in main_df.groupby(['matchid', 'wonFlag']):
-    compset = frozenset([x for x in group['character']])
+for (matchid, wonflag), group in main_df.groupby(['matchid', 'wonflag']):
+    compset = frozenset([x for x in group['characterid']])
     compos[compset]['num'] += 1
-    compos[compset]['wins'] += wonFlag
+    compos[compset]['wins'] += wonflag
 
 tmp = [{'heros': [hero_info(z) for z in k], 'hero_names': [hero_name(z) for z in k],
         'wins': int(v['wins']), 'num': int(v['num']), 'winrate': float(v['wins'] / v['num'])}
@@ -253,6 +253,7 @@ character_page_data = create_character_page_data(twos, threes)
 def mode_winrate_sorted(mode_string):
     arr = [{**hero_info(h_id),
             **mode[mode_string]} for h_id, mode in appearance_summary.items()]
+    print(arr)
     return sort_dict_array_by_key(arr, 'winrate', rev=True)
 
 frontpage_data = sort_dict_array_by_key([hero_info(h_id) for h_id, mode in appearance_summary.items()], 'name')

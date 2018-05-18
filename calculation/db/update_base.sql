@@ -26,3 +26,28 @@ INSERT INTO playerteams (userid, teamid)
 ON CONFLICT (userid, teamid) DO NOTHING;
 
 DROP TABLE tmp_x;
+
+
+CREATE TEMP TABLE tmp_z AS SELECT * FROM playermatch LIMIT 0;
+
+COPY tmp_z FROM '/home/joakim/projects/BattleRiteStats/calculation/assets/character_df.csv' WITH CSV HEADER DELIMITER AS ',';
+
+INSERT INTO playermatch (userid, timee, characterid, patchversion, matchmode, matchid, mapid, build, rankingtype, wonflag)
+  SELECT userid, timee, characterid, patchversion, matchmode, matchid, mapid, build, rankingtype, wonflag
+  FROM tmp_z
+ON CONFLICT (matchid, characterid) DO NOTHING;
+
+DROP TABLE tmp_z;
+
+CREATE TEMP TABLE tmp_v AS SELECT * FROM matchround LIMIT 0;
+
+COPY tmp_v FROM '/home/joakim/projects/BattleRiteStats/calculation/assets/match_df.csv' WITH CSV HEADER DELIMITER AS ',';
+
+
+
+INSERT INTO matchround (matchid, userid, round_num, round_duration, team, kills, deaths, score, damage, healing, disables, energy_used, energy_gained, damage_taken, healing_taken, disable_taken, wonflag, time_alive)
+  SELECT matchid, userid, round_num, round_duration, team, kills, deaths, score, damage, healing, disables, energy_used, energy_gained, damage_taken, healing_taken, disable_taken, wonflag, time_alive
+  FROM tmp_v
+ON CONFLICT (matchid, userid, round_num) DO NOTHING;
+
+DROP TABLE tmp_v;

@@ -7,11 +7,16 @@ from ratelimiter import RateLimiter
 from datetime import timedelta, datetime
 from copy import deepcopy
 
-from helpers import get_player_ids, update_databases
+from helpers import get_player_ids, update_databases, rearrange_df
 from telem_cache import TelemetryCache
 from collections import defaultdict
 from furrycorn.location import mk_origin, mk_path, mk_query, to_url
 import pandas as pd
+
+#DB layouts
+CHAR_DF_LAYOUT = ['userid', 'timee', 'characterid', 'patchversion', 'matchmode', 'matchid', 'mapid', 'build', 'rankingtype', 'wonflag']
+MATCH_DF_LAYOUT = ['matchid', 'userid', 'round_num', 'round_duration', 'team', 'kills', 'deaths', 'score', 'damage', 'healing', 'disables',
+                  'energy_used', 'energy_gained', 'damage_taken', 'healing_taken', 'disable_taken', 'wonflag', 'time_alive']
 
 api_key = os.environ.get('BATTLERITE_API_KEY')
 print('Api key is set={}'.format("Yes" if api_key else "No"))
@@ -40,12 +45,12 @@ else:
 
 print('Getting matches from {} to now'.format(created_after_date))
 
-main_df = pd.DataFrame(columns=['matchid', 'userid', 'character', 'build', 'matchMode',
-                                'patchVersion', 'mapID', 'time', 'rankingType', 'external_matchid'])
+main_df = pd.DataFrame(columns=['matchid', 'userid', 'characterid', 'build', 'matchmode',
+                                'patchversion', 'mapid', 'timee', 'rankingtype'])
 match_df = pd.DataFrame(columns=['matchid', 'round_num', 'round_duration', 'userid', 'team',
-                                 'kills', 'score', 'deaths', 'damage', 'healing', 'disable',
+                                 'kills', 'score', 'deaths', 'damage', 'healing', 'disables',
                                  'energy_used', 'energy_gained', 'damage_taken','healing_taken',
-                                 'disable_taken', 'wonFlag', 'time_alive'])
+                                 'disable_taken', 'wonflag', 'time_alive'])
 base_collector_dict = {x: [] for x in main_df.columns}
 base_match_collector_dict = {x: [] for x in match_df.columns}
 
@@ -65,16 +70,15 @@ def parse_telemetry(telem_d):
     add = lambda s, e: collector_dict[s].append(e)
     for character, d in match_characters.items():
         for userid, build in d.items():
-            add('matchMode', telem_d['serverType'])
+            add('matchmode', telem_d['serverType'])
             add('matchid', telem_d['matchID'])
-            add('external_matchid', telem_d['external_matchid'])
-            add('patchVersion', telem_d['patchVersion'])
-            add('mapID', telem_d['map'])
-            add('time', telem_d['time'])
-            add('rankingType', telem_d['rankingType'])
+            add('patchversion', telem_d['patchversion'])
+            add('mapid', telem_d['map'])
+            add('timee', telem_d['time'])
+            add('rankingtype', telem_d['rankingType'])
             add('userid', userid)
-            add('character', character)
-            add('build', ",".join([str(x) for x in build]))
+            add('characterid', character)
+            add('build', "|".join([str(x) for x in build]))
     return pd.DataFrame.from_dict(data=collector_dict)[main_df.columns]
 
 def parse_round_statistics(telem_d):
@@ -98,8 +102,8 @@ def parse_round_statistics(telem_d):
             add('score', player['score'])
             add('damage', player['damageDone'])
             add('healing', player['healingDone'])
-            add('disable', player['disablesDone'])
-            add('wonFlag', 1 if team_num == winning_team else 0)
+            add('disables', player['disablesDone'])
+            add('wonflag', 1 if team_num == winning_team else 0)
             add('time_alive', player['timeAlive'])
             add('damage_taken', player['damageReceived'])
             add('healing_taken', player['healingReceived'])
@@ -114,7 +118,7 @@ def construct_url(player_id, ranked=True):
     query_params = {'filter[playerIds]': quote(player_id), 'filter[createdAt-start]': created_after_date}
     if ranked:
         query_params['filter[rankingType]'] = 'RANKED'
-        query_params['filter[serverType]'] = 'QUICK2V2,QUICK3v3'
+        #query_params['filter[serverType]'] = 'QUICK2V2,QUICK3V3'
     return to_url(origin, mk_path('/matches'), mk_query(query_params))
 
 
@@ -130,7 +134,7 @@ def get_player_telemetry(player_id):
                 for node in content['data']:
                     match_id = node['relationships']['assets']['data'][0]['id']
                     match_data[match_id] = {'external_matchid': match_id,
-                                            'patchVersion': (node['attributes']['patchVersion']),
+                                            'patchversion': (node['attributes']['patchVersion']),
                                             'map': (node['attributes']['stats']['mapID']),
                                             'serverType': (node['attributes']['tags']['serverType']),
                                             'time': (timestampify_jsontime(node['attributes']['createdAt'])),
@@ -217,16 +221,18 @@ if __name__ == "__main__":
         # I dont like how this is solved... there must be some better way to access grouped queries.
         win_dict = defaultdict((lambda: defaultdict(lambda: 0)))
         for (matchid, userid), group in match_df.groupby(['matchid', 'userid']):
-            win_dict[matchid][userid] = group['wonFlag'].sum()
+            win_dict[matchid][userid] = group['wonflag'].sum()
 
         #TODO possible discrepency with leaver matches
         threshold = lambda x: 3  # Change if there are different win-conditions
         won_round = lambda x, mr_won: 1 if mr_won == threshold(x) else 0
 
-        main_df['wonFlag'] = main_df.apply(lambda x: won_round(x, win_dict[x['matchid']][x['userid']]), axis=1)
+        main_df['wonflag'] = main_df.apply(lambda x: won_round(x, win_dict[x['matchid']][x['userid']]), axis=1)
 
     aggregate_wins(main_df, match_df)
 
+    main_df = rearrange_df(main_df, CHAR_DF_LAYOUT)
+    match_df = rearrange_df(match_df, MATCH_DF_LAYOUT)
     main_df.to_csv('assets/character_df.csv', index=False)
     match_df.to_csv('assets/match_df.csv', index=False)
 

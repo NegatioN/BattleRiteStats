@@ -84,24 +84,26 @@ def get_battlerite_type_mapping():
 
 
 def update_databases(master_team_dict):
+    TEAM_DB_LAYOUT = ['teamid', 'league', 'division', 'divrating', 'timee', 'wins', 'losses']
+    PLAYERTEAM_DB_LAYOUT = ['userid', 'teamid']
     p_t = defaultdict(lambda: [])
     team_info = defaultdict(lambda: [])
     blaclisted_keys = ['users']
     for teamid,v in master_team_dict.items():
-            teamid = int(teamid)
-            for p in v['users']:
-                    p_t['userid'].append(int(p))
-                    p_t['teamid'].append(teamid)
+        teamid = int(teamid)
+        for p in v['users']:
+            p_t['userid'].append(int(p))
+            p_t['teamid'].append(teamid)
 
-            team_info['teamid'].append(teamid)
-            for vs in v:
-                    if vs not in blaclisted_keys:
-                            team_info[vs].append(int(v[vs]))
-    p_t_df = pd.DataFrame.from_dict(p_t)[['userid', 'teamid']]
+        team_info['teamid'].append(teamid)
+        for vs in v:
+            if vs not in blaclisted_keys:
+                team_info[vs].append(int(v[vs]))
+    p_t_df = pd.DataFrame.from_dict(p_t)[PLAYERTEAM_DB_LAYOUT]
     del p_t
     team_info_df = pd.DataFrame.from_dict(team_info)
     team_info_df['timee'] = team_info_df['time']
-    team_info_df = team_info_df[['teamid', 'league', 'division', 'divrating', 'timee', 'wins', 'losses']]
+    team_info_df = team_info_df[TEAM_DB_LAYOUT]
     del team_info
     team_info_df.to_csv('db/tmp/t.csv', index=False)
     p_t_df.to_csv('db/tmp/pt.csv', index=False)
@@ -110,3 +112,6 @@ def get_player_ids():
     engine = create_engine('postgresql://psycopg:pass@localhost:5432/battleritebuilds')
     u = pd.read_sql_query('select distinct userid from playerteams NATURAL JOIN teams AS t WHERE t.league >= 5',con=engine)
     return [str(x) for x in u['userid'].values]
+
+def rearrange_df(df, col_arr):
+    return df[col_arr]
