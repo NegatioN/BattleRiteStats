@@ -253,7 +253,6 @@ character_page_data = create_character_page_data(twos, threes)
 def mode_winrate_sorted(mode_string):
     arr = [{**hero_info(h_id),
             **mode[mode_string]} for h_id, mode in appearance_summary.items()]
-    print(arr)
     return sort_dict_array_by_key(arr, 'winrate', rev=True)
 
 frontpage_data = sort_dict_array_by_key([hero_info(h_id) for h_id, mode in appearance_summary.items()], 'name')
