@@ -9,7 +9,7 @@ num_asset_editions = 2
 
 repo_dir = 'assets/brite_assets'
 if not os.path.isdir(repo_dir):
-    Repo.clone_from('https://github.com/gamelocker/battlerite-assets.git', repo_dir)
+    Repo.clone_from('https://github.com/StunlockStudios/battlerite-assets.git', repo_dir)
 repo = Repo(repo_dir)
 o = repo.remotes.origin
 o.pull()
