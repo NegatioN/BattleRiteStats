@@ -77,10 +77,12 @@ agg_cols = ['{}_{}'.format(y, x) for x in sum_cols for y in ['sum', 'mean']]
 agg_cols.extend(['damage_ps', 'protection_ps', 'disables_ps', 'energy_ps'])
 
 
-main_df['damage_ps'] = main_df['sum_damage'] / main_df['sum_time_alive']
-main_df['protection_ps'] = main_df['sum_healing'] / main_df['sum_time_alive']
-main_df['disables_ps'] = main_df['sum_disables'] / main_df['sum_time_alive']
-main_df['energy_ps'] = main_df['sum_energy_gained'] / main_df['sum_time_alive']
+#div_col = 'sum_time_alive' change back to this when bug seems to be gone
+div_col = 'sum_round_duration'
+main_df['damage_ps'] = main_df['sum_damage'] / main_df[div_col]
+main_df['protection_ps'] = main_df['sum_healing'] / main_df[div_col]
+main_df['disables_ps'] = main_df['sum_disables'] / main_df[div_col]
+main_df['energy_ps'] = main_df['sum_energy_gained'] / main_df[div_col]
 
 grouped = main_df.groupby(['characterid', 'matchmode', 'build']).agg({k: np.mean for k in agg_cols})
 
