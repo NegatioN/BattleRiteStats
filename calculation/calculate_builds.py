@@ -74,7 +74,7 @@ def parse_telemetry(telem_d):
             add('matchid', telem_d['matchID'])
             add('patchversion', telem_d['patchversion'])
             add('mapid', telem_d['map'])
-            add('timee', telem_d['time'])
+            add('timee', int(telem_d['time']))
             add('rankingtype', telem_d['rankingType'])
             add('userid', userid)
             add('characterid', character)
