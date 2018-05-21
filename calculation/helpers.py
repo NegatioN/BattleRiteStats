@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 from collections import defaultdict
 from sqlalchemy import create_engine
 import pandas as pd
+from datetime import datetime, timedelta
 
 def get_content(url, headers):
     response = requests.get(url, headers=headers)
@@ -112,6 +113,15 @@ def get_player_ids():
     engine = create_engine('postgresql://psycopg:pass@localhost:5432/battleritebuilds')
     u = pd.read_sql_query('select distinct userid from playerteams NATURAL JOIN teams AS t WHERE t.league >= 5',con=engine)
     return [str(x) for x in u['userid'].values]
+
+def get_match_data(lookback=7):
+    engine = create_engine('postgresql://psycopg:pass@localhost:5432/battleritebuilds')
+    timee = int((datetime.now() - timedelta(days=lookback)).timestamp())
+    q1 = 'select * from playermatch where timee >= {}'.format(timee)
+    q2 = 'select * from matchround where matchid in (select matchid from playermatch where timee >= {})'.format(timee)
+    character_df = pd.read_sql_query(q1, con=engine)
+    match_df = pd.read_sql_query(q2, con=engine)
+    return character_df, match_df
 
 def rearrange_df(df, col_arr):
     return df[col_arr]

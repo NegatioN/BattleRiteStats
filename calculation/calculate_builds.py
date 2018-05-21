@@ -35,13 +35,13 @@ def timestampify_jsontime(j): return datetime.strptime(j, date_format).timestamp
 
 #Last seven days of replays
 last_patch = datetime(year=2018, month=5, day=16, hour=8)
-seven_days_ago = datetime.now() - timedelta(days=7)
-if last_patch < datetime.now() and last_patch > seven_days_ago:
+one_day_ago = datetime.now() - timedelta(days=1)
+if last_patch < datetime.now() and last_patch > one_day_ago:
     created_after_date = jsonify_datetime(last_patch)
     created_ad = last_patch
 else:
-    created_after_date = jsonify_datetime(seven_days_ago)
-    created_ad = seven_days_ago
+    created_after_date = jsonify_datetime(one_day_ago)
+    created_ad = one_day_ago
 
 print('Getting matches from {} to now'.format(created_after_date))
 
