@@ -7,7 +7,7 @@ from collections import defaultdict
 import pandas as pd
 import numpy as np
 import re
-from helpers import get_battlerite_type_mapping, get_battlerite_color_mapping, get_match_data
+from helpers import get_battlerite_type_mapping, get_battlerite_color_mapping
 
 
 def load_locale(path):
