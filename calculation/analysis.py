@@ -40,7 +40,7 @@ if 2018979014 in flattned_battlerites:
     flattned_battlerites[891919250] = flattned_battlerites[2018979014]
 
 
-main_df, match_df = get_match_data(lookback=7)
+main_df, match_df = pd.read_csv('assets/dumped_character_df.csv'), pd.read_csv('assets/dumped_match_df.csv')
 
 # Make each build hashably unique
 main_df['build'] = main_df['build'].apply(lambda x: frozenset(x.split('|')))

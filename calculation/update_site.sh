@@ -15,7 +15,9 @@ mkdir assets/characters
 sudo pip3 install -r requirements.txt
 python3 prepare_analysis_assets.py
 BATTLERITE_API_KEY=${BATTLERITE_API_KEY} python3 calculate_builds.py
+
 sudo -u postgres psql -d ${DB_NAME} -a -f db/update_base.sql
+sudo bash db_dump.sh
 
 python3 analysis.py
 python3 picture_assets.py
