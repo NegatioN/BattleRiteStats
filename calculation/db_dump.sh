@@ -12,7 +12,7 @@ export MAIN_DF_NAME="dumped_character_df.csv"
 echo "Dumping data from ${DATA_FROM_TIMESTAMP}"
 
 
-sudo -u postgres psql -d ${DB} -c "COPY (SELECT mr.* FROM matchround mr LEFT JOIN playermatch pm ON mr.matchid = pm.matchid WHERE pm.timee > ${DATA_FROM_TIMESTAMP}) TO '${TMP_PATH}/${MATCH_DF_NAME}' WITH (FORMAT CSV, HEADER);"
+sudo -u postgres psql -d ${DB} -c "COPY (SELECT * FROM matchround where matchid IN (select matchid from playermatch where timee > ${DATA_FROM_TIMESTAMP}) TO '${TMP_PATH}/${MATCH_DF_NAME}' WITH (FORMAT CSV, HEADER);"
 sudo -u postgres psql -d ${DB} -c "COPY (SELECT * FROM playermatch WHERE timee > ${DATA_FROM_TIMESTAMP}) TO '${TMP_PATH}/${MAIN_DF_NAME}' WITH (FORMAT CSV, HEADER);"
 
 cp ${TMP_PATH}/${MATCH_DF_NAME} ${PROJECT_PATH}/${MATCH_DF_NAME}
