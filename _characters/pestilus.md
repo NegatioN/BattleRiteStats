@@ -4,7 +4,7 @@ builds:
   - damage: '3.7'
     disable: '1.0'
     energy: '2.5'
-    num: 363
+    num: 366
     protection: '5.2'
     skills:
     - color: pink
@@ -37,11 +37,11 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '51.8'
+    winrate: '52.5'
   - damage: '3.5'
     disable: '0.9'
     energy: '2.5'
-    num: 198
+    num: 188
     protection: '4.9'
     skills:
     - color: pink
@@ -74,11 +74,11 @@ builds:
       name: Swarm Queen
       type: support
     winrate: '50.0'
-  - damage: '3.4'
+  - damage: '3.3'
     disable: '1.0'
-    energy: '2.6'
-    num: 69
-    protection: '5.6'
+    energy: '2.7'
+    num: 70
+    protection: '5.5'
     skills:
     - color: green
       description: Hitting an ally with Bloodsucker causes you to deal no damage to
@@ -109,7 +109,7 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '58.0'
+    winrate: '52.9'
   - damage: '4.2'
     disable: '1.0'
     energy: '2.7'
@@ -148,10 +148,10 @@ builds:
       name: Overlord
       type: mobility
     winrate: '62.2'
-  - damage: '3.3'
-    disable: '1.0'
-    energy: '2.3'
-    num: 37
+  - damage: '3.4'
+    disable: '1.1'
+    energy: '2.4'
+    num: 32
     protection: '4.6'
     skills:
     - color: pink
@@ -183,47 +183,11 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '43.2'
+    winrate: '50.0'
   - damage: '3.4'
     disable: '1.0'
-    energy: '2.6'
-    num: 29
-    protection: '5.1'
-    skills:
-    - color: grey
-      description: Increases Infest duration by 0.5. Drains 10 health from enemies
-        and heals allies for 10 health over the duration.
-      icon: c9f7e2e324bbed3469cbe356da833c9b
-      name: Defiler
-      type: mixed
-    - color: pink
-      description: Arachnophobia bounces forward, causing another impact. The radius
-        of the second impact is 15 larger.
-      icon: afd7ecd77cdb3064690b9f0277a774dd
-      name: Egg Carrier
-      type: control
-    - color: grey
-      description: Recasting the Queen commands it to fly towards target location.
-        Reduces cooldown of Queen by 1.
-      icon: 7a1d6423f91ba824d8855aa3e9a42247
-      name: Hive Mind
-      type: mixed
-    - color: red
-      description: Arachnophobia deals 8 damage. Increases Panic duration by 0.5.
-      icon: afd7ecd77cdb3064690b9f0277a774dd
-      name: Spiderling Venom
-      type: offense
-    - color: teal
-      description: Queen spawns with a Swarm Shield that absorbs up to 28 damage and
-        lasts 1.2.
-      icon: 7a1d6423f91ba824d8855aa3e9a42247
-      name: Swarm Queen
-      type: support
-    winrate: '58.6'
-  - damage: '3.3'
-    disable: '0.9'
     energy: '2.3'
-    num: 25
+    num: 27
     protection: '5.1'
     skills:
     - color: pink
@@ -254,19 +218,13 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '48.0'
-  - damage: '3.9'
-    disable: '0.8'
-    energy: '2.2'
-    num: 20
-    protection: '5.3'
+    winrate: '48.1'
+  - damage: '3.3'
+    disable: '1.0'
+    energy: '2.4'
+    num: 24
+    protection: '5.0'
     skills:
-    - color: green
-      description: Hitting an enemy inflicts Moth and spreads it to nearby enemies.
-        Hitting a Queen also spreads Moth to nearby enemies.
-      icon: 991db4d450443e9498711ab935bedf13
-      name: Colony
-      type: survival
     - color: grey
       description: Increases Infest duration by 0.5. Drains 10 health from enemies
         and heals allies for 10 health over the duration.
@@ -286,17 +244,22 @@ builds:
       name: Hive Mind
       type: mixed
     - color: red
-      description: Hitting an enemy or ally affected by Moth with Bloodsucker deals
-        6 bonus damage to enemies and heals 6 bonus health to allies.
-      icon: 991db4d450443e9498711ab935bedf13
-      name: Insectivore
+      description: Arachnophobia deals 8 damage. Increases Panic duration by 0.5.
+      icon: afd7ecd77cdb3064690b9f0277a774dd
+      name: Spiderling Venom
       type: offense
-    winrate: '45.0'
-  - damage: '4.8'
+    - color: teal
+      description: Queen spawns with a Swarm Shield that absorbs up to 28 damage and
+        lasts 1.2.
+      icon: 7a1d6423f91ba824d8855aa3e9a42247
+      name: Swarm Queen
+      type: support
+    winrate: '45.8'
+  - damage: '4.6'
     disable: '1.2'
-    energy: '2.3'
-    num: 19
-    protection: '4.7'
+    energy: '2.2'
+    num: 20
+    protection: '4.6'
     skills:
     - color: pink
       description: Increases Queen area of effect by 10 and panic duration by 0.6.
@@ -326,7 +289,43 @@ builds:
       icon: afd7ecd77cdb3064690b9f0277a774dd
       name: Spiderling Venom
       type: offense
-    winrate: '47.4'
+    winrate: '55.0'
+  - damage: '4.0'
+    disable: '1.0'
+    energy: '2.5'
+    num: 18
+    protection: '4.7'
+    skills:
+    - color: green
+      description: Hitting an enemy inflicts Moth and spreads it to nearby enemies.
+        Hitting a Queen also spreads Moth to nearby enemies.
+      icon: 991db4d450443e9498711ab935bedf13
+      name: Colony
+      type: survival
+    - color: pink
+      description: Arachnophobia bounces forward, causing another impact. The radius
+        of the second impact is 15 larger.
+      icon: afd7ecd77cdb3064690b9f0277a774dd
+      name: Egg Carrier
+      type: control
+    - color: grey
+      description: Recasting the Queen commands it to fly towards target location.
+        Reduces cooldown of Queen by 1.
+      icon: 7a1d6423f91ba824d8855aa3e9a42247
+      name: Hive Mind
+      type: mixed
+    - color: red
+      description: Arachnophobia deals 8 damage. Increases Panic duration by 0.5.
+      icon: afd7ecd77cdb3064690b9f0277a774dd
+      name: Spiderling Venom
+      type: offense
+    - color: teal
+      description: Queen spawns with a Swarm Shield that absorbs up to 28 damage and
+        lasts 1.2.
+      icon: 7a1d6423f91ba824d8855aa3e9a42247
+      name: Swarm Queen
+      type: support
+    winrate: '55.6'
   - damage: '2.9'
     disable: '0.4'
     energy: '2.4'
@@ -369,7 +368,7 @@ builds:
   - damage: '4.1'
     disable: '1.0'
     energy: '2.4'
-    num: 224
+    num: 210
     protection: '4.3'
     skills:
     - color: pink
@@ -402,12 +401,12 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '53.1'
-  - damage: '4.3'
+    winrate: '52.4'
+  - damage: '4.2'
     disable: '1.0'
-    energy: '2.4'
-    num: 185
-    protection: '4.3'
+    energy: '2.3'
+    num: 182
+    protection: '4.2'
     skills:
     - color: pink
       description: Arachnophobia bounces forward, causing another impact. The radius
@@ -438,11 +437,11 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '59.5'
-  - damage: '4.0'
+    winrate: '59.3'
+  - damage: '4.1'
     disable: '0.9'
     energy: '2.4'
-    num: 109
+    num: 103
     protection: '4.1'
     skills:
     - color: pink
@@ -474,11 +473,11 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '54.1'
+    winrate: '54.4'
   - damage: '3.8'
     disable: '0.8'
     energy: '2.2'
-    num: 65
+    num: 60
     protection: '5.0'
     skills:
     - color: grey
@@ -510,11 +509,11 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '43.1'
+    winrate: '45.0'
   - damage: '3.8'
     disable: '1.0'
     energy: '2.2'
-    num: 36
+    num: 33
     protection: '4.1'
     skills:
     - color: grey
@@ -546,11 +545,11 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '52.8'
+    winrate: '51.5'
   - damage: '3.4'
-    disable: '0.8'
+    disable: '0.9'
     energy: '2.1'
-    num: 28
+    num: 31
     protection: '4.1'
     skills:
     - color: pink
@@ -581,7 +580,7 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '42.9'
+    winrate: '45.2'
   - damage: '2.8'
     disable: '0.9'
     energy: '1.8'
@@ -618,10 +617,46 @@ builds:
       name: Scourge
       type: utility
     winrate: '58.3'
-  - damage: '4.3'
-    disable: '0.5'
-    energy: '2.1'
+  - damage: '4.9'
+    disable: '0.9'
+    energy: '2.4'
     num: 22
+    protection: '4.4'
+    skills:
+    - color: green
+      description: Hitting an enemy inflicts Moth and spreads it to nearby enemies.
+        Hitting a Queen also spreads Moth to nearby enemies.
+      icon: 991db4d450443e9498711ab935bedf13
+      name: Colony
+      type: survival
+    - color: pink
+      description: Arachnophobia bounces forward, causing another impact. The radius
+        of the second impact is 15 larger.
+      icon: afd7ecd77cdb3064690b9f0277a774dd
+      name: Egg Carrier
+      type: control
+    - color: grey
+      description: Recasting the Queen commands it to fly towards target location.
+        Reduces cooldown of Queen by 1.
+      icon: 7a1d6423f91ba824d8855aa3e9a42247
+      name: Hive Mind
+      type: mixed
+    - color: red
+      description: Arachnophobia deals 8 damage. Increases Panic duration by 0.5.
+      icon: afd7ecd77cdb3064690b9f0277a774dd
+      name: Spiderling Venom
+      type: offense
+    - color: teal
+      description: Queen spawns with a Swarm Shield that absorbs up to 28 damage and
+        lasts 1.2.
+      icon: 7a1d6423f91ba824d8855aa3e9a42247
+      name: Swarm Queen
+      type: support
+    winrate: '86.4'
+  - damage: '4.3'
+    disable: '0.6'
+    energy: '2.1'
+    num: 20
     protection: '3.8'
     skills:
     - color: green
@@ -654,11 +689,11 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '40.9'
-  - damage: '3.6'
+    winrate: '35.0'
+  - damage: '3.5'
     disable: '0.7'
     energy: '2.2'
-    num: 19
+    num: 17
     protection: '5.3'
     skills:
     - color: grey
@@ -691,44 +726,7 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '68.4'
-  - damage: '4.6'
-    disable: '0.8'
-    energy: '1.9'
-    num: 19
-    protection: '3.9'
-    skills:
-    - color: green
-      description: Hitting an enemy inflicts Moth and spreads it to nearby enemies.
-        Hitting a Queen also spreads Moth to nearby enemies.
-      icon: 991db4d450443e9498711ab935bedf13
-      name: Colony
-      type: survival
-    - color: grey
-      description: Increases Infest duration by 0.5. Drains 10 health from enemies
-        and heals allies for 10 health over the duration.
-      icon: c9f7e2e324bbed3469cbe356da833c9b
-      name: Defiler
-      type: mixed
-    - color: pink
-      description: Arachnophobia bounces forward, causing another impact. The radius
-        of the second impact is 15 larger.
-      icon: afd7ecd77cdb3064690b9f0277a774dd
-      name: Egg Carrier
-      type: control
-    - color: grey
-      description: Recasting the Queen commands it to fly towards target location.
-        Reduces cooldown of Queen by 1.
-      icon: 7a1d6423f91ba824d8855aa3e9a42247
-      name: Hive Mind
-      type: mixed
-    - color: red
-      description: Hitting an enemy or ally affected by Moth with Bloodsucker deals
-        6 bonus damage to enemies and heals 6 bonus health to allies.
-      icon: 991db4d450443e9498711ab935bedf13
-      name: Insectivore
-      type: offense
-    winrate: '47.4'
+    winrate: '70.6'
 compos:
   threes:
   - hero_names:
@@ -745,43 +743,9 @@ compos:
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
-    num: 50
-    winrate: 0.46
+    num: 47
+    winrate: 0.48936170212765956
     wins: 23
-  - hero_names:
-    - Pestilus
-    - Rook
-    - Ashka
-    heros:
-    - icon: a7e0c7a6f0fa2ef49bf684950de34567
-      name: Pestilus
-      title: pestilus
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    num: 29
-    winrate: 0.4482758620689655
-    wins: 13
-  - hero_names:
-    - Pestilus
-    - Ashka
-    - Raigon
-    heros:
-    - icon: a7e0c7a6f0fa2ef49bf684950de34567
-      name: Pestilus
-      title: pestilus
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    num: 26
-    winrate: 0.5769230769230769
-    wins: 15
   - hero_names:
     - Pestilus
     - Alysia
@@ -796,43 +760,26 @@ compos:
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    num: 25
-    winrate: 0.64
-    wins: 16
+    num: 26
+    winrate: 0.6538461538461539
+    wins: 17
   - hero_names:
     - Pestilus
-    - Alysia
-    - Jamila
+    - Rook
+    - Ashka
     heros:
     - icon: a7e0c7a6f0fa2ef49bf684950de34567
       name: Pestilus
       title: pestilus
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
-    - icon: f283d6dda29cbc845b4f770a1482d75b
-      name: Jamila
-      title: jamila
-    num: 21
-    winrate: 0.47619047619047616
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    num: 23
+    winrate: 0.43478260869565216
     wins: 10
-  - hero_names:
-    - Pestilus
-    - Thorn
-    - Alysia
-    heros:
-    - icon: a7e0c7a6f0fa2ef49bf684950de34567
-      name: Pestilus
-      title: pestilus
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
-    num: 21
-    winrate: 0.38095238095238093
-    wins: 8
   - hero_names:
     - Pestilus
     - Alysia
@@ -847,9 +794,43 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 20
-    winrate: 0.55
+    num: 21
+    winrate: 0.5238095238095238
     wins: 11
+  - hero_names:
+    - Pestilus
+    - Ashka
+    - Raigon
+    heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    num: 21
+    winrate: 0.5238095238095238
+    wins: 11
+  - hero_names:
+    - Pestilus
+    - Thorn
+    - Alysia
+    heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: 50404d271ae2a4f4f8b52de966688dc1
+      name: Alysia
+      title: alysia
+    num: 20
+    winrate: 0.45
+    wins: 9
   - hero_names:
     - Pestilus
     - Rook
@@ -865,42 +846,59 @@ compos:
       name: Iva
       title: iva
     num: 19
-    winrate: 0.5789473684210527
-    wins: 11
+    winrate: 0.6842105263157895
+    wins: 13
   - hero_names:
     - Pestilus
-    - Rook
-    - Raigon
-    heros:
-    - icon: a7e0c7a6f0fa2ef49bf684950de34567
-      name: Pestilus
-      title: pestilus
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    num: 18
-    winrate: 0.7777777777777778
-    wins: 14
-  - hero_names:
-    - Pestilus
-    - Rook
+    - Thorn
     - Jade
     heros:
     - icon: a7e0c7a6f0fa2ef49bf684950de34567
       name: Pestilus
       title: pestilus
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
     num: 18
-    winrate: 0.7222222222222222
-    wins: 13
+    winrate: 0.6666666666666666
+    wins: 12
+  - hero_names:
+    - Pestilus
+    - Rook
+    - Jumong
+    heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: 42a665b9c285a1243a201c8d533980e5
+      name: Jumong
+      title: jumong
+    num: 18
+    winrate: 0.3888888888888889
+    wins: 7
+  - hero_names:
+    - Pestilus
+    - Ashka
+    - Thorn
+    heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    num: 18
+    winrate: 0.5555555555555556
+    wins: 10
   twos:
   - hero_names:
     - Pestilus
@@ -912,9 +910,9 @@ compos:
     - icon: e5d5913527b842b41aed666d27d14231
       name: Rook
       title: rook
-    num: 191
-    winrate: 0.5602094240837696
-    wins: 107
+    num: 188
+    winrate: 0.5797872340425532
+    wins: 109
   - hero_names:
     - Pestilus
     - Jamila
@@ -925,9 +923,9 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 137
-    winrate: 0.5109489051094891
-    wins: 70
+    num: 127
+    winrate: 0.5196850393700787
+    wins: 66
   - hero_names:
     - Pestilus
     - Alysia
@@ -938,9 +936,9 @@ compos:
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
-    num: 115
-    winrate: 0.4956521739130435
-    wins: 57
+    num: 120
+    winrate: 0.49166666666666664
+    wins: 59
   - hero_names:
     - Pestilus
     - Raigon
@@ -951,9 +949,9 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 113
-    winrate: 0.5486725663716814
-    wins: 62
+    num: 106
+    winrate: 0.5471698113207547
+    wins: 58
   - hero_names:
     - Pestilus
     - Jumong
@@ -965,21 +963,8 @@ compos:
       name: Jumong
       title: jumong
     num: 92
-    winrate: 0.41304347826086957
-    wins: 38
-  - hero_names:
-    - Pestilus
-    - Bakko
-    heros:
-    - icon: a7e0c7a6f0fa2ef49bf684950de34567
-      name: Pestilus
-      title: pestilus
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    num: 78
-    winrate: 0.5512820512820513
-    wins: 43
+    winrate: 0.391304347826087
+    wins: 36
   - hero_names:
     - Pestilus
     - Ruh Kaan
@@ -990,9 +975,9 @@ compos:
     - icon: bb37e5d448c511e47b808987d0d4f9e8
       name: Ruh Kaan
       title: ruh-kaan
-    num: 71
-    winrate: 0.4647887323943662
-    wins: 33
+    num: 78
+    winrate: 0.47435897435897434
+    wins: 37
   - hero_names:
     - Pestilus
     - Thorn
@@ -1004,8 +989,21 @@ compos:
       name: Thorn
       title: thorn
     num: 66
-    winrate: 0.4696969696969697
-    wins: 31
+    winrate: 0.5
+    wins: 33
+  - hero_names:
+    - Pestilus
+    - Bakko
+    heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    num: 65
+    winrate: 0.5692307692307692
+    wins: 37
   - hero_names:
     - Pestilus
     - Ashka
@@ -1017,8 +1015,8 @@ compos:
       name: Ashka
       title: ashka
     num: 64
-    winrate: 0.46875
-    wins: 30
+    winrate: 0.515625
+    wins: 33
   - hero_names:
     - Pestilus
     - Croak
@@ -1039,11 +1037,11 @@ icon: a7e0c7a6f0fa2ef49bf684950de34567
 layout: character
 name: pestilus
 num:
-  threes: 1285
-  twos: 1265
+  threes: 1255
+  twos: 1224
 title: Pestilus
 url: characters/pestilus.html
 winrate:
-  threes: '49.73'
-  twos: '48.77'
+  threes: '50.68'
+  twos: '49.18'
 ...
