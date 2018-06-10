@@ -35,7 +35,7 @@ COPY tmp_z FROM '/home/joakim/projects/BattleRiteStats/calculation/assets/charac
 INSERT INTO playermatch (userid, timee, characterid, patchversion, matchmode, matchid, mapid, build, rankingtype, wonflag)
   SELECT userid, timee, characterid, patchversion, matchmode, matchid, mapid, build, rankingtype, wonflag
   FROM tmp_z
-ON CONFLICT (matchid, characterid) DO NOTHING;
+ON CONFLICT (matchid, userid) DO NOTHING;
 
 DROP TABLE tmp_z;
 
