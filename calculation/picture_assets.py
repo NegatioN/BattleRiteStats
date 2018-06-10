@@ -19,15 +19,11 @@ def get_unique_brite_icon(characters):
                 unique_assets.add(vals['icon'])
     return unique_assets
 
-with open('assets/gameplay.json', 'rb') as gplay:
+with open('assets/0_gameplay.json', 'rb') as gplay:
     gplay = gplay.read()
 
 characters = json.loads(gplay.decode('utf-8'))['characters']
 flattned_battlerites = {y['typeID']: y for x in characters for y in x['battlerites']}
-
-
-with open('assets/result.yml', 'r', encoding='utf-8') as f:
-    result_data = yaml.load(f)
 
 pic_assets_path = 'assets/brite_assets/mappings/assets'
 
