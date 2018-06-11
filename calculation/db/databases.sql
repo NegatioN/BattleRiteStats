@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS "playermatch" (
   "build" VARCHAR(100) NOT NULL,
   "rankingtype" VARCHAR(15) NOT NULL,
   "wonflag" INTEGER NOT NULL,
-  unique (matchid, characterid)
+  unique (matchid, userid)
 );
 
 CREATE TABLE IF NOT EXISTS "matchround" (
