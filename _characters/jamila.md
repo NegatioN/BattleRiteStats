@@ -1,10 +1,45 @@
 ---
 builds:
   threes:
+  - damage: '6.4'
+    disable: '1.0'
+    energy: '3.1'
+    num: 116
+    protection: '0.8'
+    skills:
+    - color: red
+      description: Shuriken deals 3 bonus damage on each hit.
+      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
+      name: Deadly Star
+      type: offense
+    - color: pink
+      description: Increases Stun duration of Deadly Blow by 0.5 and reduces its cooldown
+        by 2.
+      icon: c75e9702831a67e4b98aa0c24af2d865
+      name: Go for the Throat
+      type: control
+    - color: pink
+      description: Hook Shot deals 3 bonus damage and inflicts Root for 0.8.
+      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
+      name: Momentum Strike
+      type: control
+    - color: grey
+      description: Elusive Strike can be recast to perform a short dash strike dealing
+        10 damage and inflicting a Lesser Phantom Cut, dealing 16 damage after 2.
+      icon: fa9b6a58fa6398b4ea4c4756152bd079
+      name: Quick Strike
+      type: mixed
+    - color: green
+      description: Shuriken returns to you afterward, healing you for [Float 8,Float
+        10,Float 12] health based on enemies hit.
+      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
+      name: Taste of Blood
+      type: survival
+    winrate: '44.0'
   - damage: '6.9'
     disable: '1.2'
-    energy: '2.9'
-    num: 117
+    energy: '2.8'
+    num: 93
     protection: '1.2'
     skills:
     - color: pink
@@ -36,11 +71,11 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '50.4'
-  - damage: '6.5'
-    disable: '1.0'
+    winrate: '50.5'
+  - damage: '6.3'
+    disable: '0.8'
     energy: '3.0'
-    num: 97
+    num: 43
     protection: '0.8'
     skills:
     - color: red
@@ -54,6 +89,42 @@ builds:
       icon: c75e9702831a67e4b98aa0c24af2d865
       name: Go for the Throat
       type: control
+    - color: blue
+      description: Increases energy gain from abilities by 10 and maximum energy by
+        25.
+      icon: 61e058b8f4b79f4419ec1496f223ee36
+      name: Inspiration
+      type: utility
+    - color: grey
+      description: Elusive Strike can be recast to perform a short dash strike dealing
+        10 damage and inflicting a Lesser Phantom Cut, dealing 16 damage after 2.
+      icon: fa9b6a58fa6398b4ea4c4756152bd079
+      name: Quick Strike
+      type: mixed
+    - color: green
+      description: Shuriken returns to you afterward, healing you for [Float 8,Float
+        10,Float 12] health based on enemies hit.
+      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
+      name: Taste of Blood
+      type: survival
+    winrate: '60.5'
+  - damage: '6.3'
+    disable: '1.0'
+    energy: '2.2'
+    num: 41
+    protection: '0.9'
+    skills:
+    - color: red
+      description: Shuriken deals 3 bonus damage on each hit.
+      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
+      name: Deadly Star
+      type: offense
+    - color: yellow
+      description: Increases the range of Hook Shot by 15% and reduces its cooldown
+        by 1.
+      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
+      name: Firing Mechanism
+      type: mobility
     - color: pink
       description: Hook Shot deals 3 bonus damage and inflicts Root for 0.8.
       icon: 17c2d1fcdba1a1540a6649ae0b3c0104
@@ -71,11 +142,11 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '44.3'
+    winrate: '53.7'
   - damage: '7.3'
-    disable: '1.0'
+    disable: '1.1'
     energy: '3.6'
-    num: 59
+    num: 39
     protection: '1.3'
     skills:
     - color: yellow
@@ -108,83 +179,12 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '33.9'
-  - damage: '6.4'
-    disable: '0.8'
-    energy: '3.0'
-    num: 48
-    protection: '0.9'
-    skills:
-    - color: red
-      description: Shuriken deals 3 bonus damage on each hit.
-      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
-      name: Deadly Star
-      type: offense
-    - color: pink
-      description: Increases Stun duration of Deadly Blow by 0.5 and reduces its cooldown
-        by 2.
-      icon: c75e9702831a67e4b98aa0c24af2d865
-      name: Go for the Throat
-      type: control
-    - color: blue
-      description: Increases energy gain from abilities by 10 and maximum energy by
-        25.
-      icon: 61e058b8f4b79f4419ec1496f223ee36
-      name: Inspiration
-      type: utility
-    - color: grey
-      description: Elusive Strike can be recast to perform a short dash strike dealing
-        10 damage and inflicting a Lesser Phantom Cut, dealing 16 damage after 2.
-      icon: fa9b6a58fa6398b4ea4c4756152bd079
-      name: Quick Strike
-      type: mixed
-    - color: green
-      description: Shuriken returns to you afterward, healing you for [Float 8,Float
-        10,Float 12] health based on enemies hit.
-      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
-      name: Taste of Blood
-      type: survival
-    winrate: '60.4'
-  - damage: '6.3'
-    disable: '1.0'
-    energy: '2.2'
-    num: 37
-    protection: '0.9'
-    skills:
-    - color: red
-      description: Shuriken deals 3 bonus damage on each hit.
-      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
-      name: Deadly Star
-      type: offense
-    - color: yellow
-      description: Increases the range of Hook Shot by 15% and reduces its cooldown
-        by 1.
-      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
-      name: Firing Mechanism
-      type: mobility
-    - color: pink
-      description: Hook Shot deals 3 bonus damage and inflicts Root for 0.8.
-      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
-      name: Momentum Strike
-      type: control
-    - color: grey
-      description: Elusive Strike can be recast to perform a short dash strike dealing
-        10 damage and inflicting a Lesser Phantom Cut, dealing 16 damage after 2.
-      icon: fa9b6a58fa6398b4ea4c4756152bd079
-      name: Quick Strike
-      type: mixed
-    - color: green
-      description: Shuriken returns to you afterward, healing you for [Float 8,Float
-        10,Float 12] health based on enemies hit.
-      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
-      name: Taste of Blood
-      type: survival
-    winrate: '56.8'
+    winrate: '30.8'
   - damage: '6.0'
     disable: '0.9'
-    energy: '2.3'
+    energy: '2.4'
     num: 32
-    protection: '0.9'
+    protection: '1.0'
     skills:
     - color: yellow
       description: Increases the range of Hook Shot by 15% and reduces its cooldown
@@ -215,11 +215,11 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '28.1'
-  - damage: '7.4'
-    disable: '1.1'
+    winrate: '31.2'
+  - damage: '7.1'
+    disable: '1.0'
     energy: '3.8'
-    num: 30
+    num: 28
     protection: '1.0'
     skills:
     - color: pink
@@ -251,7 +251,7 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '50.0'
+    winrate: '57.1'
   - damage: '6.2'
     disable: '1.0'
     energy: '2.8'
@@ -290,82 +290,45 @@ builds:
       type: survival
     winrate: '57.7'
   - damage: '6.1'
-    disable: '0.9'
-    energy: '3.0'
-    num: 25
-    protection: '1.0'
-    skills:
-    - color: pink
-      description: Increases Stun duration of Deadly Blow by 0.5 and reduces its cooldown
-        by 2.
-      icon: c75e9702831a67e4b98aa0c24af2d865
-      name: Go for the Throat
-      type: control
-    - color: blue
-      description: Increases energy gain from abilities by 10 and maximum energy by
-        25.
-      icon: 61e058b8f4b79f4419ec1496f223ee36
-      name: Inspiration
-      type: utility
-    - color: pink
-      description: Hook Shot deals 3 bonus damage and inflicts Root for 0.8.
-      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
-      name: Momentum Strike
-      type: control
-    - color: grey
-      description: Elusive Strike can be recast to perform a short dash strike dealing
-        10 damage and inflicting a Lesser Phantom Cut, dealing 16 damage after 2.
-      icon: fa9b6a58fa6398b4ea4c4756152bd079
-      name: Quick Strike
-      type: mixed
-    - color: green
-      description: Shuriken returns to you afterward, healing you for [Float 8,Float
-        10,Float 12] health based on enemies hit.
-      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
-      name: Taste of Blood
-      type: survival
-    winrate: '48.0'
-  - damage: '6.4'
-    disable: '1.1'
-    energy: '2.9'
-    num: 20
-    protection: '1.1'
-    skills:
-    - color: green
-      description: Shadow Slice heals you for 10 health.
-      icon: ef4060497167dcd43ab43e87def18d7b
-      name: Drawing Blood
-      type: survival
-    - color: pink
-      description: Increases Stun duration of Deadly Blow by 0.5 and reduces its cooldown
-        by 2.
-      icon: c75e9702831a67e4b98aa0c24af2d865
-      name: Go for the Throat
-      type: control
-    - color: pink
-      description: Hook Shot deals 3 bonus damage and inflicts Root for 0.8.
-      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
-      name: Momentum Strike
-      type: control
-    - color: grey
-      description: Elusive Strike can be recast to perform a short dash strike dealing
-        10 damage and inflicting a Lesser Phantom Cut, dealing 16 damage after 2.
-      icon: fa9b6a58fa6398b4ea4c4756152bd079
-      name: Quick Strike
-      type: mixed
-    - color: green
-      description: Shuriken returns to you afterward, healing you for [Float 8,Float
-        10,Float 12] health based on enemies hit.
-      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
-      name: Taste of Blood
-      type: survival
-    winrate: '40.0'
-  twos:
-  - damage: '7.2'
-    disable: '1.0'
+    disable: '1.2'
     energy: '2.7'
-    num: 91
-    protection: '1.2'
+    num: 21
+    protection: '0.8'
+    skills:
+    - color: pink
+      description: Increases Snare duration of Shuriken by 1.5.
+      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
+      name: Deep Wounds
+      type: control
+    - color: pink
+      description: Increases Stun duration of Deadly Blow by 0.5 and reduces its cooldown
+        by 2.
+      icon: c75e9702831a67e4b98aa0c24af2d865
+      name: Go for the Throat
+      type: control
+    - color: pink
+      description: Hook Shot deals 3 bonus damage and inflicts Root for 0.8.
+      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
+      name: Momentum Strike
+      type: control
+    - color: grey
+      description: Elusive Strike can be recast to perform a short dash strike dealing
+        10 damage and inflicting a Lesser Phantom Cut, dealing 16 damage after 2.
+      icon: fa9b6a58fa6398b4ea4c4756152bd079
+      name: Quick Strike
+      type: mixed
+    - color: green
+      description: Shuriken returns to you afterward, healing you for [Float 8,Float
+        10,Float 12] health based on enemies hit.
+      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
+      name: Taste of Blood
+      type: survival
+    winrate: '52.4'
+  - damage: '6.8'
+    disable: '0.7'
+    energy: '2.8'
+    num: 20
+    protection: '0.9'
     skills:
     - color: yellow
       description: Increases the range of Hook Shot by 15% and reduces its cooldown
@@ -379,11 +342,11 @@ builds:
       icon: c75e9702831a67e4b98aa0c24af2d865
       name: Go for the Throat
       type: control
-    - color: pink
-      description: Hook Shot deals 3 bonus damage and inflicts Root for 0.8.
-      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
-      name: Momentum Strike
-      type: control
+    - color: red
+      description: Phantom Cut deals 8 bonus damage.
+      icon: ef4060497167dcd43ab43e87def18d7b
+      name: Phantom Blades
+      type: offense
     - color: grey
       description: Elusive Strike can be recast to perform a short dash strike dealing
         10 damage and inflicting a Lesser Phantom Cut, dealing 16 damage after 2.
@@ -396,8 +359,9 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '57.1'
-  - damage: '7.3'
+    winrate: '55.0'
+  twos:
+  - damage: '7.2'
     disable: '1.0'
     energy: '3.2'
     num: 88
@@ -431,11 +395,11 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '52.3'
-  - damage: '7.0'
+    winrate: '47.7'
+  - damage: '7.1'
     disable: '1.1'
     energy: '3.0'
-    num: 84
+    num: 85
     protection: '1.0'
     skills:
     - color: pink
@@ -466,46 +430,11 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '60.7'
-  - damage: '7.0'
-    disable: '1.0'
-    energy: '3.1'
-    num: 74
-    protection: '1.2'
-    skills:
-    - color: green
-      description: Shadow Slice heals you for 10 health.
-      icon: ef4060497167dcd43ab43e87def18d7b
-      name: Drawing Blood
-      type: survival
-    - color: pink
-      description: Increases Stun duration of Deadly Blow by 0.5 and reduces its cooldown
-        by 2.
-      icon: c75e9702831a67e4b98aa0c24af2d865
-      name: Go for the Throat
-      type: control
-    - color: pink
-      description: Hook Shot deals 3 bonus damage and inflicts Root for 0.8.
-      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
-      name: Momentum Strike
-      type: control
-    - color: grey
-      description: Elusive Strike can be recast to perform a short dash strike dealing
-        10 damage and inflicting a Lesser Phantom Cut, dealing 16 damage after 2.
-      icon: fa9b6a58fa6398b4ea4c4756152bd079
-      name: Quick Strike
-      type: mixed
-    - color: green
-      description: Shuriken returns to you afterward, healing you for [Float 8,Float
-        10,Float 12] health based on enemies hit.
-      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
-      name: Taste of Blood
-      type: survival
-    winrate: '47.3'
+    winrate: '60.0'
   - damage: '6.7'
     disable: '1.1'
-    energy: '2.9'
-    num: 74
+    energy: '2.8'
+    num: 81
     protection: '1.0'
     skills:
     - color: pink
@@ -536,10 +465,46 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '58.1'
+    winrate: '56.8'
+  - damage: '7.3'
+    disable: '1.0'
+    energy: '2.8'
+    num: 77
+    protection: '1.2'
+    skills:
+    - color: yellow
+      description: Increases the range of Hook Shot by 15% and reduces its cooldown
+        by 1.
+      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
+      name: Firing Mechanism
+      type: mobility
+    - color: pink
+      description: Increases Stun duration of Deadly Blow by 0.5 and reduces its cooldown
+        by 2.
+      icon: c75e9702831a67e4b98aa0c24af2d865
+      name: Go for the Throat
+      type: control
+    - color: pink
+      description: Hook Shot deals 3 bonus damage and inflicts Root for 0.8.
+      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
+      name: Momentum Strike
+      type: control
+    - color: grey
+      description: Elusive Strike can be recast to perform a short dash strike dealing
+        10 damage and inflicting a Lesser Phantom Cut, dealing 16 damage after 2.
+      icon: fa9b6a58fa6398b4ea4c4756152bd079
+      name: Quick Strike
+      type: mixed
+    - color: green
+      description: Shuriken returns to you afterward, healing you for [Float 8,Float
+        10,Float 12] health based on enemies hit.
+      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
+      name: Taste of Blood
+      type: survival
+    winrate: '57.1'
   - damage: '7.1'
     disable: '0.8'
-    energy: '2.8'
+    energy: '2.9'
     num: 71
     protection: '1.0'
     skills:
@@ -571,11 +536,11 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '53.5'
+    winrate: '54.9'
   - damage: '6.7'
     disable: '1.0'
-    energy: '2.7'
-    num: 66
+    energy: '2.8'
+    num: 65
     protection: '1.2'
     skills:
     - color: pink
@@ -607,11 +572,46 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '60.6'
+    winrate: '60.0'
+  - damage: '7.0'
+    disable: '1.0'
+    energy: '3.2'
+    num: 58
+    protection: '1.2'
+    skills:
+    - color: green
+      description: Shadow Slice heals you for 10 health.
+      icon: ef4060497167dcd43ab43e87def18d7b
+      name: Drawing Blood
+      type: survival
+    - color: pink
+      description: Increases Stun duration of Deadly Blow by 0.5 and reduces its cooldown
+        by 2.
+      icon: c75e9702831a67e4b98aa0c24af2d865
+      name: Go for the Throat
+      type: control
+    - color: pink
+      description: Hook Shot deals 3 bonus damage and inflicts Root for 0.8.
+      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
+      name: Momentum Strike
+      type: control
+    - color: grey
+      description: Elusive Strike can be recast to perform a short dash strike dealing
+        10 damage and inflicting a Lesser Phantom Cut, dealing 16 damage after 2.
+      icon: fa9b6a58fa6398b4ea4c4756152bd079
+      name: Quick Strike
+      type: mixed
+    - color: green
+      description: Shuriken returns to you afterward, healing you for [Float 8,Float
+        10,Float 12] health based on enemies hit.
+      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
+      name: Taste of Blood
+      type: survival
+    winrate: '44.8'
   - damage: '7.3'
     disable: '0.8'
     energy: '2.7'
-    num: 45
+    num: 46
     protection: '1.2'
     skills:
     - color: grey
@@ -643,47 +643,11 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '53.3'
+    winrate: '50.0'
   - damage: '7.1'
-    disable: '1.0'
-    energy: '2.9'
-    num: 38
-    protection: '1.0'
-    skills:
-    - color: pink
-      description: Elusive Strike inflicts Fading Snare for 1 and Incapacitate duration
-        increases by 0.5.
-      icon: fa9b6a58fa6398b4ea4c4756152bd079
-      name: Cripple
-      type: control
-    - color: pink
-      description: Increases Stun duration of Deadly Blow by 0.5 and reduces its cooldown
-        by 2.
-      icon: c75e9702831a67e4b98aa0c24af2d865
-      name: Go for the Throat
-      type: control
-    - color: red
-      description: Phantom Cut deals 8 bonus damage.
-      icon: ef4060497167dcd43ab43e87def18d7b
-      name: Phantom Blades
-      type: offense
-    - color: grey
-      description: Elusive Strike can be recast to perform a short dash strike dealing
-        10 damage and inflicting a Lesser Phantom Cut, dealing 16 damage after 2.
-      icon: fa9b6a58fa6398b4ea4c4756152bd079
-      name: Quick Strike
-      type: mixed
-    - color: green
-      description: Shuriken returns to you afterward, healing you for [Float 8,Float
-        10,Float 12] health based on enemies hit.
-      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
-      name: Taste of Blood
-      type: survival
-    winrate: '44.7'
-  - damage: '7.0'
     disable: '0.8'
     energy: '2.9'
-    num: 33
+    num: 32
     protection: '0.8'
     skills:
     - color: red
@@ -715,26 +679,45 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '48.5'
+    winrate: '50.0'
+  - damage: '7.0'
+    disable: '1.0'
+    energy: '2.8'
+    num: 31
+    protection: '1.0'
+    skills:
+    - color: pink
+      description: Elusive Strike inflicts Fading Snare for 1 and Incapacitate duration
+        increases by 0.5.
+      icon: fa9b6a58fa6398b4ea4c4756152bd079
+      name: Cripple
+      type: control
+    - color: pink
+      description: Increases Stun duration of Deadly Blow by 0.5 and reduces its cooldown
+        by 2.
+      icon: c75e9702831a67e4b98aa0c24af2d865
+      name: Go for the Throat
+      type: control
+    - color: red
+      description: Phantom Cut deals 8 bonus damage.
+      icon: ef4060497167dcd43ab43e87def18d7b
+      name: Phantom Blades
+      type: offense
+    - color: grey
+      description: Elusive Strike can be recast to perform a short dash strike dealing
+        10 damage and inflicting a Lesser Phantom Cut, dealing 16 damage after 2.
+      icon: fa9b6a58fa6398b4ea4c4756152bd079
+      name: Quick Strike
+      type: mixed
+    - color: green
+      description: Shuriken returns to you afterward, healing you for [Float 8,Float
+        10,Float 12] health based on enemies hit.
+      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
+      name: Taste of Blood
+      type: survival
+    winrate: '48.4'
 compos:
   threes:
-  - hero_names:
-    - Oldur
-    - Jamila
-    - Jumong
-    heros:
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: f283d6dda29cbc845b4f770a1482d75b
-      name: Jamila
-      title: jamila
-    - icon: 42a665b9c285a1243a201c8d533980e5
-      name: Jumong
-      title: jumong
-    num: 25
-    winrate: 0.76
-    wins: 19
   - hero_names:
     - Ashka
     - Oldur
@@ -749,9 +732,26 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 25
-    winrate: 0.52
-    wins: 13
+    num: 31
+    winrate: 0.6129032258064516
+    wins: 19
+  - hero_names:
+    - Oldur
+    - Jamila
+    - Jumong
+    heros:
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    - icon: f283d6dda29cbc845b4f770a1482d75b
+      name: Jamila
+      title: jamila
+    - icon: 42a665b9c285a1243a201c8d533980e5
+      name: Jumong
+      title: jumong
+    num: 26
+    winrate: 0.6538461538461539
+    wins: 17
   - hero_names:
     - Poloma
     - Jade
@@ -766,59 +766,8 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 21
-    winrate: 0.5238095238095238
-    wins: 11
-  - hero_names:
-    - Oldur
-    - Jade
-    - Jamila
-    heros:
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    - icon: f283d6dda29cbc845b4f770a1482d75b
-      name: Jamila
-      title: jamila
-    num: 17
-    winrate: 0.5294117647058824
-    wins: 9
-  - hero_names:
-    - Pestilus
-    - Alysia
-    - Jamila
-    heros:
-    - icon: a7e0c7a6f0fa2ef49bf684950de34567
-      name: Pestilus
-      title: pestilus
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
-    - icon: f283d6dda29cbc845b4f770a1482d75b
-      name: Jamila
-      title: jamila
-    num: 15
-    winrate: 0.3333333333333333
-    wins: 5
-  - hero_names:
-    - Pestilus
-    - Jade
-    - Jamila
-    heros:
-    - icon: a7e0c7a6f0fa2ef49bf684950de34567
-      name: Pestilus
-      title: pestilus
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    - icon: f283d6dda29cbc845b4f770a1482d75b
-      name: Jamila
-      title: jamila
-    num: 15
-    winrate: 0.6666666666666666
+    num: 19
+    winrate: 0.5263157894736842
     wins: 10
   - hero_names:
     - Jumong
@@ -834,9 +783,43 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 15
-    winrate: 0.4
+    num: 16
+    winrate: 0.375
     wins: 6
+  - hero_names:
+    - Oldur
+    - Jade
+    - Jamila
+    heros:
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: f283d6dda29cbc845b4f770a1482d75b
+      name: Jamila
+      title: jamila
+    num: 15
+    winrate: 0.6
+    wins: 9
+  - hero_names:
+    - Pestilus
+    - Alysia
+    - Jamila
+    heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: 50404d271ae2a4f4f8b52de966688dc1
+      name: Alysia
+      title: alysia
+    - icon: f283d6dda29cbc845b4f770a1482d75b
+      name: Jamila
+      title: jamila
+    num: 14
+    winrate: 0.35714285714285715
+    wins: 5
   - hero_names:
     - Ashka
     - Poloma
@@ -851,43 +834,60 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 14
-    winrate: 0.35714285714285715
+    num: 13
+    winrate: 0.38461538461538464
     wins: 5
   - hero_names:
-    - Blossom
+    - Pestilus
+    - Jumong
+    - Jamila
+    heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: 42a665b9c285a1243a201c8d533980e5
+      name: Jumong
+      title: jumong
+    - icon: f283d6dda29cbc845b4f770a1482d75b
+      name: Jamila
+      title: jamila
+    num: 12
+    winrate: 0.4166666666666667
+    wins: 5
+  - hero_names:
+    - Pestilus
     - Jade
     - Jamila
     heros:
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 13
-    winrate: 0.46153846153846156
-    wins: 6
+    num: 12
+    winrate: 0.75
+    wins: 9
   - hero_names:
-    - Blossom
+    - Oldur
     - Alysia
     - Jamila
     heros:
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 13
-    winrate: 0.6153846153846154
-    wins: 8
+    num: 12
+    winrate: 0.5
+    wins: 6
   twos:
   - hero_names:
     - Blossom
@@ -900,8 +900,8 @@ compos:
       name: Jamila
       title: jamila
     num: 191
-    winrate: 0.5916230366492147
-    wins: 113
+    winrate: 0.581151832460733
+    wins: 111
   - hero_names:
     - Oldur
     - Jamila
@@ -912,9 +912,9 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 179
-    winrate: 0.5642458100558659
-    wins: 101
+    num: 169
+    winrate: 0.5325443786982249
+    wins: 90
   - hero_names:
     - Sirius
     - Jamila
@@ -925,8 +925,8 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 129
-    winrate: 0.4806201550387597
+    num: 124
+    winrate: 0.5
     wins: 62
   - hero_names:
     - Pestilus
@@ -938,22 +938,9 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 95
-    winrate: 0.5368421052631579
-    wins: 51
-  - hero_names:
-    - Jamila
-    - Pearl
-    heros:
-    - icon: f283d6dda29cbc845b4f770a1482d75b
-      name: Jamila
-      title: jamila
-    - icon: 427116cdee46bad4cbaa99d7063e0832
-      name: Pearl
-      title: pearl
-    num: 66
-    winrate: 0.4393939393939394
-    wins: 29
+    num: 90
+    winrate: 0.5555555555555556
+    wins: 50
   - hero_names:
     - Poloma
     - Jamila
@@ -964,9 +951,22 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 59
-    winrate: 0.5423728813559322
-    wins: 32
+    num: 71
+    winrate: 0.5915492957746479
+    wins: 42
+  - hero_names:
+    - Jamila
+    - Pearl
+    heros:
+    - icon: f283d6dda29cbc845b4f770a1482d75b
+      name: Jamila
+      title: jamila
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
+    num: 64
+    winrate: 0.453125
+    wins: 29
   - hero_names:
     - Jamila
     - Lucie
@@ -977,8 +977,8 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 58
-    winrate: 0.5344827586206896
+    num: 55
+    winrate: 0.5636363636363636
     wins: 31
   - hero_names:
     - Raigon
@@ -990,9 +990,22 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 54
-    winrate: 0.46296296296296297
+    num: 51
+    winrate: 0.49019607843137253
     wins: 25
+  - hero_names:
+    - Croak
+    - Jamila
+    heros:
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
+    - icon: f283d6dda29cbc845b4f770a1482d75b
+      name: Jamila
+      title: jamila
+    num: 42
+    winrate: 0.4523809523809524
+    wins: 19
   - hero_names:
     - Ulric
     - Jamila
@@ -1003,22 +1016,9 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 42
-    winrate: 0.38095238095238093
-    wins: 16
-  - hero_names:
-    - Jade
-    - Jamila
-    heros:
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    - icon: f283d6dda29cbc845b4f770a1482d75b
-      name: Jamila
-      title: jamila
-    num: 41
-    winrate: 0.5609756097560976
-    wins: 23
+    num: 39
+    winrate: 0.38461538461538464
+    wins: 15
 description: "A young assassin from the Shadowblade clan, Jamila suddenly found herself\
   \ the new leader after the death of her mother, the previous matriarch. As the youngest\
   \ leader in the clan\u2019s history, some call her too inexperienced and undeserving\
@@ -1028,11 +1028,11 @@ icon: f283d6dda29cbc845b4f770a1482d75b
 layout: character
 name: jamila
 num:
-  threes: 921
-  twos: 1292
+  threes: 861
+  twos: 1260
 title: Jamila
 url: characters/jamila.html
 winrate:
-  threes: '46.58'
-  twos: '50.46'
+  threes: '47.15'
+  twos: '50.87'
 ...
