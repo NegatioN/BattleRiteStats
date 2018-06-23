@@ -10,8 +10,8 @@ import re
 from helpers import get_battlerite_type_mapping, get_battlerite_color_mapping
 
 
-def load_locale(path):
-    with open(path, 'r', encoding='utf-8') as f:
+def load_locale(path, encoding='utf-8'):
+    with open(path, 'r', encoding=encoding) as f:
         data = [x.strip().split('=') for x in f]
         return {x[0]: x[1] for x in data}
 
@@ -26,7 +26,7 @@ def to_brites(characters):
 
 c1, c2 = load_characters(0), load_characters(1)
 b1, b2 = to_brites(c1), to_brites(c2)
-l1, l2 = load_locale('assets/0_English.ini'), load_locale('assets/1_English.ini')
+l1, l2 = load_locale('assets/0_English.ini', 'utf-16'), load_locale('assets/1_English.ini')
 
 flattned_battlerites = b2
 flattned_battlerites.update(b1)
