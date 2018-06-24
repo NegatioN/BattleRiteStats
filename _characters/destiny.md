@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '7.0'
+  - damage: '7.1'
     disable: '1.3'
     energy: '3.1'
-    num: 57
+    num: 59
     protection: '1.3'
     skills:
     - color: green
@@ -35,11 +35,11 @@ builds:
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
-    winrate: '52.6'
+    winrate: '54.2'
   - damage: '6.1'
     disable: '1.0'
     energy: '2.9'
-    num: 27
+    num: 28
     protection: '1.1'
     skills:
     - color: red
@@ -69,7 +69,7 @@ builds:
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
-    winrate: '70.4'
+    winrate: '67.9'
   - damage: '8.0'
     disable: '1.1'
     energy: '3.6'
@@ -105,9 +105,9 @@ builds:
       type: control
     winrate: '70.4'
   - damage: '8.0'
-    disable: '0.9'
+    disable: '1.0'
     energy: '3.6'
-    num: 26
+    num: 27
     protection: '1.4'
     skills:
     - color: pink
@@ -138,7 +138,7 @@ builds:
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
-    winrate: '65.4'
+    winrate: '66.7'
   - damage: '8.7'
     disable: '1.0'
     energy: '4.1'
@@ -176,7 +176,7 @@ builds:
   - damage: '7.8'
     disable: '1.3'
     energy: '3.5'
-    num: 19
+    num: 18
     protection: '1.3'
     skills:
     - color: red
@@ -207,7 +207,7 @@ builds:
       icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
       type: offense
-    winrate: '68.4'
+    winrate: '66.7'
   - damage: '6.2'
     disable: '0.8'
     energy: '2.6'
@@ -276,40 +276,6 @@ builds:
       name: Violent Revolution
       type: offense
     winrate: '60.0'
-  - damage: '7.5'
-    disable: '1.3'
-    energy: '3.6'
-    num: 14
-    protection: '0.5'
-    skills:
-    - color: pink
-      description: Mega Sphere roots for 1 and reduces its cooldown by 3.
-      icon: 751839d4f58db9445aa7fc86411521a1
-      name: Expansion Pack
-      type: control
-    - color: yellow
-      description: Allies that move through Plasma Wall have movement speed increased
-        by 30 and are granted a Shield for 3.5. The Shield absorbs up to 16 damage.
-      icon: 14568f096fcd91f488876796605f5063
-      name: Plasma Booster
-      type: mobility
-    - color: red
-      description: Charged Bolt deals 1 - 5 bonus damage, based on charge-up duration.
-      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: Power Attachment
-      type: offense
-    - color: pink
-      description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
-      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: System Shock
-      type: control
-    - color: red
-      description: Increases knockback force of Magnetic Orb by 20 and it deals 4
-        bonus damage.
-      icon: 32189e52d279bcc498ede10b3d3ff6d1
-      name: Violent Revolution
-      type: offense
-    winrate: '64.3'
   - damage: '7.2'
     disable: '1.2'
     energy: '3.7'
@@ -346,11 +312,45 @@ builds:
       name: System Shock
       type: control
     winrate: '53.8'
+  - damage: '7.7'
+    disable: '1.3'
+    energy: '3.6'
+    num: 13
+    protection: '0.6'
+    skills:
+    - color: pink
+      description: Mega Sphere roots for 1 and reduces its cooldown by 3.
+      icon: 751839d4f58db9445aa7fc86411521a1
+      name: Expansion Pack
+      type: control
+    - color: yellow
+      description: Allies that move through Plasma Wall have movement speed increased
+        by 30 and are granted a Shield for 3.5. The Shield absorbs up to 16 damage.
+      icon: 14568f096fcd91f488876796605f5063
+      name: Plasma Booster
+      type: mobility
+    - color: red
+      description: Charged Bolt deals 1 - 5 bonus damage, based on charge-up duration.
+      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: Power Attachment
+      type: offense
+    - color: pink
+      description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
+      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: System Shock
+      type: control
+    - color: red
+      description: Increases knockback force of Magnetic Orb by 20 and it deals 4
+        bonus damage.
+      icon: 32189e52d279bcc498ede10b3d3ff6d1
+      name: Violent Revolution
+      type: offense
+    winrate: '61.5'
   twos:
-  - damage: '6.8'
+  - damage: '6.9'
     disable: '1.1'
     energy: '3.6'
-    num: 67
+    num: 61
     protection: '0.5'
     skills:
     - color: pink
@@ -380,7 +380,7 @@ builds:
       icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
       type: offense
-    winrate: '52.2'
+    winrate: '50.8'
   - damage: '8.3'
     disable: '1.2'
     energy: '4.1'
@@ -416,11 +416,11 @@ builds:
       name: System Shock
       type: control
     winrate: '79.4'
-  - damage: '7.7'
+  - damage: '7.6'
     disable: '1.1'
-    energy: '3.5'
-    num: 25
-    protection: '0.5'
+    energy: '3.6'
+    num: 30
+    protection: '0.4'
     skills:
     - color: red
       description: Sky Strike deals 6 bonus damage. Also increases its radius by 10.
@@ -448,11 +448,46 @@ builds:
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
-    winrate: '68.0'
-  - damage: '6.9'
+    winrate: '63.3'
+  - damage: '7.4'
+    disable: '1.4'
+    energy: '3.3'
+    num: 29
+    protection: '1.3'
+    skills:
+    - color: green
+      description: Sky Strike grants you a shield that absorbs up to 14 damage and
+        absorbs an additional 8 damage for each enemy hit. Lasts for 4.
+      icon: 1d95f324f635c9447a68299999e8597e
+      name: Energy Conversion
+      type: survival
+    - color: pink
+      description: Mega Sphere roots for 1 and reduces its cooldown by 3.
+      icon: 751839d4f58db9445aa7fc86411521a1
+      name: Expansion Pack
+      type: control
+    - color: yellow
+      description: Allies that move through Plasma Wall have movement speed increased
+        by 30 and are granted a Shield for 3.5. The Shield absorbs up to 16 damage.
+      icon: 14568f096fcd91f488876796605f5063
+      name: Plasma Booster
+      type: mobility
+    - color: green
+      description: Firing Power Blaster through a Plasma Wall increases the range
+        by 30 and grants you a shield absorbing 10 damage on hit.
+      icon: 87c684273ffea0845863a8f80b904890
+      name: Plasma Infusion
+      type: survival
+    - color: pink
+      description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
+      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: System Shock
+      type: control
+    winrate: '65.5'
+  - damage: '7.1'
     disable: '1.2'
     energy: '3.5'
-    num: 21
+    num: 20
     protection: '1.0'
     skills:
     - color: red
@@ -483,7 +518,42 @@ builds:
       icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
       type: offense
-    winrate: '52.4'
+    winrate: '55.0'
+  - damage: '6.6'
+    disable: '1.1'
+    energy: '3.3'
+    num: 17
+    protection: '0.9'
+    skills:
+    - color: yellow
+      description: Increases Magnetic Orb duration by 0.5 and its movement speed bonus
+        by 20.
+      icon: 32189e52d279bcc498ede10b3d3ff6d1
+      name: Globetrotter
+      type: mobility
+    - color: yellow
+      description: Allies that move through Plasma Wall have movement speed increased
+        by 30 and are granted a Shield for 3.5. The Shield absorbs up to 16 damage.
+      icon: 14568f096fcd91f488876796605f5063
+      name: Plasma Booster
+      type: mobility
+    - color: red
+      description: Charged Bolt deals 1 - 5 bonus damage, based on charge-up duration.
+      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: Power Attachment
+      type: offense
+    - color: pink
+      description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
+      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: System Shock
+      type: control
+    - color: red
+      description: Increases knockback force of Magnetic Orb by 20 and it deals 4
+        bonus damage.
+      icon: 32189e52d279bcc498ede10b3d3ff6d1
+      name: Violent Revolution
+      type: offense
+    winrate: '82.4'
   - damage: '7.0'
     disable: '1.1'
     energy: '4.0'
@@ -559,41 +629,6 @@ builds:
       name: Sizzle
       type: offense
     winrate: '73.3'
-  - damage: '7.0'
-    disable: '1.3'
-    energy: '3.3'
-    num: 15
-    protection: '1.2'
-    skills:
-    - color: green
-      description: Sky Strike grants you a shield that absorbs up to 14 damage and
-        absorbs an additional 8 damage for each enemy hit. Lasts for 4.
-      icon: 1d95f324f635c9447a68299999e8597e
-      name: Energy Conversion
-      type: survival
-    - color: pink
-      description: Mega Sphere roots for 1 and reduces its cooldown by 3.
-      icon: 751839d4f58db9445aa7fc86411521a1
-      name: Expansion Pack
-      type: control
-    - color: yellow
-      description: Allies that move through Plasma Wall have movement speed increased
-        by 30 and are granted a Shield for 3.5. The Shield absorbs up to 16 damage.
-      icon: 14568f096fcd91f488876796605f5063
-      name: Plasma Booster
-      type: mobility
-    - color: green
-      description: Firing Power Blaster through a Plasma Wall increases the range
-        by 30 and grants you a shield absorbing 10 damage on hit.
-      icon: 87c684273ffea0845863a8f80b904890
-      name: Plasma Infusion
-      type: survival
-    - color: pink
-      description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
-      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: System Shock
-      type: control
-    winrate: '80.0'
   - damage: '6.6'
     disable: '1.0'
     energy: '3.2'
@@ -628,41 +663,6 @@ builds:
       name: Violent Revolution
       type: offense
     winrate: '46.2'
-  - damage: '6.2'
-    disable: '1.0'
-    energy: '3.0'
-    num: 11
-    protection: '0.9'
-    skills:
-    - color: yellow
-      description: Increases Magnetic Orb duration by 0.5 and its movement speed bonus
-        by 20.
-      icon: 32189e52d279bcc498ede10b3d3ff6d1
-      name: Globetrotter
-      type: mobility
-    - color: yellow
-      description: Allies that move through Plasma Wall have movement speed increased
-        by 30 and are granted a Shield for 3.5. The Shield absorbs up to 16 damage.
-      icon: 14568f096fcd91f488876796605f5063
-      name: Plasma Booster
-      type: mobility
-    - color: red
-      description: Charged Bolt deals 1 - 5 bonus damage, based on charge-up duration.
-      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: Power Attachment
-      type: offense
-    - color: pink
-      description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
-      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: System Shock
-      type: control
-    - color: red
-      description: Increases knockback force of Magnetic Orb by 20 and it deals 4
-        bonus damage.
-      icon: 32189e52d279bcc498ede10b3d3ff6d1
-      name: Violent Revolution
-      type: offense
-    winrate: '72.7'
   - damage: '7.7'
     disable: '1.0'
     energy: '3.8'
@@ -712,8 +712,8 @@ compos:
     - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
       name: Destiny
       title: destiny
-    num: 22
-    winrate: 0.4090909090909091
+    num: 21
+    winrate: 0.42857142857142855
     wins: 9
   - hero_names:
     - Thorn
@@ -729,8 +729,8 @@ compos:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    num: 15
-    winrate: 0.6666666666666666
+    num: 16
+    winrate: 0.625
     wins: 10
   - hero_names:
     - Poloma
@@ -746,17 +746,17 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 14
-    winrate: 0.5714285714285714
-    wins: 8
+    num: 15
+    winrate: 0.6
+    wins: 9
   - hero_names:
-    - Poloma
+    - Oldur
     - Destiny
     - Croak
     heros:
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
     - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
       name: Destiny
       title: destiny
@@ -764,8 +764,8 @@ compos:
       name: Croak
       title: croak
     num: 14
-    winrate: 0.35714285714285715
-    wins: 5
+    winrate: 0.5
+    wins: 7
   - hero_names:
     - Destiny
     - Oldur
@@ -783,6 +783,23 @@ compos:
     num: 13
     winrate: 0.6923076923076923
     wins: 9
+  - hero_names:
+    - Poloma
+    - Destiny
+    - Croak
+    heros:
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
+      name: Destiny
+      title: destiny
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
+    num: 13
+    winrate: 0.3076923076923077
+    wins: 4
   - hero_names:
     - Thorn
     - Destiny
@@ -800,23 +817,6 @@ compos:
     num: 13
     winrate: 0.6923076923076923
     wins: 9
-  - hero_names:
-    - Oldur
-    - Destiny
-    - Croak
-    heros:
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
-      name: Destiny
-      title: destiny
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
-    num: 13
-    winrate: 0.5384615384615384
-    wins: 7
   - hero_names:
     - Destiny
     - Blossom
@@ -835,6 +835,23 @@ compos:
     winrate: 0.5454545454545454
     wins: 6
   - hero_names:
+    - Destiny
+    - Jamila
+    - Lucie
+    heros:
+    - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
+      name: Destiny
+      title: destiny
+    - icon: f283d6dda29cbc845b4f770a1482d75b
+      name: Jamila
+      title: jamila
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 11
+    winrate: 0.8181818181818182
+    wins: 9
+  - hero_names:
     - Poloma
     - Destiny
     - Ruh Kaan
@@ -851,23 +868,6 @@ compos:
     num: 11
     winrate: 0.5454545454545454
     wins: 6
-  - hero_names:
-    - Destiny
-    - Jamila
-    - Lucie
-    heros:
-    - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
-      name: Destiny
-      title: destiny
-    - icon: f283d6dda29cbc845b4f770a1482d75b
-      name: Jamila
-      title: jamila
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 11
-    winrate: 0.7272727272727273
-    wins: 8
   twos:
   - hero_names:
     - Destiny
@@ -879,9 +879,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 69
-    winrate: 0.6231884057971014
-    wins: 43
+    num: 72
+    winrate: 0.6388888888888888
+    wins: 46
   - hero_names:
     - Destiny
     - Oldur
@@ -892,9 +892,9 @@ compos:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    num: 61
-    winrate: 0.6721311475409836
-    wins: 41
+    num: 64
+    winrate: 0.6875
+    wins: 44
   - hero_names:
     - Pestilus
     - Destiny
@@ -905,9 +905,9 @@ compos:
     - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
       name: Destiny
       title: destiny
-    num: 35
-    winrate: 0.6
-    wins: 21
+    num: 37
+    winrate: 0.5945945945945946
+    wins: 22
   - hero_names:
     - Ulric
     - Destiny
@@ -918,9 +918,9 @@ compos:
     - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
       name: Destiny
       title: destiny
-    num: 31
-    winrate: 0.8387096774193549
-    wins: 26
+    num: 32
+    winrate: 0.84375
+    wins: 27
   - hero_names:
     - Destiny
     - Pearl
@@ -931,9 +931,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 29
-    winrate: 0.3793103448275862
-    wins: 11
+    num: 32
+    winrate: 0.40625
+    wins: 13
   - hero_names:
     - Destiny
     - Raigon
@@ -962,6 +962,19 @@ compos:
     wins: 13
   - hero_names:
     - Destiny
+    - Lucie
+    heros:
+    - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
+      name: Destiny
+      title: destiny
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 24
+    winrate: 0.5416666666666666
+    wins: 13
+  - hero_names:
+    - Destiny
     - Iva
     heros:
     - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
@@ -970,9 +983,9 @@ compos:
     - icon: decba44679fbdae4bb7d0d1cb6a97682
       name: Iva
       title: iva
-    num: 24
-    winrate: 0.75
-    wins: 18
+    num: 23
+    winrate: 0.7391304347826086
+    wins: 17
   - hero_names:
     - Destiny
     - Jamila
@@ -986,19 +999,6 @@ compos:
     num: 23
     winrate: 0.4782608695652174
     wins: 11
-  - hero_names:
-    - Destiny
-    - Lucie
-    heros:
-    - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
-      name: Destiny
-      title: destiny
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 22
-    winrate: 0.5454545454545454
-    wins: 12
 description: An elite sky ranger from the secluded, invisible city of Enza. Many years
   of rigorous combat training using Magi-tech weaponry makes Destiny an agile and
   deadly force to be reckoned with. Fed up with the strict regulations of living in
@@ -1008,11 +1008,11 @@ icon: 65e28ab3b75c7cb478a1b24b46fca7d2
 layout: character
 name: destiny
 num:
-  threes: 524
-  twos: 502
+  threes: 530
+  twos: 520
 title: Destiny
 url: characters/destiny.html
 winrate:
-  threes: '54.20'
-  twos: '55.18'
+  threes: '53.77'
+  twos: '55.38'
 ...
