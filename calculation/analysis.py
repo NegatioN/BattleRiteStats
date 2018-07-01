@@ -26,7 +26,7 @@ def to_brites(characters):
 
 c1, c2 = load_characters(0), load_characters(1)
 b1, b2 = to_brites(c1), to_brites(c2)
-l1, l2 = load_locale('assets/0_English.ini', 'utf-16'), load_locale('assets/1_English.ini')
+l1, l2 = load_locale('assets/0_English.ini', 'utf-16'), load_locale('assets/1_English.ini', 'utf-16')
 
 flattned_battlerites = b2
 flattned_battlerites.update(b1)
