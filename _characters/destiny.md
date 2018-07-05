@@ -4,7 +4,7 @@ builds:
   - damage: '6.9'
     disable: '1.3'
     energy: '3.1'
-    num: 70
+    num: 69
     protection: '1.6'
     skills:
     - color: green
@@ -35,12 +35,12 @@ builds:
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
-    winrate: '62.9'
+    winrate: '62.3'
   - damage: '6.6'
     disable: '1.1'
-    energy: '3.7'
-    num: 52
-    protection: '1.6'
+    energy: '3.6'
+    num: 51
+    protection: '1.7'
     skills:
     - color: red
       description: Sky Strike deals 6 bonus damage. Also increases its radius by 10.
@@ -69,7 +69,42 @@ builds:
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
-    winrate: '69.2'
+    winrate: '68.6'
+  - damage: '6.9'
+    disable: '0.9'
+    energy: '3.3'
+    num: 17
+    protection: '1.1'
+    skills:
+    - color: grey
+      description: Allied projectiles passing through Plasma Wall accelerate to travel
+        at 200 speed. Your projectiles deal 2 bonus damage when accelerated.
+      icon: 14568f096fcd91f488876796605f5063
+      name: Plasma Accelerator
+      type: mixed
+    - color: yellow
+      description: Allies that move through Plasma Wall have movement speed increased
+        by 30 and are granted a Shield for 3.5. The Shield absorbs up to 16 damage.
+      icon: 14568f096fcd91f488876796605f5063
+      name: Plasma Booster
+      type: mobility
+    - color: green
+      description: Firing Power Blaster through a Plasma Wall increases the range
+        by 30 and grants you a shield absorbing 10 damage on hit.
+      icon: 87c684273ffea0845863a8f80b904890
+      name: Plasma Infusion
+      type: survival
+    - color: red
+      description: Charged Bolt deals 1 - 5 bonus damage, based on charge-up duration.
+      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: Power Attachment
+      type: offense
+    - color: pink
+      description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
+      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: System Shock
+      type: control
+    winrate: '58.8'
   - damage: '7.7'
     disable: '1.1'
     energy: '3.7'
@@ -106,12 +141,17 @@ builds:
       name: System Shock
       type: control
     winrate: '82.4'
-  - damage: '6.8'
-    disable: '0.9'
-    energy: '3.2'
+  - damage: '6.2'
+    disable: '0.8'
+    energy: '2.7'
     num: 15
     protection: '1.1'
     skills:
+    - color: pink
+      description: Mega Sphere roots for 1 and reduces its cooldown by 3.
+      icon: 751839d4f58db9445aa7fc86411521a1
+      name: Expansion Pack
+      type: control
     - color: grey
       description: Allied projectiles passing through Plasma Wall accelerate to travel
         at 200 speed. Your projectiles deal 2 bonus damage when accelerated.
@@ -135,46 +175,7 @@ builds:
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: Power Attachment
       type: offense
-    - color: pink
-      description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
-      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: System Shock
-      type: control
     winrate: '60.0'
-  - damage: '6.7'
-    disable: '1.0'
-    energy: '3.1'
-    num: 14
-    protection: '1.2'
-    skills:
-    - color: red
-      description: Sky Strike deals 6 bonus damage. Also increases its radius by 10.
-      icon: 1d95f324f635c9447a68299999e8597e
-      name: Blast Processing
-      type: offense
-    - color: green
-      description: Sky Strike grants you a shield that absorbs up to 14 damage and
-        absorbs an additional 8 damage for each enemy hit. Lasts for 4.
-      icon: 1d95f324f635c9447a68299999e8597e
-      name: Energy Conversion
-      type: survival
-    - color: yellow
-      description: Allies that move through Plasma Wall have movement speed increased
-        by 30 and are granted a Shield for 3.5. The Shield absorbs up to 16 damage.
-      icon: 14568f096fcd91f488876796605f5063
-      name: Plasma Booster
-      type: mobility
-    - color: red
-      description: Charged Bolt deals 1 - 5 bonus damage, based on charge-up duration.
-      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: Power Attachment
-      type: offense
-    - color: pink
-      description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
-      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: System Shock
-      type: control
-    winrate: '42.9'
   - damage: '5.8'
     disable: '0.6'
     energy: '2.9'
@@ -212,6 +213,41 @@ builds:
       name: Plasma Infusion
       type: survival
     winrate: '7.1'
+  - damage: '7.9'
+    disable: '1.2'
+    energy: '3.7'
+    num: 14
+    protection: '1.4'
+    skills:
+    - color: pink
+      description: Mega Sphere roots for 1 and reduces its cooldown by 3.
+      icon: 751839d4f58db9445aa7fc86411521a1
+      name: Expansion Pack
+      type: control
+    - color: grey
+      description: Allied projectiles passing through Plasma Wall accelerate to travel
+        at 200 speed. Your projectiles deal 2 bonus damage when accelerated.
+      icon: 14568f096fcd91f488876796605f5063
+      name: Plasma Accelerator
+      type: mixed
+    - color: yellow
+      description: Allies that move through Plasma Wall have movement speed increased
+        by 30 and are granted a Shield for 3.5. The Shield absorbs up to 16 damage.
+      icon: 14568f096fcd91f488876796605f5063
+      name: Plasma Booster
+      type: mobility
+    - color: green
+      description: Firing Power Blaster through a Plasma Wall increases the range
+        by 30 and grants you a shield absorbing 10 damage on hit.
+      icon: 87c684273ffea0845863a8f80b904890
+      name: Plasma Infusion
+      type: survival
+    - color: pink
+      description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
+      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: System Shock
+      type: control
+    winrate: '64.3'
   - damage: '8.0'
     disable: '1.0'
     energy: '3.1'
@@ -246,12 +282,18 @@ builds:
       name: System Shock
       type: control
     winrate: '69.2'
-  - damage: '6.3'
+  - damage: '7.7'
     disable: '0.8'
-    energy: '2.7'
-    num: 13
-    protection: '1.1'
+    energy: '3.6'
+    num: 12
+    protection: '1.7'
     skills:
+    - color: green
+      description: Sky Strike grants you a shield that absorbs up to 14 damage and
+        absorbs an additional 8 damage for each enemy hit. Lasts for 4.
+      icon: 1d95f324f635c9447a68299999e8597e
+      name: Energy Conversion
+      type: survival
     - color: pink
       description: Mega Sphere roots for 1 and reduces its cooldown by 3.
       icon: 751839d4f58db9445aa7fc86411521a1
@@ -275,12 +317,7 @@ builds:
       icon: 87c684273ffea0845863a8f80b904890
       name: Plasma Infusion
       type: survival
-    - color: red
-      description: Charged Bolt deals 1 - 5 bonus damage, based on charge-up duration.
-      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: Power Attachment
-      type: offense
-    winrate: '61.5'
+    winrate: '50.0'
   - damage: '8.1'
     disable: '1.0'
     energy: '3.7'
@@ -315,46 +352,11 @@ builds:
       name: System Shock
       type: control
     winrate: '50.0'
-  - damage: '8.1'
-    disable: '1.2'
-    energy: '3.7'
-    num: 12
-    protection: '1.4'
-    skills:
-    - color: pink
-      description: Mega Sphere roots for 1 and reduces its cooldown by 3.
-      icon: 751839d4f58db9445aa7fc86411521a1
-      name: Expansion Pack
-      type: control
-    - color: grey
-      description: Allied projectiles passing through Plasma Wall accelerate to travel
-        at 200 speed. Your projectiles deal 2 bonus damage when accelerated.
-      icon: 14568f096fcd91f488876796605f5063
-      name: Plasma Accelerator
-      type: mixed
-    - color: yellow
-      description: Allies that move through Plasma Wall have movement speed increased
-        by 30 and are granted a Shield for 3.5. The Shield absorbs up to 16 damage.
-      icon: 14568f096fcd91f488876796605f5063
-      name: Plasma Booster
-      type: mobility
-    - color: green
-      description: Firing Power Blaster through a Plasma Wall increases the range
-        by 30 and grants you a shield absorbing 10 damage on hit.
-      icon: 87c684273ffea0845863a8f80b904890
-      name: Plasma Infusion
-      type: survival
-    - color: pink
-      description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
-      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: System Shock
-      type: control
-    winrate: '75.0'
   twos:
-  - damage: '7.9'
+  - damage: '8.1'
     disable: '1.0'
-    energy: '4.0'
-    num: 39
+    energy: '3.9'
+    num: 38
     protection: '1.3'
     skills:
     - color: pink
@@ -385,11 +387,11 @@ builds:
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
-    winrate: '71.8'
+    winrate: '76.3'
   - damage: '6.5'
     disable: '0.9'
     energy: '2.7'
-    num: 31
+    num: 34
     protection: '1.3'
     skills:
     - color: pink
@@ -420,11 +422,11 @@ builds:
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: Power Attachment
       type: offense
-    winrate: '51.6'
+    winrate: '52.9'
   - damage: '6.9'
     disable: '1.1'
-    energy: '4.0'
-    num: 21
+    energy: '3.9'
+    num: 25
     protection: '1.0'
     skills:
     - color: yellow
@@ -455,80 +457,11 @@ builds:
       icon: 32189e52d279bcc498ede10b3d3ff6d1
       name: Violent Revolution
       type: offense
-    winrate: '47.6'
-  - damage: '8.1'
-    disable: '1.0'
-    energy: '3.7'
-    num: 21
-    protection: '0.6'
-    skills:
-    - color: pink
-      description: Mega Sphere roots for 1 and reduces its cooldown by 3.
-      icon: 751839d4f58db9445aa7fc86411521a1
-      name: Expansion Pack
-      type: control
-    - color: grey
-      description: Allied projectiles passing through Plasma Wall accelerate to travel
-        at 200 speed. Your projectiles deal 2 bonus damage when accelerated.
-      icon: 14568f096fcd91f488876796605f5063
-      name: Plasma Accelerator
-      type: mixed
-    - color: green
-      description: Firing Power Blaster through a Plasma Wall increases the range
-        by 30 and grants you a shield absorbing 10 damage on hit.
-      icon: 87c684273ffea0845863a8f80b904890
-      name: Plasma Infusion
-      type: survival
-    - color: red
-      description: Charged Bolt deals 1 - 5 bonus damage, based on charge-up duration.
-      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: Power Attachment
-      type: offense
-    - color: pink
-      description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
-      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: System Shock
-      type: control
-    winrate: '66.7'
-  - damage: '7.3'
-    disable: '1.2'
-    energy: '3.4'
+    winrate: '44.0'
+  - damage: '6.1'
+    disable: '1.1'
+    energy: '2.7'
     num: 20
-    protection: '1.5'
-    skills:
-    - color: green
-      description: Sky Strike grants you a shield that absorbs up to 14 damage and
-        absorbs an additional 8 damage for each enemy hit. Lasts for 4.
-      icon: 1d95f324f635c9447a68299999e8597e
-      name: Energy Conversion
-      type: survival
-    - color: pink
-      description: Mega Sphere roots for 1 and reduces its cooldown by 3.
-      icon: 751839d4f58db9445aa7fc86411521a1
-      name: Expansion Pack
-      type: control
-    - color: yellow
-      description: Allies that move through Plasma Wall have movement speed increased
-        by 30 and are granted a Shield for 3.5. The Shield absorbs up to 16 damage.
-      icon: 14568f096fcd91f488876796605f5063
-      name: Plasma Booster
-      type: mobility
-    - color: green
-      description: Firing Power Blaster through a Plasma Wall increases the range
-        by 30 and grants you a shield absorbing 10 damage on hit.
-      icon: 87c684273ffea0845863a8f80b904890
-      name: Plasma Infusion
-      type: survival
-    - color: pink
-      description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
-      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: System Shock
-      type: control
-    winrate: '55.0'
-  - damage: '5.7'
-    disable: '1.0'
-    energy: '2.6'
-    num: 18
     protection: '1.2'
     skills:
     - color: pink
@@ -558,7 +491,7 @@ builds:
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
-    winrate: '50.0'
+    winrate: '55.0'
   - damage: '6.9'
     disable: '1.1'
     energy: '3.4'
@@ -593,6 +526,40 @@ builds:
       name: Violent Revolution
       type: offense
     winrate: '55.6'
+  - damage: '7.8'
+    disable: '0.9'
+    energy: '3.3'
+    num: 18
+    protection: '0.6'
+    skills:
+    - color: pink
+      description: Mega Sphere roots for 1 and reduces its cooldown by 3.
+      icon: 751839d4f58db9445aa7fc86411521a1
+      name: Expansion Pack
+      type: control
+    - color: grey
+      description: Allied projectiles passing through Plasma Wall accelerate to travel
+        at 200 speed. Your projectiles deal 2 bonus damage when accelerated.
+      icon: 14568f096fcd91f488876796605f5063
+      name: Plasma Accelerator
+      type: mixed
+    - color: green
+      description: Firing Power Blaster through a Plasma Wall increases the range
+        by 30 and grants you a shield absorbing 10 damage on hit.
+      icon: 87c684273ffea0845863a8f80b904890
+      name: Plasma Infusion
+      type: survival
+    - color: red
+      description: Charged Bolt deals 1 - 5 bonus damage, based on charge-up duration.
+      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: Power Attachment
+      type: offense
+    - color: pink
+      description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
+      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: System Shock
+      type: control
+    winrate: '61.1'
   - damage: '6.1'
     disable: '1.0'
     energy: '3.7'
@@ -630,39 +597,41 @@ builds:
       name: System Shock
       type: control
     winrate: '76.5'
-  - damage: '8.3'
+  - damage: '7.1'
     disable: '1.1'
-    energy: '4.0'
-    num: 15
-    protection: '0.7'
+    energy: '3.4'
+    num: 16
+    protection: '1.6'
     skills:
-    - color: red
-      description: Sky Strike deals 6 bonus damage. Also increases its radius by 10.
+    - color: green
+      description: Sky Strike grants you a shield that absorbs up to 14 damage and
+        absorbs an additional 8 damage for each enemy hit. Lasts for 4.
       icon: 1d95f324f635c9447a68299999e8597e
-      name: Blast Processing
-      type: offense
+      name: Energy Conversion
+      type: survival
     - color: pink
       description: Mega Sphere roots for 1 and reduces its cooldown by 3.
       icon: 751839d4f58db9445aa7fc86411521a1
       name: Expansion Pack
       type: control
+    - color: yellow
+      description: Allies that move through Plasma Wall have movement speed increased
+        by 30 and are granted a Shield for 3.5. The Shield absorbs up to 16 damage.
+      icon: 14568f096fcd91f488876796605f5063
+      name: Plasma Booster
+      type: mobility
     - color: green
       description: Firing Power Blaster through a Plasma Wall increases the range
         by 30 and grants you a shield absorbing 10 damage on hit.
       icon: 87c684273ffea0845863a8f80b904890
       name: Plasma Infusion
       type: survival
-    - color: red
-      description: Charged Bolt deals 1 - 5 bonus damage, based on charge-up duration.
-      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: Power Attachment
-      type: offense
     - color: pink
       description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
-    winrate: '73.3'
+    winrate: '68.8'
   - damage: '6.8'
     disable: '1.2'
     energy: '3.0'
@@ -698,6 +667,40 @@ builds:
       name: System Shock
       type: control
     winrate: '33.3'
+  - damage: '6.6'
+    disable: '1.1'
+    energy: '3.8'
+    num: 14
+    protection: '0.9'
+    skills:
+    - color: pink
+      description: Mega Sphere roots for 1 and reduces its cooldown by 3.
+      icon: 751839d4f58db9445aa7fc86411521a1
+      name: Expansion Pack
+      type: control
+    - color: yellow
+      description: Allies that move through Plasma Wall have movement speed increased
+        by 30 and are granted a Shield for 3.5. The Shield absorbs up to 16 damage.
+      icon: 14568f096fcd91f488876796605f5063
+      name: Plasma Booster
+      type: mobility
+    - color: red
+      description: Charged Bolt deals 1 - 5 bonus damage, based on charge-up duration.
+      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: Power Attachment
+      type: offense
+    - color: pink
+      description: Increases Silence duration caused by Spell Block from 0.7 to 1.4.
+      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: System Shock
+      type: control
+    - color: red
+      description: Increases knockback force of Magnetic Orb by 20 and it deals 4
+        bonus damage.
+      icon: 32189e52d279bcc498ede10b3d3ff6d1
+      name: Violent Revolution
+      type: offense
+    winrate: '50.0'
 compos:
   threes:
   - hero_names:
@@ -714,9 +717,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 39
-    winrate: 0.7948717948717948
-    wins: 31
+    num: 37
+    winrate: 0.8108108108108109
+    wins: 30
   - hero_names:
     - Destiny
     - Raigon
@@ -732,8 +735,8 @@ compos:
       name: Poloma
       title: poloma
     num: 16
-    winrate: 0.5
-    wins: 8
+    winrate: 0.5625
+    wins: 9
   - hero_names:
     - Thorn
     - Destiny
@@ -769,6 +772,40 @@ compos:
     winrate: 0.9230769230769231
     wins: 12
   - hero_names:
+    - Destiny
+    - Croak
+    - Oldur
+    heros:
+    - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
+      name: Destiny
+      title: destiny
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    num: 13
+    winrate: 0.6923076923076923
+    wins: 9
+  - hero_names:
+    - Destiny
+    - Raigon
+    - Lucie
+    heros:
+    - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
+      name: Destiny
+      title: destiny
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 12
+    winrate: 0.5833333333333334
+    wins: 7
+  - hero_names:
     - Thorn
     - Poloma
     - Destiny
@@ -786,40 +823,6 @@ compos:
     winrate: 0.25
     wins: 3
   - hero_names:
-    - Destiny
-    - Croak
-    - Oldur
-    heros:
-    - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
-      name: Destiny
-      title: destiny
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    num: 12
-    winrate: 0.6666666666666666
-    wins: 8
-  - hero_names:
-    - Destiny
-    - Raigon
-    - Lucie
-    heros:
-    - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
-      name: Destiny
-      title: destiny
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 11
-    winrate: 0.6363636363636364
-    wins: 7
-  - hero_names:
     - Poloma
     - Destiny
     - Croak
@@ -833,8 +836,8 @@ compos:
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    num: 10
-    winrate: 0.6
+    num: 11
+    winrate: 0.5454545454545454
     wins: 6
   - hero_names:
     - Pestilus
@@ -851,8 +854,8 @@ compos:
       name: Destiny
       title: destiny
     num: 9
-    winrate: 0.5555555555555556
-    wins: 5
+    winrate: 0.6666666666666666
+    wins: 6
   - hero_names:
     - Destiny
     - Blossom
@@ -881,9 +884,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 97
-    winrate: 0.6804123711340206
-    wins: 66
+    num: 104
+    winrate: 0.6826923076923077
+    wins: 71
   - hero_names:
     - Destiny
     - Oldur
@@ -894,9 +897,9 @@ compos:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    num: 52
-    winrate: 0.5192307692307693
-    wins: 27
+    num: 51
+    winrate: 0.5490196078431373
+    wins: 28
   - hero_names:
     - Destiny
     - Pearl
@@ -907,9 +910,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 40
-    winrate: 0.775
-    wins: 31
+    num: 43
+    winrate: 0.7674418604651163
+    wins: 33
   - hero_names:
     - Destiny
     - Poloma
@@ -920,9 +923,9 @@ compos:
     - icon: 9872f8cd16d7327418b09294cfa319e6
       name: Poloma
       title: poloma
-    num: 36
-    winrate: 0.4722222222222222
-    wins: 17
+    num: 37
+    winrate: 0.4864864864864865
+    wins: 18
   - hero_names:
     - Pestilus
     - Destiny
@@ -946,9 +949,9 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 22
-    winrate: 0.4090909090909091
-    wins: 9
+    num: 23
+    winrate: 0.43478260869565216
+    wins: 10
   - hero_names:
     - Destiny
     - Lucie
@@ -959,9 +962,9 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 21
-    winrate: 0.5238095238095238
-    wins: 11
+    num: 19
+    winrate: 0.47368421052631576
+    wins: 9
   - hero_names:
     - Destiny
     - Croak
@@ -999,8 +1002,8 @@ compos:
       name: Ruh Kaan
       title: ruh-kaan
     num: 14
-    winrate: 0.35714285714285715
-    wins: 5
+    winrate: 0.42857142857142855
+    wins: 6
 description: An elite sky ranger from the secluded, invisible city of Enza. Many years
   of rigorous combat training using Magi-tech weaponry makes Destiny an agile and
   deadly force to be reckoned with. Fed up with the strict regulations of living in
@@ -1010,11 +1013,11 @@ icon: 65e28ab3b75c7cb478a1b24b46fca7d2
 layout: character
 name: destiny
 num:
-  threes: 526
-  twos: 486
+  threes: 527
+  twos: 494
 title: Destiny
 url: characters/destiny.html
 winrate:
-  threes: '51.90'
-  twos: '51.85'
+  threes: '51.04'
+  twos: '53.04'
 ...
