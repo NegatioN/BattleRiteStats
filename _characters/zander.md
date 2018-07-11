@@ -4,8 +4,8 @@ builds:
   - damage: '3.6'
     disable: '0.5'
     energy: '2.9'
-    num: 19
-    protection: '5.0'
+    num: 18
+    protection: '5.1'
     skills:
     - color: red
       description: An ally traveling through Portal resets the cooldown of Grand Conjuration.
@@ -36,7 +36,7 @@ builds:
       icon: 1180e87d69492d442afaa79cbba36746
       name: The Big Stage
       type: mixed
-    winrate: '47.4'
+    winrate: '50.0'
   - damage: '2.4'
     disable: '0.4'
     energy: '2.2'
@@ -176,9 +176,9 @@ builds:
     winrate: '71.4'
   - damage: '3.7'
     disable: '0.5'
-    energy: '3.1'
-    num: 5
-    protection: '6.5'
+    energy: '3.3'
+    num: 7
+    protection: '6.2'
     skills:
     - color: yellow
       description: Increases cast range and teleport range of Portal by 20.
@@ -207,7 +207,7 @@ builds:
       icon: 1180e87d69492d442afaa79cbba36746
       name: The Big Stage
       type: mixed
-    winrate: '60.0'
+    winrate: '71.4'
   - damage: '2.2'
     disable: '0.2'
     energy: '3.1'
@@ -277,44 +277,6 @@ builds:
       name: The Big Stage
       type: mixed
     winrate: '40.0'
-  - damage: '3.6'
-    disable: '0.7'
-    energy: '3.1'
-    num: 5
-    protection: '4.3'
-    skills:
-    - color: red
-      description: An ally traveling through Portal resets the cooldown of Grand Conjuration.
-        Only the first ally traveling through resets the cooldown
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Ace up the Sleeve
-      type: offense
-    - color: blue
-      description: Allows Grand Conjuration to bounce once upon wall hit and increases
-        its max range by 10. Can still only hit once per enemy.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Arcane Shenanigans
-      type: utility
-    - color: green
-      description: Recast Rabbit Form to dash forward, knocking back yourself and
-        target enemy upon hit, interrupting any ability being cast. Inflicts a 1.2
-        Stun if enemy is knocked into a wall.
-      icon: f1c30ae8ed08c2847bf669726f9f478f
-      name: Bunny Hop
-      type: survival
-    - color: yellow
-      description: Teleporting yourself or an ally with Portal grants target a 50
-        Fading Haste for 2.
-      icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Late to the Show
-      type: mobility
-    - color: teal
-      description: Grants self or allies traveling through your Portal a shield that
-        absorbs up to 12 damage for 3.
-      icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Showdown
-      type: support
-    winrate: '60.0'
   - damage: '2.1'
     disable: '0.3'
     energy: '2.5'
@@ -350,6 +312,40 @@ builds:
       name: Stacked Deck
       type: mixed
     winrate: '40.0'
+  - damage: '2.1'
+    disable: '0.3'
+    energy: '1.8'
+    num: 4
+    protection: '3.3'
+    skills:
+    - color: grey
+      description: Grand Conjuration inflicts a 1.5 Fading Snare.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Awestruck
+      type: mixed
+    - color: teal
+      description: Hearts restores 4 health over the duration.
+      icon: 144efc709ac628542aee319b14932b2c
+      name: Heart Restoration
+      type: support
+    - color: red
+      description: When Sheep Form ends targets are inflicted by Arcane Catalyst .
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: Lead Astray
+      type: offense
+    - color: red
+      description: Your Illusions explode at the end of their duration, dealing 15
+        damage and inflicting a 0.75 Stun to nearby enemies. Grand Illusion explosions
+        are bigger, deal 20 damage and inflict a 1 Stun.
+      icon: 2632a24f2167af14f9869abb401dd67f
+      name: Poof!
+      type: offense
+    - color: grey
+      description: Increases Sheep Trick radius by 10 and reduces cooldown by 1.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: The Big Stage
+      type: mixed
+    winrate: '50.0'
   twos:
   - damage: '3.3'
     disable: '0.4'
@@ -420,40 +416,6 @@ builds:
       name: Stacked Deck
       type: mixed
     winrate: '77.8'
-  - damage: '3.7'
-    disable: '0.5'
-    energy: '2.7'
-    num: 7
-    protection: '3.7'
-    skills:
-    - color: grey
-      description: Grand Conjuration inflicts a 1.5 Fading Snare.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Awestruck
-      type: mixed
-    - color: teal
-      description: Hearts restores 4 health over the duration.
-      icon: 144efc709ac628542aee319b14932b2c
-      name: Heart Restoration
-      type: support
-    - color: teal
-      description: Grants self or allies traveling through your Portal a shield that
-        absorbs up to 12 damage for 3.
-      icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Showdown
-      type: support
-    - color: grey
-      description: Your first Trick Shot after using Mirror Image includes an additional
-        card for your illusion.
-      icon: 2632a24f2167af14f9869abb401dd67f
-      name: Stacked Deck
-      type: mixed
-    - color: grey
-      description: Increases Sheep Trick radius by 10 and reduces cooldown by 1.
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: The Big Stage
-      type: mixed
-    winrate: '28.6'
   - damage: '5.1'
     disable: '0.5'
     energy: '2.9'
@@ -523,6 +485,40 @@ builds:
       name: Stacked Deck
       type: mixed
     winrate: '28.6'
+  - damage: '3.7'
+    disable: '0.5'
+    energy: '2.7'
+    num: 6
+    protection: '3.7'
+    skills:
+    - color: grey
+      description: Grand Conjuration inflicts a 1.5 Fading Snare.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Awestruck
+      type: mixed
+    - color: teal
+      description: Hearts restores 4 health over the duration.
+      icon: 144efc709ac628542aee319b14932b2c
+      name: Heart Restoration
+      type: support
+    - color: teal
+      description: Grants self or allies traveling through your Portal a shield that
+        absorbs up to 12 damage for 3.
+      icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Showdown
+      type: support
+    - color: grey
+      description: Your first Trick Shot after using Mirror Image includes an additional
+        card for your illusion.
+      icon: 2632a24f2167af14f9869abb401dd67f
+      name: Stacked Deck
+      type: mixed
+    - color: grey
+      description: Increases Sheep Trick radius by 10 and reduces cooldown by 1.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: The Big Stage
+      type: mixed
+    winrate: '33.3'
   - damage: '4.8'
     disable: '0.6'
     energy: '3.4'
@@ -559,39 +555,6 @@ builds:
       name: The Big Stage
       type: mixed
     winrate: '83.3'
-  - damage: '4.1'
-    disable: '0.5'
-    energy: '2.3'
-    num: 5
-    protection: '4.5'
-    skills:
-    - color: grey
-      description: Grand Conjuration inflicts a 1.5 Fading Snare.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Awestruck
-      type: mixed
-    - color: teal
-      description: Hearts restores 4 health over the duration.
-      icon: 144efc709ac628542aee319b14932b2c
-      name: Heart Restoration
-      type: support
-    - color: red
-      description: When Sheep Form ends targets are inflicted by Arcane Catalyst .
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: Lead Astray
-      type: offense
-    - color: blue
-      description: Increase the health of Mirror Image illusions by 10 and duration
-        by 2.
-      icon: 2632a24f2167af14f9869abb401dd67f
-      name: Phantasmagoria
-      type: utility
-    - color: grey
-      description: Increases Sheep Trick radius by 10 and reduces cooldown by 1.
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: The Big Stage
-      type: mixed
-    winrate: '60.0'
   - damage: '3.8'
     disable: '0.6'
     energy: '2.8'
@@ -662,10 +625,10 @@ builds:
       name: The Big Stage
       type: mixed
     winrate: '0.0'
-  - damage: '4.9'
-    disable: '0.8'
-    energy: '2.9'
-    num: 3
+  - damage: '4.6'
+    disable: '0.7'
+    energy: '2.8'
+    num: 4
     protection: '4.5'
     skills:
     - color: grey
@@ -697,6 +660,39 @@ builds:
       name: The Big Stage
       type: mixed
     winrate: '0.0'
+  - damage: '3.8'
+    disable: '0.4'
+    energy: '2.4'
+    num: 4
+    protection: '4.6'
+    skills:
+    - color: grey
+      description: Grand Conjuration inflicts a 1.5 Fading Snare.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Awestruck
+      type: mixed
+    - color: teal
+      description: Hearts restores 4 health over the duration.
+      icon: 144efc709ac628542aee319b14932b2c
+      name: Heart Restoration
+      type: support
+    - color: red
+      description: When Sheep Form ends targets are inflicted by Arcane Catalyst .
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: Lead Astray
+      type: offense
+    - color: blue
+      description: Increase the health of Mirror Image illusions by 10 and duration
+        by 2.
+      icon: 2632a24f2167af14f9869abb401dd67f
+      name: Phantasmagoria
+      type: utility
+    - color: grey
+      description: Increases Sheep Trick radius by 10 and reduces cooldown by 1.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: The Big Stage
+      type: mixed
+    winrate: '75.0'
 compos:
   threes:
   - hero_names:
@@ -747,9 +743,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 5
-    winrate: 0.6
-    wins: 3
+    num: 6
+    winrate: 0.6666666666666666
+    wins: 4
   - hero_names:
     - Rook
     - Jade
@@ -880,9 +876,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 17
-    winrate: 0.23529411764705882
-    wins: 4
+    num: 18
+    winrate: 0.2777777777777778
+    wins: 5
   - hero_names:
     - Rook
     - Zander
@@ -893,8 +889,8 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 17
-    winrate: 0.5294117647058824
+    num: 16
+    winrate: 0.5625
     wins: 9
   - hero_names:
     - Varesh
@@ -906,9 +902,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 13
-    winrate: 0.6923076923076923
-    wins: 9
+    num: 14
+    winrate: 0.7142857142857143
+    wins: 10
   - hero_names:
     - Alysia
     - Zander
@@ -919,9 +915,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 12
-    winrate: 0.3333333333333333
-    wins: 4
+    num: 11
+    winrate: 0.2727272727272727
+    wins: 3
   - hero_names:
     - Destiny
     - Zander
@@ -932,22 +928,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 12
-    winrate: 0.6666666666666666
-    wins: 8
-  - hero_names:
-    - Croak
-    - Zander
-    heros:
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
-    - icon: 9c4186a6214f12448a7091710b0cde6c
-      name: Zander
-      title: zander
     num: 11
-    winrate: 0.2727272727272727
-    wins: 3
+    winrate: 0.7272727272727273
+    wins: 8
   - hero_names:
     - Shifu
     - Zander
@@ -961,6 +944,19 @@ compos:
     num: 10
     winrate: 0.6
     wins: 6
+  - hero_names:
+    - Croak
+    - Zander
+    heros:
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
+    - icon: 9c4186a6214f12448a7091710b0cde6c
+      name: Zander
+      title: zander
+    num: 9
+    winrate: 0.2222222222222222
+    wins: 2
   - hero_names:
     - Jade
     - Zander
@@ -1010,11 +1006,11 @@ icon: 9c4186a6214f12448a7091710b0cde6c
 layout: character
 name: zander
 num:
-  threes: 190
-  twos: 166
+  threes: 191
+  twos: 164
 title: Zander
 url: characters/zander.html
 winrate:
-  threes: '44.74'
-  twos: '39.16'
+  threes: '46.07'
+  twos: '40.24'
 ...

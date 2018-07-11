@@ -38,10 +38,10 @@ builds:
       name: Royal Descent
       type: offense
     winrate: '50.4'
-  - damage: '6.4'
+  - damage: '6.5'
     disable: '1.1'
     energy: '3.5'
-    num: 112
+    num: 113
     protection: '1.7'
     skills:
     - color: blue
@@ -72,11 +72,11 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    winrate: '53.6'
-  - damage: '5.6'
-    disable: '1.0'
+    winrate: '54.9'
+  - damage: '5.5'
+    disable: '0.9'
     energy: '3.2'
-    num: 53
+    num: 49
     protection: '1.2'
     skills:
     - color: grey
@@ -108,7 +108,7 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    winrate: '49.1'
+    winrate: '46.9'
   - damage: '5.8'
     disable: '0.9'
     energy: '2.8'
@@ -149,7 +149,7 @@ builds:
   - damage: '5.9'
     disable: '0.8'
     energy: '2.9'
-    num: 26
+    num: 24
     protection: '1.0'
     skills:
     - color: blue
@@ -183,10 +183,10 @@ builds:
       name: Royal Descent
       type: offense
     winrate: '50.0'
-  - damage: '6.9'
-    disable: '1.1'
-    energy: '3.7'
-    num: 17
+  - damage: '6.8'
+    disable: '1.0'
+    energy: '3.6'
+    num: 19
     protection: '1.6'
     skills:
     - color: grey
@@ -217,10 +217,10 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    winrate: '70.6'
-  - damage: '7.2'
-    disable: '1.1'
-    energy: '4.8'
+    winrate: '73.7'
+  - damage: '7.0'
+    disable: '1.0'
+    energy: '4.7'
     num: 16
     protection: '1.6'
     skills:
@@ -364,7 +364,7 @@ builds:
   - damage: '6.7'
     disable: '1.1'
     energy: '3.4'
-    num: 424
+    num: 437
     protection: '1.8'
     skills:
     - color: blue
@@ -395,10 +395,10 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    winrate: '53.1'
+    winrate: '52.9'
   - damage: '6.1'
     disable: '0.9'
-    energy: '3.4'
+    energy: '3.3'
     num: 60
     protection: '1.3'
     skills:
@@ -467,11 +467,11 @@ builds:
       name: Royal Descent
       type: offense
     winrate: '49.1'
-  - damage: '6.8'
+  - damage: '6.9'
     disable: '1.0'
-    energy: '3.4'
-    num: 32
-    protection: '1.4'
+    energy: '3.3'
+    num: 41
+    protection: '1.3'
     skills:
     - color: blue
       description: Increases maximum range of Heavenly Strike by 30% and decreases
@@ -502,11 +502,11 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    winrate: '56.2'
-  - damage: '7.0'
+    winrate: '58.5'
+  - damage: '6.9'
     disable: '1.2'
-    energy: '3.1'
-    num: 29
+    energy: '3.2'
+    num: 33
     protection: '1.5'
     skills:
     - color: blue
@@ -537,11 +537,11 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    winrate: '58.6'
-  - damage: '6.5'
+    winrate: '57.6'
+  - damage: '6.6'
     disable: '1.0'
     energy: '3.4'
-    num: 24
+    num: 25
     protection: '1.5'
     skills:
     - color: yellow
@@ -572,7 +572,7 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    winrate: '50.0'
+    winrate: '48.0'
   - damage: '6.2'
     disable: '1.1'
     energy: '3.2'
@@ -608,9 +608,9 @@ builds:
       name: Riposte
       type: offense
     winrate: '33.3'
-  - damage: '6.4'
-    disable: '1.0'
-    energy: '3.4'
+  - damage: '6.2'
+    disable: '0.9'
+    energy: '3.3'
     num: 20
     protection: '1.2'
     skills:
@@ -644,10 +644,10 @@ builds:
       name: Royal Descent
       type: offense
     winrate: '25.0'
-  - damage: '7.0'
+  - damage: '6.9'
     disable: '1.0'
     energy: '3.4'
-    num: 18
+    num: 20
     protection: '1.4'
     skills:
     - color: grey
@@ -678,11 +678,11 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    winrate: '72.2'
+    winrate: '65.0'
   - damage: '5.1'
-    disable: '0.9'
+    disable: '0.8'
     energy: '2.4'
-    num: 18
+    num: 19
     protection: '1.1'
     skills:
     - color: grey
@@ -714,7 +714,7 @@ builds:
       icon: fbfb00ff4fa4bc542b54639b84406f01
       name: Riposte
       type: offense
-    winrate: '33.3'
+    winrate: '31.6'
 compos:
   threes:
   - hero_names:
@@ -731,9 +731,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 24
-    winrate: 0.625
-    wins: 15
+    num: 22
+    winrate: 0.5454545454545454
+    wins: 12
   - hero_names:
     - Ashka
     - Oldur
@@ -765,9 +765,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 20
-    winrate: 0.85
-    wins: 17
+    num: 19
+    winrate: 0.8421052631578947
+    wins: 16
   - hero_names:
     - Poloma
     - Raigon
@@ -785,23 +785,6 @@ compos:
     num: 17
     winrate: 0.5294117647058824
     wins: 9
-  - hero_names:
-    - Oldur
-    - Raigon
-    - Jumong
-    heros:
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    - icon: 42a665b9c285a1243a201c8d533980e5
-      name: Jumong
-      title: jumong
-    num: 16
-    winrate: 0.375
-    wins: 6
   - hero_names:
     - Ashka
     - Blossom
@@ -855,38 +838,55 @@ compos:
     wins: 6
   - hero_names:
     - Oldur
-    - Alysia
     - Raigon
+    - Jumong
     heros:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 14
-    winrate: 0.42857142857142855
+    - icon: 42a665b9c285a1243a201c8d533980e5
+      name: Jumong
+      title: jumong
+    num: 15
+    winrate: 0.4
     wins: 6
   - hero_names:
+    - Thorn
     - Blossom
     - Raigon
-    - Varesh
     heros:
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    - icon: f1cc53a29c58089478f6438589d9b32d
-      name: Varesh
-      title: varesh
     num: 13
-    winrate: 0.5384615384615384
-    wins: 7
+    winrate: 0.23076923076923078
+    wins: 3
+  - hero_names:
+    - Ashka
+    - Poloma
+    - Raigon
+    heros:
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    num: 13
+    winrate: 0.46153846153846156
+    wins: 6
   twos:
   - hero_names:
     - Blossom
@@ -898,9 +898,9 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 211
-    winrate: 0.5023696682464455
-    wins: 106
+    num: 217
+    winrate: 0.5069124423963134
+    wins: 110
   - hero_names:
     - Oldur
     - Raigon
@@ -911,9 +911,9 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 172
-    winrate: 0.5232558139534884
-    wins: 90
+    num: 180
+    winrate: 0.5166666666666667
+    wins: 93
   - hero_names:
     - Sirius
     - Raigon
@@ -924,9 +924,9 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 132
-    winrate: 0.5303030303030303
-    wins: 70
+    num: 129
+    winrate: 0.5193798449612403
+    wins: 67
   - hero_names:
     - Raigon
     - Lucie
@@ -937,9 +937,9 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 78
-    winrate: 0.6025641025641025
-    wins: 47
+    num: 73
+    winrate: 0.589041095890411
+    wins: 43
   - hero_names:
     - Pestilus
     - Raigon
@@ -950,9 +950,9 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 59
-    winrate: 0.4745762711864407
-    wins: 28
+    num: 60
+    winrate: 0.48333333333333334
+    wins: 29
   - hero_names:
     - Raigon
     - Pearl
@@ -963,8 +963,8 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 56
-    winrate: 0.4642857142857143
+    num: 58
+    winrate: 0.4482758620689655
     wins: 26
   - hero_names:
     - Poloma
@@ -976,9 +976,9 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 55
-    winrate: 0.5454545454545454
-    wins: 30
+    num: 54
+    winrate: 0.5370370370370371
+    wins: 29
   - hero_names:
     - Jumong
     - Raigon
@@ -989,9 +989,9 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 48
-    winrate: 0.4583333333333333
-    wins: 22
+    num: 53
+    winrate: 0.4716981132075472
+    wins: 25
   - hero_names:
     - Iva
     - Raigon
@@ -1002,8 +1002,8 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 46
-    winrate: 0.6739130434782609
+    num: 48
+    winrate: 0.6458333333333334
     wins: 31
   - hero_names:
     - Alysia
@@ -1015,8 +1015,8 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 42
-    winrate: 0.47619047619047616
+    num: 43
+    winrate: 0.46511627906976744
     wins: 20
 description: Raigon, formerly the crown prince of Quna, is a skilled melee fighter
   trained in two-handed swordsmanship and martial arts. He hopes to break the evil
@@ -1026,11 +1026,11 @@ icon: 6c2252900d15cb344a5240f30d3ba705
 layout: character
 name: raigon
 num:
-  threes: 906
-  twos: 1339
+  threes: 897
+  twos: 1376
 title: Raigon
 url: characters/raigon.html
 winrate:
-  threes: '49.45'
-  twos: '47.50'
+  threes: '48.94'
+  twos: '47.24'
 ...
