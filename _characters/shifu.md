@@ -1,11 +1,11 @@
 ---
 builds:
   threes:
-  - damage: '6.3'
+  - damage: '6.4'
     disable: '0.8'
     energy: '2.7'
-    num: 65
-    protection: '1.5'
+    num: 64
+    protection: '1.6'
     skills:
     - color: green
       description: Impale heals you for 2 health and 2 additional health per weapon
@@ -35,11 +35,11 @@ builds:
       icon: 0b6f5070063c16f4eb62990034cffd29
       name: The Spear is the Way
       type: utility
-    winrate: '43.1'
-  - damage: '6.6'
+    winrate: '43.8'
+  - damage: '6.8'
     disable: '0.8'
     energy: '3.1'
-    num: 24
+    num: 25
     protection: '1.5'
     skills:
     - color: green
@@ -70,11 +70,11 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '50.0'
+    winrate: '52.0'
   - damage: '5.9'
     disable: '0.8'
-    energy: '3.3'
-    num: 18
+    energy: '3.4'
+    num: 19
     protection: '1.2'
     skills:
     - color: green
@@ -105,7 +105,7 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '50.0'
+    winrate: '47.4'
   - damage: '7.5'
     disable: '0.9'
     energy: '3.4'
@@ -177,11 +177,11 @@ builds:
       name: Swift Feet
       type: mobility
     winrate: '86.7'
-  - damage: '5.8'
-    disable: '0.7'
-    energy: '3.1'
-    num: 11
-    protection: '1.2'
+  - damage: '5.9'
+    disable: '0.8'
+    energy: '3.2'
+    num: 12
+    protection: '1.1'
     skills:
     - color: green
       description: Impale heals you for 2 health and 2 additional health per weapon
@@ -210,7 +210,7 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '45.5'
+    winrate: '50.0'
   - damage: '6.2'
     disable: '0.4'
     energy: '3.4'
@@ -247,6 +247,39 @@ builds:
       name: Thrust
       type: control
     winrate: '45.5'
+  - damage: '7.0'
+    disable: '0.8'
+    energy: '3.7'
+    num: 10
+    protection: '1.0'
+    skills:
+    - color: pink
+      description: Javelin inflicts Root for 1.2.
+      icon: 2b30312258b7fec4a90040d475f5b31f
+      name: Dirty Tricks
+      type: control
+    - color: red
+      description: Increases your maximum weapon charges by 1 and countering an attack
+        with Kunju grants 1 weapon charge.
+      icon: 19e037c83991916449cd9475c20ca0d1
+      name: Ferocious Stance
+      type: offense
+    - color: blue
+      description: Javelin deals 4 bonus damage. Also increases its range by 10.
+      icon: 2b30312258b7fec4a90040d475f5b31f
+      name: Javelin Master
+      type: utility
+    - color: yellow
+      description: Increases lunge distance of Impale by 100.
+      icon: 18eee826117df534d91bd518653fc360
+      name: Spear Lunge
+      type: mobility
+    - color: pink
+      description: Impale deals 3 bonus damage.
+      icon: 18eee826117df534d91bd518653fc360
+      name: Thrust
+      type: control
+    winrate: '50.0'
   - damage: '7.1'
     disable: '0.4'
     energy: '5.5'
@@ -317,44 +350,11 @@ builds:
       name: Thrust
       type: control
     winrate: '60.0'
-  - damage: '7.0'
-    disable: '0.8'
-    energy: '3.7'
-    num: 10
-    protection: '1.0'
-    skills:
-    - color: pink
-      description: Javelin inflicts Root for 1.2.
-      icon: 2b30312258b7fec4a90040d475f5b31f
-      name: Dirty Tricks
-      type: control
-    - color: red
-      description: Increases your maximum weapon charges by 1 and countering an attack
-        with Kunju grants 1 weapon charge.
-      icon: 19e037c83991916449cd9475c20ca0d1
-      name: Ferocious Stance
-      type: offense
-    - color: blue
-      description: Javelin deals 4 bonus damage. Also increases its range by 10.
-      icon: 2b30312258b7fec4a90040d475f5b31f
-      name: Javelin Master
-      type: utility
-    - color: yellow
-      description: Increases lunge distance of Impale by 100.
-      icon: 18eee826117df534d91bd518653fc360
-      name: Spear Lunge
-      type: mobility
-    - color: pink
-      description: Impale deals 3 bonus damage.
-      icon: 18eee826117df534d91bd518653fc360
-      name: Thrust
-      type: control
-    winrate: '50.0'
   twos:
   - damage: '7.6'
     disable: '0.9'
     energy: '3.2'
-    num: 104
+    num: 103
     protection: '1.7'
     skills:
     - color: green
@@ -385,11 +385,11 @@ builds:
       icon: 0b6f5070063c16f4eb62990034cffd29
       name: The Spear is the Way
       type: utility
-    winrate: '52.9'
+    winrate: '52.4'
   - damage: '7.2'
     disable: '0.8'
-    energy: '3.3'
-    num: 89
+    energy: '3.4'
+    num: 90
     protection: '1.5'
     skills:
     - color: green
@@ -420,12 +420,12 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '49.4'
-  - damage: '7.5'
+    winrate: '50.0'
+  - damage: '7.7'
     disable: '0.5'
     energy: '3.6'
-    num: 47
-    protection: '1.7'
+    num: 52
+    protection: '1.8'
     skills:
     - color: green
       description: Impale heals you for 2 health and 2 additional health per weapon
@@ -456,11 +456,11 @@ builds:
       icon: 51550c5d60b411544a130bfc026b306d
       name: Whirling Blade
       type: offense
-    winrate: '40.4'
+    winrate: '44.2'
   - damage: '7.7'
     disable: '0.4'
     energy: '3.7'
-    num: 37
+    num: 38
     protection: '1.5'
     skills:
     - color: green
@@ -491,7 +491,7 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '56.8'
+    winrate: '55.3'
   - damage: '7.1'
     disable: '0.7'
     energy: '3.5'
@@ -526,10 +526,44 @@ builds:
       name: Thrust
       type: control
     winrate: '56.2'
+  - damage: '7.6'
+    disable: '0.8'
+    energy: '3.8'
+    num: 30
+    protection: '1.5'
+    skills:
+    - color: green
+      description: Impale heals you for 2 health and 2 additional health per weapon
+        charge.
+      icon: 18eee826117df534d91bd518653fc360
+      name: Ceremonial Spear
+      type: survival
+    - color: pink
+      description: Javelin inflicts Root for 1.2.
+      icon: 2b30312258b7fec4a90040d475f5b31f
+      name: Dirty Tricks
+      type: control
+    - color: yellow
+      description: Increases Fleetfoot movement speed bonus from 35 to 45 and haste
+        duration by 0.7.
+      icon: 0b6f5070063c16f4eb62990034cffd29
+      name: Swift Feet
+      type: mobility
+    - color: blue
+      description: During Fleetfoot, Spear Slash hits grant 8 bonus energy.
+      icon: 0b6f5070063c16f4eb62990034cffd29
+      name: The Spear is the Way
+      type: utility
+    - color: pink
+      description: Impale deals 3 bonus damage.
+      icon: 18eee826117df534d91bd518653fc360
+      name: Thrust
+      type: control
+    winrate: '60.0'
   - damage: '6.3'
     disable: '0.6'
     energy: '2.8'
-    num: 30
+    num: 29
     protection: '1.8'
     skills:
     - color: green
@@ -560,45 +594,11 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '66.7'
-  - damage: '7.7'
-    disable: '0.8'
-    energy: '3.7'
-    num: 28
-    protection: '1.6'
-    skills:
-    - color: green
-      description: Impale heals you for 2 health and 2 additional health per weapon
-        charge.
-      icon: 18eee826117df534d91bd518653fc360
-      name: Ceremonial Spear
-      type: survival
-    - color: pink
-      description: Javelin inflicts Root for 1.2.
-      icon: 2b30312258b7fec4a90040d475f5b31f
-      name: Dirty Tricks
-      type: control
-    - color: yellow
-      description: Increases Fleetfoot movement speed bonus from 35 to 45 and haste
-        duration by 0.7.
-      icon: 0b6f5070063c16f4eb62990034cffd29
-      name: Swift Feet
-      type: mobility
-    - color: blue
-      description: During Fleetfoot, Spear Slash hits grant 8 bonus energy.
-      icon: 0b6f5070063c16f4eb62990034cffd29
-      name: The Spear is the Way
-      type: utility
-    - color: pink
-      description: Impale deals 3 bonus damage.
-      icon: 18eee826117df534d91bd518653fc360
-      name: Thrust
-      type: control
-    winrate: '60.7'
+    winrate: '65.5'
   - damage: '6.6'
     disable: '0.6'
     energy: '3.2'
-    num: 26
+    num: 27
     protection: '1.5'
     skills:
     - color: green
@@ -630,7 +630,7 @@ builds:
       icon: 18eee826117df534d91bd518653fc360
       name: Thrust
       type: control
-    winrate: '50.0'
+    winrate: '51.9'
   - damage: '7.4'
     disable: '0.9'
     energy: '3.6'
@@ -823,6 +823,23 @@ compos:
     winrate: 0.2857142857142857
     wins: 2
   - hero_names:
+    - Ashka
+    - Shifu
+    - Lucie
+    heros:
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 7
+    winrate: 1.0
+    wins: 7
+  - hero_names:
     - Poloma
     - Shifu
     - Varesh
@@ -856,23 +873,6 @@ compos:
     num: 6
     winrate: 0.5
     wins: 3
-  - hero_names:
-    - Shifu
-    - Sirius
-    - Jade
-    heros:
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 6
-    winrate: 0.3333333333333333
-    wins: 2
   twos:
   - hero_names:
     - Blossom
@@ -884,9 +884,9 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 132
-    winrate: 0.5606060606060606
-    wins: 74
+    num: 133
+    winrate: 0.5639097744360902
+    wins: 75
   - hero_names:
     - Oldur
     - Shifu
@@ -897,9 +897,9 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 96
-    winrate: 0.5416666666666666
-    wins: 52
+    num: 93
+    winrate: 0.5161290322580645
+    wins: 48
   - hero_names:
     - Shifu
     - Sirius
@@ -910,9 +910,9 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 63
-    winrate: 0.5873015873015873
-    wins: 37
+    num: 65
+    winrate: 0.6
+    wins: 39
   - hero_names:
     - Shifu
     - Lucie
@@ -923,9 +923,9 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 43
-    winrate: 0.27906976744186046
-    wins: 12
+    num: 42
+    winrate: 0.2619047619047619
+    wins: 11
   - hero_names:
     - Shifu
     - Ruh Kaan
@@ -940,19 +940,6 @@ compos:
     winrate: 0.625
     wins: 25
   - hero_names:
-    - Shifu
-    - Pearl
-    heros:
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
-    - icon: 427116cdee46bad4cbaa99d7063e0832
-      name: Pearl
-      title: pearl
-    num: 39
-    winrate: 0.5897435897435898
-    wins: 23
-  - hero_names:
     - Pestilus
     - Shifu
     heros:
@@ -962,9 +949,22 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 36
-    winrate: 0.4166666666666667
+    num: 37
+    winrate: 0.40540540540540543
     wins: 15
+  - hero_names:
+    - Shifu
+    - Pearl
+    heros:
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
+    num: 36
+    winrate: 0.6111111111111112
+    wins: 22
   - hero_names:
     - Shifu
     - Raigon
@@ -988,9 +988,9 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 24
-    winrate: 0.4166666666666667
-    wins: 10
+    num: 26
+    winrate: 0.4230769230769231
+    wins: 11
   - hero_names:
     - Shifu
     - Jade
@@ -1012,10 +1012,10 @@ layout: character
 name: shifu
 num:
   threes: 348
-  twos: 729
+  twos: 733
 title: Shifu
 url: characters/shifu.html
 winrate:
-  threes: '48.28'
-  twos: '49.66'
+  threes: '48.85'
+  twos: '49.52'
 ...
