@@ -35,40 +35,6 @@ builds:
       name: Tractor Pulse
       type: control
     winrate: '75.8'
-  - damage: '7.4'
-    disable: '1.4'
-    energy: '4.0'
-    num: 20
-    protection: '0.8'
-    skills:
-    - color: yellow
-      description: Zap knocks nearby enemies back and grants 20 Fading Haste for 2.
-      icon: 9274b3f40ab2b4048b5cde1e9164901e
-      name: Blast Shield
-      type: mobility
-    - color: pink
-      description: Tazer hits bounce once towards a nearby enemy.
-      icon: c9cd772b84da5454e9888a19fa249483
-      name: Conductor
-      type: control
-    - color: blue
-      description: Tazer hits remove positive effects from nearby enemies and negative
-        effects from nearby allies.
-      icon: c9cd772b84da5454e9888a19fa249483
-      name: EMP
-      type: utility
-    - color: yellow
-      description: ^2Jet Pack^- increases movement speed by 35 for 2.
-      icon: 7442381b626556c4e8193c48031d01ef
-      name: Rocket Boosters
-      type: mobility
-    - color: pink
-      description: Tractor Beam inflicts Stun for 0.7 to enemies caught in the beam
-        when the effect ends and cooldown reduces by 3.
-      icon: fadd8bcda43b2f54aa66dd5d12795a53
-      name: Tractor Pulse
-      type: control
-    winrate: '55.0'
   - damage: '5.5'
     disable: '0.8'
     energy: '3.4'
@@ -104,40 +70,40 @@ builds:
       name: U-Turn
       type: utility
     winrate: '25.0'
-  - damage: '6.1'
-    disable: '1.1'
-    energy: '3.4'
-    num: 11
-    protection: '0.4'
+  - damage: '7.4'
+    disable: '1.4'
+    energy: '4.0'
+    num: 19
+    protection: '0.8'
     skills:
     - color: yellow
       description: Zap knocks nearby enemies back and grants 20 Fading Haste for 2.
       icon: 9274b3f40ab2b4048b5cde1e9164901e
       name: Blast Shield
       type: mobility
-    - color: red
-      description: Tazer consumes Oil to inflict Burning Oil and deals 8 damage on
-        Spell Block interrupts.
+    - color: pink
+      description: Tazer hits bounce once towards a nearby enemy.
       icon: c9cd772b84da5454e9888a19fa249483
-      name: Igniting Spark
-      type: offense
-    - color: grey
-      description: Jet Pack causes your next Boomstick to inflict Oil.
+      name: Conductor
+      type: control
+    - color: blue
+      description: Tazer hits remove positive effects from nearby enemies and negative
+        effects from nearby allies.
+      icon: c9cd772b84da5454e9888a19fa249483
+      name: EMP
+      type: utility
+    - color: yellow
+      description: ^2Jet Pack^- increases movement speed by 35 for 2.
       icon: 7442381b626556c4e8193c48031d01ef
-      name: Oil Blaster
-      type: mixed
+      name: Rocket Boosters
+      type: mobility
     - color: pink
       description: Tractor Beam inflicts Stun for 0.7 to enemies caught in the beam
         when the effect ends and cooldown reduces by 3.
       icon: fadd8bcda43b2f54aa66dd5d12795a53
       name: Tractor Pulse
       type: control
-    - color: blue
-      description: Recast Jet Pack to fly back to your starting location.
-      icon: 7442381b626556c4e8193c48031d01ef
-      name: U-Turn
-      type: utility
-    winrate: '72.7'
+    winrate: '52.6'
   - damage: '6.0'
     disable: '1.1'
     energy: '3.3'
@@ -172,6 +138,40 @@ builds:
       name: U-Turn
       type: utility
     winrate: '54.5'
+  - damage: '6.1'
+    disable: '1.1'
+    energy: '3.4'
+    num: 11
+    protection: '0.4'
+    skills:
+    - color: yellow
+      description: Zap knocks nearby enemies back and grants 20 Fading Haste for 2.
+      icon: 9274b3f40ab2b4048b5cde1e9164901e
+      name: Blast Shield
+      type: mobility
+    - color: red
+      description: Tazer consumes Oil to inflict Burning Oil and deals 8 damage on
+        Spell Block interrupts.
+      icon: c9cd772b84da5454e9888a19fa249483
+      name: Igniting Spark
+      type: offense
+    - color: grey
+      description: Jet Pack causes your next Boomstick to inflict Oil.
+      icon: 7442381b626556c4e8193c48031d01ef
+      name: Oil Blaster
+      type: mixed
+    - color: pink
+      description: Tractor Beam inflicts Stun for 0.7 to enemies caught in the beam
+        when the effect ends and cooldown reduces by 3.
+      icon: fadd8bcda43b2f54aa66dd5d12795a53
+      name: Tractor Pulse
+      type: control
+    - color: blue
+      description: Recast Jet Pack to fly back to your starting location.
+      icon: 7442381b626556c4e8193c48031d01ef
+      name: U-Turn
+      type: utility
+    winrate: '72.7'
   - damage: '6.6'
     disable: '1.1'
     energy: '3.4'
@@ -237,39 +237,39 @@ builds:
       name: Stockpile
       type: offense
     winrate: '88.9'
-  - damage: '6.4'
-    disable: '0.8'
-    energy: '2.6'
+  - damage: '6.2'
+    disable: '0.9'
+    energy: '3.0'
     num: 7
-    protection: '0.9'
+    protection: '0.4'
     skills:
+    - color: yellow
+      description: Zap knocks nearby enemies back and grants 20 Fading Haste for 2.
+      icon: 9274b3f40ab2b4048b5cde1e9164901e
+      name: Blast Shield
+      type: mobility
     - color: red
       description: Rocket X-67 deals 4 bonus damage.
       icon: d80cae4dd7699264fb3c37675b59f263
       name: Boom!
       type: offense
-    - color: red
-      description: Zap increases your Boomstick attack and reload speed by 120 while
-        you're affected by the Shield.
-      icon: 9274b3f40ab2b4048b5cde1e9164901e
-      name: Hyperspeed
-      type: offense
+    - color: pink
+      description: Tazer hits bounce once towards a nearby enemy.
+      icon: c9cd772b84da5454e9888a19fa249483
+      name: Conductor
+      type: control
+    - color: blue
+      description: Tazer hits remove positive effects from nearby enemies and negative
+        effects from nearby allies.
+      icon: c9cd772b84da5454e9888a19fa249483
+      name: EMP
+      type: utility
     - color: yellow
       description: ^2Jet Pack^- increases movement speed by 35 for 2.
       icon: 7442381b626556c4e8193c48031d01ef
       name: Rocket Boosters
       type: mobility
-    - color: red
-      description: Rocket X-67 gains 1 ability charge but cooldown increases by 1.5.
-      icon: d80cae4dd7699264fb3c37675b59f263
-      name: Stockpile
-      type: offense
-    - color: blue
-      description: Recast Jet Pack to fly back to your starting location.
-      icon: 7442381b626556c4e8193c48031d01ef
-      name: U-Turn
-      type: utility
-    winrate: '28.6'
+    winrate: '42.9'
   - damage: '6.8'
     disable: '1.2'
     energy: '3.2'
@@ -304,44 +304,44 @@ builds:
       name: U-Turn
       type: utility
     winrate: '85.7'
-  - damage: '6.2'
+  - damage: '7.0'
     disable: '0.9'
-    energy: '3.0'
-    num: 7
-    protection: '0.4'
+    energy: '2.8'
+    num: 6
+    protection: '0.9'
     skills:
-    - color: yellow
-      description: Zap knocks nearby enemies back and grants 20 Fading Haste for 2.
-      icon: 9274b3f40ab2b4048b5cde1e9164901e
-      name: Blast Shield
-      type: mobility
     - color: red
       description: Rocket X-67 deals 4 bonus damage.
       icon: d80cae4dd7699264fb3c37675b59f263
       name: Boom!
       type: offense
-    - color: pink
-      description: Tazer hits bounce once towards a nearby enemy.
-      icon: c9cd772b84da5454e9888a19fa249483
-      name: Conductor
-      type: control
-    - color: blue
-      description: Tazer hits remove positive effects from nearby enemies and negative
-        effects from nearby allies.
-      icon: c9cd772b84da5454e9888a19fa249483
-      name: EMP
-      type: utility
+    - color: red
+      description: Zap increases your Boomstick attack and reload speed by 120 while
+        you're affected by the Shield.
+      icon: 9274b3f40ab2b4048b5cde1e9164901e
+      name: Hyperspeed
+      type: offense
     - color: yellow
       description: ^2Jet Pack^- increases movement speed by 35 for 2.
       icon: 7442381b626556c4e8193c48031d01ef
       name: Rocket Boosters
       type: mobility
-    winrate: '42.9'
+    - color: red
+      description: Rocket X-67 gains 1 ability charge but cooldown increases by 1.5.
+      icon: d80cae4dd7699264fb3c37675b59f263
+      name: Stockpile
+      type: offense
+    - color: blue
+      description: Recast Jet Pack to fly back to your starting location.
+      icon: 7442381b626556c4e8193c48031d01ef
+      name: U-Turn
+      type: utility
+    winrate: '33.3'
   twos:
-  - damage: '6.4'
+  - damage: '6.3'
     disable: '1.0'
-    energy: '3.4'
-    num: 56
+    energy: '3.3'
+    num: 58
     protection: '0.7'
     skills:
     - color: yellow
@@ -369,11 +369,11 @@ builds:
       icon: d80cae4dd7699264fb3c37675b59f263
       name: Stockpile
       type: offense
-    winrate: '50.0'
+    winrate: '51.7'
   - damage: '6.9'
     disable: '1.0'
     energy: '3.4'
-    num: 39
+    num: 40
     protection: '0.9'
     skills:
     - color: yellow
@@ -402,11 +402,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: U-Turn
       type: utility
-    winrate: '38.5'
+    winrate: '42.5'
   - damage: '7.5'
     disable: '1.1'
     energy: '3.7'
-    num: 27
+    num: 29
     protection: '0.6'
     skills:
     - color: yellow
@@ -435,11 +435,11 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: Rocket Boosters
       type: mobility
-    winrate: '85.2'
-  - damage: '6.0'
+    winrate: '82.8'
+  - damage: '5.8'
     disable: '1.0'
-    energy: '3.2'
-    num: 25
+    energy: '3.1'
+    num: 24
     protection: '0.8'
     skills:
     - color: yellow
@@ -468,7 +468,7 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: Rocket Boosters
       type: mobility
-    winrate: '48.0'
+    winrate: '54.2'
   - damage: '5.8'
     disable: '0.7'
     energy: '2.5'
@@ -502,43 +502,10 @@ builds:
       name: U-Turn
       type: utility
     winrate: '44.4'
-  - damage: '7.4'
-    disable: '1.0'
-    energy: '4.1'
-    num: 14
-    protection: '0.7'
-    skills:
-    - color: red
-      description: Rocket X-67 deals 4 bonus damage.
-      icon: d80cae4dd7699264fb3c37675b59f263
-      name: Boom!
-      type: offense
-    - color: blue
-      description: Tazer hits remove positive effects from nearby enemies and negative
-        effects from nearby allies.
-      icon: c9cd772b84da5454e9888a19fa249483
-      name: EMP
-      type: utility
-    - color: pink
-      description: Increases Oil factor by 10 and duration by 1.5.
-      icon: a001d096a99f9a84da3e8b1056dc0535
-      name: Gunge
-      type: control
-    - color: grey
-      description: Jet Pack causes your next Boomstick to inflict Oil.
-      icon: 7442381b626556c4e8193c48031d01ef
-      name: Oil Blaster
-      type: mixed
-    - color: yellow
-      description: ^2Jet Pack^- increases movement speed by 35 for 2.
-      icon: 7442381b626556c4e8193c48031d01ef
-      name: Rocket Boosters
-      type: mobility
-    winrate: '57.1'
-  - damage: '7.4'
-    disable: '1.1'
-    energy: '3.5'
-    num: 14
+  - damage: '5.5'
+    disable: '0.8'
+    energy: '2.1'
+    num: 16
     protection: '0.5'
     skills:
     - color: yellow
@@ -556,17 +523,17 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: Oil Blaster
       type: mixed
+    - color: yellow
+      description: ^2Jet Pack^- increases movement speed by 35 for 2.
+      icon: 7442381b626556c4e8193c48031d01ef
+      name: Rocket Boosters
+      type: mobility
     - color: red
       description: Rocket X-67 gains 1 ability charge but cooldown increases by 1.5.
       icon: d80cae4dd7699264fb3c37675b59f263
       name: Stockpile
       type: offense
-    - color: blue
-      description: Recast Jet Pack to fly back to your starting location.
-      icon: 7442381b626556c4e8193c48031d01ef
-      name: U-Turn
-      type: utility
-    winrate: '50.0'
+    winrate: '37.5'
   - damage: '7.3'
     disable: '1.1'
     energy: '3.4'
@@ -600,9 +567,9 @@ builds:
       name: Rocket Boosters
       type: mobility
     winrate: '61.5'
-  - damage: '5.5'
-    disable: '0.8'
-    energy: '2.2'
+  - damage: '7.5'
+    disable: '1.1'
+    energy: '3.6'
     num: 13
     protection: '0.5'
     skills:
@@ -621,17 +588,17 @@ builds:
       icon: 7442381b626556c4e8193c48031d01ef
       name: Oil Blaster
       type: mixed
-    - color: yellow
-      description: ^2Jet Pack^- increases movement speed by 35 for 2.
-      icon: 7442381b626556c4e8193c48031d01ef
-      name: Rocket Boosters
-      type: mobility
     - color: red
       description: Rocket X-67 gains 1 ability charge but cooldown increases by 1.5.
       icon: d80cae4dd7699264fb3c37675b59f263
       name: Stockpile
       type: offense
-    winrate: '46.2'
+    - color: blue
+      description: Recast Jet Pack to fly back to your starting location.
+      icon: 7442381b626556c4e8193c48031d01ef
+      name: U-Turn
+      type: utility
+    winrate: '61.5'
   - damage: '6.0'
     disable: '0.9'
     energy: '2.5'
@@ -665,6 +632,38 @@ builds:
       name: Stockpile
       type: offense
     winrate: '45.5'
+  - damage: '7.8'
+    disable: '1.0'
+    energy: '4.5'
+    num: 10
+    protection: '0.7'
+    skills:
+    - color: yellow
+      description: Zap knocks nearby enemies back and grants 20 Fading Haste for 2.
+      icon: 9274b3f40ab2b4048b5cde1e9164901e
+      name: Blast Shield
+      type: mobility
+    - color: red
+      description: Rocket X-67 deals 4 bonus damage.
+      icon: d80cae4dd7699264fb3c37675b59f263
+      name: Boom!
+      type: offense
+    - color: pink
+      description: Increases Oil factor by 10 and duration by 1.5.
+      icon: a001d096a99f9a84da3e8b1056dc0535
+      name: Gunge
+      type: control
+    - color: grey
+      description: Jet Pack causes your next Boomstick to inflict Oil.
+      icon: 7442381b626556c4e8193c48031d01ef
+      name: Oil Blaster
+      type: mixed
+    - color: red
+      description: Rocket X-67 gains 1 ability charge but cooldown increases by 1.5.
+      icon: d80cae4dd7699264fb3c37675b59f263
+      name: Stockpile
+      type: offense
+    winrate: '60.0'
 compos:
   threes:
   - hero_names:
@@ -753,6 +752,23 @@ compos:
     winrate: 0.2857142857142857
     wins: 2
   - hero_names:
+    - Iva
+    - Croak
+    - Oldur
+    heros:
+    - icon: decba44679fbdae4bb7d0d1cb6a97682
+      name: Iva
+      title: iva
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    num: 7
+    winrate: 0.5714285714285714
+    wins: 4
+  - hero_names:
     - Oldur
     - Iva
     - Raigon
@@ -820,23 +836,6 @@ compos:
     num: 6
     winrate: 0.16666666666666666
     wins: 1
-  - hero_names:
-    - Iva
-    - Croak
-    - Oldur
-    heros:
-    - icon: decba44679fbdae4bb7d0d1cb6a97682
-      name: Iva
-      title: iva
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    num: 6
-    winrate: 0.5
-    wins: 3
   twos:
   - hero_names:
     - Iva
@@ -848,9 +847,9 @@ compos:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    num: 70
-    winrate: 0.6
-    wins: 42
+    num: 66
+    winrate: 0.6060606060606061
+    wins: 40
   - hero_names:
     - Iva
     - Blossom
@@ -861,9 +860,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 55
-    winrate: 0.4727272727272727
-    wins: 26
+    num: 56
+    winrate: 0.48214285714285715
+    wins: 27
   - hero_names:
     - Iva
     - Raigon
@@ -875,8 +874,8 @@ compos:
       name: Raigon
       title: raigon
     num: 43
-    winrate: 0.6744186046511628
-    wins: 29
+    winrate: 0.627906976744186
+    wins: 27
   - hero_names:
     - Pestilus
     - Iva
@@ -888,8 +887,8 @@ compos:
       name: Iva
       title: iva
     num: 35
-    winrate: 0.45714285714285713
-    wins: 16
+    winrate: 0.42857142857142855
+    wins: 15
   - hero_names:
     - Iva
     - Croak
@@ -900,8 +899,8 @@ compos:
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    num: 31
-    winrate: 0.6451612903225806
+    num: 32
+    winrate: 0.625
     wins: 20
   - hero_names:
     - Iva
@@ -913,9 +912,9 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 31
-    winrate: 0.5806451612903226
-    wins: 18
+    num: 32
+    winrate: 0.625
+    wins: 20
   - hero_names:
     - Poloma
     - Iva
@@ -926,9 +925,9 @@ compos:
     - icon: decba44679fbdae4bb7d0d1cb6a97682
       name: Iva
       title: iva
-    num: 29
-    winrate: 0.5862068965517241
-    wins: 17
+    num: 30
+    winrate: 0.6
+    wins: 18
   - hero_names:
     - Iva
     - Ruh Kaan
@@ -940,8 +939,8 @@ compos:
       name: Ruh Kaan
       title: ruh-kaan
     num: 26
-    winrate: 0.4230769230769231
-    wins: 11
+    winrate: 0.38461538461538464
+    wins: 10
   - hero_names:
     - Iva
     - Lucie
@@ -952,9 +951,9 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 25
-    winrate: 0.48
-    wins: 12
+    num: 26
+    winrate: 0.5
+    wins: 13
   - hero_names:
     - Rook
     - Iva
@@ -965,8 +964,8 @@ compos:
     - icon: decba44679fbdae4bb7d0d1cb6a97682
       name: Iva
       title: iva
-    num: 21
-    winrate: 0.47619047619047616
+    num: 22
+    winrate: 0.45454545454545453
     wins: 10
 description: A scavenger from the outer realms. Iva has engineered her own arsenal
   of weapons. Firing crazy rockets or unleashing a storm of bullets is her way of
@@ -975,11 +974,11 @@ icon: decba44679fbdae4bb7d0d1cb6a97682
 layout: character
 name: iva
 num:
-  threes: 349
-  twos: 560
+  threes: 346
+  twos: 551
 title: Iva
 url: characters/iva.html
 winrate:
-  threes: '47.85'
-  twos: '50.71'
+  threes: '48.55'
+  twos: '50.45'
 ...
