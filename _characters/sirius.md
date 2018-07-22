@@ -4,7 +4,7 @@ builds:
   - damage: '3.4'
     disable: '0.9'
     energy: '3.1'
-    num: 83
+    num: 70
     protection: '6.2'
     skills:
     - color: teal
@@ -36,12 +36,12 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '47.0'
-  - damage: '4.4'
+    winrate: '45.7'
+  - damage: '4.3'
     disable: '0.6'
-    energy: '2.9'
-    num: 39
-    protection: '6.1'
+    energy: '2.8'
+    num: 46
+    protection: '5.9'
     skills:
     - color: red
       description: Prismatic Strike hits charge your weapon by 50.
@@ -71,48 +71,11 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '59.0'
-  - damage: '3.2'
-    disable: '1.1'
-    energy: '2.8'
-    num: 35
-    protection: '5.9'
-    skills:
-    - color: pink
-      description: Lunar Strike can be recast within 1.8 to spawn Lesser Lunar Strike
-        with reduced radius and duration. It does not affect enemies already affected
-        by Lunar Strike.
-      icon: f138c9c126ce8934bbe8d6ba98327181
-      name: Lunatic
-      type: control
-    - color: pink
-      description: Increases Petrify duration by 0.5 and reduces cooldown of Lunar
-        Strike by 2.
-      icon: f138c9c126ce8934bbe8d6ba98327181
-      name: Moonstone
-      type: control
-    - color: green
-      description: Sunlight heals you for 8 health when another ally is healed.
-      icon: f13a6cad4bcaa974f8147e8a29a49dfe
-      name: Radiance
-      type: survival
-    - color: red
-      description: Reduces weapon charge time by 15 and charged Crescent Strike deals
-        4 bonus damage.
-      icon: 86a75fb294677254e8706e98f7507f8b
-      name: Saros Slash
-      type: offense
-    - color: yellow
-      description: Celestial Split heals 8 bonus health. Healing an ally reduces its
-        cooldown by 4.
-      icon: 6827f63e526ef4d46b82332e042bf06a
-      name: Sunwell
-      type: mobility
-    winrate: '51.4'
+    winrate: '58.7'
   - damage: '3.4'
     disable: '0.9'
     energy: '2.8'
-    num: 33
+    num: 35
     protection: '6.0'
     skills:
     - color: grey
@@ -145,11 +108,11 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '42.4'
-  - damage: '3.7'
+    winrate: '42.9'
+  - damage: '3.8'
     disable: '0.9'
-    energy: '3.1'
-    num: 27
+    energy: '3.3'
+    num: 29
     protection: '4.7'
     skills:
     - color: red
@@ -181,12 +144,48 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '48.1'
-  - damage: '3.8'
+    winrate: '44.8'
+  - damage: '4.4'
+    disable: '0.9'
+    energy: '3.3'
+    num: 17
+    protection: '5.1'
+    skills:
+    - color: red
+      description: Prismatic Strike hits charge your weapon by 50.
+      icon: 550d7ec44eda09941a7b713422b042d0
+      name: Celestial Cycle
+      type: offense
+    - color: teal
+      description: Increases Weaken factor by 10 and duration by 1.
+      icon: 86a75fb294677254e8706e98f7507f8b
+      name: Debilitating Slash
+      type: support
+    - color: pink
+      description: Lunar Strike can be recast within 1.8 to spawn Lesser Lunar Strike
+        with reduced radius and duration. It does not affect enemies already affected
+        by Lunar Strike.
+      icon: f138c9c126ce8934bbe8d6ba98327181
+      name: Lunatic
+      type: control
+    - color: red
+      description: Reduces weapon charge time by 15 and charged Crescent Strike deals
+        4 bonus damage.
+      icon: 86a75fb294677254e8706e98f7507f8b
+      name: Saros Slash
+      type: offense
+    - color: teal
+      description: Charged Crescent Strike hits empower your next Sunlight, causing
+        1 additional beam to heal the ally nearest the area for 12 health.
+      icon: f13a6cad4bcaa974f8147e8a29a49dfe
+      name: Sunbath
+      type: support
+    winrate: '58.8'
+  - damage: '3.7'
     disable: '0.8'
     energy: '3.0'
-    num: 19
-    protection: '6.8'
+    num: 16
+    protection: '6.7'
     skills:
     - color: red
       description: Prismatic Strike hits charge your weapon by 50.
@@ -216,7 +215,81 @@ builds:
       icon: c2d82c257d770664682e9df0dadb6596
       name: Sunscreen
       type: survival
-    winrate: '73.7'
+    winrate: '68.8'
+  - damage: '3.3'
+    disable: '1.2'
+    energy: '2.7'
+    num: 16
+    protection: '5.4'
+    skills:
+    - color: pink
+      description: Lunar Strike can be recast within 1.8 to spawn Lesser Lunar Strike
+        with reduced radius and duration. It does not affect enemies already affected
+        by Lunar Strike.
+      icon: f138c9c126ce8934bbe8d6ba98327181
+      name: Lunatic
+      type: control
+    - color: pink
+      description: Increases Petrify duration by 0.5 and reduces cooldown of Lunar
+        Strike by 2.
+      icon: f138c9c126ce8934bbe8d6ba98327181
+      name: Moonstone
+      type: control
+    - color: green
+      description: Sunlight heals you for 8 health when another ally is healed.
+      icon: f13a6cad4bcaa974f8147e8a29a49dfe
+      name: Radiance
+      type: survival
+    - color: red
+      description: Reduces weapon charge time by 15 and charged Crescent Strike deals
+        4 bonus damage.
+      icon: 86a75fb294677254e8706e98f7507f8b
+      name: Saros Slash
+      type: offense
+    - color: yellow
+      description: Celestial Split heals 8 bonus health. Healing an ally reduces its
+        cooldown by 4.
+      icon: 6827f63e526ef4d46b82332e042bf06a
+      name: Sunwell
+      type: mobility
+    winrate: '37.5'
+  - damage: '3.7'
+    disable: '0.9'
+    energy: '3.1'
+    num: 15
+    protection: '5.1'
+    skills:
+    - color: red
+      description: Prismatic Strike hits charge your weapon by 50.
+      icon: 550d7ec44eda09941a7b713422b042d0
+      name: Celestial Cycle
+      type: offense
+    - color: pink
+      description: Lunar Strike can be recast within 1.8 to spawn Lesser Lunar Strike
+        with reduced radius and duration. It does not affect enemies already affected
+        by Lunar Strike.
+      icon: f138c9c126ce8934bbe8d6ba98327181
+      name: Lunatic
+      type: control
+    - color: red
+      description: Reduces weapon charge time by 15 and charged Crescent Strike deals
+        4 bonus damage.
+      icon: 86a75fb294677254e8706e98f7507f8b
+      name: Saros Slash
+      type: offense
+    - color: teal
+      description: Charged Crescent Strike hits empower your next Sunlight, causing
+        1 additional beam to heal the ally nearest the area for 12 health.
+      icon: f13a6cad4bcaa974f8147e8a29a49dfe
+      name: Sunbath
+      type: support
+    - color: yellow
+      description: Celestial Split heals 8 bonus health. Healing an ally reduces its
+        cooldown by 4.
+      icon: 6827f63e526ef4d46b82332e042bf06a
+      name: Sunwell
+      type: mobility
+    winrate: '66.7'
   - damage: '4.2'
     disable: '0.8'
     energy: '2.9'
@@ -253,22 +326,12 @@ builds:
       name: Saros Slash
       type: offense
     winrate: '60.0'
-  - damage: '4.4'
+  - damage: '2.9'
     disable: '0.9'
-    energy: '3.2'
-    num: 15
-    protection: '5.1'
+    energy: '2.8'
+    num: 12
+    protection: '5.4'
     skills:
-    - color: red
-      description: Prismatic Strike hits charge your weapon by 50.
-      icon: 550d7ec44eda09941a7b713422b042d0
-      name: Celestial Cycle
-      type: offense
-    - color: teal
-      description: Increases Weaken factor by 10 and duration by 1.
-      icon: 86a75fb294677254e8706e98f7507f8b
-      name: Debilitating Slash
-      type: support
     - color: pink
       description: Lunar Strike can be recast within 1.8 to spawn Lesser Lunar Strike
         with reduced radius and duration. It does not affect enemies already affected
@@ -276,30 +339,6 @@ builds:
       icon: f138c9c126ce8934bbe8d6ba98327181
       name: Lunatic
       type: control
-    - color: red
-      description: Reduces weapon charge time by 15 and charged Crescent Strike deals
-        4 bonus damage.
-      icon: 86a75fb294677254e8706e98f7507f8b
-      name: Saros Slash
-      type: offense
-    - color: teal
-      description: Charged Crescent Strike hits empower your next Sunlight, causing
-        1 additional beam to heal the ally nearest the area for 12 health.
-      icon: f13a6cad4bcaa974f8147e8a29a49dfe
-      name: Sunbath
-      type: support
-    winrate: '60.0'
-  - damage: '3.5'
-    disable: '0.7'
-    energy: '2.7'
-    num: 14
-    protection: '6.1'
-    skills:
-    - color: teal
-      description: Increases Weaken factor by 10 and duration by 1.
-      icon: 86a75fb294677254e8706e98f7507f8b
-      name: Debilitating Slash
-      type: support
     - color: green
       description: Sunlight heals you for 8 health when another ally is healed.
       icon: f13a6cad4bcaa974f8147e8a29a49dfe
@@ -323,50 +362,13 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '50.0'
-  - damage: '3.6'
-    disable: '0.9'
-    energy: '3.0'
-    num: 13
-    protection: '5.1'
-    skills:
-    - color: red
-      description: Prismatic Strike hits charge your weapon by 50.
-      icon: 550d7ec44eda09941a7b713422b042d0
-      name: Celestial Cycle
-      type: offense
-    - color: pink
-      description: Lunar Strike can be recast within 1.8 to spawn Lesser Lunar Strike
-        with reduced radius and duration. It does not affect enemies already affected
-        by Lunar Strike.
-      icon: f138c9c126ce8934bbe8d6ba98327181
-      name: Lunatic
-      type: control
-    - color: red
-      description: Reduces weapon charge time by 15 and charged Crescent Strike deals
-        4 bonus damage.
-      icon: 86a75fb294677254e8706e98f7507f8b
-      name: Saros Slash
-      type: offense
-    - color: teal
-      description: Charged Crescent Strike hits empower your next Sunlight, causing
-        1 additional beam to heal the ally nearest the area for 12 health.
-      icon: f13a6cad4bcaa974f8147e8a29a49dfe
-      name: Sunbath
-      type: support
-    - color: yellow
-      description: Celestial Split heals 8 bonus health. Healing an ally reduces its
-        cooldown by 4.
-      icon: 6827f63e526ef4d46b82332e042bf06a
-      name: Sunwell
-      type: mobility
-    winrate: '61.5'
+    winrate: '75.0'
   twos:
   - damage: '4.4'
     disable: '0.9'
-    energy: '3.0'
-    num: 84
-    protection: '4.5'
+    energy: '3.1'
+    num: 82
+    protection: '4.6'
     skills:
     - color: red
       description: Prismatic Strike hits charge your weapon by 50.
@@ -397,12 +399,12 @@ builds:
       icon: f13a6cad4bcaa974f8147e8a29a49dfe
       name: Sunbath
       type: support
-    winrate: '48.8'
-  - damage: '4.0'
-    disable: '0.8'
-    energy: '3.1'
-    num: 49
-    protection: '4.2'
+    winrate: '50.0'
+  - damage: '4.1'
+    disable: '0.9'
+    energy: '3.2'
+    num: 57
+    protection: '4.3'
     skills:
     - color: red
       description: Prismatic Strike hits charge your weapon by 50.
@@ -433,11 +435,11 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '38.8'
-  - damage: '4.5'
+    winrate: '45.6'
+  - damage: '4.4'
     disable: '0.9'
     energy: '2.9'
-    num: 41
+    num: 38
     protection: '3.9'
     skills:
     - color: red
@@ -470,11 +472,11 @@ builds:
       icon: f13a6cad4bcaa974f8147e8a29a49dfe
       name: Sunbath
       type: support
-    winrate: '36.6'
+    winrate: '34.2'
   - damage: '5.3'
     disable: '0.7'
     energy: '3.4'
-    num: 37
+    num: 35
     protection: '5.0'
     skills:
     - color: red
@@ -505,47 +507,12 @@ builds:
       icon: c2d82c257d770664682e9df0dadb6596
       name: Sunscreen
       type: survival
-    winrate: '62.2'
-  - damage: '5.6'
-    disable: '0.7'
-    energy: '3.3'
-    num: 32
-    protection: '5.0'
-    skills:
-    - color: red
-      description: Prismatic Strike hits charge your weapon by 50.
-      icon: 550d7ec44eda09941a7b713422b042d0
-      name: Celestial Cycle
-      type: offense
-    - color: grey
-      description: Celestial Split deals 6 bonus damage and max range increases by
-        20%.
-      icon: 6827f63e526ef4d46b82332e042bf06a
-      name: Cosmic Reach
-      type: mixed
-    - color: teal
-      description: Increases Weaken factor by 10 and duration by 1.
-      icon: 86a75fb294677254e8706e98f7507f8b
-      name: Debilitating Slash
-      type: support
-    - color: red
-      description: Reduces weapon charge time by 15 and charged Crescent Strike deals
-        4 bonus damage.
-      icon: 86a75fb294677254e8706e98f7507f8b
-      name: Saros Slash
-      type: offense
-    - color: teal
-      description: Charged Crescent Strike hits empower your next Sunlight, causing
-        1 additional beam to heal the ally nearest the area for 12 health.
-      icon: f13a6cad4bcaa974f8147e8a29a49dfe
-      name: Sunbath
-      type: support
-    winrate: '65.6'
-  - damage: '4.2'
+    winrate: '60.0'
+  - damage: '4.3'
     disable: '0.8'
     energy: '3.0'
-    num: 31
-    protection: '4.0'
+    num: 33
+    protection: '4.1'
     skills:
     - color: red
       description: Prismatic Strike hits charge your weapon by 50.
@@ -576,12 +543,12 @@ builds:
       icon: 86a75fb294677254e8706e98f7507f8b
       name: Saros Slash
       type: offense
-    winrate: '38.7'
-  - damage: '4.9'
+    winrate: '42.4'
+  - damage: '4.8'
     disable: '0.7'
-    energy: '3.2'
-    num: 27
-    protection: '4.4'
+    energy: '3.1'
+    num: 31
+    protection: '4.5'
     skills:
     - color: red
       description: Prismatic Strike hits charge your weapon by 50.
@@ -611,12 +578,12 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '59.3'
-  - damage: '3.5'
+    winrate: '64.5'
+  - damage: '3.6'
     disable: '0.6'
-    energy: '2.5'
-    num: 27
-    protection: '3.4'
+    energy: '2.4'
+    num: 28
+    protection: '3.1'
     skills:
     - color: grey
       description: Celestial Split deals 6 bonus damage and max range increases by
@@ -647,11 +614,11 @@ builds:
       icon: c2d82c257d770664682e9df0dadb6596
       name: Sunscreen
       type: survival
-    winrate: '40.7'
+    winrate: '53.6'
   - damage: '4.9'
-    disable: '0.6'
+    disable: '0.7'
     energy: '3.2'
-    num: 24
+    num: 27
     protection: '4.6'
     skills:
     - color: red
@@ -682,12 +649,47 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '79.2'
-  - damage: '3.9'
+    winrate: '66.7'
+  - damage: '5.2'
+    disable: '0.7'
+    energy: '3.3'
+    num: 24
+    protection: '4.8'
+    skills:
+    - color: red
+      description: Prismatic Strike hits charge your weapon by 50.
+      icon: 550d7ec44eda09941a7b713422b042d0
+      name: Celestial Cycle
+      type: offense
+    - color: grey
+      description: Celestial Split deals 6 bonus damage and max range increases by
+        20%.
+      icon: 6827f63e526ef4d46b82332e042bf06a
+      name: Cosmic Reach
+      type: mixed
+    - color: teal
+      description: Increases Weaken factor by 10 and duration by 1.
+      icon: 86a75fb294677254e8706e98f7507f8b
+      name: Debilitating Slash
+      type: support
+    - color: red
+      description: Reduces weapon charge time by 15 and charged Crescent Strike deals
+        4 bonus damage.
+      icon: 86a75fb294677254e8706e98f7507f8b
+      name: Saros Slash
+      type: offense
+    - color: teal
+      description: Charged Crescent Strike hits empower your next Sunlight, causing
+        1 additional beam to heal the ally nearest the area for 12 health.
+      icon: f13a6cad4bcaa974f8147e8a29a49dfe
+      name: Sunbath
+      type: support
+    winrate: '66.7'
+  - damage: '4.1'
     disable: '0.8'
     energy: '3.0'
-    num: 18
-    protection: '4.4'
+    num: 17
+    protection: '4.5'
     skills:
     - color: red
       description: Prismatic Strike hits charge your weapon by 50.
@@ -719,26 +721,26 @@ builds:
       icon: 6827f63e526ef4d46b82332e042bf06a
       name: Sunwell
       type: mobility
-    winrate: '66.7'
+    winrate: '64.7'
 compos:
   threes:
   - hero_names:
-    - Raigon
-    - Alysia
+    - Ashka
     - Sirius
+    - Raigon
     heros:
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 19
-    winrate: 0.8421052631578947
-    wins: 16
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    num: 15
+    winrate: 0.5333333333333333
+    wins: 8
   - hero_names:
     - Sirius
     - Raigon
@@ -753,77 +755,60 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 15
-    winrate: 0.6666666666666666
+    num: 14
+    winrate: 0.7142857142857143
     wins: 10
   - hero_names:
-    - Ashka
+    - Alysia
     - Sirius
     - Raigon
     heros:
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    num: 14
-    winrate: 0.5714285714285714
-    wins: 8
-  - hero_names:
-    - Ashka
-    - Thorn
-    - Sirius
-    heros:
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    num: 10
-    winrate: 0.4
-    wins: 4
-  - hero_names:
-    - Ashka
-    - Sirius
-    - Jamila
-    heros:
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    - icon: f283d6dda29cbc845b4f770a1482d75b
-      name: Jamila
-      title: jamila
-    num: 9
-    winrate: 0.2222222222222222
-    wins: 2
-  - hero_names:
-    - Thorn
-    - Alysia
-    - Sirius
-    heros:
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 9
-    winrate: 0.5555555555555556
-    wins: 5
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    num: 13
+    winrate: 0.7692307692307693
+    wins: 10
+  - hero_names:
+    - Ashka
+    - Thorn
+    - Sirius
+    heros:
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
+    num: 12
+    winrate: 0.5
+    wins: 6
+  - hero_names:
+    - Sirius
+    - Raigon
+    - Jamila
+    heros:
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    - icon: f283d6dda29cbc845b4f770a1482d75b
+      name: Jamila
+      title: jamila
+    num: 11
+    winrate: 0.5454545454545454
+    wins: 6
   - hero_names:
     - Varesh
     - Sirius
@@ -839,8 +824,25 @@ compos:
       name: Ruh Kaan
       title: ruh-kaan
     num: 9
-    winrate: 0.5555555555555556
-    wins: 5
+    winrate: 0.4444444444444444
+    wins: 4
+  - hero_names:
+    - Ashka
+    - Sirius
+    - Croak
+    heros:
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
+    num: 9
+    winrate: 0.3333333333333333
+    wins: 3
   - hero_names:
     - Rook
     - Sirius
@@ -856,29 +858,12 @@ compos:
       name: Varesh
       title: varesh
     num: 9
-    winrate: 0.6666666666666666
-    wins: 6
-  - hero_names:
-    - Sirius
-    - Croak
-    - Jade
-    heros:
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 8
-    winrate: 0.375
-    wins: 3
+    winrate: 0.5555555555555556
+    wins: 5
   - hero_names:
     - Thorn
     - Sirius
-    - Jumong
+    - Jade
     heros:
     - icon: aab126231d9ff344f9f88ab230a5e66f
       name: Thorn
@@ -886,12 +871,29 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    - icon: 42a665b9c285a1243a201c8d533980e5
-      name: Jumong
-      title: jumong
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
     num: 8
     winrate: 0.625
     wins: 5
+  - hero_names:
+    - Thorn
+    - Alysia
+    - Sirius
+    heros:
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: 50404d271ae2a4f4f8b52de966688dc1
+      name: Alysia
+      title: alysia
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
+    num: 8
+    winrate: 0.5
+    wins: 4
   twos:
   - hero_names:
     - Sirius
@@ -903,9 +905,22 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 120
-    winrate: 0.5333333333333333
-    wins: 64
+    num: 112
+    winrate: 0.5267857142857143
+    wins: 59
+  - hero_names:
+    - Shifu
+    - Sirius
+    heros:
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
+    num: 76
+    winrate: 0.42105263157894735
+    wins: 32
   - hero_names:
     - Sirius
     - Ruh Kaan
@@ -917,21 +932,8 @@ compos:
       name: Ruh Kaan
       title: ruh-kaan
     num: 75
-    winrate: 0.49333333333333335
-    wins: 37
-  - hero_names:
-    - Shifu
-    - Sirius
-    heros:
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    num: 70
-    winrate: 0.4142857142857143
-    wins: 29
+    winrate: 0.52
+    wins: 39
   - hero_names:
     - Sirius
     - Jamila
@@ -942,9 +944,22 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 69
-    winrate: 0.43478260869565216
-    wins: 30
+    num: 64
+    winrate: 0.453125
+    wins: 29
+  - hero_names:
+    - Freya
+    - Sirius
+    heros:
+    - icon: be081702a8e70fe44ac0a4e3a9c46368
+      name: Freya
+      title: freya
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
+    num: 61
+    winrate: 0.47540983606557374
+    wins: 29
   - hero_names:
     - Rook
     - Sirius
@@ -956,47 +971,8 @@ compos:
       name: Sirius
       title: sirius
     num: 59
-    winrate: 0.3898305084745763
-    wins: 23
-  - hero_names:
-    - Alysia
-    - Sirius
-    heros:
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    num: 58
-    winrate: 0.4827586206896552
-    wins: 28
-  - hero_names:
-    - Freya
-    - Sirius
-    heros:
-    - icon: be081702a8e70fe44ac0a4e3a9c46368
-      name: Freya
-      title: freya
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    num: 58
-    winrate: 0.4482758620689655
-    wins: 26
-  - hero_names:
-    - Sirius
-    - Croak
-    heros:
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
-    num: 56
-    winrate: 0.5357142857142857
-    wins: 30
+    winrate: 0.3728813559322034
+    wins: 22
   - hero_names:
     - Sirius
     - Varesh
@@ -1007,9 +983,22 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
+    num: 57
+    winrate: 0.45614035087719296
+    wins: 26
+  - hero_names:
+    - Bakko
+    - Sirius
+    heros:
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
     num: 53
-    winrate: 0.41509433962264153
-    wins: 22
+    winrate: 0.49056603773584906
+    wins: 26
   - hero_names:
     - Iva
     - Sirius
@@ -1020,9 +1009,22 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 51
-    winrate: 0.45098039215686275
+    num: 52
+    winrate: 0.4423076923076923
     wins: 23
+  - hero_names:
+    - Sirius
+    - Jade
+    heros:
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 51
+    winrate: 0.5098039215686274
+    wins: 26
 description: Sirius, a calm prodigy who uses the energies of stars and planets as
   destructive spells and healing powers. The prophecy was true and foretold the birth
   of the Zenith.
@@ -1030,11 +1032,11 @@ icon: aa93dc83288cb954aa3a97aabe8320dd
 layout: character
 name: sirius
 num:
-  threes: 593
-  twos: 957
+  threes: 556
+  twos: 961
 title: Sirius
 url: characters/sirius.html
 winrate:
-  threes: '50.25'
-  twos: '45.04'
+  threes: '49.46'
+  twos: '45.58'
 ...
