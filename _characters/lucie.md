@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '3.2'
+  - damage: '3.3'
     disable: '0.9'
     energy: '3.1'
-    num: 53
+    num: 52
     protection: '5.5'
     skills:
     - color: yellow
@@ -34,11 +34,11 @@ builds:
       icon: 470a917c1ac62c04ea45acc6a35c5f73
       name: Swift Roll
       type: mobility
-    winrate: '41.5'
-  - damage: '3.5'
+    winrate: '42.3'
+  - damage: '3.4'
     disable: '0.9'
     energy: '3.2'
-    num: 49
+    num: 46
     protection: '5.7'
     skills:
     - color: yellow
@@ -67,11 +67,11 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '42.9'
-  - damage: '4.8'
+    winrate: '39.1'
+  - damage: '4.7'
     disable: '1.0'
     energy: '2.9'
-    num: 39
+    num: 34
     protection: '6.6'
     skills:
     - color: teal
@@ -100,12 +100,12 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '23.1'
+    winrate: '26.5'
   - damage: '3.8'
     disable: '1.0'
     energy: '2.6'
-    num: 23
-    protection: '5.5'
+    num: 22
+    protection: '5.4'
     skills:
     - color: yellow
       description: ^2Barrier^- increases movement speed by 33.
@@ -134,11 +134,45 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '47.8'
-  - damage: '4.0'
+    winrate: '45.5'
+  - damage: '4.3'
+    disable: '0.9'
+    energy: '3.1'
+    num: 19
+    protection: '6.5'
+    skills:
+    - color: grey
+      description: Applying Barrier causes a shockwave, dealing 10 damage to nearby
+        enemies and knocking them back.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
+      name: Blast Shield
+      type: mixed
+    - color: teal
+      description: Healing Potion heals other allies for 4 bonus health.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Companion Potion
+      type: support
+    - color: grey
+      description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
+        10 damage when removing a buff.
+      icon: d0c4449b33eef2e4ca2cfa8900910041
+      name: Potency
+      type: mixed
+    - color: red
+      description: ^2Revitalize^- increases damage output by 12.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Stimulant
+      type: offense
+    - color: grey
+      description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
+      icon: 948d85cf5c36f504f8b964acde19ed3e
+      name: Weakening Toxin
+      type: mixed
+    winrate: '52.6'
+  - damage: '3.9'
     disable: '1.0'
-    energy: '3.2'
-    num: 21
+    energy: '3.1'
+    num: 19
     protection: '5.4'
     skills:
     - color: yellow
@@ -168,45 +202,11 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '76.2'
-  - damage: '4.3'
-    disable: '0.9'
-    energy: '3.1'
-    num: 18
-    protection: '6.6'
-    skills:
-    - color: grey
-      description: Applying Barrier causes a shockwave, dealing 10 damage to nearby
-        enemies and knocking them back.
-      icon: 46e144a65c818c04eb3d00a21cf513b3
-      name: Blast Shield
-      type: mixed
-    - color: teal
-      description: Healing Potion heals other allies for 4 bonus health.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Companion Potion
-      type: support
-    - color: grey
-      description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
-        10 damage when removing a buff.
-      icon: d0c4449b33eef2e4ca2cfa8900910041
-      name: Potency
-      type: mixed
-    - color: red
-      description: ^2Revitalize^- increases damage output by 12.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Stimulant
-      type: offense
-    - color: grey
-      description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
-      icon: 948d85cf5c36f504f8b964acde19ed3e
-      name: Weakening Toxin
-      type: mixed
-    winrate: '55.6'
+    winrate: '73.7'
   - damage: '3.8'
     disable: '0.9'
-    energy: '2.9'
-    num: 16
+    energy: '3.0'
+    num: 15
     protection: '5.7'
     skills:
     - color: teal
@@ -236,7 +236,7 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '56.2'
+    winrate: '53.3'
   - damage: '3.2'
     disable: '1.1'
     energy: '2.5'
@@ -307,28 +307,28 @@ builds:
       name: Swift Roll
       type: mobility
     winrate: '91.7'
-  - damage: '4.3'
-    disable: '1.0'
-    energy: '3.3'
-    num: 12
-    protection: '5.7'
+  - damage: '4.2'
+    disable: '1.1'
+    energy: '3.2'
+    num: 10
+    protection: '5.6'
     skills:
     - color: yellow
       description: ^2Barrier^- increases movement speed by 33.
       icon: 46e144a65c818c04eb3d00a21cf513b3
       name: Alacrity
       type: mobility
+    - color: grey
+      description: Applying Barrier causes a shockwave, dealing 10 damage to nearby
+        enemies and knocking them back.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
+      name: Blast Shield
+      type: mixed
     - color: teal
       description: Healing Potion heals other allies for 4 bonus health.
       icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Companion Potion
       type: support
-    - color: grey
-      description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
-        10 damage when removing a buff.
-      icon: d0c4449b33eef2e4ca2cfa8900910041
-      name: Potency
-      type: mixed
     - color: red
       description: ^2Revitalize^- increases damage output by 12.
       icon: 940ddc80c69eead49bfc8a5066a9afc5
@@ -339,12 +339,12 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '83.3'
+    winrate: '50.0'
   twos:
-  - damage: '4.3'
+  - damage: '4.2'
     disable: '1.1'
     energy: '2.8'
-    num: 45
+    num: 43
     protection: '4.8'
     skills:
     - color: yellow
@@ -374,11 +374,11 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '60.0'
+    winrate: '58.1'
   - damage: '4.2'
     disable: '0.9'
     energy: '3.0'
-    num: 26
+    num: 27
     protection: '4.2'
     skills:
     - color: yellow
@@ -407,12 +407,12 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '57.7'
-  - damage: '4.2'
+    winrate: '59.3'
+  - damage: '4.3'
     disable: '1.0'
-    energy: '2.8'
-    num: 26
-    protection: '4.6'
+    energy: '2.9'
+    num: 22
+    protection: '4.4'
     skills:
     - color: yellow
       description: ^2Barrier^- increases movement speed by 33.
@@ -441,7 +441,7 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '53.8'
+    winrate: '59.1'
   - damage: '2.4'
     disable: '0.6'
     energy: '1.6'
@@ -512,9 +512,9 @@ builds:
     winrate: '28.6'
   - damage: '5.6'
     disable: '1.2'
-    energy: '3.3'
-    num: 13
-    protection: '4.8'
+    energy: '3.4'
+    num: 14
+    protection: '4.9'
     skills:
     - color: yellow
       description: ^2Barrier^- increases movement speed by 33.
@@ -543,12 +543,12 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '61.5'
-  - damage: '4.2'
+    winrate: '64.3'
+  - damage: '4.1'
     disable: '1.0'
     energy: '2.7'
-    num: 13
-    protection: '4.9'
+    num: 14
+    protection: '4.8'
     skills:
     - color: red
       description: Panic Flask deals 10 bonus damage.
@@ -577,7 +577,7 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '30.8'
+    winrate: '28.6'
   - damage: '5.0'
     disable: '1.8'
     energy: '3.9'
@@ -612,41 +612,6 @@ builds:
       name: Vampiric Toxin
       type: survival
     winrate: '58.3'
-  - damage: '3.8'
-    disable: '0.9'
-    energy: '26.6'
-    num: 12
-    protection: '3.8'
-    skills:
-    - color: yellow
-      description: ^2Barrier^- increases movement speed by 33.
-      icon: 46e144a65c818c04eb3d00a21cf513b3
-      name: Alacrity
-      type: mobility
-    - color: grey
-      description: Applying Barrier causes a shockwave, dealing 10 damage to nearby
-        enemies and knocking them back.
-      icon: 46e144a65c818c04eb3d00a21cf513b3
-      name: Blast Shield
-      type: mixed
-    - color: grey
-      description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
-        10 damage when removing a buff.
-      icon: d0c4449b33eef2e4ca2cfa8900910041
-      name: Potency
-      type: mixed
-    - color: red
-      description: ^2Revitalize^- increases damage output by 12.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Stimulant
-      type: offense
-    - color: yellow
-      description: Roll increases movement speed by 33 for 2.5. Reduces cooldown of
-        Roll by 3.
-      icon: 470a917c1ac62c04ea45acc6a35c5f73
-      name: Swift Roll
-      type: mobility
-    winrate: '41.7'
   - damage: '4.8'
     disable: '1.4'
     energy: '2.8'
@@ -681,6 +646,39 @@ builds:
       name: Weakening Toxin
       type: mixed
     winrate: '54.5'
+  - damage: '5.4'
+    disable: '1.1'
+    energy: '3.3'
+    num: 10
+    protection: '5.5'
+    skills:
+    - color: yellow
+      description: ^2Barrier^- increases movement speed by 33.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
+      name: Alacrity
+      type: mobility
+    - color: grey
+      description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
+        10 damage when removing a buff.
+      icon: d0c4449b33eef2e4ca2cfa8900910041
+      name: Potency
+      type: mixed
+    - color: pink
+      description: Increases Snare factor of Crippling Goo from 35 to 60.
+      icon: d2c956821eb75a44e98ec7c47710a0cf
+      name: Sticky Goo
+      type: control
+    - color: red
+      description: ^2Revitalize^- increases damage output by 12.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Stimulant
+      type: offense
+    - color: grey
+      description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
+      icon: 948d85cf5c36f504f8b964acde19ed3e
+      name: Weakening Toxin
+      type: mixed
+    winrate: '80.0'
 compos:
   threes:
   - hero_names:
@@ -697,9 +695,9 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 16
-    winrate: 0.375
-    wins: 6
+    num: 13
+    winrate: 0.38461538461538464
+    wins: 5
   - hero_names:
     - Alysia
     - Raigon
@@ -735,22 +733,22 @@ compos:
     winrate: 0.5
     wins: 6
   - hero_names:
-    - Ashka
-    - Thorn
+    - Croak
+    - Jade
     - Lucie
     heros:
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
     num: 11
-    winrate: 0.18181818181818182
-    wins: 2
+    winrate: 0.7272727272727273
+    wins: 8
   - hero_names:
     - Ashka
     - Ruh Kaan
@@ -766,25 +764,42 @@ compos:
       name: Lucie
       title: lucie
     num: 10
-    winrate: 0.5
-    wins: 5
+    winrate: 0.4
+    wins: 4
   - hero_names:
-    - Croak
-    - Jade
+    - Ashka
+    - Thorn
     - Lucie
     heros:
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
     num: 10
-    winrate: 0.8
-    wins: 8
+    winrate: 0.2
+    wins: 2
+  - hero_names:
+    - Thorn
+    - Iva
+    - Lucie
+    heros:
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: decba44679fbdae4bb7d0d1cb6a97682
+      name: Iva
+      title: iva
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 9
+    winrate: 0.6666666666666666
+    wins: 6
   - hero_names:
     - Ashka
     - Freya
@@ -804,40 +819,6 @@ compos:
     wins: 3
   - hero_names:
     - Thorn
-    - Iva
-    - Lucie
-    heros:
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    - icon: decba44679fbdae4bb7d0d1cb6a97682
-      name: Iva
-      title: iva
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 8
-    winrate: 0.75
-    wins: 6
-  - hero_names:
-    - Freya
-    - Jade
-    - Lucie
-    heros:
-    - icon: be081702a8e70fe44ac0a4e3a9c46368
-      name: Freya
-      title: freya
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 8
-    winrate: 0.625
-    wins: 5
-  - hero_names:
-    - Thorn
     - Alysia
     - Lucie
     heros:
@@ -853,6 +834,23 @@ compos:
     num: 8
     winrate: 0.375
     wins: 3
+  - hero_names:
+    - Jade
+    - Raigon
+    - Lucie
+    heros:
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 7
+    winrate: 0.7142857142857143
+    wins: 5
   twos:
   - hero_names:
     - Raigon
@@ -864,22 +862,9 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 85
-    winrate: 0.5764705882352941
-    wins: 49
-  - hero_names:
-    - Bakko
-    - Lucie
-    heros:
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 63
-    winrate: 0.49206349206349204
-    wins: 31
+    num: 88
+    winrate: 0.5681818181818182
+    wins: 50
   - hero_names:
     - Lucie
     - Varesh
@@ -894,6 +879,19 @@ compos:
     winrate: 0.5806451612903226
     wins: 36
   - hero_names:
+    - Bakko
+    - Lucie
+    heros:
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 61
+    winrate: 0.5081967213114754
+    wins: 31
+  - hero_names:
     - Shifu
     - Lucie
     heros:
@@ -903,35 +901,9 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 59
-    winrate: 0.576271186440678
-    wins: 34
-  - hero_names:
-    - Lucie
-    - Ruh Kaan
-    heros:
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    - icon: bb37e5d448c511e47b808987d0d4f9e8
-      name: Ruh Kaan
-      title: ruh-kaan
-    num: 47
-    winrate: 0.5531914893617021
-    wins: 26
-  - hero_names:
-    - Rook
-    - Lucie
-    heros:
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 46
-    winrate: 0.5
-    wins: 23
+    num: 58
+    winrate: 0.5689655172413793
+    wins: 33
   - hero_names:
     - Freya
     - Lucie
@@ -942,9 +914,35 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 44
-    winrate: 0.5681818181818182
+    num: 48
+    winrate: 0.6458333333333334
+    wins: 31
+  - hero_names:
+    - Lucie
+    - Ruh Kaan
+    heros:
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    - icon: bb37e5d448c511e47b808987d0d4f9e8
+      name: Ruh Kaan
+      title: ruh-kaan
+    num: 46
+    winrate: 0.5434782608695652
     wins: 25
+  - hero_names:
+    - Rook
+    - Lucie
+    heros:
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 45
+    winrate: 0.5111111111111111
+    wins: 23
   - hero_names:
     - Jamila
     - Lucie
@@ -955,8 +953,8 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 42
-    winrate: 0.4523809523809524
+    num: 40
+    winrate: 0.475
     wins: 19
   - hero_names:
     - Thorn
@@ -968,33 +966,33 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 39
-    winrate: 0.5128205128205128
-    wins: 20
+    num: 36
+    winrate: 0.5833333333333334
+    wins: 21
   - hero_names:
-    - Alysia
+    - Croak
     - Lucie
     heros:
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 37
-    winrate: 0.5405405405405406
-    wins: 20
+    num: 36
+    winrate: 0.3888888888888889
+    wins: 14
 description: Lucie is a diverse contender who knows which brew makes you choke, heal
   or flee in fear. The arena has become her new playground for wild experiments.
 icon: e5554b8a15ffc1a499a3807bb3a37b56
 layout: character
 name: lucie
 num:
-  threes: 578
-  twos: 746
+  threes: 563
+  twos: 729
 title: Lucie
 url: characters/lucie.html
 winrate:
-  threes: '46.19'
-  twos: '51.88'
+  threes: '45.47'
+  twos: '53.64'
 ...
