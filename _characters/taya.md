@@ -3,8 +3,8 @@ builds:
   threes:
   - damage: '7.5'
     disable: '0.7'
-    energy: '3.1'
-    num: 139
+    energy: '3.2'
+    num: 135
     protection: '0.1'
     skills:
     - color: red
@@ -35,11 +35,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '56.1'
+    winrate: '56.3'
   - damage: '7.2'
     disable: '0.7'
     energy: '3.1'
-    num: 41
+    num: 45
     protection: '0.7'
     skills:
     - color: green
@@ -71,11 +71,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '51.2'
+    winrate: '48.9'
   - damage: '7.6'
     disable: '0.7'
     energy: '3.4'
-    num: 38
+    num: 35
     protection: '0.2'
     skills:
     - color: red
@@ -107,11 +107,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '34.2'
-  - damage: '7.8'
+    winrate: '37.1'
+  - damage: '7.7'
     disable: '0.9'
-    energy: '3.4'
-    num: 16
+    energy: '3.3'
+    num: 13
     protection: '0.2'
     skills:
     - color: pink
@@ -142,10 +142,10 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '56.2'
-  - damage: '6.0'
-    disable: '0.5'
-    energy: '3.4'
+    winrate: '53.8'
+  - damage: '6.6'
+    disable: '0.6'
+    energy: '3.5'
     num: 12
     protection: '0.2'
     skills:
@@ -179,6 +179,42 @@ builds:
       name: Wind Stream
       type: mobility
     winrate: '41.7'
+  - damage: '7.0'
+    disable: '0.8'
+    energy: '3.3'
+    num: 10
+    protection: '0.8'
+    skills:
+    - color: green
+      description: During Haste, the first hit of each Razor Boomerang heals you for
+        6 health.
+      icon: e6c2b076242187d44941ae0cefa96f62
+      name: Breath of Air
+      type: survival
+    - color: pink
+      description: During Haste, Razor Boomerang inflicts Fading Snare for 0.4.
+      icon: e6c2b076242187d44941ae0cefa96f62
+      name: Cold Wind
+      type: control
+    - color: red
+      description: X-Strike boomerangs each deal 4 bonus damage, and an additional
+        4 bonus damage if both boomerangs hit at the intersection.
+      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
+      name: Cross Cut
+      type: offense
+    - color: yellow
+      description: During Haste, X-Strike can be used while moving at 55 movement
+        speed.
+      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
+      name: Surprise Attack
+      type: mobility
+    - color: yellow
+      description: Increases Wind Stream duration by 1 and the Haste duration it grants
+        by 0.8.
+      icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
+      name: Wind Stream
+      type: mobility
+    winrate: '70.0'
   - damage: '7.7'
     disable: '0.8'
     energy: '2.7'
@@ -216,9 +252,9 @@ builds:
     winrate: '66.7'
   - damage: '9.0'
     disable: '0.7'
-    energy: '3.6'
-    num: 9
-    protection: '1.0'
+    energy: '3.5'
+    num: 7
+    protection: '1.1'
     skills:
     - color: green
       description: During Haste, the first hit of each Razor Boomerang heals you for
@@ -248,42 +284,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '66.7'
-  - damage: '6.9'
-    disable: '0.7'
-    energy: '3.2'
-    num: 8
-    protection: '0.1'
-    skills:
-    - color: red
-      description: X-Strike boomerangs each deal 4 bonus damage, and an additional
-        4 bonus damage if both boomerangs hit at the intersection.
-      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
-      name: Cross Cut
-      type: offense
-    - color: pink
-      description: Wind Strike inflicts Stun for 0.8 to enemies knocked into walls.
-      icon: 9a292cf4ed808d54c922ab48f5881c5a
-      name: Cyclone
-      type: control
-    - color: pink
-      description: Haste spawns a gale that slows enemy projectiles for 2.
-      icon: a3165fe585dd0ee44a95681889b39ca8
-      name: Gale
-      type: control
-    - color: yellow
-      description: During Haste, X-Strike can be used while moving at 55 movement
-        speed.
-      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
-      name: Surprise Attack
-      type: mobility
-    - color: yellow
-      description: Increases Wind Stream duration by 1 and the Haste duration it grants
-        by 0.8.
-      icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
-      name: Wind Stream
-      type: mobility
-    winrate: '25.0'
+    winrate: '57.1'
   - damage: '6.6'
     disable: '0.7'
     energy: '3.0'
@@ -318,7 +319,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '42.9'
+    winrate: '57.1'
   - damage: '8.5'
     disable: '0.7'
     energy: '3.8'
@@ -356,10 +357,10 @@ builds:
       type: mobility
     winrate: '83.3'
   twos:
-  - damage: '7.1'
+  - damage: '7.0'
     disable: '0.7'
     energy: '3.1'
-    num: 92
+    num: 86
     protection: '0.1'
     skills:
     - color: red
@@ -390,11 +391,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '50.0'
+    winrate: '48.8'
   - damage: '7.1'
     disable: '0.6'
     energy: '3.3'
-    num: 69
+    num: 65
     protection: '0.2'
     skills:
     - color: red
@@ -426,11 +427,11 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '55.1'
-  - damage: '7.1'
-    disable: '0.6'
-    energy: '3.1'
-    num: 47
+    winrate: '56.9'
+  - damage: '6.9'
+    disable: '0.5'
+    energy: '3.0'
+    num: 45
     protection: '0.7'
     skills:
     - color: green
@@ -462,12 +463,12 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '48.9'
-  - damage: '8.0'
+    winrate: '44.4'
+  - damage: '7.9'
     disable: '0.9'
-    energy: '3.4'
-    num: 43
-    protection: '0.2'
+    energy: '3.3'
+    num: 36
+    protection: '0.1'
     skills:
     - color: pink
       description: During Haste, Razor Boomerang inflicts Fading Snare for 0.4.
@@ -497,43 +498,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '55.8'
-  - damage: '6.9'
-    disable: '0.6'
-    energy: '2.4'
-    num: 13
-    protection: '0.0'
-    skills:
-    - color: red
-      description: X-Strike boomerangs each deal 4 bonus damage, and an additional
-        4 bonus damage if both boomerangs hit at the intersection.
-      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
-      name: Cross Cut
-      type: offense
-    - color: pink
-      description: Wind Strike inflicts Stun for 0.8 to enemies knocked into walls.
-      icon: 9a292cf4ed808d54c922ab48f5881c5a
-      name: Cyclone
-      type: control
-    - color: yellow
-      description: During Haste, X-Strike can be used while moving at 55 movement
-        speed.
-      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
-      name: Surprise Attack
-      type: mobility
-    - color: red
-      description: Hitting an enemy with Wind Strike causes your next Razor Boomerang
-        to deal 4 bonus damage.
-      icon: 9a292cf4ed808d54c922ab48f5881c5a
-      name: Turbulence
-      type: offense
-    - color: yellow
-      description: Increases Wind Stream duration by 1 and the Haste duration it grants
-        by 0.8.
-      icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
-      name: Wind Stream
-      type: mobility
-    winrate: '69.2'
+    winrate: '58.3'
   - damage: '8.0'
     disable: '0.9'
     energy: '3.0'
@@ -569,6 +534,42 @@ builds:
       name: Wind Stream
       type: mobility
     winrate: '50.0'
+  - damage: '6.8'
+    disable: '0.7'
+    energy: '2.4'
+    num: 11
+    protection: '0.0'
+    skills:
+    - color: red
+      description: X-Strike boomerangs each deal 4 bonus damage, and an additional
+        4 bonus damage if both boomerangs hit at the intersection.
+      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
+      name: Cross Cut
+      type: offense
+    - color: pink
+      description: Wind Strike inflicts Stun for 0.8 to enemies knocked into walls.
+      icon: 9a292cf4ed808d54c922ab48f5881c5a
+      name: Cyclone
+      type: control
+    - color: yellow
+      description: During Haste, X-Strike can be used while moving at 55 movement
+        speed.
+      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
+      name: Surprise Attack
+      type: mobility
+    - color: red
+      description: Hitting an enemy with Wind Strike causes your next Razor Boomerang
+        to deal 4 bonus damage.
+      icon: 9a292cf4ed808d54c922ab48f5881c5a
+      name: Turbulence
+      type: offense
+    - color: yellow
+      description: Increases Wind Stream duration by 1 and the Haste duration it grants
+        by 0.8.
+      icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
+      name: Wind Stream
+      type: mobility
+    winrate: '72.7'
   - damage: '7.2'
     disable: '0.8'
     energy: '3.3'
@@ -638,10 +639,10 @@ builds:
       name: Gale
       type: control
     winrate: '57.1'
-  - damage: '6.8'
-    disable: '0.7'
-    energy: '2.7'
-    num: 7
+  - damage: '7.3'
+    disable: '0.8'
+    energy: '2.9'
+    num: 6
     protection: '0.0'
     skills:
     - color: red
@@ -673,7 +674,7 @@ builds:
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '28.6'
+    winrate: '33.3'
   - damage: '6.1'
     disable: '0.6'
     energy: '2.5'
@@ -727,25 +728,8 @@ compos:
       name: Oldur
       title: oldur
     num: 15
-    winrate: 0.7333333333333333
-    wins: 11
-  - hero_names:
-    - Taya
-    - Blossom
-    - Ruh Kaan
-    heros:
-    - icon: 2905515bc00a1d64e83466ec8e50f8b6
-      name: Taya
-      title: taya
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: bb37e5d448c511e47b808987d0d4f9e8
-      name: Ruh Kaan
-      title: ruh-kaan
-    num: 12
-    winrate: 0.4166666666666667
-    wins: 5
+    winrate: 0.6666666666666666
+    wins: 10
   - hero_names:
     - Taya
     - Blossom
@@ -760,9 +744,43 @@ compos:
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    num: 11
-    winrate: 0.5454545454545454
-    wins: 6
+    num: 13
+    winrate: 0.6153846153846154
+    wins: 8
+  - hero_names:
+    - Taya
+    - Raigon
+    - Poloma
+    heros:
+    - icon: 2905515bc00a1d64e83466ec8e50f8b6
+      name: Taya
+      title: taya
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    num: 12
+    winrate: 0.5833333333333334
+    wins: 7
+  - hero_names:
+    - Taya
+    - Blossom
+    - Jamila
+    heros:
+    - icon: 2905515bc00a1d64e83466ec8e50f8b6
+      name: Taya
+      title: taya
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    - icon: f283d6dda29cbc845b4f770a1482d75b
+      name: Jamila
+      title: jamila
+    num: 12
+    winrate: 0.6666666666666666
+    wins: 8
   - hero_names:
     - Thorn
     - Taya
@@ -778,29 +796,12 @@ compos:
       name: Blossom
       title: blossom
     num: 11
-    winrate: 0.6363636363636364
-    wins: 7
-  - hero_names:
-    - Taya
-    - Raigon
-    - Poloma
-    heros:
-    - icon: 2905515bc00a1d64e83466ec8e50f8b6
-      name: Taya
-      title: taya
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    num: 10
-    winrate: 0.7
-    wins: 7
+    winrate: 0.5454545454545454
+    wins: 6
   - hero_names:
     - Taya
     - Blossom
-    - Jamila
+    - Ruh Kaan
     heros:
     - icon: 2905515bc00a1d64e83466ec8e50f8b6
       name: Taya
@@ -808,62 +809,28 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    - icon: f283d6dda29cbc845b4f770a1482d75b
-      name: Jamila
-      title: jamila
-    num: 10
-    winrate: 0.7
-    wins: 7
-  - hero_names:
-    - Taya
-    - Poloma
-    - Jamila
-    heros:
-    - icon: 2905515bc00a1d64e83466ec8e50f8b6
-      name: Taya
-      title: taya
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    - icon: f283d6dda29cbc845b4f770a1482d75b
-      name: Jamila
-      title: jamila
-    num: 9
-    winrate: 0.3333333333333333
-    wins: 3
-  - hero_names:
-    - Rook
-    - Taya
-    - Oldur
-    heros:
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
-    - icon: 2905515bc00a1d64e83466ec8e50f8b6
-      name: Taya
-      title: taya
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
+    - icon: bb37e5d448c511e47b808987d0d4f9e8
+      name: Ruh Kaan
+      title: ruh-kaan
     num: 8
-    winrate: 0.75
-    wins: 6
+    winrate: 0.5
+    wins: 4
   - hero_names:
-    - Rook
     - Taya
-    - Poloma
+    - Blossom
+    - Bakko
     heros:
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
     - icon: 2905515bc00a1d64e83466ec8e50f8b6
       name: Taya
       title: taya
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    num: 8
-    winrate: 0.625
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    num: 7
+    winrate: 0.7142857142857143
     wins: 5
   - hero_names:
     - Taya
@@ -879,9 +846,43 @@ compos:
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    num: 8
-    winrate: 0.75
+    num: 7
+    winrate: 0.8571428571428571
     wins: 6
+  - hero_names:
+    - Taya
+    - Poloma
+    - Bakko
+    heros:
+    - icon: 2905515bc00a1d64e83466ec8e50f8b6
+      name: Taya
+      title: taya
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    num: 7
+    winrate: 0.5714285714285714
+    wins: 4
+  - hero_names:
+    - Taya
+    - Blossom
+    - Raigon
+    heros:
+    - icon: 2905515bc00a1d64e83466ec8e50f8b6
+      name: Taya
+      title: taya
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    num: 6
+    winrate: 0.6666666666666666
+    wins: 4
   twos:
   - hero_names:
     - Taya
@@ -893,9 +894,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 54
-    winrate: 0.5370370370370371
-    wins: 29
+    num: 44
+    winrate: 0.4772727272727273
+    wins: 21
   - hero_names:
     - Taya
     - Sirius
@@ -906,9 +907,9 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 44
-    winrate: 0.6818181818181818
-    wins: 30
+    num: 41
+    winrate: 0.6829268292682927
+    wins: 28
   - hero_names:
     - Taya
     - Oldur
@@ -919,9 +920,9 @@ compos:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    num: 39
-    winrate: 0.4358974358974359
-    wins: 17
+    num: 37
+    winrate: 0.43243243243243246
+    wins: 16
   - hero_names:
     - Taya
     - Pearl
@@ -945,22 +946,9 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 26
-    winrate: 0.5384615384615384
+    num: 25
+    winrate: 0.56
     wins: 14
-  - hero_names:
-    - Rook
-    - Taya
-    heros:
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
-    - icon: 2905515bc00a1d64e83466ec8e50f8b6
-      name: Taya
-      title: taya
-    num: 24
-    winrate: 0.3333333333333333
-    wins: 8
   - hero_names:
     - Taya
     - Poloma
@@ -971,9 +959,9 @@ compos:
     - icon: 9872f8cd16d7327418b09294cfa319e6
       name: Poloma
       title: poloma
-    num: 23
-    winrate: 0.6086956521739131
-    wins: 14
+    num: 24
+    winrate: 0.625
+    wins: 15
   - hero_names:
     - Taya
     - Lucie
@@ -988,18 +976,18 @@ compos:
     winrate: 0.6086956521739131
     wins: 14
   - hero_names:
+    - Rook
     - Taya
-    - Raigon
     heros:
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
     - icon: 2905515bc00a1d64e83466ec8e50f8b6
       name: Taya
       title: taya
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    num: 19
-    winrate: 0.3684210526315789
-    wins: 7
+    num: 22
+    winrate: 0.36363636363636365
+    wins: 8
   - hero_names:
     - Pestilus
     - Taya
@@ -1010,9 +998,22 @@ compos:
     - icon: 2905515bc00a1d64e83466ec8e50f8b6
       name: Taya
       title: taya
-    num: 17
-    winrate: 0.6470588235294118
+    num: 18
+    winrate: 0.6111111111111112
     wins: 11
+  - hero_names:
+    - Taya
+    - Raigon
+    heros:
+    - icon: 2905515bc00a1d64e83466ec8e50f8b6
+      name: Taya
+      title: taya
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    num: 17
+    winrate: 0.4117647058823529
+    wins: 7
 description: An exceptionally swift hunter wielding a razor sharp boomerang. By shaping
   the wind around her Taya is able to increase her speed and control her boomerang
   with deadly precision.
@@ -1020,11 +1021,11 @@ icon: 2905515bc00a1d64e83466ec8e50f8b6
 layout: character
 name: taya
 num:
-  threes: 379
-  twos: 404
+  threes: 365
+  twos: 379
 title: Taya
 url: characters/taya.html
 winrate:
-  threes: '50.40'
-  twos: '46.53'
+  threes: '50.41'
+  twos: '46.44'
 ...
