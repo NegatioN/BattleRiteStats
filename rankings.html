@@ -6,18 +6,18 @@ explainer: True
 <div class="characters">
     <div class="table">
         <div class="row">
-            <div class="col-xs-4 col-md-2 padding-0 ranking-text"><b>Mode: 2 vs 2</b></div>
+            <div class="col-xs-4 col-md-2 padding-0 ranking-text"><b>Mode: 3 vs 3</b></div>
             <div class="col-xs-4 col-md-5 padding-0 ranking-text"><b>Num. matches</b></div>
             <div class="col-xs-4 col-md-5 padding-0 ranking-text"><b>Winrate</b></div>
         </div>
-        {% for char in site.data.cdata.twos %}
+        {% for char in site.data.cdata.threes %}
         <div class="row build-wrapper">
-                <div class="col-xs-4 col-md-2 padding-0">
-                    <a href="{{site.url}}/characters/{{char.title}}">
-                        <img alt="{{char.name}}" src="{{site.url}}/assets/img/{{char.icon}}.png" />
-                        <div class="text-bottomz">{{char.name}}</div>
-                    </a>
-                </div>
+            <div class="col-xs-4 col-md-2 padding-0">
+                <a href="{{site.url}}/characters/{{char.title}}">
+                    <img alt="{{char.name}}" src="{{site.url}}/assets/img/{{char.icon}}.png" />
+                    <div class="text-bottomz">{{char.name}}</div>
+                </a>
+            </div>
             <div class="col-xs-4 col-md-5 padding-0 ranking-text">{{ char.num }}</div>
             <div class="col-xs-4 col-md-5 padding-0 ranking-text">{{ char.winrate | times: 100 | slice: 0, 5 }}%</div>
         </div>
@@ -36,11 +36,11 @@ explainer: True
 
     <div class="table">
         <div class="row">
-            <div class="col-xs-4 col-md-2 padding-0 ranking-text"><b>Mode: 3 vs 3</b></div>
+            <div class="col-xs-4 col-md-2 padding-0 ranking-text"><b>Mode: 2 vs 2</b></div>
             <div class="col-xs-4 col-md-5 padding-0 ranking-text"><b>Num. matches</b></div>
             <div class="col-xs-4 col-md-5 padding-0 ranking-text"><b>Winrate</b></div>
         </div>
-        {% for char in site.data.cdata.threes %}
+        {% for char in site.data.cdata.twos %}
         <div class="row build-wrapper">
             <div class="col-xs-4 col-md-2 padding-0">
                 <a href="{{site.url}}/characters/{{char.title}}">
