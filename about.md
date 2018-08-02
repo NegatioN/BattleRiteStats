@@ -22,7 +22,7 @@ These statistics are computed averages for each round played with a given build.
 
 Is there anything that leaves you puzzled? Or maybe something you want to help out the site with?
 
-Contact me directly on twitter [@JoakimRi](https://twitter.com/JoakimRi) or [joakimrishaug@gmail.com](mailto:joakimrishaug+brbcontact@gmail.com)
+Contact me directly on twitter [@JoakimRi](https://twitter.com/JoakimRi)
 
 
 
