@@ -38,6 +38,7 @@ char_id_lookup = {x['typeID']: x for x in characters}
 #Temporary hack
 if 2018979014 in flattned_battlerites:
     flattned_battlerites[891919250] = flattned_battlerites[2018979014]
+    flattned_battlerites[6049383] = flattned_battlerites[2018979014]
 
 
 main_df, match_df = pd.read_csv('assets/dumped_character_df.csv'), pd.read_csv('assets/dumped_match_df.csv')
