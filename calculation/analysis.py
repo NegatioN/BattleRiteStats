@@ -28,17 +28,25 @@ c1, c2 = load_characters(0), load_characters(1)
 b1, b2 = to_brites(c1), to_brites(c2)
 l1, l2 = load_locale('assets/0_English.ini', 'utf-16'), load_locale('assets/1_English.ini', 'utf-16')
 
-flattned_battlerites = b2
-flattned_battlerites.update(b1)
-locale_lookup = l2
-locale_lookup.update(l1)  # This overwrites all existing keys with newer values
+fab = b2
+fab.update(b1)
+
+# Add silly dummy for when SLS fucks up their resources
+dummy_brite = {'icon': 'd6c97da35fc19134881cb5a4c44e3912'.upper(), 
+               'description': 'SLS messed up resources and I dont wanna manually look for them',
+               'name': 'missingResource', 
+               'tooltipData': {'Value': 'Potato', 
+                               'Name': 'Silly SLS messed up the resources again'} }
+flattned_battlerites = defaultdict(lambda: dummy_brite)
+flattned_battlerites.update(fab)
+
+ll = l2
+ll.update(l1)  # This overwrites all existing keys with newer values
+
+locale_lookup = defaultdict(lambda: 'MissingResource')
+locale_lookup.update(ll)
 characters = c1
 char_id_lookup = {x['typeID']: x for x in characters}
-
-#Temporary hack
-if 2018979014 in flattned_battlerites:
-    flattned_battlerites[891919250] = flattned_battlerites[2018979014]
-    flattned_battlerites[6049383] = flattned_battlerites[2018979014]
 
 
 main_df, match_df = pd.read_csv('assets/dumped_character_df.csv'), pd.read_csv('assets/dumped_match_df.csv')
