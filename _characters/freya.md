@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '6.0'
+  - damage: '6.1'
     disable: '1.1'
-    energy: '3.1'
-    num: 169
+    energy: '3.2'
+    num: 174
     protection: '1.5'
     skills:
     - color: green
@@ -36,12 +36,12 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
       type: mixed
-    winrate: '50.9'
+    winrate: '50.6'
   - damage: '6.6'
     disable: '1.3'
     energy: '3.2'
     num: 88
-    protection: '1.6'
+    protection: '1.7'
     skills:
     - color: green
       description: Spring causes your next Bash to grant you a Shield. It absorbs
@@ -72,11 +72,11 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
       type: mixed
-    winrate: '53.4'
+    winrate: '54.5'
   - damage: '6.4'
     disable: '1.1'
     energy: '3.3'
-    num: 71
+    num: 70
     protection: '1.9'
     skills:
     - color: green
@@ -107,10 +107,10 @@ builds:
       icon: 883e2720ad11f2d49b51d9f649c67203
       name: Thundering Spring
       type: mobility
-    winrate: '43.7'
+    winrate: '42.9'
   - damage: '6.4'
     disable: '1.6'
-    energy: '3.0'
+    energy: '2.9'
     num: 59
     protection: '1.8'
     skills:
@@ -180,46 +180,11 @@ builds:
       name: Thunderbolt
       type: offense
     winrate: '43.6'
-  - damage: '6.0'
-    disable: '1.0'
-    energy: '3.5'
-    num: 38
-    protection: '1.5'
-    skills:
-    - color: green
-      description: Spring causes your next Bash to grant you a Shield. It absorbs
-        up to 12 damage for 3.
-      icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Electric Conduction
-      type: survival
-    - color: green
-      description: Thunderclap grants you a Shield that absorbs up to [Float 8,Float
-        7,Float 6] damage, per target hit, for 3.
-      icon: f5f7b137c0c9d444899035c91cedda42
-      name: Lightning Rod
-      type: survival
-    - color: yellow
-      description: Storm Mace hits increase your movement speed by 30 for 1.75.
-      icon: 92dd476aa2340694c9f1167dfc761287
-      name: Tempest
-      type: mobility
-    - color: red
-      description: Thunderclap deals 5 bonus damage and pulls enemies towards you.
-      icon: f5f7b137c0c9d444899035c91cedda42
-      name: Torrent
-      type: offense
-    - color: grey
-      description: Storm Mace gains 1 ability charge but increases its cooldown by
-        1.
-      icon: 92dd476aa2340694c9f1167dfc761287
-      name: Twin Hammers
-      type: mixed
-    winrate: '52.6'
-  - damage: '6.6'
+  - damage: '6.7'
     disable: '1.1'
-    energy: '4.2'
-    num: 38
-    protection: '1.8'
+    energy: '4.3'
+    num: 37
+    protection: '1.9'
     skills:
     - color: green
       description: Spring causes your next Bash to grant you a Shield. It absorbs
@@ -249,26 +214,30 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Tempest
       type: mobility
-    winrate: '55.3'
-  - damage: '6.4'
-    disable: '1.0'
-    energy: '3.3'
-    num: 33
-    protection: '1.4'
+    winrate: '56.8'
+  - damage: '7.2'
+    disable: '1.1'
+    energy: '3.2'
+    num: 32
+    protection: '1.8'
     skills:
+    - color: green
+      description: Spring causes your next Bash to grant you a Shield. It absorbs
+        up to 12 damage for 3.
+      icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+      type: survival
     - color: green
       description: Thunderclap grants you a Shield that absorbs up to [Float 8,Float
         7,Float 6] damage, per target hit, for 3.
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Lightning Rod
       type: survival
-    - color: grey
-      description: Countering an attack with Electric Shield inflicts Static on nearby
-        enemies and grants other nearby allies a Shield. It absorbs up to 16 damage
-        for 3.
-      icon: 11106dc7b3c44144c94a5cfa08bbb84f
-      name: Overcharge
-      type: mixed
+    - color: red
+      description: Spring increases your Bash attack speed by 20 for the next 3 attacks.
+      icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Lightning Speed
+      type: offense
     - color: yellow
       description: Storm Mace hits increase your movement speed by 30 for 1.75.
       icon: 92dd476aa2340694c9f1167dfc761287
@@ -279,17 +248,11 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    - color: grey
-      description: Storm Mace gains 1 ability charge but increases its cooldown by
-        1.
-      icon: 92dd476aa2340694c9f1167dfc761287
-      name: Twin Hammers
-      type: mixed
-    winrate: '33.3'
+    winrate: '46.9'
   - damage: '6.0'
     disable: '1.3'
     energy: '4.1'
-    num: 33
+    num: 30
     protection: '0.9'
     skills:
     - color: grey
@@ -322,13 +285,56 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
       type: mixed
-    winrate: '48.5'
-  - damage: '7.7'
-    disable: '1.4'
-    energy: '4.4'
-    num: 33
-    protection: '1.7'
+    winrate: '46.7'
+  - damage: '6.4'
+    disable: '0.9'
+    energy: '4.1'
+    num: 30
+    protection: '2.1'
     skills:
+    - color: green
+      description: Spring causes your next Bash to grant you a Shield. It absorbs
+        up to 12 damage for 3.
+      icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+      type: survival
+    - color: green
+      description: Thunderclap grants you a Shield that absorbs up to [Float 8,Float
+        7,Float 6] damage, per target hit, for 3.
+      icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+      type: survival
+    - color: grey
+      description: Countering an attack with Electric Shield inflicts Static on nearby
+        enemies and grants other nearby allies a Shield. It absorbs up to 16 damage
+        for 3.
+      icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Overcharge
+      type: mixed
+    - color: grey
+      description: Reduces cooldown of Charged Strike by 3. Hitting at least one enemy
+        grants 25 energy.
+      icon: 54d351d4df0d47e48b37ee2b1959c2aa
+      name: Surge
+      type: mixed
+    - color: red
+      description: Thunderclap deals 5 bonus damage and pulls enemies towards you.
+      icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+      type: offense
+    winrate: '56.7'
+  - damage: '6.0'
+    disable: '1.1'
+    energy: '3.6'
+    num: 30
+    protection: '1.5'
+    skills:
+    - color: green
+      description: Spring causes your next Bash to grant you a Shield. It absorbs
+        up to 12 damage for 3.
+      icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+      type: survival
     - color: green
       description: Thunderclap grants you a Shield that absorbs up to [Float 8,Float
         7,Float 6] damage, per target hit, for 3.
@@ -336,33 +342,27 @@ builds:
       name: Lightning Rod
       type: survival
     - color: yellow
-      description: Move forward during Thunderclap.
-      icon: f5f7b137c0c9d444899035c91cedda42
-      name: Rolling Thunder
-      type: mobility
-    - color: grey
-      description: Reduces cooldown of Charged Strike by 3. Hitting at least one enemy
-        grants 25 energy.
-      icon: 54d351d4df0d47e48b37ee2b1959c2aa
-      name: Surge
-      type: mixed
-    - color: yellow
       description: Storm Mace hits increase your movement speed by 30 for 1.75.
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Tempest
       type: mobility
-    - color: yellow
-      description: Spring range increases by 25% and movement speed bonus duration
-        increases by 0.75.
-      icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Thundering Spring
-      type: mobility
-    winrate: '57.6'
+    - color: red
+      description: Thunderclap deals 5 bonus damage and pulls enemies towards you.
+      icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+      type: offense
+    - color: grey
+      description: Storm Mace gains 1 ability charge but increases its cooldown by
+        1.
+      icon: 92dd476aa2340694c9f1167dfc761287
+      name: Twin Hammers
+      type: mixed
+    winrate: '56.7'
   twos:
   - damage: '5.7'
     disable: '1.1'
     energy: '3.0'
-    num: 43
+    num: 40
     protection: '1.4'
     skills:
     - color: green
@@ -394,11 +394,11 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
       type: mixed
-    winrate: '34.9'
-  - damage: '7.9'
+    winrate: '37.5'
+  - damage: '7.8'
     disable: '1.1'
     energy: '3.4'
-    num: 19
+    num: 18
     protection: '1.8'
     skills:
     - color: green
@@ -428,7 +428,42 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    winrate: '78.9'
+    winrate: '77.8'
+  - damage: '6.2'
+    disable: '1.0'
+    energy: '3.3'
+    num: 13
+    protection: '1.5'
+    skills:
+    - color: green
+      description: Spring causes your next Bash to grant you a Shield. It absorbs
+        up to 12 damage for 3.
+      icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+      type: survival
+    - color: green
+      description: Thunderclap grants you a Shield that absorbs up to [Float 8,Float
+        7,Float 6] damage, per target hit, for 3.
+      icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+      type: survival
+    - color: yellow
+      description: Storm Mace hits increase your movement speed by 30 for 1.75.
+      icon: 92dd476aa2340694c9f1167dfc761287
+      name: Tempest
+      type: mobility
+    - color: red
+      description: Thunderclap deals 5 bonus damage and pulls enemies towards you.
+      icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+      type: offense
+    - color: grey
+      description: Storm Mace gains 1 ability charge but increases its cooldown by
+        1.
+      icon: 92dd476aa2340694c9f1167dfc761287
+      name: Twin Hammers
+      type: mixed
+    winrate: '30.8'
   - damage: '6.7'
     disable: '1.7'
     energy: '3.3'
@@ -466,42 +501,6 @@ builds:
       name: Twin Hammers
       type: mixed
     winrate: '58.3'
-  - damage: '7.1'
-    disable: '1.4'
-    energy: '3.2'
-    num: 12
-    protection: '1.7'
-    skills:
-    - color: green
-      description: Spring causes your next Bash to grant you a Shield. It absorbs
-        up to 12 damage for 3.
-      icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Electric Conduction
-      type: survival
-    - color: green
-      description: Thunderclap grants you a Shield that absorbs up to [Float 8,Float
-        7,Float 6] damage, per target hit, for 3.
-      icon: f5f7b137c0c9d444899035c91cedda42
-      name: Lightning Rod
-      type: survival
-    - color: red
-      description: Storm Mace deals 12 bonus damage to enemies already affected by
-        Static and Incapacitate duration increases by 0.5.
-      icon: 92dd476aa2340694c9f1167dfc761287
-      name: Thunderbolt
-      type: offense
-    - color: red
-      description: Thunderclap deals 5 bonus damage and pulls enemies towards you.
-      icon: f5f7b137c0c9d444899035c91cedda42
-      name: Torrent
-      type: offense
-    - color: grey
-      description: Storm Mace gains 1 ability charge but increases its cooldown by
-        1.
-      icon: 92dd476aa2340694c9f1167dfc761287
-      name: Twin Hammers
-      type: mixed
-    winrate: '25.0'
   - damage: '7.3'
     disable: '1.7'
     energy: '3.7'
@@ -539,11 +538,11 @@ builds:
       name: Twin Hammers
       type: mixed
     winrate: '75.0'
-  - damage: '6.0'
-    disable: '1.0'
+  - damage: '7.1'
+    disable: '1.4'
     energy: '3.2'
     num: 12
-    protection: '1.5'
+    protection: '1.7'
     skills:
     - color: green
       description: Spring causes your next Bash to grant you a Shield. It absorbs
@@ -557,11 +556,12 @@ builds:
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Lightning Rod
       type: survival
-    - color: yellow
-      description: Storm Mace hits increase your movement speed by 30 for 1.75.
+    - color: red
+      description: Storm Mace deals 12 bonus damage to enemies already affected by
+        Static and Incapacitate duration increases by 0.5.
       icon: 92dd476aa2340694c9f1167dfc761287
-      name: Tempest
-      type: mobility
+      name: Thunderbolt
+      type: offense
     - color: red
       description: Thunderclap deals 5 bonus damage and pulls enemies towards you.
       icon: f5f7b137c0c9d444899035c91cedda42
@@ -573,11 +573,11 @@ builds:
       icon: 92dd476aa2340694c9f1167dfc761287
       name: Twin Hammers
       type: mixed
-    winrate: '33.3'
-  - damage: '7.6'
+    winrate: '25.0'
+  - damage: '7.8'
     disable: '1.2'
     energy: '3.9'
-    num: 9
+    num: 10
     protection: '1.7'
     skills:
     - color: green
@@ -608,7 +608,7 @@ builds:
       icon: 883e2720ad11f2d49b51d9f649c67203
       name: Thundering Spring
       type: mobility
-    winrate: '66.7'
+    winrate: '60.0'
   - damage: '6.9'
     disable: '1.0'
     energy: '3.4'
@@ -644,6 +644,44 @@ builds:
       name: Torrent
       type: offense
     winrate: '85.7'
+  - damage: '6.0'
+    disable: '1.0'
+    energy: '2.8'
+    num: 7
+    protection: '1.3'
+    skills:
+    - color: green
+      description: Spring causes your next Bash to grant you a Shield. It absorbs
+        up to 12 damage for 3.
+      icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+      type: survival
+    - color: green
+      description: Thunderclap grants you a Shield that absorbs up to [Float 8,Float
+        7,Float 6] damage, per target hit, for 3.
+      icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+      type: survival
+    - color: grey
+      description: Countering an attack with Electric Shield inflicts Static on nearby
+        enemies and grants other nearby allies a Shield. It absorbs up to 16 damage
+        for 3.
+      icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Overcharge
+      type: mixed
+    - color: red
+      description: Storm Mace deals 12 bonus damage to enemies already affected by
+        Static and Incapacitate duration increases by 0.5.
+      icon: 92dd476aa2340694c9f1167dfc761287
+      name: Thunderbolt
+      type: offense
+    - color: grey
+      description: Storm Mace gains 1 ability charge but increases its cooldown by
+        1.
+      icon: 92dd476aa2340694c9f1167dfc761287
+      name: Twin Hammers
+      type: mixed
+    winrate: '42.9'
   - damage: '5.3'
     disable: '0.9'
     energy: '3.5'
@@ -680,42 +718,6 @@ builds:
       name: Torrent
       type: offense
     winrate: '16.7'
-  - damage: '6.6'
-    disable: '1.3'
-    energy: '4.1'
-    num: 6
-    protection: '1.7'
-    skills:
-    - color: green
-      description: Spring causes your next Bash to grant you a Shield. It absorbs
-        up to 12 damage for 3.
-      icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Electric Conduction
-      type: survival
-    - color: green
-      description: Thunderclap grants you a Shield that absorbs up to [Float 8,Float
-        7,Float 6] damage, per target hit, for 3.
-      icon: f5f7b137c0c9d444899035c91cedda42
-      name: Lightning Rod
-      type: survival
-    - color: yellow
-      description: Move forward during Thunderclap.
-      icon: f5f7b137c0c9d444899035c91cedda42
-      name: Rolling Thunder
-      type: mobility
-    - color: grey
-      description: Reduces cooldown of Charged Strike by 3. Hitting at least one enemy
-        grants 25 energy.
-      icon: 54d351d4df0d47e48b37ee2b1959c2aa
-      name: Surge
-      type: mixed
-    - color: grey
-      description: Storm Mace gains 1 ability charge but increases its cooldown by
-        1.
-      icon: 92dd476aa2340694c9f1167dfc761287
-      name: Twin Hammers
-      type: mixed
-    winrate: '50.0'
 compos:
   threes:
   - hero_names:
@@ -749,9 +751,26 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 33
-    winrate: 0.42424242424242425
-    wins: 14
+    num: 32
+    winrate: 0.40625
+    wins: 13
+  - hero_names:
+    - Jumong
+    - Freya
+    - Blossom
+    heros:
+    - icon: 42a665b9c285a1243a201c8d533980e5
+      name: Jumong
+      title: jumong
+    - icon: be081702a8e70fe44ac0a4e3a9c46368
+      name: Freya
+      title: freya
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    num: 31
+    winrate: 0.3225806451612903
+    wins: 10
   - hero_names:
     - Oldur
     - Freya
@@ -766,59 +785,8 @@ compos:
     - icon: 42a665b9c285a1243a201c8d533980e5
       name: Jumong
       title: jumong
-    num: 33
-    winrate: 0.48484848484848486
-    wins: 16
-  - hero_names:
-    - Jumong
-    - Freya
-    - Blossom
-    heros:
-    - icon: 42a665b9c285a1243a201c8d533980e5
-      name: Jumong
-      title: jumong
-    - icon: be081702a8e70fe44ac0a4e3a9c46368
-      name: Freya
-      title: freya
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    num: 30
-    winrate: 0.3333333333333333
-    wins: 10
-  - hero_names:
-    - Blossom
-    - Alysia
-    - Freya
-    heros:
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
-    - icon: be081702a8e70fe44ac0a4e3a9c46368
-      name: Freya
-      title: freya
-    num: 29
-    winrate: 0.4482758620689655
-    wins: 13
-  - hero_names:
-    - Ashka
-    - Blossom
-    - Freya
-    heros:
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: be081702a8e70fe44ac0a4e3a9c46368
-      name: Freya
-      title: freya
-    num: 28
-    winrate: 0.5714285714285714
+    num: 31
+    winrate: 0.5161290322580645
     wins: 16
   - hero_names:
     - Poloma
@@ -834,9 +802,43 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
+    num: 29
+    winrate: 0.5517241379310345
+    wins: 16
+  - hero_names:
+    - Ashka
+    - Blossom
+    - Freya
+    heros:
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    - icon: be081702a8e70fe44ac0a4e3a9c46368
+      name: Freya
+      title: freya
     num: 28
-    winrate: 0.5357142857142857
-    wins: 15
+    winrate: 0.6071428571428571
+    wins: 17
+  - hero_names:
+    - Blossom
+    - Alysia
+    - Freya
+    heros:
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    - icon: 50404d271ae2a4f4f8b52de966688dc1
+      name: Alysia
+      title: alysia
+    - icon: be081702a8e70fe44ac0a4e3a9c46368
+      name: Freya
+      title: freya
+    num: 28
+    winrate: 0.4642857142857143
+    wins: 13
   - hero_names:
     - Freya
     - Jade
@@ -855,6 +857,23 @@ compos:
     winrate: 0.6071428571428571
     wins: 17
   - hero_names:
+    - Ashka
+    - Oldur
+    - Freya
+    heros:
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    - icon: be081702a8e70fe44ac0a4e3a9c46368
+      name: Freya
+      title: freya
+    num: 27
+    winrate: 0.5185185185185185
+    wins: 14
+  - hero_names:
     - Blossom
     - Jade
     - Freya
@@ -869,25 +888,8 @@ compos:
       name: Freya
       title: freya
     num: 27
-    winrate: 0.4444444444444444
-    wins: 12
-  - hero_names:
-    - Ashka
-    - Oldur
-    - Freya
-    heros:
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: be081702a8e70fe44ac0a4e3a9c46368
-      name: Freya
-      title: freya
-    num: 26
-    winrate: 0.5769230769230769
-    wins: 15
+    winrate: 0.48148148148148145
+    wins: 13
   twos:
   - hero_names:
     - Blossom
@@ -899,21 +901,8 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 47
-    winrate: 0.5106382978723404
-    wins: 24
-  - hero_names:
-    - Freya
-    - Pearl
-    heros:
-    - icon: be081702a8e70fe44ac0a4e3a9c46368
-      name: Freya
-      title: freya
-    - icon: 427116cdee46bad4cbaa99d7063e0832
-      name: Pearl
-      title: pearl
-    num: 35
-    winrate: 0.6857142857142857
+    num: 46
+    winrate: 0.5217391304347826
     wins: 24
   - hero_names:
     - Freya
@@ -928,6 +917,19 @@ compos:
     num: 33
     winrate: 0.2727272727272727
     wins: 9
+  - hero_names:
+    - Freya
+    - Pearl
+    heros:
+    - icon: be081702a8e70fe44ac0a4e3a9c46368
+      name: Freya
+      title: freya
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
+    num: 33
+    winrate: 0.6666666666666666
+    wins: 22
   - hero_names:
     - Pestilus
     - Freya
@@ -964,9 +966,9 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 21
-    winrate: 0.19047619047619047
-    wins: 4
+    num: 22
+    winrate: 0.22727272727272727
+    wins: 5
   - hero_names:
     - Oldur
     - Freya
@@ -977,9 +979,9 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 17
-    winrate: 0.35294117647058826
-    wins: 6
+    num: 18
+    winrate: 0.3888888888888889
+    wins: 7
   - hero_names:
     - Freya
     - Ezmo
@@ -1025,11 +1027,11 @@ icon: be081702a8e70fe44ac0a4e3a9c46368
 layout: character
 name: freya
 num:
-  threes: 1776
-  twos: 317
+  threes: 1754
+  twos: 316
 title: Freya
 url: characters/freya.html
 winrate:
-  threes: '46.40'
-  twos: '43.22'
+  threes: '46.58'
+  twos: '43.67'
 ...
