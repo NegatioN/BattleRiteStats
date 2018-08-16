@@ -4,7 +4,7 @@ builds:
   - damage: '7.1'
     disable: '0.5'
     energy: '3.4'
-    num: 156
+    num: 139
     protection: '1.8'
     skills:
     - color: red
@@ -36,11 +36,11 @@ builds:
       icon: fe5369baf5a80dc47b0656ae7be82e09
       name: Unlimited Power
       type: survival
-    winrate: '50.0'
+    winrate: '48.2'
   - damage: '6.3'
     disable: '0.6'
     energy: '3.3'
-    num: 95
+    num: 97
     protection: '1.9'
     skills:
     - color: red
@@ -69,11 +69,11 @@ builds:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
       type: support
-    winrate: '55.8'
+    winrate: '54.6'
   - damage: '7.3'
     disable: '0.4'
     energy: '3.9'
-    num: 88
+    num: 87
     protection: '2.3'
     skills:
     - color: red
@@ -104,11 +104,45 @@ builds:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
       type: support
-    winrate: '52.3'
+    winrate: '51.7'
+  - damage: '7.5'
+    disable: '0.6'
+    energy: '5.0'
+    num: 64
+    protection: '2.3'
+    skills:
+    - color: yellow
+      description: Shatter can be cast while moving at 60 speed.
+      icon: d6c97da35fc19134881cb5a4c44e3912
+      name: Inhibitor
+      type: mobility
+    - color: blue
+      description: Increases energy gain from abilities by 10 and maximum energy by
+        25.
+      icon: 61e058b8f4b79f4419ec1496f223ee36
+      name: Inspiration
+      type: utility
+    - color: red
+      description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
+      icon: 2771f14010b802143b0b4d5fc8e4bb9c
+      name: Ruin
+      type: offense
+    - color: pink
+      description: Consuming Judgement with Shatter increases Silence duration from
+        0.5 to 1.
+      icon: c2525970f8ab5574191da4938fa5619b
+      name: Silence
+      type: control
+    - color: teal
+      description: Inhibitor's Guard absorbs 14 more damage.
+      icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Wonder
+      type: support
+    winrate: '56.2'
   - damage: '7.0'
     disable: '0.5'
     energy: '3.4'
-    num: 68
+    num: 64
     protection: '2.2'
     skills:
     - color: red
@@ -139,46 +173,12 @@ builds:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
       type: support
-    winrate: '58.8'
-  - damage: '7.5'
-    disable: '0.6'
-    energy: '5.0'
-    num: 65
-    protection: '2.3'
-    skills:
-    - color: yellow
-      description: Shatter can be cast while moving at 60 speed.
-      icon: d6c97da35fc19134881cb5a4c44e3912
-      name: Inhibitor
-      type: mobility
-    - color: blue
-      description: Increases energy gain from abilities by 10 and maximum energy by
-        25.
-      icon: 61e058b8f4b79f4419ec1496f223ee36
-      name: Inspiration
-      type: utility
-    - color: red
-      description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
-      icon: 2771f14010b802143b0b4d5fc8e4bb9c
-      name: Ruin
-      type: offense
-    - color: pink
-      description: Consuming Judgement with Shatter increases Silence duration from
-        0.5 to 1.
-      icon: c2525970f8ab5574191da4938fa5619b
-      name: Silence
-      type: control
-    - color: teal
-      description: Inhibitor's Guard absorbs 14 more damage.
-      icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Wonder
-      type: support
-    winrate: '56.9'
-  - damage: '7.1'
+    winrate: '57.8'
+  - damage: '7.2'
     disable: '0.5'
     energy: '3.1'
-    num: 57
-    protection: '2.4'
+    num: 54
+    protection: '2.5'
     skills:
     - color: red
       description: Ability charges of Shatter increase to 3 from 2, and Shatter deals
@@ -208,7 +208,7 @@ builds:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
       type: support
-    winrate: '40.4'
+    winrate: '42.6'
   - damage: '6.6'
     disable: '0.5'
     energy: '3.3'
@@ -314,7 +314,7 @@ builds:
       name: Wonder
       type: support
     winrate: '58.1'
-  - damage: '6.6'
+  - damage: '6.7'
     disable: '0.4'
     energy: '3.2'
     num: 41
@@ -348,12 +348,12 @@ builds:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
       type: support
-    winrate: '53.7'
+    winrate: '56.1'
   twos:
-  - damage: '7.1'
+  - damage: '6.4'
     disable: '0.6'
-    energy: '3.7'
-    num: 21
+    energy: '3.9'
+    num: 13
     protection: '1.8'
     skills:
     - color: red
@@ -385,7 +385,7 @@ builds:
       icon: fe5369baf5a80dc47b0656ae7be82e09
       name: Unlimited Power
       type: survival
-    winrate: '61.9'
+    winrate: '38.5'
   - damage: '7.7'
     disable: '0.4'
     energy: '3.9'
@@ -456,6 +456,40 @@ builds:
       name: Wonder
       type: support
     winrate: '75.0'
+  - damage: '7.7'
+    disable: '0.7'
+    energy: '3.6'
+    num: 7
+    protection: '2.7'
+    skills:
+    - color: red
+      description: Ability charges of Shatter increase to 3 from 2, and Shatter deals
+        2 bonus damage.
+      icon: d6c97da35fc19134881cb5a4c44e3912
+      name: Fracture
+      type: offense
+    - color: yellow
+      description: Shatter can be cast while moving at 60 speed.
+      icon: d6c97da35fc19134881cb5a4c44e3912
+      name: Inhibitor
+      type: mobility
+    - color: red
+      description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
+      icon: 2771f14010b802143b0b4d5fc8e4bb9c
+      name: Ruin
+      type: offense
+    - color: pink
+      description: Consuming Judgement with Shatter increases Silence duration from
+        0.5 to 1.
+      icon: c2525970f8ab5574191da4938fa5619b
+      name: Silence
+      type: control
+    - color: teal
+      description: Inhibitor's Guard absorbs 14 more damage.
+      icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Wonder
+      type: support
+    winrate: '85.7'
   - damage: '6.2'
     disable: '0.6'
     energy: '3.5'
@@ -489,76 +523,6 @@ builds:
       name: Ruin
       type: offense
     winrate: '57.1'
-  - damage: '6.7'
-    disable: '0.5'
-    energy: '3.3'
-    num: 7
-    protection: '2.0'
-    skills:
-    - color: red
-      description: Ability charges of Shatter increase to 3 from 2, and Shatter deals
-        2 bonus damage.
-      icon: d6c97da35fc19134881cb5a4c44e3912
-      name: Fracture
-      type: offense
-    - color: yellow
-      description: Shatter can be cast while moving at 60 speed.
-      icon: d6c97da35fc19134881cb5a4c44e3912
-      name: Inhibitor
-      type: mobility
-    - color: red
-      description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
-      icon: 2771f14010b802143b0b4d5fc8e4bb9c
-      name: Ruin
-      type: offense
-    - color: pink
-      description: Consuming Judgement with Shatter increases Silence duration from
-        0.5 to 1.
-      icon: c2525970f8ab5574191da4938fa5619b
-      name: Silence
-      type: control
-    - color: green
-      description: Consuming Corruption with Shatter increases Fading Snare duration
-        from 1 to 1.5 and reapplies Corruption.
-      icon: fe5369baf5a80dc47b0656ae7be82e09
-      name: Unlimited Power
-      type: survival
-    winrate: '71.4'
-  - damage: '7.8'
-    disable: '0.5'
-    energy: '4.2'
-    num: 6
-    protection: '2.2'
-    skills:
-    - color: grey
-      description: Inhibitor's Guard increases movement speed by 25 and damage output
-        by 15.
-      icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Celerity
-      type: mixed
-    - color: red
-      description: Hand of Judgement deals 4 bonus damage and hitting an enemy resets
-        its cooldown.
-      icon: c2525970f8ab5574191da4938fa5619b
-      name: Devastation
-      type: offense
-    - color: yellow
-      description: Shatter can be cast while moving at 60 speed.
-      icon: d6c97da35fc19134881cb5a4c44e3912
-      name: Inhibitor
-      type: mobility
-    - color: red
-      description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
-      icon: 2771f14010b802143b0b4d5fc8e4bb9c
-      name: Ruin
-      type: offense
-    - color: pink
-      description: Consuming Judgement with Shatter increases Silence duration from
-        0.5 to 1.
-      icon: c2525970f8ab5574191da4938fa5619b
-      name: Silence
-      type: control
-    winrate: '50.0'
   - damage: '6.0'
     disable: '0.5'
     energy: '3.6'
@@ -593,75 +557,6 @@ builds:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
       type: support
-    winrate: '33.3'
-  - damage: '8.2'
-    disable: '0.7'
-    energy: '3.7'
-    num: 6
-    protection: '2.8'
-    skills:
-    - color: red
-      description: Ability charges of Shatter increase to 3 from 2, and Shatter deals
-        2 bonus damage.
-      icon: d6c97da35fc19134881cb5a4c44e3912
-      name: Fracture
-      type: offense
-    - color: yellow
-      description: Shatter can be cast while moving at 60 speed.
-      icon: d6c97da35fc19134881cb5a4c44e3912
-      name: Inhibitor
-      type: mobility
-    - color: red
-      description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
-      icon: 2771f14010b802143b0b4d5fc8e4bb9c
-      name: Ruin
-      type: offense
-    - color: pink
-      description: Consuming Judgement with Shatter increases Silence duration from
-        0.5 to 1.
-      icon: c2525970f8ab5574191da4938fa5619b
-      name: Silence
-      type: control
-    - color: teal
-      description: Inhibitor's Guard absorbs 14 more damage.
-      icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Wonder
-      type: support
-    winrate: '83.3'
-  - damage: '7.8'
-    disable: '0.7'
-    energy: '4.2'
-    num: 6
-    protection: '2.5'
-    skills:
-    - color: red
-      description: Powers Combined repeats itself 1 extra time.
-      icon: af1b0c6a44fc0a34694eafc090cd68ee
-      name: Absolute Power
-      type: offense
-    - color: grey
-      description: Inhibitor's Guard increases movement speed by 25 and damage output
-        by 15.
-      icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Celerity
-      type: mixed
-    - color: red
-      description: Hand of Judgement deals 4 bonus damage and hitting an enemy resets
-        its cooldown.
-      icon: c2525970f8ab5574191da4938fa5619b
-      name: Devastation
-      type: offense
-    - color: red
-      description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
-      icon: 2771f14010b802143b0b4d5fc8e4bb9c
-      name: Ruin
-      type: offense
-    - color: pink
-      description: Consuming Judgement with Shatter increases Silence duration from
-        0.5 to 1.
-      icon: c2525970f8ab5574191da4938fa5619b
-      name: Silence
-      type: control
     winrate: '33.3'
   - damage: '8.1'
     disable: '0.5'
@@ -699,6 +594,112 @@ builds:
       name: Wonder
       type: support
     winrate: '100.0'
+  - damage: '7.8'
+    disable: '0.7'
+    energy: '4.2'
+    num: 6
+    protection: '2.5'
+    skills:
+    - color: red
+      description: Powers Combined repeats itself 1 extra time.
+      icon: af1b0c6a44fc0a34694eafc090cd68ee
+      name: Absolute Power
+      type: offense
+    - color: grey
+      description: Inhibitor's Guard increases movement speed by 25 and damage output
+        by 15.
+      icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Celerity
+      type: mixed
+    - color: red
+      description: Hand of Judgement deals 4 bonus damage and hitting an enemy resets
+        its cooldown.
+      icon: c2525970f8ab5574191da4938fa5619b
+      name: Devastation
+      type: offense
+    - color: red
+      description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
+      icon: 2771f14010b802143b0b4d5fc8e4bb9c
+      name: Ruin
+      type: offense
+    - color: pink
+      description: Consuming Judgement with Shatter increases Silence duration from
+        0.5 to 1.
+      icon: c2525970f8ab5574191da4938fa5619b
+      name: Silence
+      type: control
+    winrate: '33.3'
+  - damage: '7.5'
+    disable: '0.4'
+    energy: '3.7'
+    num: 5
+    protection: '1.6'
+    skills:
+    - color: grey
+      description: Inhibitor's Guard increases movement speed by 25 and damage output
+        by 15.
+      icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Celerity
+      type: mixed
+    - color: red
+      description: Hand of Judgement deals 4 bonus damage and hitting an enemy resets
+        its cooldown.
+      icon: c2525970f8ab5574191da4938fa5619b
+      name: Devastation
+      type: offense
+    - color: yellow
+      description: Shatter can be cast while moving at 60 speed.
+      icon: d6c97da35fc19134881cb5a4c44e3912
+      name: Inhibitor
+      type: mobility
+    - color: blue
+      description: Increases energy gain from abilities by 10 and maximum energy by
+        25.
+      icon: 61e058b8f4b79f4419ec1496f223ee36
+      name: Inspiration
+      type: utility
+    - color: grey
+      description: While both Corruption and Judgement are active on an enemy, their
+        factors are increased by 5 and both effects are reapplied by Hand of Corruption
+        / Judgement when hitting that enemy.
+      icon: fe5369baf5a80dc47b0656ae7be82e09
+      name: Synergy
+      type: mixed
+    winrate: '100.0'
+  - damage: '7.3'
+    disable: '0.6'
+    energy: '3.5'
+    num: 5
+    protection: '2.9'
+    skills:
+    - color: red
+      description: Hand of Judgement deals 4 bonus damage and hitting an enemy resets
+        its cooldown.
+      icon: c2525970f8ab5574191da4938fa5619b
+      name: Devastation
+      type: offense
+    - color: yellow
+      description: Shatter can be cast while moving at 60 speed.
+      icon: d6c97da35fc19134881cb5a4c44e3912
+      name: Inhibitor
+      type: mobility
+    - color: red
+      description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
+      icon: 2771f14010b802143b0b4d5fc8e4bb9c
+      name: Ruin
+      type: offense
+    - color: pink
+      description: Consuming Judgement with Shatter increases Silence duration from
+        0.5 to 1.
+      icon: c2525970f8ab5574191da4938fa5619b
+      name: Silence
+      type: control
+    - color: teal
+      description: Inhibitor's Guard absorbs 14 more damage.
+      icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Wonder
+      type: support
+    winrate: '60.0'
 compos:
   threes:
   - hero_names:
@@ -715,9 +716,26 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 54
-    winrate: 0.5
-    wins: 27
+    num: 52
+    winrate: 0.4807692307692308
+    wins: 25
+  - hero_names:
+    - Oldur
+    - Raigon
+    - Varesh
+    heros:
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    - icon: f1cc53a29c58089478f6438589d9b32d
+      name: Varesh
+      title: varesh
+    num: 46
+    winrate: 0.4782608695652174
+    wins: 22
   - hero_names:
     - Poloma
     - Raigon
@@ -732,8 +750,8 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 47
-    winrate: 0.6595744680851063
+    num: 45
+    winrate: 0.6888888888888889
     wins: 31
   - hero_names:
     - Blossom
@@ -749,26 +767,9 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 46
-    winrate: 0.6521739130434783
-    wins: 30
-  - hero_names:
-    - Oldur
-    - Raigon
-    - Varesh
-    heros:
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    - icon: f1cc53a29c58089478f6438589d9b32d
-      name: Varesh
-      title: varesh
-    num: 45
-    winrate: 0.4888888888888889
-    wins: 22
+    num: 43
+    winrate: 0.627906976744186
+    wins: 27
   - hero_names:
     - Thorn
     - Oldur
@@ -783,9 +784,9 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 41
-    winrate: 0.5853658536585366
-    wins: 24
+    num: 43
+    winrate: 0.627906976744186
+    wins: 27
   - hero_names:
     - Pestilus
     - Thorn
@@ -800,8 +801,8 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 40
-    winrate: 0.55
+    num: 41
+    winrate: 0.5365853658536586
     wins: 22
   - hero_names:
     - Thorn
@@ -817,26 +818,9 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 39
-    winrate: 0.5384615384615384
+    num: 38
+    winrate: 0.5526315789473685
     wins: 21
-  - hero_names:
-    - Shifu
-    - Sirius
-    - Varesh
-    heros:
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    - icon: f1cc53a29c58089478f6438589d9b32d
-      name: Varesh
-      title: varesh
-    num: 35
-    winrate: 0.7142857142857143
-    wins: 25
   - hero_names:
     - Blossom
     - Shifu
@@ -851,8 +835,8 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 34
-    winrate: 0.7647058823529411
+    num: 35
+    winrate: 0.7428571428571429
     wins: 26
   - hero_names:
     - Blossom
@@ -871,6 +855,23 @@ compos:
     num: 34
     winrate: 0.5294117647058824
     wins: 18
+  - hero_names:
+    - Thorn
+    - Lucie
+    - Varesh
+    heros:
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    - icon: f1cc53a29c58089478f6438589d9b32d
+      name: Varesh
+      title: varesh
+    num: 33
+    winrate: 0.48484848484848486
+    wins: 16
   twos:
   - hero_names:
     - Blossom
@@ -899,19 +900,6 @@ compos:
     winrate: 0.5625
     wins: 18
   - hero_names:
-    - Poloma
-    - Varesh
-    heros:
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    - icon: f1cc53a29c58089478f6438589d9b32d
-      name: Varesh
-      title: varesh
-    num: 26
-    winrate: 0.6153846153846154
-    wins: 16
-  - hero_names:
     - Pearl
     - Varesh
     heros:
@@ -925,18 +913,18 @@ compos:
     winrate: 0.6190476190476191
     wins: 13
   - hero_names:
-    - Oldur
+    - Poloma
     - Varesh
     heros:
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 21
-    winrate: 0.6190476190476191
-    wins: 13
+    num: 19
+    winrate: 0.631578947368421
+    wins: 12
   - hero_names:
     - Sirius
     - Varesh
@@ -947,22 +935,22 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 20
-    winrate: 0.45
+    num: 19
+    winrate: 0.47368421052631576
     wins: 9
   - hero_names:
-    - Pestilus
+    - Oldur
     - Varesh
     heros:
-    - icon: a7e0c7a6f0fa2ef49bf684950de34567
-      name: Pestilus
-      title: pestilus
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 13
-    winrate: 0.7692307692307693
-    wins: 10
+    num: 19
+    winrate: 0.631578947368421
+    wins: 12
   - hero_names:
     - Lucie
     - Varesh
@@ -973,22 +961,22 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 11
-    winrate: 0.6363636363636364
+    num: 12
+    winrate: 0.5833333333333334
     wins: 7
   - hero_names:
-    - Ulric
+    - Pestilus
     - Varesh
     heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 9
-    winrate: 0.8888888888888888
-    wins: 8
+    num: 12
+    winrate: 0.75
+    wins: 9
   - hero_names:
     - Raigon
     - Varesh
@@ -999,9 +987,22 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
+    num: 7
+    winrate: 0.7142857142857143
+    wins: 5
+  - hero_names:
+    - Varesh
+    - Jamila
+    heros:
+    - icon: f1cc53a29c58089478f6438589d9b32d
+      name: Varesh
+      title: varesh
+    - icon: f283d6dda29cbc845b4f770a1482d75b
+      name: Jamila
+      title: jamila
     num: 6
-    winrate: 0.6666666666666666
-    wins: 4
+    winrate: 0.16666666666666666
+    wins: 1
 description: A being formed by the energies of others. Varesh uses his power  to weaken
   and disrupt his enemies. By combining his powers he is able to unleash devastating
   attacks.
@@ -1009,11 +1010,11 @@ icon: f1cc53a29c58089478f6438589d9b32d
 layout: character
 name: varesh
 num:
-  threes: 2099
-  twos: 241
+  threes: 2066
+  twos: 224
 title: Varesh
 url: characters/varesh.html
 winrate:
-  threes: '51.98'
-  twos: '58.09'
+  threes: '51.94'
+  twos: '57.59'
 ...
