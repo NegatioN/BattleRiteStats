@@ -4,7 +4,7 @@ builds:
   - damage: '7.5'
     disable: '1.1'
     energy: '4.0'
-    num: 200
+    num: 206
     protection: '0.9'
     skills:
     - color: red
@@ -37,9 +37,9 @@ builds:
       type: control
     winrate: '49.0'
   - damage: '8.0'
-    disable: '1.0'
-    energy: '4.3'
-    num: 160
+    disable: '0.9'
+    energy: '4.2'
+    num: 174
     protection: '0.9'
     skills:
     - color: red
@@ -70,46 +70,11 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '48.1'
-  - damage: '7.1'
-    disable: '0.8'
-    energy: '3.8'
-    num: 114
-    protection: '0.7'
-    skills:
-    - color: red
-      description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
-        over the duration.
-      icon: ce1e01246a2a09145a192bb0deeeb400
-      name: Arrow Storm
-      type: offense
-    - color: red
-      description: Consuming ^2Seekers Mark^- deals 4 bonus damage.
-      icon: 60a73a3140321ec448f7f97f00a07897
-      name: Death Mark
-      type: offense
-    - color: yellow
-      description: Increases duration of Prowl by 0.5 and reduces its cooldown by
-        3.
-      icon: bcb5bbf5676057e4bb4278f5c20bb865
-      name: Panther
-      type: mobility
-    - color: pink
-      description: Steady Shot inflicts Stun for 0.5.
-      icon: 594fdf8c70a83404da422aa6463e0e03
-      name: Perfect Shot
-      type: control
-    - color: pink
-      description: Bear Trap lays down an additional trap in front of the first one
-        that lasts for 2.5.
-      icon: 6e30eed38d549fa4794a4543bf2b8de2
-      name: Trapper
-      type: control
-    winrate: '48.2'
-  - damage: '8.0'
+    winrate: '48.9'
+  - damage: '8.1'
     disable: '1.0'
     energy: '4.3'
-    num: 105
+    num: 107
     protection: '1.1'
     skills:
     - color: pink
@@ -139,11 +104,46 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '52.4'
-  - damage: '7.7'
-    disable: '0.7'
-    energy: '3.6'
-    num: 89
+    winrate: '52.3'
+  - damage: '7.2'
+    disable: '0.8'
+    energy: '3.8'
+    num: 104
+    protection: '0.7'
+    skills:
+    - color: red
+      description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
+        over the duration.
+      icon: ce1e01246a2a09145a192bb0deeeb400
+      name: Arrow Storm
+      type: offense
+    - color: red
+      description: Consuming ^2Seekers Mark^- deals 4 bonus damage.
+      icon: 60a73a3140321ec448f7f97f00a07897
+      name: Death Mark
+      type: offense
+    - color: yellow
+      description: Increases duration of Prowl by 0.5 and reduces its cooldown by
+        3.
+      icon: bcb5bbf5676057e4bb4278f5c20bb865
+      name: Panther
+      type: mobility
+    - color: pink
+      description: Steady Shot inflicts Stun for 0.5.
+      icon: 594fdf8c70a83404da422aa6463e0e03
+      name: Perfect Shot
+      type: control
+    - color: pink
+      description: Bear Trap lays down an additional trap in front of the first one
+        that lasts for 2.5.
+      icon: 6e30eed38d549fa4794a4543bf2b8de2
+      name: Trapper
+      type: control
+    winrate: '48.1'
+  - damage: '7.9'
+    disable: '1.0'
+    energy: '3.9'
+    num: 93
     protection: '0.7'
     skills:
     - color: red
@@ -162,22 +162,22 @@ builds:
       icon: 60a73a3140321ec448f7f97f00a07897
       name: Death Mark
       type: offense
-    - color: yellow
-      description: Increases duration of Prowl by 0.5 and reduces its cooldown by
-        3.
-      icon: bcb5bbf5676057e4bb4278f5c20bb865
-      name: Panther
-      type: mobility
     - color: pink
       description: Steady Shot inflicts Stun for 0.5.
       icon: 594fdf8c70a83404da422aa6463e0e03
       name: Perfect Shot
       type: control
-    winrate: '53.9'
+    - color: pink
+      description: Bear Trap lays down an additional trap in front of the first one
+        that lasts for 2.5.
+      icon: 6e30eed38d549fa4794a4543bf2b8de2
+      name: Trapper
+      type: control
+    winrate: '62.4'
   - damage: '7.5'
     disable: '1.0'
     energy: '4.2'
-    num: 81
+    num: 90
     protection: '0.8'
     skills:
     - color: red
@@ -208,12 +208,12 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '46.9'
-  - damage: '8.2'
-    disable: '1.0'
-    energy: '4.0'
-    num: 79
-    protection: '0.7'
+    winrate: '45.6'
+  - damage: '7.7'
+    disable: '0.7'
+    energy: '3.6'
+    num: 74
+    protection: '0.8'
     skills:
     - color: red
       description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
@@ -231,22 +231,22 @@ builds:
       icon: 60a73a3140321ec448f7f97f00a07897
       name: Death Mark
       type: offense
+    - color: yellow
+      description: Increases duration of Prowl by 0.5 and reduces its cooldown by
+        3.
+      icon: bcb5bbf5676057e4bb4278f5c20bb865
+      name: Panther
+      type: mobility
     - color: pink
       description: Steady Shot inflicts Stun for 0.5.
       icon: 594fdf8c70a83404da422aa6463e0e03
       name: Perfect Shot
       type: control
-    - color: pink
-      description: Bear Trap lays down an additional trap in front of the first one
-        that lasts for 2.5.
-      icon: 6e30eed38d549fa4794a4543bf2b8de2
-      name: Trapper
-      type: control
-    winrate: '63.3'
+    winrate: '54.1'
   - damage: '7.9'
     disable: '0.9'
-    energy: '4.1'
-    num: 63
+    energy: '3.9'
+    num: 72
     protection: '1.2'
     skills:
     - color: red
@@ -277,47 +277,11 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '50.8'
-  - damage: '8.7'
-    disable: '0.8'
-    energy: '4.5'
-    num: 57
-    protection: '1.3'
-    skills:
-    - color: red
-      description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
-        over the duration.
-      icon: ce1e01246a2a09145a192bb0deeeb400
-      name: Arrow Storm
-      type: offense
-    - color: grey
-      description: Enemies caught in Bear Trap deal 50 reduced damage and receive
-        50 less healing.
-      icon: 6e30eed38d549fa4794a4543bf2b8de2
-      name: Disabling Trap
-      type: mixed
-    - color: yellow
-      description: Increases duration of Prowl by 0.5 and reduces its cooldown by
-        3.
-      icon: bcb5bbf5676057e4bb4278f5c20bb865
-      name: Panther
-      type: mobility
-    - color: pink
-      description: Steady Shot inflicts Stun for 0.5.
-      icon: 594fdf8c70a83404da422aa6463e0e03
-      name: Perfect Shot
-      type: control
-    - color: pink
-      description: Bear Trap lays down an additional trap in front of the first one
-        that lasts for 2.5.
-      icon: 6e30eed38d549fa4794a4543bf2b8de2
-      name: Trapper
-      type: control
-    winrate: '47.4'
-  - damage: '8.3'
+    winrate: '54.2'
+  - damage: '8.2'
     disable: '0.6'
-    energy: '4.1'
-    num: 47
+    energy: '4.0'
+    num: 56
     protection: '0.7'
     skills:
     - color: red
@@ -347,11 +311,45 @@ builds:
       icon: 4b81fcaeb29b2cd4e81e67d224552899
       name: Precision
       type: offense
-    winrate: '53.2'
-  twos:
-  - damage: '8.8'
+    winrate: '51.8'
+  - damage: '8.6'
     disable: '0.9'
-    energy: '4.8'
+    energy: '4.6'
+    num: 53
+    protection: '1.1'
+    skills:
+    - color: red
+      description: Consuming ^2Seekers Mark^- deals 4 bonus damage.
+      icon: 60a73a3140321ec448f7f97f00a07897
+      name: Death Mark
+      type: offense
+    - color: grey
+      description: Enemies caught in Bear Trap deal 50 reduced damage and receive
+        50 less healing.
+      icon: 6e30eed38d549fa4794a4543bf2b8de2
+      name: Disabling Trap
+      type: mixed
+    - color: pink
+      description: Steady Shot inflicts Stun for 0.5.
+      icon: 594fdf8c70a83404da422aa6463e0e03
+      name: Perfect Shot
+      type: control
+    - color: red
+      description: Black Arrow deals 4 bonus damage and grants 4 bonus energy.
+      icon: 4b81fcaeb29b2cd4e81e67d224552899
+      name: Precision
+      type: offense
+    - color: pink
+      description: Bear Trap lays down an additional trap in front of the first one
+        that lasts for 2.5.
+      icon: 6e30eed38d549fa4794a4543bf2b8de2
+      name: Trapper
+      type: control
+    winrate: '50.9'
+  twos:
+  - damage: '8.7'
+    disable: '0.9'
+    energy: '4.7'
     num: 26
     protection: '1.0'
     skills:
@@ -382,7 +380,7 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '57.7'
+    winrate: '53.8'
   - damage: '6.1'
     disable: '0.7'
     energy: '3.5'
@@ -418,10 +416,10 @@ builds:
       name: Trapper
       type: control
     winrate: '42.9'
-  - damage: '7.2'
+  - damage: '7.4'
     disable: '0.8'
-    energy: '3.8'
-    num: 18
+    energy: '3.9'
+    num: 17
     protection: '0.8'
     skills:
     - color: red
@@ -452,7 +450,7 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '88.9'
+    winrate: '94.1'
   - damage: '8.5'
     disable: '0.7'
     energy: '4.3'
@@ -488,11 +486,11 @@ builds:
       name: Trapper
       type: control
     winrate: '52.9'
-  - damage: '7.4'
-    disable: '0.8'
-    energy: '4.5'
+  - damage: '7.5'
+    disable: '0.9'
+    energy: '4.3'
     num: 16
-    protection: '1.0'
+    protection: '1.1'
     skills:
     - color: pink
       description: Increases Snare factor of Rain of Arrows from 20 to 40.
@@ -521,42 +519,7 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '43.8'
-  - damage: '4.8'
-    disable: '0.6'
-    energy: '3.0'
-    num: 13
-    protection: '0.4'
-    skills:
-    - color: red
-      description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
-        over the duration.
-      icon: ce1e01246a2a09145a192bb0deeeb400
-      name: Arrow Storm
-      type: offense
-    - color: red
-      description: Consuming ^2Seekers Mark^- deals 4 bonus damage.
-      icon: 60a73a3140321ec448f7f97f00a07897
-      name: Death Mark
-      type: offense
-    - color: yellow
-      description: Increases duration of Prowl by 0.5 and reduces its cooldown by
-        3.
-      icon: bcb5bbf5676057e4bb4278f5c20bb865
-      name: Panther
-      type: mobility
-    - color: pink
-      description: Steady Shot inflicts Stun for 0.5.
-      icon: 594fdf8c70a83404da422aa6463e0e03
-      name: Perfect Shot
-      type: control
-    - color: pink
-      description: Bear Trap lays down an additional trap in front of the first one
-        that lasts for 2.5.
-      icon: 6e30eed38d549fa4794a4543bf2b8de2
-      name: Trapper
-      type: control
-    winrate: '30.8'
+    winrate: '37.5'
   - damage: '7.0'
     disable: '0.9'
     energy: '3.8'
@@ -591,11 +554,11 @@ builds:
       name: Viper
       type: mobility
     winrate: '58.3'
-  - damage: '6.4'
+  - damage: '6.7'
     disable: '0.8'
-    energy: '4.2'
-    num: 10
-    protection: '0.8'
+    energy: '4.3'
+    num: 9
+    protection: '0.9'
     skills:
     - color: red
       description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
@@ -625,7 +588,7 @@ builds:
       icon: 6e30eed38d549fa4794a4543bf2b8de2
       name: Trapper
       type: control
-    winrate: '70.0'
+    winrate: '77.8'
   - damage: '7.9'
     disable: '1.0'
     energy: '4.1'
@@ -659,6 +622,39 @@ builds:
       name: Viper
       type: mobility
     winrate: '66.7'
+  - damage: '7.5'
+    disable: '0.5'
+    energy: '4.3'
+    num: 7
+    protection: '0.5'
+    skills:
+    - color: red
+      description: Consuming ^2Seekers Mark^- deals 4 bonus damage.
+      icon: 60a73a3140321ec448f7f97f00a07897
+      name: Death Mark
+      type: offense
+    - color: yellow
+      description: Increases duration of Prowl by 0.5 and reduces its cooldown by
+        3.
+      icon: bcb5bbf5676057e4bb4278f5c20bb865
+      name: Panther
+      type: mobility
+    - color: pink
+      description: Steady Shot inflicts Stun for 0.5.
+      icon: 594fdf8c70a83404da422aa6463e0e03
+      name: Perfect Shot
+      type: control
+    - color: red
+      description: Black Arrow deals 4 bonus damage and grants 4 bonus energy.
+      icon: 4b81fcaeb29b2cd4e81e67d224552899
+      name: Precision
+      type: offense
+    - color: yellow
+      description: Black Arrow grants 60 Fading Haste for 1.5.
+      icon: 4b81fcaeb29b2cd4e81e67d224552899
+      name: Viper
+      type: mobility
+    winrate: '42.9'
   - damage: '7.1'
     disable: '0.7'
     energy: '3.6'
@@ -696,40 +692,6 @@ builds:
 compos:
   threes:
   - hero_names:
-    - Thorn
-    - Poloma
-    - Jumong
-    heros:
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    - icon: 42a665b9c285a1243a201c8d533980e5
-      name: Jumong
-      title: jumong
-    num: 65
-    winrate: 0.5846153846153846
-    wins: 38
-  - hero_names:
-    - Thorn
-    - Oldur
-    - Jumong
-    heros:
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: 42a665b9c285a1243a201c8d533980e5
-      name: Jumong
-      title: jumong
-    num: 62
-    winrate: 0.45161290322580644
-    wins: 28
-  - hero_names:
     - Jumong
     - Raigon
     - Poloma
@@ -744,25 +706,8 @@ compos:
       name: Poloma
       title: poloma
     num: 61
-    winrate: 0.6065573770491803
-    wins: 37
-  - hero_names:
-    - Thorn
-    - Blossom
-    - Jumong
-    heros:
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: 42a665b9c285a1243a201c8d533980e5
-      name: Jumong
-      title: jumong
-    num: 60
-    winrate: 0.6166666666666667
-    wins: 37
+    winrate: 0.6229508196721312
+    wins: 38
   - hero_names:
     - Jumong
     - Blossom
@@ -777,8 +722,8 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 59
-    winrate: 0.4576271186440678
+    num: 60
+    winrate: 0.45
     wins: 27
   - hero_names:
     - Jumong
@@ -794,9 +739,60 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 58
-    winrate: 0.5689655172413793
+    num: 59
+    winrate: 0.576271186440678
+    wins: 34
+  - hero_names:
+    - Thorn
+    - Poloma
+    - Jumong
+    heros:
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: 42a665b9c285a1243a201c8d533980e5
+      name: Jumong
+      title: jumong
+    num: 59
+    winrate: 0.559322033898305
     wins: 33
+  - hero_names:
+    - Thorn
+    - Blossom
+    - Jumong
+    heros:
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    - icon: 42a665b9c285a1243a201c8d533980e5
+      name: Jumong
+      title: jumong
+    num: 56
+    winrate: 0.5892857142857143
+    wins: 33
+  - hero_names:
+    - Thorn
+    - Oldur
+    - Jumong
+    heros:
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    - icon: 42a665b9c285a1243a201c8d533980e5
+      name: Jumong
+      title: jumong
+    num: 52
+    winrate: 0.5
+    wins: 26
   - hero_names:
     - Jumong
     - Raigon
@@ -812,8 +808,8 @@ compos:
       name: Oldur
       title: oldur
     num: 46
-    winrate: 0.6304347826086957
-    wins: 29
+    winrate: 0.5869565217391305
+    wins: 27
   - hero_names:
     - Thorn
     - Sirius
@@ -828,9 +824,9 @@ compos:
     - icon: 42a665b9c285a1243a201c8d533980e5
       name: Jumong
       title: jumong
-    num: 46
-    winrate: 0.5217391304347826
-    wins: 24
+    num: 45
+    winrate: 0.5555555555555556
+    wins: 25
   - hero_names:
     - Jumong
     - Bakko
@@ -846,25 +842,25 @@ compos:
       name: Oldur
       title: oldur
     num: 44
-    winrate: 0.4772727272727273
-    wins: 21
+    winrate: 0.45454545454545453
+    wins: 20
   - hero_names:
-    - Pestilus
-    - Thorn
+    - Poloma
+    - Bakko
     - Jumong
     heros:
-    - icon: a7e0c7a6f0fa2ef49bf684950de34567
-      name: Pestilus
-      title: pestilus
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
     - icon: 42a665b9c285a1243a201c8d533980e5
       name: Jumong
       title: jumong
     num: 37
-    winrate: 0.43243243243243246
-    wins: 16
+    winrate: 0.4864864864864865
+    wins: 18
   twos:
   - hero_names:
     - Jumong
@@ -876,8 +872,8 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 54
-    winrate: 0.46296296296296297
+    num: 56
+    winrate: 0.44642857142857145
     wins: 25
   - hero_names:
     - Jumong
@@ -889,22 +885,9 @@ compos:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    num: 35
-    winrate: 0.6285714285714286
-    wins: 22
-  - hero_names:
-    - Jumong
-    - Lucie
-    heros:
-    - icon: 42a665b9c285a1243a201c8d533980e5
-      name: Jumong
-      title: jumong
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 22
-    winrate: 0.5
-    wins: 11
+    num: 29
+    winrate: 0.5517241379310345
+    wins: 16
   - hero_names:
     - Jumong
     - Pearl
@@ -915,9 +898,22 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 20
-    winrate: 0.65
+    num: 22
+    winrate: 0.5909090909090909
     wins: 13
+  - hero_names:
+    - Jumong
+    - Lucie
+    heros:
+    - icon: 42a665b9c285a1243a201c8d533980e5
+      name: Jumong
+      title: jumong
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 20
+    winrate: 0.5
+    wins: 10
   - hero_names:
     - Rook
     - Jumong
@@ -932,31 +928,18 @@ compos:
     winrate: 0.17647058823529413
     wins: 3
   - hero_names:
+    - Poloma
     - Jumong
-    - Raigon
     heros:
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
     - icon: 42a665b9c285a1243a201c8d533980e5
       name: Jumong
       title: jumong
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
     num: 14
-    winrate: 0.6428571428571429
-    wins: 9
-  - hero_names:
-    - Jumong
-    - Sirius
-    heros:
-    - icon: 42a665b9c285a1243a201c8d533980e5
-      name: Jumong
-      title: jumong
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    num: 14
-    winrate: 0.5714285714285714
-    wins: 8
+    winrate: 0.5
+    wins: 7
   - hero_names:
     - Pestilus
     - Jumong
@@ -971,18 +954,31 @@ compos:
     winrate: 0.6428571428571429
     wins: 9
   - hero_names:
-    - Poloma
     - Jumong
+    - Raigon
     heros:
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
     - icon: 42a665b9c285a1243a201c8d533980e5
       name: Jumong
       title: jumong
-    num: 13
-    winrate: 0.6153846153846154
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    num: 12
+    winrate: 0.6666666666666666
     wins: 8
+  - hero_names:
+    - Jumong
+    - Sirius
+    heros:
+    - icon: 42a665b9c285a1243a201c8d533980e5
+      name: Jumong
+      title: jumong
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
+    num: 12
+    winrate: 0.5833333333333334
+    wins: 7
   - hero_names:
     - Jumong
     - Bakko
@@ -993,9 +989,9 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 12
-    winrate: 0.16666666666666666
-    wins: 2
+    num: 9
+    winrate: 0.1111111111111111
+    wins: 1
 description: Jumong is a trophy collector who has wandered the wildlands in the pursuit
   of a worthy challenge. No longer being content with hunting the great beasts of
   the world has led him to enter the arena, looking for a new type of prey. He traps
@@ -1004,11 +1000,11 @@ icon: 42a665b9c285a1243a201c8d533980e5
 layout: character
 name: jumong
 num:
-  threes: 2203
-  twos: 265
+  threes: 2198
+  twos: 252
 title: Jumong
 url: characters/jumong.html
 winrate:
-  threes: '50.25'
-  twos: '49.06'
+  threes: '49.86'
+  twos: '46.03'
 ...
