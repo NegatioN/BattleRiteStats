@@ -39,7 +39,7 @@ builds:
   - damage: '7.2'
     disable: '0.9'
     energy: '3.0'
-    num: 38
+    num: 39
     protection: '1.5'
     skills:
     - color: red
@@ -70,7 +70,7 @@ builds:
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
-    winrate: '60.5'
+    winrate: '59.0'
   - damage: '5.4'
     disable: '0.7'
     energy: '3.1'
@@ -180,10 +180,10 @@ builds:
       name: Violent Revolution
       type: offense
     winrate: '58.3'
-  - damage: '7.2'
+  - damage: '7.4'
     disable: '0.9'
     energy: '2.9'
-    num: 11
+    num: 12
     protection: '0.8'
     skills:
     - color: red
@@ -214,7 +214,7 @@ builds:
       icon: 9ed50d63cfb9fc74f92a64fab5cb6259
       name: System Shock
       type: control
-    winrate: '45.5'
+    winrate: '50.0'
   - damage: '7.7'
     disable: '1.0'
     energy: '3.7'
@@ -286,6 +286,42 @@ builds:
       name: System Shock
       type: control
     winrate: '54.5'
+  - damage: '6.3'
+    disable: '0.9'
+    energy: '3.1'
+    num: 9
+    protection: '0.7'
+    skills:
+    - color: red
+      description: Sky Strike deals 6 bonus damage. Also increases its radius by 10.
+      icon: 1d95f324f635c9447a68299999e8597e
+      name: Blast Processing
+      type: offense
+    - color: yellow
+      description: Allies that move through Plasma Wall have movement speed increased
+        by 30 and are granted a Shield for 3.5. The Shield absorbs up to 16 damage.
+      icon: 14568f096fcd91f488876796605f5063
+      name: Plasma Booster
+      type: mobility
+    - color: green
+      description: Firing Power Blaster through a Plasma Wall increases the range
+        by 30 and grants you a shield absorbing 10 damage on hit.
+      icon: 87c684273ffea0845863a8f80b904890
+      name: Plasma Infusion
+      type: survival
+    - color: pink
+      description: Increases maximum Silence duration caused by Spell Block from 0.8
+        to 1.5.
+      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
+      name: System Shock
+      type: control
+    - color: red
+      description: Increases knockback force of Magnetic Orb by 20 and it deals 4
+        bonus damage.
+      icon: 32189e52d279bcc498ede10b3d3ff6d1
+      name: Violent Revolution
+      type: offense
+    winrate: '55.6'
   - damage: '6.2'
     disable: '0.8'
     energy: '3.2'
@@ -322,43 +358,6 @@ builds:
       name: Violent Revolution
       type: offense
     winrate: '44.4'
-  - damage: '5.7'
-    disable: '1.0'
-    energy: '3.0'
-    num: 8
-    protection: '0.5'
-    skills:
-    - color: green
-      description: Sky Strike grants you a shield that absorbs up to 14 damage and
-        absorbs an additional 8 damage for each enemy hit. Lasts for 4.
-      icon: 1d95f324f635c9447a68299999e8597e
-      name: Energy Conversion
-      type: survival
-    - color: yellow
-      description: Increases Magnetic Orb duration by 0.5 and its movement speed bonus
-        by 20.
-      icon: 32189e52d279bcc498ede10b3d3ff6d1
-      name: Globetrotter
-      type: mobility
-    - color: pink
-      description: Increases maximum Silence duration caused by Spell Block from 0.8
-        to 1.5.
-      icon: 9ed50d63cfb9fc74f92a64fab5cb6259
-      name: System Shock
-      type: control
-    - color: yellow
-      description: Maximum amount of Pinball bounces increases by 2 and transforms
-        you into Magnetic Orb at the end of duration.
-      icon: 00f3209be1d16c7408fddb035ff74d17
-      name: Transformer
-      type: mobility
-    - color: red
-      description: Increases knockback force of Magnetic Orb by 20 and it deals 4
-        bonus damage.
-      icon: 32189e52d279bcc498ede10b3d3ff6d1
-      name: Violent Revolution
-      type: offense
-    winrate: '50.0'
   twos:
   - damage: '4.2'
     disable: '0.4'
@@ -749,8 +748,25 @@ compos:
     - icon: 9872f8cd16d7327418b09294cfa319e6
       name: Poloma
       title: poloma
-    num: 13
-    winrate: 0.46153846153846156
+    num: 14
+    winrate: 0.5
+    wins: 7
+  - hero_names:
+    - Destiny
+    - Raigon
+    - Oldur
+    heros:
+    - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
+      name: Destiny
+      title: destiny
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    num: 10
+    winrate: 0.6
     wins: 6
   - hero_names:
     - Destiny
@@ -766,23 +782,6 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 9
-    winrate: 0.5555555555555556
-    wins: 5
-  - hero_names:
-    - Destiny
-    - Raigon
-    - Oldur
-    heros:
-    - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
-      name: Destiny
-      title: destiny
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
     num: 9
     winrate: 0.5555555555555556
     wins: 5
@@ -855,6 +854,23 @@ compos:
     winrate: 0.5555555555555556
     wins: 5
   - hero_names:
+    - Poloma
+    - Destiny
+    - Bakko
+    heros:
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
+      name: Destiny
+      title: destiny
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    num: 9
+    winrate: 0.6666666666666666
+    wins: 6
+  - hero_names:
     - Destiny
     - Oldur
     - Freya
@@ -871,23 +887,6 @@ compos:
     num: 8
     winrate: 0.5
     wins: 4
-  - hero_names:
-    - Poloma
-    - Destiny
-    - Bakko
-    heros:
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
-      name: Destiny
-      title: destiny
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    num: 8
-    winrate: 0.625
-    wins: 5
   twos:
   - hero_names:
     - Destiny
@@ -968,19 +967,6 @@ compos:
     winrate: 0.5
     wins: 3
   - hero_names:
-    - Ulric
-    - Destiny
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
-      name: Destiny
-      title: destiny
-    num: 5
-    winrate: 0.4
-    wins: 2
-  - hero_names:
     - Thorn
     - Destiny
     heros:
@@ -992,6 +978,19 @@ compos:
       title: destiny
     num: 5
     winrate: 0.4
+    wins: 2
+  - hero_names:
+    - Ulric
+    - Destiny
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
+      name: Destiny
+      title: destiny
+    num: 4
+    winrate: 0.5
     wins: 2
   - hero_names:
     - Destiny
@@ -1028,11 +1027,11 @@ icon: 65e28ab3b75c7cb478a1b24b46fca7d2
 layout: character
 name: destiny
 num:
-  threes: 481
-  twos: 118
+  threes: 497
+  twos: 117
 title: Destiny
 url: characters/destiny.html
 winrate:
-  threes: '51.35'
-  twos: '51.69'
+  threes: '51.51'
+  twos: '52.14'
 ...
