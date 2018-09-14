@@ -4,7 +4,7 @@ builds:
   - damage: '4.4'
     disable: '0.4'
     energy: '2.8'
-    num: 17
+    num: 18
     protection: '5.3'
     skills:
     - color: blue
@@ -34,11 +34,11 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '29.4'
+    winrate: '27.8'
   - damage: '3.0'
     disable: '0.5'
     energy: '2.4'
-    num: 14
+    num: 13
     protection: '4.1'
     skills:
     - color: grey
@@ -68,7 +68,7 @@ builds:
       icon: af5ff3eb2bad4b04a9c6dd30739068e6
       name: Showdown
       type: support
-    winrate: '28.6'
+    winrate: '30.8'
   - damage: '3.8'
     disable: '0.5'
     energy: '2.3'
@@ -104,41 +104,6 @@ builds:
       name: Showdown
       type: support
     winrate: '63.6'
-  - damage: '3.6'
-    disable: '0.4'
-    energy: '2.8'
-    num: 9
-    protection: '4.3'
-    skills:
-    - color: red
-      description: An ally traveling through Portal resets the cooldown of Grand Conjuration.
-        Only the first ally traveling through resets the cooldown.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Ace up the Sleeve
-      type: offense
-    - color: teal
-      description: Hearts restores 4 health over the duration.
-      icon: 144efc709ac628542aee319b14932b2c
-      name: Heart Restoration
-      type: support
-    - color: blue
-      description: Increase the health of Mirror Image illusions by 12 and duration
-        by 2.
-      icon: 2632a24f2167af14f9869abb401dd67f
-      name: Phantasmagoria
-      type: utility
-    - color: grey
-      description: Your first Trick Shot after using Mirror Image includes an additional
-        card for your illusion.
-      icon: 2632a24f2167af14f9869abb401dd67f
-      name: Stacked Deck
-      type: mixed
-    - color: grey
-      description: Increases Sheep Trick radius by 10 and reduces cooldown by 1.
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: The Big Stage
-      type: mixed
-    winrate: '55.6'
   - damage: '3.2'
     disable: '0.4'
     energy: '2.5'
@@ -210,6 +175,41 @@ builds:
       name: The Big Stage
       type: mixed
     winrate: '62.5'
+  - damage: '4.1'
+    disable: '0.4'
+    energy: '2.9'
+    num: 7
+    protection: '4.6'
+    skills:
+    - color: red
+      description: An ally traveling through Portal resets the cooldown of Grand Conjuration.
+        Only the first ally traveling through resets the cooldown.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Ace up the Sleeve
+      type: offense
+    - color: teal
+      description: Hearts restores 4 health over the duration.
+      icon: 144efc709ac628542aee319b14932b2c
+      name: Heart Restoration
+      type: support
+    - color: blue
+      description: Increase the health of Mirror Image illusions by 12 and duration
+        by 2.
+      icon: 2632a24f2167af14f9869abb401dd67f
+      name: Phantasmagoria
+      type: utility
+    - color: grey
+      description: Your first Trick Shot after using Mirror Image includes an additional
+        card for your illusion.
+      icon: 2632a24f2167af14f9869abb401dd67f
+      name: Stacked Deck
+      type: mixed
+    - color: grey
+      description: Increases Sheep Trick radius by 10 and reduces cooldown by 1.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: The Big Stage
+      type: mixed
+    winrate: '71.4'
   - damage: '3.7'
     disable: '0.3'
     energy: '2.6'
@@ -246,40 +246,6 @@ builds:
       name: Stacked Deck
       type: mixed
     winrate: '57.1'
-  - damage: '2.8'
-    disable: '0.6'
-    energy: '2.6'
-    num: 7
-    protection: '4.4'
-    skills:
-    - color: grey
-      description: Grand Conjuration inflicts a 1.7 Fading Snare.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Awestruck
-      type: mixed
-    - color: teal
-      description: Hearts restores 4 health over the duration.
-      icon: 144efc709ac628542aee319b14932b2c
-      name: Heart Restoration
-      type: support
-    - color: pink
-      description: Duration of Sheep Trick is increased by 0.5 and is further extended
-        by 0.5 if the target is inflicted with Arcane Catalyst.
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: Lasting Form
-      type: control
-    - color: red
-      description: When Sheep Form ends targets are inflicted by Arcane Catalyst.
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: Lead Astray
-      type: offense
-    - color: teal
-      description: Grants self or allies traveling through your Portal a shield that
-        absorbs up to 12 damage for 3.
-      icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Showdown
-      type: support
-    winrate: '28.6'
   - damage: '3.8'
     disable: '0.4'
     energy: '2.9'
@@ -349,6 +315,40 @@ builds:
       name: The Big Stage
       type: mixed
     winrate: '16.7'
+  - damage: '2.8'
+    disable: '0.5'
+    energy: '2.2'
+    num: 5
+    protection: '3.8'
+    skills:
+    - color: blue
+      description: Allows Grand Conjuration to bounce once upon wall hit and increases
+        its max range by 15. Can still only hit once per enemy.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Arcane Shenanigans
+      type: utility
+    - color: grey
+      description: Grand Conjuration inflicts a 1.7 Fading Snare.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Awestruck
+      type: mixed
+    - color: teal
+      description: Hearts restores 4 health over the duration.
+      icon: 144efc709ac628542aee319b14932b2c
+      name: Heart Restoration
+      type: support
+    - color: red
+      description: When Sheep Form ends targets are inflicted by Arcane Catalyst.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: Lead Astray
+      type: offense
+    - color: teal
+      description: Grants self or allies traveling through your Portal a shield that
+        absorbs up to 12 damage for 3.
+      icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Showdown
+      type: support
+    winrate: '60.0'
   twos:
   - damage: '2.9'
     disable: '0.2'
@@ -385,11 +385,11 @@ builds:
       name: Stacked Deck
       type: mixed
     winrate: '40.0'
-  - damage: '3.3'
+  - damage: '3.4'
     disable: '0.3'
     energy: '2.4'
-    num: 7
-    protection: '2.7'
+    num: 8
+    protection: '2.6'
     skills:
     - color: teal
       description: Hearts restores 4 health over the duration.
@@ -562,6 +562,40 @@ builds:
       name: Showdown
       type: support
     winrate: '50.0'
+  - damage: '3.5'
+    disable: '0.3'
+    energy: '2.4'
+    num: 2
+    protection: '3.7'
+    skills:
+    - color: grey
+      description: Grand Conjuration inflicts a 1.7 Fading Snare.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Awestruck
+      type: mixed
+    - color: teal
+      description: Hearts restores 4 health over the duration.
+      icon: 144efc709ac628542aee319b14932b2c
+      name: Heart Restoration
+      type: support
+    - color: yellow
+      description: Teleporting yourself or an ally with Portal grants target a 60
+        Fading Haste for 2.
+      icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Late to the Show
+      type: mobility
+    - color: blue
+      description: Increase the health of Mirror Image illusions by 12 and duration
+        by 2.
+      icon: 2632a24f2167af14f9869abb401dd67f
+      name: Phantasmagoria
+      type: utility
+    - color: grey
+      description: Increases Sheep Trick radius by 10 and reduces cooldown by 1.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: The Big Stage
+      type: mixed
+    winrate: '50.0'
   - damage: '2.5'
     disable: '0.3'
     energy: '2.0'
@@ -631,40 +665,6 @@ builds:
         card for your illusion.
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
-      type: mixed
-    winrate: '50.0'
-  - damage: '3.5'
-    disable: '0.3'
-    energy: '2.4'
-    num: 2
-    protection: '3.7'
-    skills:
-    - color: grey
-      description: Grand Conjuration inflicts a 1.7 Fading Snare.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Awestruck
-      type: mixed
-    - color: teal
-      description: Hearts restores 4 health over the duration.
-      icon: 144efc709ac628542aee319b14932b2c
-      name: Heart Restoration
-      type: support
-    - color: yellow
-      description: Teleporting yourself or an ally with Portal grants target a 60
-        Fading Haste for 2.
-      icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Late to the Show
-      type: mobility
-    - color: blue
-      description: Increase the health of Mirror Image illusions by 12 and duration
-        by 2.
-      icon: 2632a24f2167af14f9869abb401dd67f
-      name: Phantasmagoria
-      type: utility
-    - color: grey
-      description: Increases Sheep Trick radius by 10 and reduces cooldown by 1.
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: The Big Stage
       type: mixed
     winrate: '50.0'
   - damage: '2.8'
@@ -953,6 +953,19 @@ compos:
     winrate: 0.0
     wins: 0
   - hero_names:
+    - Rook
+    - Zander
+    heros:
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: 9c4186a6214f12448a7091710b0cde6c
+      name: Zander
+      title: zander
+    num: 6
+    winrate: 0.16666666666666666
+    wins: 1
+  - hero_names:
     - Ashka
     - Zander
     heros:
@@ -991,19 +1004,6 @@ compos:
     num: 5
     winrate: 0.6
     wins: 3
-  - hero_names:
-    - Rook
-    - Zander
-    heros:
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
-    - icon: 9c4186a6214f12448a7091710b0cde6c
-      name: Zander
-      title: zander
-    num: 4
-    winrate: 0.25
-    wins: 1
 description: When the famous theatre troupe "The Phantomime Masquerade" disbanded
   after a series of tragic events, their magnificent magician Zander vanished without
   a trace. Known for his unparalleled perfection in card trickery, teleportation,
@@ -1014,11 +1014,11 @@ icon: 9c4186a6214f12448a7091710b0cde6c
 layout: character
 name: zander
 num:
-  threes: 251
-  twos: 84
+  threes: 248
+  twos: 87
 title: Zander
 url: characters/zander.html
 winrate:
-  threes: '40.64'
-  twos: '42.86'
+  threes: '40.73'
+  twos: '41.38'
 ...
