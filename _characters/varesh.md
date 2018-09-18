@@ -4,7 +4,7 @@ builds:
   - damage: '7.1'
     disable: '0.5'
     energy: '3.2'
-    num: 122
+    num: 129
     protection: '1.9'
     skills:
     - color: red
@@ -36,11 +36,11 @@ builds:
       icon: fe5369baf5a80dc47b0656ae7be82e09
       name: Unlimited Power
       type: survival
-    winrate: '54.9'
+    winrate: '55.8'
   - damage: '7.2'
     disable: '0.5'
     energy: '3.8'
-    num: 83
+    num: 73
     protection: '2.4'
     skills:
     - color: red
@@ -71,11 +71,11 @@ builds:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
       type: support
-    winrate: '54.2'
+    winrate: '53.4'
   - damage: '7.0'
     disable: '0.5'
-    energy: '3.2'
-    num: 52
+    energy: '3.1'
+    num: 51
     protection: '2.8'
     skills:
     - color: grey
@@ -105,7 +105,7 @@ builds:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Wonder
       type: support
-    winrate: '53.8'
+    winrate: '54.9'
   - damage: '7.3'
     disable: '0.4'
     energy: '4.5'
@@ -354,8 +354,8 @@ builds:
   twos:
   - damage: '8.7'
     disable: '0.5'
-    energy: '4.1'
-    num: 29
+    energy: '4.0'
+    num: 30
     protection: '2.7'
     skills:
     - color: red
@@ -388,7 +388,7 @@ builds:
       icon: 0eb9279bebee4a24b8fe4604894d3fb6
       name: Zeal
       type: control
-    winrate: '82.8'
+    winrate: '83.3'
   - damage: '8.7'
     disable: '0.6'
     energy: '3.7'
@@ -635,11 +635,11 @@ builds:
       name: Wonder
       type: support
     winrate: '100.0'
-  - damage: '5.3'
-    disable: '0.3'
-    energy: '2.9'
-    num: 4
-    protection: '1.6'
+  - damage: '7.8'
+    disable: '0.8'
+    energy: '4.3'
+    num: 5
+    protection: '1.9'
     skills:
     - color: red
       description: Hand of Judgement deals 4 bonus damage and hitting an enemy resets
@@ -647,6 +647,11 @@ builds:
       icon: c2525970f8ab5574191da4938fa5619b
       name: Devastation
       type: offense
+    - color: yellow
+      description: Shatter can be cast while moving at 60 speed.
+      icon: d6c97da35fc19134881cb5a4c44e3912
+      name: Inhibitor
+      type: mobility
     - color: red
       description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
       icon: 2771f14010b802143b0b4d5fc8e4bb9c
@@ -658,19 +663,13 @@ builds:
       icon: c2525970f8ab5574191da4938fa5619b
       name: Silence
       type: control
-    - color: grey
-      description: While both Corruption and Judgement are active on an enemy, their
-        factors are increased by 5 and both effects are reapplied by Hand of Corruption
-        / Judgement when hitting that enemy.
+    - color: green
+      description: Consuming Corruption with Shatter increases Fading Snare duration
+        from 1 to 1.5 and reapplies Corruption.
       icon: fe5369baf5a80dc47b0656ae7be82e09
-      name: Synergy
-      type: mixed
-    - color: teal
-      description: Inhibitor's Guard absorbs 14 more damage.
-      icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Wonder
-      type: support
-    winrate: '50.0'
+      name: Unlimited Power
+      type: survival
+    winrate: '80.0'
   - damage: '7.7'
     disable: '0.4'
     energy: '4.4'
@@ -721,8 +720,8 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 40
-    winrate: 0.575
+    num: 41
+    winrate: 0.5609756097560976
     wins: 23
   - hero_names:
     - Thorn
@@ -738,60 +737,26 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 31
-    winrate: 0.5483870967741935
-    wins: 17
-  - hero_names:
-    - Rook
-    - Oldur
-    - Varesh
-    heros:
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: f1cc53a29c58089478f6438589d9b32d
-      name: Varesh
-      title: varesh
-    num: 31
-    winrate: 0.6129032258064516
+    num: 32
+    winrate: 0.59375
     wins: 19
   - hero_names:
-    - Oldur
-    - Jade
-    - Varesh
-    heros:
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    - icon: f1cc53a29c58089478f6438589d9b32d
-      name: Varesh
-      title: varesh
-    num: 29
-    winrate: 0.4482758620689655
-    wins: 13
-  - hero_names:
     - Rook
-    - Blossom
+    - Oldur
     - Varesh
     heros:
     - icon: e5d5913527b842b41aed666d27d14231
       name: Rook
       title: rook
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 28
-    winrate: 0.6428571428571429
-    wins: 18
+    num: 30
+    winrate: 0.6333333333333333
+    wins: 19
   - hero_names:
     - Poloma
     - Bakko
@@ -806,9 +771,43 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 28
-    winrate: 0.5714285714285714
+    num: 29
+    winrate: 0.5517241379310345
     wins: 16
+  - hero_names:
+    - Thorn
+    - Blossom
+    - Varesh
+    heros:
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    - icon: f1cc53a29c58089478f6438589d9b32d
+      name: Varesh
+      title: varesh
+    num: 29
+    winrate: 0.5862068965517241
+    wins: 17
+  - hero_names:
+    - Oldur
+    - Jade
+    - Varesh
+    heros:
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: f1cc53a29c58089478f6438589d9b32d
+      name: Varesh
+      title: varesh
+    num: 28
+    winrate: 0.4642857142857143
+    wins: 13
   - hero_names:
     - Varesh
     - Blossom
@@ -827,13 +826,13 @@ compos:
     winrate: 0.7142857142857143
     wins: 20
   - hero_names:
-    - Thorn
+    - Rook
     - Blossom
     - Varesh
     heros:
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
@@ -841,8 +840,8 @@ compos:
       name: Varesh
       title: varesh
     num: 27
-    winrate: 0.5555555555555556
-    wins: 15
+    winrate: 0.6296296296296297
+    wins: 17
   - hero_names:
     - Blossom
     - Croak
@@ -861,23 +860,36 @@ compos:
     winrate: 0.5185185185185185
     wins: 14
   - hero_names:
-    - Sirius
-    - Raigon
+    - Rook
+    - Poloma
     - Varesh
     heros:
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 26
-    winrate: 0.6923076923076923
-    wins: 18
+    num: 24
+    winrate: 0.5416666666666666
+    wins: 13
   twos:
+  - hero_names:
+    - Varesh
+    - Lucie
+    heros:
+    - icon: f1cc53a29c58089478f6438589d9b32d
+      name: Varesh
+      title: varesh
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 38
+    winrate: 0.7631578947368421
+    wins: 29
   - hero_names:
     - Oldur
     - Varesh
@@ -892,19 +904,6 @@ compos:
     winrate: 0.7105263157894737
     wins: 27
   - hero_names:
-    - Varesh
-    - Lucie
-    heros:
-    - icon: f1cc53a29c58089478f6438589d9b32d
-      name: Varesh
-      title: varesh
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 37
-    winrate: 0.7567567567567568
-    wins: 28
-  - hero_names:
     - Poloma
     - Varesh
     heros:
@@ -914,9 +913,9 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 32
-    winrate: 0.78125
-    wins: 25
+    num: 30
+    winrate: 0.7666666666666667
+    wins: 23
   - hero_names:
     - Blossom
     - Varesh
@@ -927,9 +926,9 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 19
-    winrate: 0.6842105263157895
-    wins: 13
+    num: 21
+    winrate: 0.7142857142857143
+    wins: 15
   - hero_names:
     - Pestilus
     - Varesh
@@ -953,9 +952,9 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 12
-    winrate: 0.5
-    wins: 6
+    num: 11
+    winrate: 0.36363636363636365
+    wins: 4
   - hero_names:
     - Pearl
     - Varesh
@@ -1015,11 +1014,11 @@ icon: f1cc53a29c58089478f6438589d9b32d
 layout: character
 name: varesh
 num:
-  threes: 1643
-  twos: 222
+  threes: 1630
+  twos: 220
 title: Varesh
 url: characters/varesh.html
 winrate:
-  threes: '52.65'
-  twos: '65.32'
+  threes: '52.64'
+  twos: '65.45'
 ...
