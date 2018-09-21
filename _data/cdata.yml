@@ -1,5 +1,5 @@
 extra:
-  num_matches: 6975
+  num_matches: 7038
   time_generated: 21 September 2018
 frontpage:
 - icon: 50404d271ae2a4f4f8b52de966688dc1
@@ -86,265 +86,265 @@ frontpage:
 threes:
 - icon: f1cc53a29c58089478f6438589d9b32d
   name: Varesh
-  num: 1785
+  num: 1839
   title: varesh
-  winrate: 0.5372549019607843
+  winrate: 0.5399673735725938
 - icon: 6c2252900d15cb344a5240f30d3ba705
   name: Raigon
-  num: 1797
+  num: 1803
   title: raigon
-  winrate: 0.5108514190317195
+  winrate: 0.5108153078202995
 - icon: 6f69edc7410650c43bee267eef585b06
   name: Shifu
-  num: 1063
+  num: 1107
   title: shifu
-  winrate: 0.5070555032925682
+  winrate: 0.5040650406504065
 - icon: 9872f8cd16d7327418b09294cfa319e6
   name: Poloma
-  num: 1702
+  num: 1715
   title: poloma
-  winrate: 0.5070505287896592
-- icon: 38b75268719e2b640a6d62250e102ffa
-  name: Jade
-  num: 2252
-  title: jade
-  winrate: 0.5044404973357016
-- icon: d3038956f9767d74bbbce0659b07474d
-  name: Croak
-  num: 1547
-  title: croak
-  winrate: 0.5029088558500323
-- icon: bb37e5d448c511e47b808987d0d4f9e8
-  name: Ruh Kaan
-  num: 1111
-  title: ruh-kaan
-  winrate: 0.49864986498649866
+  winrate: 0.5032069970845481
 - icon: b0d66b8b9f228724093b8a3e66c3fef6
   name: Oldur
-  num: 2222
+  num: 2263
   title: oldur
-  winrate: 0.4981998199819982
+  winrate: 0.5024304021210783
+- icon: 38b75268719e2b640a6d62250e102ffa
+  name: Jade
+  num: 2225
+  title: jade
+  winrate: 0.501123595505618
+- icon: d3038956f9767d74bbbce0659b07474d
+  name: Croak
+  num: 1587
+  title: croak
+  winrate: 0.499054820415879
+- icon: bb37e5d448c511e47b808987d0d4f9e8
+  name: Ruh Kaan
+  num: 1148
+  title: ruh-kaan
+  winrate: 0.49825783972125437
 - icon: e5d5913527b842b41aed666d27d14231
   name: Rook
-  num: 1551
+  num: 1548
   title: rook
-  winrate: 0.4977433913604126
-- icon: 427116cdee46bad4cbaa99d7063e0832
-  name: Pearl
-  num: 819
-  title: pearl
-  winrate: 0.49572649572649574
+  winrate: 0.49612403100775193
 - icon: aa93dc83288cb954aa3a97aabe8320dd
   name: Sirius
-  num: 1571
+  num: 1631
   title: sirius
-  winrate: 0.4939528962444303
-- icon: 65e28ab3b75c7cb478a1b24b46fca7d2
-  name: Destiny
-  num: 754
-  title: destiny
-  winrate: 0.493368700265252
+  winrate: 0.49294911097486205
 - icon: 6f50396e26efe6c4bbad274e2c90b8a4
   name: Blossom
-  num: 1902
+  num: 1934
   title: blossom
-  winrate: 0.4931650893796004
-- icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-  name: Ashka
-  num: 1265
-  title: ashka
-  winrate: 0.48142292490118577
+  winrate: 0.4906928645294726
+- icon: 427116cdee46bad4cbaa99d7063e0832
+  name: Pearl
+  num: 850
+  title: pearl
+  winrate: 0.48705882352941177
+- icon: 2905515bc00a1d64e83466ec8e50f8b6
+  name: Taya
+  num: 455
+  title: taya
+  winrate: 0.4857142857142857
+- icon: 65e28ab3b75c7cb478a1b24b46fca7d2
+  name: Destiny
+  num: 766
+  title: destiny
+  winrate: 0.4856396866840731
 - icon: decba44679fbdae4bb7d0d1cb6a97682
   name: Iva
-  num: 600
+  num: 603
   title: iva
-  winrate: 0.48
+  winrate: 0.48258706467661694
+- icon: aab126231d9ff344f9f88ab230a5e66f
+  name: Thorn
+  num: 1720
+  title: thorn
+  winrate: 0.4796511627906977
 - icon: e5554b8a15ffc1a499a3807bb3a37b56
   name: Lucie
   num: 980
   title: lucie
-  winrate: 0.4775510204081633
-- icon: aab126231d9ff344f9f88ab230a5e66f
-  name: Thorn
-  num: 1688
-  title: thorn
-  winrate: 0.47571090047393366
+  winrate: 0.4785714285714286
 - icon: a7e0c7a6f0fa2ef49bf684950de34567
   name: Pestilus
-  num: 1312
+  num: 1317
   title: pestilus
-  winrate: 0.47560975609756095
+  winrate: 0.4783599088838269
+- icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+  name: Ashka
+  num: 1280
+  title: ashka
+  winrate: 0.475
 - icon: 3af1fdc53169d044b939cce7ffb561a1
   name: Ezmo
-  num: 725
+  num: 737
   title: ezmo
-  winrate: 0.4703448275862069
+  winrate: 0.4735413839891452
 - icon: 42a665b9c285a1243a201c8d533980e5
   name: Jumong
-  num: 1931
+  num: 1953
   title: jumong
-  winrate: 0.46763335059554634
-- icon: 2905515bc00a1d64e83466ec8e50f8b6
-  name: Taya
-  num: 418
-  title: taya
-  winrate: 0.4665071770334928
+  winrate: 0.47055811571940603
 - icon: a90600a0f93cf3644b279b61ab3dc5c8
   name: Ulric
-  num: 638
+  num: 666
   title: ulric
-  winrate: 0.45768025078369906
+  winrate: 0.46996996996997
 - icon: 6154d6c0556261343844bf7caebb67a7
   name: Bakko
-  num: 1292
+  num: 1312
   title: bakko
-  winrate: 0.456656346749226
+  winrate: 0.45884146341463417
 - icon: be081702a8e70fe44ac0a4e3a9c46368
   name: Freya
-  num: 989
+  num: 1008
   title: freya
-  winrate: 0.45197168857431747
+  winrate: 0.4503968253968254
 - icon: f283d6dda29cbc845b4f770a1482d75b
   name: Jamila
-  num: 501
+  num: 506
   title: jamila
-  winrate: 0.4431137724550898
+  winrate: 0.4407114624505929
 - icon: 9c4186a6214f12448a7091710b0cde6c
   name: Zander
-  num: 335
+  num: 338
   title: zander
-  winrate: 0.41194029850746267
+  winrate: 0.42011834319526625
 - icon: 50404d271ae2a4f4f8b52de966688dc1
   name: Alysia
-  num: 1071
+  num: 1076
   title: alysia
-  winrate: 0.40336134453781514
+  winrate: 0.4033457249070632
 twos:
-- icon: f1cc53a29c58089478f6438589d9b32d
-  name: Varesh
-  num: 209
-  title: varesh
-  winrate: 0.5933014354066986
 - icon: e5554b8a15ffc1a499a3807bb3a37b56
   name: Lucie
-  num: 170
+  num: 166
   title: lucie
-  winrate: 0.5882352941176471
+  winrate: 0.5903614457831325
 - icon: a90600a0f93cf3644b279b61ab3dc5c8
   name: Ulric
-  num: 128
+  num: 124
   title: ulric
-  winrate: 0.578125
-- icon: 9872f8cd16d7327418b09294cfa319e6
-  name: Poloma
-  num: 230
-  title: poloma
-  winrate: 0.5695652173913044
-- icon: b0d66b8b9f228724093b8a3e66c3fef6
-  name: Oldur
-  num: 387
-  title: oldur
-  winrate: 0.5529715762273901
+  winrate: 0.5725806451612904
+- icon: f1cc53a29c58089478f6438589d9b32d
+  name: Varesh
+  num: 198
+  title: varesh
+  winrate: 0.5707070707070707
 - icon: 427116cdee46bad4cbaa99d7063e0832
   name: Pearl
-  num: 195
+  num: 192
   title: pearl
-  winrate: 0.5384615384615384
+  winrate: 0.5572916666666666
+- icon: b0d66b8b9f228724093b8a3e66c3fef6
+  name: Oldur
+  num: 371
+  title: oldur
+  winrate: 0.5525606469002695
 - icon: d3038956f9767d74bbbce0659b07474d
   name: Croak
-  num: 332
+  num: 327
   title: croak
-  winrate: 0.5331325301204819
-- icon: 3af1fdc53169d044b939cce7ffb561a1
-  name: Ezmo
-  num: 72
-  title: ezmo
-  winrate: 0.5277777777777778
+  winrate: 0.5443425076452599
 - icon: 42a665b9c285a1243a201c8d533980e5
   name: Jumong
-  num: 211
+  num: 202
   title: jumong
-  winrate: 0.5260663507109005
+  winrate: 0.5396039603960396
 - icon: 6f50396e26efe6c4bbad274e2c90b8a4
   name: Blossom
-  num: 379
+  num: 366
   title: blossom
-  winrate: 0.525065963060686
-- icon: 65e28ab3b75c7cb478a1b24b46fca7d2
-  name: Destiny
-  num: 88
-  title: destiny
-  winrate: 0.5227272727272727
+  winrate: 0.5300546448087432
+- icon: 9872f8cd16d7327418b09294cfa319e6
+  name: Poloma
+  num: 217
+  title: poloma
+  winrate: 0.5299539170506913
+- icon: 3af1fdc53169d044b939cce7ffb561a1
+  name: Ezmo
+  num: 70
+  title: ezmo
+  winrate: 0.5285714285714286
 - icon: a7e0c7a6f0fa2ef49bf684950de34567
   name: Pestilus
-  num: 186
+  num: 185
   title: pestilus
-  winrate: 0.5053763440860215
+  winrate: 0.518918918918919
+- icon: 65e28ab3b75c7cb478a1b24b46fca7d2
+  name: Destiny
+  num: 91
+  title: destiny
+  winrate: 0.5164835164835165
 - icon: be081702a8e70fe44ac0a4e3a9c46368
   name: Freya
-  num: 173
+  num: 165
   title: freya
-  winrate: 0.49710982658959535
-- icon: bb37e5d448c511e47b808987d0d4f9e8
-  name: Ruh Kaan
-  num: 238
-  title: ruh-kaan
-  winrate: 0.48739495798319327
-- icon: 6f69edc7410650c43bee267eef585b06
-  name: Shifu
-  num: 163
-  title: shifu
-  winrate: 0.48466257668711654
+  winrate: 0.5151515151515151
 - icon: e5d5913527b842b41aed666d27d14231
   name: Rook
-  num: 253
+  num: 255
   title: rook
-  winrate: 0.4743083003952569
+  winrate: 0.48627450980392156
 - icon: aa93dc83288cb954aa3a97aabe8320dd
   name: Sirius
-  num: 325
+  num: 326
   title: sirius
-  winrate: 0.47384615384615386
+  winrate: 0.48466257668711654
+- icon: 6f69edc7410650c43bee267eef585b06
+  name: Shifu
+  num: 159
+  title: shifu
+  winrate: 0.48427672955974843
+- icon: bb37e5d448c511e47b808987d0d4f9e8
+  name: Ruh Kaan
+  num: 226
+  title: ruh-kaan
+  winrate: 0.4778761061946903
 - icon: decba44679fbdae4bb7d0d1cb6a97682
   name: Iva
-  num: 81
+  num: 79
   title: iva
-  winrate: 0.4691358024691358
+  winrate: 0.46835443037974683
 - icon: aab126231d9ff344f9f88ab230a5e66f
   name: Thorn
-  num: 202
+  num: 194
   title: thorn
-  winrate: 0.4603960396039604
-- icon: f283d6dda29cbc845b4f770a1482d75b
-  name: Jamila
-  num: 133
-  title: jamila
-  winrate: 0.45112781954887216
+  winrate: 0.4639175257731959
 - icon: 38b75268719e2b640a6d62250e102ffa
   name: Jade
-  num: 253
+  num: 261
   title: jade
-  winrate: 0.4308300395256917
-- icon: 6c2252900d15cb344a5240f30d3ba705
-  name: Raigon
-  num: 326
-  title: raigon
-  winrate: 0.4294478527607362
+  winrate: 0.44061302681992337
 - icon: 50404d271ae2a4f4f8b52de966688dc1
   name: Alysia
-  num: 157
+  num: 158
   title: alysia
-  winrate: 0.4267515923566879
+  winrate: 0.43670886075949367
+- icon: f283d6dda29cbc845b4f770a1482d75b
+  name: Jamila
+  num: 125
+  title: jamila
+  winrate: 0.424
 - icon: 6154d6c0556261343844bf7caebb67a7
   name: Bakko
-  num: 229
+  num: 225
   title: bakko
-  winrate: 0.4148471615720524
+  winrate: 0.4177777777777778
+- icon: 6c2252900d15cb344a5240f30d3ba705
+  name: Raigon
+  num: 325
+  title: raigon
+  winrate: 0.4123076923076923
 - icon: 9c4186a6214f12448a7091710b0cde6c
   name: Zander
-  num: 79
+  num: 80
   title: zander
-  winrate: 0.3924050632911392
+  winrate: 0.4
 - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
   name: Ashka
   num: 117
