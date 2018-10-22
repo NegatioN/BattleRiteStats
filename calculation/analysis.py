@@ -134,10 +134,8 @@ def brite_name(battlerite_id):
 
 def brite_description(battlerite_id):
     brite = flattned_battlerites[battlerite_id]
-    description = locale_lookup[brite['description']]
-    vals = {x['Name'].lower(): x['Value'] for x in brite['tooltipData']}
-    description = re.sub('{\d+}|{-}', '', description)
-    return description.format(**vals)
+    description = brite['tooltip'][0]['description']
+    return description
 
 color_lookup = get_battlerite_color_mapping()
 type_lookup = get_battlerite_type_mapping()
