@@ -32,11 +32,12 @@ fab = b2
 fab.update(b1)
 
 # Add silly dummy for when SLS fucks up their resources
-dummy_brite = {'icon': 'd6c97da35fc19134881cb5a4c44e3912'.upper(), 
+dummy_brite = {'icon': 'd6c97da35fc19134881cb5a4c44e3912'.upper(),
                'description': 'SLS messed up resources and I dont wanna manually look for them',
-               'name': 'missingResource', 
-               'tooltipData': {'Value': 'Potato', 
-                               'Name': 'Silly SLS messed up the resources again'} }
+               'name': 'missingResource',
+               'tooltip': [{'description': 'SLS messed up resources and I dont wanna manually look for them'}],
+               'tooltipData': {'Value': 'Potato',
+                               'Name': 'Silly SLS messed up the resources again {}'} }
 flattned_battlerites = defaultdict(lambda: dummy_brite)
 flattned_battlerites.update(fab)
 
