@@ -43,8 +43,8 @@ builds:
   - damage: '6.1'
     disable: '1.0'
     energy: '3.1'
-    num: 111
-    protection: '1.7'
+    num: 112
+    protection: '1.6'
     skills:
     - color: blue
       description: <color=#00f4ffff>Dragon Palm</color> hits allow you to recast it
@@ -78,11 +78,11 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    winrate: '61.3'
+    winrate: '60.7'
   - damage: '5.5'
     disable: '0.9'
     energy: '2.5'
-    num: 65
+    num: 68
     protection: '0.9'
     skills:
     - color: grey
@@ -117,7 +117,7 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    winrate: '47.7'
+    winrate: '48.5'
   - damage: '5.3'
     disable: '0.8'
     energy: '2.8'
@@ -158,10 +158,49 @@ builds:
       name: Royal Descent
       type: offense
     winrate: '46.4'
+  - damage: '6.7'
+    disable: '0.8'
+    energy: '2.9'
+    num: 50
+    protection: '1.8'
+    skills:
+    - color: yellow
+      description: Increases movement speed by <color=#64E4EFFF>10%</color>.
+      icon: bbe2697d5982f654d8dab2223790bd77
+      name: Agility
+      type: mobility
+    - color: teal
+      description: <color=#00f4ffff>Heavenly Strike</color> inflicts <color=#64E4EFFF>50%</color>
+        <color=#00f4ffff>Weaken</color> for <color=#64E4EFFF>2s</color>.
+      icon: 47dabb046c0ec4d4c96bde0832713a46
+      name: Hawk Dive
+      type: support
+    - color: teal
+      description: Move at <color=#dc9b23ff>100%</color> movement speed during <color=#00f4ffff>Parry</color>.
+        Heal nearby allies for <color=#64E4EFFF>8</color> health when <color=#00f4ffff>Parry</color>
+        ends.
+      icon: fbfb00ff4fa4bc542b54639b84406f01
+      name: Invigorate
+      type: support
+    - color: red
+      description: <color=#00f4ffff>Seismic Shock</color> deals <color=#64E4EFFF>10</color>
+        bonus damage upon landing and deals <color=#64E4EFFF>16</color> damage and
+        inflicts <color=#00f4ffff>Fading Snare</color> for <color=#64E4EFFF>1.2s</color>
+        to other nearby enemies.
+      icon: 3c1f1a5c65f54594a9d3ba17b8f1b2a2
+      name: Perilous Height
+      type: offense
+    - color: red
+      description: <color=#00f4ffff>Heavenly Strike</color> deals <color=#64E4EFFF>8</color>
+        bonus damage and inflicts <color=#00f4ffff>Fading Snare</color> for <color=#64E4EFFF>1.2s</color>.
+      icon: 47dabb046c0ec4d4c96bde0832713a46
+      name: Royal Descent
+      type: offense
+    winrate: '54.0'
   - damage: '6.2'
     disable: '0.9'
     energy: '3.0'
-    num: 48
+    num: 49
     protection: '1.7'
     skills:
     - color: grey
@@ -196,7 +235,7 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    winrate: '58.3'
+    winrate: '59.2'
   - damage: '6.8'
     disable: '0.8'
     energy: '3.4'
@@ -279,43 +318,44 @@ builds:
     winrate: '51.3'
   - damage: '6.7'
     disable: '0.8'
-    energy: '2.9'
-    num: 34
-    protection: '1.8'
+    energy: '3.1'
+    num: 36
+    protection: '1.5'
     skills:
-    - color: yellow
-      description: Increases movement speed by <color=#64E4EFFF>10%</color>.
-      icon: bbe2697d5982f654d8dab2223790bd77
-      name: Agility
-      type: mobility
+    - color: grey
+      description: <color=#00f4ffff>Seismic Shock</color> can be recast to leap to
+        the airborne enemy and strike them, dealing <color=#64E4EFFF>6</color> damage
+        and increasing air duration by <color=#64E4EFFF>0.7s</color>.
+      icon: 3c1f1a5c65f54594a9d3ba17b8f1b2a2
+      name: Aerial Strike
+      type: mixed
+    - color: blue
+      description: <color=#00f4ffff>Dragon Palm</color> hits allow you to recast it
+        for <color=#64E4EFFF>1.5s</color>.
+      icon: d25b4fc0d427d424891492d2b61469a9
+      name: Dragon Mastery
+      type: utility
+    - color: green
+      description: Negating any attack with <color=#00f4ffff>Parry</color> heals you
+        for <color=#64E4EFFF>4</color> health. Negating the first attack grants you
+        a charge of <color=#00f4ffff>Slicing Winds</color>.
+      icon: fbfb00ff4fa4bc542b54639b84406f01
+      name: Duelist
+      type: survival
     - color: teal
       description: <color=#00f4ffff>Heavenly Strike</color> inflicts <color=#64E4EFFF>50%</color>
         <color=#00f4ffff>Weaken</color> for <color=#64E4EFFF>2s</color>.
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Hawk Dive
       type: support
-    - color: teal
-      description: Move at <color=#dc9b23ff>100%</color> movement speed during <color=#00f4ffff>Parry</color>.
-        Heal nearby allies for <color=#64E4EFFF>8</color> health when <color=#00f4ffff>Parry</color>
-        ends.
+    - color: red
+      description: <color=#00f4ffff>Parry</color> can be recast to perform a <color=#00f4ffff>Spinning
+        Slash</color>. It deals <color=#64E4EFFF>10</color> damage and inflicts <color=#00f4ffff>Stun</color>
+        for <color=#64E4EFFF>0.6s</color>.
       icon: fbfb00ff4fa4bc542b54639b84406f01
-      name: Invigorate
-      type: support
-    - color: red
-      description: <color=#00f4ffff>Seismic Shock</color> deals <color=#64E4EFFF>10</color>
-        bonus damage upon landing and deals <color=#64E4EFFF>16</color> damage and
-        inflicts <color=#00f4ffff>Fading Snare</color> for <color=#64E4EFFF>1.2s</color>
-        to other nearby enemies.
-      icon: 3c1f1a5c65f54594a9d3ba17b8f1b2a2
-      name: Perilous Height
+      name: Riposte
       type: offense
-    - color: red
-      description: <color=#00f4ffff>Heavenly Strike</color> deals <color=#64E4EFFF>8</color>
-        bonus damage and inflicts <color=#00f4ffff>Fading Snare</color> for <color=#64E4EFFF>1.2s</color>.
-      icon: 47dabb046c0ec4d4c96bde0832713a46
-      name: Royal Descent
-      type: offense
-    winrate: '55.9'
+    winrate: '63.9'
   - damage: '6.4'
     disable: '1.0'
     energy: '3.5'
@@ -357,46 +397,6 @@ builds:
       name: Royal Descent
       type: offense
     winrate: '45.2'
-  - damage: '6.8'
-    disable: '0.8'
-    energy: '3.1'
-    num: 31
-    protection: '1.5'
-    skills:
-    - color: grey
-      description: <color=#00f4ffff>Seismic Shock</color> can be recast to leap to
-        the airborne enemy and strike them, dealing <color=#64E4EFFF>6</color> damage
-        and increasing air duration by <color=#64E4EFFF>0.7s</color>.
-      icon: 3c1f1a5c65f54594a9d3ba17b8f1b2a2
-      name: Aerial Strike
-      type: mixed
-    - color: blue
-      description: <color=#00f4ffff>Dragon Palm</color> hits allow you to recast it
-        for <color=#64E4EFFF>1.5s</color>.
-      icon: d25b4fc0d427d424891492d2b61469a9
-      name: Dragon Mastery
-      type: utility
-    - color: green
-      description: Negating any attack with <color=#00f4ffff>Parry</color> heals you
-        for <color=#64E4EFFF>4</color> health. Negating the first attack grants you
-        a charge of <color=#00f4ffff>Slicing Winds</color>.
-      icon: fbfb00ff4fa4bc542b54639b84406f01
-      name: Duelist
-      type: survival
-    - color: teal
-      description: <color=#00f4ffff>Heavenly Strike</color> inflicts <color=#64E4EFFF>50%</color>
-        <color=#00f4ffff>Weaken</color> for <color=#64E4EFFF>2s</color>.
-      icon: 47dabb046c0ec4d4c96bde0832713a46
-      name: Hawk Dive
-      type: support
-    - color: red
-      description: <color=#00f4ffff>Parry</color> can be recast to perform a <color=#00f4ffff>Spinning
-        Slash</color>. It deals <color=#64E4EFFF>10</color> damage and inflicts <color=#00f4ffff>Stun</color>
-        for <color=#64E4EFFF>0.6s</color>.
-      icon: fbfb00ff4fa4bc542b54639b84406f01
-      name: Riposte
-      type: offense
-    winrate: '61.3'
   twos:
   - damage: '5.2'
     disable: '0.8'
@@ -441,7 +441,7 @@ builds:
   - damage: '5.7'
     disable: '0.9'
     energy: '3.0'
-    num: 17
+    num: 20
     protection: '1.5'
     skills:
     - color: blue
@@ -476,7 +476,7 @@ builds:
       icon: 47dabb046c0ec4d4c96bde0832713a46
       name: Royal Descent
       type: offense
-    winrate: '47.1'
+    winrate: '50.0'
   - damage: '5.6'
     disable: '0.8'
     energy: '3.2'
@@ -825,6 +825,40 @@ compos:
     winrate: 0.6571428571428571
     wins: 23
   - hero_names:
+    - Oldur
+    - Raigon
+    - Varesh
+    heros:
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    - icon: f1cc53a29c58089478f6438589d9b32d
+      name: Varesh
+      title: varesh
+    num: 32
+    winrate: 0.5
+    wins: 16
+  - hero_names:
+    - Jade
+    - Sirius
+    - Raigon
+    heros:
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    num: 32
+    winrate: 0.53125
+    wins: 17
+  - hero_names:
     - Sirius
     - Raigon
     - Varesh
@@ -843,40 +877,6 @@ compos:
     wins: 19
   - hero_names:
     - Oldur
-    - Raigon
-    - Varesh
-    heros:
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    - icon: f1cc53a29c58089478f6438589d9b32d
-      name: Varesh
-      title: varesh
-    num: 30
-    winrate: 0.5
-    wins: 15
-  - hero_names:
-    - Jade
-    - Sirius
-    - Raigon
-    heros:
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    num: 30
-    winrate: 0.5333333333333333
-    wins: 16
-  - hero_names:
-    - Oldur
     - Alysia
     - Raigon
     heros:
@@ -892,6 +892,23 @@ compos:
     num: 29
     winrate: 0.5172413793103449
     wins: 15
+  - hero_names:
+    - Blossom
+    - Alysia
+    - Raigon
+    heros:
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    - icon: 50404d271ae2a4f4f8b52de966688dc1
+      name: Alysia
+      title: alysia
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    num: 28
+    winrate: 0.42857142857142855
+    wins: 12
   - hero_names:
     - Raigon
     - Alysia
@@ -928,38 +945,21 @@ compos:
     wins: 15
   - hero_names:
     - Blossom
-    - Alysia
     - Raigon
+    - Varesh
     heros:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 26
-    winrate: 0.4230769230769231
-    wins: 11
-  - hero_names:
-    - Blossom
-    - Jade
-    - Raigon
-    heros:
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    num: 24
-    winrate: 0.375
-    wins: 9
+    - icon: f1cc53a29c58089478f6438589d9b32d
+      name: Varesh
+      title: varesh
+    num: 27
+    winrate: 0.6666666666666666
+    wins: 18
   twos:
   - hero_names:
     - Taya
@@ -984,9 +984,22 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 38
-    winrate: 0.5526315789473685
-    wins: 21
+    num: 41
+    winrate: 0.5365853658536586
+    wins: 22
+  - hero_names:
+    - Blossom
+    - Raigon
+    heros:
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    num: 19
+    winrate: 0.5789473684210527
+    wins: 11
   - hero_names:
     - Pestilus
     - Raigon
@@ -1010,22 +1023,9 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 16
-    winrate: 0.5
+    num: 17
+    winrate: 0.47058823529411764
     wins: 8
-  - hero_names:
-    - Blossom
-    - Raigon
-    heros:
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    num: 15
-    winrate: 0.6
-    wins: 9
   - hero_names:
     - Raigon
     - Jade
@@ -1036,9 +1036,22 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 12
-    winrate: 0.25
+    num: 13
+    winrate: 0.23076923076923078
     wins: 3
+  - hero_names:
+    - Raigon
+    - Pearl
+    heros:
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
+    num: 11
+    winrate: 0.5454545454545454
+    wins: 6
   - hero_names:
     - Croak
     - Raigon
@@ -1078,19 +1091,6 @@ compos:
     num: 9
     winrate: 0.6666666666666666
     wins: 6
-  - hero_names:
-    - Ulric
-    - Raigon
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    num: 9
-    winrate: 0.2222222222222222
-    wins: 2
 description: Raigon, formerly the crown prince of Quna, is a skilled melee fighter
   trained in two-handed swordsmanship and martial arts. He hopes to break the evil
   spell cast upon his father and return home. For now, the arena serves as a decent
@@ -1099,11 +1099,11 @@ icon: 6c2252900d15cb344a5240f30d3ba705
 layout: character
 name: raigon
 num:
-  threes: 1566
-  twos: 265
+  threes: 1642
+  twos: 276
 title: Raigon
 url: characters/raigon.html
 winrate:
-  threes: '47.06'
-  twos: '47.55'
+  threes: '47.32'
+  twos: '47.10'
 ...
