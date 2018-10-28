@@ -36,8 +36,8 @@ dummy_brite = {'icon': 'd6c97da35fc19134881cb5a4c44e3912'.upper(),
                'description': 'SLS messed up resources and I dont wanna manually look for them',
                'name': 'missingResource',
                'tooltip': [{'description': 'SLS messed up resources and I dont wanna manually look for them'}],
-               'tooltipData': {'Value': 'Potato',
-                               'Name': 'Silly SLS messed up the resources again {}'} }
+               'tooltipData': [{'Value': 'Potato',
+                                'Name': 'Silly SLS messed up the resources again {}'}] }
 flattned_battlerites = defaultdict(lambda: dummy_brite)
 flattned_battlerites.update(fab)
 
@@ -135,8 +135,10 @@ def brite_name(battlerite_id):
 
 def brite_description(battlerite_id):
     brite = flattned_battlerites[battlerite_id]
-    description = brite['tooltip'][0]['description']
-    return description
+    description = locale_lookup[brite['description']]
+    vals = {x['Name'].lower(): x['Value'] for x in brite['tooltipData']}
+    description = re.sub('{\d+}|{-}', '', description)
+    return description.format(**vals)
 
 color_lookup = get_battlerite_color_mapping()
 type_lookup = get_battlerite_type_mapping()
