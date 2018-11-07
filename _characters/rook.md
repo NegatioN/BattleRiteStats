@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '5.9'
+  - damage: '6.0'
     disable: '1.2'
     energy: '3.4'
-    num: 173
+    num: 180
     protection: '1.7'
     skills:
     - color: red
@@ -33,11 +33,11 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
       type: support
-    winrate: '58.4'
-  - damage: '5.9'
+    winrate: '58.9'
+  - damage: '6.0'
     disable: '1.0'
     energy: '2.6'
-    num: 144
+    num: 139
     protection: '1.7'
     skills:
     - color: red
@@ -65,11 +65,11 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
       type: support
-    winrate: '54.9'
+    winrate: '54.7'
   - damage: '5.8'
     disable: '1.1'
     energy: '2.8'
-    num: 121
+    num: 125
     protection: '1.3'
     skills:
     - color: yellow
@@ -98,11 +98,11 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Rook Smash
       type: offense
-    winrate: '53.7'
+    winrate: '54.4'
   - damage: '5.7'
     disable: '1.0'
     energy: '2.9'
-    num: 86
+    num: 87
     protection: '1.6'
     skills:
     - color: yellow
@@ -131,12 +131,12 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
       type: support
-    winrate: '50.0'
-  - damage: '5.3'
-    disable: '1.0'
-    energy: '2.7'
-    num: 83
-    protection: '1.6'
+    winrate: '49.4'
+  - damage: '5.1'
+    disable: '0.9'
+    energy: '2.6'
+    num: 82
+    protection: '1.5'
     skills:
     - color: red
       description: Boulder Toss inflicts Armor Break.
@@ -163,7 +163,7 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
       type: support
-    winrate: '51.8'
+    winrate: '51.2'
   - damage: '6.1'
     disable: '1.2'
     energy: '2.8'
@@ -199,7 +199,7 @@ builds:
     winrate: '54.1'
   - damage: '6.0'
     disable: '1.1'
-    energy: '2.9'
+    energy: '2.8'
     num: 54
     protection: '1.3'
     skills:
@@ -229,12 +229,12 @@ builds:
       icon: 037a9d14b1a74c249a0bb90af0237a7f
       name: Pummel Rush
       type: mobility
-    winrate: '51.9'
+    winrate: '48.1'
   - damage: '5.9'
     disable: '1.4'
-    energy: '2.9'
-    num: 49
-    protection: '1.8'
+    energy: '2.8'
+    num: 51
+    protection: '1.7'
     skills:
     - color: pink
       description: Boulder Toss inflicts Fading Snare for 1.5. Also reduces its cooldown
@@ -262,11 +262,11 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
       type: support
-    winrate: '55.1'
+    winrate: '52.9'
   - damage: '5.6'
     disable: '1.0'
     energy: '2.6'
-    num: 48
+    num: 49
     protection: '1.5'
     skills:
     - color: yellow
@@ -295,7 +295,7 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
       type: support
-    winrate: '35.4'
+    winrate: '38.8'
   - damage: '6.3'
     disable: '1.3'
     energy: '3.0'
@@ -334,7 +334,7 @@ builds:
   - damage: '6.1'
     disable: '1.1'
     energy: '3.9'
-    num: 39
+    num: 40
     protection: '1.5'
     skills:
     - color: red
@@ -362,7 +362,7 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
       type: support
-    winrate: '48.7'
+    winrate: '50.0'
   - damage: '5.9'
     disable: '1.2'
     energy: '2.8'
@@ -397,10 +397,10 @@ builds:
       name: Pummel Rush
       type: mobility
     winrate: '75.0'
-  - damage: '6.2'
+  - damage: '6.1'
     disable: '1.2'
-    energy: '2.8'
-    num: 25
+    energy: '2.7'
+    num: 26
     protection: '1.4'
     skills:
     - color: red
@@ -429,7 +429,73 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
       type: support
-    winrate: '56.0'
+    winrate: '53.8'
+  - damage: '6.3'
+    disable: '1.1'
+    energy: '3.0'
+    num: 20
+    protection: '1.6'
+    skills:
+    - color: yellow
+      description: Reduces the cooldown of Rush by 1. Hitting an enemy further reduces
+        cooldown by 1.
+      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
+      name: Endurance
+      type: mobility
+    - color: red
+      description: Rush hits cause you to gain Berserk for 1.5.
+      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
+      name: Frenzy
+      type: offense
+    - color: green
+      description: Decreases damage taken during Berserk by 25.
+      icon: df78f943fca96314181fdf1827f825db
+      name: Giant
+      type: survival
+    - color: red
+      description: Crushing Blow deals 4 bonus damage.
+      icon: bc4e2e34829b8af4c92bb6a8f570fc96
+      name: Rook Smash
+      type: offense
+    - color: teal
+      description: Enemies affected by Armor Break deal 25 less damage.
+      icon: bc4e2e34829b8af4c92bb6a8f570fc96
+      name: Weapon Break
+      type: support
+    winrate: '40.0'
+  - damage: '5.9'
+    disable: '1.1'
+    energy: '2.9'
+    num: 18
+    protection: '1.3'
+    skills:
+    - color: yellow
+      description: Reduces the cooldown of Rush by 1. Hitting an enemy further reduces
+        cooldown by 1.
+      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
+      name: Endurance
+      type: mobility
+    - color: red
+      description: Rush hits cause you to gain Berserk for 1.5.
+      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
+      name: Frenzy
+      type: offense
+    - color: green
+      description: Decreases damage taken during Berserk by 25.
+      icon: df78f943fca96314181fdf1827f825db
+      name: Giant
+      type: survival
+    - color: yellow
+      description: Increases movement speed bonus during Berserk by 30.
+      icon: df78f943fca96314181fdf1827f825db
+      name: Madness
+      type: mobility
+    - color: red
+      description: Crushing Blow deals 4 bonus damage.
+      icon: bc4e2e34829b8af4c92bb6a8f570fc96
+      name: Rook Smash
+      type: offense
+    winrate: '38.9'
   - damage: '6.0'
     disable: '1.2'
     energy: '2.6'
@@ -463,9 +529,9 @@ builds:
       name: Weapon Break
       type: support
     winrate: '88.2'
-  - damage: '6.3'
+  - damage: '6.4'
     disable: '1.1'
-    energy: '2.9'
+    energy: '3.0'
     num: 17
     protection: '1.6'
     skills:
@@ -494,19 +560,19 @@ builds:
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
       type: support
-    winrate: '64.7'
-  - damage: '5.9'
-    disable: '1.1'
-    energy: '3.0'
-    num: 16
-    protection: '1.4'
+    winrate: '58.8'
+  - damage: '4.2'
+    disable: '0.9'
+    energy: '2.0'
+    num: 14
+    protection: '0.8'
     skills:
-    - color: yellow
-      description: Reduces the cooldown of Rush by 1. Hitting an enemy further reduces
-        cooldown by 1.
-      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
-      name: Endurance
-      type: mobility
+    - color: pink
+      description: Boulder Toss inflicts Fading Snare for 1.5. Also reduces its cooldown
+        by 1.5.
+      icon: ec50e13a62a38194186bf0763d8ae951
+      name: Crag
+      type: control
     - color: red
       description: Rush hits cause you to gain Berserk for 1.5.
       icon: 0cfff8a481a64fd499bfaeb3da1cbca5
@@ -518,49 +584,16 @@ builds:
       name: Giant
       type: survival
     - color: yellow
-      description: Increases movement speed bonus during Berserk by 30.
-      icon: df78f943fca96314181fdf1827f825db
-      name: Madness
+      description: Pummel hits reduce cooldown of Rush by 0.4.
+      icon: 037a9d14b1a74c249a0bb90af0237a7f
+      name: Pummel Rush
       type: mobility
     - color: red
       description: Crushing Blow deals 4 bonus damage.
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Rook Smash
       type: offense
-    winrate: '37.5'
-  - damage: '6.1'
-    disable: '1.0'
-    energy: '2.9'
-    num: 15
-    protection: '1.5'
-    skills:
-    - color: yellow
-      description: Reduces the cooldown of Rush by 1. Hitting an enemy further reduces
-        cooldown by 1.
-      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
-      name: Endurance
-      type: mobility
-    - color: red
-      description: Rush hits cause you to gain Berserk for 1.5.
-      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
-      name: Frenzy
-      type: offense
-    - color: green
-      description: Decreases damage taken during Berserk by 25.
-      icon: df78f943fca96314181fdf1827f825db
-      name: Giant
-      type: survival
-    - color: red
-      description: Crushing Blow deals 4 bonus damage.
-      icon: bc4e2e34829b8af4c92bb6a8f570fc96
-      name: Rook Smash
-      type: offense
-    - color: teal
-      description: Enemies affected by Armor Break deal 25 less damage.
-      icon: bc4e2e34829b8af4c92bb6a8f570fc96
-      name: Weapon Break
-      type: support
-    winrate: '40.0'
+    winrate: '50.0'
   - damage: '5.0'
     disable: '1.2'
     energy: '2.2'
@@ -594,44 +627,11 @@ builds:
       name: Weapon Break
       type: support
     winrate: '69.2'
-  - damage: '4.5'
-    disable: '1.0'
-    energy: '2.0'
-    num: 13
-    protection: '0.8'
-    skills:
-    - color: pink
-      description: Boulder Toss inflicts Fading Snare for 1.5. Also reduces its cooldown
-        by 1.5.
-      icon: ec50e13a62a38194186bf0763d8ae951
-      name: Crag
-      type: control
-    - color: red
-      description: Rush hits cause you to gain Berserk for 1.5.
-      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
-      name: Frenzy
-      type: offense
-    - color: green
-      description: Decreases damage taken during Berserk by 25.
-      icon: df78f943fca96314181fdf1827f825db
-      name: Giant
-      type: survival
-    - color: yellow
-      description: Pummel hits reduce cooldown of Rush by 0.4.
-      icon: 037a9d14b1a74c249a0bb90af0237a7f
-      name: Pummel Rush
-      type: mobility
-    - color: red
-      description: Crushing Blow deals 4 bonus damage.
-      icon: bc4e2e34829b8af4c92bb6a8f570fc96
-      name: Rook Smash
-      type: offense
-    winrate: '46.2'
-  - damage: '4.1'
+  - damage: '4.0'
     disable: '0.7'
-    energy: '2.1'
-    num: 11
-    protection: '0.8'
+    energy: '2.0'
+    num: 10
+    protection: '0.7'
     skills:
     - color: yellow
       description: Reduces the cooldown of Rush by 1. Hitting an enemy further reduces
@@ -659,7 +659,7 @@ builds:
       icon: 037a9d14b1a74c249a0bb90af0237a7f
       name: Pummel Rush
       type: mobility
-    winrate: '27.3'
+    winrate: '30.0'
 compos:
   threes:
   - hero_names:
@@ -676,9 +676,26 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 57
-    winrate: 0.5789473684210527
+    num: 60
+    winrate: 0.55
     wins: 33
+  - hero_names:
+    - Rook
+    - Sirius
+    - Jade
+    heros:
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 43
+    winrate: 0.5581395348837209
+    wins: 24
   - hero_names:
     - Rook
     - Poloma
@@ -694,42 +711,8 @@ compos:
       name: Varesh
       title: varesh
     num: 39
-    winrate: 0.5897435897435898
-    wins: 23
-  - hero_names:
-    - Rook
-    - Sirius
-    - Jade
-    heros:
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 38
-    winrate: 0.5526315789473685
-    wins: 21
-  - hero_names:
-    - Pestilus
-    - Rook
-    - Jade
-    heros:
-    - icon: a7e0c7a6f0fa2ef49bf684950de34567
-      name: Pestilus
-      title: pestilus
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 33
-    winrate: 0.5454545454545454
-    wins: 18
+    winrate: 0.6153846153846154
+    wins: 24
   - hero_names:
     - Rook
     - Blossom
@@ -744,8 +727,25 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 31
-    winrate: 0.5483870967741935
+    num: 33
+    winrate: 0.5757575757575758
+    wins: 19
+  - hero_names:
+    - Pestilus
+    - Rook
+    - Jade
+    heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 32
+    winrate: 0.53125
     wins: 17
   - hero_names:
     - Rook
@@ -762,8 +762,8 @@ compos:
       name: Varesh
       title: varesh
     num: 31
-    winrate: 0.5483870967741935
-    wins: 17
+    winrate: 0.5161290322580645
+    wins: 16
   - hero_names:
     - Rook
     - Poloma
@@ -795,26 +795,9 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 25
-    winrate: 0.72
+    num: 27
+    winrate: 0.6666666666666666
     wins: 18
-  - hero_names:
-    - Rook
-    - Poloma
-    - Alysia
-    heros:
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
-    num: 24
-    winrate: 0.3333333333333333
-    wins: 8
   - hero_names:
     - Rook
     - Blossom
@@ -832,6 +815,23 @@ compos:
     num: 24
     winrate: 0.5833333333333334
     wins: 14
+  - hero_names:
+    - Rook
+    - Poloma
+    - Alysia
+    heros:
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: 50404d271ae2a4f4f8b52de966688dc1
+      name: Alysia
+      title: alysia
+    num: 23
+    winrate: 0.30434782608695654
+    wins: 7
   twos:
   - hero_names:
     - Pestilus
@@ -843,9 +843,9 @@ compos:
     - icon: e5d5913527b842b41aed666d27d14231
       name: Rook
       title: rook
-    num: 45
-    winrate: 0.6666666666666666
-    wins: 30
+    num: 47
+    winrate: 0.6595744680851063
+    wins: 31
   - hero_names:
     - Rook
     - Ruh Kaan
@@ -856,8 +856,8 @@ compos:
     - icon: bb37e5d448c511e47b808987d0d4f9e8
       name: Ruh Kaan
       title: ruh-kaan
-    num: 36
-    winrate: 0.4166666666666667
+    num: 35
+    winrate: 0.42857142857142855
     wins: 15
   - hero_names:
     - Rook
@@ -882,8 +882,8 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 29
-    winrate: 0.4827586206896552
+    num: 31
+    winrate: 0.45161290322580644
     wins: 14
   - hero_names:
     - Rook
@@ -908,9 +908,9 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 16
-    winrate: 0.75
-    wins: 12
+    num: 18
+    winrate: 0.7777777777777778
+    wins: 14
   - hero_names:
     - Rook
     - Croak
@@ -934,9 +934,9 @@ compos:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    num: 13
-    winrate: 0.6923076923076923
-    wins: 9
+    num: 14
+    winrate: 0.7142857142857143
+    wins: 10
   - hero_names:
     - Rook
     - Poloma
@@ -951,18 +951,18 @@ compos:
     winrate: 0.5
     wins: 6
   - hero_names:
+    - Ulric
     - Rook
-    - Jade
     heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
     - icon: e5d5913527b842b41aed666d27d14231
       name: Rook
       title: rook
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
     num: 11
-    winrate: 0.6363636363636364
-    wins: 7
+    winrate: 0.45454545454545453
+    wins: 5
 description: A mighty chieftain rushing into battle with a giant hammer in one hand
   and his dinner in the other. Rook likes to smash his enemies, with boulders, with
   hammers and even with his body. Once he goes berserk he turns into an unstoppable
@@ -971,11 +971,11 @@ icon: e5d5913527b842b41aed666d27d14231
 layout: character
 name: rook
 num:
-  threes: 1666
-  twos: 321
+  threes: 1680
+  twos: 332
 title: Rook
 url: characters/rook.html
 winrate:
-  threes: '50.84'
-  twos: '52.96'
+  threes: '50.95'
+  twos: '53.01'
 ...
