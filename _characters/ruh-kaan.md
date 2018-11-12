@@ -4,7 +4,7 @@ builds:
   - damage: '6.6'
     disable: '0.9'
     energy: '2.7'
-    num: 302
+    num: 322
     protection: '1.8'
     skills:
     - color: grey
@@ -34,11 +34,11 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    winrate: '50.7'
-  - damage: '6.1'
+    winrate: '49.1'
+  - damage: '6.0'
     disable: '1.0'
     energy: '2.6'
-    num: 86
+    num: 71
     protection: '1.7'
     skills:
     - color: pink
@@ -67,11 +67,11 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    winrate: '54.7'
+    winrate: '46.5'
   - damage: '6.1'
     disable: '0.9'
     energy: '2.5'
-    num: 78
+    num: 69
     protection: '1.8'
     skills:
     - color: grey
@@ -102,11 +102,11 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    winrate: '53.8'
+    winrate: '55.1'
   - damage: '5.5'
     disable: '1.0'
     energy: '2.7'
-    num: 40
+    num: 36
     protection: '1.9'
     skills:
     - color: pink
@@ -135,11 +135,11 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    winrate: '32.5'
+    winrate: '36.1'
   - damage: '6.2'
     disable: '0.8'
     energy: '2.5'
-    num: 39
+    num: 33
     protection: '2.0'
     skills:
     - color: grey
@@ -171,10 +171,10 @@ builds:
       name: Tenacious Demon
       type: offense
     winrate: '66.7'
-  - damage: '5.1'
+  - damage: '5.0'
     disable: '0.8'
     energy: '2.4'
-    num: 31
+    num: 33
     protection: '1.9'
     skills:
     - color: pink
@@ -204,11 +204,11 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    winrate: '38.7'
+    winrate: '36.4'
   - damage: '5.3'
     disable: '0.8'
     energy: '2.7'
-    num: 29
+    num: 22
     protection: '1.4'
     skills:
     - color: red
@@ -237,11 +237,45 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    winrate: '37.9'
-  - damage: '6.0'
+    winrate: '36.4'
+  - damage: '5.6'
+    disable: '1.0'
+    energy: '2.7'
+    num: 21
+    protection: '1.6'
+    skills:
+    - color: pink
+      description: Claw of the Wicked inflicts both Root for 1.2 and Curse.
+      icon: 13fbbdb9e7cbde8429053e33e1022fa8
+      name: Cold Embrace
+      type: control
+    - color: grey
+      description: Claw of the Wicked cooldown is reduced by 1.5 and hitting a target
+        further reduces its cooldown by 1.5.
+      icon: 13fbbdb9e7cbde8429053e33e1022fa8
+      name: Death Grip
+      type: mixed
+    - color: yellow
+      description: Sinister Strike gains 1 ability charge, but increases its cooldown
+        by 2.
+      icon: fe85f5b940cf1ff44825f090b2bb34ce
+      name: Demonic Hunt
+      type: mobility
+    - color: grey
+      description: Reduces your weapon charge cooldown by 30.
+      icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Reaper
+      type: mixed
+    - color: pink
+      description: Increases Silence duration from 0.3 to 0.8.
+      icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Wicked Strike
+      type: control
+    winrate: '23.8'
+  - damage: '5.9'
     disable: '0.7'
     energy: '2.8'
-    num: 19
+    num: 20
     protection: '1.8'
     skills:
     - color: grey
@@ -271,7 +305,7 @@ builds:
       icon: 13fbbdb9e7cbde8429053e33e1022fa8
       name: Tenacious Demon
       type: offense
-    winrate: '36.8'
+    winrate: '35.0'
   - damage: '5.8'
     disable: '1.0'
     energy: '2.4'
@@ -306,46 +340,12 @@ builds:
       name: Wicked Strike
       type: control
     winrate: '38.9'
-  - damage: '5.9'
-    disable: '0.8'
-    energy: '2.6'
-    num: 17
-    protection: '1.7'
-    skills:
-    - color: pink
-      description: Claw of the Wicked inflicts both Root for 1.2 and Curse.
-      icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Cold Embrace
-      type: control
-    - color: yellow
-      description: Sinister Strike gains 1 ability charge, but increases its cooldown
-        by 2.
-      icon: fe85f5b940cf1ff44825f090b2bb34ce
-      name: Demonic Hunt
-      type: mobility
-    - color: red
-      description: Charged Defiled Blade deals 5 bonus damage.
-      icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Grim Edge
-      type: offense
-    - color: green
-      description: Hitting Cursed enemies with Defiled Blade heals for 2 bonus health.
-        Charged Defiled Blade hits also heal for 6 bonus health.
-      icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Leech Blade
-      type: survival
-    - color: red
-      description: Claw of the Wicked deals 3 bonus damage. Increases range by 12.
-      icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Tenacious Demon
-      type: offense
-    winrate: '76.5'
   twos:
-  - damage: '6.8'
+  - damage: '6.7'
     disable: '0.9'
     energy: '2.7'
-    num: 36
-    protection: '1.8'
+    num: 38
+    protection: '1.7'
     skills:
     - color: grey
       description: Claw of the Wicked cooldown is reduced by 1.5 and hitting a target
@@ -374,44 +374,11 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    winrate: '75.0'
-  - damage: '6.5'
-    disable: '1.0'
-    energy: '2.6'
-    num: 16
-    protection: '1.6'
-    skills:
-    - color: pink
-      description: Claw of the Wicked inflicts both Root for 1.2 and Curse.
-      icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Cold Embrace
-      type: control
-    - color: yellow
-      description: Sinister Strike gains 1 ability charge, but increases its cooldown
-        by 2.
-      icon: fe85f5b940cf1ff44825f090b2bb34ce
-      name: Demonic Hunt
-      type: mobility
-    - color: red
-      description: Charged Defiled Blade deals 5 bonus damage.
-      icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Grim Edge
-      type: offense
-    - color: red
-      description: Claw of the Wicked deals 3 bonus damage. Increases range by 12.
-      icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Tenacious Demon
-      type: offense
-    - color: pink
-      description: Increases Silence duration from 0.3 to 0.8.
-      icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Wicked Strike
-      type: control
-    winrate: '87.5'
-  - damage: '7.0'
+    winrate: '73.7'
+  - damage: '6.8'
     disable: '0.9'
     energy: '2.7'
-    num: 15
+    num: 18
     protection: '2.2'
     skills:
     - color: grey
@@ -442,7 +409,40 @@ builds:
       icon: 13fbbdb9e7cbde8429053e33e1022fa8
       name: Tenacious Demon
       type: offense
-    winrate: '66.7'
+    winrate: '72.2'
+  - damage: '6.3'
+    disable: '1.0'
+    energy: '2.5'
+    num: 17
+    protection: '1.6'
+    skills:
+    - color: pink
+      description: Claw of the Wicked inflicts both Root for 1.2 and Curse.
+      icon: 13fbbdb9e7cbde8429053e33e1022fa8
+      name: Cold Embrace
+      type: control
+    - color: yellow
+      description: Sinister Strike gains 1 ability charge, but increases its cooldown
+        by 2.
+      icon: fe85f5b940cf1ff44825f090b2bb34ce
+      name: Demonic Hunt
+      type: mobility
+    - color: red
+      description: Charged Defiled Blade deals 5 bonus damage.
+      icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Grim Edge
+      type: offense
+    - color: red
+      description: Claw of the Wicked deals 3 bonus damage. Increases range by 12.
+      icon: 13fbbdb9e7cbde8429053e33e1022fa8
+      name: Tenacious Demon
+      type: offense
+    - color: pink
+      description: Increases Silence duration from 0.3 to 0.8.
+      icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Wicked Strike
+      type: control
+    winrate: '82.4'
   - damage: '6.2'
     disable: '0.9'
     energy: '3.1'
@@ -476,11 +476,11 @@ builds:
       name: Wicked Strike
       type: control
     winrate: '69.2'
-  - damage: '6.0'
-    disable: '0.9'
-    energy: '2.3'
-    num: 12
-    protection: '1.6'
+  - damage: '6.3'
+    disable: '1.0'
+    energy: '2.5'
+    num: 10
+    protection: '1.7'
     skills:
     - color: red
       description: Shadow Bolts deal 6 bonus damage.
@@ -508,7 +508,7 @@ builds:
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    winrate: '41.7'
+    winrate: '50.0'
   - damage: '5.6'
     disable: '0.5'
     energy: '1.8'
@@ -544,40 +544,40 @@ builds:
       name: Shadow Fury
       type: offense
     winrate: '87.5'
-  - damage: '6.0'
-    disable: '1.0'
-    energy: '2.6'
-    num: 6
-    protection: '1.6'
+  - damage: '5.1'
+    disable: '0.7'
+    energy: '2.4'
+    num: 7
+    protection: '1.4'
     skills:
-    - color: pink
-      description: Claw of the Wicked inflicts both Root for 1.2 and Curse.
-      icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Cold Embrace
-      type: control
-    - color: grey
-      description: Claw of the Wicked cooldown is reduced by 1.5 and hitting a target
-        further reduces its cooldown by 1.5.
-      icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Death Grip
-      type: mixed
     - color: yellow
       description: Sinister Strike gains 1 ability charge, but increases its cooldown
         by 2.
       icon: fe85f5b940cf1ff44825f090b2bb34ce
       name: Demonic Hunt
       type: mobility
+    - color: green
+      description: Reduces cooldown of Consume by 1. Negating attacks further reduces
+        the cooldown by {Can't represent GameValueList}s.
+      icon: c84fd648ae9f196428ba4e9b3bc42d1e
+      name: Gorge
+      type: survival
     - color: red
       description: Charged Defiled Blade deals 5 bonus damage.
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Grim Edge
+      type: offense
+    - color: red
+      description: Claw of the Wicked deals 3 bonus damage. Increases range by 12.
+      icon: 13fbbdb9e7cbde8429053e33e1022fa8
+      name: Tenacious Demon
       type: offense
     - color: pink
       description: Increases Silence duration from 0.3 to 0.8.
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    winrate: '16.7'
+    winrate: '42.9'
   - damage: '6.4'
     disable: '0.8'
     energy: '3.1'
@@ -645,11 +645,11 @@ builds:
       name: Wicked Strike
       type: control
     winrate: '66.7'
-  - damage: '4.8'
-    disable: '0.7'
-    energy: '2.4'
+  - damage: '6.0'
+    disable: '1.0'
+    energy: '2.6'
     num: 6
-    protection: '1.3'
+    protection: '1.6'
     skills:
     - color: pink
       description: Claw of the Wicked inflicts both Root for 1.2 and Curse.
@@ -668,17 +668,17 @@ builds:
       icon: fe85f5b940cf1ff44825f090b2bb34ce
       name: Demonic Hunt
       type: mobility
-    - color: pink
-      description: Activating Shadow Beast pulls nearby enemies towards you.
-      icon: 5a7e98c96d8346948b9f3f2a907e84ea
-      name: Hunger
-      type: control
+    - color: red
+      description: Charged Defiled Blade deals 5 bonus damage.
+      icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Grim Edge
+      type: offense
     - color: pink
       description: Increases Silence duration from 0.3 to 0.8.
       icon: 76c658cdb74fac345b0629a77fd6fc91
       name: Wicked Strike
       type: control
-    winrate: '83.3'
+    winrate: '16.7'
 compos:
   threes:
   - hero_names:
@@ -695,9 +695,43 @@ compos:
     - icon: bb37e5d448c511e47b808987d0d4f9e8
       name: Ruh Kaan
       title: ruh-kaan
-    num: 35
-    winrate: 0.5428571428571428
+    num: 36
+    winrate: 0.5277777777777778
     wins: 19
+  - hero_names:
+    - Poloma
+    - Ruh Kaan
+    - Varesh
+    heros:
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: bb37e5d448c511e47b808987d0d4f9e8
+      name: Ruh Kaan
+      title: ruh-kaan
+    - icon: f1cc53a29c58089478f6438589d9b32d
+      name: Varesh
+      title: varesh
+    num: 30
+    winrate: 0.6666666666666666
+    wins: 20
+  - hero_names:
+    - Blossom
+    - Jade
+    - Ruh Kaan
+    heros:
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: bb37e5d448c511e47b808987d0d4f9e8
+      name: Ruh Kaan
+      title: ruh-kaan
+    num: 30
+    winrate: 0.5
+    wins: 15
   - hero_names:
     - Pestilus
     - Jade
@@ -712,94 +746,60 @@ compos:
     - icon: bb37e5d448c511e47b808987d0d4f9e8
       name: Ruh Kaan
       title: ruh-kaan
-    num: 34
-    winrate: 0.6764705882352942
-    wins: 23
-  - hero_names:
-    - Blossom
-    - Jade
-    - Ruh Kaan
-    heros:
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    - icon: bb37e5d448c511e47b808987d0d4f9e8
-      name: Ruh Kaan
-      title: ruh-kaan
-    num: 34
-    winrate: 0.5294117647058824
-    wins: 18
-  - hero_names:
-    - Poloma
-    - Ruh Kaan
-    - Varesh
-    heros:
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    - icon: bb37e5d448c511e47b808987d0d4f9e8
-      name: Ruh Kaan
-      title: ruh-kaan
-    - icon: f1cc53a29c58089478f6438589d9b32d
-      name: Varesh
-      title: varesh
-    num: 32
-    winrate: 0.6875
-    wins: 22
-  - hero_names:
-    - Oldur
-    - Jade
-    - Ruh Kaan
-    heros:
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    - icon: bb37e5d448c511e47b808987d0d4f9e8
-      name: Ruh Kaan
-      title: ruh-kaan
-    num: 31
-    winrate: 0.5806451612903226
-    wins: 18
-  - hero_names:
-    - Blossom
-    - Ruh Kaan
-    - Varesh
-    heros:
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: bb37e5d448c511e47b808987d0d4f9e8
-      name: Ruh Kaan
-      title: ruh-kaan
-    - icon: f1cc53a29c58089478f6438589d9b32d
-      name: Varesh
-      title: varesh
-    num: 31
-    winrate: 0.4838709677419355
-    wins: 15
-  - hero_names:
-    - Oldur
-    - Ruh Kaan
-    - Varesh
-    heros:
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: bb37e5d448c511e47b808987d0d4f9e8
-      name: Ruh Kaan
-      title: ruh-kaan
-    - icon: f1cc53a29c58089478f6438589d9b32d
-      name: Varesh
-      title: varesh
     num: 29
-    winrate: 0.5862068965517241
-    wins: 17
+    winrate: 0.6896551724137931
+    wins: 20
+  - hero_names:
+    - Blossom
+    - Ruh Kaan
+    - Varesh
+    heros:
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    - icon: bb37e5d448c511e47b808987d0d4f9e8
+      name: Ruh Kaan
+      title: ruh-kaan
+    - icon: f1cc53a29c58089478f6438589d9b32d
+      name: Varesh
+      title: varesh
+    num: 28
+    winrate: 0.4642857142857143
+    wins: 13
+  - hero_names:
+    - Oldur
+    - Jade
+    - Ruh Kaan
+    heros:
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: bb37e5d448c511e47b808987d0d4f9e8
+      name: Ruh Kaan
+      title: ruh-kaan
+    num: 27
+    winrate: 0.5185185185185185
+    wins: 14
+  - hero_names:
+    - Varesh
+    - Oldur
+    - Ruh Kaan
+    heros:
+    - icon: f1cc53a29c58089478f6438589d9b32d
+      name: Varesh
+      title: varesh
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    - icon: bb37e5d448c511e47b808987d0d4f9e8
+      name: Ruh Kaan
+      title: ruh-kaan
+    num: 25
+    winrate: 0.56
+    wins: 14
   - hero_names:
     - Jumong
     - Oldur
@@ -814,20 +814,20 @@ compos:
     - icon: bb37e5d448c511e47b808987d0d4f9e8
       name: Ruh Kaan
       title: ruh-kaan
-    num: 29
-    winrate: 0.5517241379310345
-    wins: 16
+    num: 24
+    winrate: 0.5416666666666666
+    wins: 13
   - hero_names:
+    - Ashka
     - Poloma
-    - Jade
     - Ruh Kaan
     heros:
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
     - icon: 9872f8cd16d7327418b09294cfa319e6
       name: Poloma
       title: poloma
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
     - icon: bb37e5d448c511e47b808987d0d4f9e8
       name: Ruh Kaan
       title: ruh-kaan
@@ -835,22 +835,22 @@ compos:
     winrate: 0.4583333333333333
     wins: 11
   - hero_names:
-    - Ashka
-    - Sirius
+    - Pestilus
+    - Alysia
     - Ruh Kaan
     heros:
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: 50404d271ae2a4f4f8b52de966688dc1
+      name: Alysia
+      title: alysia
     - icon: bb37e5d448c511e47b808987d0d4f9e8
       name: Ruh Kaan
       title: ruh-kaan
     num: 23
-    winrate: 0.5217391304347826
-    wins: 12
+    winrate: 0.5652173913043478
+    wins: 13
   twos:
   - hero_names:
     - Poloma
@@ -862,8 +862,8 @@ compos:
     - icon: bb37e5d448c511e47b808987d0d4f9e8
       name: Ruh Kaan
       title: ruh-kaan
-    num: 42
-    winrate: 0.6904761904761905
+    num: 43
+    winrate: 0.6744186046511628
     wins: 29
   - hero_names:
     - Rook
@@ -875,9 +875,9 @@ compos:
     - icon: bb37e5d448c511e47b808987d0d4f9e8
       name: Ruh Kaan
       title: ruh-kaan
-    num: 37
-    winrate: 0.5945945945945946
-    wins: 22
+    num: 35
+    winrate: 0.6
+    wins: 21
   - hero_names:
     - Pearl
     - Ruh Kaan
@@ -888,9 +888,9 @@ compos:
     - icon: bb37e5d448c511e47b808987d0d4f9e8
       name: Ruh Kaan
       title: ruh-kaan
-    num: 24
-    winrate: 0.625
-    wins: 15
+    num: 31
+    winrate: 0.6129032258064516
+    wins: 19
   - hero_names:
     - Oldur
     - Ruh Kaan
@@ -901,48 +901,9 @@ compos:
     - icon: bb37e5d448c511e47b808987d0d4f9e8
       name: Ruh Kaan
       title: ruh-kaan
-    num: 23
-    winrate: 0.6086956521739131
-    wins: 14
-  - hero_names:
-    - Blossom
-    - Ruh Kaan
-    heros:
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: bb37e5d448c511e47b808987d0d4f9e8
-      name: Ruh Kaan
-      title: ruh-kaan
-    num: 22
-    winrate: 0.5909090909090909
-    wins: 13
-  - hero_names:
-    - Lucie
-    - Ruh Kaan
-    heros:
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    - icon: bb37e5d448c511e47b808987d0d4f9e8
-      name: Ruh Kaan
-      title: ruh-kaan
-    num: 18
-    winrate: 0.7222222222222222
-    wins: 13
-  - hero_names:
-    - Pestilus
-    - Ruh Kaan
-    heros:
-    - icon: a7e0c7a6f0fa2ef49bf684950de34567
-      name: Pestilus
-      title: pestilus
-    - icon: bb37e5d448c511e47b808987d0d4f9e8
-      name: Ruh Kaan
-      title: ruh-kaan
-    num: 17
-    winrate: 0.5294117647058824
-    wins: 9
+    num: 27
+    winrate: 0.6666666666666666
+    wins: 18
   - hero_names:
     - Sirius
     - Ruh Kaan
@@ -953,9 +914,48 @@ compos:
     - icon: bb37e5d448c511e47b808987d0d4f9e8
       name: Ruh Kaan
       title: ruh-kaan
-    num: 17
-    winrate: 0.5294117647058824
+    num: 18
+    winrate: 0.5
     wins: 9
+  - hero_names:
+    - Lucie
+    - Ruh Kaan
+    heros:
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    - icon: bb37e5d448c511e47b808987d0d4f9e8
+      name: Ruh Kaan
+      title: ruh-kaan
+    num: 17
+    winrate: 0.7058823529411765
+    wins: 12
+  - hero_names:
+    - Blossom
+    - Ruh Kaan
+    heros:
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    - icon: bb37e5d448c511e47b808987d0d4f9e8
+      name: Ruh Kaan
+      title: ruh-kaan
+    num: 16
+    winrate: 0.625
+    wins: 10
+  - hero_names:
+    - Pestilus
+    - Ruh Kaan
+    heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: bb37e5d448c511e47b808987d0d4f9e8
+      name: Ruh Kaan
+      title: ruh-kaan
+    num: 16
+    winrate: 0.5
+    wins: 8
   - hero_names:
     - Jumong
     - Ruh Kaan
@@ -966,8 +966,8 @@ compos:
     - icon: bb37e5d448c511e47b808987d0d4f9e8
       name: Ruh Kaan
       title: ruh-kaan
-    num: 11
-    winrate: 0.36363636363636365
+    num: 10
+    winrate: 0.4
     wins: 4
   - hero_names:
     - Jade
@@ -979,8 +979,8 @@ compos:
     - icon: bb37e5d448c511e47b808987d0d4f9e8
       name: Ruh Kaan
       title: ruh-kaan
-    num: 10
-    winrate: 0.1
+    num: 9
+    winrate: 0.1111111111111111
     wins: 1
 description: "Ruh Kaan was awoken when a grave robber desecrated the sacred crypts\
   \ Ark\u2019dun. Pursuing the trespasser led him to the Arenas where he is still\
@@ -990,11 +990,11 @@ icon: bb37e5d448c511e47b808987d0d4f9e8
 layout: character
 name: ruh-kaan
 num:
-  threes: 1475
-  twos: 294
+  threes: 1436
+  twos: 290
 title: Ruh Kaan
 url: characters/ruh-kaan.html
 winrate:
-  threes: '49.56'
-  twos: '54.76'
+  threes: '48.68'
+  twos: '54.14'
 ...
