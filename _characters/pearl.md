@@ -3,8 +3,8 @@ builds:
   threes:
   - damage: '3.6'
     disable: '1.0'
-    energy: '3.2'
-    num: 135
+    energy: '3.3'
+    num: 133
     protection: '6.2'
     skills:
     - color: teal
@@ -35,11 +35,11 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '45.9'
+    winrate: '46.6'
   - damage: '4.6'
     disable: '0.8'
-    energy: '2.9'
-    num: 133
+    energy: '3.0'
+    num: 130
     protection: '4.6'
     skills:
     - color: pink
@@ -71,11 +71,11 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    winrate: '60.9'
+    winrate: '62.3'
   - damage: '3.7'
     disable: '0.9'
     energy: '2.8'
-    num: 53
+    num: 55
     protection: '3.9'
     skills:
     - color: pink
@@ -106,11 +106,11 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '52.8'
+    winrate: '50.9'
   - damage: '3.8'
     disable: '0.9'
     energy: '2.5'
-    num: 44
+    num: 46
     protection: '4.3'
     skills:
     - color: pink
@@ -141,11 +141,11 @@ builds:
       icon: baa9baf5b01c5ee42902398a8f946a5a
       name: Tsunami
       type: offense
-    winrate: '56.8'
-  - damage: '4.1'
+    winrate: '54.3'
+  - damage: '4.2'
     disable: '1.0'
     energy: '2.6'
-    num: 41
+    num: 40
     protection: '4.5'
     skills:
     - color: teal
@@ -176,11 +176,11 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '51.2'
-  - damage: '4.0'
-    disable: '1.0'
-    energy: '2.6'
-    num: 35
+    winrate: '50.0'
+  - damage: '3.8'
+    disable: '0.9'
+    energy: '2.5'
+    num: 30
     protection: '5.6'
     skills:
     - color: teal
@@ -213,7 +213,7 @@ builds:
       icon: 6c30b1e6992030e4dae06a355b7a4fb4
       name: Spring Water
       type: support
-    winrate: '51.4'
+    winrate: '43.3'
   - damage: '4.5'
     disable: '1.0'
     energy: '3.0'
@@ -252,8 +252,8 @@ builds:
   - damage: '3.9'
     disable: '0.8'
     energy: '2.8'
-    num: 24
-    protection: '5.9'
+    num: 25
+    protection: '5.8'
     skills:
     - color: teal
       description: Healing Wave bounces to a nearby ally after healing, healing them
@@ -283,7 +283,7 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    winrate: '79.2'
+    winrate: '76.0'
   - damage: '3.6'
     disable: '0.9'
     energy: '2.9'
@@ -320,29 +320,29 @@ builds:
       name: Spring Water
       type: support
     winrate: '50.0'
-  - damage: '4.5'
-    disable: '0.8'
-    energy: '2.7'
-    num: 17
-    protection: '4.1'
+  - damage: '4.8'
+    disable: '0.9'
+    energy: '2.9'
+    num: 18
+    protection: '3.9'
     skills:
     - color: pink
       description: Countering an attack with Tidal Wave recharges your staff.
       icon: baa9baf5b01c5ee42902398a8f946a5a
       name: Gush
       type: control
-    - color: blue
-      description: Bubble Barrier can be recast within 1.5 to spawn a Lesser Bubble
-        Barrier.
-      icon: dba76bbb88cac764f9a8aeff389abb99
-      name: Ocean Sage
-      type: utility
     - color: red
       description: Firing Volatile Water through a Bubble Barrier increases damage
         by 3 and range by 25.
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Rippling Waters
       type: offense
+    - color: green
+      description: Countering an attack with Tidal Wave spawns a Lesser Bubble Barrier
+        around you.
+      icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Sea Bubble
+      type: survival
     - color: pink
       description: Charged Volatile Water explodes upon hitting an enemy, dealing
         full damage and inflicting Silence to other nearby enemies.
@@ -350,12 +350,12 @@ builds:
       name: Splash Damage
       type: control
     - color: teal
-      description: Bubble Barrier spawns a tasty fish that heals 10 health and increases
-        damage output by 20 for 4 when picked up.
-      icon: dba76bbb88cac764f9a8aeff389abb99
-      name: Tasty Fish
+      description: Dive heals self for 6 health and other nearby allies for 18 health
+        when emerging from the deep.
+      icon: 6c30b1e6992030e4dae06a355b7a4fb4
+      name: Spring Water
       type: support
-    winrate: '64.7'
+    winrate: '66.7'
   twos:
   - damage: '5.1'
     disable: '0.8'
@@ -465,10 +465,10 @@ builds:
       name: Spring Water
       type: support
     winrate: '66.7'
-  - damage: '4.4'
+  - damage: '4.0'
     disable: '1.0'
-    energy: '2.9'
-    num: 11
+    energy: '2.8'
+    num: 13
     protection: '3.2'
     skills:
     - color: pink
@@ -499,7 +499,7 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '63.6'
+    winrate: '53.8'
   - damage: '5.7'
     disable: '0.9'
     energy: '3.4'
@@ -782,9 +782,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 24
-    winrate: 0.625
-    wins: 15
+    num: 22
+    winrate: 0.6363636363636364
+    wins: 14
   - hero_names:
     - Pearl
     - Jade
@@ -816,9 +816,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 21
-    winrate: 0.6190476190476191
-    wins: 13
+    num: 20
+    winrate: 0.6
+    wins: 12
   - hero_names:
     - Rook
     - Jade
@@ -833,9 +833,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 18
-    winrate: 0.6666666666666666
-    wins: 12
+    num: 17
+    winrate: 0.6470588235294118
+    wins: 11
   - hero_names:
     - Freya
     - Jade
@@ -871,22 +871,22 @@ compos:
     winrate: 0.5333333333333333
     wins: 8
   - hero_names:
-    - Rook
+    - Bakko
+    - Jade
     - Pearl
-    - Varesh
     heros:
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    - icon: f1cc53a29c58089478f6438589d9b32d
-      name: Varesh
-      title: varesh
-    num: 15
-    winrate: 0.6
-    wins: 9
+    num: 13
+    winrate: 0.38461538461538464
+    wins: 5
   twos:
   - hero_names:
     - Pearl
@@ -911,9 +911,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 23
-    winrate: 0.6086956521739131
-    wins: 14
+    num: 24
+    winrate: 0.625
+    wins: 15
   - hero_names:
     - Thorn
     - Pearl
@@ -967,6 +967,19 @@ compos:
     winrate: 0.47058823529411764
     wins: 8
   - hero_names:
+    - Jade
+    - Pearl
+    heros:
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
+    num: 15
+    winrate: 0.6
+    wins: 9
+  - hero_names:
     - Freya
     - Pearl
     heros:
@@ -980,19 +993,6 @@ compos:
     winrate: 0.4666666666666667
     wins: 7
   - hero_names:
-    - Jade
-    - Pearl
-    heros:
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    - icon: 427116cdee46bad4cbaa99d7063e0832
-      name: Pearl
-      title: pearl
-    num: 14
-    winrate: 0.5714285714285714
-    wins: 8
-  - hero_names:
     - Ezmo
     - Pearl
     heros:
@@ -1002,9 +1002,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 12
-    winrate: 0.6666666666666666
-    wins: 8
+    num: 11
+    winrate: 0.6363636363636364
+    wins: 7
   - hero_names:
     - Ashka
     - Pearl
@@ -1025,11 +1025,11 @@ icon: 427116cdee46bad4cbaa99d7063e0832
 layout: character
 name: pearl
 num:
-  threes: 1026
-  twos: 251
+  threes: 1018
+  twos: 254
 title: Pearl
 url: characters/pearl.html
 winrate:
-  threes: '54.00'
-  twos: '56.18'
+  threes: '53.73'
+  twos: '56.30'
 ...
