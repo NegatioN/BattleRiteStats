@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '7.1'
+  - damage: '7.2'
     disable: '1.6'
     energy: '2.9'
-    num: 73
+    num: 90
     protection: '2.6'
     skills:
     - color: red
@@ -37,43 +37,7 @@ builds:
       icon: 0939b3a016f47504e99e00148489743b
       name: Sinister Sap
       type: offense
-    winrate: '53.4'
-  - damage: '6.6'
-    disable: '1.3'
-    energy: '2.7'
-    num: 59
-    protection: '2.8'
-    skills:
-    - color: red
-      description: Increases Root Grip range by 20. Root Grip pulls enemies closer
-        and deals 4 bonus damage.
-      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
-      name: Branch Out
-      type: offense
-    - color: grey
-      description: Each stinging volley inflicts Thorns on nearby enemies. Reduces
-        cooldown of Barbed Husk by 2.
-      icon: e6cee4151f85f62479addb2c5f459016
-      name: Critical Backlash
-      type: mixed
-    - color: green
-      description: Each enemy hit by Burrow grants you a Shield that absorbs up to
-        14 damage for 3.
-      icon: 297830658f259844cb3ce7d0711f15d8
-      name: Fearsome Uprootal
-      type: survival
-    - color: teal
-      description: Thorns reduces target's damage and healing output by 20 for 1.5.
-      icon: 3bf2758e82cebed44856097532c5dd9b
-      name: Neurotoxin
-      type: support
-    - color: green
-      description: Root Claw and Root Grip hits reduce incoming damage by 6 for 2.2.
-        Stacks up to 3 times.
-      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
-      name: Regrowth
-      type: survival
-    winrate: '66.1'
+    winrate: '54.4'
   - damage: '6.2'
     disable: '1.2'
     energy: '2.7'
@@ -109,6 +73,42 @@ builds:
       name: Regrowth
       type: survival
     winrate: '51.9'
+  - damage: '6.6'
+    disable: '1.3'
+    energy: '2.7'
+    num: 54
+    protection: '2.8'
+    skills:
+    - color: red
+      description: Increases Root Grip range by 20. Root Grip pulls enemies closer
+        and deals 4 bonus damage.
+      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
+      name: Branch Out
+      type: offense
+    - color: grey
+      description: Each stinging volley inflicts Thorns on nearby enemies. Reduces
+        cooldown of Barbed Husk by 2.
+      icon: e6cee4151f85f62479addb2c5f459016
+      name: Critical Backlash
+      type: mixed
+    - color: green
+      description: Each enemy hit by Burrow grants you a Shield that absorbs up to
+        14 damage for 3.
+      icon: 297830658f259844cb3ce7d0711f15d8
+      name: Fearsome Uprootal
+      type: survival
+    - color: teal
+      description: Thorns reduces target's damage and healing output by 20 for 1.5.
+      icon: 3bf2758e82cebed44856097532c5dd9b
+      name: Neurotoxin
+      type: support
+    - color: green
+      description: Root Claw and Root Grip hits reduce incoming damage by 6 for 2.2.
+        Stacks up to 3 times.
+      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
+      name: Regrowth
+      type: survival
+    winrate: '66.7'
   - damage: '7.8'
     disable: '1.6'
     energy: '3.1'
@@ -183,11 +183,11 @@ builds:
       name: Sinister Sap
       type: offense
     winrate: '59.5'
-  - damage: '6.5'
+  - damage: '6.6'
     disable: '1.5'
     energy: '3.6'
     num: 36
-    protection: '2.3'
+    protection: '2.4'
     skills:
     - color: pink
       description: Entangle spreads towards nearby enemies when the effect is broken,
@@ -218,7 +218,7 @@ builds:
       icon: 0939b3a016f47504e99e00148489743b
       name: Sinister Sap
       type: offense
-    winrate: '50.0'
+    winrate: '52.8'
   - damage: '6.8'
     disable: '1.3'
     energy: '2.9'
@@ -291,12 +291,12 @@ builds:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Regrowth
       type: survival
-    winrate: '44.1'
-  - damage: '7.5'
+    winrate: '47.1'
+  - damage: '7.4'
     disable: '1.9'
-    energy: '2.3'
-    num: 31
-    protection: '2.6'
+    energy: '2.2'
+    num: 34
+    protection: '2.5'
     skills:
     - color: pink
       description: Entangle spreads towards nearby enemies when the effect is broken,
@@ -328,7 +328,7 @@ builds:
       icon: 024cb70192c82c9468e69a41161f490a
       name: Whiplash
       type: offense
-    winrate: '61.3'
+    winrate: '64.7'
   - damage: '7.5'
     disable: '1.4'
     energy: '2.9'
@@ -403,11 +403,11 @@ builds:
       name: Whiplash
       type: offense
     winrate: '66.7'
-  - damage: '5.3'
+  - damage: '5.6'
     disable: '1.2'
     energy: '2.6'
-    num: 9
-    protection: '1.7'
+    num: 8
+    protection: '1.8'
     skills:
     - color: pink
       description: Evil Clutch inflicts Root for 1.5 to nearby enemies when it starts
@@ -438,81 +438,7 @@ builds:
       icon: 0939b3a016f47504e99e00148489743b
       name: Sinister Sap
       type: offense
-    winrate: '22.2'
-  - damage: '6.8'
-    disable: '1.7'
-    energy: '2.9'
-    num: 6
-    protection: '2.0'
-    skills:
-    - color: red
-      description: Increases Root Grip range by 20. Root Grip pulls enemies closer
-        and deals 4 bonus damage.
-      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
-      name: Branch Out
-      type: offense
-    - color: pink
-      description: Entangle spreads towards nearby enemies when the effect is broken,
-        dealing 6 damage to enemies and inflicting Lesser Entangle.
-      icon: 0939b3a016f47504e99e00148489743b
-      name: Creeping Roots
-      type: control
-    - color: green
-      description: Each enemy hit by Burrow grants you a Shield that absorbs up to
-        14 damage for 3.
-      icon: 297830658f259844cb3ce7d0711f15d8
-      name: Fearsome Uprootal
-      type: survival
-    - color: pink
-      description: Evil Clutch inflicts Root for 1.5 to nearby enemies when it starts
-        moving.\n
-      icon: 024cb70192c82c9468e69a41161f490a
-      name: Grounding Grasp
-      type: control
-    - color: red
-      description: Entangle deals 12 damage over its duration and heals for an additional
-        2 health. Reduces cooldown of Entangling Roots by 1.5.
-      icon: 0939b3a016f47504e99e00148489743b
-      name: Sinister Sap
-      type: offense
-    winrate: '66.7'
-  - damage: '8.1'
-    disable: '1.6'
-    energy: '3.4'
-    num: 6
-    protection: '2.5'
-    skills:
-    - color: red
-      description: Increases Root Grip range by 20. Root Grip pulls enemies closer
-        and deals 4 bonus damage.
-      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
-      name: Branch Out
-      type: offense
-    - color: pink
-      description: Entangle spreads towards nearby enemies when the effect is broken,
-        dealing 6 damage to enemies and inflicting Lesser Entangle.
-      icon: 0939b3a016f47504e99e00148489743b
-      name: Creeping Roots
-      type: control
-    - color: green
-      description: Each enemy hit by Burrow grants you a Shield that absorbs up to
-        14 damage for 3.
-      icon: 297830658f259844cb3ce7d0711f15d8
-      name: Fearsome Uprootal
-      type: survival
-    - color: green
-      description: Root Claw and Root Grip hits reduce incoming damage by 6 for 2.2.
-        Stacks up to 3 times.
-      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
-      name: Regrowth
-      type: survival
-    - color: red
-      description: Entangle deals 12 damage over its duration and heals for an additional
-        2 health. Reduces cooldown of Entangling Roots by 1.5.
-      icon: 0939b3a016f47504e99e00148489743b
-      name: Sinister Sap
-      type: offense
-    winrate: '50.0'
+    winrate: '25.0'
   - damage: '6.7'
     disable: '1.5'
     energy: '2.7'
@@ -550,10 +476,10 @@ builds:
       name: Sinister Sap
       type: offense
     winrate: '66.7'
-  - damage: '7.2'
-    disable: '1.5'
-    energy: '2.8'
-    num: 5
+  - damage: '6.8'
+    disable: '1.7'
+    energy: '2.9'
+    num: 6
     protection: '2.0'
     skills:
     - color: red
@@ -562,30 +488,31 @@ builds:
       icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
       name: Branch Out
       type: offense
-    - color: grey
-      description: Each stinging volley inflicts Thorns on nearby enemies. Reduces
-        cooldown of Barbed Husk by 2.
-      icon: e6cee4151f85f62479addb2c5f459016
-      name: Critical Backlash
-      type: mixed
     - color: pink
-      description: Thorns reduces target's movement speed by 25.
-      icon: 3bf2758e82cebed44856097532c5dd9b
-      name: Hamstring Briars
+      description: Entangle spreads towards nearby enemies when the effect is broken,
+        dealing 6 damage to enemies and inflicting Lesser Entangle.
+      icon: 0939b3a016f47504e99e00148489743b
+      name: Creeping Roots
       type: control
-    - color: red
-      description: Thorns deals 4 bonus damage and heals you for 2 bonus health over
-        its duration.
-      icon: 3bf2758e82cebed44856097532c5dd9b
-      name: Parasitic Stems
-      type: offense
+    - color: green
+      description: Each enemy hit by Burrow grants you a Shield that absorbs up to
+        14 damage for 3.
+      icon: 297830658f259844cb3ce7d0711f15d8
+      name: Fearsome Uprootal
+      type: survival
+    - color: pink
+      description: Evil Clutch inflicts Root for 1.5 to nearby enemies when it starts
+        moving.\n
+      icon: 024cb70192c82c9468e69a41161f490a
+      name: Grounding Grasp
+      type: control
     - color: red
       description: Entangle deals 12 damage over its duration and heals for an additional
         2 health. Reduces cooldown of Entangling Roots by 1.5.
       icon: 0939b3a016f47504e99e00148489743b
       name: Sinister Sap
       type: offense
-    winrate: '60.0'
+    winrate: '66.7'
   - damage: '9.9'
     disable: '2.0'
     energy: '3.7'
@@ -623,6 +550,79 @@ builds:
       name: Sinister Sap
       type: offense
     winrate: '80.0'
+  - damage: '8.6'
+    disable: '1.7'
+    energy: '3.5'
+    num: 5
+    protection: '2.7'
+    skills:
+    - color: red
+      description: Increases Root Grip range by 20. Root Grip pulls enemies closer
+        and deals 4 bonus damage.
+      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
+      name: Branch Out
+      type: offense
+    - color: pink
+      description: Entangle spreads towards nearby enemies when the effect is broken,
+        dealing 6 damage to enemies and inflicting Lesser Entangle.
+      icon: 0939b3a016f47504e99e00148489743b
+      name: Creeping Roots
+      type: control
+    - color: green
+      description: Each enemy hit by Burrow grants you a Shield that absorbs up to
+        14 damage for 3.
+      icon: 297830658f259844cb3ce7d0711f15d8
+      name: Fearsome Uprootal
+      type: survival
+    - color: green
+      description: Root Claw and Root Grip hits reduce incoming damage by 6 for 2.2.
+        Stacks up to 3 times.
+      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
+      name: Regrowth
+      type: survival
+    - color: red
+      description: Entangle deals 12 damage over its duration and heals for an additional
+        2 health. Reduces cooldown of Entangling Roots by 1.5.
+      icon: 0939b3a016f47504e99e00148489743b
+      name: Sinister Sap
+      type: offense
+    winrate: '60.0'
+  - damage: '7.2'
+    disable: '1.5'
+    energy: '2.8'
+    num: 5
+    protection: '2.0'
+    skills:
+    - color: red
+      description: Increases Root Grip range by 20. Root Grip pulls enemies closer
+        and deals 4 bonus damage.
+      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
+      name: Branch Out
+      type: offense
+    - color: grey
+      description: Each stinging volley inflicts Thorns on nearby enemies. Reduces
+        cooldown of Barbed Husk by 2.
+      icon: e6cee4151f85f62479addb2c5f459016
+      name: Critical Backlash
+      type: mixed
+    - color: pink
+      description: Thorns reduces target's movement speed by 25.
+      icon: 3bf2758e82cebed44856097532c5dd9b
+      name: Hamstring Briars
+      type: control
+    - color: red
+      description: Thorns deals 4 bonus damage and heals you for 2 bonus health over
+        its duration.
+      icon: 3bf2758e82cebed44856097532c5dd9b
+      name: Parasitic Stems
+      type: offense
+    - color: red
+      description: Entangle deals 12 damage over its duration and heals for an additional
+        2 health. Reduces cooldown of Entangling Roots by 1.5.
+      icon: 0939b3a016f47504e99e00148489743b
+      name: Sinister Sap
+      type: offense
+    winrate: '60.0'
   - damage: '7.2'
     disable: '1.5'
     energy: '2.7'
@@ -659,42 +659,6 @@ builds:
       name: Sinister Sap
       type: offense
     winrate: '75.0'
-  - damage: '6.1'
-    disable: '1.1'
-    energy: '2.9'
-    num: 4
-    protection: '2.1'
-    skills:
-    - color: red
-      description: Increases Root Grip range by 20. Root Grip pulls enemies closer
-        and deals 4 bonus damage.
-      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
-      name: Branch Out
-      type: offense
-    - color: grey
-      description: Each stinging volley inflicts Thorns on nearby enemies. Reduces
-        cooldown of Barbed Husk by 2.
-      icon: e6cee4151f85f62479addb2c5f459016
-      name: Critical Backlash
-      type: mixed
-    - color: teal
-      description: Thorns reduces target's damage and healing output by 20 for 1.5.
-      icon: 3bf2758e82cebed44856097532c5dd9b
-      name: Neurotoxin
-      type: support
-    - color: red
-      description: Thorns deals 4 bonus damage and heals you for 2 bonus health over
-        its duration.
-      icon: 3bf2758e82cebed44856097532c5dd9b
-      name: Parasitic Stems
-      type: offense
-    - color: green
-      description: Root Claw and Root Grip hits reduce incoming damage by 6 for 2.2.
-        Stacks up to 3 times.
-      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
-      name: Regrowth
-      type: survival
-    winrate: '50.0'
   - damage: '6.6'
     disable: '1.1'
     energy: '3.0'
@@ -731,8 +695,61 @@ builds:
       name: Regrowth
       type: survival
     winrate: '0.0'
+  - damage: '6.1'
+    disable: '1.1'
+    energy: '2.9'
+    num: 4
+    protection: '2.1'
+    skills:
+    - color: red
+      description: Increases Root Grip range by 20. Root Grip pulls enemies closer
+        and deals 4 bonus damage.
+      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
+      name: Branch Out
+      type: offense
+    - color: grey
+      description: Each stinging volley inflicts Thorns on nearby enemies. Reduces
+        cooldown of Barbed Husk by 2.
+      icon: e6cee4151f85f62479addb2c5f459016
+      name: Critical Backlash
+      type: mixed
+    - color: teal
+      description: Thorns reduces target's damage and healing output by 20 for 1.5.
+      icon: 3bf2758e82cebed44856097532c5dd9b
+      name: Neurotoxin
+      type: support
+    - color: red
+      description: Thorns deals 4 bonus damage and heals you for 2 bonus health over
+        its duration.
+      icon: 3bf2758e82cebed44856097532c5dd9b
+      name: Parasitic Stems
+      type: offense
+    - color: green
+      description: Root Claw and Root Grip hits reduce incoming damage by 6 for 2.2.
+        Stacks up to 3 times.
+      icon: d33ad2a139ec3194e9ba84e1d2d6e3f4
+      name: Regrowth
+      type: survival
+    winrate: '50.0'
 compos:
   threes:
+  - hero_names:
+    - Thorn
+    - Blossom
+    - Jade
+    heros:
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 50
+    winrate: 0.58
+    wins: 29
   - hero_names:
     - Thorn
     - Poloma
@@ -747,9 +764,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 51
-    winrate: 0.6666666666666666
-    wins: 34
+    num: 50
+    winrate: 0.64
+    wins: 32
   - hero_names:
     - Thorn
     - Oldur
@@ -764,26 +781,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 50
-    winrate: 0.44
+    num: 47
+    winrate: 0.46808510638297873
     wins: 22
-  - hero_names:
-    - Thorn
-    - Blossom
-    - Jade
-    heros:
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 50
-    winrate: 0.6
-    wins: 30
   - hero_names:
     - Thorn
     - Sirius
@@ -798,9 +798,26 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 39
-    winrate: 0.48717948717948717
-    wins: 19
+    num: 40
+    winrate: 0.525
+    wins: 21
+  - hero_names:
+    - Thorn
+    - Ashka
+    - Poloma
+    heros:
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    num: 35
+    winrate: 0.45714285714285713
+    wins: 16
   - hero_names:
     - Pestilus
     - Thorn
@@ -815,9 +832,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 34
-    winrate: 0.5882352941176471
-    wins: 20
+    num: 32
+    winrate: 0.5625
+    wins: 18
   - hero_names:
     - Thorn
     - Blossom
@@ -832,9 +849,9 @@ compos:
     - icon: 42a665b9c285a1243a201c8d533980e5
       name: Jumong
       title: jumong
-    num: 34
-    winrate: 0.4411764705882353
-    wins: 15
+    num: 32
+    winrate: 0.40625
+    wins: 13
   - hero_names:
     - Thorn
     - Sirius
@@ -850,8 +867,8 @@ compos:
       name: Varesh
       title: varesh
     num: 32
-    winrate: 0.46875
-    wins: 15
+    winrate: 0.5
+    wins: 16
   - hero_names:
     - Thorn
     - Blossom
@@ -883,26 +900,9 @@ compos:
     - icon: 42a665b9c285a1243a201c8d533980e5
       name: Jumong
       title: jumong
-    num: 30
-    winrate: 0.5333333333333333
-    wins: 16
-  - hero_names:
-    - Thorn
-    - Poloma
-    - Varesh
-    heros:
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    - icon: f1cc53a29c58089478f6438589d9b32d
-      name: Varesh
-      title: varesh
-    num: 30
-    winrate: 0.4
-    wins: 12
+    num: 29
+    winrate: 0.5172413793103449
+    wins: 15
   twos:
   - hero_names:
     - Thorn
@@ -914,9 +914,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 46
-    winrate: 0.6086956521739131
-    wins: 28
+    num: 45
+    winrate: 0.6
+    wins: 27
   - hero_names:
     - Pestilus
     - Thorn
@@ -927,9 +927,9 @@ compos:
     - icon: aab126231d9ff344f9f88ab230a5e66f
       name: Thorn
       title: thorn
-    num: 24
-    winrate: 0.5
-    wins: 12
+    num: 21
+    winrate: 0.47619047619047616
+    wins: 10
   - hero_names:
     - Thorn
     - Pearl
@@ -940,21 +940,8 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 22
-    winrate: 0.45454545454545453
-    wins: 10
-  - hero_names:
-    - Thorn
-    - Lucie
-    heros:
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 15
-    winrate: 0.6
+    num: 20
+    winrate: 0.45
     wins: 9
   - hero_names:
     - Thorn
@@ -966,22 +953,22 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 13
-    winrate: 0.46153846153846156
-    wins: 6
+    num: 17
+    winrate: 0.4117647058823529
+    wins: 7
   - hero_names:
     - Thorn
-    - Alysia
+    - Lucie
     heros:
     - icon: aab126231d9ff344f9f88ab230a5e66f
       name: Thorn
       title: thorn
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
-    num: 12
-    winrate: 0.3333333333333333
-    wins: 4
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 14
+    winrate: 0.5714285714285714
+    wins: 8
   - hero_names:
     - Thorn
     - Poloma
@@ -997,6 +984,19 @@ compos:
     wins: 2
   - hero_names:
     - Thorn
+    - Alysia
+    heros:
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: 50404d271ae2a4f4f8b52de966688dc1
+      name: Alysia
+      title: alysia
+    num: 10
+    winrate: 0.3
+    wins: 3
+  - hero_names:
+    - Thorn
     - Oldur
     heros:
     - icon: aab126231d9ff344f9f88ab230a5e66f
@@ -1010,6 +1010,19 @@ compos:
     wins: 4
   - hero_names:
     - Thorn
+    - Jade
+    heros:
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 7
+    winrate: 0.2857142857142857
+    wins: 2
+  - hero_names:
+    - Thorn
     - Raigon
     heros:
     - icon: aab126231d9ff344f9f88ab230a5e66f
@@ -1018,22 +1031,9 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 8
-    winrate: 0.25
+    num: 7
+    winrate: 0.2857142857142857
     wins: 2
-  - hero_names:
-    - Thorn
-    - Zander
-    heros:
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    - icon: 9c4186a6214f12448a7091710b0cde6c
-      name: Zander
-      title: zander
-    num: 8
-    winrate: 0.5
-    wins: 4
 description: "Ancient folklore speaks of Thorn, the destructive apparition. Using\
   \ its network of thorn-covered roots, it would whip, rupture and drain the life\
   \ out of any living thing indiscriminately. Some say Thorn is just a story to keep\
@@ -1044,11 +1044,11 @@ icon: aab126231d9ff344f9f88ab230a5e66f
 layout: character
 name: thorn
 num:
-  threes: 2100
-  twos: 245
+  threes: 2094
+  twos: 234
 title: Thorn
 url: characters/thorn.html
 winrate:
-  threes: '46.90'
-  twos: '43.67'
+  threes: '47.13'
+  twos: '42.31'
 ...
