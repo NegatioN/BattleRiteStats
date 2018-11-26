@@ -4,7 +4,7 @@ builds:
   - damage: '6.6'
     disable: '1.0'
     energy: '3.0'
-    num: 103
+    num: 104
     protection: '2.0'
     skills:
     - color: green
@@ -34,7 +34,7 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '48.5'
+    winrate: '49.0'
   - damage: '6.4'
     disable: '0.8'
     energy: '2.8'
@@ -68,10 +68,10 @@ builds:
       name: Time to Strike
       type: mobility
     winrate: '46.3'
-  - damage: '7.6'
+  - damage: '7.5'
     disable: '1.3'
     energy: '3.3'
-    num: 64
+    num: 58
     protection: '1.6'
     skills:
     - color: red
@@ -101,9 +101,9 @@ builds:
       icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
       name: Noxious Reaction
       type: control
-    winrate: '68.8'
+    winrate: '67.2'
   - damage: '6.2'
-    disable: '0.9'
+    disable: '0.8'
     energy: '2.8'
     num: 58
     protection: '1.5'
@@ -169,7 +169,7 @@ builds:
       icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
       type: utility
-    winrate: '55.8'
+    winrate: '57.7'
   - damage: '6.3'
     disable: '1.0'
     energy: '2.8'
@@ -203,10 +203,10 @@ builds:
       name: Spit Spit Spit
       type: utility
     winrate: '55.1'
-  - damage: '6.5'
+  - damage: '6.6'
     disable: '0.8'
     energy: '2.7'
-    num: 45
+    num: 44
     protection: '1.6'
     skills:
     - color: red
@@ -235,7 +235,7 @@ builds:
       icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
       name: Noxious Reaction
       type: control
-    winrate: '53.3'
+    winrate: '54.5'
   - damage: '7.1'
     disable: '0.8'
     energy: '3.3'
@@ -274,8 +274,8 @@ builds:
   - damage: '6.4'
     disable: '0.8'
     energy: '2.7'
-    num: 39
-    protection: '1.0'
+    num: 37
+    protection: '0.9'
     skills:
     - color: red
       description: Activating Toxin Blades increases attack speed of your next 6 Blade
@@ -305,7 +305,7 @@ builds:
       icon: 97d6d4df3883adc4d99a900f62576ff7
       name: Venom Strike
       type: offense
-    winrate: '59.0'
+    winrate: '62.2'
   - damage: '6.4'
     disable: '0.7'
     energy: '2.5'
@@ -341,8 +341,8 @@ builds:
   twos:
   - damage: '7.6'
     disable: '1.4'
-    energy: '3.7'
-    num: 95
+    energy: '3.8'
+    num: 90
     protection: '1.7'
     skills:
     - color: red
@@ -372,12 +372,12 @@ builds:
       icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
       name: Noxious Reaction
       type: control
-    winrate: '66.3'
-  - damage: '8.0'
+    winrate: '64.4'
+  - damage: '7.9'
     disable: '1.0'
     energy: '3.9'
-    num: 25
-    protection: '2.0'
+    num: 26
+    protection: '1.9'
     skills:
     - color: green
       description: Frog Leap hits heal you for 12 health.
@@ -406,7 +406,7 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '84.0'
+    winrate: '80.8'
   - damage: '5.6'
     disable: '0.9'
     energy: '2.8'
@@ -543,10 +543,10 @@ builds:
       name: Time to Strike
       type: mobility
     winrate: '40.0'
-  - damage: '6.6'
-    disable: '1.1'
-    energy: '3.8'
-    num: 9
+  - damage: '6.5'
+    disable: '1.0'
+    energy: '3.7'
+    num: 10
     protection: '1.5'
     skills:
     - color: red
@@ -577,7 +577,7 @@ builds:
       icon: f4d1c9994ff77524bacb0bfe5347e118
       name: Triple Strike
       type: offense
-    winrate: '66.7'
+    winrate: '60.0'
   - damage: '9.3'
     disable: '0.9'
     energy: '4.6'
@@ -698,26 +698,9 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 46
-    winrate: 0.6304347826086957
-    wins: 29
-  - hero_names:
-    - Blossom
-    - Croak
-    - Jade
-    heros:
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 44
-    winrate: 0.6136363636363636
-    wins: 27
+    num: 50
+    winrate: 0.64
+    wins: 32
   - hero_names:
     - Oldur
     - Croak
@@ -732,9 +715,26 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 42
-    winrate: 0.5476190476190477
-    wins: 23
+    num: 43
+    winrate: 0.5581395348837209
+    wins: 24
+  - hero_names:
+    - Blossom
+    - Croak
+    - Jade
+    heros:
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 41
+    winrate: 0.6097560975609756
+    wins: 25
   - hero_names:
     - Pestilus
     - Croak
@@ -749,9 +749,26 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 37
-    winrate: 0.6486486486486487
-    wins: 24
+    num: 34
+    winrate: 0.6470588235294118
+    wins: 22
+  - hero_names:
+    - Poloma
+    - Croak
+    - Varesh
+    heros:
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
+    - icon: f1cc53a29c58089478f6438589d9b32d
+      name: Varesh
+      title: varesh
+    num: 34
+    winrate: 0.6176470588235294
+    wins: 21
   - hero_names:
     - Croak
     - Jade
@@ -772,7 +789,7 @@ compos:
   - hero_names:
     - Poloma
     - Croak
-    - Varesh
+    - Jade
     heros:
     - icon: 9872f8cd16d7327418b09294cfa319e6
       name: Poloma
@@ -780,12 +797,12 @@ compos:
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    - icon: f1cc53a29c58089478f6438589d9b32d
-      name: Varesh
-      title: varesh
-    num: 32
-    winrate: 0.625
-    wins: 20
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 28
+    winrate: 0.5714285714285714
+    wins: 16
   - hero_names:
     - Croak
     - Sirius
@@ -800,43 +817,26 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 30
-    winrate: 0.7333333333333333
-    wins: 22
+    num: 27
+    winrate: 0.7407407407407407
+    wins: 20
   - hero_names:
-    - Poloma
+    - Rook
+    - Sirius
     - Croak
-    - Jade
     heros:
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 30
-    winrate: 0.5333333333333333
-    wins: 16
-  - hero_names:
-    - Pestilus
-    - Croak
-    - Varesh
-    heros:
-    - icon: a7e0c7a6f0fa2ef49bf684950de34567
-      name: Pestilus
-      title: pestilus
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
-    - icon: f1cc53a29c58089478f6438589d9b32d
-      name: Varesh
-      title: varesh
-    num: 25
-    winrate: 0.72
-    wins: 18
+    num: 27
+    winrate: 0.5185185185185185
+    wins: 14
   - hero_names:
     - Blossom
     - Croak
@@ -851,9 +851,9 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 25
-    winrate: 0.44
-    wins: 11
+    num: 26
+    winrate: 0.5
+    wins: 13
   twos:
   - hero_names:
     - Croak
@@ -865,9 +865,9 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 97
-    winrate: 0.6494845360824743
-    wins: 63
+    num: 93
+    winrate: 0.6344086021505376
+    wins: 59
   - hero_names:
     - Croak
     - Pearl
@@ -878,9 +878,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 48
-    winrate: 0.8333333333333334
-    wins: 40
+    num: 47
+    winrate: 0.8297872340425532
+    wins: 39
   - hero_names:
     - Croak
     - Sirius
@@ -891,8 +891,8 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 36
-    winrate: 0.6388888888888888
+    num: 37
+    winrate: 0.6216216216216216
     wins: 23
   - hero_names:
     - Croak
@@ -904,9 +904,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 35
-    winrate: 0.45714285714285713
-    wins: 16
+    num: 37
+    winrate: 0.4594594594594595
+    wins: 17
   - hero_names:
     - Ashka
     - Croak
@@ -930,9 +930,22 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 21
-    winrate: 0.5714285714285714
-    wins: 12
+    num: 20
+    winrate: 0.55
+    wins: 11
+  - hero_names:
+    - Oldur
+    - Croak
+    heros:
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
+    num: 19
+    winrate: 0.3157894736842105
+    wins: 6
   - hero_names:
     - Blossom
     - Croak
@@ -944,8 +957,8 @@ compos:
       name: Croak
       title: croak
     num: 18
-    winrate: 0.6111111111111112
-    wins: 11
+    winrate: 0.6666666666666666
+    wins: 12
   - hero_names:
     - Pestilus
     - Croak
@@ -957,8 +970,8 @@ compos:
       name: Croak
       title: croak
     num: 18
-    winrate: 0.7222222222222222
-    wins: 13
+    winrate: 0.7777777777777778
+    wins: 14
   - hero_names:
     - Poloma
     - Croak
@@ -972,19 +985,6 @@ compos:
     num: 14
     winrate: 0.42857142857142855
     wins: 6
-  - hero_names:
-    - Oldur
-    - Croak
-    heros:
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
-    num: 13
-    winrate: 0.38461538461538464
-    wins: 5
 description: His background is shrouded in mystery, his movements are supernatural
   and his reputation is whispered about. Croak loves to surprise his enemies, using
   his mobility to move in and out. His chameleonic stealth and flexible fighting style
@@ -993,11 +993,11 @@ icon: d3038956f9767d74bbbce0659b07474d
 layout: character
 name: croak
 num:
-  threes: 1744
-  twos: 435
+  threes: 1738
+  twos: 442
 title: Croak
 url: characters/croak.html
 winrate:
-  threes: '53.27'
-  twos: '56.55'
+  threes: '52.88'
+  twos: '55.88'
 ...
