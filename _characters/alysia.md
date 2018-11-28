@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '6.4'
+  - damage: '6.6'
     disable: '1.0'
     energy: '2.7'
-    num: 43
+    num: 42
     protection: '0.9'
     skills:
     - color: blue
@@ -36,11 +36,11 @@ builds:
       icon: 1ac43589909cda746bafbf3da20d1559
       name: Twirl
       type: mobility
-    winrate: '51.2'
+    winrate: '45.2'
   - damage: '6.5'
     disable: '0.8'
     energy: '2.8'
-    num: 31
+    num: 32
     protection: '1.0'
     skills:
     - color: blue
@@ -71,45 +71,10 @@ builds:
       icon: 1ac43589909cda746bafbf3da20d1559
       name: Twirl
       type: mobility
-    winrate: '41.9'
-  - damage: '7.5'
-    disable: '1.0'
-    energy: '3.0'
-    num: 26
-    protection: '1.2'
-    skills:
-    - color: blue
-      description: Increases Flash Freeze radius by 10 and reduces cooldown by 1.
-      icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Blizzard
-      type: utility
-    - color: pink
-      description: Increases Chill duration of Ice Lance by 1. Ice Lance explodes
-        upon hit or reaching max range to inflict Chill for 2 on nearby enemies.
-      icon: bffd25b328052f647a5e1705071fe746
-      name: Cryogenic Lance
-      type: control
-    - color: teal
-      description: Glacial Prism absorbs up to 14 more damage.
-      icon: 257737da8189b1242be43990b8caf5a6
-      name: Crystalline Lattice
-      type: support
-    - color: red
-      description: Increases Ice Lance range by 10. It pierces enemies and damage
-        reduces 30 per hit.
-      icon: bffd25b328052f647a5e1705071fe746
-      name: Piercing Cold
-      type: offense
-    - color: red
-      description: You can break your own Ice Crown with a single Frost Bolt to launch
-        the cone of icicles. Cooldown is reduced by 2.
-      icon: 46faed2871863c34d83a612e2ddccc9e
-      name: Vandalism
-      type: offense
-    winrate: '42.3'
-  - damage: '6.8'
+    winrate: '43.8'
+  - damage: '7.1'
     disable: '0.9'
-    energy: '2.9'
+    energy: '3.0'
     num: 25
     protection: '1.0'
     skills:
@@ -142,11 +107,148 @@ builds:
       name: Twirl
       type: mobility
     winrate: '48.0'
+  - damage: '7.5'
+    disable: '1.1'
+    energy: '3.0'
+    num: 25
+    protection: '1.2'
+    skills:
+    - color: blue
+      description: Increases Flash Freeze radius by 10 and reduces cooldown by 1.
+      icon: 54bc49f3587260f45b1c4e8e2856e6b7
+      name: Blizzard
+      type: utility
+    - color: pink
+      description: Increases Chill duration of Ice Lance by 1. Ice Lance explodes
+        upon hit or reaching max range to inflict Chill for 2 on nearby enemies.
+      icon: bffd25b328052f647a5e1705071fe746
+      name: Cryogenic Lance
+      type: control
+    - color: teal
+      description: Glacial Prism absorbs up to 14 more damage.
+      icon: 257737da8189b1242be43990b8caf5a6
+      name: Crystalline Lattice
+      type: support
+    - color: red
+      description: Increases Ice Lance range by 10. It pierces enemies and damage
+        reduces 30 per hit.
+      icon: bffd25b328052f647a5e1705071fe746
+      name: Piercing Cold
+      type: offense
+    - color: red
+      description: You can break your own Ice Crown with a single Frost Bolt to launch
+        the cone of icicles. Cooldown is reduced by 2.
+      icon: 46faed2871863c34d83a612e2ddccc9e
+      name: Vandalism
+      type: offense
+    winrate: '44.0'
+  - damage: '8.7'
+    disable: '0.9'
+    energy: '3.1'
+    num: 22
+    protection: '2.1'
+    skills:
+    - color: yellow
+      description: Increases movement speed by 10.
+      icon: bbe2697d5982f654d8dab2223790bd77
+      name: Agility
+      type: mobility
+    - color: teal
+      description: Hitting an ally with Flash Freeze applies Lesser Glacial Prism,
+        absorbing up to 16 damage for 1.4.
+      icon: 54bc49f3587260f45b1c4e8e2856e6b7
+      name: Arctic Cloak
+      type: support
+    - color: blue
+      description: Increases Flash Freeze radius by 10 and reduces cooldown by 1.
+      icon: 54bc49f3587260f45b1c4e8e2856e6b7
+      name: Blizzard
+      type: utility
+    - color: teal
+      description: Glacial Prism absorbs up to 14 more damage.
+      icon: 257737da8189b1242be43990b8caf5a6
+      name: Crystalline Lattice
+      type: support
+    - color: red
+      description: Glacial Prism explosion radius increases by 20 and deals 10 damage
+        to nearby enemies when it breaks.
+      icon: 257737da8189b1242be43990b8caf5a6
+      name: Wintry Blast
+      type: offense
+    winrate: '63.6'
+  - damage: '6.0'
+    disable: '0.6'
+    energy: '2.6'
+    num: 20
+    protection: '1.4'
+    skills:
+    - color: blue
+      description: Increases Flash Freeze radius by 10 and reduces cooldown by 1.
+      icon: 54bc49f3587260f45b1c4e8e2856e6b7
+      name: Blizzard
+      type: utility
+    - color: teal
+      description: Glacial Prism absorbs up to 14 more damage.
+      icon: 257737da8189b1242be43990b8caf5a6
+      name: Crystalline Lattice
+      type: support
+    - color: red
+      description: Ice Lance breaks Freeze before dealing damage.
+      icon: bffd25b328052f647a5e1705071fe746
+      name: Ice Breaker
+      type: offense
+    - color: red
+      description: Increases Ice Lance range by 10. It pierces enemies and damage
+        reduces 30 per hit.
+      icon: bffd25b328052f647a5e1705071fe746
+      name: Piercing Cold
+      type: offense
+    - color: yellow
+      description: Arctic Wind can be recast to perform a short leap.
+      icon: 1ac43589909cda746bafbf3da20d1559
+      name: Twirl
+      type: mobility
+    winrate: '45.0'
+  - damage: '7.4'
+    disable: '0.8'
+    energy: '3.5'
+    num: 20
+    protection: '1.2'
+    skills:
+    - color: blue
+      description: Increases Flash Freeze radius by 10 and reduces cooldown by 1.
+      icon: 54bc49f3587260f45b1c4e8e2856e6b7
+      name: Blizzard
+      type: utility
+    - color: teal
+      description: Glacial Prism absorbs up to 14 more damage.
+      icon: 257737da8189b1242be43990b8caf5a6
+      name: Crystalline Lattice
+      type: support
+    - color: red
+      description: Ice Lance breaks Freeze before dealing damage.
+      icon: bffd25b328052f647a5e1705071fe746
+      name: Ice Breaker
+      type: offense
+    - color: red
+      description: Increases Ice Lance range by 10. It pierces enemies and damage
+        reduces 30 per hit.
+      icon: bffd25b328052f647a5e1705071fe746
+      name: Piercing Cold
+      type: offense
+    - color: red
+      description: Flash Freeze impact leaves a lingering snowstorm that deals 10
+        damage and inflicts Chill over 2.5. The damage affects enemies with Freeze
+        directly.
+      icon: 54bc49f3587260f45b1c4e8e2856e6b7
+      name: Snowstorm
+      type: offense
+    winrate: '50.0'
   - damage: '7.6'
     disable: '1.0'
-    energy: '3.9'
-    num: 22
-    protection: '1.3'
+    energy: '3.8'
+    num: 20
+    protection: '1.2'
     skills:
     - color: pink
       description: Increases Chill duration of Ice Lance by 1. Ice Lance explodes
@@ -178,147 +280,11 @@ builds:
       icon: 1ac43589909cda746bafbf3da20d1559
       name: Twirl
       type: mobility
-    winrate: '54.5'
-  - damage: '9.0'
-    disable: '0.9'
-    energy: '3.2'
-    num: 21
-    protection: '2.1'
-    skills:
-    - color: yellow
-      description: Increases movement speed by 10.
-      icon: bbe2697d5982f654d8dab2223790bd77
-      name: Agility
-      type: mobility
-    - color: teal
-      description: Hitting an ally with Flash Freeze applies Lesser Glacial Prism,
-        absorbing up to 16 damage for 1.4.
-      icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Arctic Cloak
-      type: support
-    - color: blue
-      description: Increases Flash Freeze radius by 10 and reduces cooldown by 1.
-      icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Blizzard
-      type: utility
-    - color: teal
-      description: Glacial Prism absorbs up to 14 more damage.
-      icon: 257737da8189b1242be43990b8caf5a6
-      name: Crystalline Lattice
-      type: support
-    - color: red
-      description: Glacial Prism explosion radius increases by 20 and deals 10 damage
-        to nearby enemies when it breaks.
-      icon: 257737da8189b1242be43990b8caf5a6
-      name: Wintry Blast
-      type: offense
-    winrate: '71.4'
-  - damage: '7.4'
-    disable: '0.8'
-    energy: '3.4'
-    num: 21
-    protection: '1.2'
-    skills:
-    - color: blue
-      description: Increases Flash Freeze radius by 10 and reduces cooldown by 1.
-      icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Blizzard
-      type: utility
-    - color: teal
-      description: Glacial Prism absorbs up to 14 more damage.
-      icon: 257737da8189b1242be43990b8caf5a6
-      name: Crystalline Lattice
-      type: support
-    - color: red
-      description: Ice Lance breaks Freeze before dealing damage.
-      icon: bffd25b328052f647a5e1705071fe746
-      name: Ice Breaker
-      type: offense
-    - color: red
-      description: Increases Ice Lance range by 10. It pierces enemies and damage
-        reduces 30 per hit.
-      icon: bffd25b328052f647a5e1705071fe746
-      name: Piercing Cold
-      type: offense
-    - color: red
-      description: Flash Freeze impact leaves a lingering snowstorm that deals 10
-        damage and inflicts Chill over 2.5. The damage affects enemies with Freeze
-        directly.
-      icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Snowstorm
-      type: offense
-    winrate: '52.4'
-  - damage: '6.8'
-    disable: '0.8'
-    energy: '3.1'
-    num: 20
-    protection: '1.4'
-    skills:
-    - color: teal
-      description: Glacial Prism absorbs up to 14 more damage.
-      icon: 257737da8189b1242be43990b8caf5a6
-      name: Crystalline Lattice
-      type: support
-    - color: red
-      description: Ice Lance breaks Freeze before dealing damage.
-      icon: bffd25b328052f647a5e1705071fe746
-      name: Ice Breaker
-      type: offense
-    - color: red
-      description: Increases Ice Lance range by 10. It pierces enemies and damage
-        reduces 30 per hit.
-      icon: bffd25b328052f647a5e1705071fe746
-      name: Piercing Cold
-      type: offense
-    - color: yellow
-      description: Arctic Wind can be recast to perform a short leap.
-      icon: 1ac43589909cda746bafbf3da20d1559
-      name: Twirl
-      type: mobility
-    - color: red
-      description: You can break your own Ice Crown with a single Frost Bolt to launch
-        the cone of icicles. Cooldown is reduced by 2.
-      icon: 46faed2871863c34d83a612e2ddccc9e
-      name: Vandalism
-      type: offense
-    winrate: '70.0'
-  - damage: '6.1'
-    disable: '0.6'
-    energy: '2.7'
-    num: 20
-    protection: '1.4'
-    skills:
-    - color: blue
-      description: Increases Flash Freeze radius by 10 and reduces cooldown by 1.
-      icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Blizzard
-      type: utility
-    - color: teal
-      description: Glacial Prism absorbs up to 14 more damage.
-      icon: 257737da8189b1242be43990b8caf5a6
-      name: Crystalline Lattice
-      type: support
-    - color: red
-      description: Ice Lance breaks Freeze before dealing damage.
-      icon: bffd25b328052f647a5e1705071fe746
-      name: Ice Breaker
-      type: offense
-    - color: red
-      description: Increases Ice Lance range by 10. It pierces enemies and damage
-        reduces 30 per hit.
-      icon: bffd25b328052f647a5e1705071fe746
-      name: Piercing Cold
-      type: offense
-    - color: yellow
-      description: Arctic Wind can be recast to perform a short leap.
-      icon: 1ac43589909cda746bafbf3da20d1559
-      name: Twirl
-      type: mobility
-    winrate: '50.0'
+    winrate: '55.0'
   - damage: '7.1'
     disable: '0.7'
     energy: '2.7'
-    num: 18
+    num: 19
     protection: '2.2'
     skills:
     - color: teal
@@ -348,12 +314,48 @@ builds:
       icon: 257737da8189b1242be43990b8caf5a6
       name: Wintry Blast
       type: offense
+    winrate: '47.4'
+  - damage: '6.9'
+    disable: '1.0'
+    energy: '2.7'
+    num: 18
+    protection: '1.3'
+    skills:
+    - color: pink
+      description: Increases Chill duration of Ice Lance by 1. Ice Lance explodes
+        upon hit or reaching max range to inflict Chill for 2 on nearby enemies.
+      icon: bffd25b328052f647a5e1705071fe746
+      name: Cryogenic Lance
+      type: control
+    - color: teal
+      description: Glacial Prism absorbs up to 14 more damage.
+      icon: 257737da8189b1242be43990b8caf5a6
+      name: Crystalline Lattice
+      type: support
+    - color: pink
+      description: Whenever you inflict Freeze, your Frost Bolts are empowered for
+        3. They deal 4 bonus damage and inflict Chill even on targets without Chill.
+      icon: 5d1f99877a4c7a84aaf69f440f38ceb2
+      name: Frozen Muse
+      type: control
+    - color: red
+      description: Increases Ice Lance range by 10. It pierces enemies and damage
+        reduces 30 per hit.
+      icon: bffd25b328052f647a5e1705071fe746
+      name: Piercing Cold
+      type: offense
+    - color: red
+      description: You can break your own Ice Crown with a single Frost Bolt to launch
+        the cone of icicles. Cooldown is reduced by 2.
+      icon: 46faed2871863c34d83a612e2ddccc9e
+      name: Vandalism
+      type: offense
     winrate: '50.0'
   twos:
-  - damage: '4.7'
+  - damage: '4.8'
     disable: '0.9'
-    energy: '2.5'
-    num: 11
+    energy: '2.6'
+    num: 10
     protection: '1.0'
     skills:
     - color: blue
@@ -382,41 +384,7 @@ builds:
       icon: bffd25b328052f647a5e1705071fe746
       name: Ice Breaker
       type: offense
-    winrate: '9.1'
-  - damage: '6.7'
-    disable: '0.9'
-    energy: '3.0'
-    num: 6
-    protection: '1.1'
-    skills:
-    - color: teal
-      description: Glacial Prism absorbs up to 14 more damage.
-      icon: 257737da8189b1242be43990b8caf5a6
-      name: Crystalline Lattice
-      type: support
-    - color: yellow
-      description: Glacial Prism grants 60 Fading Haste for 1.4.
-      icon: 257737da8189b1242be43990b8caf5a6
-      name: Figure Skating
-      type: mobility
-    - color: red
-      description: Ice Lance breaks Freeze before dealing damage.
-      icon: bffd25b328052f647a5e1705071fe746
-      name: Ice Breaker
-      type: offense
-    - color: red
-      description: Flash Freeze impact leaves a lingering snowstorm that deals 10
-        damage and inflicts Chill over 2.5. The damage affects enemies with Freeze
-        directly.
-      icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Snowstorm
-      type: offense
-    - color: yellow
-      description: Arctic Wind can be recast to perform a short leap.
-      icon: 1ac43589909cda746bafbf3da20d1559
-      name: Twirl
-      type: mobility
-    winrate: '33.3'
+    winrate: '10.0'
   - damage: '6.2'
     disable: '0.7'
     energy: '2.8'
@@ -452,73 +420,40 @@ builds:
       name: Twirl
       type: mobility
     winrate: '0.0'
-  - damage: '6.0'
-    disable: '0.7'
-    energy: '2.7'
+  - damage: '6.7'
+    disable: '0.9'
+    energy: '3.0'
     num: 6
     protection: '1.1'
     skills:
-    - color: blue
-      description: Increases Flash Freeze radius by 10 and reduces cooldown by 1.
-      icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Blizzard
-      type: utility
-    - color: pink
-      description: Increases Chill duration of Ice Lance by 1. Ice Lance explodes
-        upon hit or reaching max range to inflict Chill for 2 on nearby enemies.
-      icon: bffd25b328052f647a5e1705071fe746
-      name: Cryogenic Lance
-      type: control
     - color: teal
       description: Glacial Prism absorbs up to 14 more damage.
       icon: 257737da8189b1242be43990b8caf5a6
       name: Crystalline Lattice
       type: support
-    - color: red
-      description: Ice Lance breaks Freeze before dealing damage.
-      icon: bffd25b328052f647a5e1705071fe746
-      name: Ice Breaker
-      type: offense
-    - color: yellow
-      description: Arctic Wind can be recast to perform a short leap.
-      icon: 1ac43589909cda746bafbf3da20d1559
-      name: Twirl
-      type: mobility
-    winrate: '16.7'
-  - damage: '8.9'
-    disable: '1.0'
-    energy: '3.8'
-    num: 5
-    protection: '1.0'
-    skills:
-    - color: blue
-      description: Increases Flash Freeze radius by 10 and reduces cooldown by 1.
-      icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Blizzard
-      type: utility
     - color: yellow
       description: Glacial Prism grants 60 Fading Haste for 1.4.
       icon: 257737da8189b1242be43990b8caf5a6
       name: Figure Skating
       type: mobility
     - color: red
-      description: Increases Ice Lance range by 10. It pierces enemies and damage
-        reduces 30 per hit.
+      description: Ice Lance breaks Freeze before dealing damage.
       icon: bffd25b328052f647a5e1705071fe746
-      name: Piercing Cold
+      name: Ice Breaker
+      type: offense
+    - color: red
+      description: Flash Freeze impact leaves a lingering snowstorm that deals 10
+        damage and inflicts Chill over 2.5. The damage affects enemies with Freeze
+        directly.
+      icon: 54bc49f3587260f45b1c4e8e2856e6b7
+      name: Snowstorm
       type: offense
     - color: yellow
       description: Arctic Wind can be recast to perform a short leap.
       icon: 1ac43589909cda746bafbf3da20d1559
       name: Twirl
       type: mobility
-    - color: red
-      description: You can break your own Ice Crown with a single Frost Bolt to launch
-        the cone of icicles. Cooldown is reduced by 2.
-      icon: 46faed2871863c34d83a612e2ddccc9e
-      name: Vandalism
-      type: offense
-    winrate: '100.0'
+    winrate: '33.3'
   - damage: '7.3'
     disable: '0.7'
     energy: '3.4'
@@ -554,22 +489,17 @@ builds:
       name: Twirl
       type: mobility
     winrate: '60.0'
-  - damage: '4.9'
-    disable: '0.5'
-    energy: '2.0'
+  - damage: '5.5'
+    disable: '0.4'
+    energy: '2.4'
     num: 4
-    protection: '0.5'
+    protection: '1.3'
     skills:
-    - color: blue
-      description: Increases Flash Freeze radius by 10 and reduces cooldown by 1.
-      icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Blizzard
-      type: utility
-    - color: yellow
-      description: Glacial Prism grants 60 Fading Haste for 1.4.
+    - color: teal
+      description: Glacial Prism absorbs up to 14 more damage.
       icon: 257737da8189b1242be43990b8caf5a6
-      name: Figure Skating
-      type: mobility
+      name: Crystalline Lattice
+      type: support
     - color: red
       description: Ice Lance breaks Freeze before dealing damage.
       icon: bffd25b328052f647a5e1705071fe746
@@ -581,6 +511,45 @@ builds:
       icon: bffd25b328052f647a5e1705071fe746
       name: Piercing Cold
       type: offense
+    - color: red
+      description: Flash Freeze impact leaves a lingering snowstorm that deals 10
+        damage and inflicts Chill over 2.5. The damage affects enemies with Freeze
+        directly.
+      icon: 54bc49f3587260f45b1c4e8e2856e6b7
+      name: Snowstorm
+      type: offense
+    - color: yellow
+      description: Arctic Wind can be recast to perform a short leap.
+      icon: 1ac43589909cda746bafbf3da20d1559
+      name: Twirl
+      type: mobility
+    winrate: '0.0'
+  - damage: '7.1'
+    disable: '1.0'
+    energy: '3.7'
+    num: 4
+    protection: '1.1'
+    skills:
+    - color: yellow
+      description: Increases movement speed by 10.
+      icon: bbe2697d5982f654d8dab2223790bd77
+      name: Agility
+      type: mobility
+    - color: teal
+      description: Glacial Prism absorbs up to 14 more damage.
+      icon: 257737da8189b1242be43990b8caf5a6
+      name: Crystalline Lattice
+      type: support
+    - color: yellow
+      description: Glacial Prism grants 60 Fading Haste for 1.4.
+      icon: 257737da8189b1242be43990b8caf5a6
+      name: Figure Skating
+      type: mobility
+    - color: yellow
+      description: Arctic Wind can be recast to perform a short leap.
+      icon: 1ac43589909cda746bafbf3da20d1559
+      name: Twirl
+      type: mobility
     - color: red
       description: You can break your own Ice Crown with a single Frost Bolt to launch
         the cone of icicles. Cooldown is reduced by 2.
@@ -621,27 +590,61 @@ builds:
       name: Twirl
       type: mobility
     winrate: '75.0'
-  - damage: '7.1'
-    disable: '1.0'
-    energy: '3.7'
+  - damage: '5.8'
+    disable: '0.8'
+    energy: '2.8'
     num: 4
-    protection: '1.1'
+    protection: '0.9'
     skills:
-    - color: yellow
-      description: Increases movement speed by 10.
-      icon: bbe2697d5982f654d8dab2223790bd77
-      name: Agility
-      type: mobility
+    - color: blue
+      description: Increases Flash Freeze radius by 10 and reduces cooldown by 1.
+      icon: 54bc49f3587260f45b1c4e8e2856e6b7
+      name: Blizzard
+      type: utility
+    - color: pink
+      description: Increases Chill duration of Ice Lance by 1. Ice Lance explodes
+        upon hit or reaching max range to inflict Chill for 2 on nearby enemies.
+      icon: bffd25b328052f647a5e1705071fe746
+      name: Cryogenic Lance
+      type: control
     - color: teal
       description: Glacial Prism absorbs up to 14 more damage.
       icon: 257737da8189b1242be43990b8caf5a6
       name: Crystalline Lattice
       type: support
+    - color: red
+      description: Ice Lance breaks Freeze before dealing damage.
+      icon: bffd25b328052f647a5e1705071fe746
+      name: Ice Breaker
+      type: offense
+    - color: yellow
+      description: Arctic Wind can be recast to perform a short leap.
+      icon: 1ac43589909cda746bafbf3da20d1559
+      name: Twirl
+      type: mobility
+    winrate: '25.0'
+  - damage: '8.7'
+    disable: '1.0'
+    energy: '3.8'
+    num: 4
+    protection: '1.1'
+    skills:
+    - color: blue
+      description: Increases Flash Freeze radius by 10 and reduces cooldown by 1.
+      icon: 54bc49f3587260f45b1c4e8e2856e6b7
+      name: Blizzard
+      type: utility
     - color: yellow
       description: Glacial Prism grants 60 Fading Haste for 1.4.
       icon: 257737da8189b1242be43990b8caf5a6
       name: Figure Skating
       type: mobility
+    - color: red
+      description: Increases Ice Lance range by 10. It pierces enemies and damage
+        reduces 30 per hit.
+      icon: bffd25b328052f647a5e1705071fe746
+      name: Piercing Cold
+      type: offense
     - color: yellow
       description: Arctic Wind can be recast to perform a short leap.
       icon: 1ac43589909cda746bafbf3da20d1559
@@ -653,19 +656,13 @@ builds:
       icon: 46faed2871863c34d83a612e2ddccc9e
       name: Vandalism
       type: offense
-    winrate: '75.0'
-  - damage: '6.7'
+    winrate: '100.0'
+  - damage: '5.9'
     disable: '0.5'
-    energy: '3.0'
+    energy: '3.4'
     num: 3
-    protection: '1.8'
+    protection: '0.7'
     skills:
-    - color: teal
-      description: Hitting an ally with Flash Freeze applies Lesser Glacial Prism,
-        absorbing up to 16 damage for 1.4.
-      icon: 54bc49f3587260f45b1c4e8e2856e6b7
-      name: Arctic Cloak
-      type: support
     - color: teal
       description: Glacial Prism absorbs up to 14 more damage.
       icon: 257737da8189b1242be43990b8caf5a6
@@ -677,6 +674,12 @@ builds:
       name: Ice Breaker
       type: offense
     - color: red
+      description: Increases Ice Lance range by 10. It pierces enemies and damage
+        reduces 30 per hit.
+      icon: bffd25b328052f647a5e1705071fe746
+      name: Piercing Cold
+      type: offense
+    - color: red
       description: Flash Freeze impact leaves a lingering snowstorm that deals 10
         damage and inflicts Chill over 2.5. The damage affects enemies with Freeze
         directly.
@@ -684,12 +687,12 @@ builds:
       name: Snowstorm
       type: offense
     - color: red
-      description: Glacial Prism explosion radius increases by 20 and deals 10 damage
-        to nearby enemies when it breaks.
-      icon: 257737da8189b1242be43990b8caf5a6
-      name: Wintry Blast
+      description: You can break your own Ice Crown with a single Frost Bolt to launch
+        the cone of icicles. Cooldown is reduced by 2.
+      icon: 46faed2871863c34d83a612e2ddccc9e
+      name: Vandalism
       type: offense
-    winrate: '66.7'
+    winrate: '33.3'
 compos:
   threes:
   - hero_names:
@@ -706,8 +709,8 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 29
-    winrate: 0.7241379310344828
+    num: 30
+    winrate: 0.7
     wins: 21
   - hero_names:
     - Thorn
@@ -723,9 +726,9 @@ compos:
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
-    num: 28
-    winrate: 0.42857142857142855
-    wins: 12
+    num: 27
+    winrate: 0.5185185185185185
+    wins: 14
   - hero_names:
     - Alysia
     - Croak
@@ -740,43 +743,9 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 26
-    winrate: 0.5
-    wins: 13
-  - hero_names:
-    - Thorn
-    - Alysia
-    - Lucie
-    heros:
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 23
-    winrate: 0.6086956521739131
-    wins: 14
-  - hero_names:
-    - Thorn
-    - Poloma
-    - Alysia
-    heros:
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
-    num: 21
-    winrate: 0.2857142857142857
-    wins: 6
+    num: 25
+    winrate: 0.48
+    wins: 12
   - hero_names:
     - Raigon
     - Alysia
@@ -791,9 +760,43 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
+    num: 24
+    winrate: 0.4583333333333333
+    wins: 11
+  - hero_names:
+    - Thorn
+    - Alysia
+    - Lucie
+    heros:
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: 50404d271ae2a4f4f8b52de966688dc1
+      name: Alysia
+      title: alysia
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 22
+    winrate: 0.6363636363636364
+    wins: 14
+  - hero_names:
+    - Thorn
+    - Sirius
+    - Alysia
+    heros:
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
+    - icon: 50404d271ae2a4f4f8b52de966688dc1
+      name: Alysia
+      title: alysia
     num: 20
-    winrate: 0.5
-    wins: 10
+    winrate: 0.15
+    wins: 3
   - hero_names:
     - Freya
     - Alysia
@@ -813,55 +816,55 @@ compos:
     wins: 9
   - hero_names:
     - Thorn
-    - Sirius
+    - Poloma
     - Alysia
     heros:
     - icon: aab126231d9ff344f9f88ab230a5e66f
       name: Thorn
       title: thorn
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
-    num: 19
-    winrate: 0.10526315789473684
-    wins: 2
+    num: 20
+    winrate: 0.25
+    wins: 5
   - hero_names:
+    - Poloma
     - Alysia
-    - Blossom
     - Croak
     heros:
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
     num: 18
-    winrate: 0.5
-    wins: 9
+    winrate: 0.6666666666666666
+    wins: 12
   - hero_names:
-    - Oldur
-    - Croak
     - Alysia
+    - Shifu
+    - Sirius
     heros:
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
     num: 17
-    winrate: 0.23529411764705882
-    wins: 4
+    winrate: 0.7647058823529411
+    wins: 13
   twos:
   - hero_names:
     - Blossom
@@ -873,9 +876,9 @@ compos:
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
-    num: 23
-    winrate: 0.43478260869565216
-    wins: 10
+    num: 22
+    winrate: 0.4090909090909091
+    wins: 9
   - hero_names:
     - Alysia
     - Sirius
@@ -886,22 +889,9 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 15
-    winrate: 0.2
-    wins: 3
-  - hero_names:
-    - Oldur
-    - Alysia
-    heros:
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
     num: 14
-    winrate: 0.2857142857142857
-    wins: 4
+    winrate: 0.07142857142857142
+    wins: 1
   - hero_names:
     - Freya
     - Alysia
@@ -916,31 +906,18 @@ compos:
     winrate: 0.21428571428571427
     wins: 3
   - hero_names:
-    - Rook
+    - Oldur
     - Alysia
     heros:
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
-    num: 12
-    winrate: 0.4166666666666667
-    wins: 5
-  - hero_names:
-    - Thorn
-    - Alysia
-    heros:
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
-    num: 12
-    winrate: 0.6666666666666666
-    wins: 8
+    num: 13
+    winrate: 0.3076923076923077
+    wins: 4
   - hero_names:
     - Alysia
     - Pearl
@@ -952,8 +929,34 @@ compos:
       name: Pearl
       title: pearl
     num: 11
-    winrate: 0.36363636363636365
-    wins: 4
+    winrate: 0.2727272727272727
+    wins: 3
+  - hero_names:
+    - Rook
+    - Alysia
+    heros:
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: 50404d271ae2a4f4f8b52de966688dc1
+      name: Alysia
+      title: alysia
+    num: 11
+    winrate: 0.45454545454545453
+    wins: 5
+  - hero_names:
+    - Thorn
+    - Alysia
+    heros:
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: 50404d271ae2a4f4f8b52de966688dc1
+      name: Alysia
+      title: alysia
+    num: 11
+    winrate: 0.6363636363636364
+    wins: 7
   - hero_names:
     - Pestilus
     - Alysia
@@ -978,8 +981,8 @@ compos:
       name: Shifu
       title: shifu
     num: 10
-    winrate: 0.6
-    wins: 6
+    winrate: 0.5
+    wins: 5
   - hero_names:
     - Poloma
     - Alysia
@@ -1002,11 +1005,11 @@ icon: 50404d271ae2a4f4f8b52de966688dc1
 layout: character
 name: alysia
 num:
-  threes: 1046
-  twos: 199
+  threes: 1052
+  twos: 180
 title: Alysia
 url: characters/alysia.html
 winrate:
-  threes: '43.12'
-  twos: '35.68'
+  threes: '42.78'
+  twos: '33.89'
 ...
