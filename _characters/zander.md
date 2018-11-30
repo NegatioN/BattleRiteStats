@@ -106,6 +106,42 @@ builds:
       name: The Big Stage
       type: mixed
     winrate: '44.0'
+  - damage: '4.1'
+    disable: '0.3'
+    energy: '3.2'
+    num: 18
+    protection: '5.6'
+    skills:
+    - color: teal
+      description: Hearts restores 4 health over the duration.
+      icon: 144efc709ac628542aee319b14932b2c
+      name: Heart Restoration
+      type: support
+    - color: yellow
+      description: Teleporting yourself or an ally with Portal grants target a 60
+        Fading Haste for 2.
+      icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Late to the Show
+      type: mobility
+    - color: blue
+      description: Increase the health of Mirror Image illusions by 12 and duration
+        by 2.
+      icon: 2632a24f2167af14f9869abb401dd67f
+      name: Phantasmagoria
+      type: utility
+    - color: teal
+      description: Grants self or allies traveling through your Portal a shield that
+        absorbs up to 12 damage for 3.
+      icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Showdown
+      type: support
+    - color: grey
+      description: Your first Trick Shot after using Mirror Image includes an additional
+        card for both you and your illusion.
+      icon: 2632a24f2167af14f9869abb401dd67f
+      name: Stacked Deck
+      type: mixed
+    winrate: '50.0'
   - damage: '4.5'
     disable: '0.4'
     energy: '2.8'
@@ -140,43 +176,6 @@ builds:
       name: Stacked Deck
       type: mixed
     winrate: '44.4'
-  - damage: '3.9'
-    disable: '0.4'
-    energy: '2.7'
-    num: 17
-    protection: '4.6'
-    skills:
-    - color: red
-      description: An ally traveling through Portal resets the cooldown of Grand Conjuration.
-        Only the first ally traveling through resets the cooldown.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Ace up the Sleeve
-      type: offense
-    - color: teal
-      description: Hearts restores 4 health over the duration.
-      icon: 144efc709ac628542aee319b14932b2c
-      name: Heart Restoration
-      type: support
-    - color: red
-      description: Your Illusions explode at the end of their duration, dealing 15
-        damage and inflicting a 0.75 Stun to nearby enemies. Grand Illusion explosions
-        are bigger, deal 20 damage and inflict a 1 Stun.
-      icon: 2632a24f2167af14f9869abb401dd67f
-      name: Poof!
-      type: offense
-    - color: teal
-      description: Grants self or allies traveling through your Portal a shield that
-        absorbs up to 12 damage for 3.
-      icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Showdown
-      type: support
-    - color: grey
-      description: Your first Trick Shot after using Mirror Image includes an additional
-        card for both you and your illusion.
-      icon: 2632a24f2167af14f9869abb401dd67f
-      name: Stacked Deck
-      type: mixed
-    winrate: '35.3'
   - damage: '3.7'
     disable: '0.5'
     energy: '2.9'
@@ -215,63 +214,29 @@ builds:
       name: Poof!
       type: offense
     winrate: '58.8'
-  - damage: '4.4'
-    disable: '0.3'
-    energy: '3.2'
-    num: 15
-    protection: '5.8'
-    skills:
-    - color: teal
-      description: Hearts restores 4 health over the duration.
-      icon: 144efc709ac628542aee319b14932b2c
-      name: Heart Restoration
-      type: support
-    - color: yellow
-      description: Teleporting yourself or an ally with Portal grants target a 60
-        Fading Haste for 2.
-      icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Late to the Show
-      type: mobility
-    - color: blue
-      description: Increase the health of Mirror Image illusions by 12 and duration
-        by 2.
-      icon: 2632a24f2167af14f9869abb401dd67f
-      name: Phantasmagoria
-      type: utility
-    - color: teal
-      description: Grants self or allies traveling through your Portal a shield that
-        absorbs up to 12 damage for 3.
-      icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Showdown
-      type: support
-    - color: grey
-      description: Your first Trick Shot after using Mirror Image includes an additional
-        card for both you and your illusion.
-      icon: 2632a24f2167af14f9869abb401dd67f
-      name: Stacked Deck
-      type: mixed
-    winrate: '60.0'
-  - damage: '3.3'
+  - damage: '3.9'
     disable: '0.4'
-    energy: '2.8'
-    num: 14
-    protection: '5.0'
+    energy: '2.7'
+    num: 17
+    protection: '4.6'
     skills:
-    - color: blue
-      description: Allows Grand Conjuration to bounce once upon wall hit and increases
-        its max range by 15. Can still only hit once per enemy.
+    - color: red
+      description: An ally traveling through Portal resets the cooldown of Grand Conjuration.
+        Only the first ally traveling through resets the cooldown.
       icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Arcane Shenanigans
-      type: utility
+      name: Ace up the Sleeve
+      type: offense
     - color: teal
       description: Hearts restores 4 health over the duration.
       icon: 144efc709ac628542aee319b14932b2c
       name: Heart Restoration
       type: support
     - color: red
-      description: When Sheep Form ends targets are inflicted by Arcane Catalyst.
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: Lead Astray
+      description: Your Illusions explode at the end of their duration, dealing 15
+        damage and inflicting a 0.75 Stun to nearby enemies. Grand Illusion explosions
+        are bigger, deal 20 damage and inflict a 1 Stun.
+      icon: 2632a24f2167af14f9869abb401dd67f
+      name: Poof!
       type: offense
     - color: teal
       description: Grants self or allies traveling through your Portal a shield that
@@ -285,7 +250,7 @@ builds:
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
       type: mixed
-    winrate: '35.7'
+    winrate: '35.3'
   - damage: '4.7'
     disable: '0.6'
     energy: '3.2'
@@ -321,11 +286,46 @@ builds:
       name: The Big Stage
       type: mixed
     winrate: '92.9'
-  - damage: '3.8'
+  - damage: '3.3'
     disable: '0.4'
-    energy: '2.9'
-    num: 13
-    protection: '5.1'
+    energy: '2.8'
+    num: 14
+    protection: '5.0'
+    skills:
+    - color: blue
+      description: Allows Grand Conjuration to bounce once upon wall hit and increases
+        its max range by 15. Can still only hit once per enemy.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Arcane Shenanigans
+      type: utility
+    - color: teal
+      description: Hearts restores 4 health over the duration.
+      icon: 144efc709ac628542aee319b14932b2c
+      name: Heart Restoration
+      type: support
+    - color: red
+      description: When Sheep Form ends targets are inflicted by Arcane Catalyst.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: Lead Astray
+      type: offense
+    - color: teal
+      description: Grants self or allies traveling through your Portal a shield that
+        absorbs up to 12 damage for 3.
+      icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Showdown
+      type: support
+    - color: grey
+      description: Your first Trick Shot after using Mirror Image includes an additional
+        card for both you and your illusion.
+      icon: 2632a24f2167af14f9869abb401dd67f
+      name: Stacked Deck
+      type: mixed
+    winrate: '35.7'
+  - damage: '3.7'
+    disable: '0.3'
+    energy: '2.8'
+    num: 12
+    protection: '5.2'
     skills:
     - color: blue
       description: Allows Grand Conjuration to bounce once upon wall hit and increases
@@ -355,7 +355,7 @@ builds:
       icon: 1180e87d69492d442afaa79cbba36746
       name: The Big Stage
       type: mixed
-    winrate: '38.5'
+    winrate: '33.3'
   twos:
   - damage: '4.2'
     disable: '0.5'
@@ -466,75 +466,6 @@ builds:
       name: Stacked Deck
       type: mixed
     winrate: '40.0'
-  - damage: '4.7'
-    disable: '0.3'
-    energy: '2.9'
-    num: 4
-    protection: '4.7'
-    skills:
-    - color: teal
-      description: Hearts restores 4 health over the duration.
-      icon: 144efc709ac628542aee319b14932b2c
-      name: Heart Restoration
-      type: support
-    - color: yellow
-      description: Teleporting yourself or an ally with Portal grants target a 60
-        Fading Haste for 2.
-      icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Late to the Show
-      type: mobility
-    - color: red
-      description: When Sheep Form ends targets are inflicted by Arcane Catalyst.
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: Lead Astray
-      type: offense
-    - color: grey
-      description: Your first Trick Shot after using Mirror Image includes an additional
-        card for both you and your illusion.
-      icon: 2632a24f2167af14f9869abb401dd67f
-      name: Stacked Deck
-      type: mixed
-    - color: grey
-      description: Increases Sheep Trick radius by 10 and reduces cooldown by 1.
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: The Big Stage
-      type: mixed
-    winrate: '50.0'
-  - damage: '2.2'
-    disable: '0.4'
-    energy: '2.5'
-    num: 4
-    protection: '2.7'
-    skills:
-    - color: red
-      description: An ally traveling through Portal resets the cooldown of Grand Conjuration.
-        Only the first ally traveling through resets the cooldown.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Ace up the Sleeve
-      type: offense
-    - color: teal
-      description: Hearts restores 4 health over the duration.
-      icon: 144efc709ac628542aee319b14932b2c
-      name: Heart Restoration
-      type: support
-    - color: yellow
-      description: Teleporting yourself or an ally with Portal grants target a 60
-        Fading Haste for 2.
-      icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Late to the Show
-      type: mobility
-    - color: teal
-      description: Grants self or allies traveling through your Portal a shield that
-        absorbs up to 12 damage for 3.
-      icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Showdown
-      type: support
-    - color: grey
-      description: Increases Sheep Trick radius by 10 and reduces cooldown by 1.
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: The Big Stage
-      type: mixed
-    winrate: '0.0'
   - damage: '4.0'
     disable: '0.4'
     energy: '2.8'
@@ -570,40 +501,75 @@ builds:
       name: The Big Stage
       type: mixed
     winrate: '75.0'
-  - damage: '2.0'
-    disable: '0.3'
-    energy: '2.0'
+  - damage: '2.2'
+    disable: '0.4'
+    energy: '2.5'
     num: 4
     protection: '2.7'
     skills:
-    - color: grey
-      description: Grand Conjuration inflicts a 1.7 Fading Snare.
+    - color: red
+      description: An ally traveling through Portal resets the cooldown of Grand Conjuration.
+        Only the first ally traveling through resets the cooldown.
       icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Awestruck
-      type: mixed
+      name: Ace up the Sleeve
+      type: offense
     - color: teal
       description: Hearts restores 4 health over the duration.
       icon: 144efc709ac628542aee319b14932b2c
       name: Heart Restoration
       type: support
-    - color: red
-      description: When Sheep Form ends targets are inflicted by Arcane Catalyst.
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: Lead Astray
-      type: offense
-    - color: blue
-      description: Increase the health of Mirror Image illusions by 12 and duration
-        by 2.
-      icon: 2632a24f2167af14f9869abb401dd67f
-      name: Phantasmagoria
-      type: utility
+    - color: yellow
+      description: Teleporting yourself or an ally with Portal grants target a 60
+        Fading Haste for 2.
+      icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Late to the Show
+      type: mobility
     - color: teal
       description: Grants self or allies traveling through your Portal a shield that
         absorbs up to 12 damage for 3.
       icon: af5ff3eb2bad4b04a9c6dd30739068e6
       name: Showdown
       type: support
-    winrate: '25.0'
+    - color: grey
+      description: Increases Sheep Trick radius by 10 and reduces cooldown by 1.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: The Big Stage
+      type: mixed
+    winrate: '0.0'
+  - damage: '4.7'
+    disable: '0.3'
+    energy: '2.9'
+    num: 4
+    protection: '4.7'
+    skills:
+    - color: teal
+      description: Hearts restores 4 health over the duration.
+      icon: 144efc709ac628542aee319b14932b2c
+      name: Heart Restoration
+      type: support
+    - color: yellow
+      description: Teleporting yourself or an ally with Portal grants target a 60
+        Fading Haste for 2.
+      icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Late to the Show
+      type: mobility
+    - color: red
+      description: When Sheep Form ends targets are inflicted by Arcane Catalyst.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: Lead Astray
+      type: offense
+    - color: grey
+      description: Your first Trick Shot after using Mirror Image includes an additional
+        card for both you and your illusion.
+      icon: 2632a24f2167af14f9869abb401dd67f
+      name: Stacked Deck
+      type: mixed
+    - color: grey
+      description: Increases Sheep Trick radius by 10 and reduces cooldown by 1.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: The Big Stage
+      type: mixed
+    winrate: '50.0'
   - damage: '3.9'
     disable: '0.3'
     energy: '2.2'
@@ -639,6 +605,41 @@ builds:
       name: Showdown
       type: support
     winrate: '66.7'
+  - damage: '4.0'
+    disable: '0.4'
+    energy: '2.0'
+    num: 3
+    protection: '3.0'
+    skills:
+    - color: blue
+      description: Allows Grand Conjuration to bounce once upon wall hit and increases
+        its max range by 15. Can still only hit once per enemy.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Arcane Shenanigans
+      type: utility
+    - color: teal
+      description: Hearts restores 4 health over the duration.
+      icon: 144efc709ac628542aee319b14932b2c
+      name: Heart Restoration
+      type: support
+    - color: yellow
+      description: Teleporting yourself or an ally with Portal grants target a 60
+        Fading Haste for 2.
+      icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Late to the Show
+      type: mobility
+    - color: teal
+      description: Grants self or allies traveling through your Portal a shield that
+        absorbs up to 12 damage for 3.
+      icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Showdown
+      type: support
+    - color: grey
+      description: Increases Sheep Trick radius by 10 and reduces cooldown by 1.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: The Big Stage
+      type: mixed
+    winrate: '0.0'
   - damage: '5.4'
     disable: '0.4'
     energy: '3.1'
@@ -762,8 +763,8 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 14
-    winrate: 0.5
+    num: 15
+    winrate: 0.4666666666666667
     wins: 7
   - hero_names:
     - Croak
@@ -779,8 +780,8 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 13
-    winrate: 0.6153846153846154
+    num: 14
+    winrate: 0.5714285714285714
     wins: 8
   - hero_names:
     - Zander
@@ -796,8 +797,8 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 13
-    winrate: 0.38461538461538464
+    num: 14
+    winrate: 0.35714285714285715
     wins: 5
   - hero_names:
     - Thorn
@@ -813,8 +814,8 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 12
-    winrate: 0.4166666666666667
+    num: 11
+    winrate: 0.45454545454545453
     wins: 5
   - hero_names:
     - Thorn
@@ -834,40 +835,6 @@ compos:
     winrate: 0.6363636363636364
     wins: 7
   - hero_names:
-    - Raigon
-    - Jade
-    - Zander
-    heros:
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    - icon: 9c4186a6214f12448a7091710b0cde6c
-      name: Zander
-      title: zander
-    num: 10
-    winrate: 0.3
-    wins: 3
-  - hero_names:
-    - Zander
-    - Croak
-    - Varesh
-    heros:
-    - icon: 9c4186a6214f12448a7091710b0cde6c
-      name: Zander
-      title: zander
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
-    - icon: f1cc53a29c58089478f6438589d9b32d
-      name: Varesh
-      title: varesh
-    num: 9
-    winrate: 0.5555555555555556
-    wins: 5
-  - hero_names:
     - Zander
     - Freya
     - Varesh
@@ -881,6 +848,40 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
+    num: 9
+    winrate: 0.4444444444444444
+    wins: 4
+  - hero_names:
+    - Shifu
+    - Jade
+    - Zander
+    heros:
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: 9c4186a6214f12448a7091710b0cde6c
+      name: Zander
+      title: zander
+    num: 9
+    winrate: 0.6666666666666666
+    wins: 6
+  - hero_names:
+    - Ashka
+    - Rook
+    - Zander
+    heros:
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: 9c4186a6214f12448a7091710b0cde6c
+      name: Zander
+      title: zander
     num: 9
     winrate: 0.4444444444444444
     wins: 4
@@ -899,6 +900,19 @@ compos:
     winrate: 0.4375
     wins: 7
   - hero_names:
+    - Rook
+    - Zander
+    heros:
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: 9c4186a6214f12448a7091710b0cde6c
+      name: Zander
+      title: zander
+    num: 12
+    winrate: 0.4166666666666667
+    wins: 5
+  - hero_names:
     - Ashka
     - Zander
     heros:
@@ -911,19 +925,6 @@ compos:
     num: 12
     winrate: 0.5833333333333334
     wins: 7
-  - hero_names:
-    - Rook
-    - Zander
-    heros:
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
-    - icon: 9c4186a6214f12448a7091710b0cde6c
-      name: Zander
-      title: zander
-    num: 11
-    winrate: 0.36363636363636365
-    wins: 4
   - hero_names:
     - Iva
     - Zander
@@ -964,6 +965,19 @@ compos:
     winrate: 0.4444444444444444
     wins: 4
   - hero_names:
+    - Raigon
+    - Zander
+    heros:
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    - icon: 9c4186a6214f12448a7091710b0cde6c
+      name: Zander
+      title: zander
+    num: 6
+    winrate: 0.16666666666666666
+    wins: 1
+  - hero_names:
     - Alysia
     - Zander
     heros:
@@ -976,19 +990,6 @@ compos:
     num: 6
     winrate: 0.3333333333333333
     wins: 2
-  - hero_names:
-    - Jade
-    - Zander
-    heros:
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    - icon: 9c4186a6214f12448a7091710b0cde6c
-      name: Zander
-      title: zander
-    num: 6
-    winrate: 0.5
-    wins: 3
   - hero_names:
     - Jumong
     - Zander
@@ -1025,11 +1026,11 @@ icon: 9c4186a6214f12448a7091710b0cde6c
 layout: character
 name: zander
 num:
-  threes: 578
+  threes: 579
   twos: 112
 title: Zander
 url: characters/zander.html
 winrate:
-  threes: '43.77'
+  threes: '43.87'
   twos: '40.18'
 ...
