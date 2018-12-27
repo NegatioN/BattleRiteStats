@@ -4,7 +4,7 @@ builds:
   - damage: '4.1'
     disable: '0.8'
     energy: '2.8'
-    num: 87
+    num: 78
     protection: '5.3'
     skills:
     - color: teal
@@ -33,12 +33,12 @@ builds:
       icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
       type: control
-    winrate: '44.8'
+    winrate: '43.6'
   - damage: '4.3'
     disable: '0.6'
-    energy: '3.1'
-    num: 75
-    protection: '5.6'
+    energy: '3.2'
+    num: 77
+    protection: '5.7'
     skills:
     - color: green
       description: Ghost Wolf returns to you afterward, granting you 5 energy and
@@ -68,11 +68,11 @@ builds:
       icon: 70d64cab20af264438c599ba3ecdd2c4
       name: Silver Fang
       type: offense
-    winrate: '58.7'
-  - damage: '4.2'
+    winrate: '58.4'
+  - damage: '4.3'
     disable: '0.8'
     energy: '2.8'
-    num: 53
+    num: 54
     protection: '5.2'
     skills:
     - color: pink
@@ -102,11 +102,11 @@ builds:
       icon: 70d64cab20af264438c599ba3ecdd2c4
       name: Silver Fang
       type: offense
-    winrate: '43.4'
+    winrate: '44.4'
   - damage: '4.2'
     disable: '0.8'
     energy: '3.3'
-    num: 50
+    num: 52
     protection: '5.2'
     skills:
     - color: green
@@ -137,12 +137,12 @@ builds:
       icon: dfc86226d7b2a6d438dad7dfca7a0d52
       name: Specter
       type: support
-    winrate: '52.0'
+    winrate: '51.9'
   - damage: '3.8'
     disable: '0.8'
     energy: '3.0'
-    num: 48
-    protection: '4.8'
+    num: 49
+    protection: '4.9'
     skills:
     - color: green
       description: Other Side heals 6 bonus healing. Also reduces cooldown of Other
@@ -171,12 +171,12 @@ builds:
       icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
       type: control
-    winrate: '62.5'
-  - damage: '5.9'
+    winrate: '65.3'
+  - damage: '5.8'
     disable: '0.8'
-    energy: '3.0'
-    num: 47
-    protection: '4.9'
+    energy: '2.9'
+    num: 44
+    protection: '4.8'
     skills:
     - color: pink
       description: The first Ghost Wolf hit inflicts Root for 1.2.
@@ -206,12 +206,12 @@ builds:
       icon: 70d64cab20af264438c599ba3ecdd2c4
       name: Silver Fang
       type: offense
-    winrate: '63.8'
-  - damage: '3.9'
+    winrate: '61.4'
+  - damage: '4.1'
     disable: '0.8'
-    energy: '3.1'
-    num: 39
-    protection: '5.6'
+    energy: '3.2'
+    num: 41
+    protection: '5.5'
     skills:
     - color: green
       description: Ghost Wolf returns to you afterward, granting you 5 energy and
@@ -241,11 +241,11 @@ builds:
       icon: 510f65762365d8a47815877780d9227d
       name: Shimmering Bond
       type: support
-    winrate: '46.2'
-  - damage: '3.9'
-    disable: '1.0'
+    winrate: '48.8'
+  - damage: '4.0'
+    disable: '0.9'
     energy: '3.0'
-    num: 36
+    num: 35
     protection: '3.9'
     skills:
     - color: green
@@ -275,11 +275,11 @@ builds:
       icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
       type: control
-    winrate: '33.3'
-  - damage: '4.1'
+    winrate: '31.4'
+  - damage: '4.0'
     disable: '0.9'
-    energy: '3.0'
-    num: 36
+    energy: '3.1'
+    num: 34
     protection: '4.7'
     skills:
     - color: green
@@ -311,41 +311,42 @@ builds:
       icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
       type: control
-    winrate: '52.8'
-  - damage: '4.0'
-    disable: '0.7'
+    winrate: '52.9'
+  - damage: '4.3'
+    disable: '0.9'
     energy: '2.8'
-    num: 35
-    protection: '5.3'
+    num: 34
+    protection: '5.1'
     skills:
-    - color: green
-      description: Ghost Wolf returns to you afterward, granting you 5 energy and
-        healing you for 12 health.
-      icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Affection
-      type: survival
-    - color: green
-      description: Other Side heals 6 bonus healing. Also reduces cooldown of Other
-        Side by 1.
-      icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Into the Realm
-      type: survival
     - color: teal
       description: Increases healing shared by Spirit Link from 50 to 80.
       icon: 510f65762365d8a47815877780d9227d
       name: Shimmering Bond
       type: support
-    - color: red
-      description: Increases Ghost Wolf range by 10. The first hit deals 4 bonus damage.
-      icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Silver Fang
-      type: offense
     - color: pink
-      description: Teleporting to Spirit Guide resets the cooldown of Spirit Rift.
-      icon: 7bd09f2f761edd0438938579a6942e82
-      name: Vengeful Spirit
+      description: Reduces cooldown of Spirit Rift by 1. Spell Block interrupts further
+        reduce cooldown by 1.
+      icon: b6b9a08408c476c4a9f91eba6dacbb52
+      name: Soul Essence
       type: control
-    winrate: '42.9'
+    - color: grey
+      description: Moving through an enemy during Other Side inflicts a 1 Fading Snare,
+        deals 10 damage and heals you for 10 health.
+      icon: dfc86226d7b2a6d438dad7dfca7a0d52
+      name: Soul Theft
+      type: mixed
+    - color: teal
+      description: Other Side causes your ally to become invisible for 1.5.
+      icon: dfc86226d7b2a6d438dad7dfca7a0d52
+      name: Specter
+      type: support
+    - color: yellow
+      description: Spirit Rift increases your movement speed by 40 for 3 when it inflicts
+        Spell Block.
+      icon: b6b9a08408c476c4a9f91eba6dacbb52
+      name: Spiritual Wind
+      type: mobility
+    winrate: '52.9'
   twos:
   - damage: '3.7'
     disable: '0.6'
@@ -488,42 +489,6 @@ builds:
       name: Vengeful Spirit
       type: control
     winrate: '33.3'
-  - damage: '5.6'
-    disable: '0.8'
-    energy: '3.9'
-    num: 7
-    protection: '4.4'
-    skills:
-    - color: green
-      description: Ghost Wolf returns to you afterward, granting you 5 energy and
-        healing you for 12 health.
-      icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Affection
-      type: survival
-    - color: grey
-      description: Spirit Guide deals 8 bonus damage and knockback force increases
-        by 60.
-      icon: 7bd09f2f761edd0438938579a6942e82
-      name: Ghostly Strike
-      type: mixed
-    - color: green
-      description: Other Side heals 6 bonus healing. Also reduces cooldown of Other
-        Side by 1.
-      icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Into the Realm
-      type: survival
-    - color: teal
-      description: Ally affected by ^2Spirit Guide^- takes 33 less damage and enemy
-        affected by ^2Spirit Guide^- takes 20 more damage.
-      icon: 7bd09f2f761edd0438938579a6942e82
-      name: Phantasm
-      type: support
-    - color: red
-      description: Increases Ghost Wolf range by 10. The first hit deals 4 bonus damage.
-      icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Silver Fang
-      type: offense
-    winrate: '85.7'
   - damage: '4.1'
     disable: '1.0'
     energy: '2.8'
@@ -560,6 +525,76 @@ builds:
       name: Vengeful Spirit
       type: control
     winrate: '71.4'
+  - damage: '5.6'
+    disable: '0.8'
+    energy: '3.9'
+    num: 7
+    protection: '4.4'
+    skills:
+    - color: green
+      description: Ghost Wolf returns to you afterward, granting you 5 energy and
+        healing you for 12 health.
+      icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Affection
+      type: survival
+    - color: grey
+      description: Spirit Guide deals 8 bonus damage and knockback force increases
+        by 60.
+      icon: 7bd09f2f761edd0438938579a6942e82
+      name: Ghostly Strike
+      type: mixed
+    - color: green
+      description: Other Side heals 6 bonus healing. Also reduces cooldown of Other
+        Side by 1.
+      icon: dfc86226d7b2a6d438dad7dfca7a0d52
+      name: Into the Realm
+      type: survival
+    - color: teal
+      description: Ally affected by ^2Spirit Guide^- takes 33 less damage and enemy
+        affected by ^2Spirit Guide^- takes 20 more damage.
+      icon: 7bd09f2f761edd0438938579a6942e82
+      name: Phantasm
+      type: support
+    - color: red
+      description: Increases Ghost Wolf range by 10. The first hit deals 4 bonus damage.
+      icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Silver Fang
+      type: offense
+    winrate: '85.7'
+  - damage: '4.2'
+    disable: '1.3'
+    energy: '3.0'
+    num: 6
+    protection: '3.0'
+    skills:
+    - color: green
+      description: Ghost Wolf returns to you afterward, granting you 5 energy and
+        healing you for 12 health.
+      icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Affection
+      type: survival
+    - color: pink
+      description: The first Ghost Wolf hit inflicts Root for 1.2.
+      icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Dire Wolf
+      type: control
+    - color: teal
+      description: Other Side causes your ally to become invisible for 1.5.
+      icon: dfc86226d7b2a6d438dad7dfca7a0d52
+      name: Specter
+      type: support
+    - color: yellow
+      description: Spirit Rift increases your movement speed by 40 for 3 when it inflicts
+        Spell Block.
+      icon: b6b9a08408c476c4a9f91eba6dacbb52
+      name: Spiritual Wind
+      type: mobility
+    - color: pink
+      description: Teleporting to Spirit Guide resets the cooldown of Spirit Rift.
+      icon: 7bd09f2f761edd0438938579a6942e82
+      name: Vengeful Spirit
+      type: control
+    winrate: '83.3'
   - damage: '3.8'
     disable: '0.9'
     energy: '2.8'
@@ -595,77 +630,6 @@ builds:
       name: Vengeful Spirit
       type: control
     winrate: '50.0'
-  - damage: '3.6'
-    disable: '0.8'
-    energy: '2.8'
-    num: 6
-    protection: '3.8'
-    skills:
-    - color: green
-      description: Ghost Wolf returns to you afterward, granting you 5 energy and
-        healing you for 12 health.
-      icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Affection
-      type: survival
-    - color: pink
-      description: The first Ghost Wolf hit inflicts Root for 1.2.
-      icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Dire Wolf
-      type: control
-    - color: green
-      description: Other Side heals 6 bonus healing. Also reduces cooldown of Other
-        Side by 1.
-      icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Into the Realm
-      type: survival
-    - color: teal
-      description: Ally affected by ^2Spirit Guide^- takes 33 less damage and enemy
-        affected by ^2Spirit Guide^- takes 20 more damage.
-      icon: 7bd09f2f761edd0438938579a6942e82
-      name: Phantasm
-      type: support
-    - color: pink
-      description: Teleporting to Spirit Guide resets the cooldown of Spirit Rift.
-      icon: 7bd09f2f761edd0438938579a6942e82
-      name: Vengeful Spirit
-      type: control
-    winrate: '50.0'
-  - damage: '4.4'
-    disable: '0.8'
-    energy: '3.0'
-    num: 6
-    protection: '3.7'
-    skills:
-    - color: green
-      description: Ghost Wolf returns to you afterward, granting you 5 energy and
-        healing you for 12 health.
-      icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Affection
-      type: survival
-    - color: green
-      description: Other Side heals 6 bonus healing. Also reduces cooldown of Other
-        Side by 1.
-      icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Into the Realm
-      type: survival
-    - color: teal
-      description: Ally affected by ^2Spirit Guide^- takes 33 less damage and enemy
-        affected by ^2Spirit Guide^- takes 20 more damage.
-      icon: 7bd09f2f761edd0438938579a6942e82
-      name: Phantasm
-      type: support
-    - color: red
-      description: Increases Ghost Wolf range by 10. The first hit deals 4 bonus damage.
-      icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Silver Fang
-      type: offense
-    - color: yellow
-      description: Spirit Rift increases your movement speed by 40 for 3 when it inflicts
-        Spell Block.
-      icon: b6b9a08408c476c4a9f91eba6dacbb52
-      name: Spiritual Wind
-      type: mobility
-    winrate: '83.3'
   - damage: '4.4'
     disable: '0.8'
     energy: '3.0'
@@ -702,6 +666,42 @@ builds:
       name: Vengeful Spirit
       type: control
     winrate: '66.7'
+  - damage: '4.4'
+    disable: '0.8'
+    energy: '3.0'
+    num: 6
+    protection: '3.7'
+    skills:
+    - color: green
+      description: Ghost Wolf returns to you afterward, granting you 5 energy and
+        healing you for 12 health.
+      icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Affection
+      type: survival
+    - color: green
+      description: Other Side heals 6 bonus healing. Also reduces cooldown of Other
+        Side by 1.
+      icon: dfc86226d7b2a6d438dad7dfca7a0d52
+      name: Into the Realm
+      type: survival
+    - color: teal
+      description: Ally affected by ^2Spirit Guide^- takes 33 less damage and enemy
+        affected by ^2Spirit Guide^- takes 20 more damage.
+      icon: 7bd09f2f761edd0438938579a6942e82
+      name: Phantasm
+      type: support
+    - color: red
+      description: Increases Ghost Wolf range by 10. The first hit deals 4 bonus damage.
+      icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Silver Fang
+      type: offense
+    - color: yellow
+      description: Spirit Rift increases your movement speed by 40 for 3 when it inflicts
+        Spell Block.
+      icon: b6b9a08408c476c4a9f91eba6dacbb52
+      name: Spiritual Wind
+      type: mobility
+    winrate: '83.3'
 compos:
   threes:
   - hero_names:
@@ -718,9 +718,9 @@ compos:
     - icon: 9872f8cd16d7327418b09294cfa319e6
       name: Poloma
       title: poloma
-    num: 73
-    winrate: 0.4657534246575342
-    wins: 34
+    num: 68
+    winrate: 0.45588235294117646
+    wins: 31
   - hero_names:
     - Poloma
     - Shen Rao
@@ -735,9 +735,9 @@ compos:
     - icon: bb37e5d448c511e47b808987d0d4f9e8
       name: Ruh Kaan
       title: ruh-kaan
-    num: 57
-    winrate: 0.49122807017543857
-    wins: 28
+    num: 52
+    winrate: 0.5
+    wins: 26
   - hero_names:
     - Rook
     - Shen Rao
@@ -752,9 +752,9 @@ compos:
     - icon: 9872f8cd16d7327418b09294cfa319e6
       name: Poloma
       title: poloma
-    num: 51
-    winrate: 0.43137254901960786
-    wins: 22
+    num: 46
+    winrate: 0.41304347826086957
+    wins: 19
   - hero_names:
     - Shen Rao
     - Croak
@@ -769,26 +769,9 @@ compos:
     - icon: 9872f8cd16d7327418b09294cfa319e6
       name: Poloma
       title: poloma
-    num: 46
-    winrate: 0.4782608695652174
-    wins: 22
-  - hero_names:
-    - Poloma
-    - Bakko
-    - Shen Rao
-    heros:
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    - icon: c0e3f68a87771064ab57d6cd36430ed9
-      name: Shen Rao
-      title: shen-rao
-    num: 45
-    winrate: 0.5555555555555556
-    wins: 25
+    num: 44
+    winrate: 0.45454545454545453
+    wins: 20
   - hero_names:
     - Shen Rao
     - Raigon
@@ -803,9 +786,26 @@ compos:
     - icon: 9872f8cd16d7327418b09294cfa319e6
       name: Poloma
       title: poloma
-    num: 41
-    winrate: 0.4146341463414634
-    wins: 17
+    num: 40
+    winrate: 0.45
+    wins: 18
+  - hero_names:
+    - Poloma
+    - Bakko
+    - Shen Rao
+    heros:
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    - icon: c0e3f68a87771064ab57d6cd36430ed9
+      name: Shen Rao
+      title: shen-rao
+    num: 40
+    winrate: 0.575
+    wins: 23
   - hero_names:
     - Thorn
     - Poloma
@@ -820,8 +820,8 @@ compos:
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
-    num: 38
-    winrate: 0.5789473684210527
+    num: 37
+    winrate: 0.5945945945945946
     wins: 22
   - hero_names:
     - Thorn
@@ -837,26 +837,9 @@ compos:
     - icon: 42a665b9c285a1243a201c8d533980e5
       name: Jumong
       title: jumong
-    num: 34
-    winrate: 0.5294117647058824
+    num: 33
+    winrate: 0.5454545454545454
     wins: 18
-  - hero_names:
-    - Shen Rao
-    - Shifu
-    - Poloma
-    heros:
-    - icon: c0e3f68a87771064ab57d6cd36430ed9
-      name: Shen Rao
-      title: shen-rao
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    num: 32
-    winrate: 0.53125
-    wins: 17
   - hero_names:
     - Poloma
     - Shen Rao
@@ -872,8 +855,25 @@ compos:
       name: Jade
       title: jade
     num: 31
-    winrate: 0.5161290322580645
-    wins: 16
+    winrate: 0.5806451612903226
+    wins: 18
+  - hero_names:
+    - Shen Rao
+    - Freya
+    - Poloma
+    heros:
+    - icon: c0e3f68a87771064ab57d6cd36430ed9
+      name: Shen Rao
+      title: shen-rao
+    - icon: be081702a8e70fe44ac0a4e3a9c46368
+      name: Freya
+      title: freya
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    num: 30
+    winrate: 0.36666666666666664
+    wins: 11
   twos:
   - hero_names:
     - Poloma
@@ -890,19 +890,6 @@ compos:
     wins: 18
   - hero_names:
     - Poloma
-    - Bakko
-    heros:
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    num: 26
-    winrate: 0.6153846153846154
-    wins: 16
-  - hero_names:
-    - Poloma
     - Raigon
     heros:
     - icon: 9872f8cd16d7327418b09294cfa319e6
@@ -911,22 +898,9 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 26
-    winrate: 0.5384615384615384
+    num: 25
+    winrate: 0.56
     wins: 14
-  - hero_names:
-    - Poloma
-    - Varesh
-    heros:
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    - icon: f1cc53a29c58089478f6438589d9b32d
-      name: Varesh
-      title: varesh
-    num: 22
-    winrate: 0.5909090909090909
-    wins: 13
   - hero_names:
     - Thorn
     - Poloma
@@ -955,6 +929,32 @@ compos:
     wins: 17
   - hero_names:
     - Poloma
+    - Varesh
+    heros:
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: f1cc53a29c58089478f6438589d9b32d
+      name: Varesh
+      title: varesh
+    num: 21
+    winrate: 0.5714285714285714
+    wins: 12
+  - hero_names:
+    - Poloma
+    - Bakko
+    heros:
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    num: 20
+    winrate: 0.5
+    wins: 10
+  - hero_names:
+    - Poloma
     - Alysia
     heros:
     - icon: 9872f8cd16d7327418b09294cfa319e6
@@ -966,6 +966,19 @@ compos:
     num: 20
     winrate: 0.65
     wins: 13
+  - hero_names:
+    - Poloma
+    - Jade
+    heros:
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 18
+    winrate: 0.2777777777777778
+    wins: 5
   - hero_names:
     - Jumong
     - Poloma
@@ -981,30 +994,17 @@ compos:
     wins: 9
   - hero_names:
     - Poloma
-    - Freya
+    - Destiny
     heros:
     - icon: 9872f8cd16d7327418b09294cfa319e6
       name: Poloma
       title: poloma
-    - icon: be081702a8e70fe44ac0a4e3a9c46368
-      name: Freya
-      title: freya
-    num: 17
-    winrate: 0.47058823529411764
+    - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
+      name: Destiny
+      title: destiny
+    num: 16
+    winrate: 0.5
     wins: 8
-  - hero_names:
-    - Poloma
-    - Jade
-    heros:
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 17
-    winrate: 0.29411764705882354
-    wins: 5
 description: Poloma uses shamanic powers to guide life and spirits alongside her protector
   and loyal creature, Toki. A dark disturbance among souls has put Poloma on a new
   path, leaving her safety and home behind. Driven by her burning curiosity and extraordinary
@@ -1013,11 +1013,11 @@ icon: 9872f8cd16d7327418b09294cfa319e6
 layout: character
 name: poloma
 num:
-  threes: 1989
-  twos: 330
+  threes: 1943
+  twos: 318
 title: Poloma
 url: characters/poloma.html
 winrate:
-  threes: '48.77'
-  twos: '53.94'
+  threes: '49.00'
+  twos: '53.46'
 ...
