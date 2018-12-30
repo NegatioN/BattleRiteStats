@@ -4,7 +4,7 @@ builds:
   - damage: '4.4'
     disable: '0.6'
     energy: '3.5'
-    num: 193
+    num: 191
     protection: '4.8'
     skills:
     - color: grey
@@ -37,11 +37,11 @@ builds:
       icon: a22c6c4bc967d4e48a44f0e87a93023e
       name: Time Walker
       type: mobility
-    winrate: '50.8'
+    winrate: '49.7'
   - damage: '5.4'
     disable: '0.7'
-    energy: '3.7'
-    num: 168
+    energy: '3.6'
+    num: 156
     protection: '5.0'
     skills:
     - color: grey
@@ -74,11 +74,11 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    winrate: '60.1'
-  - damage: '4.9'
+    winrate: '60.3'
+  - damage: '4.8'
     disable: '0.6'
     energy: '3.5'
-    num: 68
+    num: 69
     protection: '4.6'
     skills:
     - color: grey
@@ -111,12 +111,12 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    winrate: '58.8'
-  - damage: '4.9'
+    winrate: '58.0'
+  - damage: '4.7'
     disable: '0.6'
     energy: '3.2'
-    num: 33
-    protection: '4.1'
+    num: 38
+    protection: '4.2'
     skills:
     - color: blue
       description: ^2Shifting Sands^- creates a ^2Lesser Chronoflux^- that reflects
@@ -148,12 +148,12 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    winrate: '63.6'
+    winrate: '60.5'
   - damage: '4.3'
     disable: '0.6'
     energy: '3.0'
-    num: 27
-    protection: '3.8'
+    num: 25
+    protection: '3.9'
     skills:
     - color: blue
       description: ^2Shifting Sands^- creates a ^2Lesser Chronoflux^- that reflects
@@ -185,47 +185,11 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    winrate: '37.0'
-  - damage: '3.9'
+    winrate: '40.0'
+  - damage: '5.4'
     disable: '0.6'
-    energy: '2.9'
-    num: 26
-    protection: '4.1'
-    skills:
-    - color: grey
-      description: Time Bomb reduces incoming healing by 20 and outgoing damage by
-        10.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Dehydration
-      type: mixed
-    - color: teal
-      description: Rejuvenate heals for an additional 15 of damage taken over its
-        duration. Restores up to a maximum of 6 bonus health.
-      icon: 838ae06cda41a2544a1d2a528389d5b5
-      name: Renew
-      type: support
-    - color: red
-      description: Quicksand can be recast to throw Lesser Quicksand. It applies Time
-        Bomb instead of consuming it.
-      icon: 35a1515e35b5104449dfa8802c5aa0e2
-      name: Sand Struck
-      type: offense
-    - color: pink
-      description: Quicksand inflicts Root for 1.
-      icon: 35a1515e35b5104449dfa8802c5aa0e2
-      name: Sand Tomb
-      type: control
-    - color: red
-      description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
-        enemies when it detonates.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Shared Fate
-      type: offense
-    winrate: '38.5'
-  - damage: '5.5'
-    disable: '0.6'
-    energy: '3.5'
-    num: 24
+    energy: '3.4'
+    num: 25
     protection: '4.2'
     skills:
     - color: blue
@@ -258,7 +222,7 @@ builds:
       icon: a22c6c4bc967d4e48a44f0e87a93023e
       name: Time Walker
       type: mobility
-    winrate: '70.8'
+    winrate: '68.0'
   - damage: '4.4'
     disable: '0.7'
     energy: '3.6'
@@ -297,43 +261,6 @@ builds:
       name: Shared Fate
       type: offense
     winrate: '56.5'
-  - damage: '3.4'
-    disable: '0.6'
-    energy: '2.8'
-    num: 22
-    protection: '4.3'
-    skills:
-    - color: grey
-      description: Time Bomb reduces incoming healing by 20 and outgoing damage by
-        10.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Dehydration
-      type: mixed
-    - color: teal
-      description: Passing through an ally with Shifting Sands grants you and your
-        ally a Shield that absorbs up to 14 damage for 3.\n
-      icon: 89c37320af892ae43b410f4d610d7ea8
-      name: Recreate
-      type: support
-    - color: teal
-      description: Rejuvenate heals for an additional 15 of damage taken over its
-        duration. Restores up to a maximum of 6 bonus health.
-      icon: 838ae06cda41a2544a1d2a528389d5b5
-      name: Renew
-      type: support
-    - color: red
-      description: Shifting Sands causes your next Sands of Time to deal 6 bonus damage
-        and inflict Fading Snare for 1.
-      icon: 89c37320af892ae43b410f4d610d7ea8
-      name: Sand Storm
-      type: offense
-    - color: red
-      description: Quicksand can be recast to throw Lesser Quicksand. It applies Time
-        Bomb instead of consuming it.
-      icon: 35a1515e35b5104449dfa8802c5aa0e2
-      name: Sand Struck
-      type: offense
-    winrate: '22.7'
   - damage: '5.3'
     disable: '0.8'
     energy: '3.3'
@@ -371,11 +298,84 @@ builds:
       name: Shared Fate
       type: offense
     winrate: '40.9'
+  - damage: '3.3'
+    disable: '0.6'
+    energy: '2.7'
+    num: 21
+    protection: '4.2'
+    skills:
+    - color: grey
+      description: Time Bomb reduces incoming healing by 20 and outgoing damage by
+        10.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Dehydration
+      type: mixed
+    - color: teal
+      description: Passing through an ally with Shifting Sands grants you and your
+        ally a Shield that absorbs up to 14 damage for 3.\n
+      icon: 89c37320af892ae43b410f4d610d7ea8
+      name: Recreate
+      type: support
+    - color: teal
+      description: Rejuvenate heals for an additional 15 of damage taken over its
+        duration. Restores up to a maximum of 6 bonus health.
+      icon: 838ae06cda41a2544a1d2a528389d5b5
+      name: Renew
+      type: support
+    - color: red
+      description: Shifting Sands causes your next Sands of Time to deal 6 bonus damage
+        and inflict Fading Snare for 1.
+      icon: 89c37320af892ae43b410f4d610d7ea8
+      name: Sand Storm
+      type: offense
+    - color: red
+      description: Quicksand can be recast to throw Lesser Quicksand. It applies Time
+        Bomb instead of consuming it.
+      icon: 35a1515e35b5104449dfa8802c5aa0e2
+      name: Sand Struck
+      type: offense
+    winrate: '23.8'
+  - damage: '5.4'
+    disable: '0.6'
+    energy: '3.8'
+    num: 20
+    protection: '4.5'
+    skills:
+    - color: grey
+      description: Time Bomb reduces incoming healing by 20 and outgoing damage by
+        10.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Dehydration
+      type: mixed
+    - color: teal
+      description: Passing through an ally with Shifting Sands grants you and your
+        ally a Shield that absorbs up to 14 damage for 3.\n
+      icon: 89c37320af892ae43b410f4d610d7ea8
+      name: Recreate
+      type: support
+    - color: teal
+      description: Rejuvenate heals for an additional 15 of damage taken over its
+        duration. Restores up to a maximum of 6 bonus health.
+      icon: 838ae06cda41a2544a1d2a528389d5b5
+      name: Renew
+      type: support
+    - color: red
+      description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
+        enemies when it detonates.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Shared Fate
+      type: offense
+    - color: red
+      description: Consuming Time Bomb with Quicksand deals 6 bonus damage.
+      icon: 35a1515e35b5104449dfa8802c5aa0e2
+      name: Time Burst
+      type: offense
+    winrate: '55.0'
   twos:
   - damage: '6.5'
     disable: '0.8'
     energy: '3.9'
-    num: 33
+    num: 34
     protection: '3.8'
     skills:
     - color: grey
@@ -408,11 +408,47 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    winrate: '69.7'
-  - damage: '5.4'
+    winrate: '70.6'
+  - damage: '8.1'
+    disable: '0.8'
+    energy: '4.3'
+    num: 15
+    protection: '4.0'
+    skills:
+    - color: grey
+      description: Time Bomb reduces incoming healing by 20 and outgoing damage by
+        10.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Dehydration
+      type: mixed
+    - color: teal
+      description: Passing through an ally with Shifting Sands grants you and your
+        ally a Shield that absorbs up to 14 damage for 3.\n
+      icon: 89c37320af892ae43b410f4d610d7ea8
+      name: Recreate
+      type: support
+    - color: red
+      description: Shifting Sands causes your next Sands of Time to deal 6 bonus damage
+        and inflict Fading Snare for 1.
+      icon: 89c37320af892ae43b410f4d610d7ea8
+      name: Sand Storm
+      type: offense
+    - color: red
+      description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
+        enemies when it detonates.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Shared Fate
+      type: offense
+    - color: red
+      description: Consuming Time Bomb with Quicksand deals 6 bonus damage.
+      icon: 35a1515e35b5104449dfa8802c5aa0e2
+      name: Time Burst
+      type: offense
+    winrate: '60.0'
+  - damage: '5.5'
     disable: '0.5'
     energy: '3.2'
-    num: 15
+    num: 14
     protection: '3.6'
     skills:
     - color: grey
@@ -445,7 +481,7 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
-    winrate: '66.7'
+    winrate: '71.4'
   - damage: '6.4'
     disable: '0.7'
     energy: '3.8'
@@ -485,8 +521,8 @@ builds:
     winrate: '53.8'
   - damage: '5.4'
     disable: '0.8'
-    energy: '3.3'
-    num: 12
+    energy: '3.4'
+    num: 10
     protection: '3.5'
     skills:
     - color: grey
@@ -519,7 +555,7 @@ builds:
       icon: a22c6c4bc967d4e48a44f0e87a93023e
       name: Time Walker
       type: mobility
-    winrate: '58.3'
+    winrate: '60.0'
   - damage: '5.7'
     disable: '0.9'
     energy: '3.7'
@@ -594,43 +630,6 @@ builds:
       name: Sand Tomb
       type: control
     winrate: '44.4'
-  - damage: '5.5'
-    disable: '0.6'
-    energy: '3.5'
-    num: 8
-    protection: '3.1'
-    skills:
-    - color: grey
-      description: Time Bomb reduces incoming healing by 20 and outgoing damage by
-        10.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Dehydration
-      type: mixed
-    - color: teal
-      description: Rejuvenate heals for an additional 15 of damage taken over its
-        duration. Restores up to a maximum of 6 bonus health.
-      icon: 838ae06cda41a2544a1d2a528389d5b5
-      name: Renew
-      type: support
-    - color: red
-      description: Quicksand can be recast to throw Lesser Quicksand. It applies Time
-        Bomb instead of consuming it.
-      icon: 35a1515e35b5104449dfa8802c5aa0e2
-      name: Sand Struck
-      type: offense
-    - color: red
-      description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
-        enemies when it detonates.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Shared Fate
-      type: offense
-    - color: yellow
-      description: Negating attacks with Time Bender reduces cooldown of Shifting
-        Sands by {Can't represent GameValueList}s.
-      icon: a22c6c4bc967d4e48a44f0e87a93023e
-      name: Time Walker
-      type: mobility
-    winrate: '62.5'
   - damage: '6.5'
     disable: '0.8'
     energy: '3.3'
@@ -668,42 +667,6 @@ builds:
       name: Shared Fate
       type: offense
     winrate: '62.5'
-  - damage: '5.3'
-    disable: '0.7'
-    energy: '3.0'
-    num: 7
-    protection: '3.2'
-    skills:
-    - color: grey
-      description: Time Bomb reduces incoming healing by 20 and outgoing damage by
-        10.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Dehydration
-      type: mixed
-    - color: teal
-      description: Passing through an ally with Shifting Sands grants you and your
-        ally a Shield that absorbs up to 14 damage for 3.\n
-      icon: 89c37320af892ae43b410f4d610d7ea8
-      name: Recreate
-      type: support
-    - color: teal
-      description: Rejuvenate heals for an additional 15 of damage taken over its
-        duration. Restores up to a maximum of 6 bonus health.
-      icon: 838ae06cda41a2544a1d2a528389d5b5
-      name: Renew
-      type: support
-    - color: pink
-      description: Quicksand inflicts Root for 1.
-      icon: 35a1515e35b5104449dfa8802c5aa0e2
-      name: Sand Tomb
-      type: control
-    - color: red
-      description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
-        enemies when it detonates.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Shared Fate
-      type: offense
-    winrate: '71.4'
   - damage: '5.9'
     disable: '0.7'
     energy: '3.0'
@@ -741,6 +704,42 @@ builds:
       name: Shared Fate
       type: offense
     winrate: '57.1'
+  - damage: '5.3'
+    disable: '0.7'
+    energy: '3.0'
+    num: 7
+    protection: '3.2'
+    skills:
+    - color: grey
+      description: Time Bomb reduces incoming healing by 20 and outgoing damage by
+        10.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Dehydration
+      type: mixed
+    - color: teal
+      description: Passing through an ally with Shifting Sands grants you and your
+        ally a Shield that absorbs up to 14 damage for 3.\n
+      icon: 89c37320af892ae43b410f4d610d7ea8
+      name: Recreate
+      type: support
+    - color: teal
+      description: Rejuvenate heals for an additional 15 of damage taken over its
+        duration. Restores up to a maximum of 6 bonus health.
+      icon: 838ae06cda41a2544a1d2a528389d5b5
+      name: Renew
+      type: support
+    - color: pink
+      description: Quicksand inflicts Root for 1.
+      icon: 35a1515e35b5104449dfa8802c5aa0e2
+      name: Sand Tomb
+      type: control
+    - color: red
+      description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
+        enemies when it detonates.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Shared Fate
+      type: offense
+    winrate: '71.4'
 compos:
   threes:
   - hero_names:
@@ -757,9 +756,9 @@ compos:
     - icon: c0e3f68a87771064ab57d6cd36430ed9
       name: Shen Rao
       title: shen-rao
-    num: 37
-    winrate: 0.5405405405405406
-    wins: 20
+    num: 34
+    winrate: 0.5
+    wins: 17
   - hero_names:
     - Shen Rao
     - Bakko
@@ -774,9 +773,9 @@ compos:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    num: 28
-    winrate: 0.42857142857142855
-    wins: 12
+    num: 30
+    winrate: 0.43333333333333335
+    wins: 13
   - hero_names:
     - Thorn
     - Shen Rao
@@ -792,8 +791,8 @@ compos:
       name: Oldur
       title: oldur
     num: 26
-    winrate: 0.46153846153846156
-    wins: 12
+    winrate: 0.4230769230769231
+    wins: 11
   - hero_names:
     - Shen Rao
     - Croak
@@ -846,23 +845,6 @@ compos:
     winrate: 0.5909090909090909
     wins: 13
   - hero_names:
-    - Oldur
-    - Shifu
-    - Shen Rao
-    heros:
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
-    - icon: c0e3f68a87771064ab57d6cd36430ed9
-      name: Shen Rao
-      title: shen-rao
-    num: 21
-    winrate: 0.47619047619047616
-    wins: 10
-  - hero_names:
     - Rook
     - Oldur
     - Alysia
@@ -880,6 +862,23 @@ compos:
     winrate: 0.5714285714285714
     wins: 12
   - hero_names:
+    - Oldur
+    - Shifu
+    - Shen Rao
+    heros:
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    - icon: c0e3f68a87771064ab57d6cd36430ed9
+      name: Shen Rao
+      title: shen-rao
+    num: 20
+    winrate: 0.4
+    wins: 8
+  - hero_names:
     - Thorn
     - Oldur
     - Jumong
@@ -893,9 +892,9 @@ compos:
     - icon: 42a665b9c285a1243a201c8d533980e5
       name: Jumong
       title: jumong
-    num: 20
-    winrate: 0.5
-    wins: 10
+    num: 19
+    winrate: 0.47368421052631576
+    wins: 9
   - hero_names:
     - Oldur
     - Shen Rao
@@ -910,9 +909,9 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 20
-    winrate: 0.6
-    wins: 12
+    num: 19
+    winrate: 0.5789473684210527
+    wins: 11
   twos:
   - hero_names:
     - Oldur
@@ -924,9 +923,22 @@ compos:
     - icon: d3038956f9767d74bbbce0659b07474d
       name: Croak
       title: croak
-    num: 31
-    winrate: 0.41935483870967744
-    wins: 13
+    num: 29
+    winrate: 0.41379310344827586
+    wins: 12
+  - hero_names:
+    - Shen Rao
+    - Oldur
+    heros:
+    - icon: c0e3f68a87771064ab57d6cd36430ed9
+      name: Shen Rao
+      title: shen-rao
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    num: 22
+    winrate: 0.4090909090909091
+    wins: 9
   - hero_names:
     - Oldur
     - Alysia
@@ -938,21 +950,8 @@ compos:
       name: Alysia
       title: alysia
     num: 22
-    winrate: 0.6818181818181818
-    wins: 15
-  - hero_names:
-    - Shen Rao
-    - Oldur
-    heros:
-    - icon: c0e3f68a87771064ab57d6cd36430ed9
-      name: Shen Rao
-      title: shen-rao
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    num: 21
-    winrate: 0.42857142857142855
-    wins: 9
+    winrate: 0.6363636363636364
+    wins: 14
   - hero_names:
     - Rook
     - Oldur
@@ -963,9 +962,22 @@ compos:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
-    num: 19
-    winrate: 0.5789473684210527
-    wins: 11
+    num: 21
+    winrate: 0.47619047619047616
+    wins: 10
+  - hero_names:
+    - Ulric
+    - Oldur
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    num: 16
+    winrate: 0.625
+    wins: 10
   - hero_names:
     - Oldur
     - Pearl
@@ -993,18 +1005,18 @@ compos:
     winrate: 0.23076923076923078
     wins: 3
   - hero_names:
-    - Jumong
     - Oldur
+    - Jamila
     heros:
-    - icon: 42a665b9c285a1243a201c8d533980e5
-      name: Jumong
-      title: jumong
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
+    - icon: f283d6dda29cbc845b4f770a1482d75b
+      name: Jamila
+      title: jamila
     num: 13
-    winrate: 0.8461538461538461
-    wins: 11
+    winrate: 0.5384615384615384
+    wins: 7
   - hero_names:
     - Oldur
     - Freya
@@ -1020,19 +1032,6 @@ compos:
     wins: 12
   - hero_names:
     - Oldur
-    - Jamila
-    heros:
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    - icon: f283d6dda29cbc845b4f770a1482d75b
-      name: Jamila
-      title: jamila
-    num: 12
-    winrate: 0.5833333333333334
-    wins: 7
-  - hero_names:
-    - Oldur
     - Bakko
     heros:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
@@ -1042,19 +1041,19 @@ compos:
       name: Bakko
       title: bakko
     num: 12
-    winrate: 0.5833333333333334
-    wins: 7
+    winrate: 0.5
+    wins: 6
 description: Oldur, a mysterious creature able to bend time and space. He can mend
   wounds with powerful heals and reverse enemy attacks by freezing them in time.
 icon: b0d66b8b9f228724093b8a3e66c3fef6
 layout: character
 name: oldur
 num:
-  threes: 1233
-  twos: 251
+  threes: 1200
+  twos: 265
 title: Oldur
 url: characters/oldur.html
 winrate:
-  threes: '48.66'
-  twos: '58.96'
+  threes: '48.25'
+  twos: '57.36'
 ...
