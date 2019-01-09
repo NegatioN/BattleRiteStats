@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '6.3'
+  - damage: '6.2'
     disable: '1.1'
     energy: '3.1'
-    num: 102
+    num: 108
     protection: '1.6'
     skills:
     - color: red
@@ -34,7 +34,7 @@ builds:
       icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
       name: Shield Bash
       type: support
-    winrate: '54.9'
+    winrate: '53.7'
   - damage: '6.3'
     disable: '1.2'
     energy: '3.7'
@@ -146,7 +146,7 @@ builds:
   - damage: '6.2'
     disable: '0.9'
     energy: '3.5'
-    num: 41
+    num: 39
     protection: '1.6'
     skills:
     - color: red
@@ -177,12 +177,12 @@ builds:
       icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
       name: Shield Bash
       type: support
-    winrate: '41.5'
+    winrate: '43.6'
   - damage: '5.8'
     disable: '1.2'
     energy: '3.1'
-    num: 38
-    protection: '1.4'
+    num: 39
+    protection: '1.5'
     skills:
     - color: teal
       description: Valiant Leap grants 30 damage reduction for 2.5 to nearby allies.
@@ -210,11 +210,11 @@ builds:
       icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
       name: Shield Bash
       type: support
-    winrate: '42.1'
+    winrate: '41.0'
   - damage: '5.4'
-    disable: '0.9'
+    disable: '0.8'
     energy: '2.9'
-    num: 36
+    num: 37
     protection: '2.2'
     skills:
     - color: teal
@@ -246,12 +246,12 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
       type: offense
-    winrate: '58.3'
+    winrate: '59.5'
   - damage: '4.4'
     disable: '0.9'
     energy: '2.5'
-    num: 33
-    protection: '0.7'
+    num: 31
+    protection: '0.6'
     skills:
     - color: red
       description: Hitting at least one enemy with Valiant Leap causes your next War
@@ -280,11 +280,11 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '30.3'
-  - damage: '6.1'
-    disable: '1.1'
+    winrate: '29.0'
+  - damage: '6.2'
+    disable: '1.2'
     energy: '3.2'
-    num: 28
+    num: 29
     protection: '1.4'
     skills:
     - color: red
@@ -314,7 +314,7 @@ builds:
       icon: b778ec70cf3198442a522a40aefd88df
       name: Rampage
       type: offense
-    winrate: '57.1'
+    winrate: '55.2'
   - damage: '6.2'
     disable: '1.4'
     energy: '3.3'
@@ -352,7 +352,7 @@ builds:
   - damage: '5.4'
     disable: '0.9'
     energy: '3.0'
-    num: 13
+    num: 14
     protection: '1.5'
     skills:
     - color: red
@@ -383,7 +383,7 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
       type: offense
-    winrate: '76.9'
+    winrate: '78.6'
   - damage: '5.6'
     disable: '1.1'
     energy: '3.2'
@@ -418,6 +418,41 @@ builds:
       name: The Red Axe
       type: survival
     winrate: '55.6'
+  - damage: '5.0'
+    disable: '0.7'
+    energy: '3.0'
+    num: 8
+    protection: '1.6'
+    skills:
+    - color: teal
+      description: Valiant Leap grants 30 damage reduction for 2.5 to nearby allies.
+      icon: 16e7e84d6c786cf4abc695c9b1c29b31
+      name: Bravery
+      type: support
+    - color: grey
+      description: ^2Bulwark^- increases movement speed by 60.
+      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
+      name: Mobile Defence
+      type: mixed
+    - color: teal
+      description: Bulwark can be recast to use Shield Bash. It deals 6 damage and
+        inflicts 40 Weaken for 2.
+      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
+      name: Shield Bash
+      type: support
+    - color: green
+      description: Blood Axe hits heal you for 2 health plus 2 additional health per
+        weapon charge.
+      icon: 741da913acab25641862d0312d75a7a1
+      name: The Red Axe
+      type: survival
+    - color: red
+      description: Blood Axe deals 2 bonus damage and an additional 1 bonus damage
+        per weapon charge.
+      icon: 741da913acab25641862d0312d75a7a1
+      name: Warlord's Axe
+      type: offense
+    winrate: '50.0'
   - damage: '6.3'
     disable: '1.2'
     energy: '2.6'
@@ -662,43 +697,6 @@ builds:
       name: Shield Bash
       type: support
     winrate: '100.0'
-  - damage: '5.8'
-    disable: '0.8'
-    energy: '3.1'
-    num: 4
-    protection: '0.9'
-    skills:
-    - color: red
-      description: Hitting at least one enemy with Valiant Leap causes your next War
-        Axe hit to deal 8 bonus damage.
-      icon: 16e7e84d6c786cf4abc695c9b1c29b31
-      name: Adrenaline Rush
-      type: offense
-    - color: red
-      description: Hitting an enemy with Shield Dash causes your next War Axe hit
-        to deal 8 bonus damage.
-      icon: 84ba51168b08df3489362e3a9be59704
-      name: Adrenaline Slam
-      type: offense
-    - color: red
-      description: War Shout increases attack speed of War Axe and Blood Axe by 33%
-        and movement speed by 20 for 4.
-      icon: b778ec70cf3198442a522a40aefd88df
-      name: Rampage
-      type: offense
-    - color: teal
-      description: Bulwark can be recast to use Shield Bash. It deals 6 damage and
-        inflicts 40 Weaken for 2.
-      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
-      name: Shield Bash
-      type: support
-    - color: red
-      description: Blood Axe deals 2 bonus damage and an additional 1 bonus damage
-        per weapon charge.
-      icon: 741da913acab25641862d0312d75a7a1
-      name: Warlord's Axe
-      type: offense
-    winrate: '75.0'
 compos:
   threes:
   - hero_names:
@@ -715,9 +713,9 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 38
-    winrate: 0.5526315789473685
-    wins: 21
+    num: 36
+    winrate: 0.5277777777777778
+    wins: 19
   - hero_names:
     - Poloma
     - Bakko
@@ -732,60 +730,9 @@ compos:
     - icon: c0e3f68a87771064ab57d6cd36430ed9
       name: Shen Rao
       title: shen-rao
-    num: 30
-    winrate: 0.4
-    wins: 12
-  - hero_names:
-    - Shen Rao
-    - Bakko
-    - Oldur
-    heros:
-    - icon: c0e3f68a87771064ab57d6cd36430ed9
-      name: Shen Rao
-      title: shen-rao
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    num: 29
-    winrate: 0.41379310344827586
-    wins: 12
-  - hero_names:
-    - Pestilus
-    - Shen Rao
-    - Bakko
-    heros:
-    - icon: a7e0c7a6f0fa2ef49bf684950de34567
-      name: Pestilus
-      title: pestilus
-    - icon: c0e3f68a87771064ab57d6cd36430ed9
-      name: Shen Rao
-      title: shen-rao
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    num: 27
-    winrate: 0.5555555555555556
-    wins: 15
-  - hero_names:
-    - Shen Rao
-    - Bakko
-    - Lucie
-    heros:
-    - icon: c0e3f68a87771064ab57d6cd36430ed9
-      name: Shen Rao
-      title: shen-rao
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 25
-    winrate: 0.6
-    wins: 15
+    num: 32
+    winrate: 0.4375
+    wins: 14
   - hero_names:
     - Blossom
     - Bakko
@@ -800,8 +747,42 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 25
-    winrate: 0.52
+    num: 31
+    winrate: 0.5806451612903226
+    wins: 18
+  - hero_names:
+    - Pestilus
+    - Shen Rao
+    - Bakko
+    heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: c0e3f68a87771064ab57d6cd36430ed9
+      name: Shen Rao
+      title: shen-rao
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    num: 29
+    winrate: 0.5862068965517241
+    wins: 17
+  - hero_names:
+    - Oldur
+    - Bakko
+    - Shen Rao
+    heros:
+    - icon: b0d66b8b9f228724093b8a3e66c3fef6
+      name: Oldur
+      title: oldur
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    - icon: c0e3f68a87771064ab57d6cd36430ed9
+      name: Shen Rao
+      title: shen-rao
+    num: 29
+    winrate: 0.4482758620689655
     wins: 13
   - hero_names:
     - Poloma
@@ -817,9 +798,26 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
-    num: 24
-    winrate: 0.5
-    wins: 12
+    num: 27
+    winrate: 0.5185185185185185
+    wins: 14
+  - hero_names:
+    - Shen Rao
+    - Bakko
+    - Lucie
+    heros:
+    - icon: c0e3f68a87771064ab57d6cd36430ed9
+      name: Shen Rao
+      title: shen-rao
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 26
+    winrate: 0.5769230769230769
+    wins: 15
   - hero_names:
     - Alysia
     - Bakko
@@ -838,22 +836,22 @@ compos:
     winrate: 0.4166666666666667
     wins: 10
   - hero_names:
-    - Alysia
     - Blossom
     - Bakko
+    - Varesh
     heros:
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
+    - icon: f1cc53a29c58089478f6438589d9b32d
+      name: Varesh
+      title: varesh
     num: 22
-    winrate: 0.3181818181818182
-    wins: 7
+    winrate: 0.6363636363636364
+    wins: 14
   - hero_names:
     - Jade
     - Bakko
@@ -886,19 +884,6 @@ compos:
     winrate: 0.6774193548387096
     wins: 21
   - hero_names:
-    - Bakko
-    - Lucie
-    heros:
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 24
-    winrate: 0.7083333333333334
-    wins: 17
-  - hero_names:
     - Blossom
     - Bakko
     heros:
@@ -908,9 +893,22 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 23
-    winrate: 0.4782608695652174
-    wins: 11
+    num: 26
+    winrate: 0.5
+    wins: 13
+  - hero_names:
+    - Bakko
+    - Lucie
+    heros:
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 25
+    winrate: 0.64
+    wins: 16
   - hero_names:
     - Pestilus
     - Bakko
@@ -921,9 +919,9 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 20
-    winrate: 0.55
-    wins: 11
+    num: 22
+    winrate: 0.5909090909090909
+    wins: 13
   - hero_names:
     - Bakko
     - Sirius
@@ -934,9 +932,35 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 17
-    winrate: 0.6470588235294118
-    wins: 11
+    num: 20
+    winrate: 0.65
+    wins: 13
+  - hero_names:
+    - Alysia
+    - Bakko
+    heros:
+    - icon: 50404d271ae2a4f4f8b52de966688dc1
+      name: Alysia
+      title: alysia
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    num: 19
+    winrate: 0.2631578947368421
+    wins: 5
+  - hero_names:
+    - Bakko
+    - Jade
+    heros:
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 14
+    winrate: 0.35714285714285715
+    wins: 5
   - hero_names:
     - Poloma
     - Bakko
@@ -951,19 +975,6 @@ compos:
     winrate: 0.5384615384615384
     wins: 7
   - hero_names:
-    - Bakko
-    - Jade
-    heros:
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 13
-    winrate: 0.38461538461538464
-    wins: 5
-  - hero_names:
     - Oldur
     - Bakko
     heros:
@@ -973,22 +984,9 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 12
-    winrate: 0.6666666666666666
+    num: 13
+    winrate: 0.6153846153846154
     wins: 8
-  - hero_names:
-    - Alysia
-    - Bakko
-    heros:
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    num: 12
-    winrate: 0.25
-    wins: 3
   - hero_names:
     - Shen Rao
     - Bakko
@@ -999,8 +997,8 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 12
-    winrate: 0.5833333333333334
+    num: 13
+    winrate: 0.5384615384615384
     wins: 7
 description: Bakko has a proud history as a heroic brawler, armed with both axe and
   shield. He uses his shield to protect teammates and outmaneuver enemies. Watch out
@@ -1009,11 +1007,11 @@ icon: 6154d6c0556261343844bf7caebb67a7
 layout: character
 name: bakko
 num:
-  threes: 1420
-  twos: 231
+  threes: 1483
+  twos: 254
 title: Bakko
 url: characters/bakko.html
 winrate:
-  threes: '48.52'
-  twos: '52.38'
+  threes: '48.95'
+  twos: '52.36'
 ...
