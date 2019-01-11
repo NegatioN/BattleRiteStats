@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '4.8'
+  - damage: '4.7'
     disable: '0.6'
-    energy: '3.5'
-    num: 45
+    energy: '3.4'
+    num: 47
     protection: '5.9'
     skills:
     - color: teal
@@ -36,11 +36,11 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mobility
-    winrate: '62.2'
+    winrate: '61.7'
   - damage: '5.3'
     disable: '0.7'
     energy: '3.9'
-    num: 38
+    num: 39
     protection: '5.3'
     skills:
     - color: red
@@ -73,12 +73,12 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mobility
-    winrate: '55.3'
-  - damage: '4.9'
+    winrate: '53.8'
+  - damage: '5.0'
     disable: '0.9'
-    energy: '3.4'
-    num: 28
-    protection: '4.2'
+    energy: '3.2'
+    num: 30
+    protection: '4.1'
     skills:
     - color: grey
       description: All effects of Divinity are doubled.
@@ -109,11 +109,11 @@ builds:
       icon: c7f49424687c9a744a6347a5e2eede0b
       name: Light's Embrace
       type: support
-    winrate: '67.9'
+    winrate: '66.7'
   - damage: '3.5'
     disable: '0.5'
     energy: '2.9'
-    num: 22
+    num: 23
     protection: '4.9'
     skills:
     - color: teal
@@ -145,48 +145,11 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mobility
-    winrate: '50.0'
-  - damage: '4.3'
-    disable: '0.8'
-    energy: '3.1'
-    num: 20
-    protection: '3.3'
-    skills:
-    - color: red
-      description: When affected by Favor charged Hammer of Justice deals 3 bonus
-        damage and the Stun duration is increased by 0.2.
-      icon: 398f1e921a73f484e9fc54e1308407f7
-      name: Enchanted Weapon
-      type: offense
-    - color: red
-      description: The third Smite attack deals 6 bonus damage and explodes upon impact
-        dealing 16 area damage to nearby enemies.
-      icon: 6892bf3a45c0ad042b495a385cb5604f
-      name: Holy Fire
-      type: offense
-    - color: pink
-      description: Smite projectiles inflict a {Can't represent GameValueList} Snare
-        for 1.2.
-      icon: 6892bf3a45c0ad042b495a385cb5604f
-      name: Holy Shackles
-      type: control
-    - color: yellow
-      description: Absorbing attacks with Radiant Shield increases your movement speed
-        by {Can't represent GameValueList} for 3.
-      icon: c7f49424687c9a744a6347a5e2eede0b
-      name: Light Speed
-      type: mobility
-    - color: red
-      description: Intervene deals 3 bonus damage and reduces incoming healing by
-        25 for 3.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Penitence
-      type: offense
-    winrate: '45.0'
-  - damage: '3.2'
+    winrate: '47.8'
+  - damage: '3.3'
     disable: '0.6'
     energy: '3.0'
-    num: 15
+    num: 18
     protection: '5.0'
     skills:
     - color: red
@@ -219,12 +182,12 @@ builds:
       icon: 43ddc4074c2b605478c43c9727704ce8
       name: Penitence
       type: offense
-    winrate: '46.7'
+    winrate: '50.0'
   - damage: '2.6'
     disable: '0.4'
-    energy: '2.3'
-    num: 12
-    protection: '3.0'
+    energy: '2.4'
+    num: 15
+    protection: '3.1'
     skills:
     - color: teal
       description: Holy Light healing increases by 3 when healing allies.
@@ -254,12 +217,12 @@ builds:
       icon: c7f49424687c9a744a6347a5e2eede0b
       name: Light's Embrace
       type: support
-    winrate: '25.0'
-  - damage: '3.0'
-    disable: '0.5'
-    energy: '2.6'
-    num: 11
-    protection: '7.5'
+    winrate: '20.0'
+  - damage: '2.9'
+    disable: '0.4'
+    energy: '2.5'
+    num: 13
+    protection: '7.3'
     skills:
     - color: red
       description: Charged Hammer of Justice deals 2 bonus damage and inflicts Stun
@@ -290,7 +253,43 @@ builds:
       icon: 43ddc4074c2b605478c43c9727704ce8
       name: Penitence
       type: offense
-    winrate: '27.3'
+    winrate: '30.8'
+  - damage: '4.0'
+    disable: '0.6'
+    energy: '3.1'
+    num: 13
+    protection: '5.2'
+    skills:
+    - color: teal
+      description: Holy Light healing increases by 3 when healing allies.
+      icon: 85a79d3bf018b184887fb1a71ef51ac1
+      name: Devotion
+      type: support
+    - color: teal
+      description: Applying Favor to an ally grants them a Shield. It absorbs up to
+        12 damage for 1.5.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Divine Protection
+      type: support
+    - color: red
+      description: When affected by Favor charged Hammer of Justice deals 3 bonus
+        damage and the Stun duration is increased by 0.2.
+      icon: 398f1e921a73f484e9fc54e1308407f7
+      name: Enchanted Weapon
+      type: offense
+    - color: red
+      description: The third Smite attack deals 6 bonus damage and explodes upon impact
+        dealing 16 area damage to nearby enemies.
+      icon: 6892bf3a45c0ad042b495a385cb5604f
+      name: Holy Fire
+      type: offense
+    - color: pink
+      description: Smite projectiles inflict a {Can't represent GameValueList} Snare
+        for 1.2.
+      icon: 6892bf3a45c0ad042b495a385cb5604f
+      name: Holy Shackles
+      type: control
+    winrate: '61.5'
   - damage: '3.0'
     disable: '0.5'
     energy: '2.7'
@@ -328,9 +327,9 @@ builds:
       name: Vindicator
       type: mobility
     winrate: '55.6'
-  - damage: '2.9'
+  - damage: '3.2'
     disable: '0.6'
-    energy: '2.6'
+    energy: '2.8'
     num: 9
     protection: '5.7'
     skills:
@@ -364,12 +363,12 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mobility
-    winrate: '22.2'
+    winrate: '44.4'
   twos:
   - damage: '5.5'
     disable: '0.7'
     energy: '3.8'
-    num: 32
+    num: 31
     protection: '4.6'
     skills:
     - color: teal
@@ -400,7 +399,7 @@ builds:
       icon: 6892bf3a45c0ad042b495a385cb5604f
       name: Holy Fire
       type: offense
-    winrate: '71.9'
+    winrate: '71.0'
   - damage: '5.9'
     disable: '0.8'
     energy: '3.6'
@@ -509,6 +508,41 @@ builds:
       name: Light's Embrace
       type: support
     winrate: '16.7'
+  - damage: '3.7'
+    disable: '0.5'
+    energy: '2.7'
+    num: 5
+    protection: '3.9'
+    skills:
+    - color: teal
+      description: Holy Light healing increases by 3 when healing allies.
+      icon: 85a79d3bf018b184887fb1a71ef51ac1
+      name: Devotion
+      type: support
+    - color: teal
+      description: Applying Favor to an ally grants them a Shield. It absorbs up to
+        12 damage for 1.5.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Divine Protection
+      type: support
+    - color: teal
+      description: Holy Light recharges 100 faster when Smite is active.
+      icon: 85a79d3bf018b184887fb1a71ef51ac1
+      name: Faith
+      type: support
+    - color: green
+      description: Activating Smite grants a Shield. It absorbs up to 12 damage for
+        3.
+      icon: 6892bf3a45c0ad042b495a385cb5604f
+      name: Halo
+      type: survival
+    - color: red
+      description: The third Smite attack deals 6 bonus damage and explodes upon impact
+        dealing 16 area damage to nearby enemies.
+      icon: 6892bf3a45c0ad042b495a385cb5604f
+      name: Holy Fire
+      type: offense
+    winrate: '40.0'
   - damage: '4.2'
     disable: '0.8'
     energy: '2.5'
@@ -546,41 +580,6 @@ builds:
       name: Light's Embrace
       type: support
     winrate: '100.0'
-  - damage: '3.2'
-    disable: '0.4'
-    energy: '2.5'
-    num: 4
-    protection: '3.8'
-    skills:
-    - color: teal
-      description: Holy Light healing increases by 3 when healing allies.
-      icon: 85a79d3bf018b184887fb1a71ef51ac1
-      name: Devotion
-      type: support
-    - color: teal
-      description: Applying Favor to an ally grants them a Shield. It absorbs up to
-        12 damage for 1.5.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Divine Protection
-      type: support
-    - color: teal
-      description: Holy Light recharges 100 faster when Smite is active.
-      icon: 85a79d3bf018b184887fb1a71ef51ac1
-      name: Faith
-      type: support
-    - color: green
-      description: Activating Smite grants a Shield. It absorbs up to 12 damage for
-        3.
-      icon: 6892bf3a45c0ad042b495a385cb5604f
-      name: Halo
-      type: survival
-    - color: red
-      description: The third Smite attack deals 6 bonus damage and explodes upon impact
-        dealing 16 area damage to nearby enemies.
-      icon: 6892bf3a45c0ad042b495a385cb5604f
-      name: Holy Fire
-      type: offense
-    winrate: '50.0'
   - damage: '4.5'
     disable: '0.5'
     energy: '3.0'
@@ -617,12 +616,23 @@ builds:
       name: Penitence
       type: offense
     winrate: '100.0'
-  - damage: '6.2'
-    disable: '1.1'
-    energy: '3.0'
+  - damage: '5.8'
+    disable: '0.7'
+    energy: '3.5'
     num: 3
-    protection: '3.4'
+    protection: '3.7'
     skills:
+    - color: red
+      description: Charged Hammer of Justice deals 2 bonus damage and inflicts Stun
+        on secondary targets.
+      icon: 398f1e921a73f484e9fc54e1308407f7
+      name: Cleave
+      type: offense
+    - color: teal
+      description: Holy Light healing increases by 3 when healing allies.
+      icon: 85a79d3bf018b184887fb1a71ef51ac1
+      name: Devotion
+      type: support
     - color: teal
       description: Applying Favor to an ally grants them a Shield. It absorbs up to
         12 damage for 1.5.
@@ -635,23 +645,10 @@ builds:
       icon: 398f1e921a73f484e9fc54e1308407f7
       name: Enchanted Weapon
       type: offense
-    - color: red
-      description: The third Smite attack deals 6 bonus damage and explodes upon impact
-        dealing 16 area damage to nearby enemies.
-      icon: 6892bf3a45c0ad042b495a385cb5604f
-      name: Holy Fire
-      type: offense
-    - color: pink
-      description: Smite projectiles inflict a {Can't represent GameValueList} Snare
-        for 1.2.
-      icon: 6892bf3a45c0ad042b495a385cb5604f
-      name: Holy Shackles
-      type: control
     - color: yellow
-      description: Absorbing attacks with Radiant Shield increases your movement speed
-        by {Can't represent GameValueList} for 3.
-      icon: c7f49424687c9a744a6347a5e2eede0b
-      name: Light Speed
+      description: Intervene travel distance increases by 40 when affected by Favor.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Initiation
       type: mobility
     winrate: '66.7'
   - damage: '4.0'
@@ -691,23 +688,12 @@ builds:
       name: Vindicator
       type: mobility
     winrate: '66.7'
-  - damage: '5.8'
-    disable: '0.7'
-    energy: '3.5'
+  - damage: '6.2'
+    disable: '1.1'
+    energy: '3.0'
     num: 3
-    protection: '3.7'
+    protection: '3.4'
     skills:
-    - color: red
-      description: Charged Hammer of Justice deals 2 bonus damage and inflicts Stun
-        on secondary targets.
-      icon: 398f1e921a73f484e9fc54e1308407f7
-      name: Cleave
-      type: offense
-    - color: teal
-      description: Holy Light healing increases by 3 when healing allies.
-      icon: 85a79d3bf018b184887fb1a71ef51ac1
-      name: Devotion
-      type: support
     - color: teal
       description: Applying Favor to an ally grants them a Shield. It absorbs up to
         12 damage for 1.5.
@@ -720,10 +706,23 @@ builds:
       icon: 398f1e921a73f484e9fc54e1308407f7
       name: Enchanted Weapon
       type: offense
+    - color: red
+      description: The third Smite attack deals 6 bonus damage and explodes upon impact
+        dealing 16 area damage to nearby enemies.
+      icon: 6892bf3a45c0ad042b495a385cb5604f
+      name: Holy Fire
+      type: offense
+    - color: pink
+      description: Smite projectiles inflict a {Can't represent GameValueList} Snare
+        for 1.2.
+      icon: 6892bf3a45c0ad042b495a385cb5604f
+      name: Holy Shackles
+      type: control
     - color: yellow
-      description: Intervene travel distance increases by 40 when affected by Favor.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Initiation
+      description: Absorbing attacks with Radiant Shield increases your movement speed
+        by {Can't represent GameValueList} for 3.
+      icon: c7f49424687c9a744a6347a5e2eede0b
+      name: Light Speed
       type: mobility
     winrate: '66.7'
 compos:
@@ -742,9 +741,43 @@ compos:
     - icon: c0e3f68a87771064ab57d6cd36430ed9
       name: Shen Rao
       title: shen-rao
-    num: 17
-    winrate: 0.5882352941176471
-    wins: 10
+    num: 20
+    winrate: 0.6
+    wins: 12
+  - hero_names:
+    - Ulric
+    - Shen Rao
+    - Raigon
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: c0e3f68a87771064ab57d6cd36430ed9
+      name: Shen Rao
+      title: shen-rao
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    num: 12
+    winrate: 0.4166666666666667
+    wins: 5
+  - hero_names:
+    - Ulric
+    - Thorn
+    - Jade
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 12
+    winrate: 0.5833333333333334
+    wins: 7
   - hero_names:
     - Ulric
     - Shen Rao
@@ -765,7 +798,7 @@ compos:
   - hero_names:
     - Ulric
     - Thorn
-    - Jade
+    - Shen Rao
     heros:
     - icon: a90600a0f93cf3644b279b61ab3dc5c8
       name: Ulric
@@ -773,12 +806,12 @@ compos:
     - icon: aab126231d9ff344f9f88ab230a5e66f
       name: Thorn
       title: thorn
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
+    - icon: c0e3f68a87771064ab57d6cd36430ed9
+      name: Shen Rao
+      title: shen-rao
     num: 10
-    winrate: 0.5
-    wins: 5
+    winrate: 0.7
+    wins: 7
   - hero_names:
     - Ulric
     - Alysia
@@ -815,40 +848,6 @@ compos:
     wins: 5
   - hero_names:
     - Ulric
-    - Thorn
-    - Shen Rao
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    - icon: c0e3f68a87771064ab57d6cd36430ed9
-      name: Shen Rao
-      title: shen-rao
-    num: 8
-    winrate: 0.625
-    wins: 5
-  - hero_names:
-    - Ulric
-    - Shen Rao
-    - Raigon
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: c0e3f68a87771064ab57d6cd36430ed9
-      name: Shen Rao
-      title: shen-rao
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    num: 8
-    winrate: 0.375
-    wins: 3
-  - hero_names:
-    - Ulric
     - Ashka
     - Freya
     heros:
@@ -866,18 +865,18 @@ compos:
     wins: 5
   - hero_names:
     - Ulric
-    - Rook
-    - Varesh
+    - Shen Rao
+    - Jamila
     heros:
     - icon: a90600a0f93cf3644b279b61ab3dc5c8
       name: Ulric
       title: ulric
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
-    - icon: f1cc53a29c58089478f6438589d9b32d
-      name: Varesh
-      title: varesh
+    - icon: c0e3f68a87771064ab57d6cd36430ed9
+      name: Shen Rao
+      title: shen-rao
+    - icon: f283d6dda29cbc845b4f770a1482d75b
+      name: Jamila
+      title: jamila
     num: 8
     winrate: 0.375
     wins: 3
@@ -896,8 +895,8 @@ compos:
       name: Ruh Kaan
       title: ruh-kaan
     num: 8
-    winrate: 0.125
-    wins: 1
+    winrate: 0.25
+    wins: 2
   twos:
   - hero_names:
     - Ulric
@@ -910,8 +909,8 @@ compos:
       name: Thorn
       title: thorn
     num: 41
-    winrate: 0.6585365853658537
-    wins: 27
+    winrate: 0.6341463414634146
+    wins: 26
   - hero_names:
     - Ulric
     - Freya
@@ -922,9 +921,9 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 22
-    winrate: 0.5
-    wins: 11
+    num: 23
+    winrate: 0.5217391304347826
+    wins: 12
   - hero_names:
     - Ulric
     - Rook
@@ -935,8 +934,8 @@ compos:
     - icon: e5d5913527b842b41aed666d27d14231
       name: Rook
       title: rook
-    num: 12
-    winrate: 0.6666666666666666
+    num: 13
+    winrate: 0.6153846153846154
     wins: 8
   - hero_names:
     - Ulric
@@ -948,8 +947,8 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 10
-    winrate: 0.8
+    num: 12
+    winrate: 0.6666666666666666
     wins: 8
   - hero_names:
     - Ulric
@@ -961,8 +960,8 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 9
-    winrate: 0.2222222222222222
+    num: 8
+    winrate: 0.25
     wins: 2
   - hero_names:
     - Ulric
@@ -974,8 +973,21 @@ compos:
     - icon: 6f69edc7410650c43bee267eef585b06
       name: Shifu
       title: shifu
-    num: 8
-    winrate: 0.375
+    num: 7
+    winrate: 0.2857142857142857
+    wins: 2
+  - hero_names:
+    - Ulric
+    - Alysia
+    heros:
+    - icon: a90600a0f93cf3644b279b61ab3dc5c8
+      name: Ulric
+      title: ulric
+    - icon: 50404d271ae2a4f4f8b52de966688dc1
+      name: Alysia
+      title: alysia
+    num: 6
+    winrate: 0.5
     wins: 3
   - hero_names:
     - Ulric
@@ -992,40 +1004,27 @@ compos:
     wins: 1
   - hero_names:
     - Ulric
-    - Jamila
+    - Destiny
     heros:
     - icon: a90600a0f93cf3644b279b61ab3dc5c8
       name: Ulric
       title: ulric
-    - icon: f283d6dda29cbc845b4f770a1482d75b
-      name: Jamila
-      title: jamila
+    - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
+      name: Destiny
+      title: destiny
     num: 4
     winrate: 0.25
     wins: 1
   - hero_names:
     - Ulric
-    - Oldur
+    - Ruh Kaan
     heros:
     - icon: a90600a0f93cf3644b279b61ab3dc5c8
       name: Ulric
       title: ulric
-    - icon: b0d66b8b9f228724093b8a3e66c3fef6
-      name: Oldur
-      title: oldur
-    num: 4
-    winrate: 0.5
-    wins: 2
-  - hero_names:
-    - Ulric
-    - Alysia
-    heros:
-    - icon: a90600a0f93cf3644b279b61ab3dc5c8
-      name: Ulric
-      title: ulric
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
+    - icon: bb37e5d448c511e47b808987d0d4f9e8
+      name: Ruh Kaan
+      title: ruh-kaan
     num: 4
     winrate: 0.5
     wins: 2
@@ -1038,11 +1037,11 @@ icon: a90600a0f93cf3644b279b61ab3dc5c8
 layout: character
 name: ulric
 num:
-  threes: 555
-  twos: 156
+  threes: 607
+  twos: 161
 title: Ulric
 url: characters/ulric.html
 winrate:
-  threes: '45.05'
-  twos: '51.28'
+  threes: '45.14'
+  twos: '50.31'
 ...
