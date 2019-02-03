@@ -4,7 +4,7 @@ builds:
   - damage: '5.5'
     disable: '1.0'
     energy: '2.8'
-    num: 129
+    num: 131
     protection: '1.3'
     skills:
     - color: red
@@ -34,11 +34,11 @@ builds:
       icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
       name: Shield Bash
       type: support
-    winrate: '58.9'
+    winrate: '56.5'
   - damage: '5.6'
     disable: '1.0'
     energy: '2.4'
-    num: 103
+    num: 99
     protection: '1.5'
     skills:
     - color: red
@@ -70,12 +70,12 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '52.4'
+    winrate: '50.5'
   - damage: '5.9'
     disable: '1.3'
     energy: '3.2'
-    num: 98
-    protection: '1.3'
+    num: 84
+    protection: '1.2'
     skills:
     - color: red
       description: Hitting an enemy with Shield Dash causes your next War Axe hit
@@ -103,44 +103,9 @@ builds:
       icon: 84ba51168b08df3489362e3a9be59704
       name: Raging Ram
       type: mobility
-    winrate: '50.0'
-  - damage: '6.1'
-    disable: '1.0'
-    energy: '4.4'
-    num: 54
-    protection: '1.5'
-    skills:
-    - color: red
-      description: Hitting an enemy with Shield Dash causes your next War Axe hit
-        to deal 8 bonus damage.
-      icon: 84ba51168b08df3489362e3a9be59704
-      name: Adrenaline Slam
-      type: offense
-    - color: teal
-      description: Valiant Leap grants 30 damage reduction for 2.5 to nearby allies.
-      icon: 16e7e84d6c786cf4abc695c9b1c29b31
-      name: Bravery
-      type: support
-    - color: grey
-      description: ^2Bulwark^- increases movement speed by 60.
-      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
-      name: Mobile Defence
-      type: mixed
-    - color: red
-      description: War Shout increases attack speed of War Axe and Blood Axe by 33%
-        and movement speed by 20 for 4.
-      icon: b778ec70cf3198442a522a40aefd88df
-      name: Rampage
-      type: offense
-    - color: teal
-      description: Bulwark can be recast to use Shield Bash. It deals 6 damage and
-        inflicts 40 Weaken for 2.
-      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
-      name: Shield Bash
-      type: support
-    winrate: '46.3'
+    winrate: '47.6'
   - damage: '4.3'
-    disable: '0.9'
+    disable: '0.8'
     energy: '2.6'
     num: 54
     protection: '0.7'
@@ -172,11 +137,46 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '37.0'
+    winrate: '38.9'
+  - damage: '6.1'
+    disable: '1.0'
+    energy: '4.6'
+    num: 47
+    protection: '1.5'
+    skills:
+    - color: red
+      description: Hitting an enemy with Shield Dash causes your next War Axe hit
+        to deal 8 bonus damage.
+      icon: 84ba51168b08df3489362e3a9be59704
+      name: Adrenaline Slam
+      type: offense
+    - color: teal
+      description: Valiant Leap grants 30 damage reduction for 2.5 to nearby allies.
+      icon: 16e7e84d6c786cf4abc695c9b1c29b31
+      name: Bravery
+      type: support
+    - color: grey
+      description: ^2Bulwark^- increases movement speed by 60.
+      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
+      name: Mobile Defence
+      type: mixed
+    - color: red
+      description: War Shout increases attack speed of War Axe and Blood Axe by 33%
+        and movement speed by 20 for 4.
+      icon: b778ec70cf3198442a522a40aefd88df
+      name: Rampage
+      type: offense
+    - color: teal
+      description: Bulwark can be recast to use Shield Bash. It deals 6 damage and
+        inflicts 40 Weaken for 2.
+      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
+      name: Shield Bash
+      type: support
+    winrate: '46.8'
   - damage: '6.4'
-    disable: '1.3'
+    disable: '1.4'
     energy: '3.3'
-    num: 40
+    num: 46
     protection: '1.6'
     skills:
     - color: red
@@ -206,11 +206,11 @@ builds:
       icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
       name: Shield Bash
       type: support
-    winrate: '67.5'
-  - damage: '5.4'
+    winrate: '69.6'
+  - damage: '5.5'
     disable: '0.9'
     energy: '2.7'
-    num: 40
+    num: 41
     protection: '1.5'
     skills:
     - color: red
@@ -241,7 +241,7 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
       type: offense
-    winrate: '35.0'
+    winrate: '34.1'
   - damage: '5.5'
     disable: '1.0'
     energy: '2.9'
@@ -275,12 +275,48 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '35.1'
+    winrate: '32.4'
+  - damage: '5.8'
+    disable: '0.9'
+    energy: '3.0'
+    num: 33
+    protection: '1.4'
+    skills:
+    - color: red
+      description: Hitting an enemy with Shield Dash causes your next War Axe hit
+        to deal 8 bonus damage.
+      icon: 84ba51168b08df3489362e3a9be59704
+      name: Adrenaline Slam
+      type: offense
+    - color: teal
+      description: Valiant Leap grants 30 damage reduction for 2.5 to nearby allies.
+      icon: 16e7e84d6c786cf4abc695c9b1c29b31
+      name: Bravery
+      type: support
+    - color: red
+      description: War Shout increases attack speed of War Axe and Blood Axe by 33%
+        and movement speed by 20 for 4.
+      icon: b778ec70cf3198442a522a40aefd88df
+      name: Rampage
+      type: offense
+    - color: teal
+      description: Bulwark can be recast to use Shield Bash. It deals 6 damage and
+        inflicts 40 Weaken for 2.
+      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
+      name: Shield Bash
+      type: support
+    - color: red
+      description: Blood Axe deals 2 bonus damage and an additional 1 bonus damage
+        per weapon charge.
+      icon: 741da913acab25641862d0312d75a7a1
+      name: Warlord's Axe
+      type: offense
+    winrate: '63.6'
   - damage: '6.5'
     disable: '1.2'
-    energy: '3.6'
+    energy: '3.5'
     num: 32
-    protection: '1.5'
+    protection: '1.6'
     skills:
     - color: red
       description: Hitting an enemy with Shield Dash causes your next War Axe hit
@@ -310,80 +346,11 @@ builds:
       name: Rampage
       type: offense
     winrate: '62.5'
-  - damage: '5.2'
-    disable: '1.1'
-    energy: '2.5'
-    num: 28
-    protection: '0.9'
-    skills:
-    - color: pink
-      description: Shield Dash inflicts 25 Snare for 2.5. Pushing an enemy into a
-        wall deals 6 bonus damage.
-      icon: 84ba51168b08df3489362e3a9be59704
-      name: Dizzying Dash
-      type: control
-    - color: pink
-      description: Blood Axe inflicts Fading Snare for 1.2.
-      icon: 741da913acab25641862d0312d75a7a1
-      name: Hamstring
-      type: control
-    - color: grey
-      description: Increases Valiant Leap's max range by 20% and radius by 10%. It
-        grants 1 weapon charge for each enemy hit.
-      icon: 16e7e84d6c786cf4abc695c9b1c29b31
-      name: Heroic Leap
-      type: mixed
-    - color: yellow
-      description: Increases range of Shield Dash by 25% and reduces cooldown by 1.
-      icon: 84ba51168b08df3489362e3a9be59704
-      name: Raging Ram
-      type: mobility
-    - color: red
-      description: War Shout increases attack speed of War Axe and Blood Axe by 33%
-        and movement speed by 20 for 4.
-      icon: b778ec70cf3198442a522a40aefd88df
-      name: Rampage
-      type: offense
-    winrate: '46.4'
   twos:
-  - damage: '5.9'
-    disable: '1.0'
-    energy: '3.0'
-    num: 31
-    protection: '1.2'
-    skills:
-    - color: red
-      description: Hitting an enemy with Shield Dash causes your next War Axe hit
-        to deal 8 bonus damage.
-      icon: 84ba51168b08df3489362e3a9be59704
-      name: Adrenaline Slam
-      type: offense
-    - color: teal
-      description: Valiant Leap grants 30 damage reduction for 2.5 to nearby allies.
-      icon: 16e7e84d6c786cf4abc695c9b1c29b31
-      name: Bravery
-      type: support
-    - color: grey
-      description: ^2Bulwark^- increases movement speed by 60.
-      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
-      name: Mobile Defence
-      type: mixed
-    - color: yellow
-      description: Increases range of Shield Dash by 25% and reduces cooldown by 1.
-      icon: 84ba51168b08df3489362e3a9be59704
-      name: Raging Ram
-      type: mobility
-    - color: teal
-      description: Bulwark can be recast to use Shield Bash. It deals 6 damage and
-        inflicts 40 Weaken for 2.
-      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
-      name: Shield Bash
-      type: support
-    winrate: '58.1'
   - damage: '7.4'
     disable: '1.2'
     energy: '3.7'
-    num: 31
+    num: 30
     protection: '1.0'
     skills:
     - color: red
@@ -415,12 +382,12 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
       type: offense
-    winrate: '77.4'
+    winrate: '80.0'
   - damage: '6.1'
-    disable: '1.0'
-    energy: '3.4'
-    num: 20
-    protection: '1.5'
+    disable: '1.1'
+    energy: '3.1'
+    num: 28
+    protection: '1.2'
     skills:
     - color: red
       description: Hitting an enemy with Shield Dash causes your next War Axe hit
@@ -438,19 +405,18 @@ builds:
       icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
       name: Mobile Defence
       type: mixed
-    - color: red
-      description: War Shout increases attack speed of War Axe and Blood Axe by 33%
-        and movement speed by 20 for 4.
-      icon: b778ec70cf3198442a522a40aefd88df
-      name: Rampage
-      type: offense
+    - color: yellow
+      description: Increases range of Shield Dash by 25% and reduces cooldown by 1.
+      icon: 84ba51168b08df3489362e3a9be59704
+      name: Raging Ram
+      type: mobility
     - color: teal
       description: Bulwark can be recast to use Shield Bash. It deals 6 damage and
         inflicts 40 Weaken for 2.
       icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
       name: Shield Bash
       type: support
-    winrate: '65.0'
+    winrate: '60.7'
   - damage: '6.5'
     disable: '1.0'
     energy: '2.5'
@@ -488,10 +454,10 @@ builds:
       name: Shield Bash
       type: support
     winrate: '70.0'
-  - damage: '4.7'
+  - damage: '4.6'
     disable: '0.9'
     energy: '2.6'
-    num: 20
+    num: 19
     protection: '0.7'
     skills:
     - color: red
@@ -521,11 +487,11 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: The Red Axe
       type: survival
-    winrate: '35.0'
-  - damage: '5.5'
+    winrate: '26.3'
+  - damage: '5.6'
     disable: '0.7'
-    energy: '2.9'
-    num: 17
+    energy: '3.0'
+    num: 18
     protection: '1.2'
     skills:
     - color: red
@@ -558,7 +524,7 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
       type: offense
-    winrate: '47.1'
+    winrate: '38.9'
   - damage: '7.3'
     disable: '1.5'
     energy: '3.9'
@@ -628,11 +594,11 @@ builds:
       name: Warlord's Axe
       type: offense
     winrate: '50.0'
-  - damage: '6.9'
-    disable: '1.3'
-    energy: '3.2'
-    num: 11
-    protection: '1.8'
+  - damage: '6.0'
+    disable: '1.0'
+    energy: '3.0'
+    num: 14
+    protection: '1.4'
     skills:
     - color: red
       description: Hitting an enemy with Shield Dash causes your next War Axe hit
@@ -645,29 +611,28 @@ builds:
       icon: 16e7e84d6c786cf4abc695c9b1c29b31
       name: Bravery
       type: support
-    - color: pink
-      description: Blood Axe inflicts Fading Snare for 1.2.
-      icon: 741da913acab25641862d0312d75a7a1
-      name: Hamstring
-      type: control
     - color: grey
-      description: The first attack blocked by Bulwark grants a Shield to you and
-        the closest nearby ally. The Shield absorbs up to 14 damage and lasts for
-        3.\n
+      description: ^2Bulwark^- increases movement speed by 60.
       icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
-      name: Hold the Line
+      name: Mobile Defence
       type: mixed
+    - color: red
+      description: War Shout increases attack speed of War Axe and Blood Axe by 33%
+        and movement speed by 20 for 4.
+      icon: b778ec70cf3198442a522a40aefd88df
+      name: Rampage
+      type: offense
     - color: teal
       description: Bulwark can be recast to use Shield Bash. It deals 6 damage and
         inflicts 40 Weaken for 2.
       icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
       name: Shield Bash
       type: support
-    winrate: '63.6'
-  - damage: '6.4'
+    winrate: '71.4'
+  - damage: '6.5'
     disable: '1.0'
     energy: '2.8'
-    num: 10
+    num: 13
     protection: '1.3'
     skills:
     - color: red
@@ -700,9 +665,64 @@ builds:
       icon: 741da913acab25641862d0312d75a7a1
       name: Warlord's Axe
       type: offense
-    winrate: '50.0'
+    winrate: '61.5'
+  - damage: '4.2'
+    disable: '0.8'
+    energy: '2.8'
+    num: 13
+    protection: '1.1'
+    skills:
+    - color: red
+      description: Hitting an enemy with Shield Dash causes your next War Axe hit
+        to deal 8 bonus damage.
+      icon: 84ba51168b08df3489362e3a9be59704
+      name: Adrenaline Slam
+      type: offense
+    - color: grey
+      description: The first attack blocked by Bulwark grants a Shield to you and
+        the closest nearby ally. The Shield absorbs up to 14 damage and lasts for
+        3.\n
+      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
+      name: Hold the Line
+      type: mixed
+    - color: blue
+      description: Increases energy gain from abilities by 10 and maximum energy by
+        25.
+      icon: 61e058b8f4b79f4419ec1496f223ee36
+      name: Inspiration
+      type: utility
+    - color: red
+      description: War Shout increases attack speed of War Axe and Blood Axe by 33%
+        and movement speed by 20 for 4.
+      icon: b778ec70cf3198442a522a40aefd88df
+      name: Rampage
+      type: offense
+    - color: teal
+      description: Bulwark can be recast to use Shield Bash. It deals 6 damage and
+        inflicts 40 Weaken for 2.
+      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
+      name: Shield Bash
+      type: support
+    winrate: '53.8'
 compos:
   threes:
+  - hero_names:
+    - Bakko
+    - Sirius
+    - Jade
+    heros:
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 41
+    winrate: 0.5609756097560976
+    wins: 23
   - hero_names:
     - Blossom
     - Bakko
@@ -717,9 +737,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 44
-    winrate: 0.4318181818181818
-    wins: 19
+    num: 39
+    winrate: 0.46153846153846156
+    wins: 18
   - hero_names:
     - Shen Rao
     - Bakko
@@ -734,26 +754,9 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 39
-    winrate: 0.5384615384615384
-    wins: 21
-  - hero_names:
-    - Jade
-    - Bakko
-    - Sirius
-    heros:
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    num: 37
-    winrate: 0.5675675675675675
-    wins: 21
+    num: 36
+    winrate: 0.5277777777777778
+    wins: 19
   - hero_names:
     - Shen Rao
     - Bakko
@@ -768,26 +771,9 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 31
-    winrate: 0.5161290322580645
-    wins: 16
-  - hero_names:
-    - Shen Rao
-    - Blossom
-    - Bakko
-    heros:
-    - icon: c0e3f68a87771064ab57d6cd36430ed9
-      name: Shen Rao
-      title: shen-rao
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    num: 31
-    winrate: 0.5161290322580645
-    wins: 16
+    num: 29
+    winrate: 0.5172413793103449
+    wins: 15
   - hero_names:
     - Poloma
     - Bakko
@@ -806,23 +792,6 @@ compos:
     winrate: 0.5185185185185185
     wins: 14
   - hero_names:
-    - Shen Rao
-    - Bakko
-    - Pearl
-    heros:
-    - icon: c0e3f68a87771064ab57d6cd36430ed9
-      name: Shen Rao
-      title: shen-rao
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    - icon: 427116cdee46bad4cbaa99d7063e0832
-      name: Pearl
-      title: pearl
-    num: 27
-    winrate: 0.5555555555555556
-    wins: 15
-  - hero_names:
     - Poloma
     - Bakko
     - Varesh
@@ -836,43 +805,77 @@ compos:
     - icon: f1cc53a29c58089478f6438589d9b32d
       name: Varesh
       title: varesh
+    num: 27
+    winrate: 0.5555555555555556
+    wins: 15
+  - hero_names:
+    - Shen Rao
+    - Bakko
+    - Pearl
+    heros:
+    - icon: c0e3f68a87771064ab57d6cd36430ed9
+      name: Shen Rao
+      title: shen-rao
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
+    num: 27
+    winrate: 0.5185185185185185
+    wins: 14
+  - hero_names:
+    - Poloma
+    - Bakko
+    - Jade
+    heros:
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
     num: 26
     winrate: 0.5384615384615384
     wins: 14
   - hero_names:
-    - Ashka
-    - Bakko
-    - Sirius
-    heros:
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    num: 26
-    winrate: 0.4230769230769231
-    wins: 11
-  - hero_names:
-    - Alysia
+    - Shen Rao
     - Blossom
     - Bakko
     heros:
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
+    - icon: c0e3f68a87771064ab57d6cd36430ed9
+      name: Shen Rao
+      title: shen-rao
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 26
-    winrate: 0.6538461538461539
-    wins: 17
+    num: 25
+    winrate: 0.48
+    wins: 12
+  - hero_names:
+    - Alysia
+    - Bakko
+    - Sirius
+    heros:
+    - icon: 50404d271ae2a4f4f8b52de966688dc1
+      name: Alysia
+      title: alysia
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
+    num: 25
+    winrate: 0.52
+    wins: 13
   twos:
   - hero_names:
     - Blossom
@@ -884,9 +887,9 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 94
-    winrate: 0.5425531914893617
-    wins: 51
+    num: 91
+    winrate: 0.5384615384615384
+    wins: 49
   - hero_names:
     - Bakko
     - Sirius
@@ -898,8 +901,8 @@ compos:
       name: Sirius
       title: sirius
     num: 54
-    winrate: 0.5925925925925926
-    wins: 32
+    winrate: 0.5740740740740741
+    wins: 31
   - hero_names:
     - Bakko
     - Jade
@@ -910,9 +913,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 47
-    winrate: 0.6595744680851063
-    wins: 31
+    num: 49
+    winrate: 0.6530612244897959
+    wins: 32
   - hero_names:
     - Ulric
     - Bakko
@@ -923,8 +926,8 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 40
-    winrate: 0.5
+    num: 42
+    winrate: 0.47619047619047616
     wins: 20
   - hero_names:
     - Bakko
@@ -936,22 +939,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 32
-    winrate: 0.625
-    wins: 20
-  - hero_names:
-    - Shen Rao
-    - Bakko
-    heros:
-    - icon: c0e3f68a87771064ab57d6cd36430ed9
-      name: Shen Rao
-      title: shen-rao
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    num: 32
-    winrate: 0.59375
-    wins: 19
+    num: 38
+    winrate: 0.6842105263157895
+    wins: 26
   - hero_names:
     - Poloma
     - Bakko
@@ -962,9 +952,22 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 29
-    winrate: 0.5862068965517241
-    wins: 17
+    num: 34
+    winrate: 0.5294117647058824
+    wins: 18
+  - hero_names:
+    - Shen Rao
+    - Bakko
+    heros:
+    - icon: c0e3f68a87771064ab57d6cd36430ed9
+      name: Shen Rao
+      title: shen-rao
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    num: 33
+    winrate: 0.6363636363636364
+    wins: 21
   - hero_names:
     - Pestilus
     - Bakko
@@ -975,9 +978,9 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 28
-    winrate: 0.6071428571428571
-    wins: 17
+    num: 30
+    winrate: 0.6
+    wins: 18
   - hero_names:
     - Oldur
     - Bakko
@@ -988,9 +991,9 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 27
-    winrate: 0.5925925925925926
-    wins: 16
+    num: 26
+    winrate: 0.5
+    wins: 13
   - hero_names:
     - Thorn
     - Bakko
@@ -1001,8 +1004,8 @@ compos:
     - icon: 6154d6c0556261343844bf7caebb67a7
       name: Bakko
       title: bakko
-    num: 22
-    winrate: 0.4090909090909091
+    num: 23
+    winrate: 0.391304347826087
     wins: 9
 description: Bakko has a proud history as a heroic brawler, armed with both axe and
   shield. He uses his shield to protect teammates and outmaneuver enemies. Watch out
@@ -1011,11 +1014,11 @@ icon: 6154d6c0556261343844bf7caebb67a7
 layout: character
 name: bakko
 num:
-  threes: 2001
-  twos: 579
+  threes: 1998
+  twos: 584
 title: Bakko
 url: characters/bakko.html
 winrate:
-  threes: '48.63'
-  twos: '51.81'
+  threes: '49.05'
+  twos: '51.54'
 ...
