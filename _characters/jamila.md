@@ -4,7 +4,7 @@ builds:
   - damage: '6.3'
     disable: '1.0'
     energy: '2.6'
-    num: 118
+    num: 126
     protection: '0.8'
     skills:
     - color: red
@@ -36,11 +36,11 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '51.7'
+    winrate: '52.4'
   - damage: '5.6'
     disable: '0.9'
     energy: '2.3'
-    num: 47
+    num: 50
     protection: '0.9'
     skills:
     - color: pink
@@ -73,11 +73,11 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '48.9'
+    winrate: '50.0'
   - damage: '7.1'
     disable: '0.9'
     energy: '2.5'
-    num: 42
+    num: 41
     protection: '0.8'
     skills:
     - color: red
@@ -108,12 +108,12 @@ builds:
       icon: fa9b6a58fa6398b4ea4c4756152bd079
       name: Quick Strike
       type: mixed
-    winrate: '50.0'
-  - damage: '5.5'
+    winrate: '48.8'
+  - damage: '5.6'
     disable: '0.9'
     energy: '2.6'
     num: 37
-    protection: '0.8'
+    protection: '0.9'
     skills:
     - color: yellow
       description: Increases the range of Hook Shot by 15% and reduces its cooldown
@@ -145,11 +145,11 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '73.0'
+    winrate: '70.3'
   - damage: '4.8'
     disable: '0.8'
     energy: '2.6'
-    num: 36
+    num: 34
     protection: '0.4'
     skills:
     - color: pink
@@ -179,7 +179,7 @@ builds:
       icon: 17c2d1fcdba1a1540a6649ae0b3c0104
       name: Momentum Strike
       type: control
-    winrate: '33.3'
+    winrate: '35.3'
   - damage: '6.3'
     disable: '0.7'
     energy: '2.8'
@@ -325,29 +325,29 @@ builds:
       name: Taste of Blood
       type: survival
     winrate: '29.4'
-  - damage: '6.8'
+  - damage: '6.4'
     disable: '0.9'
-    energy: '3.8'
-    num: 16
-    protection: '1.2'
+    energy: '2.6'
+    num: 17
+    protection: '1.0'
     skills:
     - color: red
       description: Shuriken deals 3 bonus damage on each hit.
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Deadly Star
       type: offense
+    - color: yellow
+      description: Increases the range of Hook Shot by 15% and reduces its cooldown
+        by 1.
+      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
+      name: Firing Mechanism
+      type: mobility
     - color: pink
       description: Increases Stun duration of Deadly Blow by 0.35 and reduces its
         cooldown by 2.
       icon: c75e9702831a67e4b98aa0c24af2d865
       name: Go for the Throat
       type: control
-    - color: blue
-      description: Increases energy gain from abilities by 10 and maximum energy by
-        25.
-      icon: 61e058b8f4b79f4419ec1496f223ee36
-      name: Inspiration
-      type: utility
     - color: grey
       description: Hitting a target with your most recent dash of Elusive Strike allows
         a recast to perform a short dash strike, dealing 8 damage and inflicting a
@@ -361,7 +361,7 @@ builds:
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '37.5'
+    winrate: '47.1'
   twos:
   - damage: '7.1'
     disable: '1.0'
@@ -399,10 +399,10 @@ builds:
       name: Taste of Blood
       type: survival
     winrate: '63.2'
-  - damage: '5.1'
+  - damage: '5.2'
     disable: '0.7'
     energy: '2.8'
-    num: 22
+    num: 23
     protection: '0.5'
     skills:
     - color: pink
@@ -432,7 +432,7 @@ builds:
       icon: 17c2d1fcdba1a1540a6649ae0b3c0104
       name: Momentum Strike
       type: control
-    winrate: '54.5'
+    winrate: '52.2'
   - damage: '6.4'
     disable: '0.9'
     energy: '2.4'
@@ -738,23 +738,6 @@ compos:
     winrate: 0.7272727272727273
     wins: 16
   - hero_names:
-    - Ashka
-    - Blossom
-    - Jamila
-    heros:
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: f283d6dda29cbc845b4f770a1482d75b
-      name: Jamila
-      title: jamila
-    num: 19
-    winrate: 0.47368421052631576
-    wins: 9
-  - hero_names:
     - Alysia
     - Sirius
     - Jamila
@@ -769,25 +752,25 @@ compos:
       name: Jamila
       title: jamila
     num: 19
-    winrate: 0.47368421052631576
-    wins: 9
+    winrate: 0.42105263157894735
+    wins: 8
   - hero_names:
     - Ashka
-    - Sirius
+    - Blossom
     - Jamila
     heros:
     - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
       name: Ashka
       title: ashka
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
     num: 18
-    winrate: 0.6111111111111112
-    wins: 11
+    winrate: 0.5
+    wins: 9
   - hero_names:
     - Blossom
     - Alysia
@@ -799,6 +782,23 @@ compos:
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
+    - icon: f283d6dda29cbc845b4f770a1482d75b
+      name: Jamila
+      title: jamila
+    num: 16
+    winrate: 0.625
+    wins: 10
+  - hero_names:
+    - Ashka
+    - Sirius
+    - Jamila
+    heros:
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
@@ -874,22 +874,22 @@ compos:
     winrate: 0.5384615384615384
     wins: 7
   - hero_names:
-    - Poloma
-    - Jade
+    - Blossom
+    - Bakko
     - Jamila
     heros:
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 13
-    winrate: 0.46153846153846156
-    wins: 6
+    num: 12
+    winrate: 0.5833333333333334
+    wins: 7
   twos:
   - hero_names:
     - Blossom
@@ -927,22 +927,9 @@ compos:
     - icon: bb37e5d448c511e47b808987d0d4f9e8
       name: Ruh Kaan
       title: ruh-kaan
-    num: 21
-    winrate: 0.5238095238095238
+    num: 20
+    winrate: 0.55
     wins: 11
-  - hero_names:
-    - Lucie
-    - Jamila
-    heros:
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    - icon: f283d6dda29cbc845b4f770a1482d75b
-      name: Jamila
-      title: jamila
-    num: 19
-    winrate: 0.42105263157894735
-    wins: 8
   - hero_names:
     - Shen Rao
     - Jamila
@@ -954,7 +941,20 @@ compos:
       name: Jamila
       title: jamila
     num: 19
-    winrate: 0.42105263157894735
+    winrate: 0.3684210526315789
+    wins: 7
+  - hero_names:
+    - Lucie
+    - Jamila
+    heros:
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    - icon: f283d6dda29cbc845b4f770a1482d75b
+      name: Jamila
+      title: jamila
+    num: 18
+    winrate: 0.4444444444444444
     wins: 8
   - hero_names:
     - Jade
@@ -967,8 +967,8 @@ compos:
       name: Jamila
       title: jamila
     num: 17
-    winrate: 0.5882352941176471
-    wins: 10
+    winrate: 0.5294117647058824
+    wins: 9
   - hero_names:
     - Poloma
     - Jamila
@@ -979,9 +979,22 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 14
-    winrate: 0.7142857142857143
-    wins: 10
+    num: 15
+    winrate: 0.7333333333333333
+    wins: 11
+  - hero_names:
+    - Jamila
+    - Pearl
+    heros:
+    - icon: f283d6dda29cbc845b4f770a1482d75b
+      name: Jamila
+      title: jamila
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
+    num: 13
+    winrate: 0.46153846153846156
+    wins: 6
   - hero_names:
     - Oldur
     - Jamila
@@ -992,8 +1005,8 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 13
-    winrate: 0.5384615384615384
+    num: 12
+    winrate: 0.5833333333333334
     wins: 7
   - hero_names:
     - Shifu
@@ -1005,22 +1018,9 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 12
-    winrate: 0.3333333333333333
+    num: 11
+    winrate: 0.36363636363636365
     wins: 4
-  - hero_names:
-    - Jamila
-    - Pearl
-    heros:
-    - icon: f283d6dda29cbc845b4f770a1482d75b
-      name: Jamila
-      title: jamila
-    - icon: 427116cdee46bad4cbaa99d7063e0832
-      name: Pearl
-      title: pearl
-    num: 12
-    winrate: 0.4166666666666667
-    wins: 5
 description: "A young assassin from the Shadowblade clan, Jamila suddenly found herself\
   \ the new leader after the death of her mother, the previous matriarch. As the youngest\
   \ leader in the clan\u2019s history, some call her too inexperienced and undeserving\
@@ -1030,11 +1030,11 @@ icon: f283d6dda29cbc845b4f770a1482d75b
 layout: character
 name: jamila
 num:
-  threes: 976
-  twos: 321
+  threes: 983
+  twos: 319
 title: Jamila
 url: characters/jamila.html
 winrate:
-  threes: '47.23'
-  twos: '46.11'
+  threes: '47.20'
+  twos: '46.39'
 ...
