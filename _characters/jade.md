@@ -4,7 +4,7 @@ builds:
   - damage: '6.4'
     disable: '1.1'
     energy: '4.0'
-    num: 118
+    num: 117
     protection: '1.1'
     skills:
     - color: red
@@ -35,11 +35,11 @@ builds:
       icon: 20e8f262eca757942bc23d94aa73ab2a
       name: Surprise Shot
       type: control
-    winrate: '52.5'
+    winrate: '53.0'
   - damage: '6.1'
     disable: '1.1'
     energy: '3.4'
-    num: 98
+    num: 96
     protection: '0.9'
     skills:
     - color: red
@@ -71,12 +71,12 @@ builds:
       icon: 20e8f262eca757942bc23d94aa73ab2a
       name: Surprise Shot
       type: control
-    winrate: '54.1'
-  - damage: '5.7'
+    winrate: '53.1'
+  - damage: '5.8'
     disable: '0.7'
     energy: '2.9'
-    num: 73
-    protection: '1.1'
+    num: 80
+    protection: '1.0'
     skills:
     - color: red
       description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
@@ -105,11 +105,11 @@ builds:
       icon: 20e8f262eca757942bc23d94aa73ab2a
       name: Shadow Shot
       type: survival
-    winrate: '42.5'
+    winrate: '43.8'
   - damage: '4.0'
     disable: '0.6'
     energy: '2.4'
-    num: 72
+    num: 73
     protection: '0.0'
     skills:
     - color: yellow
@@ -138,12 +138,12 @@ builds:
       icon: c5da66a86ca45a1449a49d55cc92d1fc
       name: Through the Shadows
       type: mobility
-    winrate: '40.3'
-  - damage: '6.1'
+    winrate: '39.7'
+  - damage: '6.3'
     disable: '1.0'
-    energy: '3.6'
-    num: 60
-    protection: '1.1'
+    energy: '3.7'
+    num: 54
+    protection: '1.2'
     skills:
     - color: red
       description: Blast Vault causes your next 4 Revolver Shots to deal 2 bonus damage
@@ -173,12 +173,12 @@ builds:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    winrate: '56.7'
-  - damage: '6.1'
+    winrate: '59.3'
+  - damage: '6.2'
     disable: '0.9'
     energy: '3.3'
-    num: 53
-    protection: '1.4'
+    num: 49
+    protection: '1.5'
     skills:
     - color: red
       description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
@@ -208,12 +208,12 @@ builds:
       icon: 20e8f262eca757942bc23d94aa73ab2a
       name: Shadow Shot
       type: survival
-    winrate: '58.5'
-  - damage: '6.3'
+    winrate: '59.2'
+  - damage: '6.2'
     disable: '0.8'
     energy: '3.5'
-    num: 46
-    protection: '1.0'
+    num: 47
+    protection: '1.1'
     skills:
     - color: red
       description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
@@ -244,7 +244,7 @@ builds:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    winrate: '47.8'
+    winrate: '48.9'
   - damage: '6.3'
     disable: '0.8'
     energy: '3.7'
@@ -314,11 +314,11 @@ builds:
       name: Surprise Shot
       type: control
     winrate: '51.1'
-  - damage: '5.8'
-    disable: '1.0'
-    energy: '3.0'
-    num: 38
-    protection: '0.4'
+  - damage: '6.1'
+    disable: '1.2'
+    energy: '3.8'
+    num: 44
+    protection: '1.4'
     skills:
     - color: red
       description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
@@ -326,16 +326,12 @@ builds:
       icon: c5da66a86ca45a1449a49d55cc92d1fc
       name: Ambush
       type: offense
-    - color: red
-      description: Snipe deals 5 bonus damage.
-      icon: 20e8f262eca757942bc23d94aa73ab2a
-      name: Deadly Focus
-      type: offense
-    - color: red
-      description: Disabling Shot hits instantly reload Revolver Shot with 6 ammo.
+    - color: green
+      description: Disabling Shot hits heal you for 5 health and Spell Block interrupts
+        heal you for 10 bonus health.
       icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
-      name: Desperado
-      type: offense
+      name: Delight
+      type: survival
     - color: blue
       description: Revolver Shot hits reduce cooldown of Stealth by 0.25. Cooldown
         can't be reduced during Stealth.
@@ -343,17 +339,22 @@ builds:
       name: Gunslinger
       type: utility
     - color: pink
+      description: Disabling Shot pierces enemies. Also increases its range by 10.
+      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
+      name: Magic Bullet
+      type: control
+    - color: pink
       description: Increases Stun duration of Snipe by 0.3, and further increases
         it by 0.5 when fired from Stealth.
       icon: 20e8f262eca757942bc23d94aa73ab2a
       name: Surprise Shot
       type: control
-    winrate: '39.5'
+    winrate: '45.5'
   twos:
-  - damage: '3.5'
+  - damage: '3.4'
     disable: '0.5'
     energy: '2.1'
-    num: 29
+    num: 32
     protection: '0.0'
     skills:
     - color: yellow
@@ -382,7 +383,42 @@ builds:
       icon: c5da66a86ca45a1449a49d55cc92d1fc
       name: Through the Shadows
       type: mobility
-    winrate: '31.0'
+    winrate: '31.2'
+  - damage: '6.1'
+    disable: '0.9'
+    energy: '3.9'
+    num: 24
+    protection: '1.2'
+    skills:
+    - color: red
+      description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
+        of invisibility by 0.3.\n
+      icon: c5da66a86ca45a1449a49d55cc92d1fc
+      name: Ambush
+      type: offense
+    - color: red
+      description: Snipe deals 5 bonus damage.
+      icon: 20e8f262eca757942bc23d94aa73ab2a
+      name: Deadly Focus
+      type: offense
+    - color: green
+      description: Disabling Shot hits heal you for 5 health and Spell Block interrupts
+        heal you for 10 bonus health.
+      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
+      name: Delight
+      type: survival
+    - color: blue
+      description: Revolver Shot hits reduce cooldown of Stealth by 0.25. Cooldown
+        can't be reduced during Stealth.
+      icon: 6410a3c5ef2055247ad58f6ed2e36953
+      name: Gunslinger
+      type: utility
+    - color: green
+      description: Snipe hits heal you for 12 health.
+      icon: 20e8f262eca757942bc23d94aa73ab2a
+      name: Shadow Shot
+      type: survival
+    winrate: '45.8'
   - damage: '5.1'
     disable: '1.0'
     energy: '3.3'
@@ -455,41 +491,6 @@ builds:
       name: Gunslinger
       type: utility
     winrate: '33.3'
-  - damage: '5.6'
-    disable: '0.8'
-    energy: '3.7'
-    num: 13
-    protection: '1.1'
-    skills:
-    - color: red
-      description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
-        of invisibility by 0.3.\n
-      icon: c5da66a86ca45a1449a49d55cc92d1fc
-      name: Ambush
-      type: offense
-    - color: red
-      description: Snipe deals 5 bonus damage.
-      icon: 20e8f262eca757942bc23d94aa73ab2a
-      name: Deadly Focus
-      type: offense
-    - color: green
-      description: Disabling Shot hits heal you for 5 health and Spell Block interrupts
-        heal you for 10 bonus health.
-      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
-      name: Delight
-      type: survival
-    - color: blue
-      description: Revolver Shot hits reduce cooldown of Stealth by 0.25. Cooldown
-        can't be reduced during Stealth.
-      icon: 6410a3c5ef2055247ad58f6ed2e36953
-      name: Gunslinger
-      type: utility
-    - color: green
-      description: Snipe hits heal you for 12 health.
-      icon: 20e8f262eca757942bc23d94aa73ab2a
-      name: Shadow Shot
-      type: survival
-    winrate: '30.8'
   - damage: '7.0'
     disable: '1.2'
     energy: '4.2'
@@ -595,6 +596,40 @@ builds:
       name: Shadow Shot
       type: survival
     winrate: '37.5'
+  - damage: '5.5'
+    disable: '0.8'
+    energy: '3.5'
+    num: 7
+    protection: '1.3'
+    skills:
+    - color: red
+      description: Snipe deals 5 bonus damage.
+      icon: 20e8f262eca757942bc23d94aa73ab2a
+      name: Deadly Focus
+      type: offense
+    - color: green
+      description: Disabling Shot hits heal you for 5 health and Spell Block interrupts
+        heal you for 10 bonus health.
+      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
+      name: Delight
+      type: survival
+    - color: red
+      description: Disabling Shot hits instantly reload Revolver Shot with 6 ammo.
+      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
+      name: Desperado
+      type: offense
+    - color: blue
+      description: Revolver Shot hits reduce cooldown of Stealth by 0.25. Cooldown
+        can't be reduced during Stealth.
+      icon: 6410a3c5ef2055247ad58f6ed2e36953
+      name: Gunslinger
+      type: utility
+    - color: green
+      description: Snipe hits heal you for 12 health.
+      icon: 20e8f262eca757942bc23d94aa73ab2a
+      name: Shadow Shot
+      type: survival
+    winrate: '71.4'
   - damage: '6.5'
     disable: '0.9'
     energy: '4.3'
@@ -631,40 +666,6 @@ builds:
       name: Gunslinger
       type: utility
     winrate: '42.9'
-  - damage: '5.5'
-    disable: '0.8'
-    energy: '3.5'
-    num: 7
-    protection: '1.3'
-    skills:
-    - color: red
-      description: Snipe deals 5 bonus damage.
-      icon: 20e8f262eca757942bc23d94aa73ab2a
-      name: Deadly Focus
-      type: offense
-    - color: green
-      description: Disabling Shot hits heal you for 5 health and Spell Block interrupts
-        heal you for 10 bonus health.
-      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
-      name: Delight
-      type: survival
-    - color: red
-      description: Disabling Shot hits instantly reload Revolver Shot with 6 ammo.
-      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
-      name: Desperado
-      type: offense
-    - color: blue
-      description: Revolver Shot hits reduce cooldown of Stealth by 0.25. Cooldown
-        can't be reduced during Stealth.
-      icon: 6410a3c5ef2055247ad58f6ed2e36953
-      name: Gunslinger
-      type: utility
-    - color: green
-      description: Snipe hits heal you for 12 health.
-      icon: 20e8f262eca757942bc23d94aa73ab2a
-      name: Shadow Shot
-      type: survival
-    winrate: '71.4'
   - damage: '6.9'
     disable: '1.0'
     energy: '4.7'
@@ -717,9 +718,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 72
-    winrate: 0.5694444444444444
-    wins: 41
+    num: 71
+    winrate: 0.5633802816901409
+    wins: 40
   - hero_names:
     - Thorn
     - Blossom
@@ -734,9 +735,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 59
-    winrate: 0.576271186440678
-    wins: 34
+    num: 63
+    winrate: 0.5873015873015873
+    wins: 37
   - hero_names:
     - Rook
     - Blossom
@@ -751,8 +752,8 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 54
-    winrate: 0.5740740740740741
+    num: 55
+    winrate: 0.5636363636363636
     wins: 31
   - hero_names:
     - Jade
@@ -768,8 +769,25 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 49
-    winrate: 0.5510204081632653
+    num: 52
+    winrate: 0.5576923076923077
+    wins: 29
+  - hero_names:
+    - Rook
+    - Sirius
+    - Jade
+    heros:
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 45
+    winrate: 0.6
     wins: 27
   - hero_names:
     - Blossom
@@ -785,9 +803,26 @@ compos:
     - icon: 6c2252900d15cb344a5240f30d3ba705
       name: Raigon
       title: raigon
-    num: 47
-    winrate: 0.46808510638297873
-    wins: 22
+    num: 45
+    winrate: 0.4666666666666667
+    wins: 21
+  - hero_names:
+    - Thorn
+    - Sirius
+    - Jade
+    heros:
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 45
+    winrate: 0.5333333333333333
+    wins: 24
   - hero_names:
     - Thorn
     - Poloma
@@ -805,40 +840,6 @@ compos:
     num: 44
     winrate: 0.4772727272727273
     wins: 21
-  - hero_names:
-    - Thorn
-    - Sirius
-    - Jade
-    heros:
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 44
-    winrate: 0.5454545454545454
-    wins: 24
-  - hero_names:
-    - Rook
-    - Sirius
-    - Jade
-    heros:
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 43
-    winrate: 0.6046511627906976
-    wins: 26
   - hero_names:
     - Blossom
     - Bakko
@@ -870,8 +871,8 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 39
-    winrate: 0.5641025641025641
+    num: 40
+    winrate: 0.55
     wins: 22
   twos:
   - hero_names:
@@ -884,8 +885,8 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 47
-    winrate: 0.3829787234042553
+    num: 48
+    winrate: 0.375
     wins: 18
   - hero_names:
     - Jade
@@ -897,9 +898,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 34
-    winrate: 0.6764705882352942
-    wins: 23
+    num: 35
+    winrate: 0.6857142857142857
+    wins: 24
   - hero_names:
     - Thorn
     - Jade
@@ -910,22 +911,9 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 29
-    winrate: 0.4482758620689655
-    wins: 13
-  - hero_names:
-    - Pestilus
-    - Jade
-    heros:
-    - icon: a7e0c7a6f0fa2ef49bf684950de34567
-      name: Pestilus
-      title: pestilus
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    num: 25
-    winrate: 0.6
-    wins: 15
+    num: 28
+    winrate: 0.42857142857142855
+    wins: 12
   - hero_names:
     - Blossom
     - Jade
@@ -936,8 +924,8 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 24
-    winrate: 0.4583333333333333
+    num: 25
+    winrate: 0.44
     wins: 11
   - hero_names:
     - Croak
@@ -949,9 +937,22 @@ compos:
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 23
-    winrate: 0.34782608695652173
+    num: 24
+    winrate: 0.3333333333333333
     wins: 8
+  - hero_names:
+    - Pestilus
+    - Jade
+    heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    num: 24
+    winrate: 0.5833333333333334
+    wins: 14
   - hero_names:
     - Poloma
     - Jade
@@ -980,6 +981,19 @@ compos:
     wins: 8
   - hero_names:
     - Jade
+    - Raigon
+    heros:
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    num: 18
+    winrate: 0.4444444444444444
+    wins: 8
+  - hero_names:
+    - Jade
     - Zander
     heros:
     - icon: 38b75268719e2b640a6d62250e102ffa
@@ -988,22 +1002,9 @@ compos:
     - icon: 9c4186a6214f12448a7091710b0cde6c
       name: Zander
       title: zander
-    num: 16
-    winrate: 0.375
-    wins: 6
-  - hero_names:
-    - Jade
-    - Lucie
-    heros:
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 15
-    winrate: 0.3333333333333333
-    wins: 5
+    num: 17
+    winrate: 0.4117647058823529
+    wins: 7
 description: A mysterious gunslinger. Born with eagle-eyes and armed with a lethal
   sniper rifle, Jade's pinpoint accuracy is a serious threat for anyone who enters
   the arena. For close encounters, she prefers a combination of stealth and trusty
@@ -1012,11 +1013,11 @@ icon: 38b75268719e2b640a6d62250e102ffa
 layout: character
 name: jade
 num:
-  threes: 2611
-  twos: 367
+  threes: 2622
+  twos: 391
 title: Jade
 url: characters/jade.html
 winrate:
-  threes: '49.56'
-  twos: '42.78'
+  threes: '49.69'
+  twos: '42.71'
 ...
