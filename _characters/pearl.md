@@ -1,10 +1,10 @@
 ---
 builds:
   threes:
-  - damage: '3.9'
+  - damage: '4.0'
     disable: '0.9'
-    energy: '3.2'
-    num: 135
+    energy: '3.3'
+    num: 139
     protection: '5.9'
     skills:
     - color: teal
@@ -35,12 +35,12 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    winrate: '52.6'
-  - damage: '4.7'
+    winrate: '52.5'
+  - damage: '4.8'
     disable: '0.9'
-    energy: '2.4'
-    num: 97
-    protection: '4.2'
+    energy: '2.5'
+    num: 104
+    protection: '4.3'
     skills:
     - color: pink
       description: Countering an attack with Tidal Wave recharges your staff.
@@ -71,11 +71,11 @@ builds:
       icon: baa9baf5b01c5ee42902398a8f946a5a
       name: Tsunami
       type: offense
-    winrate: '54.6'
-  - damage: '5.0'
+    winrate: '51.9'
+  - damage: '4.9'
     disable: '0.9'
     energy: '3.1'
-    num: 87
+    num: 93
     protection: '4.6'
     skills:
     - color: pink
@@ -107,11 +107,11 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    winrate: '65.5'
-  - damage: '5.0'
+    winrate: '65.6'
+  - damage: '5.1'
     disable: '0.8'
     energy: '3.4'
-    num: 83
+    num: 82
     protection: '6.4'
     skills:
     - color: teal
@@ -143,11 +143,11 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    winrate: '57.8'
+    winrate: '58.5'
   - damage: '3.8'
     disable: '0.8'
     energy: '2.6'
-    num: 83
+    num: 79
     protection: '4.8'
     skills:
     - color: teal
@@ -178,12 +178,12 @@ builds:
       icon: baa9baf5b01c5ee42902398a8f946a5a
       name: Tsunami
       type: offense
-    winrate: '47.0'
-  - damage: '3.8'
+    winrate: '44.3'
+  - damage: '3.9'
     disable: '0.9'
-    energy: '3.0'
-    num: 62
-    protection: '4.8'
+    energy: '2.9'
+    num: 57
+    protection: '4.9'
     skills:
     - color: teal
       description: Healing Wave bounces to a nearby ally after healing, healing them
@@ -213,12 +213,12 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '48.4'
-  - damage: '4.4'
+    winrate: '52.6'
+  - damage: '4.3'
     disable: '1.1'
     energy: '3.0'
-    num: 59
-    protection: '3.4'
+    num: 52
+    protection: '3.6'
     skills:
     - color: pink
       description: Countering an attack with Tidal Wave recharges your staff.
@@ -248,11 +248,11 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '47.5'
+    winrate: '48.1'
   - damage: '3.2'
     disable: '0.8'
     energy: '2.8'
-    num: 48
+    num: 49
     protection: '5.1'
     skills:
     - color: teal
@@ -283,12 +283,12 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    winrate: '47.9'
+    winrate: '51.0'
   - damage: '3.0'
     disable: '0.7'
     energy: '2.4'
-    num: 46
-    protection: '5.0'
+    num: 48
+    protection: '4.9'
     skills:
     - color: teal
       description: Healing Wave bounces to a nearby ally after healing, healing them
@@ -319,7 +319,7 @@ builds:
       icon: 6c30b1e6992030e4dae06a355b7a4fb4
       name: Riptide
       type: offense
-    winrate: '47.8'
+    winrate: '47.9'
   - damage: '4.3'
     disable: '0.8'
     energy: '3.3'
@@ -393,10 +393,10 @@ builds:
       name: Tasty Fish
       type: support
     winrate: '65.2'
-  - damage: '5.4'
+  - damage: '5.3'
     disable: '0.8'
-    energy: '3.0'
-    num: 18
+    energy: '2.9'
+    num: 19
     protection: '4.1'
     skills:
     - color: teal
@@ -428,12 +428,12 @@ builds:
       icon: dba76bbb88cac764f9a8aeff389abb99
       name: Tasty Fish
       type: support
-    winrate: '61.1'
+    winrate: '57.9'
   - damage: '2.9'
-    disable: '0.4'
+    disable: '0.5'
     energy: '2.1'
-    num: 17
-    protection: '3.3'
+    num: 18
+    protection: '3.4'
     skills:
     - color: teal
       description: Healing Wave bounces to a nearby ally after healing, healing them
@@ -464,7 +464,7 @@ builds:
       icon: baa9baf5b01c5ee42902398a8f946a5a
       name: Tsunami
       type: offense
-    winrate: '35.3'
+    winrate: '38.9'
   - damage: '4.6'
     disable: '1.0'
     energy: '3.0'
@@ -750,23 +750,6 @@ compos:
     winrate: 0.5806451612903226
     wins: 18
   - hero_names:
-    - Croak
-    - Jade
-    - Pearl
-    heros:
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    - icon: 427116cdee46bad4cbaa99d7063e0832
-      name: Pearl
-      title: pearl
-    num: 28
-    winrate: 0.6785714285714286
-    wins: 19
-  - hero_names:
     - Alysia
     - Croak
     - Pearl
@@ -798,8 +781,42 @@ compos:
       name: Pearl
       title: pearl
     num: 26
-    winrate: 0.46153846153846156
-    wins: 12
+    winrate: 0.5
+    wins: 13
+  - hero_names:
+    - Croak
+    - Jade
+    - Pearl
+    heros:
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
+    num: 26
+    winrate: 0.6923076923076923
+    wins: 18
+  - hero_names:
+    - Bakko
+    - Jade
+    - Pearl
+    heros:
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
+    num: 26
+    winrate: 0.5769230769230769
+    wins: 15
   - hero_names:
     - Ashka
     - Thorn
@@ -818,39 +835,39 @@ compos:
     winrate: 0.34615384615384615
     wins: 9
   - hero_names:
-    - Bakko
-    - Jade
-    - Pearl
-    heros:
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    - icon: 427116cdee46bad4cbaa99d7063e0832
-      name: Pearl
-      title: pearl
-    num: 25
-    winrate: 0.6
-    wins: 15
-  - hero_names:
-    - Thorn
+    - Rook
     - Alysia
     - Pearl
     heros:
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
     - icon: 50404d271ae2a4f4f8b52de966688dc1
       name: Alysia
       title: alysia
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
+    num: 25
+    winrate: 0.52
+    wins: 13
+  - hero_names:
+    - Thorn
+    - Pearl
+    - Jumong
+    heros:
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
+    - icon: 42a665b9c285a1243a201c8d533980e5
+      name: Jumong
+      title: jumong
     num: 24
-    winrate: 0.5833333333333334
-    wins: 14
+    winrate: 0.25
+    wins: 6
   - hero_names:
     - Thorn
     - Croak
@@ -868,23 +885,6 @@ compos:
     num: 23
     winrate: 0.6086956521739131
     wins: 14
-  - hero_names:
-    - Thorn
-    - Pearl
-    - Jumong
-    heros:
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    - icon: 427116cdee46bad4cbaa99d7063e0832
-      name: Pearl
-      title: pearl
-    - icon: 42a665b9c285a1243a201c8d533980e5
-      name: Jumong
-      title: jumong
-    num: 23
-    winrate: 0.21739130434782608
-    wins: 5
   twos:
   - hero_names:
     - Bakko
@@ -896,9 +896,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 45
-    winrate: 0.6888888888888889
-    wins: 31
+    num: 44
+    winrate: 0.6818181818181818
+    wins: 30
   - hero_names:
     - Croak
     - Pearl
@@ -909,9 +909,9 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 42
-    winrate: 0.5952380952380952
-    wins: 25
+    num: 41
+    winrate: 0.5853658536585366
+    wins: 24
   - hero_names:
     - Jade
     - Pearl
@@ -936,8 +936,21 @@ compos:
       name: Pearl
       title: pearl
     num: 34
-    winrate: 0.5588235294117647
-    wins: 19
+    winrate: 0.5882352941176471
+    wins: 20
+  - hero_names:
+    - Shifu
+    - Pearl
+    heros:
+    - icon: 6f69edc7410650c43bee267eef585b06
+      name: Shifu
+      title: shifu
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
+    num: 24
+    winrate: 0.6666666666666666
+    wins: 16
   - hero_names:
     - Raigon
     - Pearl
@@ -948,8 +961,8 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 24
-    winrate: 0.5833333333333334
+    num: 23
+    winrate: 0.6086956521739131
     wins: 14
   - hero_names:
     - Freya
@@ -964,19 +977,6 @@ compos:
     num: 23
     winrate: 0.4782608695652174
     wins: 11
-  - hero_names:
-    - Shifu
-    - Pearl
-    heros:
-    - icon: 6f69edc7410650c43bee267eef585b06
-      name: Shifu
-      title: shifu
-    - icon: 427116cdee46bad4cbaa99d7063e0832
-      name: Pearl
-      title: pearl
-    num: 23
-    winrate: 0.6521739130434783
-    wins: 15
   - hero_names:
     - Varesh
     - Pearl
@@ -1024,10 +1024,10 @@ layout: character
 name: pearl
 num:
   threes: 1934
-  twos: 438
+  twos: 437
 title: Pearl
 url: characters/pearl.html
 winrate:
-  threes: '49.74'
-  twos: '57.31'
+  threes: '50.00'
+  twos: '57.21'
 ...
