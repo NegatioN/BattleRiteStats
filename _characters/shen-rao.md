@@ -4,7 +4,7 @@ builds:
   - damage: '6.2'
     disable: '1.2'
     energy: '2.9'
-    num: 88
+    num: 99
     protection: '1.1'
     skills:
     - color: grey
@@ -37,12 +37,12 @@ builds:
       icon: 4249017bc8408d2458cc2722d435e171
       name: Storm Drain
       type: mixed
-    winrate: '48.9'
-  - damage: '6.2'
-    disable: '1.2'
+    winrate: '47.5'
+  - damage: '6.0'
+    disable: '1.1'
     energy: '3.2'
-    num: 65
-    protection: '1.2'
+    num: 64
+    protection: '1.1'
     skills:
     - color: grey
       description: Recast Ascension to land at target position and deal 10 damage
@@ -74,11 +74,11 @@ builds:
       icon: 0cf963f4151146b49942756c69808bd9
       name: Sphere of Influence
       type: mixed
-    winrate: '41.5'
-  - damage: '6.0'
+    winrate: '42.2'
+  - damage: '6.1'
     disable: '1.2'
-    energy: '2.6'
-    num: 43
+    energy: '2.8'
+    num: 37
     protection: '0.5'
     skills:
     - color: grey
@@ -109,11 +109,11 @@ builds:
       icon: f381f5a83890a9342b8332f2a234b06f
       name: Puppeteer
       type: mixed
-    winrate: '69.8'
-  - damage: '5.5'
+    winrate: '73.0'
+  - damage: '5.4'
     disable: '1.1'
-    energy: '2.9'
-    num: 29
+    energy: '2.8'
+    num: 27
     protection: '1.3'
     skills:
     - color: grey
@@ -146,11 +146,11 @@ builds:
       icon: 0cf963f4151146b49942756c69808bd9
       name: Sphere of Influence
       type: mixed
-    winrate: '24.1'
-  - damage: '6.3'
-    disable: '0.9'
-    energy: '2.8'
-    num: 28
+    winrate: '22.2'
+  - damage: '6.2'
+    disable: '1.0'
+    energy: '2.7'
+    num: 26
     protection: '1.0'
     skills:
     - color: grey
@@ -183,7 +183,7 @@ builds:
       icon: 4249017bc8408d2458cc2722d435e171
       name: Storm Drain
       type: mixed
-    winrate: '57.1'
+    winrate: '50.0'
   - damage: '6.0'
     disable: '0.9'
     energy: '2.9'
@@ -221,11 +221,11 @@ builds:
       name: Sphere of Influence
       type: mixed
     winrate: '59.1'
-  - damage: '4.2'
-    disable: '1.1'
+  - damage: '4.0'
+    disable: '1.0'
     energy: '2.3'
-    num: 20
-    protection: '0.9'
+    num: 21
+    protection: '1.0'
     skills:
     - color: grey
       description: Dealing damage with another ability empowers your next Shock Blast.
@@ -255,12 +255,12 @@ builds:
       icon: 4d02491e780fc464abfadb5bbe4d6fd1
       name: Subdue
       type: mixed
-    winrate: '25.0'
-  - damage: '6.8'
+    winrate: '28.6'
+  - damage: '6.7'
     disable: '1.1'
-    energy: '2.9'
-    num: 15
-    protection: '1.7'
+    energy: '2.8'
+    num: 16
+    protection: '1.6'
     skills:
     - color: grey
       description: Recast Ascension to land at target position and deal 10 damage
@@ -292,49 +292,11 @@ builds:
       icon: 0cf963f4151146b49942756c69808bd9
       name: Sphere of Influence
       type: mixed
-    winrate: '80.0'
+    winrate: '81.2'
   - damage: '5.8'
     disable: '1.1'
-    energy: '2.7'
+    energy: '2.9'
     num: 15
-    protection: '1.1'
-    skills:
-    - color: grey
-      description: Recast Ascension to land at target position and deal 10 damage
-        to nearby enemies.
-      icon: 4d02491e780fc464abfadb5bbe4d6fd1
-      name: Dragon Descent
-      type: mixed
-    - color: grey
-      description: Dealing damage with another ability empowers your next Shock Blast.
-        Empowered blasts deal 2 bonus damage and explode, hitting all nearby enemies.
-      icon: 81f65d3dd0b1331488eaee6aef3e1d81
-      name: Dragon Force
-      type: mixed
-    - color: grey
-      description: Increases Storm Bolt range by 10. Storm Struck targets can be redirected
-        by recasting Storm Bolt.
-      icon: f381f5a83890a9342b8332f2a234b06f
-      name: Puppeteer
-      type: mixed
-    - color: grey
-      description: Increases the second blast radius of Dragon Roar by 10 and enemies
-        hit are pulled towards the center.
-      icon: c7eae372c662b324c9af9533cd22293e
-      name: Shock and Awe
-      type: mixed
-    - color: grey
-      description: The radius of Dominion is increased by 30 and casting it empowers
-        your next 3 Shock Blasts. Empowered blasts deal 2 bonus damage and explode,
-        hitting all nearby enemies.
-      icon: 0cf963f4151146b49942756c69808bd9
-      name: Sphere of Influence
-      type: mixed
-    winrate: '46.7'
-  - damage: '6.0'
-    disable: '1.2'
-    energy: '3.2'
-    num: 12
     protection: '1.6'
     skills:
     - color: grey
@@ -366,12 +328,46 @@ builds:
       icon: 0cf963f4151146b49942756c69808bd9
       name: Sphere of Influence
       type: mixed
+    winrate: '53.3'
+  - damage: '5.0'
+    disable: '1.2'
+    energy: '2.8'
+    num: 12
+    protection: '1.2'
+    skills:
+    - color: grey
+      description: Dealing damage with another ability empowers your next Shock Blast.
+        Empowered blasts deal 2 bonus damage and explode, hitting all nearby enemies.
+      icon: 81f65d3dd0b1331488eaee6aef3e1d81
+      name: Dragon Force
+      type: mixed
+    - color: grey
+      description: Storm Bolt hits heal you for 16 health.
+      icon: f381f5a83890a9342b8332f2a234b06f
+      name: Entertainment
+      type: mixed
+    - color: grey
+      description: Storm Struck spreads from affected enemies to other nearby enemies.
+      icon: f381f5a83890a9342b8332f2a234b06f
+      name: Eyewall
+      type: mixed
+    - color: grey
+      description: Increases the second blast radius of Dragon Roar by 10 and enemies
+        hit are pulled towards the center.
+      icon: c7eae372c662b324c9af9533cd22293e
+      name: Shock and Awe
+      type: mixed
+    - color: grey
+      description: Lightning Bolt inflicts 25 Snare for 2.5.
+      icon: 4d02491e780fc464abfadb5bbe4d6fd1
+      name: Subdue
+      type: mixed
     winrate: '50.0'
   twos:
-  - damage: '4.9'
+  - damage: '4.6'
     disable: '1.1'
-    energy: '2.5'
-    num: 27
+    energy: '2.4'
+    num: 22
     protection: '0.8'
     skills:
     - color: grey
@@ -402,7 +398,44 @@ builds:
       icon: 4d02491e780fc464abfadb5bbe4d6fd1
       name: Subdue
       type: mixed
-    winrate: '44.4'
+    winrate: '40.9'
+  - damage: '5.4'
+    disable: '1.0'
+    energy: '2.7'
+    num: 16
+    protection: '0.9'
+    skills:
+    - color: grey
+      description: Recast Ascension to land at target position and deal 10 damage
+        to nearby enemies.
+      icon: 4d02491e780fc464abfadb5bbe4d6fd1
+      name: Dragon Descent
+      type: mixed
+    - color: grey
+      description: Dealing damage with another ability empowers your next Shock Blast.
+        Empowered blasts deal 2 bonus damage and explode, hitting all nearby enemies.
+      icon: 81f65d3dd0b1331488eaee6aef3e1d81
+      name: Dragon Force
+      type: mixed
+    - color: grey
+      description: Storm Struck spreads from affected enemies to other nearby enemies.
+      icon: f381f5a83890a9342b8332f2a234b06f
+      name: Eyewall
+      type: mixed
+    - color: grey
+      description: Increases the second blast radius of Dragon Roar by 10 and enemies
+        hit are pulled towards the center.
+      icon: c7eae372c662b324c9af9533cd22293e
+      name: Shock and Awe
+      type: mixed
+    - color: grey
+      description: The radius of Dominion is increased by 30 and casting it empowers
+        your next 3 Shock Blasts. Empowered blasts deal 2 bonus damage and explode,
+        hitting all nearby enemies.
+      icon: 0cf963f4151146b49942756c69808bd9
+      name: Sphere of Influence
+      type: mixed
+    winrate: '43.8'
   - damage: '5.0'
     disable: '0.6'
     energy: '2.0'
@@ -440,43 +473,6 @@ builds:
       name: Sphere of Influence
       type: mixed
     winrate: '58.3'
-  - damage: '5.2'
-    disable: '1.0'
-    energy: '2.8'
-    num: 12
-    protection: '0.9'
-    skills:
-    - color: grey
-      description: Recast Ascension to land at target position and deal 10 damage
-        to nearby enemies.
-      icon: 4d02491e780fc464abfadb5bbe4d6fd1
-      name: Dragon Descent
-      type: mixed
-    - color: grey
-      description: Dealing damage with another ability empowers your next Shock Blast.
-        Empowered blasts deal 2 bonus damage and explode, hitting all nearby enemies.
-      icon: 81f65d3dd0b1331488eaee6aef3e1d81
-      name: Dragon Force
-      type: mixed
-    - color: grey
-      description: Storm Struck spreads from affected enemies to other nearby enemies.
-      icon: f381f5a83890a9342b8332f2a234b06f
-      name: Eyewall
-      type: mixed
-    - color: grey
-      description: Increases the second blast radius of Dragon Roar by 10 and enemies
-        hit are pulled towards the center.
-      icon: c7eae372c662b324c9af9533cd22293e
-      name: Shock and Awe
-      type: mixed
-    - color: grey
-      description: The radius of Dominion is increased by 30 and casting it empowers
-        your next 3 Shock Blasts. Empowered blasts deal 2 bonus damage and explode,
-        hitting all nearby enemies.
-      icon: 0cf963f4151146b49942756c69808bd9
-      name: Sphere of Influence
-      type: mixed
-    winrate: '41.7'
   - damage: '4.8'
     disable: '0.9'
     energy: '2.6'
@@ -586,12 +582,18 @@ builds:
       name: Sphere of Influence
       type: mixed
     winrate: '33.3'
-  - damage: '5.9'
+  - damage: '6.0'
     disable: '1.0'
-    energy: '3.2'
-    num: 6
-    protection: '1.3'
+    energy: '2.5'
+    num: 4
+    protection: '1.4'
     skills:
+    - color: grey
+      description: Recast Ascension to land at target position and deal 10 damage
+        to nearby enemies.
+      icon: 4d02491e780fc464abfadb5bbe4d6fd1
+      name: Dragon Descent
+      type: mixed
     - color: grey
       description: Dealing damage with another ability empowers your next Shock Blast.
         Empowered blasts deal 2 bonus damage and explode, hitting all nearby enemies.
@@ -599,16 +601,9 @@ builds:
       name: Dragon Force
       type: mixed
     - color: grey
-      description: During Ascension, you can cast Dragon Roar with 0.25 cast time
-        and 100 movement speed.
-      icon: c7eae372c662b324c9af9533cd22293e
-      name: Roar of the Heavens
-      type: mixed
-    - color: grey
-      description: Increases the second blast radius of Dragon Roar by 10 and enemies
-        hit are pulled towards the center.
-      icon: c7eae372c662b324c9af9533cd22293e
-      name: Shock and Awe
+      description: Storm Bolt hits heal you for 16 health.
+      icon: f381f5a83890a9342b8332f2a234b06f
+      name: Entertainment
       type: mixed
     - color: grey
       description: The radius of Dominion is increased by 30 and casting it empowers
@@ -618,11 +613,12 @@ builds:
       name: Sphere of Influence
       type: mixed
     - color: grey
-      description: Lightning Bolt inflicts 25 Snare for 2.5.
-      icon: 4d02491e780fc464abfadb5bbe4d6fd1
-      name: Subdue
+      description: Negating an attack with Dismissal empowers your next 2 Shock Blasts.
+        Empowered blasts deal 2 bonus damage and explode, hitting all nearby enemies.
+      icon: 4249017bc8408d2458cc2722d435e171
+      name: Storm Drain
       type: mixed
-    winrate: '33.3'
+    winrate: '50.0'
   - damage: '4.7'
     disable: '0.8'
     energy: '2.5'
@@ -657,6 +653,43 @@ builds:
         hitting all nearby enemies.
       icon: 0cf963f4151146b49942756c69808bd9
       name: Sphere of Influence
+      type: mixed
+    winrate: '50.0'
+  - damage: '6.7'
+    disable: '1.0'
+    energy: '3.2'
+    num: 4
+    protection: '1.4'
+    skills:
+    - color: grey
+      description: Dealing damage with another ability empowers your next Shock Blast.
+        Empowered blasts deal 2 bonus damage and explode, hitting all nearby enemies.
+      icon: 81f65d3dd0b1331488eaee6aef3e1d81
+      name: Dragon Force
+      type: mixed
+    - color: grey
+      description: During Ascension, you can cast Dragon Roar with 0.25 cast time
+        and 100 movement speed.
+      icon: c7eae372c662b324c9af9533cd22293e
+      name: Roar of the Heavens
+      type: mixed
+    - color: grey
+      description: Increases the second blast radius of Dragon Roar by 10 and enemies
+        hit are pulled towards the center.
+      icon: c7eae372c662b324c9af9533cd22293e
+      name: Shock and Awe
+      type: mixed
+    - color: grey
+      description: The radius of Dominion is increased by 30 and casting it empowers
+        your next 3 Shock Blasts. Empowered blasts deal 2 bonus damage and explode,
+        hitting all nearby enemies.
+      icon: 0cf963f4151146b49942756c69808bd9
+      name: Sphere of Influence
+      type: mixed
+    - color: grey
+      description: Lightning Bolt inflicts 25 Snare for 2.5.
+      icon: 4d02491e780fc464abfadb5bbe4d6fd1
+      name: Subdue
       type: mixed
     winrate: '50.0'
   - damage: '4.6'
@@ -696,63 +729,25 @@ builds:
       name: Sphere of Influence
       type: mixed
     winrate: '50.0'
-  - damage: '5.3'
-    disable: '1.2'
-    energy: '2.8'
-    num: 4
-    protection: '1.5'
-    skills:
-    - color: grey
-      description: Recast Ascension to land at target position and deal 10 damage
-        to nearby enemies.
-      icon: 4d02491e780fc464abfadb5bbe4d6fd1
-      name: Dragon Descent
-      type: mixed
-    - color: grey
-      description: Dealing damage with another ability empowers your next Shock Blast.
-        Empowered blasts deal 2 bonus damage and explode, hitting all nearby enemies.
-      icon: 81f65d3dd0b1331488eaee6aef3e1d81
-      name: Dragon Force
-      type: mixed
-    - color: grey
-      description: Increases the second blast radius of Dragon Roar by 10 and enemies
-        hit are pulled towards the center.
-      icon: c7eae372c662b324c9af9533cd22293e
-      name: Shock and Awe
-      type: mixed
-    - color: grey
-      description: The radius of Dominion is increased by 30 and casting it empowers
-        your next 3 Shock Blasts. Empowered blasts deal 2 bonus damage and explode,
-        hitting all nearby enemies.
-      icon: 0cf963f4151146b49942756c69808bd9
-      name: Sphere of Influence
-      type: mixed
-    - color: grey
-      description: Negating an attack with Dismissal empowers your next 2 Shock Blasts.
-        Empowered blasts deal 2 bonus damage and explode, hitting all nearby enemies.
-      icon: 4249017bc8408d2458cc2722d435e171
-      name: Storm Drain
-      type: mixed
-    winrate: '25.0'
 compos:
   threes:
   - hero_names:
-    - Shen Rao
     - Poloma
+    - Shen Rao
     - Jade
     heros:
-    - icon: c0e3f68a87771064ab57d6cd36430ed9
-      name: Shen Rao
-      title: shen-rao
     - icon: 9872f8cd16d7327418b09294cfa319e6
       name: Poloma
       title: poloma
+    - icon: c0e3f68a87771064ab57d6cd36430ed9
+      name: Shen Rao
+      title: shen-rao
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
-    num: 34
-    winrate: 0.7058823529411765
-    wins: 24
+    num: 30
+    winrate: 0.7333333333333333
+    wins: 22
   - hero_names:
     - Thorn
     - Shen Rao
@@ -767,9 +762,9 @@ compos:
     - icon: 9872f8cd16d7327418b09294cfa319e6
       name: Poloma
       title: poloma
-    num: 18
-    winrate: 0.5555555555555556
-    wins: 10
+    num: 17
+    winrate: 0.47058823529411764
+    wins: 8
   - hero_names:
     - Pestilus
     - Thorn
@@ -784,9 +779,26 @@ compos:
     - icon: c0e3f68a87771064ab57d6cd36430ed9
       name: Shen Rao
       title: shen-rao
-    num: 18
-    winrate: 0.3888888888888889
-    wins: 7
+    num: 16
+    winrate: 0.375
+    wins: 6
+  - hero_names:
+    - Shen Rao
+    - Croak
+    - Sirius
+    heros:
+    - icon: c0e3f68a87771064ab57d6cd36430ed9
+      name: Shen Rao
+      title: shen-rao
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
+    num: 15
+    winrate: 0.4
+    wins: 6
   - hero_names:
     - Thorn
     - Blossom
@@ -801,60 +813,9 @@ compos:
     - icon: c0e3f68a87771064ab57d6cd36430ed9
       name: Shen Rao
       title: shen-rao
-    num: 17
-    winrate: 0.29411764705882354
-    wins: 5
-  - hero_names:
-    - Shen Rao
-    - Blossom
-    - Raigon
-    heros:
-    - icon: c0e3f68a87771064ab57d6cd36430ed9
-      name: Shen Rao
-      title: shen-rao
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    num: 13
-    winrate: 0.38461538461538464
-    wins: 5
-  - hero_names:
-    - Shen Rao
-    - Croak
-    - Sirius
-    heros:
-    - icon: c0e3f68a87771064ab57d6cd36430ed9
-      name: Shen Rao
-      title: shen-rao
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
-    - icon: aa93dc83288cb954aa3a97aabe8320dd
-      name: Sirius
-      title: sirius
-    num: 13
-    winrate: 0.3076923076923077
+    num: 14
+    winrate: 0.2857142857142857
     wins: 4
-  - hero_names:
-    - Shen Rao
-    - Blossom
-    - Croak
-    heros:
-    - icon: c0e3f68a87771064ab57d6cd36430ed9
-      name: Shen Rao
-      title: shen-rao
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
-    num: 12
-    winrate: 0.6666666666666666
-    wins: 8
   - hero_names:
     - Shen Rao
     - Raigon
@@ -869,40 +830,74 @@ compos:
     - icon: 427116cdee46bad4cbaa99d7063e0832
       name: Pearl
       title: pearl
-    num: 12
-    winrate: 0.4166666666666667
-    wins: 5
+    num: 14
+    winrate: 0.42857142857142855
+    wins: 6
   - hero_names:
-    - Poloma
+    - Pestilus
+    - Rook
     - Shen Rao
-    - Raigon
     heros:
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
     - icon: c0e3f68a87771064ab57d6cd36430ed9
       name: Shen Rao
       title: shen-rao
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
+    num: 14
+    winrate: 0.8571428571428571
+    wins: 12
+  - hero_names:
+    - Thorn
+    - Sirius
+    - Shen Rao
+    heros:
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: aa93dc83288cb954aa3a97aabe8320dd
+      name: Sirius
+      title: sirius
+    - icon: c0e3f68a87771064ab57d6cd36430ed9
+      name: Shen Rao
+      title: shen-rao
+    num: 13
+    winrate: 0.3076923076923077
+    wins: 4
+  - hero_names:
+    - Pestilus
+    - Shen Rao
+    - Croak
+    heros:
+    - icon: a7e0c7a6f0fa2ef49bf684950de34567
+      name: Pestilus
+      title: pestilus
+    - icon: c0e3f68a87771064ab57d6cd36430ed9
+      name: Shen Rao
+      title: shen-rao
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
     num: 12
-    winrate: 0.4166666666666667
-    wins: 5
+    winrate: 0.3333333333333333
+    wins: 4
   - hero_names:
     - Shen Rao
-    - Poloma
-    - Jamila
+    - Jade
+    - Pearl
     heros:
     - icon: c0e3f68a87771064ab57d6cd36430ed9
       name: Shen Rao
       title: shen-rao
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    - icon: f283d6dda29cbc845b4f770a1482d75b
-      name: Jamila
-      title: jamila
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
     num: 12
     winrate: 0.5833333333333334
     wins: 7
@@ -917,9 +912,9 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 19
-    winrate: 0.47368421052631576
-    wins: 9
+    num: 15
+    winrate: 0.4666666666666667
+    wins: 7
   - hero_names:
     - Shen Rao
     - Ruh Kaan
@@ -930,8 +925,8 @@ compos:
     - icon: bb37e5d448c511e47b808987d0d4f9e8
       name: Ruh Kaan
       title: ruh-kaan
-    num: 15
-    winrate: 0.4666666666666667
+    num: 14
+    winrate: 0.5
     wins: 7
   - hero_names:
     - Shen Rao
@@ -943,9 +938,9 @@ compos:
     - icon: aa93dc83288cb954aa3a97aabe8320dd
       name: Sirius
       title: sirius
-    num: 14
-    winrate: 0.5
-    wins: 7
+    num: 11
+    winrate: 0.36363636363636365
+    wins: 4
   - hero_names:
     - Shen Rao
     - Oldur
@@ -956,6 +951,19 @@ compos:
     - icon: b0d66b8b9f228724093b8a3e66c3fef6
       name: Oldur
       title: oldur
+    num: 11
+    winrate: 0.45454545454545453
+    wins: 5
+  - hero_names:
+    - Shen Rao
+    - Jade
+    heros:
+    - icon: c0e3f68a87771064ab57d6cd36430ed9
+      name: Shen Rao
+      title: shen-rao
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
     num: 11
     winrate: 0.45454545454545453
     wins: 5
@@ -982,21 +990,8 @@ compos:
     - icon: be081702a8e70fe44ac0a4e3a9c46368
       name: Freya
       title: freya
-    num: 10
-    winrate: 0.4
-    wins: 4
-  - hero_names:
-    - Shen Rao
-    - Jamila
-    heros:
-    - icon: c0e3f68a87771064ab57d6cd36430ed9
-      name: Shen Rao
-      title: shen-rao
-    - icon: f283d6dda29cbc845b4f770a1482d75b
-      name: Jamila
-      title: jamila
-    num: 10
-    winrate: 0.4
+    num: 9
+    winrate: 0.4444444444444444
     wins: 4
   - hero_names:
     - Pestilus
@@ -1025,18 +1020,18 @@ compos:
     winrate: 0.625
     wins: 5
   - hero_names:
-    - Poloma
     - Shen Rao
+    - Jamila
     heros:
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
     - icon: c0e3f68a87771064ab57d6cd36430ed9
       name: Shen Rao
       title: shen-rao
-    num: 7
-    winrate: 0.7142857142857143
-    wins: 5
+    - icon: f283d6dda29cbc845b4f770a1482d75b
+      name: Jamila
+      title: jamila
+    num: 8
+    winrate: 0.375
+    wins: 3
 description: Shen Rao was once The Dragon of Storms, revered as a deity for his majesty
   and power. In his arrogance, he defied the dark powers of the Void but he was defeated
   and sealed within a human body, reduced to a fraction of his former strength. In
@@ -1046,11 +1041,11 @@ icon: c0e3f68a87771064ab57d6cd36430ed9
 layout: character
 name: shen-rao
 num:
-  threes: 819
-  twos: 168
+  threes: 815
+  twos: 161
 title: Shen Rao
 url: characters/shen-rao.html
 winrate:
-  threes: '44.32'
+  threes: '44.54'
   twos: '42.86'
 ...
