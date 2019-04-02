@@ -4,7 +4,7 @@ builds:
   - damage: '7.8'
     disable: '0.8'
     energy: '2.8'
-    num: 209
+    num: 199
     protection: '0.3'
     skills:
     - color: red
@@ -35,11 +35,11 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '58.9'
+    winrate: '57.3'
   - damage: '6.5'
     disable: '0.5'
     energy: '2.1'
-    num: 80
+    num: 83
     protection: '0.5'
     skills:
     - color: red
@@ -70,11 +70,11 @@ builds:
       icon: 48122c1a1a8cae7408409c90126f11cb
       name: Inferno
       type: offense
-    winrate: '48.8'
+    winrate: '48.2'
   - damage: '7.1'
     disable: '0.8'
-    energy: '2.6'
-    num: 72
+    energy: '2.7'
+    num: 66
     protection: '0.4'
     skills:
     - color: red
@@ -105,11 +105,11 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '50.0'
-  - damage: '5.5'
+    winrate: '51.5'
+  - damage: '5.3'
     disable: '0.7'
-    energy: '2.5'
-    num: 57
+    energy: '2.4'
+    num: 50
     protection: '0.8'
     skills:
     - color: grey
@@ -140,11 +140,46 @@ builds:
       icon: 117c35c7f757858428a733d8da4982be
       name: Wildfire
       type: offense
-    winrate: '45.6'
+    winrate: '42.0'
+  - damage: '7.4'
+    disable: '0.6'
+    energy: '3.1'
+    num: 48
+    protection: '0.5'
+    skills:
+    - color: red
+      description: Fire Storm hits deal 2 bonus damage and spread fire to other nearby
+        enemies, dealing 9 damage and inflicting Ignite.
+      icon: 117c35c7f757858428a733d8da4982be
+      name: Combustion
+      type: offense
+    - color: grey
+      description: Increases Flamestrike radius by 15 and reduces cooldown by 1.
+      icon: 48122c1a1a8cae7408409c90126f11cb
+      name: Eruption
+      type: mixed
+    - color: yellow
+      description: Fire Storm can be cast while moving at 50 movement speed and 30
+        while channeling.
+      icon: 117c35c7f757858428a733d8da4982be
+      name: Heat
+      type: mobility
+    - color: red
+      description: Flamestrike deals 10 bonus damage and inflicts Ignite.
+      icon: 48122c1a1a8cae7408409c90126f11cb
+      name: Inferno
+      type: offense
+    - color: grey
+      description: Molten Fist travel distance increases by 50 and cooldown is reduced
+        by 1.5.
+      icon: 64ae838604146444aac3474b78250f52
+      name: Mach Punch
+      type: mixed
+    winrate: '60.4'
   - damage: '7.3'
     disable: '0.7'
     energy: '2.5'
-    num: 51
+    num: 48
     protection: '0.8'
     skills:
     - color: red
@@ -176,46 +211,11 @@ builds:
       icon: 64ae838604146444aac3474b78250f52
       name: Mach Punch
       type: mixed
-    winrate: '54.9'
-  - damage: '7.3'
-    disable: '0.6'
-    energy: '3.1'
-    num: 49
-    protection: '0.5'
-    skills:
-    - color: red
-      description: Fire Storm hits deal 2 bonus damage and spread fire to other nearby
-        enemies, dealing 9 damage and inflicting Ignite.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Combustion
-      type: offense
-    - color: grey
-      description: Increases Flamestrike radius by 15 and reduces cooldown by 1.
-      icon: 48122c1a1a8cae7408409c90126f11cb
-      name: Eruption
-      type: mixed
-    - color: yellow
-      description: Fire Storm can be cast while moving at 50 movement speed and 30
-        while channeling.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Heat
-      type: mobility
-    - color: red
-      description: Flamestrike deals 10 bonus damage and inflicts Ignite.
-      icon: 48122c1a1a8cae7408409c90126f11cb
-      name: Inferno
-      type: offense
-    - color: grey
-      description: Molten Fist travel distance increases by 50 and cooldown is reduced
-        by 1.5.
-      icon: 64ae838604146444aac3474b78250f52
-      name: Mach Punch
-      type: mixed
-    winrate: '61.2'
+    winrate: '56.2'
   - damage: '7.4'
     disable: '0.9'
     energy: '2.9'
-    num: 39
+    num: 41
     protection: '0.4'
     skills:
     - color: yellow
@@ -245,7 +245,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '48.7'
+    winrate: '51.2'
   - damage: '7.4'
     disable: '1.0'
     energy: '2.8'
@@ -282,10 +282,10 @@ builds:
       name: Magma
       type: offense
     winrate: '63.2'
-  - damage: '7.4'
+  - damage: '7.2'
     disable: '0.8'
     energy: '2.8'
-    num: 36
+    num: 31
     protection: '0.3'
     skills:
     - color: yellow
@@ -316,10 +316,10 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '58.3'
-  - damage: '8.1'
+    winrate: '61.3'
+  - damage: '8.2'
     disable: '1.0'
-    energy: '3.5'
+    energy: '3.6'
     num: 30
     protection: '0.3'
     skills:
@@ -352,7 +352,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '63.3'
+    winrate: '66.7'
   twos:
   - damage: '4.7'
     disable: '0.5'
@@ -423,11 +423,11 @@ builds:
       name: Mach Punch
       type: mixed
     winrate: '52.4'
-  - damage: '6.9'
+  - damage: '6.8'
     disable: '0.8'
     energy: '2.8'
-    num: 15
-    protection: '0.3'
+    num: 20
+    protection: '0.4'
     skills:
     - color: red
       description: Fire Storm hits deal 2 bonus damage and spread fire to other nearby
@@ -457,11 +457,11 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '46.7'
-  - damage: '4.4'
+    winrate: '45.0'
+  - damage: '4.3'
     disable: '0.7'
     energy: '2.4'
-    num: 14
+    num: 13
     protection: '0.6'
     skills:
     - color: grey
@@ -492,7 +492,7 @@ builds:
       icon: 117c35c7f757858428a733d8da4982be
       name: Wildfire
       type: offense
-    winrate: '35.7'
+    winrate: '38.5'
   - damage: '4.7'
     disable: '0.5'
     energy: '2.5'
@@ -563,45 +563,10 @@ builds:
       name: Magma
       type: offense
     winrate: '63.6'
-  - damage: '6.8'
-    disable: '0.8'
-    energy: '2.4'
-    num: 9
-    protection: '0.2'
-    skills:
-    - color: yellow
-      description: Searing Flight increases movement speed by 30 for 2.
-      icon: de69286ec8d6c934c9b04c51d1814b5c
-      name: Burning Feet
-      type: mobility
-    - color: red
-      description: Fire Storm hits deal 2 bonus damage and spread fire to other nearby
-        enemies, dealing 9 damage and inflicting Ignite.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Combustion
-      type: offense
-    - color: yellow
-      description: Fire Storm can be cast while moving at 50 movement speed and 30
-        while channeling.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Heat
-      type: mobility
-    - color: red
-      description: Flamestrike deals 10 bonus damage and inflicts Ignite.
-      icon: 48122c1a1a8cae7408409c90126f11cb
-      name: Inferno
-      type: offense
-    - color: red
-      description: Ignite deals 2 bonus damage when first applied and reduces target's
-        movement speed by 10.
-      icon: 7612ba34ea3cdf9429a033d92e85c117
-      name: Magma
-      type: offense
-    winrate: '55.6'
-  - damage: '5.5'
+  - damage: '5.7'
     disable: '0.7'
-    energy: '2.5'
-    num: 9
+    energy: '2.4'
+    num: 10
     protection: '0.1'
     skills:
     - color: red
@@ -632,7 +597,7 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
-    winrate: '22.2'
+    winrate: '30.0'
   - damage: '6.2'
     disable: '0.5'
     energy: '3.1'
@@ -668,17 +633,22 @@ builds:
       name: Mach Punch
       type: mixed
     winrate: '71.4'
-  - damage: '6.1'
-    disable: '0.7'
-    energy: '2.1'
-    num: 6
+  - damage: '6.3'
+    disable: '0.8'
+    energy: '2.4'
+    num: 7
     protection: '0.2'
     skills:
-    - color: red
-      description: Searing Flight causes your next Fireball to deal 2 bonus damage
-        and inflict Ignite.
+    - color: yellow
+      description: Searing Flight increases movement speed by 30 for 2.
       icon: de69286ec8d6c934c9b04c51d1814b5c
-      name: Blaze
+      name: Burning Feet
+      type: mobility
+    - color: red
+      description: Fire Storm hits deal 2 bonus damage and spread fire to other nearby
+        enemies, dealing 9 damage and inflicting Ignite.
+      icon: 117c35c7f757858428a733d8da4982be
+      name: Combustion
       type: offense
     - color: yellow
       description: Fire Storm can be cast while moving at 50 movement speed and 30
@@ -697,12 +667,43 @@ builds:
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
+    winrate: '42.9'
+  - damage: '8.2'
+    disable: '1.0'
+    energy: '3.9'
+    num: 7
+    protection: '0.5'
+    skills:
     - color: red
-      description: Fire Storm launches 1 additional projectile.
+      description: Fire Storm hits deal 2 bonus damage and spread fire to other nearby
+        enemies, dealing 9 damage and inflicting Ignite.
       icon: 117c35c7f757858428a733d8da4982be
-      name: Wildfire
+      name: Combustion
       type: offense
-    winrate: '50.0'
+    - color: yellow
+      description: Fire Storm can be cast while moving at 50 movement speed and 30
+        while channeling.
+      icon: 117c35c7f757858428a733d8da4982be
+      name: Heat
+      type: mobility
+    - color: red
+      description: Flamestrike deals 10 bonus damage and inflicts Ignite.
+      icon: 48122c1a1a8cae7408409c90126f11cb
+      name: Inferno
+      type: offense
+    - color: grey
+      description: Molten Fist travel distance increases by 50 and cooldown is reduced
+        by 1.5.
+      icon: 64ae838604146444aac3474b78250f52
+      name: Mach Punch
+      type: mixed
+    - color: red
+      description: Ignite deals 2 bonus damage when first applied and reduces target's
+        movement speed by 10.
+      icon: 7612ba34ea3cdf9429a033d92e85c117
+      name: Magma
+      type: offense
+    winrate: '85.7'
 compos:
   threes:
   - hero_names:
@@ -740,23 +741,6 @@ compos:
     winrate: 0.5517241379310345
     wins: 16
   - hero_names:
-    - Rook
-    - Blossom
-    - Ashka
-    heros:
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
-    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
-      name: Blossom
-      title: blossom
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    num: 27
-    winrate: 0.6296296296296297
-    wins: 17
-  - hero_names:
     - Ashka
     - Sirius
     - Croak
@@ -787,43 +771,26 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 24
-    winrate: 0.5416666666666666
-    wins: 13
-  - hero_names:
-    - Ashka
-    - Poloma
-    - Raigon
-    heros:
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    num: 24
-    winrate: 0.5
-    wins: 12
-  - hero_names:
-    - Ashka
-    - Poloma
-    - Bakko
-    heros:
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: 9872f8cd16d7327418b09294cfa319e6
-      name: Poloma
-      title: poloma
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    num: 23
-    winrate: 0.6521739130434783
+    num: 26
+    winrate: 0.5769230769230769
     wins: 15
+  - hero_names:
+    - Rook
+    - Blossom
+    - Ashka
+    heros:
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: 6f50396e26efe6c4bbad274e2c90b8a4
+      name: Blossom
+      title: blossom
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    num: 26
+    winrate: 0.6538461538461539
+    wins: 17
   - hero_names:
     - Ashka
     - Sirius
@@ -842,6 +809,40 @@ compos:
     winrate: 0.5652173913043478
     wins: 13
   - hero_names:
+    - Ashka
+    - Poloma
+    - Bakko
+    heros:
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    num: 22
+    winrate: 0.6363636363636364
+    wins: 14
+  - hero_names:
+    - Ashka
+    - Poloma
+    - Raigon
+    heros:
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: 9872f8cd16d7327418b09294cfa319e6
+      name: Poloma
+      title: poloma
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    num: 22
+    winrate: 0.5
+    wins: 11
+  - hero_names:
     - Rook
     - Poloma
     - Ashka
@@ -856,8 +857,8 @@ compos:
       name: Ashka
       title: ashka
     num: 22
-    winrate: 0.6818181818181818
-    wins: 15
+    winrate: 0.7272727272727273
+    wins: 16
   - hero_names:
     - Ashka
     - Blossom
@@ -872,9 +873,9 @@ compos:
     - icon: f283d6dda29cbc845b4f770a1482d75b
       name: Jamila
       title: jamila
-    num: 19
-    winrate: 0.5263157894736842
-    wins: 10
+    num: 20
+    winrate: 0.55
+    wins: 11
   twos:
   - hero_names:
     - Ashka
@@ -899,8 +900,8 @@ compos:
     - icon: 6f50396e26efe6c4bbad274e2c90b8a4
       name: Blossom
       title: blossom
-    num: 19
-    winrate: 0.47368421052631576
+    num: 20
+    winrate: 0.45
     wins: 9
   - hero_names:
     - Pestilus
@@ -929,31 +930,18 @@ compos:
     winrate: 0.25
     wins: 4
   - hero_names:
-    - Rook
     - Ashka
+    - Pearl
     heros:
-    - icon: e5d5913527b842b41aed666d27d14231
-      name: Rook
-      title: rook
     - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
       name: Ashka
       title: ashka
+    - icon: 427116cdee46bad4cbaa99d7063e0832
+      name: Pearl
+      title: pearl
     num: 16
-    winrate: 0.6875
-    wins: 11
-  - hero_names:
-    - Ashka
-    - Bakko
-    heros:
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    num: 15
-    winrate: 0.6
-    wins: 9
+    winrate: 0.375
+    wins: 6
   - hero_names:
     - Ashka
     - Croak
@@ -969,17 +957,43 @@ compos:
     wins: 5
   - hero_names:
     - Ashka
-    - Pearl
+    - Bakko
     heros:
     - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
       name: Ashka
       title: ashka
-    - icon: 427116cdee46bad4cbaa99d7063e0832
-      name: Pearl
-      title: pearl
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    num: 14
+    winrate: 0.6428571428571429
+    wins: 9
+  - hero_names:
+    - Rook
+    - Ashka
+    heros:
+    - icon: e5d5913527b842b41aed666d27d14231
+      name: Rook
+      title: rook
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    num: 14
+    winrate: 0.7142857142857143
+    wins: 10
+  - hero_names:
+    - Ashka
+    - Alysia
+    heros:
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
+    - icon: 50404d271ae2a4f4f8b52de966688dc1
+      name: Alysia
+      title: alysia
     num: 12
-    winrate: 0.25
-    wins: 3
+    winrate: 0.4166666666666667
+    wins: 5
   - hero_names:
     - Ashka
     - Raigon
@@ -993,19 +1007,6 @@ compos:
     num: 12
     winrate: 0.5833333333333334
     wins: 7
-  - hero_names:
-    - Ashka
-    - Alysia
-    heros:
-    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
-      name: Ashka
-      title: ashka
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
-    num: 11
-    winrate: 0.45454545454545453
-    wins: 5
 description: A masked creature specialized in dark sorcery and pyro-kinetic powers.
   Casts devastating fire spells on his opponents and avoids close combat. Don't be
   fooled by his size, Ashka's inner demon strikes fear into all who face him.
@@ -1013,11 +1014,11 @@ icon: 02fbe1fea9e22054a9ab1b0c5007dbae
 layout: character
 name: ashka
 num:
-  threes: 1282
-  twos: 242
+  threes: 1253
+  twos: 245
 title: Ashka
 url: characters/ashka.html
 winrate:
-  threes: '50.23'
-  twos: '43.39'
+  threes: '49.96'
+  twos: '42.86'
 ...
