@@ -4,7 +4,7 @@ builds:
   - damage: '3.3'
     disable: '0.9'
     energy: '3.1'
-    num: 42
+    num: 44
     protection: '5.8'
     skills:
     - color: yellow
@@ -34,12 +34,12 @@ builds:
       icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
       type: offense
-    winrate: '42.9'
-  - damage: '3.9'
-    disable: '1.0'
+    winrate: '43.2'
+  - damage: '3.8'
+    disable: '0.9'
     energy: '3.0'
-    num: 28
-    protection: '5.8'
+    num: 29
+    protection: '5.9'
     skills:
     - color: yellow
       description: ^2Barrier^- increases movement speed by 33.
@@ -67,7 +67,7 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '67.9'
+    winrate: '69.0'
   - damage: '3.8'
     disable: '1.0'
     energy: '3.3'
@@ -102,44 +102,10 @@ builds:
       name: Swift Roll
       type: mobility
     winrate: '48.1'
-  - damage: '3.7'
-    disable: '1.1'
-    energy: '3.1'
-    num: 24
-    protection: '4.8'
-    skills:
-    - color: yellow
-      description: ^2Barrier^- increases movement speed by 33.
-      icon: 46e144a65c818c04eb3d00a21cf513b3
-      name: Alacrity
-      type: mobility
-    - color: pink
-      description: Panic Flask explodes upon hitting an enemy, dealing 8 damage and
-        inflicting Lesser Panic to other nearby enemies.
-      icon: e45c9dbf4c532ca4c8c8dfca14798771
-      name: Chaos
-      type: control
-    - color: red
-      description: ^2Revitalize^- increases damage output by 12.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Stimulant
-      type: offense
-    - color: yellow
-      description: Roll increases movement speed by 33 for 2.5. Reduces cooldown of
-        Roll by 3.
-      icon: 470a917c1ac62c04ea45acc6a35c5f73
-      name: Swift Roll
-      type: mobility
-    - color: grey
-      description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
-      icon: 948d85cf5c36f504f8b964acde19ed3e
-      name: Weakening Toxin
-      type: mixed
-    winrate: '37.5'
   - damage: '3.5'
     disable: '1.0'
     energy: '2.8'
-    num: 23
+    num: 25
     protection: '4.9'
     skills:
     - color: yellow
@@ -169,7 +135,41 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '65.2'
+    winrate: '68.0'
+  - damage: '3.8'
+    disable: '1.1'
+    energy: '3.1'
+    num: 23
+    protection: '4.9'
+    skills:
+    - color: yellow
+      description: ^2Barrier^- increases movement speed by 33.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
+      name: Alacrity
+      type: mobility
+    - color: pink
+      description: Panic Flask explodes upon hitting an enemy, dealing 8 damage and
+        inflicting Lesser Panic to other nearby enemies.
+      icon: e45c9dbf4c532ca4c8c8dfca14798771
+      name: Chaos
+      type: control
+    - color: red
+      description: ^2Revitalize^- increases damage output by 12.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Stimulant
+      type: offense
+    - color: yellow
+      description: Roll increases movement speed by 33 for 2.5. Reduces cooldown of
+        Roll by 3.
+      icon: 470a917c1ac62c04ea45acc6a35c5f73
+      name: Swift Roll
+      type: mobility
+    - color: grey
+      description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
+      icon: 948d85cf5c36f504f8b964acde19ed3e
+      name: Weakening Toxin
+      type: mixed
+    winrate: '39.1'
   - damage: '3.9'
     disable: '1.1'
     energy: '2.6'
@@ -204,78 +204,11 @@ builds:
       name: Weakening Toxin
       type: mixed
     winrate: '55.0'
-  - damage: '3.8'
-    disable: '1.0'
-    energy: '2.9'
-    num: 18
-    protection: '5.9'
-    skills:
-    - color: yellow
-      description: ^2Barrier^- increases movement speed by 33.
-      icon: 46e144a65c818c04eb3d00a21cf513b3
-      name: Alacrity
-      type: mobility
-    - color: teal
-      description: Healing Potion heals other allies for 4 bonus health.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Companion Potion
-      type: support
-    - color: grey
-      description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
-        10 damage when removing a buff.
-      icon: d0c4449b33eef2e4ca2cfa8900910041
-      name: Potency
-      type: mixed
-    - color: red
-      description: ^2Revitalize^- increases damage output by 12.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Stimulant
-      type: offense
-    - color: grey
-      description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
-      icon: 948d85cf5c36f504f8b964acde19ed3e
-      name: Weakening Toxin
-      type: mixed
-    winrate: '55.6'
-  - damage: '3.6'
-    disable: '0.8'
-    energy: '2.9'
-    num: 18
-    protection: '5.6'
-    skills:
-    - color: yellow
-      description: ^2Barrier^- increases movement speed by 33.
-      icon: 46e144a65c818c04eb3d00a21cf513b3
-      name: Alacrity
-      type: mobility
-    - color: grey
-      description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
-        10 damage when removing a buff.
-      icon: d0c4449b33eef2e4ca2cfa8900910041
-      name: Potency
-      type: mixed
-    - color: red
-      description: ^2Revitalize^- increases damage output by 12.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Stimulant
-      type: offense
-    - color: yellow
-      description: Roll increases movement speed by 33 for 2.5. Reduces cooldown of
-        Roll by 3.
-      icon: 470a917c1ac62c04ea45acc6a35c5f73
-      name: Swift Roll
-      type: mobility
-    - color: grey
-      description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
-      icon: 948d85cf5c36f504f8b964acde19ed3e
-      name: Weakening Toxin
-      type: mixed
-    winrate: '38.9'
   - damage: '2.9'
-    disable: '1.1'
+    disable: '1.0'
     energy: '2.7'
-    num: 17
-    protection: '5.2'
+    num: 18
+    protection: '5.1'
     skills:
     - color: pink
       description: Clarity Potion inflicts 30 Snare for 3.
@@ -303,7 +236,40 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Vampiric Toxin
       type: survival
-    winrate: '41.2'
+    winrate: '38.9'
+  - damage: '3.7'
+    disable: '0.9'
+    energy: '2.9'
+    num: 17
+    protection: '5.6'
+    skills:
+    - color: yellow
+      description: ^2Barrier^- increases movement speed by 33.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
+      name: Alacrity
+      type: mobility
+    - color: teal
+      description: Healing Potion heals other allies for 4 bonus health.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Companion Potion
+      type: support
+    - color: grey
+      description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
+        10 damage when removing a buff.
+      icon: d0c4449b33eef2e4ca2cfa8900910041
+      name: Potency
+      type: mixed
+    - color: red
+      description: ^2Revitalize^- increases damage output by 12.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Stimulant
+      type: offense
+    - color: grey
+      description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
+      icon: 948d85cf5c36f504f8b964acde19ed3e
+      name: Weakening Toxin
+      type: mixed
+    winrate: '58.8'
   - damage: '4.1'
     disable: '0.9'
     energy: '2.7'
@@ -316,6 +282,40 @@ builds:
       icon: 46e144a65c818c04eb3d00a21cf513b3
       name: Blast Shield
       type: mixed
+    - color: grey
+      description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
+        10 damage when removing a buff.
+      icon: d0c4449b33eef2e4ca2cfa8900910041
+      name: Potency
+      type: mixed
+    - color: red
+      description: ^2Revitalize^- increases damage output by 12.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Stimulant
+      type: offense
+    - color: yellow
+      description: Roll increases movement speed by 33 for 2.5. Reduces cooldown of
+        Roll by 3.
+      icon: 470a917c1ac62c04ea45acc6a35c5f73
+      name: Swift Roll
+      type: mobility
+    - color: grey
+      description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
+      icon: 948d85cf5c36f504f8b964acde19ed3e
+      name: Weakening Toxin
+      type: mixed
+    winrate: '43.8'
+  - damage: '3.6'
+    disable: '0.8'
+    energy: '2.9'
+    num: 16
+    protection: '5.7'
+    skills:
+    - color: yellow
+      description: ^2Barrier^- increases movement speed by 33.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
+      name: Alacrity
+      type: mobility
     - color: grey
       description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
         10 damage when removing a buff.
@@ -409,10 +409,10 @@ builds:
       type: survival
     winrate: '60.0'
   - damage: '4.2'
-    disable: '1.2'
-    energy: '3.2'
+    disable: '0.8'
+    energy: '3.0'
     num: 4
-    protection: '4.4'
+    protection: '5.6'
     skills:
     - color: yellow
       description: ^2Barrier^- increases movement speed by 33.
@@ -420,10 +420,10 @@ builds:
       name: Alacrity
       type: mobility
     - color: pink
-      description: Reduces the cooldown of Panic Flask by 1.5. Direct hits further
-        reduce the cooldown by 1.5.
+      description: Panic Flask explodes upon hitting an enemy, dealing 8 damage and
+        inflicting Lesser Panic to other nearby enemies.
       icon: e45c9dbf4c532ca4c8c8dfca14798771
-      name: Hysteria
+      name: Chaos
       type: control
     - color: red
       description: ^2Revitalize^- increases damage output by 12.
@@ -436,12 +436,12 @@ builds:
       icon: 470a917c1ac62c04ea45acc6a35c5f73
       name: Swift Roll
       type: mobility
-    - color: grey
-      description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
+    - color: green
+      description: Toxic heals you for 9 health over 6.
       icon: 948d85cf5c36f504f8b964acde19ed3e
-      name: Weakening Toxin
-      type: mixed
-    winrate: '75.0'
+      name: Vampiric Toxin
+      type: survival
+    winrate: '25.0'
   - damage: '2.1'
     disable: '1.2'
     energy: '2.2'
@@ -479,44 +479,10 @@ builds:
       type: mobility
     winrate: '50.0'
   - damage: '4.2'
-    disable: '0.8'
-    energy: '3.0'
+    disable: '1.2'
+    energy: '3.2'
     num: 4
-    protection: '5.6'
-    skills:
-    - color: yellow
-      description: ^2Barrier^- increases movement speed by 33.
-      icon: 46e144a65c818c04eb3d00a21cf513b3
-      name: Alacrity
-      type: mobility
-    - color: pink
-      description: Panic Flask explodes upon hitting an enemy, dealing 8 damage and
-        inflicting Lesser Panic to other nearby enemies.
-      icon: e45c9dbf4c532ca4c8c8dfca14798771
-      name: Chaos
-      type: control
-    - color: red
-      description: ^2Revitalize^- increases damage output by 12.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Stimulant
-      type: offense
-    - color: yellow
-      description: Roll increases movement speed by 33 for 2.5. Reduces cooldown of
-        Roll by 3.
-      icon: 470a917c1ac62c04ea45acc6a35c5f73
-      name: Swift Roll
-      type: mobility
-    - color: green
-      description: Toxic heals you for 9 health over 6.
-      icon: 948d85cf5c36f504f8b964acde19ed3e
-      name: Vampiric Toxin
-      type: survival
-    winrate: '25.0'
-  - damage: '3.8'
-    disable: '0.9'
-    energy: '4.1'
-    num: 3
-    protection: '4.2'
+    protection: '4.4'
     skills:
     - color: yellow
       description: ^2Barrier^- increases movement speed by 33.
@@ -534,17 +500,18 @@ builds:
       icon: 940ddc80c69eead49bfc8a5066a9afc5
       name: Stimulant
       type: offense
-    - color: green
-      description: Toxic heals you for 9 health over 6.
-      icon: 948d85cf5c36f504f8b964acde19ed3e
-      name: Vampiric Toxin
-      type: survival
+    - color: yellow
+      description: Roll increases movement speed by 33 for 2.5. Reduces cooldown of
+        Roll by 3.
+      icon: 470a917c1ac62c04ea45acc6a35c5f73
+      name: Swift Roll
+      type: mobility
     - color: grey
       description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
-    winrate: '0.0'
+    winrate: '75.0'
   - damage: '5.1'
     disable: '1.1'
     energy: '3.3'
@@ -579,11 +546,11 @@ builds:
       name: Weakening Toxin
       type: mixed
     winrate: '100.0'
-  - damage: '4.2'
-    disable: '1.0'
-    energy: '2.9'
+  - damage: '2.3'
+    disable: '1.5'
+    energy: '2.5'
     num: 3
-    protection: '4.0'
+    protection: '5.0'
     skills:
     - color: yellow
       description: ^2Barrier^- increases movement speed by 33.
@@ -596,17 +563,85 @@ builds:
       icon: e45c9dbf4c532ca4c8c8dfca14798771
       name: Chaos
       type: control
+    - color: teal
+      description: Healing Potion heals other allies for 4 bonus health.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Companion Potion
+      type: support
+    - color: pink
+      description: Reduces the cooldown of Panic Flask by 1.5. Direct hits further
+        reduce the cooldown by 1.5.
+      icon: e45c9dbf4c532ca4c8c8dfca14798771
+      name: Hysteria
+      type: control
+    - color: teal
+      description: Barrier absorbs 8 bonus damage and duration increases by 0.5.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
+      name: Siege Barrier
+      type: support
+    winrate: '66.7'
+  - damage: '3.8'
+    disable: '0.9'
+    energy: '4.1'
+    num: 3
+    protection: '4.2'
+    skills:
+    - color: yellow
+      description: ^2Barrier^- increases movement speed by 33.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
+      name: Alacrity
+      type: mobility
+    - color: pink
+      description: Reduces the cooldown of Panic Flask by 1.5. Direct hits further
+        reduce the cooldown by 1.5.
+      icon: e45c9dbf4c532ca4c8c8dfca14798771
+      name: Hysteria
+      type: control
+    - color: red
+      description: ^2Revitalize^- increases damage output by 12.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Stimulant
+      type: offense
+    - color: green
+      description: Toxic heals you for 9 health over 6.
+      icon: 948d85cf5c36f504f8b964acde19ed3e
+      name: Vampiric Toxin
+      type: survival
+    - color: grey
+      description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
+      icon: 948d85cf5c36f504f8b964acde19ed3e
+      name: Weakening Toxin
+      type: mixed
+    winrate: '0.0'
+  - damage: '5.5'
+    disable: '1.5'
+    energy: '2.6'
+    num: 3
+    protection: '5.0'
+    skills:
+    - color: grey
+      description: Applying Barrier causes a shockwave, dealing 10 damage to nearby
+        enemies and knocking them back.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
+      name: Blast Shield
+      type: mixed
     - color: grey
       description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
         10 damage when removing a buff.
       icon: d0c4449b33eef2e4ca2cfa8900910041
       name: Potency
       type: mixed
-    - color: red
-      description: ^2Revitalize^- increases damage output by 12.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Stimulant
-      type: offense
+    - color: yellow
+      description: Roll increases movement speed by 33 for 2.5. Reduces cooldown of
+        Roll by 3.
+      icon: 470a917c1ac62c04ea45acc6a35c5f73
+      name: Swift Roll
+      type: mobility
+    - color: green
+      description: Toxic heals you for 9 health over 6.
+      icon: 948d85cf5c36f504f8b964acde19ed3e
+      name: Vampiric Toxin
+      type: survival
     - color: grey
       description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
       icon: 948d85cf5c36f504f8b964acde19ed3e
@@ -646,40 +681,6 @@ builds:
       name: Vampiric Toxin
       type: survival
     winrate: '0.0'
-  - damage: '4.2'
-    disable: '1.2'
-    energy: '3.0'
-    num: 3
-    protection: '4.4'
-    skills:
-    - color: grey
-      description: Applying Barrier causes a shockwave, dealing 10 damage to nearby
-        enemies and knocking them back.
-      icon: 46e144a65c818c04eb3d00a21cf513b3
-      name: Blast Shield
-      type: mixed
-    - color: teal
-      description: Healing Potion heals other allies for 4 bonus health.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Companion Potion
-      type: support
-    - color: teal
-      description: Barrier absorbs 8 bonus damage and duration increases by 0.5.
-      icon: 46e144a65c818c04eb3d00a21cf513b3
-      name: Siege Barrier
-      type: support
-    - color: yellow
-      description: Roll increases movement speed by 33 for 2.5. Reduces cooldown of
-        Roll by 3.
-      icon: 470a917c1ac62c04ea45acc6a35c5f73
-      name: Swift Roll
-      type: mobility
-    - color: green
-      description: Toxic heals you for 9 health over 6.
-      icon: 948d85cf5c36f504f8b964acde19ed3e
-      name: Vampiric Toxin
-      type: survival
-    winrate: '66.7'
 compos:
   threes:
   - hero_names:
@@ -696,60 +697,9 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 22
-    winrate: 0.45454545454545453
-    wins: 10
-  - hero_names:
-    - Thorn
-    - Jade
-    - Lucie
-    heros:
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
     num: 19
     winrate: 0.5263157894736842
     wins: 10
-  - hero_names:
-    - Thorn
-    - Alysia
-    - Lucie
-    heros:
-    - icon: aab126231d9ff344f9f88ab230a5e66f
-      name: Thorn
-      title: thorn
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 19
-    winrate: 0.47368421052631576
-    wins: 9
-  - hero_names:
-    - Jade
-    - Raigon
-    - Lucie
-    heros:
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
-    - icon: 6c2252900d15cb344a5240f30d3ba705
-      name: Raigon
-      title: raigon
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 16
-    winrate: 0.4375
-    wins: 7
   - hero_names:
     - Rook
     - Taya
@@ -764,60 +714,43 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 16
-    winrate: 0.625
+    num: 18
+    winrate: 0.5555555555555556
     wins: 10
   - hero_names:
-    - Jamila
-    - Alysia
-    - Lucie
-    heros:
-    - icon: f283d6dda29cbc845b4f770a1482d75b
-      name: Jamila
-      title: jamila
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 14
-    winrate: 0.5
-    wins: 7
-  - hero_names:
-    - Taya
-    - Bakko
-    - Lucie
-    heros:
-    - icon: 2905515bc00a1d64e83466ec8e50f8b6
-      name: Taya
-      title: taya
-    - icon: 6154d6c0556261343844bf7caebb67a7
-      name: Bakko
-      title: bakko
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 14
-    winrate: 0.6428571428571429
-    wins: 9
-  - hero_names:
-    - Croak
+    - Thorn
     - Jade
     - Lucie
     heros:
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
     - icon: 38b75268719e2b640a6d62250e102ffa
       name: Jade
       title: jade
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 14
-    winrate: 0.42857142857142855
-    wins: 6
+    num: 18
+    winrate: 0.5555555555555556
+    wins: 10
+  - hero_names:
+    - Thorn
+    - Alysia
+    - Lucie
+    heros:
+    - icon: aab126231d9ff344f9f88ab230a5e66f
+      name: Thorn
+      title: thorn
+    - icon: 50404d271ae2a4f4f8b52de966688dc1
+      name: Alysia
+      title: alysia
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 18
+    winrate: 0.5
+    wins: 9
   - hero_names:
     - Alysia
     - Raigon
@@ -832,9 +765,77 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
+    num: 16
+    winrate: 0.375
+    wins: 6
+  - hero_names:
+    - Taya
+    - Bakko
+    - Lucie
+    heros:
+    - icon: 2905515bc00a1d64e83466ec8e50f8b6
+      name: Taya
+      title: taya
+    - icon: 6154d6c0556261343844bf7caebb67a7
+      name: Bakko
+      title: bakko
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 15
+    winrate: 0.6666666666666666
+    wins: 10
+  - hero_names:
+    - Jade
+    - Raigon
+    - Lucie
+    heros:
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: 6c2252900d15cb344a5240f30d3ba705
+      name: Raigon
+      title: raigon
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
     num: 14
-    winrate: 0.2857142857142857
-    wins: 4
+    winrate: 0.42857142857142855
+    wins: 6
+  - hero_names:
+    - Jamila
+    - Alysia
+    - Lucie
+    heros:
+    - icon: f283d6dda29cbc845b4f770a1482d75b
+      name: Jamila
+      title: jamila
+    - icon: 50404d271ae2a4f4f8b52de966688dc1
+      name: Alysia
+      title: alysia
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 13
+    winrate: 0.46153846153846156
+    wins: 6
+  - hero_names:
+    - Croak
+    - Jade
+    - Lucie
+    heros:
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 13
+    winrate: 0.38461538461538464
+    wins: 5
   - hero_names:
     - Bakko
     - Jade
@@ -863,22 +864,9 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 16
-    winrate: 0.625
-    wins: 10
-  - hero_names:
-    - Croak
-    - Lucie
-    heros:
-    - icon: d3038956f9767d74bbbce0659b07474d
-      name: Croak
-      title: croak
-    - icon: e5554b8a15ffc1a499a3807bb3a37b56
-      name: Lucie
-      title: lucie
-    num: 11
-    winrate: 0.6363636363636364
-    wins: 7
+    num: 13
+    winrate: 0.6153846153846154
+    wins: 8
   - hero_names:
     - Raigon
     - Lucie
@@ -889,22 +877,22 @@ compos:
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 10
-    winrate: 0.6
+    num: 11
+    winrate: 0.5454545454545454
     wins: 6
   - hero_names:
-    - Jade
+    - Croak
     - Lucie
     heros:
-    - icon: 38b75268719e2b640a6d62250e102ffa
-      name: Jade
-      title: jade
+    - icon: d3038956f9767d74bbbce0659b07474d
+      name: Croak
+      title: croak
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
     num: 10
-    winrate: 0.5
-    wins: 5
+    winrate: 0.7
+    wins: 7
   - hero_names:
     - Rook
     - Lucie
@@ -945,6 +933,19 @@ compos:
     winrate: 0.6666666666666666
     wins: 6
   - hero_names:
+    - Jade
+    - Lucie
+    heros:
+    - icon: 38b75268719e2b640a6d62250e102ffa
+      name: Jade
+      title: jade
+    - icon: e5554b8a15ffc1a499a3807bb3a37b56
+      name: Lucie
+      title: lucie
+    num: 9
+    winrate: 0.4444444444444444
+    wins: 4
+  - hero_names:
     - Jumong
     - Lucie
     heros:
@@ -971,29 +972,29 @@ compos:
     winrate: 0.6666666666666666
     wins: 4
   - hero_names:
-    - Alysia
+    - Ashka
     - Lucie
     heros:
-    - icon: 50404d271ae2a4f4f8b52de966688dc1
-      name: Alysia
-      title: alysia
+    - icon: 02fbe1fea9e22054a9ab1b0c5007dbae
+      name: Ashka
+      title: ashka
     - icon: e5554b8a15ffc1a499a3807bb3a37b56
       name: Lucie
       title: lucie
-    num: 5
-    winrate: 0.4
-    wins: 2
+    num: 6
+    winrate: 0.5
+    wins: 3
 description: Lucie is a diverse contender who knows which brew makes you choke, heal
   or flee in fear. The arena has become her new playground for wild experiments.
 icon: e5554b8a15ffc1a499a3807bb3a37b56
 layout: character
 name: lucie
 num:
-  threes: 902
-  twos: 124
+  threes: 889
+  twos: 123
 title: Lucie
 url: characters/lucie.html
 winrate:
-  threes: '47.34'
-  twos: '53.23'
+  threes: '47.69'
+  twos: '52.85'
 ...
