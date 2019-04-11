@@ -470,41 +470,6 @@ builds:
       name: Royal Descent
       type: offense
     winrate: '70.0'
-  - damage: '6.9'
-    disable: '1.0'
-    energy: '3.6'
-    num: 9
-    protection: '1.7'
-    skills:
-    - color: blue
-      description: Dragon Palm hits allow you to recast it for 1.5.
-      icon: d25b4fc0d427d424891492d2b61469a9
-      name: Dragon Mastery
-      type: utility
-    - color: teal
-      description: Heavenly Strike inflicts 50 Weaken for 2.
-      icon: 47dabb046c0ec4d4c96bde0832713a46
-      name: Hawk Dive
-      type: support
-    - color: teal
-      description: Move at 100% movement speed during Parry. Heal nearby allies for
-        8 health when Parry ends.
-      icon: fbfb00ff4fa4bc542b54639b84406f01
-      name: Invigorate
-      type: support
-    - color: red
-      description: If Parry negates an attack it can be recast to perform a Spinning
-        Slash. It deals 10 damage and inflicts Stun for 0.6.
-      icon: fbfb00ff4fa4bc542b54639b84406f01
-      name: Riposte
-      type: offense
-    - color: red
-      description: Heavenly Strike deals 8 bonus damage and inflicts Fading Snare
-        for 1.2.
-      icon: 47dabb046c0ec4d4c96bde0832713a46
-      name: Royal Descent
-      type: offense
-    winrate: '44.4'
   - damage: '5.5'
     disable: '1.0'
     energy: '3.4'
@@ -528,6 +493,41 @@ builds:
       icon: d25b4fc0d427d424891492d2b61469a9
       name: Dragon Mastery
       type: utility
+    - color: red
+      description: If Parry negates an attack it can be recast to perform a Spinning
+        Slash. It deals 10 damage and inflicts Stun for 0.6.
+      icon: fbfb00ff4fa4bc542b54639b84406f01
+      name: Riposte
+      type: offense
+    - color: red
+      description: Heavenly Strike deals 8 bonus damage and inflicts Fading Snare
+        for 1.2.
+      icon: 47dabb046c0ec4d4c96bde0832713a46
+      name: Royal Descent
+      type: offense
+    winrate: '44.4'
+  - damage: '6.9'
+    disable: '1.0'
+    energy: '3.6'
+    num: 9
+    protection: '1.7'
+    skills:
+    - color: blue
+      description: Dragon Palm hits allow you to recast it for 1.5.
+      icon: d25b4fc0d427d424891492d2b61469a9
+      name: Dragon Mastery
+      type: utility
+    - color: teal
+      description: Heavenly Strike inflicts 50 Weaken for 2.
+      icon: 47dabb046c0ec4d4c96bde0832713a46
+      name: Hawk Dive
+      type: support
+    - color: teal
+      description: Move at 100% movement speed during Parry. Heal nearby allies for
+        8 health when Parry ends.
+      icon: fbfb00ff4fa4bc542b54639b84406f01
+      name: Invigorate
+      type: support
     - color: red
       description: If Parry negates an attack it can be recast to perform a Spinning
         Slash. It deals 10 damage and inflicts Stun for 0.6.
