@@ -312,11 +312,11 @@ builds:
       name: Shadow Shot
       type: survival
     winrate: '45.0'
-  - damage: '6.1'
-    disable: '0.8'
-    energy: '3.6'
+  - damage: '7.1'
+    disable: '1.1'
+    energy: '4.2'
     num: 17
-    protection: '1.2'
+    protection: '1.6'
     skills:
     - color: red
       description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
@@ -335,18 +335,18 @@ builds:
       icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
       name: Delight
       type: survival
-    - color: red
-      description: Disabling Shot hits instantly reload Revolver Shot with 6 ammo.
-      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
-      name: Desperado
-      type: offense
     - color: blue
       description: Revolver Shot hits reduce cooldown of Stealth by 0.25. Cooldown
         can't be reduced during Stealth.
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    winrate: '47.1'
+    - color: pink
+      description: Disabling Shot pierces enemies. Also increases its range by 10.
+      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
+      name: Magic Bullet
+      type: control
+    winrate: '58.8'
   twos:
   - damage: '4.1'
     disable: '0.6'
@@ -520,6 +520,41 @@ builds:
       name: Magic Bullet
       type: control
     winrate: '62.5'
+  - damage: '2.8'
+    disable: '0.6'
+    energy: '2.5'
+    num: 7
+    protection: '0.0'
+    skills:
+    - color: red
+      description: Blast Vault causes your next 4 Revolver Shots to deal 2 bonus damage
+        and grant 2 bonus energy.
+      icon: ead2d318c0e3f8f4793207ab3e12da21
+      name: Blasting Pistols
+      type: offense
+    - color: red
+      description: Snipe deals 5 bonus damage.
+      icon: 20e8f262eca757942bc23d94aa73ab2a
+      name: Deadly Focus
+      type: offense
+    - color: red
+      description: Disabling Shot hits instantly reload Revolver Shot with 6 ammo.
+      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
+      name: Desperado
+      type: offense
+    - color: pink
+      description: Stealth causes you to drop a bomb that explodes after 1, dealing
+        12 damage and inflicting Fading Snare for 1.5 to nearby enemies.
+      icon: c5da66a86ca45a1449a49d55cc92d1fc
+      name: Farewell Present
+      type: control
+    - color: pink
+      description: Increases Stun duration of Snipe by 0.3, and further increases
+        it by 0.5 when fired from Stealth.
+      icon: 20e8f262eca757942bc23d94aa73ab2a
+      name: Surprise Shot
+      type: control
+    winrate: '42.9'
   - damage: '5.9'
     disable: '0.9'
     energy: '4.4'
@@ -590,41 +625,6 @@ builds:
       name: Gunslinger
       type: utility
     winrate: '71.4'
-  - damage: '2.8'
-    disable: '0.6'
-    energy: '2.5'
-    num: 7
-    protection: '0.0'
-    skills:
-    - color: red
-      description: Blast Vault causes your next 4 Revolver Shots to deal 2 bonus damage
-        and grant 2 bonus energy.
-      icon: ead2d318c0e3f8f4793207ab3e12da21
-      name: Blasting Pistols
-      type: offense
-    - color: red
-      description: Snipe deals 5 bonus damage.
-      icon: 20e8f262eca757942bc23d94aa73ab2a
-      name: Deadly Focus
-      type: offense
-    - color: red
-      description: Disabling Shot hits instantly reload Revolver Shot with 6 ammo.
-      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
-      name: Desperado
-      type: offense
-    - color: pink
-      description: Stealth causes you to drop a bomb that explodes after 1, dealing
-        12 damage and inflicting Fading Snare for 1.5 to nearby enemies.
-      icon: c5da66a86ca45a1449a49d55cc92d1fc
-      name: Farewell Present
-      type: control
-    - color: pink
-      description: Increases Stun duration of Snipe by 0.3, and further increases
-        it by 0.5 when fired from Stealth.
-      icon: 20e8f262eca757942bc23d94aa73ab2a
-      name: Surprise Shot
-      type: control
-    winrate: '42.9'
   - damage: '3.0'
     disable: '0.5'
     energy: '2.3'

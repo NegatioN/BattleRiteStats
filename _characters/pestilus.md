@@ -71,6 +71,43 @@ builds:
       name: Swarm Queen
       type: support
     winrate: '52.9'
+  - damage: '3.6'
+    disable: '0.8'
+    energy: '2.7'
+    num: 16
+    protection: '5.4'
+    skills:
+    - color: green
+      description: Hitting an ally with Bloodsucker causes you to deal no damage to
+        self.
+      icon: 991db4d450443e9498711ab935bedf13
+      name: Blood Leecher
+      type: survival
+    - color: pink
+      description: Arachnophobia bounces forward, causing another impact. The radius
+        of the second impact is 15 larger.
+      icon: afd7ecd77cdb3064690b9f0277a774dd
+      name: Egg Carrier
+      type: control
+    - color: grey
+      description: Cooldown is reduced by 3. Swarm also sends out Lesser Moth projectiles
+        dealing 5 damage and healing 3 health to nearby enemies and allies when destroyed.
+        Inflicts Moth and heals self for 1 health.
+      icon: 5e6954b1078f956479cc058588a972f4
+      name: Heart of the Swarm
+      type: mixed
+    - color: red
+      description: Arachnophobia deals 8 damage. Increases Panic duration by 0.5.
+      icon: afd7ecd77cdb3064690b9f0277a774dd
+      name: Spiderling Venom
+      type: offense
+    - color: teal
+      description: Queen spawns with a Swarm Shield that absorbs up to 28 damage and
+        lasts 1.2.
+      icon: 7a1d6423f91ba824d8855aa3e9a42247
+      name: Swarm Queen
+      type: support
+    winrate: '56.2'
   - damage: '3.8'
     disable: '0.3'
     energy: '2.1'
@@ -145,43 +182,6 @@ builds:
       name: Swarm Queen
       type: support
     winrate: '62.5'
-  - damage: '3.6'
-    disable: '0.8'
-    energy: '2.7'
-    num: 16
-    protection: '5.4'
-    skills:
-    - color: green
-      description: Hitting an ally with Bloodsucker causes you to deal no damage to
-        self.
-      icon: 991db4d450443e9498711ab935bedf13
-      name: Blood Leecher
-      type: survival
-    - color: pink
-      description: Arachnophobia bounces forward, causing another impact. The radius
-        of the second impact is 15 larger.
-      icon: afd7ecd77cdb3064690b9f0277a774dd
-      name: Egg Carrier
-      type: control
-    - color: grey
-      description: Cooldown is reduced by 3. Swarm also sends out Lesser Moth projectiles
-        dealing 5 damage and healing 3 health to nearby enemies and allies when destroyed.
-        Inflicts Moth and heals self for 1 health.
-      icon: 5e6954b1078f956479cc058588a972f4
-      name: Heart of the Swarm
-      type: mixed
-    - color: red
-      description: Arachnophobia deals 8 damage. Increases Panic duration by 0.5.
-      icon: afd7ecd77cdb3064690b9f0277a774dd
-      name: Spiderling Venom
-      type: offense
-    - color: teal
-      description: Queen spawns with a Swarm Shield that absorbs up to 28 damage and
-        lasts 1.2.
-      icon: 7a1d6423f91ba824d8855aa3e9a42247
-      name: Swarm Queen
-      type: support
-    winrate: '56.2'
   - damage: '3.9'
     disable: '0.9'
     energy: '2.4'
@@ -330,18 +330,18 @@ builds:
       name: Swarm Queen
       type: support
     winrate: '58.3'
-  - damage: '3.9'
+  - damage: '3.1'
     disable: '0.6'
-    energy: '2.8'
+    energy: '2.2'
     num: 11
-    protection: '4.7'
+    protection: '4.8'
     skills:
-    - color: green
-      description: Hitting an enemy inflicts Moth and spreads it to nearby enemies.
-        Hitting a Queen also spreads Moth to nearby enemies.
-      icon: 991db4d450443e9498711ab935bedf13
-      name: Colony
-      type: survival
+    - color: pink
+      description: Arachnophobia bounces forward, causing another impact. The radius
+        of the second impact is 15 larger.
+      icon: afd7ecd77cdb3064690b9f0277a774dd
+      name: Egg Carrier
+      type: control
     - color: grey
       description: Cooldown is reduced by 3. Swarm also sends out Lesser Moth projectiles
         dealing 5 damage and healing 3 health to nearby enemies and allies when destroyed.
@@ -366,7 +366,7 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Swarm Queen
       type: support
-    winrate: '36.4'
+    winrate: '27.3'
   twos:
   - damage: '3.7'
     disable: '0.9'
@@ -440,41 +440,6 @@ builds:
       name: Swarm Queen
       type: support
     winrate: '87.5'
-  - damage: '4.2'
-    disable: '0.9'
-    energy: '2.1'
-    num: 7
-    protection: '3.2'
-    skills:
-    - color: pink
-      description: Arachnophobia bounces forward, causing another impact. The radius
-        of the second impact is 15 larger.
-      icon: afd7ecd77cdb3064690b9f0277a774dd
-      name: Egg Carrier
-      type: control
-    - color: grey
-      description: Increases the movement speed of the Queen by 40.
-      icon: 7a1d6423f91ba824d8855aa3e9a42247
-      name: Hive Mind
-      type: mixed
-    - color: red
-      description: Hitting an enemy or ally affected by Moth with Bloodsucker deals
-        6 bonus damage to enemies and heals 6 bonus health to allies.
-      icon: 991db4d450443e9498711ab935bedf13
-      name: Insectivore
-      type: offense
-    - color: red
-      description: Arachnophobia deals 8 damage. Increases Panic duration by 0.5.
-      icon: afd7ecd77cdb3064690b9f0277a774dd
-      name: Spiderling Venom
-      type: offense
-    - color: teal
-      description: Queen spawns with a Swarm Shield that absorbs up to 28 damage and
-        lasts 1.2.
-      icon: 7a1d6423f91ba824d8855aa3e9a42247
-      name: Swarm Queen
-      type: support
-    winrate: '71.4'
   - damage: '5.1'
     disable: '0.8'
     energy: '2.3'
@@ -511,6 +476,41 @@ builds:
       name: Sacrifice
       type: offense
     winrate: '85.7'
+  - damage: '4.2'
+    disable: '0.9'
+    energy: '2.1'
+    num: 7
+    protection: '3.2'
+    skills:
+    - color: pink
+      description: Arachnophobia bounces forward, causing another impact. The radius
+        of the second impact is 15 larger.
+      icon: afd7ecd77cdb3064690b9f0277a774dd
+      name: Egg Carrier
+      type: control
+    - color: grey
+      description: Increases the movement speed of the Queen by 40.
+      icon: 7a1d6423f91ba824d8855aa3e9a42247
+      name: Hive Mind
+      type: mixed
+    - color: red
+      description: Hitting an enemy or ally affected by Moth with Bloodsucker deals
+        6 bonus damage to enemies and heals 6 bonus health to allies.
+      icon: 991db4d450443e9498711ab935bedf13
+      name: Insectivore
+      type: offense
+    - color: red
+      description: Arachnophobia deals 8 damage. Increases Panic duration by 0.5.
+      icon: afd7ecd77cdb3064690b9f0277a774dd
+      name: Spiderling Venom
+      type: offense
+    - color: teal
+      description: Queen spawns with a Swarm Shield that absorbs up to 28 damage and
+        lasts 1.2.
+      icon: 7a1d6423f91ba824d8855aa3e9a42247
+      name: Swarm Queen
+      type: support
+    winrate: '71.4'
   - damage: '3.8'
     disable: '0.8'
     energy: '2.7'
@@ -547,42 +547,6 @@ builds:
       name: Spiderling Venom
       type: offense
     winrate: '42.9'
-  - damage: '3.7'
-    disable: '1.1'
-    energy: '2.3'
-    num: 6
-    protection: '5.1'
-    skills:
-    - color: green
-      description: Hitting an ally with Bloodsucker causes you to deal no damage to
-        self.
-      icon: 991db4d450443e9498711ab935bedf13
-      name: Blood Leecher
-      type: survival
-    - color: pink
-      description: Increases Queen panic duration by 0.6 and decreases Queen cooldown
-        by 1.
-      icon: 7a1d6423f91ba824d8855aa3e9a42247
-      name: Broodmother
-      type: control
-    - color: pink
-      description: Arachnophobia bounces forward, causing another impact. The radius
-        of the second impact is 15 larger.
-      icon: afd7ecd77cdb3064690b9f0277a774dd
-      name: Egg Carrier
-      type: control
-    - color: red
-      description: Queen slows nearby enemies movement speed by 20, increasing the
-        slow by 5 for each tick, and deals 10 bonus damage when it explodes.
-      icon: 7a1d6423f91ba824d8855aa3e9a42247
-      name: Sacrifice
-      type: offense
-    - color: red
-      description: Arachnophobia deals 8 damage. Increases Panic duration by 0.5.
-      icon: afd7ecd77cdb3064690b9f0277a774dd
-      name: Spiderling Venom
-      type: offense
-    winrate: '50.0'
   - damage: '3.5'
     disable: '0.5'
     energy: '2.6'
@@ -619,6 +583,42 @@ builds:
       name: Swarm Queen
       type: support
     winrate: '100.0'
+  - damage: '3.7'
+    disable: '1.1'
+    energy: '2.3'
+    num: 6
+    protection: '5.1'
+    skills:
+    - color: green
+      description: Hitting an ally with Bloodsucker causes you to deal no damage to
+        self.
+      icon: 991db4d450443e9498711ab935bedf13
+      name: Blood Leecher
+      type: survival
+    - color: pink
+      description: Increases Queen panic duration by 0.6 and decreases Queen cooldown
+        by 1.
+      icon: 7a1d6423f91ba824d8855aa3e9a42247
+      name: Broodmother
+      type: control
+    - color: pink
+      description: Arachnophobia bounces forward, causing another impact. The radius
+        of the second impact is 15 larger.
+      icon: afd7ecd77cdb3064690b9f0277a774dd
+      name: Egg Carrier
+      type: control
+    - color: red
+      description: Queen slows nearby enemies movement speed by 20, increasing the
+        slow by 5 for each tick, and deals 10 bonus damage when it explodes.
+      icon: 7a1d6423f91ba824d8855aa3e9a42247
+      name: Sacrifice
+      type: offense
+    - color: red
+      description: Arachnophobia deals 8 damage. Increases Panic duration by 0.5.
+      icon: afd7ecd77cdb3064690b9f0277a774dd
+      name: Spiderling Venom
+      type: offense
+    winrate: '50.0'
   - damage: '5.4'
     disable: '1.0'
     energy: '2.1'
@@ -657,41 +657,42 @@ builds:
       name: Swarm Queen
       type: support
     winrate: '50.0'
-  - damage: '3.9'
-    disable: '0.8'
-    energy: '2.1'
+  - damage: '4.6'
+    disable: '0.9'
+    energy: '2.9'
     num: 4
-    protection: '4.1'
+    protection: '4.4'
     skills:
     - color: green
-      description: Hitting an ally with Bloodsucker causes you to deal no damage to
-        self.
+      description: Hitting an enemy inflicts Moth and spreads it to nearby enemies.
+        Hitting a Queen also spreads Moth to nearby enemies.
       icon: 991db4d450443e9498711ab935bedf13
-      name: Blood Leecher
+      name: Colony
       type: survival
     - color: grey
-      description: Increases Infest duration by 0.5. Drains 10 health from enemies
-        and heals allies for 10 health over the duration.
-      icon: c9f7e2e324bbed3469cbe356da833c9b
-      name: Defiler
+      description: Cooldown is reduced by 3. Swarm also sends out Lesser Moth projectiles
+        dealing 5 damage and healing 3 health to nearby enemies and allies when destroyed.
+        Inflicts Moth and heals self for 1 health.
+      icon: 5e6954b1078f956479cc058588a972f4
+      name: Heart of the Swarm
       type: mixed
-    - color: pink
-      description: Arachnophobia bounces forward, causing another impact. The radius
-        of the second impact is 15 larger.
-      icon: afd7ecd77cdb3064690b9f0277a774dd
-      name: Egg Carrier
-      type: control
-    - color: blue
-      description: Allows you to Infest an additional target.
-      icon: c9f7e2e324bbed3469cbe356da833c9b
-      name: Scourge
-      type: utility
-    - color: teal
-      description: Queen spawns with a Swarm Shield that absorbs up to 28 damage and
-        lasts 1.2.
+    - color: grey
+      description: Increases the movement speed of the Queen by 40.
       icon: 7a1d6423f91ba824d8855aa3e9a42247
-      name: Swarm Queen
-      type: support
+      name: Hive Mind
+      type: mixed
+    - color: yellow
+      description: Your movement speed increases by 6 for each enemy or ally affected
+        by Moth. Stacks up to 3 times.
+      icon: f561a4d171334264d8f0eac3e9eb6d24
+      name: Overlord
+      type: mobility
+    - color: red
+      description: Queen slows nearby enemies movement speed by 20, increasing the
+        slow by 5 for each tick, and deals 10 bonus damage when it explodes.
+      icon: 7a1d6423f91ba824d8855aa3e9a42247
+      name: Sacrifice
+      type: offense
     winrate: '75.0'
   - damage: '3.7'
     disable: '1.2'

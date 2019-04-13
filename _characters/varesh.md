@@ -497,6 +497,41 @@ builds:
       name: Ruin
       type: offense
     winrate: '25.0'
+  - damage: '6.3'
+    disable: '0.5'
+    energy: '4.3'
+    num: 3
+    protection: '2.1'
+    skills:
+    - color: grey
+      description: Inhibitor's Guard increases movement speed by 25 and damage output
+        by 15.
+      icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Celerity
+      type: mixed
+    - color: red
+      description: Ability charges of Shatter increase to 3 from 2, and Shatter deals
+        2 bonus damage.
+      icon: d6c97da35fc19134881cb5a4c44e3912
+      name: Fracture
+      type: offense
+    - color: yellow
+      description: Shatter can be cast while moving at 60 speed.
+      icon: d6c97da35fc19134881cb5a4c44e3912
+      name: Inhibitor
+      type: mobility
+    - color: pink
+      description: Increases the Silence duration when consuming Judgement from 0.5
+        to 1.
+      icon: c2525970f8ab5574191da4938fa5619b
+      name: Mute
+      type: control
+    - color: red
+      description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
+      icon: 2771f14010b802143b0b4d5fc8e4bb9c
+      name: Ruin
+      type: offense
+    winrate: '33.3'
   - damage: '5.4'
     disable: '0.3'
     energy: '3.4'
@@ -566,41 +601,6 @@ builds:
       name: Ruin
       type: offense
     winrate: '100.0'
-  - damage: '6.3'
-    disable: '0.5'
-    energy: '4.3'
-    num: 3
-    protection: '2.1'
-    skills:
-    - color: grey
-      description: Inhibitor's Guard increases movement speed by 25 and damage output
-        by 15.
-      icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Celerity
-      type: mixed
-    - color: red
-      description: Ability charges of Shatter increase to 3 from 2, and Shatter deals
-        2 bonus damage.
-      icon: d6c97da35fc19134881cb5a4c44e3912
-      name: Fracture
-      type: offense
-    - color: yellow
-      description: Shatter can be cast while moving at 60 speed.
-      icon: d6c97da35fc19134881cb5a4c44e3912
-      name: Inhibitor
-      type: mobility
-    - color: pink
-      description: Increases the Silence duration when consuming Judgement from 0.5
-        to 1.
-      icon: c2525970f8ab5574191da4938fa5619b
-      name: Mute
-      type: control
-    - color: red
-      description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
-      icon: 2771f14010b802143b0b4d5fc8e4bb9c
-      name: Ruin
-      type: offense
-    winrate: '33.3'
   - damage: '5.8'
     disable: '0.3'
     energy: '3.1'
@@ -638,9 +638,9 @@ builds:
     winrate: '66.7'
   - damage: '4.9'
     disable: '0.3'
-    energy: '2.7'
+    energy: '3.6'
     num: 2
-    protection: '1.4'
+    protection: '1.9'
     skills:
     - color: red
       description: Hand of Judgement deals 4 bonus damage and hitting an enemy reduces
@@ -659,22 +659,24 @@ builds:
       icon: d6c97da35fc19134881cb5a4c44e3912
       name: Inhibitor
       type: mobility
-    - color: green
-      description: Countering an attack with Wuju allows you to recast it for 2.5.
-      icon: 2771f14010b802143b0b4d5fc8e4bb9c
-      name: Return
-      type: survival
-    - color: teal
-      description: Inhibitor's Guard absorbs 12 more damage.
-      icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Wonder
-      type: support
+    - color: grey
+      description: Reduces cooldown of Kinetic Energy by 3. Inflicts Corruption on
+        enemies hit.
+      icon: c38b2b35320a6894f98fd0814e08ea87
+      name: Kinetic Corruption
+      type: mixed
+    - color: pink
+      description: Increases the Silence duration when consuming Judgement from 0.5
+        to 1.
+      icon: c2525970f8ab5574191da4938fa5619b
+      name: Mute
+      type: control
     winrate: '50.0'
-  - damage: '7.6'
-    disable: '0.9'
-    energy: '3.2'
+  - damage: '6.6'
+    disable: '0.7'
+    energy: '4.1'
     num: 2
-    protection: '2.0'
+    protection: '2.4'
     skills:
     - color: yellow
       description: Shatter can be cast while moving at 60 speed.
@@ -698,12 +700,14 @@ builds:
       icon: 2771f14010b802143b0b4d5fc8e4bb9c
       name: Return
       type: survival
-    - color: red
-      description: ^2Wuju^- inflicts ^2Judgement^- on enemies struck.
-      icon: 2771f14010b802143b0b4d5fc8e4bb9c
-      name: Ruin
-      type: offense
-    winrate: '100.0'
+    - color: pink
+      description: Applying Inhibitor's Guard consumes Corruption on nearby enemies.
+        Each Corruption consumed this way inflicts Fading Snare for 1.5 and heals
+        the shielded ally for 12 health instead of healing you.
+      icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Zeal
+      type: control
+    winrate: '50.0'
 compos:
   threes:
   - hero_names:
