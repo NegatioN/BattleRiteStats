@@ -312,11 +312,11 @@ builds:
       name: Shadow Shot
       type: survival
     winrate: '45.0'
-  - damage: '7.1'
-    disable: '1.1'
-    energy: '4.2'
+  - damage: '6.1'
+    disable: '0.8'
+    energy: '3.6'
     num: 17
-    protection: '1.6'
+    protection: '1.2'
     skills:
     - color: red
       description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
@@ -335,18 +335,18 @@ builds:
       icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
       name: Delight
       type: survival
+    - color: red
+      description: Disabling Shot hits instantly reload Revolver Shot with 6 ammo.
+      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
+      name: Desperado
+      type: offense
     - color: blue
       description: Revolver Shot hits reduce cooldown of Stealth by 0.25. Cooldown
         can't be reduced during Stealth.
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
-    - color: pink
-      description: Disabling Shot pierces enemies. Also increases its range by 10.
-      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
-      name: Magic Bullet
-      type: control
-    winrate: '58.8'
+    winrate: '47.1'
   twos:
   - damage: '4.1'
     disable: '0.6'
