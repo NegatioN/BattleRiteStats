@@ -209,41 +209,6 @@ builds:
       name: The Big Stage
       type: mixed
     winrate: '33.3'
-  - damage: '3.6'
-    disable: '0.4'
-    energy: '3.2'
-    num: 8
-    protection: '5.5'
-    skills:
-    - color: red
-      description: An ally traveling through Portal resets the cooldown of Grand Conjuration.
-        Only the first ally traveling through resets the cooldown.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Ace up the Sleeve
-      type: offense
-    - color: blue
-      description: Allows Grand Conjuration to bounce once upon wall hit and increases
-        its max range by 15. Can still only hit once per enemy.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Arcane Shenanigans
-      type: utility
-    - color: teal
-      description: Hearts restores 4 health over the duration.
-      icon: 144efc709ac628542aee319b14932b2c
-      name: Heart Restoration
-      type: support
-    - color: grey
-      description: Your first Trick Shot after using Mirror Image includes an additional
-        card for both you and your illusion.
-      icon: 2632a24f2167af14f9869abb401dd67f
-      name: Stacked Deck
-      type: mixed
-    - color: grey
-      description: Increases Sheep Trick radius by 10 and reduces cooldown by 1.
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: The Big Stage
-      type: mixed
-    winrate: '50.0'
   - damage: '4.8'
     disable: '0.3'
     energy: '3.3'
@@ -280,6 +245,41 @@ builds:
       name: Stacked Deck
       type: mixed
     winrate: '62.5'
+  - damage: '3.6'
+    disable: '0.4'
+    energy: '3.2'
+    num: 8
+    protection: '5.5'
+    skills:
+    - color: red
+      description: An ally traveling through Portal resets the cooldown of Grand Conjuration.
+        Only the first ally traveling through resets the cooldown.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Ace up the Sleeve
+      type: offense
+    - color: blue
+      description: Allows Grand Conjuration to bounce once upon wall hit and increases
+        its max range by 15. Can still only hit once per enemy.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Arcane Shenanigans
+      type: utility
+    - color: teal
+      description: Hearts restores 4 health over the duration.
+      icon: 144efc709ac628542aee319b14932b2c
+      name: Heart Restoration
+      type: support
+    - color: grey
+      description: Your first Trick Shot after using Mirror Image includes an additional
+        card for both you and your illusion.
+      icon: 2632a24f2167af14f9869abb401dd67f
+      name: Stacked Deck
+      type: mixed
+    - color: grey
+      description: Increases Sheep Trick radius by 10 and reduces cooldown by 1.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: The Big Stage
+      type: mixed
+    winrate: '50.0'
   - damage: '3.1'
     disable: '0.2'
     energy: '2.3'
@@ -315,23 +315,23 @@ builds:
       name: Stacked Deck
       type: mixed
     winrate: '28.6'
-  - damage: '3.5'
+  - damage: '3.9'
     disable: '0.4'
-    energy: '3.4'
+    energy: '3.0'
     num: 7
-    protection: '5.3'
+    protection: '6.1'
     skills:
-    - color: blue
-      description: Allows Grand Conjuration to bounce once upon wall hit and increases
-        its max range by 15. Can still only hit once per enemy.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Arcane Shenanigans
-      type: utility
     - color: teal
       description: Hearts restores 4 health over the duration.
       icon: 144efc709ac628542aee319b14932b2c
       name: Heart Restoration
       type: support
+    - color: blue
+      description: Increase the health of Mirror Image illusions by 12 and duration
+        by 2.
+      icon: 2632a24f2167af14f9869abb401dd67f
+      name: Phantasmagoria
+      type: utility
     - color: teal
       description: Grants self or allies traveling through your Portal a shield that
         absorbs up to 12 damage for 3.
@@ -421,6 +421,75 @@ builds:
       name: The Big Stage
       type: mixed
     winrate: '66.7'
+  - damage: '4.3'
+    disable: '0.6'
+    energy: '3.1'
+    num: 2
+    protection: '2.0'
+    skills:
+    - color: grey
+      description: Grand Conjuration inflicts a 1.7 Fading Snare.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Awestruck
+      type: mixed
+    - color: teal
+      description: Hearts restores 4 health over the duration.
+      icon: 144efc709ac628542aee319b14932b2c
+      name: Heart Restoration
+      type: support
+    - color: teal
+      description: Grants self or allies traveling through your Portal a shield that
+        absorbs up to 12 damage for 3.
+      icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Showdown
+      type: support
+    - color: grey
+      description: Your first Trick Shot after using Mirror Image includes an additional
+        card for both you and your illusion.
+      icon: 2632a24f2167af14f9869abb401dd67f
+      name: Stacked Deck
+      type: mixed
+    - color: grey
+      description: Increases Sheep Trick radius by 10 and reduces cooldown by 1.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: The Big Stage
+      type: mixed
+    winrate: '50.0'
+  - damage: '4.7'
+    disable: '0.3'
+    energy: '3.1'
+    num: 2
+    protection: '3.2'
+    skills:
+    - color: blue
+      description: Allows Grand Conjuration to bounce once upon wall hit and increases
+        its max range by 15. Can still only hit once per enemy.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Arcane Shenanigans
+      type: utility
+    - color: teal
+      description: Hearts restores 4 health over the duration.
+      icon: 144efc709ac628542aee319b14932b2c
+      name: Heart Restoration
+      type: support
+    - color: pink
+      description: Duration of Sheep Trick is increased by 0.5 and is further extended
+        by 0.5 if the target is inflicted with Arcane Catalyst.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: Lasting Form
+      type: control
+    - color: grey
+      description: Your first Trick Shot after using Mirror Image includes an additional
+        card for both you and your illusion.
+      icon: 2632a24f2167af14f9869abb401dd67f
+      name: Stacked Deck
+      type: mixed
+    - color: grey
+      description: Increases Sheep Trick radius by 10 and reduces cooldown by 1.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: The Big Stage
+      type: mixed
+    winrate: '100.0'
   - damage: '3.8'
     disable: '0.4'
     energy: '3.1'
@@ -457,6 +526,40 @@ builds:
       name: Stacked Deck
       type: mixed
     winrate: '50.0'
+  - damage: '3.8'
+    disable: '0.3'
+    energy: '2.9'
+    num: 2
+    protection: '3.7'
+    skills:
+    - color: blue
+      description: Allows Grand Conjuration to bounce once upon wall hit and increases
+        its max range by 15. Can still only hit once per enemy.
+      icon: a970261549d4e2b4c923db1944ac2e4b
+      name: Arcane Shenanigans
+      type: utility
+    - color: yellow
+      description: Increases cast range and teleport range of Portal by 20.
+      icon: af5ff3eb2bad4b04a9c6dd30739068e6
+      name: Around the World
+      type: mobility
+    - color: teal
+      description: Hearts restores 4 health over the duration.
+      icon: 144efc709ac628542aee319b14932b2c
+      name: Heart Restoration
+      type: support
+    - color: grey
+      description: Your first Trick Shot after using Mirror Image includes an additional
+        card for both you and your illusion.
+      icon: 2632a24f2167af14f9869abb401dd67f
+      name: Stacked Deck
+      type: mixed
+    - color: grey
+      description: Increases Sheep Trick radius by 10 and reduces cooldown by 1.
+      icon: 1180e87d69492d442afaa79cbba36746
+      name: The Big Stage
+      type: mixed
+    winrate: '100.0'
   - damage: '4.2'
     disable: '0.2'
     energy: '3.3'
@@ -530,18 +633,12 @@ builds:
       name: The Big Stage
       type: mixed
     winrate: '50.0'
-  - damage: '4.7'
-    disable: '0.3'
-    energy: '3.1'
-    num: 2
-    protection: '3.2'
+  - damage: '4.4'
+    disable: '0.4'
+    energy: '2.4'
+    num: 1
+    protection: '2.7'
     skills:
-    - color: blue
-      description: Allows Grand Conjuration to bounce once upon wall hit and increases
-        its max range by 15. Can still only hit once per enemy.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Arcane Shenanigans
-      type: utility
     - color: teal
       description: Hearts restores 4 health over the duration.
       icon: 144efc709ac628542aee319b14932b2c
@@ -553,68 +650,12 @@ builds:
       icon: 1180e87d69492d442afaa79cbba36746
       name: Lasting Form
       type: control
-    - color: grey
-      description: Your first Trick Shot after using Mirror Image includes an additional
-        card for both you and your illusion.
-      icon: 2632a24f2167af14f9869abb401dd67f
-      name: Stacked Deck
-      type: mixed
-    - color: grey
-      description: Increases Sheep Trick radius by 10 and reduces cooldown by 1.
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: The Big Stage
-      type: mixed
-    winrate: '100.0'
-  - damage: '3.8'
-    disable: '0.3'
-    energy: '2.9'
-    num: 2
-    protection: '3.7'
-    skills:
     - color: blue
-      description: Allows Grand Conjuration to bounce once upon wall hit and increases
-        its max range by 15. Can still only hit once per enemy.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Arcane Shenanigans
-      type: utility
-    - color: yellow
-      description: Increases cast range and teleport range of Portal by 20.
-      icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Around the World
-      type: mobility
-    - color: teal
-      description: Hearts restores 4 health over the duration.
-      icon: 144efc709ac628542aee319b14932b2c
-      name: Heart Restoration
-      type: support
-    - color: grey
-      description: Your first Trick Shot after using Mirror Image includes an additional
-        card for both you and your illusion.
+      description: Increase the health of Mirror Image illusions by 12 and duration
+        by 2.
       icon: 2632a24f2167af14f9869abb401dd67f
-      name: Stacked Deck
-      type: mixed
-    - color: grey
-      description: Increases Sheep Trick radius by 10 and reduces cooldown by 1.
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: The Big Stage
-      type: mixed
-    winrate: '100.0'
-  - damage: '4.3'
-    disable: '0.6'
-    energy: '3.1'
-    num: 2
-    protection: '2.0'
-    skills:
-    - color: grey
-      description: Grand Conjuration inflicts a 1.7 Fading Snare.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Awestruck
-      type: mixed
-    - color: teal
-      description: Hearts restores 4 health over the duration.
-      icon: 144efc709ac628542aee319b14932b2c
-      name: Heart Restoration
-      type: support
+      name: Phantasmagoria
+      type: utility
     - color: teal
       description: Grants self or allies traveling through your Portal a shield that
         absorbs up to 12 damage for 3.
@@ -626,59 +667,14 @@ builds:
         card for both you and your illusion.
       icon: 2632a24f2167af14f9869abb401dd67f
       name: Stacked Deck
-      type: mixed
-    - color: grey
-      description: Increases Sheep Trick radius by 10 and reduces cooldown by 1.
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: The Big Stage
-      type: mixed
-    winrate: '50.0'
-  - damage: '3.6'
-    disable: '0.4'
-    energy: '2.8'
-    num: 1
-    protection: '3.5'
-    skills:
-    - color: blue
-      description: Allows Grand Conjuration to bounce once upon wall hit and increases
-        its max range by 15. Can still only hit once per enemy.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Arcane Shenanigans
-      type: utility
-    - color: grey
-      description: Grand Conjuration inflicts a 1.7 Fading Snare.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Awestruck
-      type: mixed
-    - color: teal
-      description: Hearts restores 4 health over the duration.
-      icon: 144efc709ac628542aee319b14932b2c
-      name: Heart Restoration
-      type: support
-    - color: teal
-      description: Grants self or allies traveling through your Portal a shield that
-        absorbs up to 12 damage for 3.
-      icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Showdown
-      type: support
-    - color: grey
-      description: Increases Sheep Trick radius by 10 and reduces cooldown by 1.
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: The Big Stage
       type: mixed
     winrate: '0.0'
-  - damage: '1.7'
-    disable: '0.3'
-    energy: '1.9'
+  - damage: '2.3'
+    disable: '0.1'
+    energy: '2.4'
     num: 1
-    protection: '2.0'
+    protection: '4.7'
     skills:
-    - color: red
-      description: An ally traveling through Portal resets the cooldown of Grand Conjuration.
-        Only the first ally traveling through resets the cooldown.
-      icon: a970261549d4e2b4c923db1944ac2e4b
-      name: Ace up the Sleeve
-      type: offense
     - color: blue
       description: Allows Grand Conjuration to bounce once upon wall hit and increases
         its max range by 15. Can still only hit once per enemy.
@@ -690,17 +686,23 @@ builds:
       icon: af5ff3eb2bad4b04a9c6dd30739068e6
       name: Around the World
       type: mobility
-    - color: yellow
-      description: Teleporting yourself or an ally with Portal grants target a 60
-        Fading Haste for 2.
+    - color: teal
+      description: Hearts restores 4 health over the duration.
+      icon: 144efc709ac628542aee319b14932b2c
+      name: Heart Restoration
+      type: support
+    - color: teal
+      description: Grants self or allies traveling through your Portal a shield that
+        absorbs up to 12 damage for 3.
       icon: af5ff3eb2bad4b04a9c6dd30739068e6
-      name: Late to the Show
-      type: mobility
-    - color: red
-      description: When Sheep Form ends targets are inflicted by Arcane Catalyst.
-      icon: 1180e87d69492d442afaa79cbba36746
-      name: Lead Astray
-      type: offense
+      name: Showdown
+      type: support
+    - color: blue
+      description: Grand Illusion receives a 3 shield when conjured, absorbing up
+        to 20 damage and throws one extra card when copying Trick Shot.
+      icon: 4ac237c3c5acfcc4abca26dcc26854ec
+      name: Three of a Kind
+      type: utility
     winrate: '0.0'
 compos:
   threes:
