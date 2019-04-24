@@ -297,23 +297,12 @@ builds:
       name: Rook Smash
       type: offense
     winrate: '81.8'
-  - damage: '5.4'
-    disable: '1.0'
-    energy: '3.2'
+  - damage: '6.5'
+    disable: '1.1'
+    energy: '3.1'
     num: 20
-    protection: '1.4'
+    protection: '2.1'
     skills:
-    - color: red
-      description: Boulder Toss inflicts Armor Break.
-      icon: ec50e13a62a38194186bf0763d8ae951
-      name: Crumble
-      type: offense
-    - color: yellow
-      description: Reduces the cooldown of Rush by 1. Hitting an enemy further reduces
-        cooldown by 1.
-      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
-      name: Endurance
-      type: mobility
     - color: red
       description: Rush hits cause you to gain Berserk for 1.5.
       icon: 0cfff8a481a64fd499bfaeb3da1cbca5
@@ -329,7 +318,17 @@ builds:
       icon: df78f943fca96314181fdf1827f825db
       name: Madness
       type: mobility
-    winrate: '60.0'
+    - color: yellow
+      description: Pummel hits reduce cooldown of Rush by 0.4.
+      icon: 037a9d14b1a74c249a0bb90af0237a7f
+      name: Pummel Rush
+      type: mobility
+    - color: red
+      description: During Berserk, Rush cast time and cooldown reduces by 50.
+      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
+      name: Raging Bull
+      type: offense
+    winrate: '45.0'
   twos:
   - damage: '6.4'
     disable: '1.2'

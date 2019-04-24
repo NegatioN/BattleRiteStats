@@ -135,6 +135,39 @@ builds:
       name: Weakening Toxin
       type: mixed
     winrate: '36.8'
+  - damage: '3.7'
+    disable: '0.9'
+    energy: '2.9'
+    num: 18
+    protection: '5.8'
+    skills:
+    - color: yellow
+      description: ^2Barrier^- increases movement speed by 33.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
+      name: Alacrity
+      type: mobility
+    - color: teal
+      description: Healing Potion heals other allies for 4 bonus health.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Companion Potion
+      type: support
+    - color: grey
+      description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
+        10 damage when removing a buff.
+      icon: d0c4449b33eef2e4ca2cfa8900910041
+      name: Potency
+      type: mixed
+    - color: red
+      description: ^2Revitalize^- increases damage output by 12.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Stimulant
+      type: offense
+    - color: grey
+      description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
+      icon: 948d85cf5c36f504f8b964acde19ed3e
+      name: Weakening Toxin
+      type: mixed
+    winrate: '61.1'
   - damage: '3.3'
     disable: '0.9'
     energy: '2.8'
@@ -169,72 +202,6 @@ builds:
       name: Stimulant
       type: offense
     winrate: '33.3'
-  - damage: '3.7'
-    disable: '0.9'
-    energy: '2.9'
-    num: 18
-    protection: '5.8'
-    skills:
-    - color: yellow
-      description: ^2Barrier^- increases movement speed by 33.
-      icon: 46e144a65c818c04eb3d00a21cf513b3
-      name: Alacrity
-      type: mobility
-    - color: teal
-      description: Healing Potion heals other allies for 4 bonus health.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Companion Potion
-      type: support
-    - color: grey
-      description: ^2Clarity Potion^- heals 10 health when removing a debuff and deals
-        10 damage when removing a buff.
-      icon: d0c4449b33eef2e4ca2cfa8900910041
-      name: Potency
-      type: mixed
-    - color: red
-      description: ^2Revitalize^- increases damage output by 12.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Stimulant
-      type: offense
-    - color: grey
-      description: Toxic reduces incoming healing by 20 and outgoing damage by 10.
-      icon: 948d85cf5c36f504f8b964acde19ed3e
-      name: Weakening Toxin
-      type: mixed
-    winrate: '61.1'
-  - damage: '2.9'
-    disable: '1.1'
-    energy: '3.0'
-    num: 17
-    protection: '5.4'
-    skills:
-    - color: pink
-      description: Clarity Potion inflicts 30 Snare for 3.
-      icon: d0c4449b33eef2e4ca2cfa8900910041
-      name: Adhesive Component
-      type: control
-    - color: teal
-      description: Healing Potion heals other allies for 4 bonus health.
-      icon: 940ddc80c69eead49bfc8a5066a9afc5
-      name: Companion Potion
-      type: support
-    - color: pink
-      description: Reduces the cooldown of Panic Flask by 1.5. Direct hits further
-        reduce the cooldown by 1.5.
-      icon: e45c9dbf4c532ca4c8c8dfca14798771
-      name: Hysteria
-      type: control
-    - color: teal
-      description: Barrier absorbs 8 bonus damage and duration increases by 0.5.
-      icon: 46e144a65c818c04eb3d00a21cf513b3
-      name: Siege Barrier
-      type: support
-    - color: green
-      description: Toxic heals you for 9 health over 6.
-      icon: 948d85cf5c36f504f8b964acde19ed3e
-      name: Vampiric Toxin
-      type: survival
-    winrate: '35.3'
   - damage: '3.5'
     disable: '1.0'
     energy: '3.1'
@@ -268,6 +235,39 @@ builds:
       icon: 948d85cf5c36f504f8b964acde19ed3e
       name: Weakening Toxin
       type: mixed
+    winrate: '35.3'
+  - damage: '2.9'
+    disable: '1.1'
+    energy: '3.0'
+    num: 17
+    protection: '5.4'
+    skills:
+    - color: pink
+      description: Clarity Potion inflicts 30 Snare for 3.
+      icon: d0c4449b33eef2e4ca2cfa8900910041
+      name: Adhesive Component
+      type: control
+    - color: teal
+      description: Healing Potion heals other allies for 4 bonus health.
+      icon: 940ddc80c69eead49bfc8a5066a9afc5
+      name: Companion Potion
+      type: support
+    - color: pink
+      description: Reduces the cooldown of Panic Flask by 1.5. Direct hits further
+        reduce the cooldown by 1.5.
+      icon: e45c9dbf4c532ca4c8c8dfca14798771
+      name: Hysteria
+      type: control
+    - color: teal
+      description: Barrier absorbs 8 bonus damage and duration increases by 0.5.
+      icon: 46e144a65c818c04eb3d00a21cf513b3
+      name: Siege Barrier
+      type: support
+    - color: green
+      description: Toxic heals you for 9 health over 6.
+      icon: 948d85cf5c36f504f8b964acde19ed3e
+      name: Vampiric Toxin
+      type: survival
     winrate: '35.3'
   - damage: '3.9'
     disable: '0.9'
