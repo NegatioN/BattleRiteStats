@@ -545,6 +545,40 @@ builds:
       name: Nether Chains
       type: mixed
     winrate: '66.7'
+  - damage: '5.1'
+    disable: '0.6'
+    energy: '2.4'
+    num: 3
+    protection: '2.1'
+    skills:
+    - color: red
+      description: Shadow Bolt inflicts Amplify, increasing all damage the target
+        receives by 20 for 4.
+      icon: 2a54393ededda834a8070123fbc265cc
+      name: Affliction
+      type: offense
+    - color: pink
+      description: Claw of the Wicked inflicts both Root for 1.2 and Curse.
+      icon: 13fbbdb9e7cbde8429053e33e1022fa8
+      name: Cold Embrace
+      type: control
+    - color: yellow
+      description: Sinister Strike gains 1 ability charge, but increases its cooldown
+        by 4.
+      icon: fe85f5b940cf1ff44825f090b2bb34ce
+      name: Demonic Hunt
+      type: mobility
+    - color: red
+      description: Charged Defiled Blade deals 5 bonus damage.
+      icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Grim Edge
+      type: offense
+    - color: grey
+      description: Reduces your weapon charge cooldown by 30.
+      icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Reaper
+      type: mixed
+    winrate: '33.3'
   - damage: '6.0'
     disable: '0.8'
     energy: '3.1'
@@ -611,73 +645,41 @@ builds:
       name: Shadow Fury
       type: offense
     winrate: '66.7'
-  - damage: '5.1'
-    disable: '0.6'
-    energy: '2.4'
-    num: 3
-    protection: '2.1'
-    skills:
-    - color: red
-      description: Shadow Bolt inflicts Amplify, increasing all damage the target
-        receives by 20 for 4.
-      icon: 2a54393ededda834a8070123fbc265cc
-      name: Affliction
-      type: offense
-    - color: pink
-      description: Claw of the Wicked inflicts both Root for 1.2 and Curse.
-      icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Cold Embrace
-      type: control
-    - color: yellow
-      description: Sinister Strike gains 1 ability charge, but increases its cooldown
-        by 4.
-      icon: fe85f5b940cf1ff44825f090b2bb34ce
-      name: Demonic Hunt
-      type: mobility
-    - color: red
-      description: Charged Defiled Blade deals 5 bonus damage.
-      icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Grim Edge
-      type: offense
-    - color: grey
-      description: Reduces your weapon charge cooldown by 30.
-      icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Reaper
-      type: mixed
-    winrate: '33.3'
-  - damage: '6.0'
-    disable: '0.6'
-    energy: '4.1'
+  - damage: '5.2'
+    disable: '0.8'
+    energy: '2.9'
     num: 2
-    protection: '1.6'
+    protection: '1.8'
     skills:
-    - color: red
-      description: Shadow Bolts deal 6 bonus damage.
-      icon: 2a54393ededda834a8070123fbc265cc
-      name: Agony
-      type: offense
     - color: grey
       description: Claw of the Wicked cooldown is reduced by 1.5 and hitting a target
         further reduces its cooldown by 1.5.
       icon: 13fbbdb9e7cbde8429053e33e1022fa8
       name: Death Grip
       type: mixed
-    - color: red
-      description: Charged Defiled Blade deals 5 bonus damage.
-      icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Grim Edge
-      type: offense
-    - color: grey
-      description: Sinister Strike deals 6 bonus damage and inflicts Curse.
+    - color: yellow
+      description: Sinister Strike gains 1 ability charge, but increases its cooldown
+        by 4.
       icon: fe85f5b940cf1ff44825f090b2bb34ce
-      name: Nether Chains
-      type: mixed
+      name: Demonic Hunt
+      type: mobility
+    - color: green
+      description: Reduces cooldown of Consume by 1. Negating attacks further reduces
+        the cooldown by {Can't represent GameValueList}s.
+      icon: c84fd648ae9f196428ba4e9b3bc42d1e
+      name: Gorge
+      type: survival
     - color: red
       description: Claw of the Wicked deals 3 bonus damage. Increases range by 12.
       icon: 13fbbdb9e7cbde8429053e33e1022fa8
       name: Tenacious Demon
       type: offense
-    winrate: '100.0'
+    - color: pink
+      description: Increases Silence duration from 0.3 to 0.8.
+      icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Wicked Strike
+      type: control
+    winrate: '0.0'
 compos:
   threes:
   - hero_names:
