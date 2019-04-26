@@ -620,11 +620,11 @@ builds:
       name: Vengeful Spirit
       type: control
     winrate: '100.0'
-  - damage: '4.3'
-    disable: '0.8'
-    energy: '3.0'
+  - damage: '5.0'
+    disable: '0.6'
+    energy: '2.3'
     num: 2
-    protection: '3.9'
+    protection: '4.8'
     skills:
     - color: green
       description: Ghost Wolf returns to you afterward, granting you 5 energy and
@@ -643,31 +643,23 @@ builds:
       icon: 510f65762365d8a47815877780d9227d
       name: Shimmering Bond
       type: support
-    - color: pink
-      description: Reduces cooldown of Spirit Rift by 1. Spell Block interrupts further
-        reduce cooldown by 1.
-      icon: b6b9a08408c476c4a9f91eba6dacbb52
-      name: Soul Essence
-      type: control
-    - color: yellow
-      description: Spirit Rift increases your movement speed by 40 for 3 when it inflicts
-        Spell Block.
-      icon: b6b9a08408c476c4a9f91eba6dacbb52
-      name: Spiritual Wind
-      type: mobility
-    winrate: '0.0'
-  - damage: '3.7'
-    disable: '1.5'
-    energy: '3.2'
-    num: 2
-    protection: '3.4'
-    skills:
-    - color: green
-      description: Ghost Wolf returns to you afterward, granting you 5 energy and
-        healing you for 12 health.
+    - color: red
+      description: Increases Ghost Wolf range by 10. The first hit deals 4 bonus damage.
       icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Affection
-      type: survival
+      name: Silver Fang
+      type: offense
+    - color: teal
+      description: Other Side causes your ally to become invisible for 1.5.
+      icon: dfc86226d7b2a6d438dad7dfca7a0d52
+      name: Specter
+      type: support
+    winrate: '100.0'
+  - damage: '3.2'
+    disable: '1.6'
+    energy: '2.1'
+    num: 2
+    protection: '2.5'
+    skills:
     - color: pink
       description: The first Ghost Wolf hit inflicts Root for 1.2.
       icon: 70d64cab20af264438c599ba3ecdd2c4
@@ -680,17 +672,22 @@ builds:
       name: Into the Realm
       type: survival
     - color: teal
-      description: Ally affected by ^2Spirit Guide^- takes 33 less damage and enemy
-        affected by ^2Spirit Guide^- takes 20 more damage.
-      icon: 7bd09f2f761edd0438938579a6942e82
-      name: Phantasm
+      description: Increases healing shared by Spirit Link from 50 to 80.
+      icon: 510f65762365d8a47815877780d9227d
+      name: Shimmering Bond
       type: support
+    - color: yellow
+      description: Spirit Rift increases your movement speed by 40 for 3 when it inflicts
+        Spell Block.
+      icon: b6b9a08408c476c4a9f91eba6dacbb52
+      name: Spiritual Wind
+      type: mobility
     - color: pink
       description: Teleporting to Spirit Guide resets the cooldown of Spirit Rift.
       icon: 7bd09f2f761edd0438938579a6942e82
       name: Vengeful Spirit
       type: control
-    winrate: '50.0'
+    winrate: '0.0'
 compos:
   threes:
   - hero_names:
