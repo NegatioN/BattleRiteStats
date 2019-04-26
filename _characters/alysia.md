@@ -35,40 +35,6 @@ builds:
       name: Vandalism
       type: offense
     winrate: '65.6'
-  - damage: '7.5'
-    disable: '0.7'
-    energy: '3.4'
-    num: 26
-    protection: '1.5'
-    skills:
-    - color: yellow
-      description: Glacial Prism grants 50 Fading Haste for 1.4.
-      icon: 257737da8189b1242be43990b8caf5a6
-      name: Figure Skating
-      type: mobility
-    - color: red
-      description: Ice Lance breaks Freeze before dealing damage.
-      icon: bffd25b328052f647a5e1705071fe746
-      name: Ice Breaker
-      type: offense
-    - color: red
-      description: Increases Ice Lance range by 10. It pierces enemies and damage
-        reduces 30 per hit.
-      icon: bffd25b328052f647a5e1705071fe746
-      name: Piercing Cold
-      type: offense
-    - color: yellow
-      description: Arctic Wind can be recast to perform a short leap.
-      icon: 1ac43589909cda746bafbf3da20d1559
-      name: Twirl
-      type: mobility
-    - color: red
-      description: You can break your own Ice Crown with a single Frost Bolt to launch
-        the cone of icicles. Cooldown is reduced by 2.
-      icon: 46faed2871863c34d83a612e2ddccc9e
-      name: Vandalism
-      type: offense
-    winrate: '61.5'
   - damage: '5.9'
     disable: '0.7'
     energy: '3.3'
@@ -139,6 +105,40 @@ builds:
       name: Twirl
       type: mobility
     winrate: '57.7'
+  - damage: '7.5'
+    disable: '0.7'
+    energy: '3.4'
+    num: 26
+    protection: '1.5'
+    skills:
+    - color: yellow
+      description: Glacial Prism grants 50 Fading Haste for 1.4.
+      icon: 257737da8189b1242be43990b8caf5a6
+      name: Figure Skating
+      type: mobility
+    - color: red
+      description: Ice Lance breaks Freeze before dealing damage.
+      icon: bffd25b328052f647a5e1705071fe746
+      name: Ice Breaker
+      type: offense
+    - color: red
+      description: Increases Ice Lance range by 10. It pierces enemies and damage
+        reduces 30 per hit.
+      icon: bffd25b328052f647a5e1705071fe746
+      name: Piercing Cold
+      type: offense
+    - color: yellow
+      description: Arctic Wind can be recast to perform a short leap.
+      icon: 1ac43589909cda746bafbf3da20d1559
+      name: Twirl
+      type: mobility
+    - color: red
+      description: You can break your own Ice Crown with a single Frost Bolt to launch
+        the cone of icicles. Cooldown is reduced by 2.
+      icon: 46faed2871863c34d83a612e2ddccc9e
+      name: Vandalism
+      type: offense
+    winrate: '61.5'
   - damage: '6.0'
     disable: '0.7'
     energy: '3.1'
@@ -591,23 +591,22 @@ builds:
       name: Vandalism
       type: offense
     winrate: '40.0'
-  - damage: '5.0'
-    disable: '0.6'
-    energy: '2.6'
+  - damage: '5.6'
+    disable: '0.7'
+    energy: '2.9'
     num: 4
-    protection: '1.7'
+    protection: '0.8'
     skills:
-    - color: pink
-      description: Increases Chill duration of Ice Lance by 1. Ice Lance explodes
-        upon hit or reaching max range to inflict Chill for 2 on nearby enemies.
-      icon: bffd25b328052f647a5e1705071fe746
-      name: Cryogenic Lance
-      type: control
     - color: yellow
       description: Glacial Prism grants 50 Fading Haste for 1.4.
       icon: 257737da8189b1242be43990b8caf5a6
       name: Figure Skating
       type: mobility
+    - color: red
+      description: Ice Lance breaks Freeze before dealing damage.
+      icon: bffd25b328052f647a5e1705071fe746
+      name: Ice Breaker
+      type: offense
     - color: red
       description: Increases Ice Lance range by 10. It pierces enemies and damage
         reduces 30 per hit.
@@ -627,22 +626,23 @@ builds:
       name: Twirl
       type: mobility
     winrate: '25.0'
-  - damage: '5.6'
-    disable: '0.7'
-    energy: '2.9'
+  - damage: '5.0'
+    disable: '0.6'
+    energy: '2.6'
     num: 4
-    protection: '0.8'
+    protection: '1.7'
     skills:
+    - color: pink
+      description: Increases Chill duration of Ice Lance by 1. Ice Lance explodes
+        upon hit or reaching max range to inflict Chill for 2 on nearby enemies.
+      icon: bffd25b328052f647a5e1705071fe746
+      name: Cryogenic Lance
+      type: control
     - color: yellow
       description: Glacial Prism grants 50 Fading Haste for 1.4.
       icon: 257737da8189b1242be43990b8caf5a6
       name: Figure Skating
       type: mobility
-    - color: red
-      description: Ice Lance breaks Freeze before dealing damage.
-      icon: bffd25b328052f647a5e1705071fe746
-      name: Ice Breaker
-      type: offense
     - color: red
       description: Increases Ice Lance range by 10. It pierces enemies and damage
         reduces 30 per hit.
