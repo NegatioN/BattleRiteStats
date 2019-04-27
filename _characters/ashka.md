@@ -386,17 +386,17 @@ builds:
       name: Magma
       type: offense
     winrate: '57.9'
-  - damage: '6.7'
+  - damage: '4.9'
     disable: '0.8'
-    energy: '2.7'
+    energy: '1.8'
     num: 7
-    protection: '0.2'
+    protection: '0.8'
     skills:
-    - color: grey
-      description: Increases Flamestrike radius by 15 and reduces cooldown by 1.
-      icon: 48122c1a1a8cae7408409c90126f11cb
-      name: Eruption
-      type: mixed
+    - color: yellow
+      description: Searing Flight increases movement speed by 30 for 2.
+      icon: de69286ec8d6c934c9b04c51d1814b5c
+      name: Burning Feet
+      type: mobility
     - color: yellow
       description: Fire Storm can be cast while moving at 50 movement speed and 30
         while channeling.
@@ -421,17 +421,17 @@ builds:
       name: Mach Punch
       type: mixed
     winrate: '57.1'
-  - damage: '4.9'
+  - damage: '6.7'
     disable: '0.8'
-    energy: '1.8'
+    energy: '2.7'
     num: 7
-    protection: '0.8'
+    protection: '0.2'
     skills:
-    - color: yellow
-      description: Searing Flight increases movement speed by 30 for 2.
-      icon: de69286ec8d6c934c9b04c51d1814b5c
-      name: Burning Feet
-      type: mobility
+    - color: grey
+      description: Increases Flamestrike radius by 15 and reduces cooldown by 1.
+      icon: 48122c1a1a8cae7408409c90126f11cb
+      name: Eruption
+      type: mixed
     - color: yellow
       description: Fire Storm can be cast while moving at 50 movement speed and 30
         while channeling.
