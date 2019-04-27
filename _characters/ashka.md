@@ -526,41 +526,6 @@ builds:
       name: Magma
       type: offense
     winrate: '50.0'
-  - damage: '3.3'
-    disable: '0.5'
-    energy: '3.1'
-    num: 5
-    protection: '0.8'
-    skills:
-    - color: grey
-      description: Increases Flamestrike radius by 15 and reduces cooldown by 1.
-      icon: 48122c1a1a8cae7408409c90126f11cb
-      name: Eruption
-      type: mixed
-    - color: green
-      description: Searing Flight grants a Shield. It absorbs up to 16 damage for
-        3.
-      icon: de69286ec8d6c934c9b04c51d1814b5c
-      name: Fire Ward
-      type: survival
-    - color: red
-      description: Ignite deals 2 bonus damage when first applied and reduces target's
-        movement speed by 10.
-      icon: 7612ba34ea3cdf9429a033d92e85c117
-      name: Magma
-      type: offense
-    - color: grey
-      description: Molten Fist causes your next Fireball to deal 2 bonus damage and
-        inflict Ignite.
-      icon: 64ae838604146444aac3474b78250f52
-      name: Molten Core
-      type: mixed
-    - color: red
-      description: Fire Storm launches 1 additional projectile.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Wildfire
-      type: offense
-    winrate: '0.0'
   - damage: '6.3'
     disable: '0.8'
     energy: '2.0'
@@ -597,6 +562,41 @@ builds:
       name: Magma
       type: offense
     winrate: '20.0'
+  - damage: '3.3'
+    disable: '0.5'
+    energy: '3.1'
+    num: 5
+    protection: '0.8'
+    skills:
+    - color: grey
+      description: Increases Flamestrike radius by 15 and reduces cooldown by 1.
+      icon: 48122c1a1a8cae7408409c90126f11cb
+      name: Eruption
+      type: mixed
+    - color: green
+      description: Searing Flight grants a Shield. It absorbs up to 16 damage for
+        3.
+      icon: de69286ec8d6c934c9b04c51d1814b5c
+      name: Fire Ward
+      type: survival
+    - color: red
+      description: Ignite deals 2 bonus damage when first applied and reduces target's
+        movement speed by 10.
+      icon: 7612ba34ea3cdf9429a033d92e85c117
+      name: Magma
+      type: offense
+    - color: grey
+      description: Molten Fist causes your next Fireball to deal 2 bonus damage and
+        inflict Ignite.
+      icon: 64ae838604146444aac3474b78250f52
+      name: Molten Core
+      type: mixed
+    - color: red
+      description: Fire Storm launches 1 additional projectile.
+      icon: 117c35c7f757858428a733d8da4982be
+      name: Wildfire
+      type: offense
+    winrate: '0.0'
   - damage: '7.0'
     disable: '0.8'
     energy: '2.8'
