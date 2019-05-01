@@ -230,39 +230,6 @@ builds:
       name: Weapon Break
       type: support
     winrate: '52.2'
-  - damage: '7.0'
-    disable: '1.5'
-    energy: '3.5'
-    num: 22
-    protection: '2.0'
-    skills:
-    - color: grey
-      description: Move forward during Crushing Blow.
-      icon: bc4e2e34829b8af4c92bb6a8f570fc96
-      name: Crushing Leap
-      type: mixed
-    - color: yellow
-      description: Reduces the cooldown of Rush by 1. Hitting an enemy further reduces
-        cooldown by 1.
-      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
-      name: Endurance
-      type: mobility
-    - color: red
-      description: Rush hits cause you to gain Berserk for 1.5.
-      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
-      name: Frenzy
-      type: offense
-    - color: green
-      description: Decreases damage taken during Berserk by 25.
-      icon: df78f943fca96314181fdf1827f825db
-      name: Giant
-      type: survival
-    - color: red
-      description: Crushing Blow deals 4 bonus damage.
-      icon: bc4e2e34829b8af4c92bb6a8f570fc96
-      name: Rook Smash
-      type: offense
-    winrate: '81.8'
   - damage: '6.3'
     disable: '1.4'
     energy: '3.6'
@@ -297,6 +264,39 @@ builds:
       name: Madness
       type: mobility
     winrate: '54.5'
+  - damage: '7.0'
+    disable: '1.5'
+    energy: '3.5'
+    num: 22
+    protection: '2.0'
+    skills:
+    - color: grey
+      description: Move forward during Crushing Blow.
+      icon: bc4e2e34829b8af4c92bb6a8f570fc96
+      name: Crushing Leap
+      type: mixed
+    - color: yellow
+      description: Reduces the cooldown of Rush by 1. Hitting an enemy further reduces
+        cooldown by 1.
+      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
+      name: Endurance
+      type: mobility
+    - color: red
+      description: Rush hits cause you to gain Berserk for 1.5.
+      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
+      name: Frenzy
+      type: offense
+    - color: green
+      description: Decreases damage taken during Berserk by 25.
+      icon: df78f943fca96314181fdf1827f825db
+      name: Giant
+      type: survival
+    - color: red
+      description: Crushing Blow deals 4 bonus damage.
+      icon: bc4e2e34829b8af4c92bb6a8f570fc96
+      name: Rook Smash
+      type: offense
+    winrate: '81.8'
   - damage: '6.5'
     disable: '1.1'
     energy: '3.1'

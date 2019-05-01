@@ -25,13 +25,13 @@ builds:
       type: mixed
     - color: yellow
       description: Tree of Life grants nearby allies 35 increased movement speed for
-        2.5 when destroyed or at the end of its duration.
+        2 when destroyed or at the end of its duration.
       icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Refreshing Seed
       type: mobility
     - color: teal
       description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
-        output by 40 for 1.5.
+        output by 30 for 1.5.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
@@ -49,7 +49,7 @@ builds:
       name: Bountiful Tree
       type: support
     - color: green
-      description: Increases Tree of Life health by 10.
+      description: Increases Tree of Life health by 15.
       icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Healthful Bark
       type: survival
@@ -66,7 +66,7 @@ builds:
       type: support
     - color: teal
       description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
-        output by 40 for 1.5.
+        output by 30 for 1.5.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
@@ -83,13 +83,13 @@ builds:
       name: Hop and Skip!
       type: mobility
     - color: red
-      description: Reduces your weapon charge cooldown by 30.
+      description: Reduces your weapon charge cooldown by 25.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
       type: offense
     - color: yellow
       description: Tree of Life grants nearby allies 35 increased movement speed for
-        2.5 when destroyed or at the end of its duration.
+        2 when destroyed or at the end of its duration.
       icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Refreshing Seed
       type: mobility
@@ -100,7 +100,7 @@ builds:
       type: offense
     - color: teal
       description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
-        output by 40 for 1.5.
+        output by 30 for 1.5.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
@@ -117,7 +117,7 @@ builds:
       name: Hop and Skip!
       type: mobility
     - color: red
-      description: Reduces your weapon charge cooldown by 30.
+      description: Reduces your weapon charge cooldown by 25.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
       type: offense
@@ -128,13 +128,13 @@ builds:
       type: mixed
     - color: yellow
       description: Tree of Life grants nearby allies 35 increased movement speed for
-        2.5 when destroyed or at the end of its duration.
+        2 when destroyed or at the end of its duration.
       icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Refreshing Seed
       type: mobility
     - color: teal
       description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
-        output by 40 for 1.5.
+        output by 30 for 1.5.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
@@ -157,7 +157,7 @@ builds:
       name: Hop and Skip!
       type: mobility
     - color: red
-      description: Reduces your weapon charge cooldown by 30.
+      description: Reduces your weapon charge cooldown by 25.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
       type: offense
@@ -168,7 +168,7 @@ builds:
       type: offense
     - color: teal
       description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
-        output by 40 for 1.5.
+        output by 30 for 1.5.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
@@ -180,12 +180,12 @@ builds:
     protection: '4.7'
     skills:
     - color: green
-      description: Increases Hop invisibility duration by 1.
+      description: Increases Hop invisibility duration by 1.5.
       icon: 36048e053d179474491aa317959b3eb7
       name: Cautious
       type: survival
     - color: green
-      description: Increases Tree of Life health by 10.
+      description: Increases Tree of Life health by 15.
       icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Healthful Bark
       type: survival
@@ -196,7 +196,7 @@ builds:
       name: Kindhearted
       type: support
     - color: red
-      description: Reduces your weapon charge cooldown by 30.
+      description: Reduces your weapon charge cooldown by 25.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
       type: offense
@@ -224,19 +224,19 @@ builds:
       name: Kindhearted
       type: support
     - color: red
-      description: Reduces your weapon charge cooldown by 30.
+      description: Reduces your weapon charge cooldown by 25.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
       type: offense
     - color: yellow
       description: Tree of Life grants nearby allies 35 increased movement speed for
-        2.5 when destroyed or at the end of its duration.
+        2 when destroyed or at the end of its duration.
       icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Refreshing Seed
       type: mobility
     - color: teal
       description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
-        output by 40 for 1.5.
+        output by 30 for 1.5.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
@@ -248,7 +248,7 @@ builds:
     protection: '6.6'
     skills:
     - color: green
-      description: Increases Hop invisibility duration by 1.
+      description: Increases Hop invisibility duration by 1.5.
       icon: 36048e053d179474491aa317959b3eb7
       name: Cautious
       type: survival
@@ -265,13 +265,13 @@ builds:
       type: support
     - color: yellow
       description: Tree of Life grants nearby allies 35 increased movement speed for
-        2.5 when destroyed or at the end of its duration.
+        2 when destroyed or at the end of its duration.
       icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Refreshing Seed
       type: mobility
     - color: teal
       description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
-        output by 40 for 1.5.
+        output by 30 for 1.5.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
@@ -294,7 +294,7 @@ builds:
       name: Kindhearted
       type: support
     - color: red
-      description: Reduces your weapon charge cooldown by 30.
+      description: Reduces your weapon charge cooldown by 25.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
       type: offense
@@ -305,7 +305,7 @@ builds:
       type: mixed
     - color: teal
       description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
-        output by 40 for 1.5.
+        output by 30 for 1.5.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
@@ -328,19 +328,19 @@ builds:
       name: Hop and Skip!
       type: mobility
     - color: red
-      description: Reduces your weapon charge cooldown by 30.
+      description: Reduces your weapon charge cooldown by 25.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
       type: offense
     - color: yellow
       description: Tree of Life grants nearby allies 35 increased movement speed for
-        2.5 when destroyed or at the end of its duration.
+        2 when destroyed or at the end of its duration.
       icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Refreshing Seed
       type: mobility
     - color: teal
       description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
-        output by 40 for 1.5.
+        output by 30 for 1.5.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
@@ -364,7 +364,7 @@ builds:
       name: Hop and Skip!
       type: mobility
     - color: red
-      description: Reduces your weapon charge cooldown by 30.
+      description: Reduces your weapon charge cooldown by 25.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
       type: offense
@@ -375,11 +375,45 @@ builds:
       type: offense
     - color: teal
       description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
-        output by 40 for 1.5.
+        output by 30 for 1.5.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
     winrate: '62.5'
+  - damage: '4.5'
+    disable: '0.9'
+    energy: '3.1'
+    num: 20
+    protection: '4.5'
+    skills:
+    - color: yellow
+      description: Hop can be recast for a Lesser Hop that travels a shorter distance.
+      icon: 36048e053d179474491aa317959b3eb7
+      name: Hop and Skip!
+      type: mobility
+    - color: red
+      description: Reduces your weapon charge cooldown by 25.
+      icon: e0ead374bbde24c44a10cc34294a6e44
+      name: Nature's Cycle
+      type: offense
+    - color: grey
+      description: Increases Stun duration of Boom Bloom by 0.5.
+      icon: 4832a1022ed764241a63b8dacc299ee9
+      name: Pollen
+      type: mixed
+    - color: yellow
+      description: Tree of Life grants nearby allies 35 increased movement speed for
+        2 when destroyed or at the end of its duration.
+      icon: 493cac6f13fb41849aaf95ed03fbb488
+      name: Refreshing Seed
+      type: mobility
+    - color: teal
+      description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
+        output by 30 for 1.5.
+      icon: e0ead374bbde24c44a10cc34294a6e44
+      name: Weakening Pitch
+      type: support
+    winrate: '85.0'
   - damage: '4.5'
     disable: '0.8'
     energy: '3.1'
@@ -399,7 +433,7 @@ builds:
       type: support
     - color: yellow
       description: Tree of Life grants nearby allies 35 increased movement speed for
-        2.5 when destroyed or at the end of its duration.
+        2 when destroyed or at the end of its duration.
       icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Refreshing Seed
       type: mobility
@@ -410,41 +444,7 @@ builds:
       type: offense
     - color: teal
       description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
-        output by 40 for 1.5.
-      icon: e0ead374bbde24c44a10cc34294a6e44
-      name: Weakening Pitch
-      type: support
-    winrate: '85.0'
-  - damage: '4.5'
-    disable: '0.9'
-    energy: '3.1'
-    num: 20
-    protection: '4.5'
-    skills:
-    - color: yellow
-      description: Hop can be recast for a Lesser Hop that travels a shorter distance.
-      icon: 36048e053d179474491aa317959b3eb7
-      name: Hop and Skip!
-      type: mobility
-    - color: red
-      description: Reduces your weapon charge cooldown by 30.
-      icon: e0ead374bbde24c44a10cc34294a6e44
-      name: Nature's Cycle
-      type: offense
-    - color: grey
-      description: Increases Stun duration of Boom Bloom by 0.5.
-      icon: 4832a1022ed764241a63b8dacc299ee9
-      name: Pollen
-      type: mixed
-    - color: yellow
-      description: Tree of Life grants nearby allies 35 increased movement speed for
-        2.5 when destroyed or at the end of its duration.
-      icon: 493cac6f13fb41849aaf95ed03fbb488
-      name: Refreshing Seed
-      type: mobility
-    - color: teal
-      description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
-        output by 40 for 1.5.
+        output by 30 for 1.5.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
@@ -461,13 +461,13 @@ builds:
       name: Hop and Skip!
       type: mobility
     - color: red
-      description: Reduces your weapon charge cooldown by 30.
+      description: Reduces your weapon charge cooldown by 25.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
       type: offense
     - color: yellow
       description: Tree of Life grants nearby allies 35 increased movement speed for
-        2.5 when destroyed or at the end of its duration.
+        2 when destroyed or at the end of its duration.
       icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Refreshing Seed
       type: mobility
@@ -478,44 +478,11 @@ builds:
       type: offense
     - color: teal
       description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
-        output by 40 for 1.5.
+        output by 30 for 1.5.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
     winrate: '53.3'
-  - damage: '2.7'
-    disable: '0.8'
-    energy: '3.0'
-    num: 11
-    protection: '4.0'
-    skills:
-    - color: green
-      description: Increases Hop invisibility duration by 1.
-      icon: 36048e053d179474491aa317959b3eb7
-      name: Cautious
-      type: survival
-    - color: green
-      description: Increases Tree of Life health by 10.
-      icon: 493cac6f13fb41849aaf95ed03fbb488
-      name: Healthful Bark
-      type: survival
-    - color: teal
-      description: Nourish heals 2 bonus health when healing another ally. Butterflies
-        heals for 4 bonus health.
-      icon: 2b94035c77e083845a78221a5130146e
-      name: Kindhearted
-      type: support
-    - color: red
-      description: Reduces your weapon charge cooldown by 30.
-      icon: e0ead374bbde24c44a10cc34294a6e44
-      name: Nature's Cycle
-      type: offense
-    - color: grey
-      description: Increases Stun duration of Boom Bloom by 0.5.
-      icon: 4832a1022ed764241a63b8dacc299ee9
-      name: Pollen
-      type: mixed
-    winrate: '54.5'
   - damage: '4.2'
     disable: '0.8'
     energy: '4.3'
@@ -541,34 +508,33 @@ builds:
       type: support
     - color: yellow
       description: Tree of Life grants nearby allies 35 increased movement speed for
-        2.5 when destroyed or at the end of its duration.
+        2 when destroyed or at the end of its duration.
       icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Refreshing Seed
       type: mobility
     - color: teal
       description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
-        output by 40 for 1.5.
+        output by 30 for 1.5.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
     winrate: '90.9'
-  - damage: '4.2'
+  - damage: '2.7'
     disable: '0.8'
-    energy: '3.1'
-    num: 10
-    protection: '4.7'
+    energy: '3.0'
+    num: 11
+    protection: '4.0'
     skills:
-    - color: teal
-      description: Whenever Tree of Life is healed by Nourish, nearby allies are healed
-        for the same amount.
-      icon: 493cac6f13fb41849aaf95ed03fbb488
-      name: Bountiful Tree
-      type: support
-    - color: yellow
-      description: Hop can be recast for a Lesser Hop that travels a shorter distance.
+    - color: green
+      description: Increases Hop invisibility duration by 1.5.
       icon: 36048e053d179474491aa317959b3eb7
-      name: Hop and Skip!
-      type: mobility
+      name: Cautious
+      type: survival
+    - color: green
+      description: Increases Tree of Life health by 15.
+      icon: 493cac6f13fb41849aaf95ed03fbb488
+      name: Healthful Bark
+      type: survival
     - color: teal
       description: Nourish heals 2 bonus health when healing another ally. Butterflies
         heals for 4 bonus health.
@@ -576,17 +542,16 @@ builds:
       name: Kindhearted
       type: support
     - color: red
-      description: Reduces your weapon charge cooldown by 30.
+      description: Reduces your weapon charge cooldown by 25.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
       type: offense
-    - color: teal
-      description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
-        output by 40 for 1.5.
-      icon: e0ead374bbde24c44a10cc34294a6e44
-      name: Weakening Pitch
-      type: support
-    winrate: '20.0'
+    - color: grey
+      description: Increases Stun duration of Boom Bloom by 0.5.
+      icon: 4832a1022ed764241a63b8dacc299ee9
+      name: Pollen
+      type: mixed
+    winrate: '54.5'
   - damage: '2.9'
     disable: '0.9'
     energy: '3.3'
@@ -618,79 +583,115 @@ builds:
       type: support
     - color: yellow
       description: Tree of Life grants nearby allies 35 increased movement speed for
-        2.5 when destroyed or at the end of its duration.
+        2 when destroyed or at the end of its duration.
       icon: 493cac6f13fb41849aaf95ed03fbb488
       name: Refreshing Seed
       type: mobility
     winrate: '70.0'
-  - damage: '3.9'
-    disable: '0.9'
-    energy: '3.6'
-    num: 9
-    protection: '3.3'
-    skills:
-    - color: pink
-      description: Hop causes you to leave behind a Lesser Boom Bloom seed. After
-        1.1, the seed inflicts Stun for 0.8 on nearby enemies.
-      icon: 36048e053d179474491aa317959b3eb7
-      name: Gift of Nature
-      type: control
-    - color: green
-      description: Increases Tree of Life health by 10.
-      icon: 493cac6f13fb41849aaf95ed03fbb488
-      name: Healthful Bark
-      type: survival
-    - color: yellow
-      description: Hop can be recast for a Lesser Hop that travels a shorter distance.
-      icon: 36048e053d179474491aa317959b3eb7
-      name: Hop and Skip!
-      type: mobility
-    - color: red
-      description: Boom Bloom hits charge your weapon by 50.
-      icon: 4832a1022ed764241a63b8dacc299ee9
-      name: Spring Growth
-      type: offense
-    - color: teal
-      description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
-        output by 40 for 1.5.
-      icon: e0ead374bbde24c44a10cc34294a6e44
-      name: Weakening Pitch
-      type: support
-    winrate: '77.8'
-  - damage: '4.1'
+  - damage: '4.2'
     disable: '0.8'
     energy: '3.1'
-    num: 9
-    protection: '3.6'
+    num: 10
+    protection: '4.7'
     skills:
-    - color: pink
-      description: Hop causes you to leave behind a Lesser Boom Bloom seed. After
-        1.1, the seed inflicts Stun for 0.8 on nearby enemies.
-      icon: 36048e053d179474491aa317959b3eb7
-      name: Gift of Nature
-      type: control
-    - color: green
-      description: Increases Tree of Life health by 10.
+    - color: teal
+      description: Whenever Tree of Life is healed by Nourish, nearby allies are healed
+        for the same amount.
       icon: 493cac6f13fb41849aaf95ed03fbb488
-      name: Healthful Bark
-      type: survival
+      name: Bountiful Tree
+      type: support
     - color: yellow
       description: Hop can be recast for a Lesser Hop that travels a shorter distance.
       icon: 36048e053d179474491aa317959b3eb7
       name: Hop and Skip!
       type: mobility
+    - color: teal
+      description: Nourish heals 2 bonus health when healing another ally. Butterflies
+        heals for 4 bonus health.
+      icon: 2b94035c77e083845a78221a5130146e
+      name: Kindhearted
+      type: support
     - color: red
-      description: Reduces your weapon charge cooldown by 30.
+      description: Reduces your weapon charge cooldown by 25.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
       type: offense
     - color: teal
       description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
-        output by 40 for 1.5.
+        output by 30 for 1.5.
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '77.8'
+    winrate: '20.0'
+  - damage: '3.2'
+    disable: '0.9'
+    energy: '2.2'
+    num: 9
+    protection: '4.6'
+    skills:
+    - color: pink
+      description: Hop causes you to leave behind a Lesser Boom Bloom seed. After
+        1.1, the seed inflicts Stun for 0.8 on nearby enemies.
+      icon: 36048e053d179474491aa317959b3eb7
+      name: Gift of Nature
+      type: control
+    - color: teal
+      description: Nourish heals 2 bonus health when healing another ally. Butterflies
+        heals for 4 bonus health.
+      icon: 2b94035c77e083845a78221a5130146e
+      name: Kindhearted
+      type: support
+    - color: red
+      description: Reduces your weapon charge cooldown by 25.
+      icon: e0ead374bbde24c44a10cc34294a6e44
+      name: Nature's Cycle
+      type: offense
+    - color: grey
+      description: Increases Stun duration of Boom Bloom by 0.5.
+      icon: 4832a1022ed764241a63b8dacc299ee9
+      name: Pollen
+      type: mixed
+    - color: yellow
+      description: Tree of Life grants nearby allies 35 increased movement speed for
+        2 when destroyed or at the end of its duration.
+      icon: 493cac6f13fb41849aaf95ed03fbb488
+      name: Refreshing Seed
+      type: mobility
+    winrate: '0.0'
+  - damage: '3.8'
+    disable: '0.9'
+    energy: '2.3'
+    num: 9
+    protection: '4.7'
+    skills:
+    - color: pink
+      description: Hop causes you to leave behind a Lesser Boom Bloom seed. After
+        1.1, the seed inflicts Stun for 0.8 on nearby enemies.
+      icon: 36048e053d179474491aa317959b3eb7
+      name: Gift of Nature
+      type: control
+    - color: yellow
+      description: Hop can be recast for a Lesser Hop that travels a shorter distance.
+      icon: 36048e053d179474491aa317959b3eb7
+      name: Hop and Skip!
+      type: mobility
+    - color: teal
+      description: Nourish heals 2 bonus health when healing another ally. Butterflies
+        heals for 4 bonus health.
+      icon: 2b94035c77e083845a78221a5130146e
+      name: Kindhearted
+      type: support
+    - color: red
+      description: Reduces your weapon charge cooldown by 25.
+      icon: e0ead374bbde24c44a10cc34294a6e44
+      name: Nature's Cycle
+      type: offense
+    - color: grey
+      description: Increases Stun duration of Boom Bloom by 0.5.
+      icon: 4832a1022ed764241a63b8dacc299ee9
+      name: Pollen
+      type: mixed
+    winrate: '44.4'
 compos:
   threes:
   - hero_names:

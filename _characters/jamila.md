@@ -25,8 +25,8 @@ builds:
       type: control
     - color: grey
       description: Hitting a target with your most recent dash of Elusive Strike allows
-        a recast to perform a short dash strike, dealing 8 damage and inflicting a
-        Lesser Phantom Cut. Lesser Phantom Cut deals 14 damage after 2.
+        a recast to perform a short dash strike, dealing 6 damage and inflicting a
+        Lesser Phantom Cut. Lesser Phantom Cut deals 12 damage after 2.
       icon: fa9b6a58fa6398b4ea4c4756152bd079
       name: Quick Strike
       type: mixed
@@ -56,13 +56,13 @@ builds:
       type: control
     - color: grey
       description: Hitting a target with your most recent dash of Elusive Strike allows
-        a recast to perform a short dash strike, dealing 8 damage and inflicting a
-        Lesser Phantom Cut. Lesser Phantom Cut deals 14 damage after 2.
+        a recast to perform a short dash strike, dealing 6 damage and inflicting a
+        Lesser Phantom Cut. Lesser Phantom Cut deals 12 damage after 2.
       icon: fa9b6a58fa6398b4ea4c4756152bd079
       name: Quick Strike
       type: mixed
     - color: grey
-      description: Reduces damage taken by 30 for 2.5 after the invisibility of Shadow
+      description: Reduces damage taken by 35 for 2.5 after the invisibility of Shadow
         Dance ends.
       icon: ef4060497167dcd43ab43e87def18d7b
       name: Shroud of Shadows
@@ -92,14 +92,14 @@ builds:
       name: Go for the Throat
       type: control
     - color: red
-      description: Phantom Cut deals 8 bonus damage.
+      description: Phantom Cut deals 9 bonus damage.
       icon: ef4060497167dcd43ab43e87def18d7b
       name: Phantom Blades
       type: offense
     - color: grey
       description: Hitting a target with your most recent dash of Elusive Strike allows
-        a recast to perform a short dash strike, dealing 8 damage and inflicting a
-        Lesser Phantom Cut. Lesser Phantom Cut deals 14 damage after 2.
+        a recast to perform a short dash strike, dealing 6 damage and inflicting a
+        Lesser Phantom Cut. Lesser Phantom Cut deals 12 damage after 2.
       icon: fa9b6a58fa6398b4ea4c4756152bd079
       name: Quick Strike
       type: mixed
@@ -117,7 +117,7 @@ builds:
     protection: '0.8'
     skills:
     - color: pink
-      description: Elusive Strike inflicts Fading Snare for 1 and Incapacitate duration
+      description: Elusive Strike inflicts Fading Snare for 2 and Incapacitate duration
         increases by 0.5.
       icon: fa9b6a58fa6398b4ea4c4756152bd079
       name: Cripple
@@ -152,7 +152,7 @@ builds:
     protection: '1.4'
     skills:
     - color: green
-      description: Shadow Slice heals you for 10 health.
+      description: Shadow Slice heals you for 13 health.
       icon: ef4060497167dcd43ab43e87def18d7b
       name: Drawing Blood
       type: survival
@@ -169,8 +169,8 @@ builds:
       type: control
     - color: grey
       description: Hitting a target with your most recent dash of Elusive Strike allows
-        a recast to perform a short dash strike, dealing 8 damage and inflicting a
-        Lesser Phantom Cut. Lesser Phantom Cut deals 14 damage after 2.
+        a recast to perform a short dash strike, dealing 6 damage and inflicting a
+        Lesser Phantom Cut. Lesser Phantom Cut deals 12 damage after 2.
       icon: fa9b6a58fa6398b4ea4c4756152bd079
       name: Quick Strike
       type: mixed
@@ -188,7 +188,7 @@ builds:
     protection: '0.7'
     skills:
     - color: pink
-      description: Elusive Strike inflicts Fading Snare for 1 and Incapacitate duration
+      description: Elusive Strike inflicts Fading Snare for 2 and Incapacitate duration
         increases by 0.5.
       icon: fa9b6a58fa6398b4ea4c4756152bd079
       name: Cripple
@@ -199,7 +199,7 @@ builds:
       name: Deadly Star
       type: offense
     - color: green
-      description: Shadow Slice heals you for 10 health.
+      description: Shadow Slice heals you for 13 health.
       icon: ef4060497167dcd43ab43e87def18d7b
       name: Drawing Blood
       type: survival
@@ -227,24 +227,24 @@ builds:
       name: Deadly Star
       type: offense
     - color: pink
-      description: Increases Snare duration of Shuriken by 1.5.
+      description: Increases Snare duration of Shuriken by 2.
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Deep Wounds
       type: control
     - color: red
-      description: Phantom Cut deals 8 bonus damage.
+      description: Phantom Cut deals 9 bonus damage.
       icon: ef4060497167dcd43ab43e87def18d7b
       name: Phantom Blades
       type: offense
     - color: yellow
-      description: Increases the max range of Elusive Strike by 15.
+      description: Increases the max range of Elusive Strike by 25.
       icon: fa9b6a58fa6398b4ea4c4756152bd079
       name: Push Off
       type: mobility
     - color: grey
       description: Hitting a target with your most recent dash of Elusive Strike allows
-        a recast to perform a short dash strike, dealing 8 damage and inflicting a
-        Lesser Phantom Cut. Lesser Phantom Cut deals 14 damage after 2.
+        a recast to perform a short dash strike, dealing 6 damage and inflicting a
+        Lesser Phantom Cut. Lesser Phantom Cut deals 12 damage after 2.
       icon: fa9b6a58fa6398b4ea4c4756152bd079
       name: Quick Strike
       type: mixed
@@ -261,19 +261,19 @@ builds:
       name: Deadly Star
       type: offense
     - color: red
-      description: Phantom Cut deals 8 bonus damage.
+      description: Phantom Cut deals 9 bonus damage.
       icon: ef4060497167dcd43ab43e87def18d7b
       name: Phantom Blades
       type: offense
     - color: grey
       description: Hitting a target with your most recent dash of Elusive Strike allows
-        a recast to perform a short dash strike, dealing 8 damage and inflicting a
-        Lesser Phantom Cut. Lesser Phantom Cut deals 14 damage after 2.
+        a recast to perform a short dash strike, dealing 6 damage and inflicting a
+        Lesser Phantom Cut. Lesser Phantom Cut deals 12 damage after 2.
       icon: fa9b6a58fa6398b4ea4c4756152bd079
       name: Quick Strike
       type: mixed
     - color: grey
-      description: Reduces damage taken by 30 for 2.5 after the invisibility of Shadow
+      description: Reduces damage taken by 35 for 2.5 after the invisibility of Shadow
         Dance ends.
       icon: ef4060497167dcd43ab43e87def18d7b
       name: Shroud of Shadows
@@ -285,6 +285,42 @@ builds:
       name: Taste of Blood
       type: survival
     winrate: '33.3'
+  - damage: '6.6'
+    disable: '1.4'
+    energy: '2.7'
+    num: 10
+    protection: '0.6'
+    skills:
+    - color: pink
+      description: Increases Snare duration of Shuriken by 2.
+      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
+      name: Deep Wounds
+      type: control
+    - color: pink
+      description: Increases Stun duration of Deadly Blow by 0.35 and reduces its
+        cooldown by 2.
+      icon: c75e9702831a67e4b98aa0c24af2d865
+      name: Go for the Throat
+      type: control
+    - color: pink
+      description: Hook Shot deals 2 bonus damage and inflicts Root for 0.8.
+      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
+      name: Momentum Strike
+      type: control
+    - color: grey
+      description: Hitting a target with your most recent dash of Elusive Strike allows
+        a recast to perform a short dash strike, dealing 6 damage and inflicting a
+        Lesser Phantom Cut. Lesser Phantom Cut deals 12 damage after 2.
+      icon: fa9b6a58fa6398b4ea4c4756152bd079
+      name: Quick Strike
+      type: mixed
+    - color: grey
+      description: Reduces damage taken by 35 for 2.5 after the invisibility of Shadow
+        Dance ends.
+      icon: ef4060497167dcd43ab43e87def18d7b
+      name: Shroud of Shadows
+      type: mixed
+    winrate: '70.0'
   - damage: '6.6'
     disable: '1.0'
     energy: '2.5'
@@ -308,7 +344,7 @@ builds:
       name: Momentum Strike
       type: control
     - color: red
-      description: Phantom Cut deals 8 bonus damage.
+      description: Phantom Cut deals 9 bonus damage.
       icon: ef4060497167dcd43ab43e87def18d7b
       name: Phantom Blades
       type: offense
@@ -319,42 +355,6 @@ builds:
       name: Taste of Blood
       type: survival
     winrate: '60.0'
-  - damage: '6.6'
-    disable: '1.4'
-    energy: '2.7'
-    num: 10
-    protection: '0.6'
-    skills:
-    - color: pink
-      description: Increases Snare duration of Shuriken by 1.5.
-      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
-      name: Deep Wounds
-      type: control
-    - color: pink
-      description: Increases Stun duration of Deadly Blow by 0.35 and reduces its
-        cooldown by 2.
-      icon: c75e9702831a67e4b98aa0c24af2d865
-      name: Go for the Throat
-      type: control
-    - color: pink
-      description: Hook Shot deals 2 bonus damage and inflicts Root for 0.8.
-      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
-      name: Momentum Strike
-      type: control
-    - color: grey
-      description: Hitting a target with your most recent dash of Elusive Strike allows
-        a recast to perform a short dash strike, dealing 8 damage and inflicting a
-        Lesser Phantom Cut. Lesser Phantom Cut deals 14 damage after 2.
-      icon: fa9b6a58fa6398b4ea4c4756152bd079
-      name: Quick Strike
-      type: mixed
-    - color: grey
-      description: Reduces damage taken by 30 for 2.5 after the invisibility of Shadow
-        Dance ends.
-      icon: ef4060497167dcd43ab43e87def18d7b
-      name: Shroud of Shadows
-      type: mixed
-    winrate: '70.0'
   twos:
   - damage: '4.1'
     disable: '0.7'
@@ -363,7 +363,7 @@ builds:
     protection: '0.4'
     skills:
     - color: pink
-      description: Elusive Strike inflicts Fading Snare for 1 and Incapacitate duration
+      description: Elusive Strike inflicts Fading Snare for 2 and Incapacitate duration
         increases by 0.5.
       icon: fa9b6a58fa6398b4ea4c4756152bd079
       name: Cripple
@@ -374,7 +374,7 @@ builds:
       name: Deadly Star
       type: offense
     - color: green
-      description: Shadow Slice heals you for 10 health.
+      description: Shadow Slice heals you for 13 health.
       icon: ef4060497167dcd43ab43e87def18d7b
       name: Drawing Blood
       type: survival
@@ -414,8 +414,8 @@ builds:
       type: control
     - color: grey
       description: Hitting a target with your most recent dash of Elusive Strike allows
-        a recast to perform a short dash strike, dealing 8 damage and inflicting a
-        Lesser Phantom Cut. Lesser Phantom Cut deals 14 damage after 2.
+        a recast to perform a short dash strike, dealing 6 damage and inflicting a
+        Lesser Phantom Cut. Lesser Phantom Cut deals 12 damage after 2.
       icon: fa9b6a58fa6398b4ea4c4756152bd079
       name: Quick Strike
       type: mixed
@@ -444,14 +444,14 @@ builds:
       name: Go for the Throat
       type: control
     - color: red
-      description: Phantom Cut deals 8 bonus damage.
+      description: Phantom Cut deals 9 bonus damage.
       icon: ef4060497167dcd43ab43e87def18d7b
       name: Phantom Blades
       type: offense
     - color: grey
       description: Hitting a target with your most recent dash of Elusive Strike allows
-        a recast to perform a short dash strike, dealing 8 damage and inflicting a
-        Lesser Phantom Cut. Lesser Phantom Cut deals 14 damage after 2.
+        a recast to perform a short dash strike, dealing 6 damage and inflicting a
+        Lesser Phantom Cut. Lesser Phantom Cut deals 12 damage after 2.
       icon: fa9b6a58fa6398b4ea4c4756152bd079
       name: Quick Strike
       type: mixed
@@ -474,7 +474,7 @@ builds:
       name: Deadly Star
       type: offense
     - color: yellow
-      description: Increases the range of Hook Shot by 15% and reduces its cooldown
+      description: Increases the range of Hook Shot by 20% and reduces its cooldown
         by 1.
       icon: 17c2d1fcdba1a1540a6649ae0b3c0104
       name: Firing Mechanism
@@ -486,8 +486,8 @@ builds:
       type: control
     - color: grey
       description: Hitting a target with your most recent dash of Elusive Strike allows
-        a recast to perform a short dash strike, dealing 8 damage and inflicting a
-        Lesser Phantom Cut. Lesser Phantom Cut deals 14 damage after 2.
+        a recast to perform a short dash strike, dealing 6 damage and inflicting a
+        Lesser Phantom Cut. Lesser Phantom Cut deals 12 damage after 2.
       icon: fa9b6a58fa6398b4ea4c4756152bd079
       name: Quick Strike
       type: mixed
@@ -505,7 +505,7 @@ builds:
     protection: '0.6'
     skills:
     - color: yellow
-      description: Increases the range of Hook Shot by 15% and reduces its cooldown
+      description: Increases the range of Hook Shot by 20% and reduces its cooldown
         by 1.
       icon: 17c2d1fcdba1a1540a6649ae0b3c0104
       name: Firing Mechanism
@@ -517,14 +517,14 @@ builds:
       name: Go for the Throat
       type: control
     - color: red
-      description: Phantom Cut deals 8 bonus damage.
+      description: Phantom Cut deals 9 bonus damage.
       icon: ef4060497167dcd43ab43e87def18d7b
       name: Phantom Blades
       type: offense
     - color: grey
       description: Hitting a target with your most recent dash of Elusive Strike allows
-        a recast to perform a short dash strike, dealing 8 damage and inflicting a
-        Lesser Phantom Cut. Lesser Phantom Cut deals 14 damage after 2.
+        a recast to perform a short dash strike, dealing 6 damage and inflicting a
+        Lesser Phantom Cut. Lesser Phantom Cut deals 12 damage after 2.
       icon: fa9b6a58fa6398b4ea4c4756152bd079
       name: Quick Strike
       type: mixed
@@ -535,20 +535,55 @@ builds:
       name: Taste of Blood
       type: survival
     winrate: '33.3'
-  - damage: '4.1'
+  - damage: '6.9'
     disable: '0.8'
-    energy: '1.9'
+    energy: '3.9'
     num: 2
-    protection: '0.8'
+    protection: '1.1'
     skills:
+    - color: red
+      description: Shuriken deals 3 bonus damage on each hit.
+      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
+      name: Deadly Star
+      type: offense
+    - color: yellow
+      description: Increases the range of Hook Shot by 20% and reduces its cooldown
+        by 1.
+      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
+      name: Firing Mechanism
+      type: mobility
     - color: pink
-      description: Elusive Strike inflicts Fading Snare for 1 and Incapacitate duration
-        increases by 0.5.
-      icon: fa9b6a58fa6398b4ea4c4756152bd079
-      name: Cripple
+      description: Increases Stun duration of Deadly Blow by 0.35 and reduces its
+        cooldown by 2.
+      icon: c75e9702831a67e4b98aa0c24af2d865
+      name: Go for the Throat
       type: control
+    - color: pink
+      description: Hook Shot deals 2 bonus damage and inflicts Root for 0.8.
+      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
+      name: Momentum Strike
+      type: control
+    - color: grey
+      description: Hitting a target with your most recent dash of Elusive Strike allows
+        a recast to perform a short dash strike, dealing 6 damage and inflicting a
+        Lesser Phantom Cut. Lesser Phantom Cut deals 12 damage after 2.
+      icon: fa9b6a58fa6398b4ea4c4756152bd079
+      name: Quick Strike
+      type: mixed
+    winrate: '100.0'
+  - damage: '4.9'
+    disable: '0.6'
+    energy: '2.1'
+    num: 2
+    protection: '0.7'
+    skills:
+    - color: red
+      description: Shuriken deals 3 bonus damage on each hit.
+      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
+      name: Deadly Star
+      type: offense
     - color: green
-      description: Shadow Slice heals you for 10 health.
+      description: Shadow Slice heals you for 13 health.
       icon: ef4060497167dcd43ab43e87def18d7b
       name: Drawing Blood
       type: survival
@@ -570,42 +605,76 @@ builds:
       name: Taste of Blood
       type: survival
     winrate: '50.0'
-  - damage: '3.4'
-    disable: '0.6'
-    energy: '2.1'
+  - damage: '9.5'
+    disable: '1.2'
+    energy: '3.3'
     num: 2
     protection: '0.6'
     skills:
-    - color: green
-      description: Shadow Slice heals you for 10 health.
-      icon: ef4060497167dcd43ab43e87def18d7b
-      name: Drawing Blood
-      type: survival
-    - color: yellow
-      description: Increases the range of Hook Shot by 15% and reduces its cooldown
-        by 1.
-      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
-      name: Firing Mechanism
-      type: mobility
-    - color: yellow
-      description: Increases the max range of Elusive Strike by 15.
+    - color: pink
+      description: Elusive Strike inflicts Fading Snare for 2 and Incapacitate duration
+        increases by 0.5.
       icon: fa9b6a58fa6398b4ea4c4756152bd079
-      name: Push Off
-      type: mobility
+      name: Cripple
+      type: control
+    - color: red
+      description: Shuriken deals 3 bonus damage on each hit.
+      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
+      name: Deadly Star
+      type: offense
+    - color: pink
+      description: Increases Snare duration of Shuriken by 2.
+      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
+      name: Deep Wounds
+      type: control
+    - color: pink
+      description: Hook Shot deals 2 bonus damage and inflicts Root for 0.8.
+      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
+      name: Momentum Strike
+      type: control
     - color: grey
       description: Hitting a target with your most recent dash of Elusive Strike allows
-        a recast to perform a short dash strike, dealing 8 damage and inflicting a
-        Lesser Phantom Cut. Lesser Phantom Cut deals 14 damage after 2.
+        a recast to perform a short dash strike, dealing 6 damage and inflicting a
+        Lesser Phantom Cut. Lesser Phantom Cut deals 12 damage after 2.
       icon: fa9b6a58fa6398b4ea4c4756152bd079
       name: Quick Strike
       type: mixed
+    winrate: '100.0'
+  - damage: '4.1'
+    disable: '0.8'
+    energy: '1.9'
+    num: 2
+    protection: '0.8'
+    skills:
+    - color: pink
+      description: Elusive Strike inflicts Fading Snare for 2 and Incapacitate duration
+        increases by 0.5.
+      icon: fa9b6a58fa6398b4ea4c4756152bd079
+      name: Cripple
+      type: control
+    - color: green
+      description: Shadow Slice heals you for 13 health.
+      icon: ef4060497167dcd43ab43e87def18d7b
+      name: Drawing Blood
+      type: survival
+    - color: pink
+      description: Increases Stun duration of Deadly Blow by 0.35 and reduces its
+        cooldown by 2.
+      icon: c75e9702831a67e4b98aa0c24af2d865
+      name: Go for the Throat
+      type: control
+    - color: pink
+      description: Hook Shot deals 2 bonus damage and inflicts Root for 0.8.
+      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
+      name: Momentum Strike
+      type: control
     - color: green
       description: Shuriken returns to you afterward, healing you for {Can't represent
         GameValueList} health based on enemies hit.
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Taste of Blood
       type: survival
-    winrate: '0.0'
+    winrate: '50.0'
   - damage: '6.6'
     disable: '0.8'
     energy: '5.1'
@@ -624,14 +693,14 @@ builds:
       name: Deceptive Momentum
       type: mixed
     - color: red
-      description: Phantom Cut deals 8 bonus damage.
+      description: Phantom Cut deals 9 bonus damage.
       icon: ef4060497167dcd43ab43e87def18d7b
       name: Phantom Blades
       type: offense
     - color: grey
       description: Hitting a target with your most recent dash of Elusive Strike allows
-        a recast to perform a short dash strike, dealing 8 damage and inflicting a
-        Lesser Phantom Cut. Lesser Phantom Cut deals 14 damage after 2.
+        a recast to perform a short dash strike, dealing 6 damage and inflicting a
+        Lesser Phantom Cut. Lesser Phantom Cut deals 12 damage after 2.
       icon: fa9b6a58fa6398b4ea4c4756152bd079
       name: Quick Strike
       type: mixed
@@ -642,79 +711,6 @@ builds:
       name: Taste of Blood
       type: survival
     winrate: '50.0'
-  - damage: '6.4'
-    disable: '1.4'
-    energy: '3.0'
-    num: 2
-    protection: '0.9'
-    skills:
-    - color: pink
-      description: Elusive Strike inflicts Fading Snare for 1 and Incapacitate duration
-        increases by 0.5.
-      icon: fa9b6a58fa6398b4ea4c4756152bd079
-      name: Cripple
-      type: control
-    - color: pink
-      description: Increases Stun duration of Deadly Blow by 0.35 and reduces its
-        cooldown by 2.
-      icon: c75e9702831a67e4b98aa0c24af2d865
-      name: Go for the Throat
-      type: control
-    - color: pink
-      description: Hook Shot deals 2 bonus damage and inflicts Root for 0.8.
-      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
-      name: Momentum Strike
-      type: control
-    - color: grey
-      description: Hitting a target with your most recent dash of Elusive Strike allows
-        a recast to perform a short dash strike, dealing 8 damage and inflicting a
-        Lesser Phantom Cut. Lesser Phantom Cut deals 14 damage after 2.
-      icon: fa9b6a58fa6398b4ea4c4756152bd079
-      name: Quick Strike
-      type: mixed
-    - color: green
-      description: Shuriken returns to you afterward, healing you for {Can't represent
-        GameValueList} health based on enemies hit.
-      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
-      name: Taste of Blood
-      type: survival
-    winrate: '0.0'
-  - damage: '6.9'
-    disable: '0.8'
-    energy: '3.9'
-    num: 2
-    protection: '1.1'
-    skills:
-    - color: red
-      description: Shuriken deals 3 bonus damage on each hit.
-      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
-      name: Deadly Star
-      type: offense
-    - color: yellow
-      description: Increases the range of Hook Shot by 15% and reduces its cooldown
-        by 1.
-      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
-      name: Firing Mechanism
-      type: mobility
-    - color: pink
-      description: Increases Stun duration of Deadly Blow by 0.35 and reduces its
-        cooldown by 2.
-      icon: c75e9702831a67e4b98aa0c24af2d865
-      name: Go for the Throat
-      type: control
-    - color: pink
-      description: Hook Shot deals 2 bonus damage and inflicts Root for 0.8.
-      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
-      name: Momentum Strike
-      type: control
-    - color: grey
-      description: Hitting a target with your most recent dash of Elusive Strike allows
-        a recast to perform a short dash strike, dealing 8 damage and inflicting a
-        Lesser Phantom Cut. Lesser Phantom Cut deals 14 damage after 2.
-      icon: fa9b6a58fa6398b4ea4c4756152bd079
-      name: Quick Strike
-      type: mixed
-    winrate: '100.0'
 compos:
   threes:
   - hero_names:

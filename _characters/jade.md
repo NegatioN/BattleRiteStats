@@ -42,7 +42,7 @@ builds:
     protection: '1.6'
     skills:
     - color: red
-      description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
+      description: Stealth reduces the cooldown of Snipe by 3. Also increases duration
         of invisibility by 0.3.\n
       icon: c5da66a86ca45a1449a49d55cc92d1fc
       name: Ambush
@@ -112,7 +112,7 @@ builds:
     protection: '1.6'
     skills:
     - color: red
-      description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
+      description: Stealth reduces the cooldown of Snipe by 3. Also increases duration
         of invisibility by 0.3.\n
       icon: c5da66a86ca45a1449a49d55cc92d1fc
       name: Ambush
@@ -146,7 +146,7 @@ builds:
     protection: '1.9'
     skills:
     - color: red
-      description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
+      description: Stealth reduces the cooldown of Snipe by 3. Also increases duration
         of invisibility by 0.3.\n
       icon: c5da66a86ca45a1449a49d55cc92d1fc
       name: Ambush
@@ -180,7 +180,7 @@ builds:
     protection: '1.3'
     skills:
     - color: red
-      description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
+      description: Stealth reduces the cooldown of Snipe by 3. Also increases duration
         of invisibility by 0.3.\n
       icon: c5da66a86ca45a1449a49d55cc92d1fc
       name: Ambush
@@ -250,7 +250,7 @@ builds:
     protection: '0.8'
     skills:
     - color: red
-      description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
+      description: Stealth reduces the cooldown of Snipe by 3. Also increases duration
         of invisibility by 0.3.\n
       icon: c5da66a86ca45a1449a49d55cc92d1fc
       name: Ambush
@@ -285,7 +285,7 @@ builds:
     protection: '1.1'
     skills:
     - color: red
-      description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
+      description: Stealth reduces the cooldown of Snipe by 3. Also increases duration
         of invisibility by 0.3.\n
       icon: c5da66a86ca45a1449a49d55cc92d1fc
       name: Ambush
@@ -319,7 +319,7 @@ builds:
     protection: '1.2'
     skills:
     - color: red
-      description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
+      description: Stealth reduces the cooldown of Snipe by 3. Also increases duration
         of invisibility by 0.3.\n
       icon: c5da66a86ca45a1449a49d55cc92d1fc
       name: Ambush
@@ -389,7 +389,7 @@ builds:
     protection: '0.9'
     skills:
     - color: red
-      description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
+      description: Stealth reduces the cooldown of Snipe by 3. Also increases duration
         of invisibility by 0.3.\n
       icon: c5da66a86ca45a1449a49d55cc92d1fc
       name: Ambush
@@ -424,7 +424,7 @@ builds:
     protection: '1.7'
     skills:
     - color: red
-      description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
+      description: Stealth reduces the cooldown of Snipe by 3. Also increases duration
         of invisibility by 0.3.\n
       icon: c5da66a86ca45a1449a49d55cc92d1fc
       name: Ambush
@@ -458,7 +458,7 @@ builds:
     protection: '1.4'
     skills:
     - color: red
-      description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
+      description: Stealth reduces the cooldown of Snipe by 3. Also increases duration
         of invisibility by 0.3.\n
       icon: c5da66a86ca45a1449a49d55cc92d1fc
       name: Ambush
@@ -493,7 +493,7 @@ builds:
     protection: '0.3'
     skills:
     - color: red
-      description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
+      description: Stealth reduces the cooldown of Snipe by 3. Also increases duration
         of invisibility by 0.3.\n
       icon: c5da66a86ca45a1449a49d55cc92d1fc
       name: Ambush
@@ -527,7 +527,7 @@ builds:
     protection: '1.6'
     skills:
     - color: red
-      description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
+      description: Stealth reduces the cooldown of Snipe by 3. Also increases duration
         of invisibility by 0.3.\n
       icon: c5da66a86ca45a1449a49d55cc92d1fc
       name: Ambush
@@ -561,7 +561,7 @@ builds:
     protection: '0.8'
     skills:
     - color: red
-      description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
+      description: Stealth reduces the cooldown of Snipe by 3. Also increases duration
         of invisibility by 0.3.\n
       icon: c5da66a86ca45a1449a49d55cc92d1fc
       name: Ambush
@@ -668,7 +668,7 @@ builds:
     protection: '0.6'
     skills:
     - color: red
-      description: Stealth reduces the cooldown of Snipe by 4. Also increases duration
+      description: Stealth reduces the cooldown of Snipe by 3. Also increases duration
         of invisibility by 0.3.\n
       icon: c5da66a86ca45a1449a49d55cc92d1fc
       name: Ambush
