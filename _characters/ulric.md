@@ -291,41 +291,6 @@ builds:
       name: Vindicator
       type: mobility
     winrate: '25.0'
-  - damage: '2.4'
-    disable: '0.6'
-    energy: '2.5'
-    num: 7
-    protection: '5.7'
-    skills:
-    - color: grey
-      description: Holy Light heals you for 9 health when another ally affected by
-        Favor is healed.
-      icon: 85a79d3bf018b184887fb1a71ef51ac1
-      name: Divine Abundance
-      type: mixed
-    - color: teal
-      description: Holy Light recharges 100 faster when Smite is active.
-      icon: 85a79d3bf018b184887fb1a71ef51ac1
-      name: Faith
-      type: support
-    - color: green
-      description: Activating Smite grants a Shield. It absorbs up to 12 damage for
-        3.
-      icon: 6892bf3a45c0ad042b495a385cb5604f
-      name: Halo
-      type: survival
-    - color: yellow
-      description: Intervene travel distance increases by 40 when affected by Favor.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Initiation
-      type: mobility
-    - color: yellow
-      description: Condemn cooldown is reduced by 3 and hits reduce the cooldown of
-        Intervene by 4.
-      icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
-      name: Vindicator
-      type: mobility
-    winrate: '42.9'
   - damage: '6.0'
     disable: '1.3'
     energy: '4.3'
@@ -363,6 +328,41 @@ builds:
       name: Penitence
       type: offense
     winrate: '71.4'
+  - damage: '2.4'
+    disable: '0.6'
+    energy: '2.5'
+    num: 7
+    protection: '5.7'
+    skills:
+    - color: grey
+      description: Holy Light heals you for 9 health when another ally affected by
+        Favor is healed.
+      icon: 85a79d3bf018b184887fb1a71ef51ac1
+      name: Divine Abundance
+      type: mixed
+    - color: teal
+      description: Holy Light recharges 100 faster when Smite is active.
+      icon: 85a79d3bf018b184887fb1a71ef51ac1
+      name: Faith
+      type: support
+    - color: green
+      description: Activating Smite grants a Shield. It absorbs up to 12 damage for
+        3.
+      icon: 6892bf3a45c0ad042b495a385cb5604f
+      name: Halo
+      type: survival
+    - color: yellow
+      description: Intervene travel distance increases by 40 when affected by Favor.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Initiation
+      type: mobility
+    - color: yellow
+      description: Condemn cooldown is reduced by 3 and hits reduce the cooldown of
+        Intervene by 4.
+      icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
+      name: Vindicator
+      type: mobility
+    winrate: '42.9'
   twos:
   - damage: '4.1'
     disable: '0.8'
@@ -546,41 +546,6 @@ builds:
       name: Vindicator
       type: mobility
     winrate: '66.7'
-  - damage: '2.8'
-    disable: '0.6'
-    energy: '2.9'
-    num: 3
-    protection: '4.1'
-    skills:
-    - color: teal
-      description: Holy Light heals other allies for 3 bonus health.
-      icon: 85a79d3bf018b184887fb1a71ef51ac1
-      name: Devotion
-      type: support
-    - color: green
-      description: Activating Smite grants a Shield. It absorbs up to 12 damage for
-        3.
-      icon: 6892bf3a45c0ad042b495a385cb5604f
-      name: Halo
-      type: survival
-    - color: red
-      description: The third Smite attack deals 6 bonus damage and explodes upon impact
-        dealing 16 area damage to nearby enemies.
-      icon: 6892bf3a45c0ad042b495a385cb5604f
-      name: Holy Fire
-      type: offense
-    - color: yellow
-      description: Intervene travel distance increases by 40 when affected by Favor.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Initiation
-      type: mobility
-    - color: teal
-      description: Blocking attacks with Radiant Shield sends out a wave of light,
-        healing nearby allies up to 3 times for {Can't represent GameValueList} health.
-      icon: c7f49424687c9a744a6347a5e2eede0b
-      name: Light's Embrace
-      type: support
-    winrate: '0.0'
   - damage: '4.1'
     disable: '0.7'
     energy: '2.5'
@@ -653,6 +618,41 @@ builds:
       name: Vindicator
       type: mobility
     winrate: '100.0'
+  - damage: '2.8'
+    disable: '0.6'
+    energy: '2.9'
+    num: 3
+    protection: '4.1'
+    skills:
+    - color: teal
+      description: Holy Light heals other allies for 3 bonus health.
+      icon: 85a79d3bf018b184887fb1a71ef51ac1
+      name: Devotion
+      type: support
+    - color: green
+      description: Activating Smite grants a Shield. It absorbs up to 12 damage for
+        3.
+      icon: 6892bf3a45c0ad042b495a385cb5604f
+      name: Halo
+      type: survival
+    - color: red
+      description: The third Smite attack deals 6 bonus damage and explodes upon impact
+        dealing 16 area damage to nearby enemies.
+      icon: 6892bf3a45c0ad042b495a385cb5604f
+      name: Holy Fire
+      type: offense
+    - color: yellow
+      description: Intervene travel distance increases by 40 when affected by Favor.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Initiation
+      type: mobility
+    - color: teal
+      description: Blocking attacks with Radiant Shield sends out a wave of light,
+        healing nearby allies up to 3 times for {Can't represent GameValueList} health.
+      icon: c7f49424687c9a744a6347a5e2eede0b
+      name: Light's Embrace
+      type: support
+    winrate: '0.0'
   - damage: '3.7'
     disable: '0.9'
     energy: '3.0'
@@ -688,11 +688,11 @@ builds:
       name: Initiation
       type: mobility
     winrate: '66.7'
-  - damage: '5.7'
-    disable: '1.4'
-    energy: '3.7'
+  - damage: '4.3'
+    disable: '1.0'
+    energy: '2.8'
     num: 2
-    protection: '4.4'
+    protection: '5.3'
     skills:
     - color: red
       description: Charged Hammer of Justice deals 2 bonus damage and inflicts Stun
@@ -700,6 +700,12 @@ builds:
       icon: 398f1e921a73f484e9fc54e1308407f7
       name: Cleave
       type: offense
+    - color: teal
+      description: Applying Favor to an ally grants them a Shield. It absorbs up to
+        12 damage for 1.5.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Divine Protection
+      type: support
     - color: red
       description: When affected by Favor, Hammer of Justice deals 3 bonus damage
         and the Stun duration of charged Hammer of Justice is increased by 0.2.
@@ -712,19 +718,13 @@ builds:
       icon: 6892bf3a45c0ad042b495a385cb5604f
       name: Halo
       type: survival
-    - color: pink
-      description: Smite projectiles inflict a {Can't represent GameValueList} Snare
-        for 1.2.
-      icon: 6892bf3a45c0ad042b495a385cb5604f
-      name: Holy Shackles
-      type: control
     - color: yellow
       description: Condemn cooldown is reduced by 3 and hits reduce the cooldown of
         Intervene by 4.
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mobility
-    winrate: '100.0'
+    winrate: '0.0'
 compos:
   threes:
   - hero_names:

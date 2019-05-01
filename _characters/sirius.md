@@ -577,42 +577,6 @@ builds:
       name: Sunwell
       type: mobility
     winrate: '33.3'
-  - damage: '4.3'
-    disable: '1.2'
-    energy: '3.1'
-    num: 5
-    protection: '4.1'
-    skills:
-    - color: red
-      description: Prismatic Strike hits charge your weapon by 50.
-      icon: 550d7ec44eda09941a7b713422b042d0
-      name: Celestial Cycle
-      type: offense
-    - color: yellow
-      description: Sunrise can be recast for 1.5 to return to the origin location.
-      icon: c2d82c257d770664682e9df0dadb6596
-      name: Daybreak
-      type: mobility
-    - color: pink
-      description: Lunar Strike can be recast within 1.8 to spawn Lesser Lunar Strike
-        with reduced radius and duration. It does not affect enemies already affected
-        by Lunar Strike.
-      icon: f138c9c126ce8934bbe8d6ba98327181
-      name: Lunatic
-      type: control
-    - color: pink
-      description: Increases Petrify duration by 0.5 and reduces cooldown of Lunar
-        Strike by 2.5.
-      icon: f138c9c126ce8934bbe8d6ba98327181
-      name: Moonstone
-      type: control
-    - color: red
-      description: Reduces weapon charge time by 15 and charged Crescent Strike deals
-        2 bonus damage.
-      icon: 86a75fb294677254e8706e98f7507f8b
-      name: Saros Slash
-      type: offense
-    winrate: '60.0'
   - damage: '5.3'
     disable: '0.7'
     energy: '3.3'
@@ -712,6 +676,42 @@ builds:
       icon: c2d82c257d770664682e9df0dadb6596
       name: Illumination
       type: support
+    - color: red
+      description: Reduces weapon charge time by 15 and charged Crescent Strike deals
+        2 bonus damage.
+      icon: 86a75fb294677254e8706e98f7507f8b
+      name: Saros Slash
+      type: offense
+    winrate: '60.0'
+  - damage: '4.3'
+    disable: '1.2'
+    energy: '3.1'
+    num: 5
+    protection: '4.1'
+    skills:
+    - color: red
+      description: Prismatic Strike hits charge your weapon by 50.
+      icon: 550d7ec44eda09941a7b713422b042d0
+      name: Celestial Cycle
+      type: offense
+    - color: yellow
+      description: Sunrise can be recast for 1.5 to return to the origin location.
+      icon: c2d82c257d770664682e9df0dadb6596
+      name: Daybreak
+      type: mobility
+    - color: pink
+      description: Lunar Strike can be recast within 1.8 to spawn Lesser Lunar Strike
+        with reduced radius and duration. It does not affect enemies already affected
+        by Lunar Strike.
+      icon: f138c9c126ce8934bbe8d6ba98327181
+      name: Lunatic
+      type: control
+    - color: pink
+      description: Increases Petrify duration by 0.5 and reduces cooldown of Lunar
+        Strike by 2.5.
+      icon: f138c9c126ce8934bbe8d6ba98327181
+      name: Moonstone
+      type: control
     - color: red
       description: Reduces weapon charge time by 15 and charged Crescent Strike deals
         2 bonus damage.
