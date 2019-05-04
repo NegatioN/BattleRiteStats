@@ -625,6 +625,41 @@ builds:
       name: Surprise Shot
       type: control
     winrate: '42.9'
+  - damage: '3.0'
+    disable: '0.5'
+    energy: '2.3'
+    num: 6
+    protection: '0.6'
+    skills:
+    - color: red
+      description: Stealth reduces the cooldown of Snipe by 3. Also increases duration
+        of invisibility by 0.3.\n
+      icon: c5da66a86ca45a1449a49d55cc92d1fc
+      name: Ambush
+      type: offense
+    - color: red
+      description: Snipe deals 5 bonus damage.
+      icon: 20e8f262eca757942bc23d94aa73ab2a
+      name: Deadly Focus
+      type: offense
+    - color: red
+      description: Disabling Shot hits instantly reload Revolver Shot with 6 ammo.
+      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
+      name: Desperado
+      type: offense
+    - color: yellow
+      description: Increases Blast Vault max range by 20% and reduces cooldown by
+        1.5.
+      icon: ead2d318c0e3f8f4793207ab3e12da21
+      name: Explosive Jump
+      type: mobility
+    - color: yellow
+      description: Increases Fading Haste factor of Stealth by 40. Also increases
+        Fading Haste duration by 0.5.
+      icon: c5da66a86ca45a1449a49d55cc92d1fc
+      name: Through the Shadows
+      type: mobility
+    winrate: '50.0'
   - damage: '5.9'
     disable: '0.9'
     energy: '3.7'
@@ -661,41 +696,6 @@ builds:
       name: Through the Shadows
       type: mobility
     winrate: '83.3'
-  - damage: '3.0'
-    disable: '0.5'
-    energy: '2.3'
-    num: 6
-    protection: '0.6'
-    skills:
-    - color: red
-      description: Stealth reduces the cooldown of Snipe by 3. Also increases duration
-        of invisibility by 0.3.\n
-      icon: c5da66a86ca45a1449a49d55cc92d1fc
-      name: Ambush
-      type: offense
-    - color: red
-      description: Snipe deals 5 bonus damage.
-      icon: 20e8f262eca757942bc23d94aa73ab2a
-      name: Deadly Focus
-      type: offense
-    - color: red
-      description: Disabling Shot hits instantly reload Revolver Shot with 6 ammo.
-      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
-      name: Desperado
-      type: offense
-    - color: yellow
-      description: Increases Blast Vault max range by 20% and reduces cooldown by
-        1.5.
-      icon: ead2d318c0e3f8f4793207ab3e12da21
-      name: Explosive Jump
-      type: mobility
-    - color: yellow
-      description: Increases Fading Haste factor of Stealth by 40. Also increases
-        Fading Haste duration by 0.5.
-      icon: c5da66a86ca45a1449a49d55cc92d1fc
-      name: Through the Shadows
-      type: mobility
-    winrate: '50.0'
 compos:
   threes:
   - hero_names:
