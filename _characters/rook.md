@@ -591,38 +591,6 @@ builds:
       name: Rook Smash
       type: offense
     winrate: '90.0'
-  - damage: '5.0'
-    disable: '1.2'
-    energy: '2.9'
-    num: 6
-    protection: '1.6'
-    skills:
-    - color: grey
-      description: Move forward during Crushing Blow.
-      icon: bc4e2e34829b8af4c92bb6a8f570fc96
-      name: Crushing Leap
-      type: mixed
-    - color: red
-      description: Rush hits cause you to gain Berserk for 1.5.
-      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
-      name: Frenzy
-      type: offense
-    - color: yellow
-      description: Increases movement speed bonus during Berserk by 25.
-      icon: df78f943fca96314181fdf1827f825db
-      name: Madness
-      type: mobility
-    - color: yellow
-      description: Pummel hits reduce cooldown of Rush by 0.4.
-      icon: 037a9d14b1a74c249a0bb90af0237a7f
-      name: Pummel Rush
-      type: mobility
-    - color: pink
-      description: Berserk inflicts 50 Snare for 3 to nearby enemies.
-      icon: df78f943fca96314181fdf1827f825db
-      name: War Cry
-      type: control
-    winrate: '16.7'
   - damage: '7.2'
     disable: '1.5'
     energy: '3.6'
@@ -657,6 +625,38 @@ builds:
       name: Rook Smash
       type: offense
     winrate: '100.0'
+  - damage: '5.0'
+    disable: '1.2'
+    energy: '2.9'
+    num: 6
+    protection: '1.6'
+    skills:
+    - color: grey
+      description: Move forward during Crushing Blow.
+      icon: bc4e2e34829b8af4c92bb6a8f570fc96
+      name: Crushing Leap
+      type: mixed
+    - color: red
+      description: Rush hits cause you to gain Berserk for 1.5.
+      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
+      name: Frenzy
+      type: offense
+    - color: yellow
+      description: Increases movement speed bonus during Berserk by 25.
+      icon: df78f943fca96314181fdf1827f825db
+      name: Madness
+      type: mobility
+    - color: yellow
+      description: Pummel hits reduce cooldown of Rush by 0.4.
+      icon: 037a9d14b1a74c249a0bb90af0237a7f
+      name: Pummel Rush
+      type: mobility
+    - color: pink
+      description: Berserk inflicts 50 Snare for 3 to nearby enemies.
+      icon: df78f943fca96314181fdf1827f825db
+      name: War Cry
+      type: control
+    winrate: '16.7'
 compos:
   threes:
   - hero_names:
