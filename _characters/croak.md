@@ -302,11 +302,11 @@ builds:
       name: Time to Strike
       type: mobility
     winrate: '63.2'
-  - damage: '5.0'
-    disable: '0.7'
-    energy: '3.0'
+  - damage: '5.4'
+    disable: '0.4'
+    energy: '2.7'
     num: 15
-    protection: '1.9'
+    protection: '1.7'
     skills:
     - color: green
       description: Frog Leap hits heal you for 12 health.
@@ -318,24 +318,25 @@ builds:
       icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Mending Toxin
       type: survival
-    - color: pink
-      description: Noxious Lunge inflicts Root for 1 and reapplies Toxin.
-      icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
-      name: Noxious Reaction
-      type: control
     - color: blue
       description: Toxin Muck gains 1 ability charge but increases its cooldown by
         1.
       icon: 84e29daadee87714294bbdabd3fdd4ab
       name: Spit Spit Spit
       type: utility
-    - color: yellow
-      description: Increases  Fading Haste factor of Camouflage from 40 to 45 and
-        haste duration from 1 to 2.
+    - color: red
+      description: Frog Leap causes your next 3 Blade Flurry attacks to deal 2 bonus
+        damage.
+      icon: f4d1c9994ff77524bacb0bfe5347e118
+      name: Triple Strike
+      type: offense
+    - color: red
+      description: Using Blade Flurry during Camouflage inflicts venom that explodes
+        after 2, dealing 8 damage to nearby enemies.
       icon: 97d6d4df3883adc4d99a900f62576ff7
-      name: Time to Strike
-      type: mobility
-    winrate: '40.0'
+      name: Venom Strike
+      type: offense
+    winrate: '26.7'
   twos:
   - damage: '4.9'
     disable: '0.5'
@@ -504,21 +505,21 @@ builds:
       name: Venom Strike
       type: offense
     winrate: '57.1'
-  - damage: '6.2'
-    disable: '1.2'
-    energy: '4.4'
+  - damage: '5.7'
+    disable: '0.9'
+    energy: '3.2'
     num: 5
-    protection: '1.2'
+    protection: '1.8'
     skills:
-    - color: red
-      description: Increases Toxin Blades bonus damage by 1 and duration by 2.
-      icon: 2c885df2336558e489fbe57b32a9fb94
-      name: Frog Frenzy
-      type: offense
     - color: green
-      description: Reduces damage taken by 30 for 2.5 after Camouflage ends.
-      icon: 97d6d4df3883adc4d99a900f62576ff7
-      name: Slippery Skin
+      description: Frog Leap hits heal you for 12 health.
+      icon: f4d1c9994ff77524bacb0bfe5347e118
+      name: Jungle Toad
+      type: survival
+    - color: green
+      description: Increases healing effect of Toxin from 8 to 16.
+      icon: 84e29daadee87714294bbdabd3fdd4ab
+      name: Mending Toxin
       type: survival
     - color: blue
       description: Toxin Muck gains 1 ability charge but increases its cooldown by
@@ -571,55 +572,21 @@ builds:
       name: Spit Spit Spit
       type: utility
     winrate: '80.0'
-  - damage: '6.5'
-    disable: '0.7'
-    energy: '3.2'
+  - damage: '6.2'
+    disable: '1.2'
+    energy: '4.4'
     num: 5
-    protection: '1.8'
+    protection: '1.2'
     skills:
-    - color: yellow
-      description: Increases Noxious Lunge range by 30. It deals 4 bonus damage.
-      icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
-      name: Frog Slice
-      type: mobility
-    - color: green
-      description: Increases healing effect of Toxin from 8 to 16.
-      icon: 84e29daadee87714294bbdabd3fdd4ab
-      name: Mending Toxin
-      type: survival
-    - color: blue
-      description: Toxin Muck gains 1 ability charge but increases its cooldown by
-        1.
-      icon: 84e29daadee87714294bbdabd3fdd4ab
-      name: Spit Spit Spit
-      type: utility
-    - color: blue
-      description: Noxious Lunge hits reduce Camouflage cooldown by 1.5.
-      icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
-      name: Trickery
-      type: utility
     - color: red
-      description: Frog Leap causes your next 3 Blade Flurry attacks to deal 2 bonus
-        damage.
-      icon: f4d1c9994ff77524bacb0bfe5347e118
-      name: Triple Strike
+      description: Increases Toxin Blades bonus damage by 1 and duration by 2.
+      icon: 2c885df2336558e489fbe57b32a9fb94
+      name: Frog Frenzy
       type: offense
-    winrate: '40.0'
-  - damage: '5.7'
-    disable: '0.9'
-    energy: '3.2'
-    num: 5
-    protection: '1.8'
-    skills:
     - color: green
-      description: Frog Leap hits heal you for 12 health.
-      icon: f4d1c9994ff77524bacb0bfe5347e118
-      name: Jungle Toad
-      type: survival
-    - color: green
-      description: Increases healing effect of Toxin from 8 to 16.
-      icon: 84e29daadee87714294bbdabd3fdd4ab
-      name: Mending Toxin
+      description: Reduces damage taken by 30 for 2.5 after Camouflage ends.
+      icon: 97d6d4df3883adc4d99a900f62576ff7
+      name: Slippery Skin
       type: survival
     - color: blue
       description: Toxin Muck gains 1 ability charge but increases its cooldown by
@@ -673,6 +640,40 @@ builds:
       name: Venom Strike
       type: offense
     winrate: '80.0'
+  - damage: '6.5'
+    disable: '0.7'
+    energy: '3.2'
+    num: 5
+    protection: '1.8'
+    skills:
+    - color: yellow
+      description: Increases Noxious Lunge range by 30. It deals 4 bonus damage.
+      icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
+      name: Frog Slice
+      type: mobility
+    - color: green
+      description: Increases healing effect of Toxin from 8 to 16.
+      icon: 84e29daadee87714294bbdabd3fdd4ab
+      name: Mending Toxin
+      type: survival
+    - color: blue
+      description: Toxin Muck gains 1 ability charge but increases its cooldown by
+        1.
+      icon: 84e29daadee87714294bbdabd3fdd4ab
+      name: Spit Spit Spit
+      type: utility
+    - color: blue
+      description: Noxious Lunge hits reduce Camouflage cooldown by 1.5.
+      icon: d5d88de7e41c6cd4fb0b51a9f9a534cf
+      name: Trickery
+      type: utility
+    - color: red
+      description: Frog Leap causes your next 3 Blade Flurry attacks to deal 2 bonus
+        damage.
+      icon: f4d1c9994ff77524bacb0bfe5347e118
+      name: Triple Strike
+      type: offense
+    winrate: '40.0'
 compos:
   threes:
   - hero_names:
