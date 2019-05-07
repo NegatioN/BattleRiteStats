@@ -207,39 +207,6 @@ builds:
       name: Shield Bash
       type: support
     winrate: '53.3'
-  - damage: '4.9'
-    disable: '0.9'
-    energy: '2.6'
-    num: 15
-    protection: '1.6'
-    skills:
-    - color: teal
-      description: Valiant Leap grants 25 damage reduction for 2.5 to nearby allies.
-      icon: 16e7e84d6c786cf4abc695c9b1c29b31
-      name: Bravery
-      type: support
-    - color: pink
-      description: Blood Axe inflicts Fading Snare for 1.2.
-      icon: 741da913acab25641862d0312d75a7a1
-      name: Hamstring
-      type: control
-    - color: grey
-      description: ^2Bulwark^- increases movement speed by 45.
-      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
-      name: Mobile Defence
-      type: mixed
-    - color: yellow
-      description: Increases range of Shield Dash by 25% and reduces cooldown by 1.
-      icon: 84ba51168b08df3489362e3a9be59704
-      name: Raging Ram
-      type: mobility
-    - color: teal
-      description: Bulwark can be recast to use Shield Bash. It deals 6 damage and
-        inflicts 40 Weaken for 1.5.
-      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
-      name: Shield Bash
-      type: support
-    winrate: '40.0'
   - damage: '6.0'
     disable: '1.7'
     energy: '2.8'
@@ -274,6 +241,39 @@ builds:
       name: Shield Bash
       type: support
     winrate: '60.0'
+  - damage: '4.9'
+    disable: '0.9'
+    energy: '2.6'
+    num: 15
+    protection: '1.6'
+    skills:
+    - color: teal
+      description: Valiant Leap grants 25 damage reduction for 2.5 to nearby allies.
+      icon: 16e7e84d6c786cf4abc695c9b1c29b31
+      name: Bravery
+      type: support
+    - color: pink
+      description: Blood Axe inflicts Fading Snare for 1.2.
+      icon: 741da913acab25641862d0312d75a7a1
+      name: Hamstring
+      type: control
+    - color: grey
+      description: ^2Bulwark^- increases movement speed by 45.
+      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
+      name: Mobile Defence
+      type: mixed
+    - color: yellow
+      description: Increases range of Shield Dash by 25% and reduces cooldown by 1.
+      icon: 84ba51168b08df3489362e3a9be59704
+      name: Raging Ram
+      type: mobility
+    - color: teal
+      description: Bulwark can be recast to use Shield Bash. It deals 6 damage and
+        inflicts 40 Weaken for 1.5.
+      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
+      name: Shield Bash
+      type: support
+    winrate: '40.0'
   - damage: '5.4'
     disable: '0.9'
     energy: '2.7'
@@ -525,6 +525,41 @@ builds:
       name: The Red Axe
       type: survival
     winrate: '71.4'
+  - damage: '7.9'
+    disable: '1.3'
+    energy: '3.4'
+    num: 6
+    protection: '1.9'
+    skills:
+    - color: teal
+      description: Valiant Leap grants 25 damage reduction for 2.5 to nearby allies.
+      icon: 16e7e84d6c786cf4abc695c9b1c29b31
+      name: Bravery
+      type: support
+    - color: grey
+      description: ^2Bulwark^- increases movement speed by 45.
+      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
+      name: Mobile Defence
+      type: mixed
+    - color: red
+      description: War Shout increases attack speed of War Axe and Blood Axe by 33%
+        and movement speed by 20 for 4.
+      icon: b778ec70cf3198442a522a40aefd88df
+      name: Rampage
+      type: offense
+    - color: teal
+      description: Bulwark can be recast to use Shield Bash. It deals 6 damage and
+        inflicts 40 Weaken for 1.5.
+      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
+      name: Shield Bash
+      type: support
+    - color: red
+      description: Blood Axe deals 2 bonus damage and an additional 1 bonus damage
+        per weapon charge.
+      icon: 741da913acab25641862d0312d75a7a1
+      name: Warlord's Axe
+      type: offense
+    winrate: '50.0'
   - damage: '6.9'
     disable: '1.2'
     energy: '3.3'
@@ -594,41 +629,6 @@ builds:
       name: Rampage
       type: offense
     winrate: '66.7'
-  - damage: '7.9'
-    disable: '1.3'
-    energy: '3.4'
-    num: 6
-    protection: '1.9'
-    skills:
-    - color: teal
-      description: Valiant Leap grants 25 damage reduction for 2.5 to nearby allies.
-      icon: 16e7e84d6c786cf4abc695c9b1c29b31
-      name: Bravery
-      type: support
-    - color: grey
-      description: ^2Bulwark^- increases movement speed by 45.
-      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
-      name: Mobile Defence
-      type: mixed
-    - color: red
-      description: War Shout increases attack speed of War Axe and Blood Axe by 33%
-        and movement speed by 20 for 4.
-      icon: b778ec70cf3198442a522a40aefd88df
-      name: Rampage
-      type: offense
-    - color: teal
-      description: Bulwark can be recast to use Shield Bash. It deals 6 damage and
-        inflicts 40 Weaken for 1.5.
-      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
-      name: Shield Bash
-      type: support
-    - color: red
-      description: Blood Axe deals 2 bonus damage and an additional 1 bonus damage
-        per weapon charge.
-      icon: 741da913acab25641862d0312d75a7a1
-      name: Warlord's Axe
-      type: offense
-    winrate: '50.0'
   - damage: '7.7'
     disable: '1.2'
     energy: '3.1'
@@ -664,41 +664,39 @@ builds:
       name: Shield Bash
       type: support
     winrate: '60.0'
-  - damage: '7.7'
-    disable: '1.8'
-    energy: '3.2'
+  - damage: '5.3'
+    disable: '1.0'
+    energy: '3.3'
     num: 4
-    protection: '1.5'
+    protection: '0.9'
     skills:
     - color: red
-      description: Hitting an enemy with Shield Dash causes your next War Axe hit
-        to deal 8 bonus damage.
-      icon: 84ba51168b08df3489362e3a9be59704
-      name: Adrenaline Slam
+      description: Hitting at least one enemy with Valiant Leap causes your next War
+        Axe hit to deal 8 bonus damage.
+      icon: 16e7e84d6c786cf4abc695c9b1c29b31
+      name: Adrenaline Rush
       type: offense
-    - color: pink
-      description: Shield Dash inflicts 25 Snare for 2.5. Pushing an enemy into a
-        wall deals 6 bonus damage.
-      icon: 84ba51168b08df3489362e3a9be59704
-      name: Dizzying Dash
-      type: control
     - color: pink
       description: Blood Axe inflicts Fading Snare for 1.2.
       icon: 741da913acab25641862d0312d75a7a1
       name: Hamstring
       type: control
-    - color: teal
-      description: Bulwark can be recast to use Shield Bash. It deals 6 damage and
-        inflicts 40 Weaken for 1.5.
-      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
-      name: Shield Bash
-      type: support
-    - color: green
-      description: Blood Axe hits heal you for 2 health plus 2 additional health per
-        weapon charge.
+    - color: red
+      description: Blood Axe hits reduce its cooldown by 1.75.
       icon: 741da913acab25641862d0312d75a7a1
-      name: The Red Axe
-      type: survival
+      name: Howling Axes
+      type: offense
+    - color: yellow
+      description: Increases range of Shield Dash by 25% and reduces cooldown by 1.
+      icon: 84ba51168b08df3489362e3a9be59704
+      name: Raging Ram
+      type: mobility
+    - color: red
+      description: War Shout increases attack speed of War Axe and Blood Axe by 33%
+        and movement speed by 20 for 4.
+      icon: b778ec70cf3198442a522a40aefd88df
+      name: Rampage
+      type: offense
     winrate: '75.0'
 compos:
   threes:
