@@ -526,42 +526,6 @@ builds:
       name: Magma
       type: offense
     winrate: '50.0'
-  - damage: '6.3'
-    disable: '0.8'
-    energy: '2.0'
-    num: 5
-    protection: '0.7'
-    skills:
-    - color: red
-      description: Fire Storm hits deal 2 bonus damage and spread fire to other nearby
-        enemies, dealing 9 damage and inflicting Ignite.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Combustion
-      type: offense
-    - color: yellow
-      description: Fire Storm can be cast while moving at 50 movement speed and 30
-        while channeling.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Heat
-      type: mobility
-    - color: red
-      description: Flamestrike deals 10 bonus damage and inflicts Ignite.
-      icon: 48122c1a1a8cae7408409c90126f11cb
-      name: Inferno
-      type: offense
-    - color: pink
-      description: Knocking an enemy into a wall using Molten Fist inflicts Stun for
-        1.2.
-      icon: 64ae838604146444aac3474b78250f52
-      name: Knockout
-      type: control
-    - color: red
-      description: Ignite deals 2 bonus damage when first applied and reduces target's
-        movement speed by 10.
-      icon: 7612ba34ea3cdf9429a033d92e85c117
-      name: Magma
-      type: offense
-    winrate: '20.0'
   - damage: '7.0'
     disable: '0.8'
     energy: '2.8'
@@ -632,6 +596,42 @@ builds:
       name: Wildfire
       type: offense
     winrate: '0.0'
+  - damage: '6.3'
+    disable: '0.8'
+    energy: '2.0'
+    num: 5
+    protection: '0.7'
+    skills:
+    - color: red
+      description: Fire Storm hits deal 2 bonus damage and spread fire to other nearby
+        enemies, dealing 9 damage and inflicting Ignite.
+      icon: 117c35c7f757858428a733d8da4982be
+      name: Combustion
+      type: offense
+    - color: yellow
+      description: Fire Storm can be cast while moving at 50 movement speed and 30
+        while channeling.
+      icon: 117c35c7f757858428a733d8da4982be
+      name: Heat
+      type: mobility
+    - color: red
+      description: Flamestrike deals 10 bonus damage and inflicts Ignite.
+      icon: 48122c1a1a8cae7408409c90126f11cb
+      name: Inferno
+      type: offense
+    - color: pink
+      description: Knocking an enemy into a wall using Molten Fist inflicts Stun for
+        1.2.
+      icon: 64ae838604146444aac3474b78250f52
+      name: Knockout
+      type: control
+    - color: red
+      description: Ignite deals 2 bonus damage when first applied and reduces target's
+        movement speed by 10.
+      icon: 7612ba34ea3cdf9429a033d92e85c117
+      name: Magma
+      type: offense
+    winrate: '20.0'
   - damage: '6.1'
     disable: '0.7'
     energy: '3.5'
