@@ -322,11 +322,11 @@ builds:
       name: Splash Damage
       type: control
     winrate: '57.1'
-  - damage: '2.6'
-    disable: '0.5'
-    energy: '2.5'
+  - damage: '2.8'
+    disable: '0.7'
+    energy: '2.4'
     num: 12
-    protection: '6.2'
+    protection: '5.3'
     skills:
     - color: teal
       description: Healing Wave bounces to a nearby ally after healing, healing them
@@ -339,25 +339,25 @@ builds:
       icon: baa9baf5b01c5ee42902398a8f946a5a
       name: Gush
       type: control
-    - color: pink
-      description: Charged Volatile Water explodes upon hitting an enemy, dealing
-        full damage and inflicting Silence to other nearby enemies.
-      icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Splash Damage
-      type: control
-    - color: teal
-      description: Dive heals self for 6 health and other nearby allies for 18 health
-        when emerging from the deep.
-      icon: 6c30b1e6992030e4dae06a355b7a4fb4
-      name: Spring Water
-      type: support
-    - color: teal
-      description: Bubble Barrier spawns a tasty fish that heals 10 health and increases
-        damage output by 20 for 4 when picked up.
+    - color: blue
+      description: Bubble Barrier can be recast within 1.5 to spawn a Lesser Bubble
+        Barrier.
       icon: dba76bbb88cac764f9a8aeff389abb99
-      name: Tasty Fish
-      type: support
-    winrate: '50.0'
+      name: Ocean Sage
+      type: utility
+    - color: red
+      description: Firing Volatile Water through a Bubble Barrier increases damage
+        by 3 and range by 25.
+      icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Rippling Waters
+      type: offense
+    - color: red
+      description: Dive deals 10 damage and inflicts Root for 1.2 at your starting
+        location.
+      icon: 6c30b1e6992030e4dae06a355b7a4fb4
+      name: Riptide
+      type: offense
+    winrate: '66.7'
   twos:
   - damage: '3.8'
     disable: '0.5'
@@ -681,12 +681,18 @@ builds:
       name: Tsunami
       type: offense
     winrate: '16.7'
-  - damage: '3.1'
-    disable: '0.5'
-    energy: '2.0'
+  - damage: '3.8'
+    disable: '0.8'
+    energy: '3.1'
     num: 3
     protection: '3.2'
     skills:
+    - color: teal
+      description: Healing Wave bounces to a nearby ally after healing, healing them
+        for 6 health.
+      icon: 81f898538a9eba14b82110f8ebf6654e
+      name: Fountain
+      type: support
     - color: pink
       description: Countering an attack with Tidal Wave recharges your staff.
       icon: baa9baf5b01c5ee42902398a8f946a5a
@@ -709,12 +715,6 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Splash Damage
       type: control
-    - color: teal
-      description: Bubble Barrier spawns a tasty fish that heals 10 health and increases
-        damage output by 20 for 4 when picked up.
-      icon: dba76bbb88cac764f9a8aeff389abb99
-      name: Tasty Fish
-      type: support
     winrate: '66.7'
 compos:
   threes:
