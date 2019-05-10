@@ -109,6 +109,41 @@ builds:
       name: Storm Drain
       type: mixed
     winrate: '37.5'
+  - damage: '5.1'
+    disable: '1.1'
+    energy: '2.9'
+    num: 8
+    protection: '0.7'
+    skills:
+    - color: grey
+      description: Recast Ascension to land at target position and deal 10 damage
+        to nearby enemies.
+      icon: 4d02491e780fc464abfadb5bbe4d6fd1
+      name: Dragon Descent
+      type: mixed
+    - color: grey
+      description: Dealing damage with another ability empowers your next Shock Blast.
+        Empowered blasts hit all nearby enemies.
+      icon: 81f65d3dd0b1331488eaee6aef3e1d81
+      name: Dragon Force
+      type: mixed
+    - color: grey
+      description: Storm Struck spreads from affected enemies to other nearby enemies.
+      icon: f381f5a83890a9342b8332f2a234b06f
+      name: Eyewall
+      type: mixed
+    - color: grey
+      description: Dragon Storm summons 1 additional dragons.
+      icon: 23f25a42ca0e20b458635a8c00639f07
+      name: Mandate of Heaven
+      type: mixed
+    - color: grey
+      description: The radius of Dominion is increased by 30 and casting it empowers
+        your next 3 Shock Blasts. Empowered blasts hit all nearby enemies.
+      icon: 0cf963f4151146b49942756c69808bd9
+      name: Sphere of Influence
+      type: mixed
+    winrate: '37.5'
   - damage: '5.4'
     disable: '1.1'
     energy: '3.1'
@@ -145,77 +180,6 @@ builds:
       name: Sphere of Influence
       type: mixed
     winrate: '37.5'
-  - damage: '5.1'
-    disable: '1.1'
-    energy: '2.9'
-    num: 8
-    protection: '0.7'
-    skills:
-    - color: grey
-      description: Recast Ascension to land at target position and deal 10 damage
-        to nearby enemies.
-      icon: 4d02491e780fc464abfadb5bbe4d6fd1
-      name: Dragon Descent
-      type: mixed
-    - color: grey
-      description: Dealing damage with another ability empowers your next Shock Blast.
-        Empowered blasts hit all nearby enemies.
-      icon: 81f65d3dd0b1331488eaee6aef3e1d81
-      name: Dragon Force
-      type: mixed
-    - color: grey
-      description: Storm Struck spreads from affected enemies to other nearby enemies.
-      icon: f381f5a83890a9342b8332f2a234b06f
-      name: Eyewall
-      type: mixed
-    - color: grey
-      description: Dragon Storm summons 1 additional dragons.
-      icon: 23f25a42ca0e20b458635a8c00639f07
-      name: Mandate of Heaven
-      type: mixed
-    - color: grey
-      description: The radius of Dominion is increased by 30 and casting it empowers
-        your next 3 Shock Blasts. Empowered blasts hit all nearby enemies.
-      icon: 0cf963f4151146b49942756c69808bd9
-      name: Sphere of Influence
-      type: mixed
-    winrate: '37.5'
-  - damage: '4.6'
-    disable: '1.3'
-    energy: '2.4'
-    num: 7
-    protection: '0.8'
-    skills:
-    - color: grey
-      description: Dealing damage with another ability empowers your next Shock Blast.
-        Empowered blasts hit all nearby enemies.
-      icon: 81f65d3dd0b1331488eaee6aef3e1d81
-      name: Dragon Force
-      type: mixed
-    - color: grey
-      description: Storm Struck spreads from affected enemies to other nearby enemies.
-      icon: f381f5a83890a9342b8332f2a234b06f
-      name: Eyewall
-      type: mixed
-    - color: grey
-      description: Increases Storm Bolt range by 10. Storm Struck targets can be redirected
-        by recasting Storm Bolt.
-      icon: f381f5a83890a9342b8332f2a234b06f
-      name: Puppeteer
-      type: mixed
-    - color: grey
-      description: Increases the second blast radius of Dragon Roar by 10 and enemies
-        hit are pulled towards the center.
-      icon: c7eae372c662b324c9af9533cd22293e
-      name: Shock and Awe
-      type: mixed
-    - color: grey
-      description: The radius of Dominion is increased by 30 and casting it empowers
-        your next 3 Shock Blasts. Empowered blasts hit all nearby enemies.
-      icon: 0cf963f4151146b49942756c69808bd9
-      name: Sphere of Influence
-      type: mixed
-    winrate: '42.9'
   - damage: '6.2'
     disable: '1.5'
     energy: '2.9'
@@ -252,6 +216,42 @@ builds:
       name: Sphere of Influence
       type: mixed
     winrate: '14.3'
+  - damage: '4.6'
+    disable: '1.3'
+    energy: '2.4'
+    num: 7
+    protection: '0.8'
+    skills:
+    - color: grey
+      description: Dealing damage with another ability empowers your next Shock Blast.
+        Empowered blasts hit all nearby enemies.
+      icon: 81f65d3dd0b1331488eaee6aef3e1d81
+      name: Dragon Force
+      type: mixed
+    - color: grey
+      description: Storm Struck spreads from affected enemies to other nearby enemies.
+      icon: f381f5a83890a9342b8332f2a234b06f
+      name: Eyewall
+      type: mixed
+    - color: grey
+      description: Increases Storm Bolt range by 10. Storm Struck targets can be redirected
+        by recasting Storm Bolt.
+      icon: f381f5a83890a9342b8332f2a234b06f
+      name: Puppeteer
+      type: mixed
+    - color: grey
+      description: Increases the second blast radius of Dragon Roar by 10 and enemies
+        hit are pulled towards the center.
+      icon: c7eae372c662b324c9af9533cd22293e
+      name: Shock and Awe
+      type: mixed
+    - color: grey
+      description: The radius of Dominion is increased by 30 and casting it empowers
+        your next 3 Shock Blasts. Empowered blasts hit all nearby enemies.
+      icon: 0cf963f4151146b49942756c69808bd9
+      name: Sphere of Influence
+      type: mixed
+    winrate: '42.9'
   - damage: '5.0'
     disable: '1.1'
     energy: '3.0'
@@ -502,6 +502,42 @@ builds:
       name: Puppeteer
       type: mixed
     winrate: '80.0'
+  - damage: '5.2'
+    disable: '1.1'
+    energy: '2.3'
+    num: 3
+    protection: '0.7'
+    skills:
+    - color: grey
+      description: Recast Ascension to land at target position and deal 10 damage
+        to nearby enemies.
+      icon: 4d02491e780fc464abfadb5bbe4d6fd1
+      name: Dragon Descent
+      type: mixed
+    - color: grey
+      description: Dealing damage with another ability empowers your next Shock Blast.
+        Empowered blasts hit all nearby enemies.
+      icon: 81f65d3dd0b1331488eaee6aef3e1d81
+      name: Dragon Force
+      type: mixed
+    - color: grey
+      description: Storm Struck spreads from affected enemies to other nearby enemies.
+      icon: f381f5a83890a9342b8332f2a234b06f
+      name: Eyewall
+      type: mixed
+    - color: grey
+      description: The radius of Dominion is increased by 30 and casting it empowers
+        your next 3 Shock Blasts. Empowered blasts hit all nearby enemies.
+      icon: 0cf963f4151146b49942756c69808bd9
+      name: Sphere of Influence
+      type: mixed
+    - color: grey
+      description: Negating an attack with Dismissal empowers your next 2 Shock Blasts.
+        Empowered blasts hit all nearby enemies.
+      icon: 4249017bc8408d2458cc2722d435e171
+      name: Storm Drain
+      type: mixed
+    winrate: '33.3'
   - damage: '7.5'
     disable: '1.5'
     energy: '4.1'
@@ -539,23 +575,21 @@ builds:
       name: Storm Drain
       type: mixed
     winrate: '100.0'
-  - damage: '5.2'
-    disable: '1.1'
-    energy: '2.3'
+  - damage: '3.4'
+    disable: '1.0'
+    energy: '1.8'
     num: 3
-    protection: '0.7'
+    protection: '1.8'
     skills:
     - color: grey
-      description: Recast Ascension to land at target position and deal 10 damage
-        to nearby enemies.
-      icon: 4d02491e780fc464abfadb5bbe4d6fd1
-      name: Dragon Descent
+      description: Negating an attack with Dismissal reduces its cooldown by 2.
+      icon: 4249017bc8408d2458cc2722d435e171
+      name: Effortless Defense
       type: mixed
     - color: grey
-      description: Dealing damage with another ability empowers your next Shock Blast.
-        Empowered blasts hit all nearby enemies.
-      icon: 81f65d3dd0b1331488eaee6aef3e1d81
-      name: Dragon Force
+      description: Storm Bolt hits heal you for 16 health.
+      icon: f381f5a83890a9342b8332f2a234b06f
+      name: Entertainment
       type: mixed
     - color: grey
       description: Storm Struck spreads from affected enemies to other nearby enemies.
@@ -563,16 +597,16 @@ builds:
       name: Eyewall
       type: mixed
     - color: grey
+      description: Landing after Ascension heals you and nearby allies for 14 health
+        each.
+      icon: 4d02491e780fc464abfadb5bbe4d6fd1
+      name: Heavenly Grace
+      type: mixed
+    - color: grey
       description: The radius of Dominion is increased by 30 and casting it empowers
         your next 3 Shock Blasts. Empowered blasts hit all nearby enemies.
       icon: 0cf963f4151146b49942756c69808bd9
       name: Sphere of Influence
-      type: mixed
-    - color: grey
-      description: Negating an attack with Dismissal empowers your next 2 Shock Blasts.
-        Empowered blasts hit all nearby enemies.
-      icon: 4249017bc8408d2458cc2722d435e171
-      name: Storm Drain
       type: mixed
     winrate: '33.3'
   - damage: '5.3'
@@ -610,52 +644,12 @@ builds:
       name: Sphere of Influence
       type: mixed
     winrate: '0.0'
-  - damage: '3.4'
-    disable: '1.0'
-    energy: '1.8'
-    num: 3
-    protection: '1.8'
-    skills:
-    - color: grey
-      description: Negating an attack with Dismissal reduces its cooldown by 2.
-      icon: 4249017bc8408d2458cc2722d435e171
-      name: Effortless Defense
-      type: mixed
-    - color: grey
-      description: Storm Bolt hits heal you for 16 health.
-      icon: f381f5a83890a9342b8332f2a234b06f
-      name: Entertainment
-      type: mixed
-    - color: grey
-      description: Storm Struck spreads from affected enemies to other nearby enemies.
-      icon: f381f5a83890a9342b8332f2a234b06f
-      name: Eyewall
-      type: mixed
-    - color: grey
-      description: Landing after Ascension heals you and nearby allies for 14 health
-        each.
-      icon: 4d02491e780fc464abfadb5bbe4d6fd1
-      name: Heavenly Grace
-      type: mixed
-    - color: grey
-      description: The radius of Dominion is increased by 30 and casting it empowers
-        your next 3 Shock Blasts. Empowered blasts hit all nearby enemies.
-      icon: 0cf963f4151146b49942756c69808bd9
-      name: Sphere of Influence
-      type: mixed
-    winrate: '33.3'
-  - damage: '8.0'
-    disable: '1.6'
-    energy: '4.3'
+  - damage: '5.3'
+    disable: '1.2'
+    energy: '2.9'
     num: 2
-    protection: '1.0'
+    protection: '0.9'
     skills:
-    - color: grey
-      description: Recast Ascension to land at target position and deal 10 damage
-        to nearby enemies.
-      icon: 4d02491e780fc464abfadb5bbe4d6fd1
-      name: Dragon Descent
-      type: mixed
     - color: grey
       description: Dealing damage with another ability empowers your next Shock Blast.
         Empowered blasts hit all nearby enemies.
@@ -663,16 +657,9 @@ builds:
       name: Dragon Force
       type: mixed
     - color: grey
-      description: Increases Storm Bolt range by 10. Storm Struck targets can be redirected
-        by recasting Storm Bolt.
+      description: Storm Struck spreads from affected enemies to other nearby enemies.
       icon: f381f5a83890a9342b8332f2a234b06f
-      name: Puppeteer
-      type: mixed
-    - color: grey
-      description: Increases the second blast radius of Dragon Roar by 10 and enemies
-        hit are pulled towards the center.
-      icon: c7eae372c662b324c9af9533cd22293e
-      name: Shock and Awe
+      name: Eyewall
       type: mixed
     - color: grey
       description: The radius of Dominion is increased by 30 and casting it empowers
@@ -680,7 +667,18 @@ builds:
       icon: 0cf963f4151146b49942756c69808bd9
       name: Sphere of Influence
       type: mixed
-    winrate: '100.0'
+    - color: grey
+      description: Negating an attack with Dismissal empowers your next 2 Shock Blasts.
+        Empowered blasts hit all nearby enemies.
+      icon: 4249017bc8408d2458cc2722d435e171
+      name: Storm Drain
+      type: mixed
+    - color: grey
+      description: Lightning Bolt inflicts 35 Snare for 2.5.
+      icon: 4d02491e780fc464abfadb5bbe4d6fd1
+      name: Subdue
+      type: mixed
+    winrate: '0.0'
   - damage: '5.8'
     disable: '1.4'
     energy: '3.6'

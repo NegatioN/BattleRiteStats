@@ -174,41 +174,6 @@ builds:
       name: Inferno
       type: offense
     winrate: '54.5'
-  - damage: '7.9'
-    disable: '0.6'
-    energy: '3.1'
-    num: 29
-    protection: '0.5'
-    skills:
-    - color: red
-      description: Fire Storm hits deal 2 bonus damage and spread fire to other nearby
-        enemies, dealing 9 damage and inflicting Ignite.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Combustion
-      type: offense
-    - color: grey
-      description: Increases Flamestrike radius by 15 and reduces cooldown by 1.
-      icon: 48122c1a1a8cae7408409c90126f11cb
-      name: Eruption
-      type: mixed
-    - color: yellow
-      description: Fire Storm can be cast while moving at 50 movement speed and 30
-        while channeling.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Heat
-      type: mobility
-    - color: red
-      description: Flamestrike deals 10 bonus damage and inflicts Ignite.
-      icon: 48122c1a1a8cae7408409c90126f11cb
-      name: Inferno
-      type: offense
-    - color: grey
-      description: Molten Fist travel distance increases by 50 and cooldown is reduced
-        by 1.5.
-      icon: 64ae838604146444aac3474b78250f52
-      name: Mach Punch
-      type: mixed
-    winrate: '58.6'
   - damage: '6.3'
     disable: '0.9'
     energy: '2.1'
@@ -245,6 +210,41 @@ builds:
       name: Magma
       type: offense
     winrate: '51.7'
+  - damage: '7.9'
+    disable: '0.6'
+    energy: '3.1'
+    num: 29
+    protection: '0.5'
+    skills:
+    - color: red
+      description: Fire Storm hits deal 2 bonus damage and spread fire to other nearby
+        enemies, dealing 9 damage and inflicting Ignite.
+      icon: 117c35c7f757858428a733d8da4982be
+      name: Combustion
+      type: offense
+    - color: grey
+      description: Increases Flamestrike radius by 15 and reduces cooldown by 1.
+      icon: 48122c1a1a8cae7408409c90126f11cb
+      name: Eruption
+      type: mixed
+    - color: yellow
+      description: Fire Storm can be cast while moving at 50 movement speed and 30
+        while channeling.
+      icon: 117c35c7f757858428a733d8da4982be
+      name: Heat
+      type: mobility
+    - color: red
+      description: Flamestrike deals 10 bonus damage and inflicts Ignite.
+      icon: 48122c1a1a8cae7408409c90126f11cb
+      name: Inferno
+      type: offense
+    - color: grey
+      description: Molten Fist travel distance increases by 50 and cooldown is reduced
+        by 1.5.
+      icon: 64ae838604146444aac3474b78250f52
+      name: Mach Punch
+      type: mixed
+    winrate: '58.6'
   - damage: '7.0'
     disable: '0.7'
     energy: '2.8'
@@ -421,6 +421,40 @@ builds:
       name: Mach Punch
       type: mixed
     winrate: '57.1'
+  - damage: '4.7'
+    disable: '0.5'
+    energy: '2.1'
+    num: 7
+    protection: '0.6'
+    skills:
+    - color: yellow
+      description: Searing Flight increases movement speed by 30 for 2.
+      icon: de69286ec8d6c934c9b04c51d1814b5c
+      name: Burning Feet
+      type: mobility
+    - color: grey
+      description: Increases Flamestrike radius by 15 and reduces cooldown by 1.
+      icon: 48122c1a1a8cae7408409c90126f11cb
+      name: Eruption
+      type: mixed
+    - color: yellow
+      description: Fire Storm can be cast while moving at 50 movement speed and 30
+        while channeling.
+      icon: 117c35c7f757858428a733d8da4982be
+      name: Heat
+      type: mobility
+    - color: red
+      description: Flamestrike deals 10 bonus damage and inflicts Ignite.
+      icon: 48122c1a1a8cae7408409c90126f11cb
+      name: Inferno
+      type: offense
+    - color: grey
+      description: Molten Fist travel distance increases by 50 and cooldown is reduced
+        by 1.5.
+      icon: 64ae838604146444aac3474b78250f52
+      name: Mach Punch
+      type: mixed
+    winrate: '28.6'
   - damage: '4.9'
     disable: '0.8'
     energy: '1.8'
@@ -456,40 +490,6 @@ builds:
       name: Mach Punch
       type: mixed
     winrate: '57.1'
-  - damage: '4.7'
-    disable: '0.5'
-    energy: '2.1'
-    num: 7
-    protection: '0.6'
-    skills:
-    - color: yellow
-      description: Searing Flight increases movement speed by 30 for 2.
-      icon: de69286ec8d6c934c9b04c51d1814b5c
-      name: Burning Feet
-      type: mobility
-    - color: grey
-      description: Increases Flamestrike radius by 15 and reduces cooldown by 1.
-      icon: 48122c1a1a8cae7408409c90126f11cb
-      name: Eruption
-      type: mixed
-    - color: yellow
-      description: Fire Storm can be cast while moving at 50 movement speed and 30
-        while channeling.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Heat
-      type: mobility
-    - color: red
-      description: Flamestrike deals 10 bonus damage and inflicts Ignite.
-      icon: 48122c1a1a8cae7408409c90126f11cb
-      name: Inferno
-      type: offense
-    - color: grey
-      description: Molten Fist travel distance increases by 50 and cooldown is reduced
-        by 1.5.
-      icon: 64ae838604146444aac3474b78250f52
-      name: Mach Punch
-      type: mixed
-    winrate: '28.6'
   - damage: '4.6'
     disable: '0.5'
     energy: '2.8'
@@ -632,6 +632,40 @@ builds:
       name: Wildfire
       type: offense
     winrate: '0.0'
+  - damage: '5.2'
+    disable: '0.9'
+    energy: '2.1'
+    num: 4
+    protection: '0.2'
+    skills:
+    - color: yellow
+      description: Searing Flight increases movement speed by 30 for 2.
+      icon: de69286ec8d6c934c9b04c51d1814b5c
+      name: Burning Feet
+      type: mobility
+    - color: grey
+      description: Increases Flamestrike radius by 15 and reduces cooldown by 1.
+      icon: 48122c1a1a8cae7408409c90126f11cb
+      name: Eruption
+      type: mixed
+    - color: yellow
+      description: Fire Storm can be cast while moving at 50 movement speed and 30
+        while channeling.
+      icon: 117c35c7f757858428a733d8da4982be
+      name: Heat
+      type: mobility
+    - color: red
+      description: Flamestrike deals 10 bonus damage and inflicts Ignite.
+      icon: 48122c1a1a8cae7408409c90126f11cb
+      name: Inferno
+      type: offense
+    - color: pink
+      description: Knocking an enemy into a wall using Molten Fist inflicts Stun for
+        1.2.
+      icon: 64ae838604146444aac3474b78250f52
+      name: Knockout
+      type: control
+    winrate: '75.0'
   - damage: '6.1'
     disable: '0.7'
     energy: '3.5'
@@ -668,40 +702,6 @@ builds:
       name: Knockout
       type: control
     winrate: '100.0'
-  - damage: '5.2'
-    disable: '0.9'
-    energy: '2.1'
-    num: 4
-    protection: '0.2'
-    skills:
-    - color: yellow
-      description: Searing Flight increases movement speed by 30 for 2.
-      icon: de69286ec8d6c934c9b04c51d1814b5c
-      name: Burning Feet
-      type: mobility
-    - color: grey
-      description: Increases Flamestrike radius by 15 and reduces cooldown by 1.
-      icon: 48122c1a1a8cae7408409c90126f11cb
-      name: Eruption
-      type: mixed
-    - color: yellow
-      description: Fire Storm can be cast while moving at 50 movement speed and 30
-        while channeling.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Heat
-      type: mobility
-    - color: red
-      description: Flamestrike deals 10 bonus damage and inflicts Ignite.
-      icon: 48122c1a1a8cae7408409c90126f11cb
-      name: Inferno
-      type: offense
-    - color: pink
-      description: Knocking an enemy into a wall using Molten Fist inflicts Stun for
-        1.2.
-      icon: 64ae838604146444aac3474b78250f52
-      name: Knockout
-      type: control
-    winrate: '75.0'
 compos:
   threes:
   - hero_names:
