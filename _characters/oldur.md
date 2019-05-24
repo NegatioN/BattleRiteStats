@@ -325,12 +325,18 @@ builds:
       name: Time Walker
       type: mobility
     winrate: '44.4'
-  - damage: '4.2'
+  - damage: '5.1'
     disable: '0.5'
-    energy: '2.8'
+    energy: '3.1'
     num: 9
-    protection: '3.7'
+    protection: '3.4'
     skills:
+    - color: blue
+      description: Shifting Sands leaves behind a Lesser Chronoflux that reflects
+        enemy projectiles and slows enemy movement through it for 2.
+      icon: 89c37320af892ae43b410f4d610d7ea8
+      name: Chrono Shift
+      type: utility
     - color: grey
       description: Time Bomb reduces incoming healing by 25.
       icon: 1e376cc95b8550443b527db1234300bd
@@ -343,23 +349,17 @@ builds:
       name: Renew
       type: support
     - color: red
-      description: Quicksand can be recast to throw Lesser Quicksand. It applies Time
-        Bomb instead of consuming it.
-      icon: 35a1515e35b5104449dfa8802c5aa0e2
-      name: Repetition
-      type: offense
-    - color: red
-      description: Shifting Sands causes your next Sands of Time to deal 6 bonus damage
-        and inflict Fading Snare for 1.
-      icon: 89c37320af892ae43b410f4d610d7ea8
-      name: Sand Storm
-      type: offense
-    - color: red
       description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
         enemies when it detonates.
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
+    - color: yellow
+      description: Negating attacks with Time Bender reduces cooldown of Shifting
+        Sands by {Can't represent GameValueList}s.
+      icon: a22c6c4bc967d4e48a44f0e87a93023e
+      name: Time Walker
+      type: mobility
     winrate: '44.4'
   twos:
   - damage: '5.4'
@@ -397,42 +397,6 @@ builds:
       name: Shared Fate
       type: offense
     winrate: '66.7'
-  - damage: '3.8'
-    disable: '0.8'
-    energy: '2.6'
-    num: 5
-    protection: '3.2'
-    skills:
-    - color: grey
-      description: Time Bomb reduces incoming healing by 25.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Dehydration
-      type: mixed
-    - color: teal
-      description: Passing through an ally with Shifting Sands grants you and your
-        ally a Shield that absorbs up to 14 damage for 3.\n
-      icon: 89c37320af892ae43b410f4d610d7ea8
-      name: Recreate
-      type: support
-    - color: teal
-      description: Rejuvenate heals for an additional 15 of damage taken over its
-        duration. Restores up to a maximum of 6 bonus health.
-      icon: 838ae06cda41a2544a1d2a528389d5b5
-      name: Renew
-      type: support
-    - color: red
-      description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
-        enemies when it detonates.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Shared Fate
-      type: offense
-    - color: yellow
-      description: Negating attacks with Time Bender reduces cooldown of Shifting
-        Sands by {Can't represent GameValueList}s.
-      icon: a22c6c4bc967d4e48a44f0e87a93023e
-      name: Time Walker
-      type: mobility
-    winrate: '40.0'
   - damage: '2.5'
     disable: '0.5'
     energy: '38.3'
@@ -470,6 +434,42 @@ builds:
       name: Sand Tomb
       type: control
     winrate: '0.0'
+  - damage: '3.8'
+    disable: '0.8'
+    energy: '2.6'
+    num: 5
+    protection: '3.2'
+    skills:
+    - color: grey
+      description: Time Bomb reduces incoming healing by 25.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Dehydration
+      type: mixed
+    - color: teal
+      description: Passing through an ally with Shifting Sands grants you and your
+        ally a Shield that absorbs up to 14 damage for 3.\n
+      icon: 89c37320af892ae43b410f4d610d7ea8
+      name: Recreate
+      type: support
+    - color: teal
+      description: Rejuvenate heals for an additional 15 of damage taken over its
+        duration. Restores up to a maximum of 6 bonus health.
+      icon: 838ae06cda41a2544a1d2a528389d5b5
+      name: Renew
+      type: support
+    - color: red
+      description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
+        enemies when it detonates.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Shared Fate
+      type: offense
+    - color: yellow
+      description: Negating attacks with Time Bender reduces cooldown of Shifting
+        Sands by {Can't represent GameValueList}s.
+      icon: a22c6c4bc967d4e48a44f0e87a93023e
+      name: Time Walker
+      type: mobility
+    winrate: '40.0'
   - damage: '6.2'
     disable: '0.6'
     energy: '4.1'
@@ -506,6 +506,41 @@ builds:
       name: Time Walker
       type: mobility
     winrate: '75.0'
+  - damage: '5.5'
+    disable: '1.1'
+    energy: '3.0'
+    num: 3
+    protection: '2.9'
+    skills:
+    - color: grey
+      description: Time Bomb reduces incoming healing by 25.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Dehydration
+      type: mixed
+    - color: teal
+      description: Rejuvenate heals for an additional 15 of damage taken over its
+        duration. Restores up to a maximum of 6 bonus health.
+      icon: 838ae06cda41a2544a1d2a528389d5b5
+      name: Renew
+      type: support
+    - color: red
+      description: Quicksand can be recast to throw Lesser Quicksand. It applies Time
+        Bomb instead of consuming it.
+      icon: 35a1515e35b5104449dfa8802c5aa0e2
+      name: Repetition
+      type: offense
+    - color: red
+      description: Consuming Time Bomb deals 4 bonus damage.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Time Burst
+      type: offense
+    - color: yellow
+      description: Negating attacks with Time Bender reduces cooldown of Shifting
+        Sands by {Can't represent GameValueList}s.
+      icon: a22c6c4bc967d4e48a44f0e87a93023e
+      name: Time Walker
+      type: mobility
+    winrate: '100.0'
   - damage: '4.5'
     disable: '1.0'
     energy: '3.1'
@@ -540,28 +575,28 @@ builds:
       name: Time Burst
       type: offense
     winrate: '33.3'
-  - damage: '5.5'
-    disable: '1.1'
-    energy: '3.0'
+  - damage: '4.9'
+    disable: '1.0'
+    energy: '3.3'
     num: 3
-    protection: '2.9'
+    protection: '2.1'
     skills:
     - color: grey
-      description: Time Bomb reduces incoming healing by 25.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Dehydration
-      type: mixed
-    - color: teal
-      description: Rejuvenate heals for an additional 15 of damage taken over its
-        duration. Restores up to a maximum of 6 bonus health.
+      description: Rejuvenate reduces ally's current cooldowns by 8 both when applied
+        or triggered.
       icon: 838ae06cda41a2544a1d2a528389d5b5
-      name: Renew
-      type: support
-    - color: red
-      description: Quicksand can be recast to throw Lesser Quicksand. It applies Time
-        Bomb instead of consuming it.
+      name: Rewind
+      type: mixed
+    - color: pink
+      description: Quicksand inflicts Root for 1.
       icon: 35a1515e35b5104449dfa8802c5aa0e2
-      name: Repetition
+      name: Sand Tomb
+      type: control
+    - color: red
+      description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
+        enemies when it detonates.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Shared Fate
       type: offense
     - color: red
       description: Consuming Time Bomb deals 4 bonus damage.
@@ -611,53 +646,12 @@ builds:
       name: Repetition
       type: offense
     winrate: '33.3'
-  - damage: '4.9'
-    disable: '1.0'
-    energy: '3.3'
-    num: 3
-    protection: '2.1'
-    skills:
-    - color: grey
-      description: Rejuvenate reduces ally's current cooldowns by 8 both when applied
-        or triggered.
-      icon: 838ae06cda41a2544a1d2a528389d5b5
-      name: Rewind
-      type: mixed
-    - color: pink
-      description: Quicksand inflicts Root for 1.
-      icon: 35a1515e35b5104449dfa8802c5aa0e2
-      name: Sand Tomb
-      type: control
-    - color: red
-      description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
-        enemies when it detonates.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Shared Fate
-      type: offense
-    - color: red
-      description: Consuming Time Bomb deals 4 bonus damage.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Time Burst
-      type: offense
-    - color: yellow
-      description: Negating attacks with Time Bender reduces cooldown of Shifting
-        Sands by {Can't represent GameValueList}s.
-      icon: a22c6c4bc967d4e48a44f0e87a93023e
-      name: Time Walker
-      type: mobility
-    winrate: '100.0'
-  - damage: '5.3'
-    disable: '0.8'
-    energy: '3.2'
+  - damage: '2.7'
+    disable: '0.6'
+    energy: '2.9'
     num: 2
-    protection: '3.6'
+    protection: '3.1'
     skills:
-    - color: blue
-      description: Shifting Sands leaves behind a Lesser Chronoflux that reflects
-        enemy projectiles and slows enemy movement through it for 2.
-      icon: 89c37320af892ae43b410f4d610d7ea8
-      name: Chrono Shift
-      type: utility
     - color: grey
       description: Time Bomb reduces incoming healing by 25.
       icon: 1e376cc95b8550443b527db1234300bd
@@ -669,18 +663,24 @@ builds:
       icon: 838ae06cda41a2544a1d2a528389d5b5
       name: Renew
       type: support
-    - color: red
-      description: Quicksand can be recast to throw Lesser Quicksand. It applies Time
-        Bomb instead of consuming it.
-      icon: 35a1515e35b5104449dfa8802c5aa0e2
-      name: Repetition
-      type: offense
+    - color: teal
+      description: Time Travel heals ally for 50 of all health lost during the previous
+        2.
+      icon: b97fb95168d0cb648867a4b920145f33
+      name: Reversal
+      type: support
+    - color: grey
+      description: Rejuvenate reduces ally's current cooldowns by 8 both when applied
+        or triggered.
+      icon: 838ae06cda41a2544a1d2a528389d5b5
+      name: Rewind
+      type: mixed
     - color: pink
       description: Quicksand inflicts Root for 1.
       icon: 35a1515e35b5104449dfa8802c5aa0e2
       name: Sand Tomb
       type: control
-    winrate: '0.0'
+    winrate: '50.0'
   - damage: '3.9'
     disable: '1.0'
     energy: '3.9'
