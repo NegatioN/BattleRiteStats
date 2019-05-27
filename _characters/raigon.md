@@ -144,42 +144,6 @@ builds:
       name: Royal Descent
       type: offense
     winrate: '80.4'
-  - damage: '5.8'
-    disable: '0.6'
-    energy: '3.1'
-    num: 30
-    protection: '2.8'
-    skills:
-    - color: green
-      description: Negating any attack with Parry heals you for 4 health. Negating
-        the first attack grants you a charge of Slicing Winds.
-      icon: fbfb00ff4fa4bc542b54639b84406f01
-      name: Duelist
-      type: survival
-    - color: teal
-      description: Heavenly Strike inflicts 50 Weaken for 2.
-      icon: 47dabb046c0ec4d4c96bde0832713a46
-      name: Hawk Dive
-      type: support
-    - color: teal
-      description: Move at 100% movement speed during Parry. Heal nearby allies for
-        8 health when Parry ends.
-      icon: fbfb00ff4fa4bc542b54639b84406f01
-      name: Invigorate
-      type: support
-    - color: green
-      description: Hitting at least one enemy with Heavenly Strike grants you a charge
-        of Slicing Winds.
-      icon: 47dabb046c0ec4d4c96bde0832713a46
-      name: Overflowing Power
-      type: survival
-    - color: grey
-      description: Seismic Shock hits reduce the cooldown of Retribution by 1.5 and
-        grant 2 weapon charges.
-      icon: 3c1f1a5c65f54594a9d3ba17b8f1b2a2
-      name: Seismic Retribution
-      type: mixed
-    winrate: '46.7'
   - damage: '4.9'
     disable: '0.8'
     energy: '2.9'
@@ -216,6 +180,42 @@ builds:
       name: Royal Descent
       type: offense
     winrate: '36.7'
+  - damage: '5.8'
+    disable: '0.6'
+    energy: '3.1'
+    num: 30
+    protection: '2.8'
+    skills:
+    - color: green
+      description: Negating any attack with Parry heals you for 4 health. Negating
+        the first attack grants you a charge of Slicing Winds.
+      icon: fbfb00ff4fa4bc542b54639b84406f01
+      name: Duelist
+      type: survival
+    - color: teal
+      description: Heavenly Strike inflicts 50 Weaken for 2.
+      icon: 47dabb046c0ec4d4c96bde0832713a46
+      name: Hawk Dive
+      type: support
+    - color: teal
+      description: Move at 100% movement speed during Parry. Heal nearby allies for
+        8 health when Parry ends.
+      icon: fbfb00ff4fa4bc542b54639b84406f01
+      name: Invigorate
+      type: support
+    - color: green
+      description: Hitting at least one enemy with Heavenly Strike grants you a charge
+        of Slicing Winds.
+      icon: 47dabb046c0ec4d4c96bde0832713a46
+      name: Overflowing Power
+      type: survival
+    - color: grey
+      description: Seismic Shock hits reduce the cooldown of Retribution by 1.5 and
+        grant 2 weapon charges.
+      icon: 3c1f1a5c65f54594a9d3ba17b8f1b2a2
+      name: Seismic Retribution
+      type: mixed
+    winrate: '46.7'
   - damage: '6.2'
     disable: '0.8'
     energy: '3.3'
