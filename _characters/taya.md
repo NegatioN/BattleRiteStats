@@ -321,11 +321,11 @@ builds:
       name: Wind Stream
       type: mobility
     winrate: '44.8'
-  - damage: '6.4'
-    disable: '0.7'
-    energy: '3.2'
+  - damage: '7.3'
+    disable: '0.6'
+    energy: '3.5'
     num: 24
-    protection: '1.0'
+    protection: '0.9'
     skills:
     - color: green
       description: During Haste, the first hit of each Razor Boomerang heals you for
@@ -333,6 +333,12 @@ builds:
       icon: e6c2b076242187d44941ae0cefa96f62
       name: Breath of Air
       type: survival
+    - color: red
+      description: X-Strike boomerangs each deal 2 bonus damage, and an additional
+        4 bonus damage if both boomerangs hit at the intersection.
+      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
+      name: Cross Cut
+      type: offense
     - color: pink
       description: Wind Strike inflicts Stun for 0.8 to enemies knocked into walls.
       icon: 9a292cf4ed808d54c922ab48f5881c5a
@@ -345,17 +351,12 @@ builds:
       name: Surprise Attack
       type: mobility
     - color: yellow
-      description: During Haste, Wind Strike hits apply a 1.5 Haste.
-      icon: 9a292cf4ed808d54c922ab48f5881c5a
-      name: Wind Fury
-      type: mobility
-    - color: yellow
       description: Increases Wind Stream duration by 1 and the Haste duration it grants
         by 0.8.
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '45.8'
+    winrate: '54.2'
   twos:
   - damage: '7.4'
     disable: '0.5'
@@ -393,41 +394,6 @@ builds:
       name: Wind Stream
       type: mobility
     winrate: '78.6'
-  - damage: '7.8'
-    disable: '0.8'
-    energy: '3.9'
-    num: 10
-    protection: '0.1'
-    skills:
-    - color: pink
-      description: During Haste, Razor Boomerang inflicts Fading Snare for 0.4.
-      icon: e6c2b076242187d44941ae0cefa96f62
-      name: Cold Wind
-      type: control
-    - color: red
-      description: X-Strike boomerangs each deal 2 bonus damage, and an additional
-        4 bonus damage if both boomerangs hit at the intersection.
-      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
-      name: Cross Cut
-      type: offense
-    - color: yellow
-      description: During Haste, X-Strike can be used while moving at 60 movement
-        speed.
-      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
-      name: Surprise Attack
-      type: mobility
-    - color: yellow
-      description: During Haste, Wind Strike hits apply a 1.5 Haste.
-      icon: 9a292cf4ed808d54c922ab48f5881c5a
-      name: Wind Fury
-      type: mobility
-    - color: yellow
-      description: Increases Wind Stream duration by 1 and the Haste duration it grants
-        by 0.8.
-      icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
-      name: Wind Stream
-      type: mobility
-    winrate: '90.0'
   - damage: '7.2'
     disable: '0.7'
     energy: '3.6'
@@ -463,6 +429,41 @@ builds:
       name: Wind Fury
       type: mobility
     winrate: '60.0'
+  - damage: '7.8'
+    disable: '0.8'
+    energy: '3.9'
+    num: 10
+    protection: '0.1'
+    skills:
+    - color: pink
+      description: During Haste, Razor Boomerang inflicts Fading Snare for 0.4.
+      icon: e6c2b076242187d44941ae0cefa96f62
+      name: Cold Wind
+      type: control
+    - color: red
+      description: X-Strike boomerangs each deal 2 bonus damage, and an additional
+        4 bonus damage if both boomerangs hit at the intersection.
+      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
+      name: Cross Cut
+      type: offense
+    - color: yellow
+      description: During Haste, X-Strike can be used while moving at 60 movement
+        speed.
+      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
+      name: Surprise Attack
+      type: mobility
+    - color: yellow
+      description: During Haste, Wind Strike hits apply a 1.5 Haste.
+      icon: 9a292cf4ed808d54c922ab48f5881c5a
+      name: Wind Fury
+      type: mobility
+    - color: yellow
+      description: Increases Wind Stream duration by 1 and the Haste duration it grants
+        by 0.8.
+      icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
+      name: Wind Stream
+      type: mobility
+    winrate: '90.0'
   - damage: '8.1'
     disable: '0.8'
     energy: '3.8'
@@ -640,11 +641,11 @@ builds:
       name: Wind Stream
       type: mobility
     winrate: '60.0'
-  - damage: '4.4'
-    disable: '0.4'
-    energy: '3.1'
+  - damage: '8.1'
+    disable: '0.8'
+    energy: '4.1'
     num: 4
-    protection: '0.9'
+    protection: '1.1'
     skills:
     - color: green
       description: During Haste, the first hit of each Razor Boomerang heals you for
@@ -652,30 +653,30 @@ builds:
       icon: e6c2b076242187d44941ae0cefa96f62
       name: Breath of Air
       type: survival
-    - color: pink
-      description: Wind Strike inflicts Stun for 0.8 to enemies knocked into walls.
-      icon: 9a292cf4ed808d54c922ab48f5881c5a
-      name: Cyclone
-      type: control
-    - color: pink
-      description: Increases Stun duration of X-Strike by 0.2, and an additional 0.2
-        if both boomerangs hit at the intersection.
+    - color: yellow
+      description: During Haste, X-Strike can be used while moving at 60 movement
+        speed.
       icon: a1e1ca01cc40ea24c9e8e0fa7de49581
-      name: Heavy Boomerangs
-      type: control
-    - color: red
-      description: Razor Boomerang hits while mounted deal 2 bonus damage and extend
-        the shield duration by 0.8, up to 5 times.
-      icon: 3bdfd11b16cb3f84c877519a82bdd119
-      name: Tracking
-      type: offense
-    - color: pink
-      description: ^2Wind Bomb^- spawns a vortex that pulls enemies towards its center
-        for 2.
+      name: Surprise Attack
+      type: mobility
+    - color: yellow
+      description: During Haste, Wind Strike hits apply a 1.5 Haste.
+      icon: 9a292cf4ed808d54c922ab48f5881c5a
+      name: Wind Fury
+      type: mobility
+    - color: grey
+      description: When Tornado ends the target gains a shield that absorbs up to
+        14 damage for 3. Cooldown is reduced by 2.
+      icon: 0431e53fdc50210419163c4effb5a743
+      name: Wind Shield
+      type: mixed
+    - color: yellow
+      description: Increases Wind Stream duration by 1 and the Haste duration it grants
+        by 0.8.
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
-      name: Vortex
-      type: control
-    winrate: '0.0'
+      name: Wind Stream
+      type: mobility
+    winrate: '100.0'
   - damage: '6.5'
     disable: '0.5'
     energy: '2.8'
