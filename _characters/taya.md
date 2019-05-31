@@ -321,11 +321,11 @@ builds:
       name: Wind Stream
       type: mobility
     winrate: '44.8'
-  - damage: '6.4'
-    disable: '0.7'
-    energy: '3.2'
+  - damage: '7.3'
+    disable: '0.6'
+    energy: '3.5'
     num: 24
-    protection: '1.0'
+    protection: '0.9'
     skills:
     - color: green
       description: During Haste, the first hit of each Razor Boomerang heals you for
@@ -333,6 +333,12 @@ builds:
       icon: e6c2b076242187d44941ae0cefa96f62
       name: Breath of Air
       type: survival
+    - color: red
+      description: X-Strike boomerangs each deal 2 bonus damage, and an additional
+        4 bonus damage if both boomerangs hit at the intersection.
+      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
+      name: Cross Cut
+      type: offense
     - color: pink
       description: Wind Strike inflicts Stun for 0.8 to enemies knocked into walls.
       icon: 9a292cf4ed808d54c922ab48f5881c5a
@@ -345,17 +351,12 @@ builds:
       name: Surprise Attack
       type: mobility
     - color: yellow
-      description: During Haste, Wind Strike hits apply a 1.5 Haste.
-      icon: 9a292cf4ed808d54c922ab48f5881c5a
-      name: Wind Fury
-      type: mobility
-    - color: yellow
       description: Increases Wind Stream duration by 1 and the Haste duration it grants
         by 0.8.
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '45.8'
+    winrate: '54.2'
   twos:
   - damage: '7.4'
     disable: '0.5'
