@@ -211,41 +211,6 @@ builds:
       name: Warlock's Grip
       type: utility
     winrate: '73.3'
-  - damage: '4.9'
-    disable: '0.6'
-    energy: '2.9'
-    num: 12
-    protection: '1.0'
-    skills:
-    - color: pink
-      description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
-        duration.
-      icon: da12579e4ef58ba4c87c1819bf1c699b
-      name: Disruption
-      type: control
-    - color: teal
-      description: Tome of Destruction leashes onto nearby allies, healing for 16
-        health over the duration.
-      icon: 09c45aed2b0414a42a18c1b81c9e589a
-      name: Tome Of Restoration
-      type: support
-    - color: teal
-      description: Shackle inflicts Weaken, reducing target's damage and healing output
-        by 40 for 3.
-      icon: b51e6f88de6853d46bec81bbb3a655a4
-      name: Undermine
-      type: support
-    - color: blue
-      description: Increases Chaos Grip range by 20.
-      icon: da12579e4ef58ba4c87c1819bf1c699b
-      name: Warlock's Grip
-      type: utility
-    - color: yellow
-      description: Using Displace grants 50 Fading Haste for 2.
-      icon: 99a21ff998aff1248a10df2d317faa20
-      name: Whizz
-      type: mobility
-    winrate: '41.7'
   - damage: '7.6'
     disable: '0.6'
     energy: '3.8'
@@ -281,22 +246,12 @@ builds:
       name: Wreak Havoc
       type: offense
     winrate: '66.7'
-  - damage: '6.6'
-    disable: '0.5'
-    energy: '4.4'
-    num: 11
-    protection: '1.4'
+  - damage: '4.9'
+    disable: '0.6'
+    energy: '2.9'
+    num: 12
+    protection: '1.0'
     skills:
-    - color: red
-      description: Displace grants 1 extra weapon charge.
-      icon: 99a21ff998aff1248a10df2d317faa20
-      name: Chaos Barrage
-      type: offense
-    - color: red
-      description: Chaos Grip deals 4 - 8 bonus damage, based on charge-up duration.
-      icon: da12579e4ef58ba4c87c1819bf1c699b
-      name: Collapse
-      type: offense
     - color: pink
       description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
         duration.
@@ -309,12 +264,23 @@ builds:
       icon: 09c45aed2b0414a42a18c1b81c9e589a
       name: Tome Of Restoration
       type: support
-    - color: red
-      description: Displace increases your Arcane Fire attack speed by 30% for 2.5.
+    - color: teal
+      description: Shackle inflicts Weaken, reducing target's damage and healing output
+        by 40 for 3.
+      icon: b51e6f88de6853d46bec81bbb3a655a4
+      name: Undermine
+      type: support
+    - color: blue
+      description: Increases Chaos Grip range by 20.
+      icon: da12579e4ef58ba4c87c1819bf1c699b
+      name: Warlock's Grip
+      type: utility
+    - color: yellow
+      description: Using Displace grants 50 Fading Haste for 2.
       icon: 99a21ff998aff1248a10df2d317faa20
-      name: Wreak Havoc
-      type: offense
-    winrate: '36.4'
+      name: Whizz
+      type: mobility
+    winrate: '41.7'
   - damage: '4.2'
     disable: '0.4'
     energy: '2.7'
@@ -350,6 +316,40 @@ builds:
       name: Whizz
       type: mobility
     winrate: '9.1'
+  - damage: '6.6'
+    disable: '0.5'
+    energy: '4.4'
+    num: 11
+    protection: '1.4'
+    skills:
+    - color: red
+      description: Displace grants 1 extra weapon charge.
+      icon: 99a21ff998aff1248a10df2d317faa20
+      name: Chaos Barrage
+      type: offense
+    - color: red
+      description: Chaos Grip deals 4 - 8 bonus damage, based on charge-up duration.
+      icon: da12579e4ef58ba4c87c1819bf1c699b
+      name: Collapse
+      type: offense
+    - color: pink
+      description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
+        duration.
+      icon: da12579e4ef58ba4c87c1819bf1c699b
+      name: Disruption
+      type: control
+    - color: teal
+      description: Tome of Destruction leashes onto nearby allies, healing for 16
+        health over the duration.
+      icon: 09c45aed2b0414a42a18c1b81c9e589a
+      name: Tome Of Restoration
+      type: support
+    - color: red
+      description: Displace increases your Arcane Fire attack speed by 30% for 2.5.
+      icon: 99a21ff998aff1248a10df2d317faa20
+      name: Wreak Havoc
+      type: offense
+    winrate: '36.4'
   twos:
   - damage: '3.1'
     disable: '0.4'
@@ -386,6 +386,40 @@ builds:
       name: Whizz
       type: mobility
     winrate: '25.0'
+  - damage: '7.4'
+    disable: '0.5'
+    energy: '3.5'
+    num: 7
+    protection: '1.5'
+    skills:
+    - color: red
+      description: Chaos Grip deals 4 - 8 bonus damage, based on charge-up duration.
+      icon: da12579e4ef58ba4c87c1819bf1c699b
+      name: Collapse
+      type: offense
+    - color: pink
+      description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
+        duration.
+      icon: da12579e4ef58ba4c87c1819bf1c699b
+      name: Disruption
+      type: control
+    - color: teal
+      description: Tome of Destruction leashes onto nearby allies, healing for 16
+        health over the duration.
+      icon: 09c45aed2b0414a42a18c1b81c9e589a
+      name: Tome Of Restoration
+      type: support
+    - color: yellow
+      description: Using Displace grants 50 Fading Haste for 2.
+      icon: 99a21ff998aff1248a10df2d317faa20
+      name: Whizz
+      type: mobility
+    - color: red
+      description: Displace increases your Arcane Fire attack speed by 30% for 2.5.
+      icon: 99a21ff998aff1248a10df2d317faa20
+      name: Wreak Havoc
+      type: offense
+    winrate: '85.7'
   - damage: '6.9'
     disable: '0.5'
     energy: '3.1'
@@ -422,40 +456,6 @@ builds:
       name: Wreak Havoc
       type: offense
     winrate: '71.4'
-  - damage: '7.4'
-    disable: '0.5'
-    energy: '3.5'
-    num: 7
-    protection: '1.5'
-    skills:
-    - color: red
-      description: Chaos Grip deals 4 - 8 bonus damage, based on charge-up duration.
-      icon: da12579e4ef58ba4c87c1819bf1c699b
-      name: Collapse
-      type: offense
-    - color: pink
-      description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
-        duration.
-      icon: da12579e4ef58ba4c87c1819bf1c699b
-      name: Disruption
-      type: control
-    - color: teal
-      description: Tome of Destruction leashes onto nearby allies, healing for 16
-        health over the duration.
-      icon: 09c45aed2b0414a42a18c1b81c9e589a
-      name: Tome Of Restoration
-      type: support
-    - color: yellow
-      description: Using Displace grants 50 Fading Haste for 2.
-      icon: 99a21ff998aff1248a10df2d317faa20
-      name: Whizz
-      type: mobility
-    - color: red
-      description: Displace increases your Arcane Fire attack speed by 30% for 2.5.
-      icon: 99a21ff998aff1248a10df2d317faa20
-      name: Wreak Havoc
-      type: offense
-    winrate: '85.7'
   - damage: '7.1'
     disable: '0.7'
     energy: '4.4'
@@ -527,11 +527,11 @@ builds:
       name: Wreak Havoc
       type: offense
     winrate: '33.3'
-  - damage: '5.8'
+  - damage: '3.5'
     disable: '0.5'
-    energy: '4.1'
+    energy: '2.7'
     num: 2
-    protection: '1.2'
+    protection: '0.1'
     skills:
     - color: pink
       description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
@@ -540,10 +540,10 @@ builds:
       name: Disruption
       type: control
     - color: red
-      description: Arcane Fire and Chaos Grip deals 2 bonus damage to enemies rooted
-        by Shackle.
-      icon: b51e6f88de6853d46bec81bbb3a655a4
-      name: Face Melt
+      description: Recast Arcane Barrier to fire a projectile. It deals 4 damage for
+        each of your charges.
+      icon: 563027e5fd687db4697308c54fe91381
+      name: Feedback
       type: offense
     - color: green
       description: Negating attacks with Arcane Barrier grants twice as many weapon
@@ -551,12 +551,11 @@ builds:
       icon: 563027e5fd687db4697308c54fe91381
       name: Spell Eater
       type: survival
-    - color: teal
-      description: Shackle inflicts Weaken, reducing target's damage and healing output
-        by 40 for 3.
-      icon: b51e6f88de6853d46bec81bbb3a655a4
-      name: Undermine
-      type: support
+    - color: blue
+      description: Increases Chaos Grip range by 20.
+      icon: da12579e4ef58ba4c87c1819bf1c699b
+      name: Warlock's Grip
+      type: utility
     - color: red
       description: Displace increases your Arcane Fire attack speed by 30% for 2.5.
       icon: 99a21ff998aff1248a10df2d317faa20
@@ -599,40 +598,6 @@ builds:
       name: Tome Of Restoration
       type: support
     winrate: '50.0'
-  - damage: '6.3'
-    disable: '0.8'
-    energy: '3.7'
-    num: 2
-    protection: '1.4'
-    skills:
-    - color: red
-      description: Displace grants 1 extra weapon charge.
-      icon: 99a21ff998aff1248a10df2d317faa20
-      name: Chaos Barrage
-      type: offense
-    - color: pink
-      description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
-        duration.
-      icon: da12579e4ef58ba4c87c1819bf1c699b
-      name: Disruption
-      type: control
-    - color: teal
-      description: Tome of Destruction leashes onto nearby allies, healing for 16
-        health over the duration.
-      icon: 09c45aed2b0414a42a18c1b81c9e589a
-      name: Tome Of Restoration
-      type: support
-    - color: blue
-      description: Increases Chaos Grip range by 20.
-      icon: da12579e4ef58ba4c87c1819bf1c699b
-      name: Warlock's Grip
-      type: utility
-    - color: red
-      description: Displace increases your Arcane Fire attack speed by 30% for 2.5.
-      icon: 99a21ff998aff1248a10df2d317faa20
-      name: Wreak Havoc
-      type: offense
-    winrate: '100.0'
   - damage: '4.4'
     disable: '0.5'
     energy: '2.2'
@@ -669,12 +634,53 @@ builds:
       name: Whizz
       type: mobility
     winrate: '0.0'
-  - damage: '5.0'
-    disable: '0.6'
-    energy: '3.7'
+  - damage: '5.8'
+    disable: '0.5'
+    energy: '4.1'
     num: 2
-    protection: '0.5'
+    protection: '1.2'
     skills:
+    - color: pink
+      description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
+        duration.
+      icon: da12579e4ef58ba4c87c1819bf1c699b
+      name: Disruption
+      type: control
+    - color: red
+      description: Arcane Fire and Chaos Grip deals 2 bonus damage to enemies rooted
+        by Shackle.
+      icon: b51e6f88de6853d46bec81bbb3a655a4
+      name: Face Melt
+      type: offense
+    - color: green
+      description: Negating attacks with Arcane Barrier grants twice as many weapon
+        charges. For each charge gained, heal yourself for 6 health.
+      icon: 563027e5fd687db4697308c54fe91381
+      name: Spell Eater
+      type: survival
+    - color: teal
+      description: Shackle inflicts Weaken, reducing target's damage and healing output
+        by 40 for 3.
+      icon: b51e6f88de6853d46bec81bbb3a655a4
+      name: Undermine
+      type: support
+    - color: red
+      description: Displace increases your Arcane Fire attack speed by 30% for 2.5.
+      icon: 99a21ff998aff1248a10df2d317faa20
+      name: Wreak Havoc
+      type: offense
+    winrate: '50.0'
+  - damage: '6.4'
+    disable: '0.6'
+    energy: '4.8'
+    num: 2
+    protection: '1.9'
+    skills:
+    - color: red
+      description: Chaos Grip deals 4 - 8 bonus damage, based on charge-up duration.
+      icon: da12579e4ef58ba4c87c1819bf1c699b
+      name: Collapse
+      type: offense
     - color: pink
       description: Chaos Grip inflicts Silence for 0.3 to 0.6, based on charge-up
         duration.
@@ -693,17 +699,12 @@ builds:
       icon: 09c45aed2b0414a42a18c1b81c9e589a
       name: Tome Of Restoration
       type: support
-    - color: blue
-      description: Increases Chaos Grip range by 20.
-      icon: da12579e4ef58ba4c87c1819bf1c699b
-      name: Warlock's Grip
-      type: utility
     - color: red
       description: Displace increases your Arcane Fire attack speed by 30% for 2.5.
       icon: 99a21ff998aff1248a10df2d317faa20
       name: Wreak Havoc
       type: offense
-    winrate: '0.0'
+    winrate: '50.0'
 compos:
   threes:
   - hero_names:
