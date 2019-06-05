@@ -407,6 +407,40 @@ builds:
       name: U-Turn
       type: utility
     winrate: '88.9'
+  - damage: '7.5'
+    disable: '1.0'
+    energy: '3.8'
+    num: 8
+    protection: '0.6'
+    skills:
+    - color: red
+      description: Rocket X-67 deals 4 bonus damage.
+      icon: d80cae4dd7699264fb3c37675b59f263
+      name: Boom!
+      type: offense
+    - color: red
+      description: Zap increases your Boomstick attack and reload speed by 120 while
+        you're affected by the Shield.
+      icon: 9274b3f40ab2b4048b5cde1e9164901e
+      name: Hyperspeed
+      type: offense
+    - color: red
+      description: Rocket X-67 gains 1 ability charge but cooldown increases by 1.5.
+      icon: d80cae4dd7699264fb3c37675b59f263
+      name: Stockpile
+      type: offense
+    - color: pink
+      description: Tractor Beam inflicts Stun for 0.7 to enemies caught in the beam
+        when the effect ends and cooldown reduces by 3.
+      icon: fadd8bcda43b2f54aa66dd5d12795a53
+      name: Tractor Pulse
+      type: control
+    - color: blue
+      description: Recast Jet Pack to fly back to your starting location.
+      icon: 7442381b626556c4e8193c48031d01ef
+      name: U-Turn
+      type: utility
+    winrate: '87.5'
   - damage: '6.0'
     disable: '1.1'
     energy: '3.5'
@@ -475,40 +509,6 @@ builds:
       name: U-Turn
       type: utility
     winrate: '62.5'
-  - damage: '7.5'
-    disable: '1.0'
-    energy: '3.8'
-    num: 8
-    protection: '0.6'
-    skills:
-    - color: red
-      description: Rocket X-67 deals 4 bonus damage.
-      icon: d80cae4dd7699264fb3c37675b59f263
-      name: Boom!
-      type: offense
-    - color: red
-      description: Zap increases your Boomstick attack and reload speed by 120 while
-        you're affected by the Shield.
-      icon: 9274b3f40ab2b4048b5cde1e9164901e
-      name: Hyperspeed
-      type: offense
-    - color: red
-      description: Rocket X-67 gains 1 ability charge but cooldown increases by 1.5.
-      icon: d80cae4dd7699264fb3c37675b59f263
-      name: Stockpile
-      type: offense
-    - color: pink
-      description: Tractor Beam inflicts Stun for 0.7 to enemies caught in the beam
-        when the effect ends and cooldown reduces by 3.
-      icon: fadd8bcda43b2f54aa66dd5d12795a53
-      name: Tractor Pulse
-      type: control
-    - color: blue
-      description: Recast Jet Pack to fly back to your starting location.
-      icon: 7442381b626556c4e8193c48031d01ef
-      name: U-Turn
-      type: utility
-    winrate: '87.5'
   - damage: '7.7'
     disable: '1.0'
     energy: '4.8'
@@ -609,29 +609,27 @@ builds:
       name: U-Turn
       type: utility
     winrate: '50.0'
-  - damage: '4.3'
-    disable: '0.5'
-    energy: '2.1'
+  - damage: '6.0'
+    disable: '1.0'
+    energy: '2.8'
     num: 2
-    protection: '0.6'
+    protection: '0.5'
     skills:
-    - color: red
-      description: Rocket X-67 deals 4 bonus damage.
-      icon: d80cae4dd7699264fb3c37675b59f263
-      name: Boom!
-      type: offense
-    - color: teal
-      description: Zap absorbs 12 more damage on yourself and 16 more damage on other
-        allies.
+    - color: yellow
+      description: Zap knocks nearby enemies back and grants 20 Fading Haste for 2.
       icon: 9274b3f40ab2b4048b5cde1e9164901e
-      name: Durable Shield
-      type: support
-    - color: red
-      description: Zap increases your Boomstick attack and reload speed by 120 while
-        you're affected by the Shield.
-      icon: 9274b3f40ab2b4048b5cde1e9164901e
-      name: Hyperspeed
-      type: offense
+      name: Blast Shield
+      type: mobility
+    - color: pink
+      description: Increases Oil factor by 10 and duration by 1.5.
+      icon: a001d096a99f9a84da3e8b1056dc0535
+      name: Gunge
+      type: control
+    - color: grey
+      description: Jet Pack causes your next Boomstick to inflict Oil.
+      icon: 7442381b626556c4e8193c48031d01ef
+      name: Oil Blaster
+      type: mixed
     - color: red
       description: Rocket X-67 gains 1 ability charge but cooldown increases by 1.5.
       icon: d80cae4dd7699264fb3c37675b59f263
