@@ -255,42 +255,6 @@ builds:
       name: Twin Hammers
       type: mixed
     winrate: '40.9'
-  - damage: '5.3'
-    disable: '1.3'
-    energy: '2.6'
-    num: 20
-    protection: '1.3'
-    skills:
-    - color: red
-      description: Countering an attack with Electric Shield reduces Thunderclap cooldown
-        by 5.
-      icon: 11106dc7b3c44144c94a5cfa08bbb84f
-      name: Hammer Time
-      type: offense
-    - color: green
-      description: Thunderclap grants you a Shield that absorbs up to {Can't represent
-        GameValueList} damage, per target hit, for 3.
-      icon: f5f7b137c0c9d444899035c91cedda42
-      name: Lightning Rod
-      type: survival
-    - color: red
-      description: Storm Mace deals 12 bonus damage to enemies already affected by
-        Static and Incapacitate duration increases by 0.5.
-      icon: 92dd476aa2340694c9f1167dfc761287
-      name: Thunderbolt
-      type: offense
-    - color: red
-      description: Thunderclap deals 5 bonus damage and pulls enemies towards you.
-      icon: f5f7b137c0c9d444899035c91cedda42
-      name: Torrent
-      type: offense
-    - color: grey
-      description: Storm Mace gains 1 ability charge but increases its cooldown by
-        1.
-      icon: 92dd476aa2340694c9f1167dfc761287
-      name: Twin Hammers
-      type: mixed
-    winrate: '50.0'
   - damage: '5.9'
     disable: '1.3'
     energy: '4.8'
@@ -327,6 +291,42 @@ builds:
       name: Thunderbolt
       type: offense
     winrate: '70.0'
+  - damage: '5.3'
+    disable: '1.3'
+    energy: '2.6'
+    num: 20
+    protection: '1.3'
+    skills:
+    - color: red
+      description: Countering an attack with Electric Shield reduces Thunderclap cooldown
+        by 5.
+      icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Hammer Time
+      type: offense
+    - color: green
+      description: Thunderclap grants you a Shield that absorbs up to {Can't represent
+        GameValueList} damage, per target hit, for 3.
+      icon: f5f7b137c0c9d444899035c91cedda42
+      name: Lightning Rod
+      type: survival
+    - color: red
+      description: Storm Mace deals 12 bonus damage to enemies already affected by
+        Static and Incapacitate duration increases by 0.5.
+      icon: 92dd476aa2340694c9f1167dfc761287
+      name: Thunderbolt
+      type: offense
+    - color: red
+      description: Thunderclap deals 5 bonus damage and pulls enemies towards you.
+      icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+      type: offense
+    - color: grey
+      description: Storm Mace gains 1 ability charge but increases its cooldown by
+        1.
+      icon: 92dd476aa2340694c9f1167dfc761287
+      name: Twin Hammers
+      type: mixed
+    winrate: '50.0'
   - damage: '3.8'
     disable: '0.6'
     energy: '2.6'
@@ -687,41 +687,42 @@ builds:
       name: Twin Hammers
       type: mixed
     winrate: '50.0'
-  - damage: '6.2'
-    disable: '0.9'
-    energy: '4.5'
+  - damage: '7.6'
+    disable: '1.0'
+    energy: '2.8'
     num: 3
-    protection: '1.0'
+    protection: '1.3'
     skills:
+    - color: green
+      description: Spring causes your next Bash to grant you a Shield. It absorbs
+        up to 12 damage for 3.
+      icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Electric Conduction
+      type: survival
     - color: green
       description: Thunderclap grants you a Shield that absorbs up to {Can't represent
         GameValueList} damage, per target hit, for 3.
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Lightning Rod
       type: survival
-    - color: grey
-      description: Increases Shield values gained with Charged Strike by 4. Hitting
-        at least one enemy grants 25 energy.
-      icon: 54d351d4df0d47e48b37ee2b1959c2aa
-      name: Surge
-      type: mixed
     - color: pink
-      description: Lightning Strike inflicts Stun for 1.
-      icon: 296bc93338f9bc94a8afca3763e4a778
-      name: Thunderstruck
+      description: Increases your damage output by 15 while you have an active Electric
+        Shield.
+      icon: a4b023549fa7dbb46bb159a9b8557df2
+      name: Positive Charge
       type: control
+    - color: red
+      description: Bash hits on enemies already affected by Static increases the duration
+        by 1, up to a maximum duration of 6.
+      icon: 8df5b9cfc6dd7cd469d9b211f42c1076
+      name: Static Hammers
+      type: offense
     - color: red
       description: Thunderclap deals 5 bonus damage and pulls enemies towards you.
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Torrent
       type: offense
-    - color: grey
-      description: Storm Mace gains 1 ability charge but increases its cooldown by
-        1.
-      icon: 92dd476aa2340694c9f1167dfc761287
-      name: Twin Hammers
-      type: mixed
-    winrate: '66.7'
+    winrate: '100.0'
 compos:
   threes:
   - hero_names:
