@@ -439,40 +439,6 @@ builds:
       name: Nether Chains
       type: mixed
     winrate: '42.9'
-  - damage: '6.2'
-    disable: '0.7'
-    energy: '2.8'
-    num: 6
-    protection: '1.8'
-    skills:
-    - color: grey
-      description: Claw of the Wicked cooldown is reduced by 1.5 and hitting a target
-        further reduces its cooldown by 1.5.
-      icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Death Grip
-      type: mixed
-    - color: yellow
-      description: Sinister Strike gains 1 ability charge, but increases its cooldown
-        by 4.
-      icon: fe85f5b940cf1ff44825f090b2bb34ce
-      name: Demonic Hunt
-      type: mobility
-    - color: red
-      description: Charged Defiled Blade deals 5 bonus damage.
-      icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Grim Edge
-      type: offense
-    - color: red
-      description: Claw of the Wicked deals 3 bonus damage. Increases range by 12.
-      icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Tenacious Demon
-      type: offense
-    - color: pink
-      description: Increases Silence duration from 0.3 to 0.8.
-      icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Wicked Strike
-      type: control
-    winrate: '83.3'
   - damage: '6.8'
     disable: '0.9'
     energy: '2.6'
@@ -507,6 +473,40 @@ builds:
       name: Wicked Strike
       type: control
     winrate: '50.0'
+  - damage: '6.2'
+    disable: '0.7'
+    energy: '2.8'
+    num: 6
+    protection: '1.8'
+    skills:
+    - color: grey
+      description: Claw of the Wicked cooldown is reduced by 1.5 and hitting a target
+        further reduces its cooldown by 1.5.
+      icon: 13fbbdb9e7cbde8429053e33e1022fa8
+      name: Death Grip
+      type: mixed
+    - color: yellow
+      description: Sinister Strike gains 1 ability charge, but increases its cooldown
+        by 4.
+      icon: fe85f5b940cf1ff44825f090b2bb34ce
+      name: Demonic Hunt
+      type: mobility
+    - color: red
+      description: Charged Defiled Blade deals 5 bonus damage.
+      icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Grim Edge
+      type: offense
+    - color: red
+      description: Claw of the Wicked deals 3 bonus damage. Increases range by 12.
+      icon: 13fbbdb9e7cbde8429053e33e1022fa8
+      name: Tenacious Demon
+      type: offense
+    - color: pink
+      description: Increases Silence duration from 0.3 to 0.8.
+      icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Wicked Strike
+      type: control
+    winrate: '83.3'
   - damage: '4.9'
     disable: '0.8'
     energy: '2.3'
@@ -541,40 +541,6 @@ builds:
       name: Wicked Strike
       type: control
     winrate: '40.0'
-  - damage: '6.2'
-    disable: '0.8'
-    energy: '2.4'
-    num: 4
-    protection: '1.7'
-    skills:
-    - color: grey
-      description: Claw of the Wicked cooldown is reduced by 1.5 and hitting a target
-        further reduces its cooldown by 1.5.
-      icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Death Grip
-      type: mixed
-    - color: green
-      description: Reduces cooldown of Consume by 1. Negating attacks further reduces
-        the cooldown by {Can't represent GameValueList}s.
-      icon: c84fd648ae9f196428ba4e9b3bc42d1e
-      name: Gorge
-      type: survival
-    - color: red
-      description: Charged Defiled Blade deals 5 bonus damage.
-      icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Grim Edge
-      type: offense
-    - color: red
-      description: Claw of the Wicked deals 3 bonus damage. Increases range by 12.
-      icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Tenacious Demon
-      type: offense
-    - color: pink
-      description: Increases Silence duration from 0.3 to 0.8.
-      icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Wicked Strike
-      type: control
-    winrate: '100.0'
   - damage: '5.9'
     disable: '1.0'
     energy: '3.3'
@@ -610,6 +576,40 @@ builds:
       name: Shadow Prowl
       type: mobility
     winrate: '75.0'
+  - damage: '6.2'
+    disable: '0.8'
+    energy: '2.4'
+    num: 4
+    protection: '1.7'
+    skills:
+    - color: grey
+      description: Claw of the Wicked cooldown is reduced by 1.5 and hitting a target
+        further reduces its cooldown by 1.5.
+      icon: 13fbbdb9e7cbde8429053e33e1022fa8
+      name: Death Grip
+      type: mixed
+    - color: green
+      description: Reduces cooldown of Consume by 1. Negating attacks further reduces
+        the cooldown by {Can't represent GameValueList}s.
+      icon: c84fd648ae9f196428ba4e9b3bc42d1e
+      name: Gorge
+      type: survival
+    - color: red
+      description: Charged Defiled Blade deals 5 bonus damage.
+      icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Grim Edge
+      type: offense
+    - color: red
+      description: Claw of the Wicked deals 3 bonus damage. Increases range by 12.
+      icon: 13fbbdb9e7cbde8429053e33e1022fa8
+      name: Tenacious Demon
+      type: offense
+    - color: pink
+      description: Increases Silence duration from 0.3 to 0.8.
+      icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Wicked Strike
+      type: control
+    winrate: '100.0'
   - damage: '5.6'
     disable: '0.9'
     energy: '3.1'
@@ -644,17 +644,17 @@ builds:
       name: Wicked Strike
       type: control
     winrate: '66.7'
-  - damage: '4.2'
-    disable: '0.6'
-    energy: '1.9'
+  - damage: '6.9'
+    disable: '1.0'
+    energy: '2.8'
     num: 3
-    protection: '1.3'
+    protection: '1.5'
     skills:
-    - color: pink
-      description: Claw of the Wicked inflicts both Root for 1.2 and Curse.
-      icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Cold Embrace
-      type: control
+    - color: red
+      description: Shadow Bolts deal 6 bonus damage.
+      icon: 2a54393ededda834a8070123fbc265cc
+      name: Agony
+      type: offense
     - color: yellow
       description: Sinister Strike gains 1 ability charge, but increases its cooldown
         by 4.
@@ -667,17 +667,17 @@ builds:
       icon: c84fd648ae9f196428ba4e9b3bc42d1e
       name: Gorge
       type: survival
-    - color: grey
-      description: Sinister Strike deals 6 bonus damage and inflicts Curse.
-      icon: fe85f5b940cf1ff44825f090b2bb34ce
-      name: Nether Chains
-      type: mixed
-    - color: red
-      description: Claw of the Wicked deals 3 bonus damage. Increases range by 12.
-      icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Tenacious Demon
-      type: offense
-    winrate: '0.0'
+    - color: pink
+      description: Activating Shadow Beast pulls nearby enemies towards you.
+      icon: 5a7e98c96d8346948b9f3f2a907e84ea
+      name: Hunger
+      type: control
+    - color: pink
+      description: Increases Silence duration from 0.3 to 0.8.
+      icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Wicked Strike
+      type: control
+    winrate: '100.0'
 compos:
   threes:
   - hero_names:

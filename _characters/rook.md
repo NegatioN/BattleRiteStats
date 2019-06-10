@@ -493,6 +493,40 @@ builds:
       name: Pummel Rush
       type: mobility
     winrate: '50.0'
+  - damage: '6.3'
+    disable: '1.4'
+    energy: '3.4'
+    num: 9
+    protection: '1.7'
+    skills:
+    - color: pink
+      description: Boulder Toss inflicts Fading Snare for 1.5. Also reduces its cooldown
+        by 1.5.
+      icon: ec50e13a62a38194186bf0763d8ae951
+      name: Crag
+      type: control
+    - color: yellow
+      description: Reduces the cooldown of Rush by 1. Hitting an enemy further reduces
+        cooldown by 1.
+      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
+      name: Endurance
+      type: mobility
+    - color: red
+      description: Rush hits cause you to gain Berserk for 1.5.
+      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
+      name: Frenzy
+      type: offense
+    - color: yellow
+      description: Increases movement speed bonus during Berserk by 25.
+      icon: df78f943fca96314181fdf1827f825db
+      name: Madness
+      type: mobility
+    - color: red
+      description: Crushing Blow deals 4 bonus damage.
+      icon: bc4e2e34829b8af4c92bb6a8f570fc96
+      name: Rook Smash
+      type: offense
+    winrate: '66.7'
   - damage: '7.1'
     disable: '1.2'
     energy: '3.6'
@@ -558,40 +592,6 @@ builds:
       name: Weapon Break
       type: support
     winrate: '77.8'
-  - damage: '6.3'
-    disable: '1.4'
-    energy: '3.4'
-    num: 9
-    protection: '1.7'
-    skills:
-    - color: pink
-      description: Boulder Toss inflicts Fading Snare for 1.5. Also reduces its cooldown
-        by 1.5.
-      icon: ec50e13a62a38194186bf0763d8ae951
-      name: Crag
-      type: control
-    - color: yellow
-      description: Reduces the cooldown of Rush by 1. Hitting an enemy further reduces
-        cooldown by 1.
-      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
-      name: Endurance
-      type: mobility
-    - color: red
-      description: Rush hits cause you to gain Berserk for 1.5.
-      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
-      name: Frenzy
-      type: offense
-    - color: yellow
-      description: Increases movement speed bonus during Berserk by 25.
-      icon: df78f943fca96314181fdf1827f825db
-      name: Madness
-      type: mobility
-    - color: red
-      description: Crushing Blow deals 4 bonus damage.
-      icon: bc4e2e34829b8af4c92bb6a8f570fc96
-      name: Rook Smash
-      type: offense
-    winrate: '66.7'
   - damage: '8.0'
     disable: '1.7'
     energy: '3.5'
@@ -624,18 +624,12 @@ builds:
       name: Weapon Break
       type: support
     winrate: '100.0'
-  - damage: '5.8'
-    disable: '1.2'
-    energy: '2.9'
+  - damage: '5.0'
+    disable: '0.9'
+    energy: '2.6'
     num: 8
     protection: '1.6'
     skills:
-    - color: yellow
-      description: Reduces the cooldown of Rush by 1. Hitting an enemy further reduces
-        cooldown by 1.
-      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
-      name: Endurance
-      type: mobility
     - color: red
       description: Rush hits cause you to gain Berserk for 1.5.
       icon: 0cfff8a481a64fd499bfaeb3da1cbca5
@@ -647,16 +641,21 @@ builds:
       name: Giant
       type: survival
     - color: yellow
-      description: Pummel hits reduce cooldown of Rush by 0.4.
-      icon: 037a9d14b1a74c249a0bb90af0237a7f
-      name: Pummel Rush
+      description: Increases movement speed bonus during Berserk by 25.
+      icon: df78f943fca96314181fdf1827f825db
+      name: Madness
       type: mobility
     - color: red
       description: Crushing Blow deals 4 bonus damage.
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Rook Smash
       type: offense
-    winrate: '50.0'
+    - color: teal
+      description: Enemies affected by Armor Break deal 25 less damage.
+      icon: bc4e2e34829b8af4c92bb6a8f570fc96
+      name: Weapon Break
+      type: support
+    winrate: '37.5'
 compos:
   threes:
   - hero_names:
