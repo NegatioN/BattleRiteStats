@@ -435,40 +435,6 @@ builds:
       name: Twin Hammers
       type: mixed
     winrate: '50.0'
-  - damage: '6.9'
-    disable: '1.3'
-    energy: '3.5'
-    num: 7
-    protection: '1.0'
-    skills:
-    - color: red
-      description: Spring increases your Bash attack speed by 20 for the next 3 attacks.
-      icon: 883e2720ad11f2d49b51d9f649c67203
-      name: Lightning Speed
-      type: offense
-    - color: yellow
-      description: Move forward during Thunderclap.
-      icon: f5f7b137c0c9d444899035c91cedda42
-      name: Rolling Thunder
-      type: mobility
-    - color: red
-      description: Storm Mace deals 12 bonus damage to enemies already affected by
-        Static and Incapacitate duration increases by 0.5.
-      icon: 92dd476aa2340694c9f1167dfc761287
-      name: Thunderbolt
-      type: offense
-    - color: red
-      description: Thunderclap deals 5 bonus damage and pulls enemies towards you.
-      icon: f5f7b137c0c9d444899035c91cedda42
-      name: Torrent
-      type: offense
-    - color: grey
-      description: Storm Mace gains 1 ability charge but increases its cooldown by
-        1.
-      icon: 92dd476aa2340694c9f1167dfc761287
-      name: Twin Hammers
-      type: mixed
-    winrate: '28.6'
   - damage: '7.9'
     disable: '1.6'
     energy: '6.3'
@@ -505,6 +471,40 @@ builds:
       name: Twin Hammers
       type: mixed
     winrate: '71.4'
+  - damage: '6.9'
+    disable: '1.3'
+    energy: '3.5'
+    num: 7
+    protection: '1.0'
+    skills:
+    - color: red
+      description: Spring increases your Bash attack speed by 20 for the next 3 attacks.
+      icon: 883e2720ad11f2d49b51d9f649c67203
+      name: Lightning Speed
+      type: offense
+    - color: yellow
+      description: Move forward during Thunderclap.
+      icon: f5f7b137c0c9d444899035c91cedda42
+      name: Rolling Thunder
+      type: mobility
+    - color: red
+      description: Storm Mace deals 12 bonus damage to enemies already affected by
+        Static and Incapacitate duration increases by 0.5.
+      icon: 92dd476aa2340694c9f1167dfc761287
+      name: Thunderbolt
+      type: offense
+    - color: red
+      description: Thunderclap deals 5 bonus damage and pulls enemies towards you.
+      icon: f5f7b137c0c9d444899035c91cedda42
+      name: Torrent
+      type: offense
+    - color: grey
+      description: Storm Mace gains 1 ability charge but increases its cooldown by
+        1.
+      icon: 92dd476aa2340694c9f1167dfc761287
+      name: Twin Hammers
+      type: mixed
+    winrate: '28.6'
   - damage: '4.2'
     disable: '0.8'
     energy: '2.0'
@@ -687,11 +687,11 @@ builds:
       name: Twin Hammers
       type: mixed
     winrate: '50.0'
-  - damage: '5.8'
+  - damage: '4.8'
     disable: '0.8'
-    energy: '2.5'
+    energy: '3.0'
     num: 3
-    protection: '1.9'
+    protection: '1.4'
     skills:
     - color: green
       description: Spring causes your next Bash to grant you a Shield. It absorbs
@@ -699,30 +699,30 @@ builds:
       icon: 883e2720ad11f2d49b51d9f649c67203
       name: Electric Conduction
       type: survival
+    - color: red
+      description: Countering an attack with Electric Shield reduces Thunderclap cooldown
+        by 5.
+      icon: 11106dc7b3c44144c94a5cfa08bbb84f
+      name: Hammer Time
+      type: offense
     - color: green
       description: Thunderclap grants you a Shield that absorbs up to {Can't represent
         GameValueList} damage, per target hit, for 3.
       icon: f5f7b137c0c9d444899035c91cedda42
       name: Lightning Rod
       type: survival
+    - color: pink
+      description: Increases your damage output by 15 while you have an active Electric
+        Shield.
+      icon: a4b023549fa7dbb46bb159a9b8557df2
+      name: Positive Charge
+      type: control
     - color: grey
-      description: Countering an attack with Electric Shield inflicts Static on nearby
-        enemies and grants other nearby allies a Shield. It absorbs up to 16 damage
-        for 3.
-      icon: 11106dc7b3c44144c94a5cfa08bbb84f
-      name: Overcharge
+      description: Increases Shield values gained with Charged Strike by 4. Hitting
+        at least one enemy grants 25 energy.
+      icon: 54d351d4df0d47e48b37ee2b1959c2aa
+      name: Surge
       type: mixed
-    - color: red
-      description: Storm Mace deals 12 bonus damage to enemies already affected by
-        Static and Incapacitate duration increases by 0.5.
-      icon: 92dd476aa2340694c9f1167dfc761287
-      name: Thunderbolt
-      type: offense
-    - color: red
-      description: Thunderclap deals 5 bonus damage and pulls enemies towards you.
-      icon: f5f7b137c0c9d444899035c91cedda42
-      name: Torrent
-      type: offense
     winrate: '0.0'
 compos:
   threes:
