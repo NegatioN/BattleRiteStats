@@ -278,39 +278,6 @@ builds:
       name: Weakening Pitch
       type: support
     winrate: '47.4'
-  - damage: '3.9'
-    disable: '0.9'
-    energy: '3.1'
-    num: 18
-    protection: '5.8'
-    skills:
-    - color: green
-      description: Increases Hop invisibility duration by 1.5.
-      icon: 36048e053d179474491aa317959b3eb7
-      name: Cautious
-      type: survival
-    - color: green
-      description: Increases Tree of Life health by 15.
-      icon: 493cac6f13fb41849aaf95ed03fbb488
-      name: Healthful Bark
-      type: survival
-    - color: red
-      description: Reduces your weapon charge cooldown by 25.
-      icon: e0ead374bbde24c44a10cc34294a6e44
-      name: Nature's Cycle
-      type: offense
-    - color: grey
-      description: Increases Stun duration of Boom Bloom by 0.5.
-      icon: 4832a1022ed764241a63b8dacc299ee9
-      name: Pollen
-      type: mixed
-    - color: teal
-      description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
-        output by 30 for 1.5.
-      icon: e0ead374bbde24c44a10cc34294a6e44
-      name: Weakening Pitch
-      type: support
-    winrate: '61.1'
   - damage: '5.1'
     disable: '0.8'
     energy: '3.3'
@@ -347,6 +314,39 @@ builds:
       name: Weakening Pitch
       type: support
     winrate: '72.2'
+  - damage: '3.9'
+    disable: '0.9'
+    energy: '3.1'
+    num: 18
+    protection: '5.8'
+    skills:
+    - color: green
+      description: Increases Hop invisibility duration by 1.5.
+      icon: 36048e053d179474491aa317959b3eb7
+      name: Cautious
+      type: survival
+    - color: green
+      description: Increases Tree of Life health by 15.
+      icon: 493cac6f13fb41849aaf95ed03fbb488
+      name: Healthful Bark
+      type: survival
+    - color: red
+      description: Reduces your weapon charge cooldown by 25.
+      icon: e0ead374bbde24c44a10cc34294a6e44
+      name: Nature's Cycle
+      type: offense
+    - color: grey
+      description: Increases Stun duration of Boom Bloom by 0.5.
+      icon: 4832a1022ed764241a63b8dacc299ee9
+      name: Pollen
+      type: mixed
+    - color: teal
+      description: Charged Thwack! inflicts Weaken, reducing target's damage and healing
+        output by 30 for 1.5.
+      icon: e0ead374bbde24c44a10cc34294a6e44
+      name: Weakening Pitch
+      type: support
+    winrate: '61.1'
   twos:
   - damage: '4.7'
     disable: '0.9'
