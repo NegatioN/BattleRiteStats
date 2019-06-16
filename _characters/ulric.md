@@ -401,6 +401,41 @@ builds:
       name: Vindicator
       type: mobility
     winrate: '60.0'
+  - damage: '3.8'
+    disable: '0.7'
+    energy: '2.7'
+    num: 10
+    protection: '2.6'
+    skills:
+    - color: teal
+      description: Holy Light heals other allies for 3 bonus health.
+      icon: 85a79d3bf018b184887fb1a71ef51ac1
+      name: Devotion
+      type: support
+    - color: teal
+      description: Applying Favor to an ally grants them a Shield. It absorbs up to
+        12 damage for 1.5.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Divine Protection
+      type: support
+    - color: grey
+      description: All effects of Divinity are doubled.
+      icon: 96d5e8acf68061e478f9f6a8d315a4c4
+      name: Godlike
+      type: mixed
+    - color: yellow
+      description: Absorbing attacks with Radiant Shield increases your movement speed
+        by {Can't represent GameValueList} for 3.
+      icon: c7f49424687c9a744a6347a5e2eede0b
+      name: Light Speed
+      type: mobility
+    - color: teal
+      description: Blocking attacks with Radiant Shield sends out a wave of light,
+        healing nearby allies up to 3 times for {Can't represent GameValueList} health.
+      icon: c7f49424687c9a744a6347a5e2eede0b
+      name: Light's Embrace
+      type: support
+    winrate: '90.0'
   - damage: '4.3'
     disable: '0.9'
     energy: '14.2'
@@ -438,41 +473,6 @@ builds:
       name: Penitence
       type: offense
     winrate: '10.0'
-  - damage: '3.8'
-    disable: '0.7'
-    energy: '2.7'
-    num: 10
-    protection: '2.6'
-    skills:
-    - color: teal
-      description: Holy Light heals other allies for 3 bonus health.
-      icon: 85a79d3bf018b184887fb1a71ef51ac1
-      name: Devotion
-      type: support
-    - color: teal
-      description: Applying Favor to an ally grants them a Shield. It absorbs up to
-        12 damage for 1.5.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Divine Protection
-      type: support
-    - color: grey
-      description: All effects of Divinity are doubled.
-      icon: 96d5e8acf68061e478f9f6a8d315a4c4
-      name: Godlike
-      type: mixed
-    - color: yellow
-      description: Absorbing attacks with Radiant Shield increases your movement speed
-        by {Can't represent GameValueList} for 3.
-      icon: c7f49424687c9a744a6347a5e2eede0b
-      name: Light Speed
-      type: mobility
-    - color: teal
-      description: Blocking attacks with Radiant Shield sends out a wave of light,
-        healing nearby allies up to 3 times for {Can't represent GameValueList} health.
-      icon: c7f49424687c9a744a6347a5e2eede0b
-      name: Light's Embrace
-      type: support
-    winrate: '90.0'
   - damage: '3.3'
     disable: '0.6'
     energy: '2.4'
@@ -508,43 +508,6 @@ builds:
       name: Light's Embrace
       type: support
     winrate: '30.0'
-  - damage: '6.5'
-    disable: '1.1'
-    energy: '3.5'
-    num: 4
-    protection: '4.4'
-    skills:
-    - color: teal
-      description: Applying Favor to an ally grants them a Shield. It absorbs up to
-        12 damage for 1.5.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Divine Protection
-      type: support
-    - color: red
-      description: When affected by Favor, Hammer of Justice deals 3 bonus damage
-        and the Stun duration of charged Hammer of Justice is increased by 0.2.
-      icon: 398f1e921a73f484e9fc54e1308407f7
-      name: Enchanted Weapon
-      type: offense
-    - color: red
-      description: The third Smite attack deals 6 bonus damage and explodes upon impact
-        dealing 16 area damage to nearby enemies.
-      icon: 6892bf3a45c0ad042b495a385cb5604f
-      name: Holy Fire
-      type: offense
-    - color: red
-      description: Intervene deals 3 bonus damage and reduces incoming healing by
-        25 for 3.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Penitence
-      type: offense
-    - color: yellow
-      description: Condemn cooldown is reduced by 3 and hits reduce the cooldown of
-        Intervene by 4.
-      icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
-      name: Vindicator
-      type: mobility
-    winrate: '75.0'
   - damage: '4.9'
     disable: '0.9'
     energy: '3.5'
@@ -617,6 +580,78 @@ builds:
       name: Penitence
       type: offense
     winrate: '75.0'
+  - damage: '6.5'
+    disable: '1.1'
+    energy: '3.5'
+    num: 4
+    protection: '4.4'
+    skills:
+    - color: teal
+      description: Applying Favor to an ally grants them a Shield. It absorbs up to
+        12 damage for 1.5.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Divine Protection
+      type: support
+    - color: red
+      description: When affected by Favor, Hammer of Justice deals 3 bonus damage
+        and the Stun duration of charged Hammer of Justice is increased by 0.2.
+      icon: 398f1e921a73f484e9fc54e1308407f7
+      name: Enchanted Weapon
+      type: offense
+    - color: red
+      description: The third Smite attack deals 6 bonus damage and explodes upon impact
+        dealing 16 area damage to nearby enemies.
+      icon: 6892bf3a45c0ad042b495a385cb5604f
+      name: Holy Fire
+      type: offense
+    - color: red
+      description: Intervene deals 3 bonus damage and reduces incoming healing by
+        25 for 3.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Penitence
+      type: offense
+    - color: yellow
+      description: Condemn cooldown is reduced by 3 and hits reduce the cooldown of
+        Intervene by 4.
+      icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
+      name: Vindicator
+      type: mobility
+    winrate: '75.0'
+  - damage: '3.5'
+    disable: '0.6'
+    energy: '2.5'
+    num: 3
+    protection: '1.8'
+    skills:
+    - color: red
+      description: Charged Hammer of Justice deals 2 bonus damage and inflicts Stun
+        on secondary targets.
+      icon: 398f1e921a73f484e9fc54e1308407f7
+      name: Cleave
+      type: offense
+    - color: grey
+      description: All effects of Divinity are doubled.
+      icon: 96d5e8acf68061e478f9f6a8d315a4c4
+      name: Godlike
+      type: mixed
+    - color: red
+      description: The third Smite attack deals 6 bonus damage and explodes upon impact
+        dealing 16 area damage to nearby enemies.
+      icon: 6892bf3a45c0ad042b495a385cb5604f
+      name: Holy Fire
+      type: offense
+    - color: yellow
+      description: Intervene travel distance increases by 40 when affected by Favor.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Initiation
+      type: mobility
+    - color: yellow
+      description: Absorbing attacks with Radiant Shield increases your movement speed
+        by {Can't represent GameValueList} for 3.
+      icon: c7f49424687c9a744a6347a5e2eede0b
+      name: Light Speed
+      type: mobility
+    winrate: '66.7'
   - damage: '4.3'
     disable: '1.0'
     energy: '3.7'
@@ -690,41 +725,6 @@ builds:
       name: Light Speed
       type: mobility
     winrate: '0.0'
-  - damage: '3.5'
-    disable: '0.6'
-    energy: '2.5'
-    num: 3
-    protection: '1.8'
-    skills:
-    - color: red
-      description: Charged Hammer of Justice deals 2 bonus damage and inflicts Stun
-        on secondary targets.
-      icon: 398f1e921a73f484e9fc54e1308407f7
-      name: Cleave
-      type: offense
-    - color: grey
-      description: All effects of Divinity are doubled.
-      icon: 96d5e8acf68061e478f9f6a8d315a4c4
-      name: Godlike
-      type: mixed
-    - color: red
-      description: The third Smite attack deals 6 bonus damage and explodes upon impact
-        dealing 16 area damage to nearby enemies.
-      icon: 6892bf3a45c0ad042b495a385cb5604f
-      name: Holy Fire
-      type: offense
-    - color: yellow
-      description: Intervene travel distance increases by 40 when affected by Favor.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Initiation
-      type: mobility
-    - color: yellow
-      description: Absorbing attacks with Radiant Shield increases your movement speed
-        by {Can't represent GameValueList} for 3.
-      icon: c7f49424687c9a744a6347a5e2eede0b
-      name: Light Speed
-      type: mobility
-    winrate: '66.7'
 compos:
   threes:
   - hero_names:
