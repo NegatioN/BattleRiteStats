@@ -281,41 +281,6 @@ builds:
       name: Mandate of Heaven
       type: mixed
     winrate: '55.6'
-  - damage: '6.6'
-    disable: '1.2'
-    energy: '3.1'
-    num: 8
-    protection: '1.9'
-    skills:
-    - color: grey
-      description: Recast Ascension to land at target position and deal 10 damage
-        to nearby enemies.
-      icon: 4d02491e780fc464abfadb5bbe4d6fd1
-      name: Dragon Descent
-      type: mixed
-    - color: grey
-      description: Storm Bolt hits heal you for 16 health.
-      icon: f381f5a83890a9342b8332f2a234b06f
-      name: Entertainment
-      type: mixed
-    - color: grey
-      description: Landing after Ascension heals you and nearby allies for 14 health
-        each.
-      icon: 4d02491e780fc464abfadb5bbe4d6fd1
-      name: Heavenly Grace
-      type: mixed
-    - color: grey
-      description: Dragon Storm summons 1 additional dragons.
-      icon: 23f25a42ca0e20b458635a8c00639f07
-      name: Mandate of Heaven
-      type: mixed
-    - color: grey
-      description: Dragon Roar leaves an aura of intense pressure that slows enemy
-        projectiles.
-      icon: c7eae372c662b324c9af9533cd22293e
-      name: Regal Aura
-      type: mixed
-    winrate: '25.0'
   - damage: '4.8'
     disable: '1.4'
     energy: '3.1'
@@ -351,6 +316,41 @@ builds:
       name: Shock and Awe
       type: mixed
     winrate: '62.5'
+  - damage: '6.6'
+    disable: '1.2'
+    energy: '3.1'
+    num: 8
+    protection: '1.9'
+    skills:
+    - color: grey
+      description: Recast Ascension to land at target position and deal 10 damage
+        to nearby enemies.
+      icon: 4d02491e780fc464abfadb5bbe4d6fd1
+      name: Dragon Descent
+      type: mixed
+    - color: grey
+      description: Storm Bolt hits heal you for 16 health.
+      icon: f381f5a83890a9342b8332f2a234b06f
+      name: Entertainment
+      type: mixed
+    - color: grey
+      description: Landing after Ascension heals you and nearby allies for 14 health
+        each.
+      icon: 4d02491e780fc464abfadb5bbe4d6fd1
+      name: Heavenly Grace
+      type: mixed
+    - color: grey
+      description: Dragon Storm summons 1 additional dragons.
+      icon: 23f25a42ca0e20b458635a8c00639f07
+      name: Mandate of Heaven
+      type: mixed
+    - color: grey
+      description: Dragon Roar leaves an aura of intense pressure that slows enemy
+        projectiles.
+      icon: c7eae372c662b324c9af9533cd22293e
+      name: Regal Aura
+      type: mixed
+    winrate: '25.0'
   twos:
   - damage: '4.9'
     disable: '0.9'
@@ -599,11 +599,11 @@ builds:
       name: Sphere of Influence
       type: mixed
     winrate: '66.7'
-  - damage: '6.9'
-    disable: '1.5'
-    energy: '4.2'
+  - damage: '6.1'
+    disable: '1.1'
+    energy: '2.8'
     num: 2
-    protection: '2.2'
+    protection: '1.8'
     skills:
     - color: grey
       description: Recast Ascension to land at target position and deal 10 damage
@@ -618,9 +618,44 @@ builds:
       name: Dragon Force
       type: mixed
     - color: grey
+      description: Storm Struck spreads from affected enemies to other nearby enemies.
+      icon: f381f5a83890a9342b8332f2a234b06f
+      name: Eyewall
+      type: mixed
+    - color: grey
+      description: Landing after Ascension heals you and nearby allies for 14 health
+        each.
+      icon: 4d02491e780fc464abfadb5bbe4d6fd1
+      name: Heavenly Grace
+      type: mixed
+    - color: grey
+      description: The radius of Dominion is increased by 30 and casting it empowers
+        your next 3 Shock Blasts. Empowered blasts hit all nearby enemies.
+      icon: 0cf963f4151146b49942756c69808bd9
+      name: Sphere of Influence
+      type: mixed
+    winrate: '0.0'
+  - damage: '4.3'
+    disable: '1.4'
+    energy: '3.6'
+    num: 2
+    protection: '1.7'
+    skills:
+    - color: grey
+      description: Dealing damage with another ability empowers your next Shock Blast.
+        Empowered blasts hit all nearby enemies.
+      icon: 81f65d3dd0b1331488eaee6aef3e1d81
+      name: Dragon Force
+      type: mixed
+    - color: grey
       description: Storm Bolt hits heal you for 16 health.
       icon: f381f5a83890a9342b8332f2a234b06f
       name: Entertainment
+      type: mixed
+    - color: grey
+      description: Storm Struck spreads from affected enemies to other nearby enemies.
+      icon: f381f5a83890a9342b8332f2a234b06f
+      name: Eyewall
       type: mixed
     - color: grey
       description: Landing after Ascension heals you and nearby allies for 14 health
@@ -634,7 +669,7 @@ builds:
       icon: c7eae372c662b324c9af9533cd22293e
       name: Shock and Awe
       type: mixed
-    winrate: '0.0'
+    winrate: '50.0'
   - damage: '3.9'
     disable: '1.2'
     energy: '3.5'
@@ -670,41 +705,6 @@ builds:
       name: Sphere of Influence
       type: mixed
     winrate: '50.0'
-  - damage: '5.4'
-    disable: '1.0'
-    energy: '3.2'
-    num: 2
-    protection: '1.3'
-    skills:
-    - color: grey
-      description: Recast Ascension to land at target position and deal 10 damage
-        to nearby enemies.
-      icon: 4d02491e780fc464abfadb5bbe4d6fd1
-      name: Dragon Descent
-      type: mixed
-    - color: grey
-      description: Dealing damage with another ability empowers your next Shock Blast.
-        Empowered blasts hit all nearby enemies.
-      icon: 81f65d3dd0b1331488eaee6aef3e1d81
-      name: Dragon Force
-      type: mixed
-    - color: grey
-      description: Storm Bolt hits heal you for 16 health.
-      icon: f381f5a83890a9342b8332f2a234b06f
-      name: Entertainment
-      type: mixed
-    - color: grey
-      description: Landing after Ascension heals you and nearby allies for 14 health
-        each.
-      icon: 4d02491e780fc464abfadb5bbe4d6fd1
-      name: Heavenly Grace
-      type: mixed
-    - color: grey
-      description: Dragon Storm summons 1 additional dragons.
-      icon: 23f25a42ca0e20b458635a8c00639f07
-      name: Mandate of Heaven
-      type: mixed
-    winrate: '100.0'
 compos:
   threes:
   - hero_names:
