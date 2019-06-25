@@ -235,6 +235,39 @@ builds:
       name: Wicked Strike
       type: control
     winrate: '43.8'
+  - damage: '5.7'
+    disable: '0.9'
+    energy: '2.7'
+    num: 15
+    protection: '2.0'
+    skills:
+    - color: pink
+      description: Claw of the Wicked inflicts both Root for 1.2 and Curse.
+      icon: 13fbbdb9e7cbde8429053e33e1022fa8
+      name: Cold Embrace
+      type: control
+    - color: yellow
+      description: Your movement speed increases by 6 and is increased 6 further while
+        your weapon is fully charged.
+      icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Night Stalker
+      type: mobility
+    - color: grey
+      description: Reduces your weapon charge cooldown by 30.
+      icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Reaper
+      type: mixed
+    - color: red
+      description: Claw of the Wicked deals 3 bonus damage. Increases range by 12.
+      icon: 13fbbdb9e7cbde8429053e33e1022fa8
+      name: Tenacious Demon
+      type: offense
+    - color: pink
+      description: Increases Silence duration from 0.3 to 0.8.
+      icon: 76c658cdb74fac345b0629a77fd6fc91
+      name: Wicked Strike
+      type: control
+    winrate: '46.7'
   - damage: '6.3'
     disable: '1.0'
     energy: '3.0'
@@ -270,39 +303,6 @@ builds:
       name: Shadow Prowl
       type: mobility
     winrate: '60.0'
-  - damage: '5.7'
-    disable: '0.9'
-    energy: '2.7'
-    num: 15
-    protection: '2.0'
-    skills:
-    - color: pink
-      description: Claw of the Wicked inflicts both Root for 1.2 and Curse.
-      icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Cold Embrace
-      type: control
-    - color: yellow
-      description: Your movement speed increases by 6 and is increased 6 further while
-        your weapon is fully charged.
-      icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Night Stalker
-      type: mobility
-    - color: grey
-      description: Reduces your weapon charge cooldown by 30.
-      icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Reaper
-      type: mixed
-    - color: red
-      description: Claw of the Wicked deals 3 bonus damage. Increases range by 12.
-      icon: 13fbbdb9e7cbde8429053e33e1022fa8
-      name: Tenacious Demon
-      type: offense
-    - color: pink
-      description: Increases Silence duration from 0.3 to 0.8.
-      icon: 76c658cdb74fac345b0629a77fd6fc91
-      name: Wicked Strike
-      type: control
-    winrate: '46.7'
   - damage: '6.4'
     disable: '0.6'
     energy: '2.9'
