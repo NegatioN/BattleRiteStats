@@ -607,41 +607,6 @@ builds:
       name: Tsunami
       type: offense
     winrate: '83.3'
-  - damage: '4.2'
-    disable: '0.9'
-    energy: '2.9'
-    num: 5
-    protection: '3.9'
-    skills:
-    - color: teal
-      description: Healing Wave bounces to a nearby ally after healing, healing them
-        for 6 health.
-      icon: 81f898538a9eba14b82110f8ebf6654e
-      name: Fountain
-      type: support
-    - color: pink
-      description: Countering an attack with Tidal Wave recharges your staff.
-      icon: baa9baf5b01c5ee42902398a8f946a5a
-      name: Gush
-      type: control
-    - color: pink
-      description: Increases Silence duration from 1 to 1.4.
-      icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Soaking Wet
-      type: control
-    - color: pink
-      description: Charged Volatile Water explodes upon hitting an enemy, dealing
-        full damage and inflicting Silence to other nearby enemies.
-      icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Splash Damage
-      type: control
-    - color: teal
-      description: Dive heals self for 6 health and other nearby allies for 18 health
-        when emerging from the deep.
-      icon: 6c30b1e6992030e4dae06a355b7a4fb4
-      name: Spring Water
-      type: support
-    winrate: '20.0'
   - damage: '6.3'
     disable: '1.2'
     energy: '3.7'
@@ -678,11 +643,46 @@ builds:
       name: Tasty Fish
       type: support
     winrate: '80.0'
-  - damage: '3.8'
-    disable: '1.0'
-    energy: '2.8'
-    num: 4
+  - damage: '4.2'
+    disable: '0.9'
+    energy: '2.9'
+    num: 5
     protection: '3.9'
+    skills:
+    - color: teal
+      description: Healing Wave bounces to a nearby ally after healing, healing them
+        for 6 health.
+      icon: 81f898538a9eba14b82110f8ebf6654e
+      name: Fountain
+      type: support
+    - color: pink
+      description: Countering an attack with Tidal Wave recharges your staff.
+      icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Gush
+      type: control
+    - color: pink
+      description: Increases Silence duration from 1 to 1.4.
+      icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Soaking Wet
+      type: control
+    - color: pink
+      description: Charged Volatile Water explodes upon hitting an enemy, dealing
+        full damage and inflicting Silence to other nearby enemies.
+      icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Splash Damage
+      type: control
+    - color: teal
+      description: Dive heals self for 6 health and other nearby allies for 18 health
+        when emerging from the deep.
+      icon: 6c30b1e6992030e4dae06a355b7a4fb4
+      name: Spring Water
+      type: support
+    winrate: '20.0'
+  - damage: '3.9'
+    disable: '0.7'
+    energy: '3.2'
+    num: 4
+    protection: '3.3'
     skills:
     - color: pink
       description: Countering an attack with Tidal Wave recharges your staff.
@@ -695,6 +695,12 @@ builds:
       icon: 6c30b1e6992030e4dae06a355b7a4fb4
       name: Ocean Tide
       type: mobility
+    - color: red
+      description: Firing Volatile Water through a Bubble Barrier increases damage
+        by 3 and range by 25.
+      icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Rippling Waters
+      type: offense
     - color: green
       description: Countering an attack with Tidal Wave spawns a Lesser Bubble Barrier
         around you.
@@ -706,13 +712,7 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Soaking Wet
       type: control
-    - color: pink
-      description: Charged Volatile Water explodes upon hitting an enemy, dealing
-        full damage and inflicting Silence to other nearby enemies.
-      icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Splash Damage
-      type: control
-    winrate: '50.0'
+    winrate: '25.0'
 compos:
   threes:
   - hero_names:
