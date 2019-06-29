@@ -678,11 +678,11 @@ builds:
       name: Tasty Fish
       type: support
     winrate: '80.0'
-  - damage: '3.8'
-    disable: '1.0'
-    energy: '2.8'
+  - damage: '3.9'
+    disable: '0.7'
+    energy: '3.2'
     num: 4
-    protection: '3.9'
+    protection: '3.3'
     skills:
     - color: pink
       description: Countering an attack with Tidal Wave recharges your staff.
@@ -695,6 +695,12 @@ builds:
       icon: 6c30b1e6992030e4dae06a355b7a4fb4
       name: Ocean Tide
       type: mobility
+    - color: red
+      description: Firing Volatile Water through a Bubble Barrier increases damage
+        by 3 and range by 25.
+      icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Rippling Waters
+      type: offense
     - color: green
       description: Countering an attack with Tidal Wave spawns a Lesser Bubble Barrier
         around you.
@@ -706,13 +712,7 @@ builds:
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Soaking Wet
       type: control
-    - color: pink
-      description: Charged Volatile Water explodes upon hitting an enemy, dealing
-        full damage and inflicting Silence to other nearby enemies.
-      icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Splash Damage
-      type: control
-    winrate: '50.0'
+    winrate: '25.0'
 compos:
   threes:
   - hero_names:
