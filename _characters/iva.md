@@ -576,33 +576,32 @@ builds:
       name: Tractor Pulse
       type: control
     winrate: '100.0'
-  - damage: '5.1'
-    disable: '1.1'
-    energy: '3.4'
+  - damage: '6.0'
+    disable: '1.0'
+    energy: '2.8'
     num: 2
-    protection: '0.8'
+    protection: '0.5'
     skills:
-    - color: red
-      description: Rocket X-67 deals 4 bonus damage.
-      icon: d80cae4dd7699264fb3c37675b59f263
-      name: Boom!
-      type: offense
+    - color: yellow
+      description: Zap knocks nearby enemies back and grants 20 Fading Haste for 2.
+      icon: 9274b3f40ab2b4048b5cde1e9164901e
+      name: Blast Shield
+      type: mobility
     - color: pink
-      description: Tazer hits bounce once towards a nearby enemy.
-      icon: c9cd772b84da5454e9888a19fa249483
-      name: Conductor
-      type: control
-    - color: pink
-      description: Rocket X-67 hits inflict Fading Snare for 1.5 and the explosion
-        inflicts Fading Snare for 0.7.
-      icon: d80cae4dd7699264fb3c37675b59f263
-      name: Heavy Rocket
+      description: Increases Oil factor by 10 and duration by 1.5.
+      icon: a001d096a99f9a84da3e8b1056dc0535
+      name: Gunge
       type: control
     - color: grey
       description: Jet Pack causes your next Boomstick to inflict Oil.
       icon: 7442381b626556c4e8193c48031d01ef
       name: Oil Blaster
       type: mixed
+    - color: red
+      description: Rocket X-67 gains 1 ability charge but cooldown increases by 1.5.
+      icon: d80cae4dd7699264fb3c37675b59f263
+      name: Stockpile
+      type: offense
     - color: blue
       description: Recast Jet Pack to fly back to your starting location.
       icon: 7442381b626556c4e8193c48031d01ef
@@ -643,37 +642,39 @@ builds:
       name: Stockpile
       type: offense
     winrate: '0.0'
-  - damage: '6.0'
+  - damage: '6.3'
     disable: '1.0'
-    energy: '2.8'
+    energy: '3.5'
     num: 2
-    protection: '0.5'
+    protection: '0.9'
     skills:
-    - color: yellow
-      description: Zap knocks nearby enemies back and grants 20 Fading Haste for 2.
-      icon: 9274b3f40ab2b4048b5cde1e9164901e
-      name: Blast Shield
-      type: mobility
     - color: pink
-      description: Increases Oil factor by 10 and duration by 1.5.
-      icon: a001d096a99f9a84da3e8b1056dc0535
-      name: Gunge
+      description: Tazer hits bounce once towards a nearby enemy.
+      icon: c9cd772b84da5454e9888a19fa249483
+      name: Conductor
       type: control
-    - color: grey
-      description: Jet Pack causes your next Boomstick to inflict Oil.
+    - color: red
+      description: Zap increases your Boomstick attack and reload speed by 120 while
+        you're affected by the Shield.
+      icon: 9274b3f40ab2b4048b5cde1e9164901e
+      name: Hyperspeed
+      type: offense
+    - color: yellow
+      description: ^2Jet Pack^- increases movement speed by 30 for 2.
       icon: 7442381b626556c4e8193c48031d01ef
-      name: Oil Blaster
-      type: mixed
+      name: Rocket Boosters
+      type: mobility
     - color: red
       description: Rocket X-67 gains 1 ability charge but cooldown increases by 1.5.
       icon: d80cae4dd7699264fb3c37675b59f263
       name: Stockpile
       type: offense
-    - color: blue
-      description: Recast Jet Pack to fly back to your starting location.
-      icon: 7442381b626556c4e8193c48031d01ef
-      name: U-Turn
-      type: utility
+    - color: pink
+      description: Tractor Beam inflicts Stun for 0.7 to enemies caught in the beam
+        when the effect ends and cooldown reduces by 3.
+      icon: fadd8bcda43b2f54aa66dd5d12795a53
+      name: Tractor Pulse
+      type: control
     winrate: '50.0'
 compos:
   threes:
