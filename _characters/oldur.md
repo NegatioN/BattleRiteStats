@@ -323,17 +323,12 @@ builds:
       name: Time Walker
       type: mobility
     winrate: '66.7'
-  - damage: '4.2'
-    disable: '0.5'
-    energy: '2.8'
+  - damage: '4.6'
+    disable: '0.6'
+    energy: '4.2'
     num: 9
-    protection: '3.7'
+    protection: '3.2'
     skills:
-    - color: grey
-      description: Time Bomb reduces incoming healing by 25.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Dehydration
-      type: mixed
     - color: teal
       description: Rejuvenate heals for an additional 15 of damage taken over its
         duration. Restores up to a maximum of 6 bonus health.
@@ -358,6 +353,12 @@ builds:
       icon: 1e376cc95b8550443b527db1234300bd
       name: Shared Fate
       type: offense
+    - color: yellow
+      description: Negating attacks with Time Bender reduces cooldown of Shifting
+        Sands by {Can't represent GameValueList}s.
+      icon: a22c6c4bc967d4e48a44f0e87a93023e
+      name: Time Walker
+      type: mobility
     winrate: '44.4'
   twos:
   - damage: '5.4'
@@ -504,6 +505,41 @@ builds:
       name: Time Walker
       type: mobility
     winrate: '75.0'
+  - damage: '4.9'
+    disable: '1.0'
+    energy: '3.3'
+    num: 3
+    protection: '2.1'
+    skills:
+    - color: grey
+      description: Rejuvenate reduces ally's current cooldowns by 8 both when applied
+        or triggered.
+      icon: 838ae06cda41a2544a1d2a528389d5b5
+      name: Rewind
+      type: mixed
+    - color: pink
+      description: Quicksand inflicts Root for 1.
+      icon: 35a1515e35b5104449dfa8802c5aa0e2
+      name: Sand Tomb
+      type: control
+    - color: red
+      description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
+        enemies when it detonates.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Shared Fate
+      type: offense
+    - color: red
+      description: Consuming Time Bomb deals 4 bonus damage.
+      icon: 1e376cc95b8550443b527db1234300bd
+      name: Time Burst
+      type: offense
+    - color: yellow
+      description: Negating attacks with Time Bender reduces cooldown of Shifting
+        Sands by {Can't represent GameValueList}s.
+      icon: a22c6c4bc967d4e48a44f0e87a93023e
+      name: Time Walker
+      type: mobility
+    winrate: '100.0'
   - damage: '3.4'
     disable: '0.9'
     energy: '2.5'
@@ -609,41 +645,6 @@ builds:
       name: Time Burst
       type: offense
     winrate: '33.3'
-  - damage: '4.9'
-    disable: '1.0'
-    energy: '3.3'
-    num: 3
-    protection: '2.1'
-    skills:
-    - color: grey
-      description: Rejuvenate reduces ally's current cooldowns by 8 both when applied
-        or triggered.
-      icon: 838ae06cda41a2544a1d2a528389d5b5
-      name: Rewind
-      type: mixed
-    - color: pink
-      description: Quicksand inflicts Root for 1.
-      icon: 35a1515e35b5104449dfa8802c5aa0e2
-      name: Sand Tomb
-      type: control
-    - color: red
-      description: Time Bomb deals 2 bonus damage and also deals its damage to nearby
-        enemies when it detonates.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Shared Fate
-      type: offense
-    - color: red
-      description: Consuming Time Bomb deals 4 bonus damage.
-      icon: 1e376cc95b8550443b527db1234300bd
-      name: Time Burst
-      type: offense
-    - color: yellow
-      description: Negating attacks with Time Bender reduces cooldown of Shifting
-        Sands by {Can't represent GameValueList}s.
-      icon: a22c6c4bc967d4e48a44f0e87a93023e
-      name: Time Walker
-      type: mobility
-    winrate: '100.0'
   - damage: '6.4'
     disable: '0.9'
     energy: '3.3'
