@@ -544,6 +544,41 @@ builds:
       name: Taste of Blood
       type: survival
     winrate: '57.1'
+  - damage: '10.3'
+    disable: '0.9'
+    energy: '4.6'
+    num: 5
+    protection: '1.5'
+    skills:
+    - color: red
+      description: Shuriken deals 3 bonus damage on each hit.
+      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
+      name: Deadly Star
+      type: offense
+    - color: green
+      description: Shadow Slice heals you for 13 health.
+      icon: ef4060497167dcd43ab43e87def18d7b
+      name: Drawing Blood
+      type: survival
+    - color: red
+      description: Phantom Cut deals 9 bonus damage.
+      icon: ef4060497167dcd43ab43e87def18d7b
+      name: Phantom Blades
+      type: offense
+    - color: grey
+      description: Hitting a target with your most recent dash of Elusive Strike allows
+        a recast to perform a short dash strike, dealing 6 damage and inflicting a
+        Lesser Phantom Cut. Lesser Phantom Cut deals 12 damage after 2.
+      icon: fa9b6a58fa6398b4ea4c4756152bd079
+      name: Quick Strike
+      type: mixed
+    - color: green
+      description: Shuriken returns to you afterward, healing you for {Can't represent
+        GameValueList} health based on enemies hit.
+      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
+      name: Taste of Blood
+      type: survival
+    winrate: '100.0'
   - damage: '7.6'
     disable: '1.0'
     energy: '3.3'
@@ -567,41 +602,6 @@ builds:
       icon: c75e9702831a67e4b98aa0c24af2d865
       name: Go for the Throat
       type: control
-    - color: grey
-      description: Hitting a target with your most recent dash of Elusive Strike allows
-        a recast to perform a short dash strike, dealing 6 damage and inflicting a
-        Lesser Phantom Cut. Lesser Phantom Cut deals 12 damage after 2.
-      icon: fa9b6a58fa6398b4ea4c4756152bd079
-      name: Quick Strike
-      type: mixed
-    - color: green
-      description: Shuriken returns to you afterward, healing you for {Can't represent
-        GameValueList} health based on enemies hit.
-      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
-      name: Taste of Blood
-      type: survival
-    winrate: '100.0'
-  - damage: '10.3'
-    disable: '0.9'
-    energy: '4.6'
-    num: 5
-    protection: '1.5'
-    skills:
-    - color: red
-      description: Shuriken deals 3 bonus damage on each hit.
-      icon: 19e2c4e8bea39984ea45d9ab01faf7fa
-      name: Deadly Star
-      type: offense
-    - color: green
-      description: Shadow Slice heals you for 13 health.
-      icon: ef4060497167dcd43ab43e87def18d7b
-      name: Drawing Blood
-      type: survival
-    - color: red
-      description: Phantom Cut deals 9 bonus damage.
-      icon: ef4060497167dcd43ab43e87def18d7b
-      name: Phantom Blades
-      type: offense
     - color: grey
       description: Hitting a target with your most recent dash of Elusive Strike allows
         a recast to perform a short dash strike, dealing 6 damage and inflicting a
