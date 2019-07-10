@@ -584,40 +584,6 @@ builds:
       name: Trapper
       type: control
     winrate: '75.0'
-  - damage: '4.1'
-    disable: '0.8'
-    energy: '4.3'
-    num: 4
-    protection: '1.1'
-    skills:
-    - color: blue
-      description: Black Arrow reapplies Seeker's Mark when consumed.
-      icon: 4b81fcaeb29b2cd4e81e67d224552899
-      name: Marksman
-      type: utility
-    - color: yellow
-      description: Increases duration of Prowl by 0.5 and reduces its cooldown by
-        3.
-      icon: bcb5bbf5676057e4bb4278f5c20bb865
-      name: Panther
-      type: mobility
-    - color: pink
-      description: Steady Shot inflicts Stun for 0.5.
-      icon: 594fdf8c70a83404da422aa6463e0e03
-      name: Perfect Shot
-      type: control
-    - color: pink
-      description: Bear Trap lays down an additional trap in front of the first one
-        that lasts for 2.5.
-      icon: 6e30eed38d549fa4794a4543bf2b8de2
-      name: Trapper
-      type: control
-    - color: yellow
-      description: Black Arrow grants 60 Fading Haste for 1.5.
-      icon: 4b81fcaeb29b2cd4e81e67d224552899
-      name: Viper
-      type: mobility
-    winrate: '0.0'
   - damage: '10.3'
     disable: '1.1'
     energy: '6.8'
@@ -652,6 +618,40 @@ builds:
       name: Trapper
       type: control
     winrate: '100.0'
+  - damage: '4.1'
+    disable: '0.8'
+    energy: '4.3'
+    num: 4
+    protection: '1.1'
+    skills:
+    - color: blue
+      description: Black Arrow reapplies Seeker's Mark when consumed.
+      icon: 4b81fcaeb29b2cd4e81e67d224552899
+      name: Marksman
+      type: utility
+    - color: yellow
+      description: Increases duration of Prowl by 0.5 and reduces its cooldown by
+        3.
+      icon: bcb5bbf5676057e4bb4278f5c20bb865
+      name: Panther
+      type: mobility
+    - color: pink
+      description: Steady Shot inflicts Stun for 0.5.
+      icon: 594fdf8c70a83404da422aa6463e0e03
+      name: Perfect Shot
+      type: control
+    - color: pink
+      description: Bear Trap lays down an additional trap in front of the first one
+        that lasts for 2.5.
+      icon: 6e30eed38d549fa4794a4543bf2b8de2
+      name: Trapper
+      type: control
+    - color: yellow
+      description: Black Arrow grants 60 Fading Haste for 1.5.
+      icon: 4b81fcaeb29b2cd4e81e67d224552899
+      name: Viper
+      type: mobility
+    winrate: '0.0'
   - damage: '6.9'
     disable: '0.9'
     energy: '3.8'
