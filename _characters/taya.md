@@ -321,11 +321,11 @@ builds:
       name: Wind Stream
       type: mobility
     winrate: '44.8'
-  - damage: '7.3'
-    disable: '0.6'
-    energy: '3.5'
+  - damage: '6.4'
+    disable: '0.7'
+    energy: '3.2'
     num: 24
-    protection: '0.9'
+    protection: '1.0'
     skills:
     - color: green
       description: During Haste, the first hit of each Razor Boomerang heals you for
@@ -333,12 +333,6 @@ builds:
       icon: e6c2b076242187d44941ae0cefa96f62
       name: Breath of Air
       type: survival
-    - color: red
-      description: X-Strike boomerangs each deal 2 bonus damage, and an additional
-        4 bonus damage if both boomerangs hit at the intersection.
-      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
-      name: Cross Cut
-      type: offense
     - color: pink
       description: Wind Strike inflicts Stun for 0.8 to enemies knocked into walls.
       icon: 9a292cf4ed808d54c922ab48f5881c5a
@@ -351,12 +345,17 @@ builds:
       name: Surprise Attack
       type: mobility
     - color: yellow
+      description: During Haste, Wind Strike hits apply a 1.5 Haste.
+      icon: 9a292cf4ed808d54c922ab48f5881c5a
+      name: Wind Fury
+      type: mobility
+    - color: yellow
       description: Increases Wind Stream duration by 1 and the Haste duration it grants
         by 0.8.
       icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
       name: Wind Stream
       type: mobility
-    winrate: '54.2'
+    winrate: '45.8'
   twos:
   - damage: '7.4'
     disable: '0.5'
@@ -500,41 +499,6 @@ builds:
       name: Wind Shield
       type: mixed
     winrate: '80.0'
-  - damage: '7.4'
-    disable: '0.7'
-    energy: '4.0'
-    num: 9
-    protection: '1.1'
-    skills:
-    - color: green
-      description: During Haste, the first hit of each Razor Boomerang heals you for
-        6 health.
-      icon: e6c2b076242187d44941ae0cefa96f62
-      name: Breath of Air
-      type: survival
-    - color: pink
-      description: Wind Strike inflicts Stun for 0.8 to enemies knocked into walls.
-      icon: 9a292cf4ed808d54c922ab48f5881c5a
-      name: Cyclone
-      type: control
-    - color: yellow
-      description: During Haste, X-Strike can be used while moving at 60 movement
-        speed.
-      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
-      name: Surprise Attack
-      type: mobility
-    - color: yellow
-      description: During Haste, Wind Strike hits apply a 1.5 Haste.
-      icon: 9a292cf4ed808d54c922ab48f5881c5a
-      name: Wind Fury
-      type: mobility
-    - color: yellow
-      description: Increases Wind Stream duration by 1 and the Haste duration it grants
-        by 0.8.
-      icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
-      name: Wind Stream
-      type: mobility
-    winrate: '88.9'
   - damage: '6.3'
     disable: '0.7'
     energy: '3.0'
@@ -570,6 +534,41 @@ builds:
       name: Wind Stream
       type: mobility
     winrate: '55.6'
+  - damage: '7.4'
+    disable: '0.7'
+    energy: '4.0'
+    num: 9
+    protection: '1.1'
+    skills:
+    - color: green
+      description: During Haste, the first hit of each Razor Boomerang heals you for
+        6 health.
+      icon: e6c2b076242187d44941ae0cefa96f62
+      name: Breath of Air
+      type: survival
+    - color: pink
+      description: Wind Strike inflicts Stun for 0.8 to enemies knocked into walls.
+      icon: 9a292cf4ed808d54c922ab48f5881c5a
+      name: Cyclone
+      type: control
+    - color: yellow
+      description: During Haste, X-Strike can be used while moving at 60 movement
+        speed.
+      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
+      name: Surprise Attack
+      type: mobility
+    - color: yellow
+      description: During Haste, Wind Strike hits apply a 1.5 Haste.
+      icon: 9a292cf4ed808d54c922ab48f5881c5a
+      name: Wind Fury
+      type: mobility
+    - color: yellow
+      description: Increases Wind Stream duration by 1 and the Haste duration it grants
+        by 0.8.
+      icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
+      name: Wind Stream
+      type: mobility
+    winrate: '88.9'
   - damage: '7.7'
     disable: '0.8'
     energy: '2.8'
@@ -641,6 +640,41 @@ builds:
       name: Wind Stream
       type: mobility
     winrate: '60.0'
+  - damage: '6.5'
+    disable: '0.5'
+    energy: '2.8'
+    num: 4
+    protection: '0.3'
+    skills:
+    - color: red
+      description: X-Strike boomerangs each deal 2 bonus damage, and an additional
+        4 bonus damage if both boomerangs hit at the intersection.
+      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
+      name: Cross Cut
+      type: offense
+    - color: pink
+      description: Haste spawns a gale that slows enemy projectiles for 2.
+      icon: a3165fe585dd0ee44a95681889b39ca8
+      name: Gale
+      type: control
+    - color: yellow
+      description: During Haste, X-Strike can be used while moving at 60 movement
+        speed.
+      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
+      name: Surprise Attack
+      type: mobility
+    - color: yellow
+      description: During Haste, Wind Strike hits apply a 1.5 Haste.
+      icon: 9a292cf4ed808d54c922ab48f5881c5a
+      name: Wind Fury
+      type: mobility
+    - color: yellow
+      description: Increases Wind Stream duration by 1 and the Haste duration it grants
+        by 0.8.
+      icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
+      name: Wind Stream
+      type: mobility
+    winrate: '50.0'
   - damage: '8.1'
     disable: '0.8'
     energy: '4.1'
@@ -677,41 +711,6 @@ builds:
       name: Wind Stream
       type: mobility
     winrate: '100.0'
-  - damage: '6.5'
-    disable: '0.5'
-    energy: '2.8'
-    num: 4
-    protection: '0.3'
-    skills:
-    - color: red
-      description: X-Strike boomerangs each deal 2 bonus damage, and an additional
-        4 bonus damage if both boomerangs hit at the intersection.
-      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
-      name: Cross Cut
-      type: offense
-    - color: pink
-      description: Haste spawns a gale that slows enemy projectiles for 2.
-      icon: a3165fe585dd0ee44a95681889b39ca8
-      name: Gale
-      type: control
-    - color: yellow
-      description: During Haste, X-Strike can be used while moving at 60 movement
-        speed.
-      icon: a1e1ca01cc40ea24c9e8e0fa7de49581
-      name: Surprise Attack
-      type: mobility
-    - color: yellow
-      description: During Haste, Wind Strike hits apply a 1.5 Haste.
-      icon: 9a292cf4ed808d54c922ab48f5881c5a
-      name: Wind Fury
-      type: mobility
-    - color: yellow
-      description: Increases Wind Stream duration by 1 and the Haste duration it grants
-        by 0.8.
-      icon: b0d9d3dfe8a33054f832a71fb2ec1f3e
-      name: Wind Stream
-      type: mobility
-    winrate: '50.0'
 compos:
   threes:
   - hero_names:
