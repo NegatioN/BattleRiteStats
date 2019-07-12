@@ -419,6 +419,41 @@ builds:
       name: Gunslinger
       type: utility
     winrate: '27.3'
+  - damage: '8.7'
+    disable: '0.9'
+    energy: '5.1'
+    num: 7
+    protection: '1.9'
+    skills:
+    - color: red
+      description: Blast Vault causes your next 4 Revolver Shots to deal 2 bonus damage
+        and grant 2 bonus energy.
+      icon: ead2d318c0e3f8f4793207ab3e12da21
+      name: Blasting Pistols
+      type: offense
+    - color: green
+      description: Disabling Shot hits heal you for 5 health and Spell Block interrupts
+        heal you for 10 bonus health.
+      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
+      name: Delight
+      type: survival
+    - color: red
+      description: Disabling Shot hits instantly reload Revolver Shot with 6 ammo.
+      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
+      name: Desperado
+      type: offense
+    - color: blue
+      description: Revolver Shot hits reduce cooldown of Stealth by 0.25. Cooldown
+        can't be reduced during Stealth.
+      icon: 6410a3c5ef2055247ad58f6ed2e36953
+      name: Gunslinger
+      type: utility
+    - color: green
+      description: Snipe hits heal you for 12 health.
+      icon: 20e8f262eca757942bc23d94aa73ab2a
+      name: Shadow Shot
+      type: survival
+    winrate: '85.7'
   - damage: '3.7'
     disable: '0.8'
     energy: '2.0'
@@ -524,41 +559,6 @@ builds:
       name: Shadow Shot
       type: survival
     winrate: '28.6'
-  - damage: '8.7'
-    disable: '0.9'
-    energy: '5.1'
-    num: 7
-    protection: '1.9'
-    skills:
-    - color: red
-      description: Blast Vault causes your next 4 Revolver Shots to deal 2 bonus damage
-        and grant 2 bonus energy.
-      icon: ead2d318c0e3f8f4793207ab3e12da21
-      name: Blasting Pistols
-      type: offense
-    - color: green
-      description: Disabling Shot hits heal you for 5 health and Spell Block interrupts
-        heal you for 10 bonus health.
-      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
-      name: Delight
-      type: survival
-    - color: red
-      description: Disabling Shot hits instantly reload Revolver Shot with 6 ammo.
-      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
-      name: Desperado
-      type: offense
-    - color: blue
-      description: Revolver Shot hits reduce cooldown of Stealth by 0.25. Cooldown
-        can't be reduced during Stealth.
-      icon: 6410a3c5ef2055247ad58f6ed2e36953
-      name: Gunslinger
-      type: utility
-    - color: green
-      description: Snipe hits heal you for 12 health.
-      icon: 20e8f262eca757942bc23d94aa73ab2a
-      name: Shadow Shot
-      type: survival
-    winrate: '85.7'
   - damage: '7.2'
     disable: '0.9'
     energy: '4.5'
@@ -594,42 +594,6 @@ builds:
       name: Through the Shadows
       type: mobility
     winrate: '60.0'
-  - damage: '5.1'
-    disable: '0.9'
-    energy: '4.3'
-    num: 4
-    protection: '0.9'
-    skills:
-    - color: pink
-      description: Increases Junk Shot knockback force by 25. Knocking an enemy into
-        a wall inflicts Stun for 0.5.
-      icon: 789010c418d3eac4f8684cd72e7cf950
-      name: Black Powder
-      type: control
-    - color: green
-      description: Disabling Shot hits heal you for 5 health and Spell Block interrupts
-        heal you for 10 bonus health.
-      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
-      name: Delight
-      type: survival
-    - color: red
-      description: Disabling Shot hits instantly reload Revolver Shot with 6 ammo.
-      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
-      name: Desperado
-      type: offense
-    - color: pink
-      description: Stealth causes you to drop a bomb that explodes after 1, dealing
-        12 damage and inflicting Fading Snare for 1.5 to nearby enemies.
-      icon: c5da66a86ca45a1449a49d55cc92d1fc
-      name: Farewell Present
-      type: control
-    - color: blue
-      description: Revolver Shot hits reduce cooldown of Stealth by 0.25. Cooldown
-        can't be reduced during Stealth.
-      icon: 6410a3c5ef2055247ad58f6ed2e36953
-      name: Gunslinger
-      type: utility
-    winrate: '75.0'
   - damage: '4.9'
     disable: '0.7'
     energy: '2.9'
@@ -663,6 +627,40 @@ builds:
       icon: 6410a3c5ef2055247ad58f6ed2e36953
       name: Gunslinger
       type: utility
+    winrate: '50.0'
+  - damage: '4.4'
+    disable: '0.6'
+    energy: '2.7'
+    num: 4
+    protection: '0.9'
+    skills:
+    - color: red
+      description: Snipe deals 5 bonus damage.
+      icon: 20e8f262eca757942bc23d94aa73ab2a
+      name: Deadly Focus
+      type: offense
+    - color: green
+      description: Disabling Shot hits heal you for 5 health and Spell Block interrupts
+        heal you for 10 bonus health.
+      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
+      name: Delight
+      type: survival
+    - color: red
+      description: Disabling Shot hits instantly reload Revolver Shot with 6 ammo.
+      icon: 6f9f331dd6c2fb347a4e5cb5bbba0740
+      name: Desperado
+      type: offense
+    - color: blue
+      description: Revolver Shot hits reduce cooldown of Stealth by 0.25. Cooldown
+        can't be reduced during Stealth.
+      icon: 6410a3c5ef2055247ad58f6ed2e36953
+      name: Gunslinger
+      type: utility
+    - color: green
+      description: Snipe hits heal you for 12 health.
+      icon: 20e8f262eca757942bc23d94aa73ab2a
+      name: Shadow Shot
+      type: survival
     winrate: '50.0'
   - damage: '7.3'
     disable: '1.0'
