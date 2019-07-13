@@ -183,6 +183,41 @@ builds:
       name: Zeal
       type: control
     winrate: '52.9'
+  - damage: '7.3'
+    disable: '0.4'
+    energy: '3.3'
+    num: 16
+    protection: '2.9'
+    skills:
+    - color: grey
+      description: Inhibitor's Guard increases movement speed by 25 and damage output
+        by 15.
+      icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Celerity
+      type: mixed
+    - color: yellow
+      description: Shatter can be cast while moving at 50 speed.
+      icon: d6c97da35fc19134881cb5a4c44e3912
+      name: Inhibitor
+      type: mobility
+    - color: blue
+      description: Each Corruption or Judgement consumed by Shatter reduces Inhibitors
+        Guard cooldown by 4.
+      icon: d6c97da35fc19134881cb5a4c44e3912
+      name: Law Bender
+      type: utility
+    - color: green
+      description: Consuming Corruption increases Fading Snare duration from 1 to
+        1.25 and reapplies Corruption.
+      icon: fe5369baf5a80dc47b0656ae7be82e09
+      name: Perpetuity
+      type: survival
+    - color: teal
+      description: Inhibitor's Guard absorbs 10 more damage.
+      icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Wonder
+      type: support
+    winrate: '62.5'
   - damage: '7.7'
     disable: '0.8'
     energy: '4.5'
@@ -221,41 +256,6 @@ builds:
       name: Zeal
       type: control
     winrate: '75.0'
-  - damage: '7.3'
-    disable: '0.4'
-    energy: '3.3'
-    num: 16
-    protection: '2.9'
-    skills:
-    - color: grey
-      description: Inhibitor's Guard increases movement speed by 25 and damage output
-        by 15.
-      icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Celerity
-      type: mixed
-    - color: yellow
-      description: Shatter can be cast while moving at 50 speed.
-      icon: d6c97da35fc19134881cb5a4c44e3912
-      name: Inhibitor
-      type: mobility
-    - color: blue
-      description: Each Corruption or Judgement consumed by Shatter reduces Inhibitors
-        Guard cooldown by 4.
-      icon: d6c97da35fc19134881cb5a4c44e3912
-      name: Law Bender
-      type: utility
-    - color: green
-      description: Consuming Corruption increases Fading Snare duration from 1 to
-        1.25 and reapplies Corruption.
-      icon: fe5369baf5a80dc47b0656ae7be82e09
-      name: Perpetuity
-      type: survival
-    - color: teal
-      description: Inhibitor's Guard absorbs 10 more damage.
-      icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Wonder
-      type: support
-    winrate: '62.5'
   - damage: '8.4'
     disable: '0.6'
     energy: '3.4'
@@ -326,11 +326,11 @@ builds:
       name: Wonder
       type: support
     winrate: '46.7'
-  - damage: '7.9'
+  - damage: '7.0'
     disable: '0.4'
-    energy: '3.6'
+    energy: '3.7'
     num: 12
-    protection: '2.6'
+    protection: '2.7'
     skills:
     - color: red
       description: Hand of Judgement deals 3 bonus damage and hitting an enemy reduces
@@ -338,30 +338,29 @@ builds:
       icon: c2525970f8ab5574191da4938fa5619b
       name: Devastation
       type: offense
-    - color: yellow
-      description: Consuming Corruption increases your movement speed by 10 for 5.
-        Can stack up to 3 times.
-      icon: fe5369baf5a80dc47b0656ae7be82e09
-      name: Fervor
-      type: mobility
-    - color: yellow
-      description: Shatter can be cast while moving at 50 speed.
+    - color: grey
+      description: Reduces cooldown of Kinetic Energy by 4. Inflicts Corruption on
+        enemies hit.
+      icon: c38b2b35320a6894f98fd0814e08ea87
+      name: Kinetic Corruption
+      type: mixed
+    - color: blue
+      description: Each Corruption or Judgement consumed by Shatter reduces Inhibitors
+        Guard cooldown by 4.
       icon: d6c97da35fc19134881cb5a4c44e3912
-      name: Inhibitor
-      type: mobility
+      name: Law Bender
+      type: utility
     - color: green
       description: Consuming Corruption increases Fading Snare duration from 1 to
         1.25 and reapplies Corruption.
       icon: fe5369baf5a80dc47b0656ae7be82e09
       name: Perpetuity
       type: survival
-    - color: grey
-      description: While both Corruption and Judgement are active on an enemy, their
-        factors are increased by 7 and both effects are reapplied by Hand of Corruption
-        / Judgement when hitting that enemy.
-      icon: fe5369baf5a80dc47b0656ae7be82e09
-      name: Synergy
-      type: mixed
+    - color: teal
+      description: Inhibitor's Guard absorbs 10 more damage.
+      icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Wonder
+      type: support
     winrate: '58.3'
   twos:
   - damage: '6.4'
@@ -654,6 +653,40 @@ builds:
       name: Zeal
       type: control
     winrate: '0.0'
+  - damage: '4.3'
+    disable: '0.3'
+    energy: '2.6'
+    num: 3
+    protection: '1.5'
+    skills:
+    - color: grey
+      description: Inhibitor's Guard increases movement speed by 25 and damage output
+        by 15.
+      icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Celerity
+      type: mixed
+    - color: yellow
+      description: Shatter can be cast while moving at 50 speed.
+      icon: d6c97da35fc19134881cb5a4c44e3912
+      name: Inhibitor
+      type: mobility
+    - color: grey
+      description: Reduces cooldown of Kinetic Energy by 4. Inflicts Corruption on
+        enemies hit.
+      icon: c38b2b35320a6894f98fd0814e08ea87
+      name: Kinetic Corruption
+      type: mixed
+    - color: green
+      description: Countering an attack with Wuju allows you to recast it for 3.
+      icon: 2771f14010b802143b0b4d5fc8e4bb9c
+      name: Return
+      type: survival
+    - color: teal
+      description: Inhibitor's Guard absorbs 10 more damage.
+      icon: 0eb9279bebee4a24b8fe4604894d3fb6
+      name: Wonder
+      type: support
+    winrate: '33.3'
   - damage: '7.0'
     disable: '0.4'
     energy: '3.5'
@@ -690,40 +723,6 @@ builds:
       name: Perpetuity
       type: survival
     winrate: '66.7'
-  - damage: '4.3'
-    disable: '0.3'
-    energy: '2.6'
-    num: 3
-    protection: '1.5'
-    skills:
-    - color: grey
-      description: Inhibitor's Guard increases movement speed by 25 and damage output
-        by 15.
-      icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Celerity
-      type: mixed
-    - color: yellow
-      description: Shatter can be cast while moving at 50 speed.
-      icon: d6c97da35fc19134881cb5a4c44e3912
-      name: Inhibitor
-      type: mobility
-    - color: grey
-      description: Reduces cooldown of Kinetic Energy by 4. Inflicts Corruption on
-        enemies hit.
-      icon: c38b2b35320a6894f98fd0814e08ea87
-      name: Kinetic Corruption
-      type: mixed
-    - color: green
-      description: Countering an attack with Wuju allows you to recast it for 3.
-      icon: 2771f14010b802143b0b4d5fc8e4bb9c
-      name: Return
-      type: survival
-    - color: teal
-      description: Inhibitor's Guard absorbs 10 more damage.
-      icon: 0eb9279bebee4a24b8fe4604894d3fb6
-      name: Wonder
-      type: support
-    winrate: '33.3'
 compos:
   threes:
   - hero_names:

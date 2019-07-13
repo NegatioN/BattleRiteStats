@@ -1,6 +1,6 @@
 extra:
   num_matches: 5441
-  time_generated: 12 July 2019
+  time_generated: 13 July 2019
 frontpage:
 - icon: 50404d271ae2a4f4f8b52de966688dc1
   name: Alysia
@@ -248,15 +248,15 @@ twos:
   num: 132
   title: ruh-kaan
   winrate: 0.5606060606060606
-- icon: e5554b8a15ffc1a499a3807bb3a37b56
-  name: Lucie
-  num: 125
-  title: lucie
-  winrate: 0.56
 - icon: 65e28ab3b75c7cb478a1b24b46fca7d2
   name: Destiny
   num: 75
   title: destiny
+  winrate: 0.56
+- icon: e5554b8a15ffc1a499a3807bb3a37b56
+  name: Lucie
+  num: 125
+  title: lucie
   winrate: 0.56
 - icon: 3af1fdc53169d044b939cce7ffb561a1
   name: Ezmo
