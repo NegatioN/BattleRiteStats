@@ -678,41 +678,41 @@ builds:
       name: Spring Water
       type: support
     winrate: '20.0'
-  - damage: '4.2'
-    disable: '0.9'
-    energy: '3.5'
+  - damage: '3.9'
+    disable: '0.7'
+    energy: '3.2'
     num: 4
-    protection: '3.8'
+    protection: '3.3'
     skills:
     - color: pink
       description: Countering an attack with Tidal Wave recharges your staff.
       icon: baa9baf5b01c5ee42902398a8f946a5a
       name: Gush
       type: control
-    - color: red
-      description: Dive deals 10 damage and inflicts Root for 1.2 at your starting
-        location.
+    - color: yellow
+      description: Diving into a Bubble Barrier destroys the bubble and resets the
+        cooldown of Dive.
       icon: 6c30b1e6992030e4dae06a355b7a4fb4
-      name: Riptide
+      name: Ocean Tide
+      type: mobility
+    - color: red
+      description: Firing Volatile Water through a Bubble Barrier increases damage
+        by 3 and range by 25.
+      icon: 70a26229b7880aa44a46e8cb2af9334f
+      name: Rippling Waters
       type: offense
+    - color: green
+      description: Countering an attack with Tidal Wave spawns a Lesser Bubble Barrier
+        around you.
+      icon: baa9baf5b01c5ee42902398a8f946a5a
+      name: Sea Bubble
+      type: survival
     - color: pink
       description: Increases Silence duration from 1 to 1.4.
       icon: 70a26229b7880aa44a46e8cb2af9334f
       name: Soaking Wet
       type: control
-    - color: pink
-      description: Charged Volatile Water explodes upon hitting an enemy, dealing
-        full damage and inflicting Silence to other nearby enemies.
-      icon: 70a26229b7880aa44a46e8cb2af9334f
-      name: Splash Damage
-      type: control
-    - color: teal
-      description: Dive heals self for 6 health and other nearby allies for 18 health
-        when emerging from the deep.
-      icon: 6c30b1e6992030e4dae06a355b7a4fb4
-      name: Spring Water
-      type: support
-    winrate: '75.0'
+    winrate: '25.0'
 compos:
   threes:
   - hero_names:
