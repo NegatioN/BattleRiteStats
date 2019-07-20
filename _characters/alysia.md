@@ -562,11 +562,11 @@ builds:
       name: Vandalism
       type: offense
     winrate: '20.0'
-  - damage: '5.3'
-    disable: '0.4'
-    energy: '2.7'
+  - damage: '6.8'
+    disable: '0.6'
+    energy: '2.5'
     num: 4
-    protection: '0.9'
+    protection: '3.3'
     skills:
     - color: teal
       description: Hitting an ally with Flash Freeze applies Lesser Glacial Prism,
@@ -584,12 +584,11 @@ builds:
       icon: 257737da8189b1242be43990b8caf5a6
       name: Crystalline Lattice
       type: support
-    - color: red
-      description: Increases Ice Lance range by 10. It pierces enemies and damage
-        reduces 50 per hit.
-      icon: bffd25b328052f647a5e1705071fe746
-      name: Piercing Cold
-      type: offense
+    - color: yellow
+      description: Arctic Wind can be recast to perform a short leap.
+      icon: 1ac43589909cda746bafbf3da20d1559
+      name: Twirl
+      type: mobility
     - color: red
       description: Glacial Prism explosion radius increases by 20 and deals 14 damage
         to nearby enemies when it breaks.
@@ -632,11 +631,11 @@ builds:
       name: Snowstorm
       type: offense
     winrate: '75.0'
-  - damage: '6.8'
-    disable: '0.6'
-    energy: '2.5'
+  - damage: '5.3'
+    disable: '0.4'
+    energy: '2.7'
     num: 4
-    protection: '3.3'
+    protection: '0.9'
     skills:
     - color: teal
       description: Hitting an ally with Flash Freeze applies Lesser Glacial Prism,
@@ -654,11 +653,12 @@ builds:
       icon: 257737da8189b1242be43990b8caf5a6
       name: Crystalline Lattice
       type: support
-    - color: yellow
-      description: Arctic Wind can be recast to perform a short leap.
-      icon: 1ac43589909cda746bafbf3da20d1559
-      name: Twirl
-      type: mobility
+    - color: red
+      description: Increases Ice Lance range by 10. It pierces enemies and damage
+        reduces 50 per hit.
+      icon: bffd25b328052f647a5e1705071fe746
+      name: Piercing Cold
+      type: offense
     - color: red
       description: Glacial Prism explosion radius increases by 20 and deals 14 damage
         to nearby enemies when it breaks.
