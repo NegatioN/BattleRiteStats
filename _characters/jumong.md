@@ -652,11 +652,11 @@ builds:
       name: Trapper
       type: control
     winrate: '75.0'
-  - damage: '5.3'
+  - damage: '7.5'
     disable: '0.6'
-    energy: '3.7'
+    energy: '3.3'
     num: 3
-    protection: '0.8'
+    protection: '0.9'
     skills:
     - color: red
       description: Increases Rain of Arrows radius by 10. It deals 4 bonus damage
@@ -665,9 +665,10 @@ builds:
       name: Arrow Storm
       type: offense
     - color: red
-      description: Consuming ^2Seekers Mark^- deals 3 bonus damage.
-      icon: 60a73a3140321ec448f7f97f00a07897
-      name: Death Mark
+      description: Your projectiles deal 4 bonus damage to enemies caught in Bear
+        Trap.
+      icon: 6e30eed38d549fa4794a4543bf2b8de2
+      name: Deadly Trap
       type: offense
     - color: yellow
       description: Increases duration of Prowl by 0.5 and reduces its cooldown by
@@ -680,13 +681,12 @@ builds:
       icon: 594fdf8c70a83404da422aa6463e0e03
       name: Perfect Shot
       type: control
-    - color: pink
-      description: Bear Trap lays down an additional trap in front of the first one
-        that lasts for 2.5.
-      icon: 6e30eed38d549fa4794a4543bf2b8de2
-      name: Trapper
-      type: control
-    winrate: '33.3'
+    - color: red
+      description: Black Arrow deals 4 bonus damage and grants 4 bonus energy.
+      icon: 4b81fcaeb29b2cd4e81e67d224552899
+      name: Precision
+      type: offense
+    winrate: '66.7'
 compos:
   threes:
   - hero_names:
