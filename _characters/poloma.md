@@ -243,6 +243,40 @@ builds:
       name: Vengeful Spirit
       type: control
     winrate: '52.9'
+  - damage: '5.2'
+    disable: '1.4'
+    energy: '2.8'
+    num: 28
+    protection: '3.2'
+    skills:
+    - color: pink
+      description: The first Ghost Wolf hit inflicts Root for 1.2.
+      icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Dire Wolf
+      type: control
+    - color: grey
+      description: Spirit Guide deals 8 bonus damage and knockback force increases
+        by 60.
+      icon: 7bd09f2f761edd0438938579a6942e82
+      name: Ghostly Strike
+      type: mixed
+    - color: teal
+      description: Other Side causes your ally to become invisible for 1.5.
+      icon: dfc86226d7b2a6d438dad7dfca7a0d52
+      name: Specter
+      type: support
+    - color: yellow
+      description: Spirit Rift increases your movement speed by 40 for 3 when it inflicts
+        Spell Block.
+      icon: b6b9a08408c476c4a9f91eba6dacbb52
+      name: Spiritual Wind
+      type: mobility
+    - color: pink
+      description: Teleporting to Spirit Guide resets the cooldown of Spirit Rift.
+      icon: 7bd09f2f761edd0438938579a6942e82
+      name: Vengeful Spirit
+      type: control
+    winrate: '42.9'
   - damage: '3.9'
     disable: '0.7'
     energy: '3.4'
@@ -278,40 +312,6 @@ builds:
       icon: dfc86226d7b2a6d438dad7dfca7a0d52
       name: Soul Theft
       type: mixed
-    winrate: '42.9'
-  - damage: '5.2'
-    disable: '1.4'
-    energy: '2.8'
-    num: 28
-    protection: '3.2'
-    skills:
-    - color: pink
-      description: The first Ghost Wolf hit inflicts Root for 1.2.
-      icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Dire Wolf
-      type: control
-    - color: grey
-      description: Spirit Guide deals 8 bonus damage and knockback force increases
-        by 60.
-      icon: 7bd09f2f761edd0438938579a6942e82
-      name: Ghostly Strike
-      type: mixed
-    - color: teal
-      description: Other Side causes your ally to become invisible for 1.5.
-      icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Specter
-      type: support
-    - color: yellow
-      description: Spirit Rift increases your movement speed by 40 for 3 when it inflicts
-        Spell Block.
-      icon: b6b9a08408c476c4a9f91eba6dacbb52
-      name: Spiritual Wind
-      type: mobility
-    - color: pink
-      description: Teleporting to Spirit Guide resets the cooldown of Spirit Rift.
-      icon: 7bd09f2f761edd0438938579a6942e82
-      name: Vengeful Spirit
-      type: control
     winrate: '42.9'
   - damage: '3.6'
     disable: '0.6'
@@ -526,17 +526,18 @@ builds:
       name: Vengeful Spirit
       type: control
     winrate: '100.0'
-  - damage: '2.7'
-    disable: '0.8'
-    energy: '2.3'
+  - damage: '3.5'
+    disable: '0.9'
+    energy: '2.6'
     num: 6
-    protection: '3.9'
+    protection: '3.2'
     skills:
-    - color: pink
-      description: The first Ghost Wolf hit inflicts Root for 1.2.
-      icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Dire Wolf
-      type: control
+    - color: green
+      description: Other Side heals 6 bonus healing. Also reduces cooldown of Other
+        Side by 1.
+      icon: dfc86226d7b2a6d438dad7dfca7a0d52
+      name: Into the Realm
+      type: survival
     - color: teal
       description: Ally affected by ^2Spirit Guide^- takes 33 less damage and enemy
         affected by ^2Spirit Guide^- takes 20 more damage.
@@ -544,22 +545,22 @@ builds:
       name: Phantasm
       type: support
     - color: teal
-      description: Increases healing shared by Spirit Link from 50 to 80.
-      icon: 510f65762365d8a47815877780d9227d
-      name: Shimmering Bond
-      type: support
-    - color: pink
-      description: Reduces cooldown of Spirit Rift by 1. Spell Block interrupts further
-        reduce cooldown by 1.
-      icon: b6b9a08408c476c4a9f91eba6dacbb52
-      name: Soul Essence
-      type: control
-    - color: teal
       description: Other Side causes your ally to become invisible for 1.5.
       icon: dfc86226d7b2a6d438dad7dfca7a0d52
       name: Specter
       type: support
-    winrate: '83.3'
+    - color: yellow
+      description: Spirit Rift increases your movement speed by 40 for 3 when it inflicts
+        Spell Block.
+      icon: b6b9a08408c476c4a9f91eba6dacbb52
+      name: Spiritual Wind
+      type: mobility
+    - color: pink
+      description: Teleporting to Spirit Guide resets the cooldown of Spirit Rift.
+      icon: 7bd09f2f761edd0438938579a6942e82
+      name: Vengeful Spirit
+      type: control
+    winrate: '50.0'
   - damage: '3.7'
     disable: '1.1'
     energy: '3.0'
@@ -627,18 +628,17 @@ builds:
       name: Specter
       type: support
     winrate: '33.3'
-  - damage: '3.5'
-    disable: '0.9'
-    energy: '2.6'
+  - damage: '2.7'
+    disable: '0.8'
+    energy: '2.3'
     num: 6
-    protection: '3.2'
+    protection: '3.9'
     skills:
-    - color: green
-      description: Other Side heals 6 bonus healing. Also reduces cooldown of Other
-        Side by 1.
-      icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Into the Realm
-      type: survival
+    - color: pink
+      description: The first Ghost Wolf hit inflicts Root for 1.2.
+      icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Dire Wolf
+      type: control
     - color: teal
       description: Ally affected by ^2Spirit Guide^- takes 33 less damage and enemy
         affected by ^2Spirit Guide^- takes 20 more damage.
@@ -646,22 +646,22 @@ builds:
       name: Phantasm
       type: support
     - color: teal
+      description: Increases healing shared by Spirit Link from 50 to 80.
+      icon: 510f65762365d8a47815877780d9227d
+      name: Shimmering Bond
+      type: support
+    - color: pink
+      description: Reduces cooldown of Spirit Rift by 1. Spell Block interrupts further
+        reduce cooldown by 1.
+      icon: b6b9a08408c476c4a9f91eba6dacbb52
+      name: Soul Essence
+      type: control
+    - color: teal
       description: Other Side causes your ally to become invisible for 1.5.
       icon: dfc86226d7b2a6d438dad7dfca7a0d52
       name: Specter
       type: support
-    - color: yellow
-      description: Spirit Rift increases your movement speed by 40 for 3 when it inflicts
-        Spell Block.
-      icon: b6b9a08408c476c4a9f91eba6dacbb52
-      name: Spiritual Wind
-      type: mobility
-    - color: pink
-      description: Teleporting to Spirit Guide resets the cooldown of Spirit Rift.
-      icon: 7bd09f2f761edd0438938579a6942e82
-      name: Vengeful Spirit
-      type: control
-    winrate: '50.0'
+    winrate: '83.3'
   - damage: '4.0'
     disable: '0.7'
     energy: '2.9'
