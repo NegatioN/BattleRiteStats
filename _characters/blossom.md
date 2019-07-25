@@ -314,18 +314,12 @@ builds:
       name: Weakening Pitch
       type: support
     winrate: '72.2'
-  - damage: '3.8'
-    disable: '0.9'
-    energy: '2.7'
+  - damage: '4.2'
+    disable: '1.0'
+    energy: '3.0'
     num: 18
-    protection: '4.6'
+    protection: '4.4'
     skills:
-    - color: pink
-      description: Hop causes you to leave behind a Lesser Boom Bloom seed. After
-        1.1, the seed inflicts Stun for 0.8 on nearby enemies.
-      icon: 36048e053d179474491aa317959b3eb7
-      name: Gift of Nature
-      type: control
     - color: yellow
       description: Hop can be recast for a Lesser Hop that travels a shorter distance.
       icon: 36048e053d179474491aa317959b3eb7
@@ -336,6 +330,11 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Nature's Cycle
       type: offense
+    - color: grey
+      description: Increases Stun duration of Boom Bloom by 0.5.
+      icon: 4832a1022ed764241a63b8dacc299ee9
+      name: Pollen
+      type: mixed
     - color: red
       description: Boom Bloom hits charge your weapon by 50.
       icon: 4832a1022ed764241a63b8dacc299ee9
@@ -347,7 +346,7 @@ builds:
       icon: e0ead374bbde24c44a10cc34294a6e44
       name: Weakening Pitch
       type: support
-    winrate: '50.0'
+    winrate: '55.6'
   twos:
   - damage: '4.7'
     disable: '0.9'
