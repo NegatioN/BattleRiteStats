@@ -493,6 +493,38 @@ builds:
       name: Pummel Rush
       type: mobility
     winrate: '50.0'
+  - damage: '7.1'
+    disable: '1.2'
+    energy: '3.6'
+    num: 9
+    protection: '2.1'
+    skills:
+    - color: red
+      description: Boulder Toss inflicts Armor Break.
+      icon: ec50e13a62a38194186bf0763d8ae951
+      name: Crumble
+      type: offense
+    - color: red
+      description: Rush hits cause you to gain Berserk for 1.5.
+      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
+      name: Frenzy
+      type: offense
+    - color: green
+      description: Decreases damage taken during Berserk by 25.
+      icon: df78f943fca96314181fdf1827f825db
+      name: Giant
+      type: survival
+    - color: red
+      description: Crushing Blow deals 4 bonus damage.
+      icon: bc4e2e34829b8af4c92bb6a8f570fc96
+      name: Rook Smash
+      type: offense
+    - color: teal
+      description: Enemies affected by Armor Break deal 25 less damage.
+      icon: bc4e2e34829b8af4c92bb6a8f570fc96
+      name: Weapon Break
+      type: support
+    winrate: '66.7'
   - damage: '6.3'
     disable: '1.4'
     energy: '3.4'
@@ -527,38 +559,6 @@ builds:
       name: Rook Smash
       type: offense
     winrate: '66.7'
-  - damage: '8.0'
-    disable: '1.7'
-    energy: '3.5'
-    num: 9
-    protection: '1.3'
-    skills:
-    - color: red
-      description: Boulder Toss inflicts Armor Break.
-      icon: ec50e13a62a38194186bf0763d8ae951
-      name: Crumble
-      type: offense
-    - color: red
-      description: Rush hits cause you to gain Berserk for 1.5.
-      icon: 0cfff8a481a64fd499bfaeb3da1cbca5
-      name: Frenzy
-      type: offense
-    - color: green
-      description: Decreases damage taken during Berserk by 25.
-      icon: df78f943fca96314181fdf1827f825db
-      name: Giant
-      type: survival
-    - color: pink
-      description: Berserk inflicts 50 Snare for 3 to nearby enemies.
-      icon: df78f943fca96314181fdf1827f825db
-      name: War Cry
-      type: control
-    - color: teal
-      description: Enemies affected by Armor Break deal 25 less damage.
-      icon: bc4e2e34829b8af4c92bb6a8f570fc96
-      name: Weapon Break
-      type: support
-    winrate: '100.0'
   - damage: '5.7'
     disable: '1.1'
     energy: '3.3'
@@ -592,11 +592,11 @@ builds:
       name: Weapon Break
       type: support
     winrate: '77.8'
-  - damage: '7.1'
-    disable: '1.2'
-    energy: '3.6'
+  - damage: '8.0'
+    disable: '1.7'
+    energy: '3.5'
     num: 9
-    protection: '2.1'
+    protection: '1.3'
     skills:
     - color: red
       description: Boulder Toss inflicts Armor Break.
@@ -613,17 +613,17 @@ builds:
       icon: df78f943fca96314181fdf1827f825db
       name: Giant
       type: survival
-    - color: red
-      description: Crushing Blow deals 4 bonus damage.
-      icon: bc4e2e34829b8af4c92bb6a8f570fc96
-      name: Rook Smash
-      type: offense
+    - color: pink
+      description: Berserk inflicts 50 Snare for 3 to nearby enemies.
+      icon: df78f943fca96314181fdf1827f825db
+      name: War Cry
+      type: control
     - color: teal
       description: Enemies affected by Armor Break deal 25 less damage.
       icon: bc4e2e34829b8af4c92bb6a8f570fc96
       name: Weapon Break
       type: support
-    winrate: '66.7'
+    winrate: '100.0'
   - damage: '5.8'
     disable: '1.2'
     energy: '2.9'

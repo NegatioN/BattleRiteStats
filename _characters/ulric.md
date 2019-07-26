@@ -401,6 +401,43 @@ builds:
     winrate: '30.0'
   - damage: '4.3'
     disable: '0.9'
+    energy: '2.9'
+    num: 10
+    protection: '4.1'
+    skills:
+    - color: grey
+      description: Holy Light heals you for 9 health when another ally affected by
+        Favor is healed.
+      icon: 85a79d3bf018b184887fb1a71ef51ac1
+      name: Divine Abundance
+      type: mixed
+    - color: teal
+      description: Applying Favor to an ally grants them a Shield. It absorbs up to
+        12 damage for 1.5.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Divine Protection
+      type: support
+    - color: red
+      description: When affected by Favor, Hammer of Justice deals 3 bonus damage
+        and the Stun duration of charged Hammer of Justice is increased by 0.2.
+      icon: 398f1e921a73f484e9fc54e1308407f7
+      name: Enchanted Weapon
+      type: offense
+    - color: red
+      description: The third Smite attack deals 6 bonus damage and explodes upon impact
+        dealing 16 area damage to nearby enemies.
+      icon: 6892bf3a45c0ad042b495a385cb5604f
+      name: Holy Fire
+      type: offense
+    - color: yellow
+      description: Condemn cooldown is reduced by 3 and hits reduce the cooldown of
+        Intervene by 4.
+      icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
+      name: Vindicator
+      type: mobility
+    winrate: '60.0'
+  - damage: '4.3'
+    disable: '0.9'
     energy: '14.2'
     num: 10
     protection: '3.8'
@@ -471,43 +508,6 @@ builds:
       name: Light's Embrace
       type: support
     winrate: '90.0'
-  - damage: '4.3'
-    disable: '0.9'
-    energy: '2.9'
-    num: 10
-    protection: '4.1'
-    skills:
-    - color: grey
-      description: Holy Light heals you for 9 health when another ally affected by
-        Favor is healed.
-      icon: 85a79d3bf018b184887fb1a71ef51ac1
-      name: Divine Abundance
-      type: mixed
-    - color: teal
-      description: Applying Favor to an ally grants them a Shield. It absorbs up to
-        12 damage for 1.5.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Divine Protection
-      type: support
-    - color: red
-      description: When affected by Favor, Hammer of Justice deals 3 bonus damage
-        and the Stun duration of charged Hammer of Justice is increased by 0.2.
-      icon: 398f1e921a73f484e9fc54e1308407f7
-      name: Enchanted Weapon
-      type: offense
-    - color: red
-      description: The third Smite attack deals 6 bonus damage and explodes upon impact
-        dealing 16 area damage to nearby enemies.
-      icon: 6892bf3a45c0ad042b495a385cb5604f
-      name: Holy Fire
-      type: offense
-    - color: yellow
-      description: Condemn cooldown is reduced by 3 and hits reduce the cooldown of
-        Intervene by 4.
-      icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
-      name: Vindicator
-      type: mobility
-    winrate: '60.0'
   - damage: '4.9'
     disable: '0.9'
     energy: '3.5'
@@ -544,42 +544,6 @@ builds:
       name: Vindicator
       type: mobility
     winrate: '50.0'
-  - damage: '5.1'
-    disable: '1.0'
-    energy: '3.9'
-    num: 4
-    protection: '4.9'
-    skills:
-    - color: red
-      description: When affected by Favor, Hammer of Justice deals 3 bonus damage
-        and the Stun duration of charged Hammer of Justice is increased by 0.2.
-      icon: 398f1e921a73f484e9fc54e1308407f7
-      name: Enchanted Weapon
-      type: offense
-    - color: teal
-      description: Holy Light recharges 100 faster when Smite is active.
-      icon: 85a79d3bf018b184887fb1a71ef51ac1
-      name: Faith
-      type: support
-    - color: red
-      description: The third Smite attack deals 6 bonus damage and explodes upon impact
-        dealing 16 area damage to nearby enemies.
-      icon: 6892bf3a45c0ad042b495a385cb5604f
-      name: Holy Fire
-      type: offense
-    - color: pink
-      description: Smite projectiles inflict a {Can't represent GameValueList} Snare
-        for 1.2.
-      icon: 6892bf3a45c0ad042b495a385cb5604f
-      name: Holy Shackles
-      type: control
-    - color: red
-      description: Intervene deals 3 bonus damage and reduces incoming healing by
-        25 for 3.
-      icon: 43ddc4074c2b605478c43c9727704ce8
-      name: Penitence
-      type: offense
-    winrate: '75.0'
   - damage: '6.5'
     disable: '1.1'
     energy: '3.5'
@@ -616,6 +580,42 @@ builds:
       icon: 5d4f9d83e84294c4e9412cb99c0e3e0c
       name: Vindicator
       type: mobility
+    winrate: '75.0'
+  - damage: '5.1'
+    disable: '1.0'
+    energy: '3.9'
+    num: 4
+    protection: '4.9'
+    skills:
+    - color: red
+      description: When affected by Favor, Hammer of Justice deals 3 bonus damage
+        and the Stun duration of charged Hammer of Justice is increased by 0.2.
+      icon: 398f1e921a73f484e9fc54e1308407f7
+      name: Enchanted Weapon
+      type: offense
+    - color: teal
+      description: Holy Light recharges 100 faster when Smite is active.
+      icon: 85a79d3bf018b184887fb1a71ef51ac1
+      name: Faith
+      type: support
+    - color: red
+      description: The third Smite attack deals 6 bonus damage and explodes upon impact
+        dealing 16 area damage to nearby enemies.
+      icon: 6892bf3a45c0ad042b495a385cb5604f
+      name: Holy Fire
+      type: offense
+    - color: pink
+      description: Smite projectiles inflict a {Can't represent GameValueList} Snare
+        for 1.2.
+      icon: 6892bf3a45c0ad042b495a385cb5604f
+      name: Holy Shackles
+      type: control
+    - color: red
+      description: Intervene deals 3 bonus damage and reduces incoming healing by
+        25 for 3.
+      icon: 43ddc4074c2b605478c43c9727704ce8
+      name: Penitence
+      type: offense
     winrate: '75.0'
   - damage: '3.5'
     disable: '0.6'
