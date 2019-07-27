@@ -526,40 +526,6 @@ builds:
       name: Spiritual Wind
       type: mobility
     winrate: '75.0'
-  - damage: '3.7'
-    disable: '1.1'
-    energy: '3.0'
-    num: 6
-    protection: '3.0'
-    skills:
-    - color: green
-      description: Ghost Wolf returns to you afterward, granting you 5 energy and
-        healing you for 12 health.
-      icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Affection
-      type: survival
-    - color: pink
-      description: The first Ghost Wolf hit inflicts Root for 1.2.
-      icon: 70d64cab20af264438c599ba3ecdd2c4
-      name: Dire Wolf
-      type: control
-    - color: teal
-      description: Ally affected by ^2Spirit Guide^- takes 33 less damage and enemy
-        affected by ^2Spirit Guide^- takes 20 more damage.
-      icon: 7bd09f2f761edd0438938579a6942e82
-      name: Phantasm
-      type: support
-    - color: teal
-      description: Other Side causes your ally to become invisible for 1.5.
-      icon: dfc86226d7b2a6d438dad7dfca7a0d52
-      name: Specter
-      type: support
-    - color: pink
-      description: Teleporting to Spirit Guide resets the cooldown of Spirit Rift.
-      icon: 7bd09f2f761edd0438938579a6942e82
-      name: Vengeful Spirit
-      type: control
-    winrate: '0.0'
   - damage: '3.5'
     disable: '0.9'
     energy: '2.6'
@@ -662,6 +628,40 @@ builds:
       name: Specter
       type: support
     winrate: '33.3'
+  - damage: '3.7'
+    disable: '1.1'
+    energy: '3.0'
+    num: 6
+    protection: '3.0'
+    skills:
+    - color: green
+      description: Ghost Wolf returns to you afterward, granting you 5 energy and
+        healing you for 12 health.
+      icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Affection
+      type: survival
+    - color: pink
+      description: The first Ghost Wolf hit inflicts Root for 1.2.
+      icon: 70d64cab20af264438c599ba3ecdd2c4
+      name: Dire Wolf
+      type: control
+    - color: teal
+      description: Ally affected by ^2Spirit Guide^- takes 33 less damage and enemy
+        affected by ^2Spirit Guide^- takes 20 more damage.
+      icon: 7bd09f2f761edd0438938579a6942e82
+      name: Phantasm
+      type: support
+    - color: teal
+      description: Other Side causes your ally to become invisible for 1.5.
+      icon: dfc86226d7b2a6d438dad7dfca7a0d52
+      name: Specter
+      type: support
+    - color: pink
+      description: Teleporting to Spirit Guide resets the cooldown of Spirit Rift.
+      icon: 7bd09f2f761edd0438938579a6942e82
+      name: Vengeful Spirit
+      type: control
+    winrate: '0.0'
   - damage: '4.0'
     disable: '0.7'
     energy: '2.9'
