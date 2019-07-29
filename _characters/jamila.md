@@ -544,29 +544,27 @@ builds:
       name: Taste of Blood
       type: survival
     winrate: '57.1'
-  - damage: '7.6'
-    disable: '1.0'
-    energy: '3.3'
+  - damage: '10.3'
+    disable: '0.9'
+    energy: '4.6'
     num: 5
-    protection: '1.2'
+    protection: '1.5'
     skills:
     - color: red
       description: Shuriken deals 3 bonus damage on each hit.
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Deadly Star
       type: offense
-    - color: yellow
-      description: Increases the range of Hook Shot by 20% and reduces its cooldown
-        by 1.
-      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
-      name: Firing Mechanism
-      type: mobility
-    - color: pink
-      description: Increases Stun duration of Deadly Blow by 0.35 and reduces its
-        cooldown by 2.
-      icon: c75e9702831a67e4b98aa0c24af2d865
-      name: Go for the Throat
-      type: control
+    - color: green
+      description: Shadow Slice heals you for 13 health.
+      icon: ef4060497167dcd43ab43e87def18d7b
+      name: Drawing Blood
+      type: survival
+    - color: red
+      description: Phantom Cut deals 9 bonus damage.
+      icon: ef4060497167dcd43ab43e87def18d7b
+      name: Phantom Blades
+      type: offense
     - color: grey
       description: Hitting a target with your most recent dash of Elusive Strike allows
         a recast to perform a short dash strike, dealing 6 damage and inflicting a
@@ -653,27 +651,29 @@ builds:
       name: Taste of Blood
       type: survival
     winrate: '100.0'
-  - damage: '10.3'
-    disable: '0.9'
-    energy: '4.6'
+  - damage: '7.6'
+    disable: '1.0'
+    energy: '3.3'
     num: 5
-    protection: '1.5'
+    protection: '1.2'
     skills:
     - color: red
       description: Shuriken deals 3 bonus damage on each hit.
       icon: 19e2c4e8bea39984ea45d9ab01faf7fa
       name: Deadly Star
       type: offense
-    - color: green
-      description: Shadow Slice heals you for 13 health.
-      icon: ef4060497167dcd43ab43e87def18d7b
-      name: Drawing Blood
-      type: survival
-    - color: red
-      description: Phantom Cut deals 9 bonus damage.
-      icon: ef4060497167dcd43ab43e87def18d7b
-      name: Phantom Blades
-      type: offense
+    - color: yellow
+      description: Increases the range of Hook Shot by 20% and reduces its cooldown
+        by 1.
+      icon: 17c2d1fcdba1a1540a6649ae0b3c0104
+      name: Firing Mechanism
+      type: mobility
+    - color: pink
+      description: Increases Stun duration of Deadly Blow by 0.35 and reduces its
+        cooldown by 2.
+      icon: c75e9702831a67e4b98aa0c24af2d865
+      name: Go for the Throat
+      type: control
     - color: grey
       description: Hitting a target with your most recent dash of Elusive Strike allows
         a recast to perform a short dash strike, dealing 6 damage and inflicting a
