@@ -599,41 +599,6 @@ builds:
       name: Sphere of Influence
       type: mixed
     winrate: '66.7'
-  - damage: '4.0'
-    disable: '1.1'
-    energy: '2.1'
-    num: 2
-    protection: '1.3'
-    skills:
-    - color: grey
-      description: Storm Bolt hits heal you for 16 health.
-      icon: f381f5a83890a9342b8332f2a234b06f
-      name: Entertainment
-      type: mixed
-    - color: grey
-      description: Landing after Ascension heals you and nearby allies for 14 health
-        each.
-      icon: 4d02491e780fc464abfadb5bbe4d6fd1
-      name: Heavenly Grace
-      type: mixed
-    - color: grey
-      description: Increases Storm Bolt range by 10. Storm Struck targets can be redirected
-        by recasting Storm Bolt.
-      icon: f381f5a83890a9342b8332f2a234b06f
-      name: Puppeteer
-      type: mixed
-    - color: grey
-      description: During Ascension, you can cast Dragon Roar with 0.25 cast time
-        and 100 movement speed.
-      icon: c7eae372c662b324c9af9533cd22293e
-      name: Roar of the Heavens
-      type: mixed
-    - color: grey
-      description: Lightning Bolt inflicts 35 Snare for 2.5.
-      icon: 4d02491e780fc464abfadb5bbe4d6fd1
-      name: Subdue
-      type: mixed
-    winrate: '50.0'
   - damage: '5.7'
     disable: '1.2'
     energy: '3.0'
@@ -668,6 +633,41 @@ builds:
         Empowered blasts hit all nearby enemies.
       icon: 4249017bc8408d2458cc2722d435e171
       name: Storm Drain
+      type: mixed
+    winrate: '50.0'
+  - damage: '4.0'
+    disable: '1.1'
+    energy: '2.1'
+    num: 2
+    protection: '1.3'
+    skills:
+    - color: grey
+      description: Storm Bolt hits heal you for 16 health.
+      icon: f381f5a83890a9342b8332f2a234b06f
+      name: Entertainment
+      type: mixed
+    - color: grey
+      description: Landing after Ascension heals you and nearby allies for 14 health
+        each.
+      icon: 4d02491e780fc464abfadb5bbe4d6fd1
+      name: Heavenly Grace
+      type: mixed
+    - color: grey
+      description: Increases Storm Bolt range by 10. Storm Struck targets can be redirected
+        by recasting Storm Bolt.
+      icon: f381f5a83890a9342b8332f2a234b06f
+      name: Puppeteer
+      type: mixed
+    - color: grey
+      description: During Ascension, you can cast Dragon Roar with 0.25 cast time
+        and 100 movement speed.
+      icon: c7eae372c662b324c9af9533cd22293e
+      name: Roar of the Heavens
+      type: mixed
+    - color: grey
+      description: Lightning Bolt inflicts 35 Snare for 2.5.
+      icon: 4d02491e780fc464abfadb5bbe4d6fd1
+      name: Subdue
       type: mixed
     winrate: '50.0'
   - damage: '5.3'
