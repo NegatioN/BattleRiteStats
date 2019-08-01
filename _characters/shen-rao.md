@@ -599,46 +599,11 @@ builds:
       name: Sphere of Influence
       type: mixed
     winrate: '66.7'
-  - damage: '4.0'
-    disable: '1.1'
-    energy: '2.1'
-    num: 2
-    protection: '1.3'
-    skills:
-    - color: grey
-      description: Storm Bolt hits heal you for 16 health.
-      icon: f381f5a83890a9342b8332f2a234b06f
-      name: Entertainment
-      type: mixed
-    - color: grey
-      description: Landing after Ascension heals you and nearby allies for 14 health
-        each.
-      icon: 4d02491e780fc464abfadb5bbe4d6fd1
-      name: Heavenly Grace
-      type: mixed
-    - color: grey
-      description: Increases Storm Bolt range by 10. Storm Struck targets can be redirected
-        by recasting Storm Bolt.
-      icon: f381f5a83890a9342b8332f2a234b06f
-      name: Puppeteer
-      type: mixed
-    - color: grey
-      description: During Ascension, you can cast Dragon Roar with 0.25 cast time
-        and 100 movement speed.
-      icon: c7eae372c662b324c9af9533cd22293e
-      name: Roar of the Heavens
-      type: mixed
-    - color: grey
-      description: Lightning Bolt inflicts 35 Snare for 2.5.
-      icon: 4d02491e780fc464abfadb5bbe4d6fd1
-      name: Subdue
-      type: mixed
-    winrate: '50.0'
-  - damage: '2.5'
-    disable: '1.1'
+  - damage: '5.4'
+    disable: '1.0'
     energy: '3.2'
     num: 2
-    protection: '0.7'
+    protection: '1.3'
     skills:
     - color: grey
       description: Recast Ascension to land at target position and deal 10 damage
@@ -653,23 +618,22 @@ builds:
       name: Dragon Force
       type: mixed
     - color: grey
+      description: Storm Bolt hits heal you for 16 health.
+      icon: f381f5a83890a9342b8332f2a234b06f
+      name: Entertainment
+      type: mixed
+    - color: grey
+      description: Landing after Ascension heals you and nearby allies for 14 health
+        each.
+      icon: 4d02491e780fc464abfadb5bbe4d6fd1
+      name: Heavenly Grace
+      type: mixed
+    - color: grey
       description: Dragon Storm summons 1 additional dragons.
       icon: 23f25a42ca0e20b458635a8c00639f07
       name: Mandate of Heaven
       type: mixed
-    - color: grey
-      description: The radius of Dominion is increased by 30 and casting it empowers
-        your next 3 Shock Blasts. Empowered blasts hit all nearby enemies.
-      icon: 0cf963f4151146b49942756c69808bd9
-      name: Sphere of Influence
-      type: mixed
-    - color: grey
-      description: Negating an attack with Dismissal empowers your next 2 Shock Blasts.
-        Empowered blasts hit all nearby enemies.
-      icon: 4249017bc8408d2458cc2722d435e171
-      name: Storm Drain
-      type: mixed
-    winrate: '0.0'
+    winrate: '100.0'
   - damage: '4.6'
     disable: '0.7'
     energy: '3.9'
@@ -703,6 +667,42 @@ builds:
         your next 3 Shock Blasts. Empowered blasts hit all nearby enemies.
       icon: 0cf963f4151146b49942756c69808bd9
       name: Sphere of Influence
+      type: mixed
+    winrate: '0.0'
+  - damage: '6.9'
+    disable: '1.5'
+    energy: '4.2'
+    num: 2
+    protection: '2.2'
+    skills:
+    - color: grey
+      description: Recast Ascension to land at target position and deal 10 damage
+        to nearby enemies.
+      icon: 4d02491e780fc464abfadb5bbe4d6fd1
+      name: Dragon Descent
+      type: mixed
+    - color: grey
+      description: Dealing damage with another ability empowers your next Shock Blast.
+        Empowered blasts hit all nearby enemies.
+      icon: 81f65d3dd0b1331488eaee6aef3e1d81
+      name: Dragon Force
+      type: mixed
+    - color: grey
+      description: Storm Bolt hits heal you for 16 health.
+      icon: f381f5a83890a9342b8332f2a234b06f
+      name: Entertainment
+      type: mixed
+    - color: grey
+      description: Landing after Ascension heals you and nearby allies for 14 health
+        each.
+      icon: 4d02491e780fc464abfadb5bbe4d6fd1
+      name: Heavenly Grace
+      type: mixed
+    - color: grey
+      description: Increases the second blast radius of Dragon Roar by 10 and enemies
+        hit are pulled towards the center.
+      icon: c7eae372c662b324c9af9533cd22293e
+      name: Shock and Awe
       type: mixed
     winrate: '0.0'
 compos:
