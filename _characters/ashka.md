@@ -490,11 +490,11 @@ builds:
       name: Magma
       type: offense
     winrate: '50.0'
-  - damage: '7.8'
-    disable: '0.9'
-    energy: '3.1'
+  - damage: '5.2'
+    disable: '0.6'
+    energy: '2.3'
     num: 4
-    protection: '0.1'
+    protection: '0.7'
     skills:
     - color: yellow
       description: Searing Flight increases movement speed by 30 for 2.
@@ -507,17 +507,17 @@ builds:
       icon: 117c35c7f757858428a733d8da4982be
       name: Combustion
       type: offense
-    - color: red
-      description: Fireballs traveling through Firewall turn into Fire Storm bolts.
-      icon: c6d71f7b4598ec14cab637f6d9ffce64
-      name: Conflagration
-      type: offense
     - color: yellow
       description: Fire Storm can be cast while moving at 50 movement speed and 30
         while channeling.
       icon: 117c35c7f757858428a733d8da4982be
       name: Heat
       type: mobility
+    - color: red
+      description: Flamestrike deals 10 bonus damage and inflicts Ignite.
+      icon: 48122c1a1a8cae7408409c90126f11cb
+      name: Inferno
+      type: offense
     - color: red
       description: Ignite deals 2 bonus damage when first applied and reduces target's
         movement speed by 10.
@@ -560,11 +560,11 @@ builds:
       name: Wildfire
       type: offense
     winrate: '25.0'
-  - damage: '5.2'
-    disable: '0.6'
-    energy: '2.3'
+  - damage: '7.8'
+    disable: '0.9'
+    energy: '3.1'
     num: 4
-    protection: '0.7'
+    protection: '0.1'
     skills:
     - color: yellow
       description: Searing Flight increases movement speed by 30 for 2.
@@ -577,6 +577,11 @@ builds:
       icon: 117c35c7f757858428a733d8da4982be
       name: Combustion
       type: offense
+    - color: red
+      description: Fireballs traveling through Firewall turn into Fire Storm bolts.
+      icon: c6d71f7b4598ec14cab637f6d9ffce64
+      name: Conflagration
+      type: offense
     - color: yellow
       description: Fire Storm can be cast while moving at 50 movement speed and 30
         while channeling.
@@ -584,17 +589,47 @@ builds:
       name: Heat
       type: mobility
     - color: red
-      description: Flamestrike deals 10 bonus damage and inflicts Ignite.
-      icon: 48122c1a1a8cae7408409c90126f11cb
-      name: Inferno
-      type: offense
-    - color: red
       description: Ignite deals 2 bonus damage when first applied and reduces target's
         movement speed by 10.
       icon: 7612ba34ea3cdf9429a033d92e85c117
       name: Magma
       type: offense
     winrate: '75.0'
+  - damage: '5.0'
+    disable: '0.9'
+    energy: '2.6'
+    num: 3
+    protection: '0.4'
+    skills:
+    - color: green
+      description: Flamestrike grants you a Shield for each enemy hit. It absorbs
+        up to 14 damage for 3.
+      icon: 48122c1a1a8cae7408409c90126f11cb
+      name: Ember Fire
+      type: survival
+    - color: grey
+      description: Increases Flamestrike radius by 15 and reduces cooldown by 1.
+      icon: 48122c1a1a8cae7408409c90126f11cb
+      name: Eruption
+      type: mixed
+    - color: yellow
+      description: Fire Storm can be cast while moving at 50 movement speed and 30
+        while channeling.
+      icon: 117c35c7f757858428a733d8da4982be
+      name: Heat
+      type: mobility
+    - color: grey
+      description: Molten Fist travel distance increases by 50 and cooldown is reduced
+        by 1.5.
+      icon: 64ae838604146444aac3474b78250f52
+      name: Mach Punch
+      type: mixed
+    - color: red
+      description: Fire Storm launches 1 additional projectile.
+      icon: 117c35c7f757858428a733d8da4982be
+      name: Wildfire
+      type: offense
+    winrate: '0.0'
   - damage: '5.9'
     disable: '0.8'
     energy: '2.3'
@@ -665,41 +700,6 @@ builds:
       name: Inferno
       type: offense
     winrate: '66.7'
-  - damage: '5.0'
-    disable: '0.9'
-    energy: '2.6'
-    num: 3
-    protection: '0.4'
-    skills:
-    - color: green
-      description: Flamestrike grants you a Shield for each enemy hit. It absorbs
-        up to 14 damage for 3.
-      icon: 48122c1a1a8cae7408409c90126f11cb
-      name: Ember Fire
-      type: survival
-    - color: grey
-      description: Increases Flamestrike radius by 15 and reduces cooldown by 1.
-      icon: 48122c1a1a8cae7408409c90126f11cb
-      name: Eruption
-      type: mixed
-    - color: yellow
-      description: Fire Storm can be cast while moving at 50 movement speed and 30
-        while channeling.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Heat
-      type: mobility
-    - color: grey
-      description: Molten Fist travel distance increases by 50 and cooldown is reduced
-        by 1.5.
-      icon: 64ae838604146444aac3474b78250f52
-      name: Mach Punch
-      type: mixed
-    - color: red
-      description: Fire Storm launches 1 additional projectile.
-      icon: 117c35c7f757858428a733d8da4982be
-      name: Wildfire
-      type: offense
-    winrate: '0.0'
 compos:
   threes:
   - hero_names:
