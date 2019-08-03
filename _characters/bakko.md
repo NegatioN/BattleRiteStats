@@ -309,11 +309,11 @@ builds:
       name: Warlord's Axe
       type: offense
     winrate: '61.9'
-  - damage: '6.5'
-    disable: '1.4'
-    energy: '3.9'
+  - damage: '5.8'
+    disable: '1.1'
+    energy: '3.4'
     num: 21
-    protection: '1.3'
+    protection: '1.5'
     skills:
     - color: red
       description: Hitting an enemy with Shield Dash causes your next War Axe hit
@@ -326,11 +326,6 @@ builds:
       icon: 16e7e84d6c786cf4abc695c9b1c29b31
       name: Bravery
       type: support
-    - color: pink
-      description: Blood Axe inflicts Fading Snare for 1.2.
-      icon: 741da913acab25641862d0312d75a7a1
-      name: Hamstring
-      type: control
     - color: grey
       description: ^2Bulwark^- increases movement speed by 45.
       icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
@@ -341,7 +336,13 @@ builds:
       icon: 84ba51168b08df3489362e3a9be59704
       name: Raging Ram
       type: mobility
-    winrate: '57.1'
+    - color: teal
+      description: Bulwark can be recast to use Shield Bash. It deals 6 damage and
+        inflicts 40 Weaken for 1.5.
+      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
+      name: Shield Bash
+      type: support
+    winrate: '52.4'
   twos:
   - damage: '4.3'
     disable: '0.9'
