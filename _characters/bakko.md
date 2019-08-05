@@ -275,23 +275,23 @@ builds:
       name: Shield Bash
       type: support
     winrate: '70.8'
-  - damage: '6.4'
+  - damage: '5.8'
     disable: '1.1'
-    energy: '3.2'
+    energy: '3.4'
     num: 21
-    protection: '0.8'
+    protection: '1.5'
     skills:
-    - color: grey
-      description: Increases Valiant Leap's max range by 20% and radius by 10%. It
-        grants 1 weapon charge for each enemy hit.
-      icon: 16e7e84d6c786cf4abc695c9b1c29b31
-      name: Heroic Leap
-      type: mixed
     - color: red
-      description: Blood Axe hits reduce its cooldown by 1.75.
-      icon: 741da913acab25641862d0312d75a7a1
-      name: Howling Axes
+      description: Hitting an enemy with Shield Dash causes your next War Axe hit
+        to deal 8 bonus damage.
+      icon: 84ba51168b08df3489362e3a9be59704
+      name: Adrenaline Slam
       type: offense
+    - color: teal
+      description: Valiant Leap grants 25 damage reduction for 2.5 to nearby allies.
+      icon: 16e7e84d6c786cf4abc695c9b1c29b31
+      name: Bravery
+      type: support
     - color: grey
       description: ^2Bulwark^- increases movement speed by 45.
       icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
@@ -302,13 +302,13 @@ builds:
       icon: 84ba51168b08df3489362e3a9be59704
       name: Raging Ram
       type: mobility
-    - color: red
-      description: Blood Axe deals 2 bonus damage and an additional 1 bonus damage
-        per weapon charge.
-      icon: 741da913acab25641862d0312d75a7a1
-      name: Warlord's Axe
-      type: offense
-    winrate: '61.9'
+    - color: teal
+      description: Bulwark can be recast to use Shield Bash. It deals 6 damage and
+        inflicts 40 Weaken for 1.5.
+      icon: 1d33cdf1e3619d74b8b0e7eb9f19a531
+      name: Shield Bash
+      type: support
+    winrate: '52.4'
   - damage: '6.5'
     disable: '1.4'
     energy: '3.9'
