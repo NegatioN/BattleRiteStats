@@ -474,11 +474,11 @@ builds:
       name: Spiderling Venom
       type: offense
     winrate: '16.7'
-  - damage: '4.4'
-    disable: '1.1'
-    energy: '2.8'
+  - damage: '4.6'
+    disable: '1.3'
+    energy: '2.6'
     num: 6
-    protection: '4.6'
+    protection: '3.5'
     skills:
     - color: green
       description: Hitting an ally with Bloodsucker causes you to deal no damage to
@@ -497,12 +497,11 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Hive Mind
       type: mixed
-    - color: yellow
-      description: Your movement speed increases by 6 for each enemy or ally affected
-        by Moth. Stacks up to 3 times.
-      icon: f561a4d171334264d8f0eac3e9eb6d24
-      name: Overlord
-      type: mobility
+    - color: red
+      description: Arachnophobia deals 8 damage. Increases Panic duration by 0.5.
+      icon: afd7ecd77cdb3064690b9f0277a774dd
+      name: Spiderling Venom
+      type: offense
     - color: teal
       description: Queen spawns with a Swarm Shield that absorbs up to 28 damage and
         lasts 1.2.
@@ -547,11 +546,11 @@ builds:
       name: Sacrifice
       type: offense
     winrate: '50.0'
-  - damage: '4.6'
-    disable: '1.3'
-    energy: '2.6'
+  - damage: '4.4'
+    disable: '1.1'
+    energy: '2.8'
     num: 6
-    protection: '3.5'
+    protection: '4.6'
     skills:
     - color: green
       description: Hitting an ally with Bloodsucker causes you to deal no damage to
@@ -570,11 +569,12 @@ builds:
       icon: 7a1d6423f91ba824d8855aa3e9a42247
       name: Hive Mind
       type: mixed
-    - color: red
-      description: Arachnophobia deals 8 damage. Increases Panic duration by 0.5.
-      icon: afd7ecd77cdb3064690b9f0277a774dd
-      name: Spiderling Venom
-      type: offense
+    - color: yellow
+      description: Your movement speed increases by 6 for each enemy or ally affected
+        by Moth. Stacks up to 3 times.
+      icon: f561a4d171334264d8f0eac3e9eb6d24
+      name: Overlord
+      type: mobility
     - color: teal
       description: Queen spawns with a Swarm Shield that absorbs up to 28 damage and
         lasts 1.2.
