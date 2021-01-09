@@ -24,6 +24,8 @@ Is there anything that leaves you puzzled? Or maybe something you want to help o
 
 Contact me directly on twitter [@JoakimRi](https://twitter.com/JoakimRi)
 
+Also check out our [other site to order any item you'd like from Norway: www.kaimono-norway.com](https://www.kaimono-norway.com). Currently primarly focused on Japanese customers, but accepting everyone.
+
 
 
 ### Privacy Policy
